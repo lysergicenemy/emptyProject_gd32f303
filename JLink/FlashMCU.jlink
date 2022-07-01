@@ -1,0 +1,6 @@
+r
+loadbin build\emptyProject_gd32f303.bin, 0x08000000
+verifybin build\emptyProject_gd32f303.bin, 0x08000000
+r
+g
+q
