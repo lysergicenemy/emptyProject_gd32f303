@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 1
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 1
   27:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c **** AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED 
   28:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c **** WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
   29:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c **** IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, 
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 2
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s 			page 2
 
 
   30:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c **** INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 1
   59              		.fpu fpv4-sp-d16
   61              	nvic_irq_enable:
   62              	.LVL2:
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 3
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s 			page 3
 
 
   63              	.LFB117:
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 1
   74:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****         temp_pre=1U;
   75:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****         temp_sub=0x3U;
   76:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****     }else if(((SCB->AIRCR) & (uint32_t)0x700U)==NVIC_PRIGROUP_PRE2_SUB2){
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 4
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s 			page 4
 
 
   99              		.loc 1 76 11 is_stmt 1 view .LVU17
@@ -220,7 +220,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 1
  127 004e 0023     		movs	r3, #0
   83:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****         temp_pre=4U;
  128              		.loc 1 83 17 view .LVU30
- 129 0050 0422     		movs	r2, #4
+ 129 0050 0421     		movs	r1, #4
  130              	.LVL4:
   83:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****         temp_pre=4U;
  131              		.loc 1 83 17 view .LVU31
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 1
   87:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****         temp_pre=2U;
  141              		.loc 1 87 9 is_stmt 1 view .LVU34
   88:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****         temp_sub=0x2U;
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 5
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s 			page 5
 
 
  142              		.loc 1 88 9 view .LVU35
@@ -246,7 +246,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 1
  144 005c 0223     		movs	r3, #2
   87:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****         temp_pre=2U;
  145              		.loc 1 87 17 view .LVU37
- 146 005e 1A46     		mov	r2, r3
+ 146 005e 1946     		mov	r1, r3
  147 0060 01E0     		b	.L5
  148              	.LVL8:
  149              	.L6:
@@ -255,7 +255,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 1
  151 0062 0423     		movs	r3, #4
   71:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****         temp_sub=0x4U;
  152              		.loc 1 71 17 view .LVU39
- 153 0064 0022     		movs	r2, #0
+ 153 0064 0021     		movs	r1, #0
  154              	.LVL9:
  155              	.L5:
   89:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****     }
@@ -263,10 +263,10 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 1
   91:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****     temp_priority = (uint32_t)nvic_irq_pre_priority << (0x4U - temp_pre);
  156              		.loc 1 91 5 is_stmt 1 view .LVU40
  157              		.loc 1 91 62 is_stmt 0 view .LVU41
- 158 0066 C2F10402 		rsb	r2, r2, #4
+ 158 0066 C1F10401 		rsb	r1, r1, #4
  159              	.LVL10:
  160              		.loc 1 91 19 view .LVU42
- 161 006a 9640     		lsls	r6, r6, r2
+ 161 006a 8E40     		lsls	r6, r6, r1
  162              	.LVL11:
   92:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****     temp_priority |= nvic_irq_sub_priority &(0x0FU >> (0x4U - temp_sub));
  163              		.loc 1 92 5 is_stmt 1 view .LVU43
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 1
   95:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****     /* enable the selected IRQ */
   96:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****     NVIC->ISER[nvic_irq >> 0x05U] = (uint32_t)0x01U << (nvic_irq & (uint8_t)0x1FU);
  187              		.loc 1 96 5 is_stmt 1 view .LVU53
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 6
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s 			page 6
 
 
  188              		.loc 1 96 66 is_stmt 0 view .LVU54
@@ -320,7 +320,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 1
  202 0096 0323     		movs	r3, #3
   74:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****         temp_sub=0x3U;
  203              		.loc 1 74 17 view .LVU60
- 204 0098 0122     		movs	r2, #1
+ 204 0098 0121     		movs	r1, #1
  205              	.LVL17:
   74:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****         temp_sub=0x3U;
  206              		.loc 1 74 17 view .LVU61
@@ -332,7 +332,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 1
  211 009c 0223     		movs	r3, #2
   77:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****         temp_sub=0x2U;
  212              		.loc 1 77 17 view .LVU63
- 213 009e 1A46     		mov	r2, r3
+ 213 009e 1946     		mov	r1, r3
  214              	.LVL19:
   77:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****         temp_sub=0x2U;
  215              		.loc 1 77 17 view .LVU64
@@ -344,7 +344,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 1
  220 00a2 0123     		movs	r3, #1
   80:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****         temp_sub=0x1U;
  221              		.loc 1 80 17 view .LVU66
- 222 00a4 0322     		movs	r2, #3
+ 222 00a4 0321     		movs	r1, #3
  223              	.LVL21:
   80:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****         temp_sub=0x1U;
  224              		.loc 1 80 17 view .LVU67
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 1
  232              	.LFE117:
  234              		.section	.text.nvic_irq_disable,"ax",%progbits
  235              		.align	1
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 7
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s 			page 7
 
 
  236              		.global	nvic_irq_disable
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 1
  281              	.LVL24:
  282              	.LFB119:
  110:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c **** 
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 8
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s 			page 8
 
 
  111:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c **** /*!
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 1
   22:Drivers/CMSIS/core_cmInstr.h ****  ******************************************************************************/
   23:Drivers/CMSIS/core_cmInstr.h **** 
   24:Drivers/CMSIS/core_cmInstr.h **** #ifndef __CORE_CMINSTR_H
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 9
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s 			page 9
 
 
   25:Drivers/CMSIS/core_cmInstr.h **** #define __CORE_CMINSTR_H
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 1
   79:Drivers/CMSIS/core_cmInstr.h **** 
   80:Drivers/CMSIS/core_cmInstr.h **** 
   81:Drivers/CMSIS/core_cmInstr.h **** /** \brief  Data Synchronization Barrier
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 10
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s 			page 10
 
 
   82:Drivers/CMSIS/core_cmInstr.h **** 
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 1
  136:Drivers/CMSIS/core_cmInstr.h **** 
  137:Drivers/CMSIS/core_cmInstr.h ****     This function Rotate Right (immediate) provides the value of the contents of a register rotated
  138:Drivers/CMSIS/core_cmInstr.h **** 
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 11
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s 			page 11
 
 
  139:Drivers/CMSIS/core_cmInstr.h ****     \param [in]    value  Value to rotate
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 1
  193:Drivers/CMSIS/core_cmInstr.h ****     \param [in]    ptr  Pointer to location
  194:Drivers/CMSIS/core_cmInstr.h ****     \return          0  Function succeeded
  195:Drivers/CMSIS/core_cmInstr.h ****     \return          1  Function failed
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 12
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s 			page 12
 
 
  196:Drivers/CMSIS/core_cmInstr.h ****  */
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 1
  250:Drivers/CMSIS/core_cmInstr.h ****  */
  251:Drivers/CMSIS/core_cmInstr.h **** #define __USAT                            __usat
  252:Drivers/CMSIS/core_cmInstr.h **** 
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 13
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s 			page 13
 
 
  253:Drivers/CMSIS/core_cmInstr.h **** 
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 1
  307:Drivers/CMSIS/core_cmInstr.h ****  */
  308:Drivers/CMSIS/core_cmInstr.h **** __attribute__( ( always_inline ) ) __STATIC_INLINE void __WFE(void)
  309:Drivers/CMSIS/core_cmInstr.h **** {
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 14
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s 			page 14
 
 
  310:Drivers/CMSIS/core_cmInstr.h ****   __ASM volatile ("wfe");
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 1
  323              		.section	.text.system_lowpower_set,"ax",%progbits
  324              		.align	1
  325              		.global	system_lowpower_set
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 15
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s 			page 15
 
 
  326              		.syntax unified
@@ -872,37 +872,35 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 1
  340              		.loc 1 139 14 is_stmt 0 view .LVU87
  341 0000 024A     		ldr	r2, .L22
  342 0002 1369     		ldr	r3, [r2, #16]
- 343 0004 1843     		orrs	r0, r0, r3
- 344              	.LVL27:
- 345              		.loc 1 139 14 view .LVU88
- 346 0006 1061     		str	r0, [r2, #16]
+ 343 0004 0343     		orrs	r3, r3, r0
+ 344 0006 1361     		str	r3, [r2, #16]
  140:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c **** }
- 347              		.loc 1 140 1 view .LVU89
- 348 0008 7047     		bx	lr
- 349              	.L23:
- 350 000a 00BF     		.align	2
- 351              	.L22:
- 352 000c 00ED00E0 		.word	-536810240
- 353              		.cfi_endproc
- 354              	.LFE120:
- 356              		.section	.text.system_lowpower_reset,"ax",%progbits
- 357              		.align	1
- 358              		.global	system_lowpower_reset
- 359              		.syntax unified
- 360              		.thumb
- 361              		.thumb_func
- 362              		.fpu fpv4-sp-d16
- 364              	system_lowpower_reset:
- 365              	.LVL28:
- 366              	.LFB121:
+ 345              		.loc 1 140 1 view .LVU88
+ 346 0008 7047     		bx	lr
+ 347              	.L23:
+ 348 000a 00BF     		.align	2
+ 349              	.L22:
+ 350 000c 00ED00E0 		.word	-536810240
+ 351              		.cfi_endproc
+ 352              	.LFE120:
+ 354              		.section	.text.system_lowpower_reset,"ax",%progbits
+ 355              		.align	1
+ 356              		.global	system_lowpower_reset
+ 357              		.syntax unified
+ 358              		.thumb
+ 359              		.thumb_func
+ 360              		.fpu fpv4-sp-d16
+ 362              	system_lowpower_reset:
+ 363              	.LVL27:
+ 364              	.LFB121:
  141:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c **** 
  142:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c **** /*!
  143:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****     \brief      reset the state of the low power mode
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 16
-
-
  144:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****     \param[in]  lowpower_mode: the low power mode state
  145:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****       \arg        SCB_LPM_SLEEP_EXIT_ISR: if chose this para, the system will exit low power 
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s 			page 16
+
+
  146:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****                     mode by exiting from ISR
  147:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****       \arg        SCB_LPM_DEEPSLEEP: if chose this para, the system will enter the SLEEP mode
  148:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****       \arg        SCB_LPM_WAKE_BY_ALL_INT: if chose this para, the lowpower mode only can be 
@@ -912,39 +910,37 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 1
  152:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c **** */
  153:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c **** void system_lowpower_reset(uint8_t lowpower_mode)
  154:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c **** {
- 367              		.loc 1 154 1 is_stmt 1 view -0
- 368              		.cfi_startproc
- 369              		@ args = 0, pretend = 0, frame = 0
- 370              		@ frame_needed = 0, uses_anonymous_args = 0
- 371              		@ link register save eliminated.
+ 365              		.loc 1 154 1 is_stmt 1 view -0
+ 366              		.cfi_startproc
+ 367              		@ args = 0, pretend = 0, frame = 0
+ 368              		@ frame_needed = 0, uses_anonymous_args = 0
+ 369              		@ link register save eliminated.
  155:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****     SCB->SCR &= (~(uint32_t)lowpower_mode);
- 372              		.loc 1 155 5 view .LVU91
- 373              		.loc 1 155 14 is_stmt 0 view .LVU92
- 374 0000 024A     		ldr	r2, .L25
- 375 0002 1369     		ldr	r3, [r2, #16]
- 376 0004 23EA0000 		bic	r0, r3, r0
- 377              	.LVL29:
- 378              		.loc 1 155 14 view .LVU93
- 379 0008 1061     		str	r0, [r2, #16]
+ 370              		.loc 1 155 5 view .LVU90
+ 371              		.loc 1 155 14 is_stmt 0 view .LVU91
+ 372 0000 024A     		ldr	r2, .L25
+ 373 0002 1369     		ldr	r3, [r2, #16]
+ 374 0004 23EA0003 		bic	r3, r3, r0
+ 375 0008 1361     		str	r3, [r2, #16]
  156:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c **** }
- 380              		.loc 1 156 1 view .LVU94
- 381 000a 7047     		bx	lr
- 382              	.L26:
- 383              		.align	2
- 384              	.L25:
- 385 000c 00ED00E0 		.word	-536810240
- 386              		.cfi_endproc
- 387              	.LFE121:
- 389              		.section	.text.systick_clksource_set,"ax",%progbits
- 390              		.align	1
- 391              		.global	systick_clksource_set
- 392              		.syntax unified
- 393              		.thumb
- 394              		.thumb_func
- 395              		.fpu fpv4-sp-d16
- 397              	systick_clksource_set:
- 398              	.LVL30:
- 399              	.LFB122:
+ 376              		.loc 1 156 1 view .LVU92
+ 377 000a 7047     		bx	lr
+ 378              	.L26:
+ 379              		.align	2
+ 380              	.L25:
+ 381 000c 00ED00E0 		.word	-536810240
+ 382              		.cfi_endproc
+ 383              	.LFE121:
+ 385              		.section	.text.systick_clksource_set,"ax",%progbits
+ 386              		.align	1
+ 387              		.global	systick_clksource_set
+ 388              		.syntax unified
+ 389              		.thumb
+ 390              		.thumb_func
+ 391              		.fpu fpv4-sp-d16
+ 393              	systick_clksource_set:
+ 394              	.LVL28:
+ 395              	.LFB122:
  157:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c **** 
  158:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c **** /*!
  159:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****     \brief      set the systick clock source
@@ -957,81 +953,75 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 1
  166:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c **** 
  167:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c **** void systick_clksource_set(uint32_t systick_clksource)
  168:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c **** {
- 400              		.loc 1 168 1 is_stmt 1 view -0
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 17
+ 396              		.loc 1 168 1 is_stmt 1 view -0
+ 397              		.cfi_startproc
+ 398              		@ args = 0, pretend = 0, frame = 0
+ 399              		@ frame_needed = 0, uses_anonymous_args = 0
+ 400              		@ link register save eliminated.
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s 			page 17
 
 
- 401              		.cfi_startproc
- 402              		@ args = 0, pretend = 0, frame = 0
- 403              		@ frame_needed = 0, uses_anonymous_args = 0
- 404              		@ link register save eliminated.
  169:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****     if(SYSTICK_CLKSOURCE_HCLK == systick_clksource ){
- 405              		.loc 1 169 5 view .LVU96
- 406              		.loc 1 169 7 is_stmt 0 view .LVU97
- 407 0000 0428     		cmp	r0, #4
- 408 0002 05D0     		beq	.L30
+ 401              		.loc 1 169 5 view .LVU94
+ 402              		.loc 1 169 7 is_stmt 0 view .LVU95
+ 403 0000 0428     		cmp	r0, #4
+ 404 0002 06D0     		beq	.L30
  170:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****         /* set the systick clock source from HCLK */
  171:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****         SysTick->CTRL |= SYSTICK_CLKSOURCE_HCLK;
  172:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****     }else{
  173:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****         /* set the systick clock source from HCLK/8 */
  174:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****         SysTick->CTRL &= SYSTICK_CLKSOURCE_HCLK_DIV8;
- 409              		.loc 1 174 9 is_stmt 1 view .LVU98
- 410              		.loc 1 174 23 is_stmt 0 view .LVU99
- 411 0004 054A     		ldr	r2, .L31
- 412 0006 1368     		ldr	r3, [r2]
- 413 0008 23F00403 		bic	r3, r3, #4
- 414 000c 1360     		str	r3, [r2]
+ 405              		.loc 1 174 9 is_stmt 1 view .LVU96
+ 406              		.loc 1 174 23 is_stmt 0 view .LVU97
+ 407 0004 4FF0E022 		mov	r2, #-536813568
+ 408 0008 1369     		ldr	r3, [r2, #16]
+ 409 000a 23F00403 		bic	r3, r3, #4
+ 410 000e 1361     		str	r3, [r2, #16]
  175:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****     }
  176:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c **** }
- 415              		.loc 1 176 1 view .LVU100
- 416 000e 7047     		bx	lr
- 417              	.L30:
+ 411              		.loc 1 176 1 view .LVU98
+ 412 0010 7047     		bx	lr
+ 413              	.L30:
  171:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****     }else{
- 418              		.loc 1 171 9 is_stmt 1 view .LVU101
+ 414              		.loc 1 171 9 is_stmt 1 view .LVU99
  171:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_misc.c ****     }else{
- 419              		.loc 1 171 23 is_stmt 0 view .LVU102
- 420 0010 024A     		ldr	r2, .L31
- 421 0012 1368     		ldr	r3, [r2]
- 422 0014 43F00403 		orr	r3, r3, #4
- 423 0018 1360     		str	r3, [r2]
- 424 001a 7047     		bx	lr
- 425              	.L32:
- 426              		.align	2
- 427              	.L31:
- 428 001c 10E000E0 		.word	-536813552
- 429              		.cfi_endproc
- 430              	.LFE122:
- 432              		.text
- 433              	.Letext0:
- 434              		.file 3 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\machine\\_default_types.h"
- 435              		.file 4 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\sys\\_stdint.h"
- 436              		.file 5 "Drivers/CMSIS/core_cm4.h"
- 437              		.file 6 "Drivers/CMSIS/GD/GD32F30x/Include/system_gd32f30x.h"
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s 			page 18
+ 415              		.loc 1 171 23 is_stmt 0 view .LVU100
+ 416 0012 4FF0E022 		mov	r2, #-536813568
+ 417 0016 1369     		ldr	r3, [r2, #16]
+ 418 0018 43F00403 		orr	r3, r3, #4
+ 419 001c 1361     		str	r3, [r2, #16]
+ 420 001e 7047     		bx	lr
+ 421              		.cfi_endproc
+ 422              	.LFE122:
+ 424              		.text
+ 425              	.Letext0:
+ 426              		.file 3 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 427              		.file 4 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 428              		.file 5 "Drivers/CMSIS/core_cm4.h"
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s 			page 18
 
 
 DEFINED SYMBOLS
-                            *ABS*:0000000000000000 gd32f30x_misc.c
-C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s:18     .text.nvic_priority_group_set:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s:26     .text.nvic_priority_group_set:0000000000000000 nvic_priority_group_set
-C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s:49     .text.nvic_priority_group_set:0000000000000010 $d
-C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s:54     .text.nvic_irq_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s:61     .text.nvic_irq_enable:0000000000000000 nvic_irq_enable
-C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s:229    .text.nvic_irq_enable:00000000000000a8 $d
-C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s:235    .text.nvic_irq_disable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s:242    .text.nvic_irq_disable:0000000000000000 nvic_irq_disable
-C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s:268    .text.nvic_irq_disable:0000000000000014 $d
-C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s:273    .text.nvic_vector_table_set:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s:280    .text.nvic_vector_table_set:0000000000000000 nvic_vector_table_set
-C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s:319    .text.nvic_vector_table_set:0000000000000014 $d
-C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s:324    .text.system_lowpower_set:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s:331    .text.system_lowpower_set:0000000000000000 system_lowpower_set
-C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s:352    .text.system_lowpower_set:000000000000000c $d
-C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s:357    .text.system_lowpower_reset:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s:364    .text.system_lowpower_reset:0000000000000000 system_lowpower_reset
-C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s:385    .text.system_lowpower_reset:000000000000000c $d
-C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s:390    .text.systick_clksource_set:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s:397    .text.systick_clksource_set:0000000000000000 systick_clksource_set
-C:\Users\Prog\AppData\Local\Temp\ccawIHoA.s:428    .text.systick_clksource_set:000000000000001c $d
+                            *ABS*:00000000 gd32f30x_misc.c
+C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s:18     .text.nvic_priority_group_set:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s:26     .text.nvic_priority_group_set:00000000 nvic_priority_group_set
+C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s:49     .text.nvic_priority_group_set:00000010 $d
+C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s:54     .text.nvic_irq_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s:61     .text.nvic_irq_enable:00000000 nvic_irq_enable
+C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s:229    .text.nvic_irq_enable:000000a8 $d
+C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s:235    .text.nvic_irq_disable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s:242    .text.nvic_irq_disable:00000000 nvic_irq_disable
+C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s:268    .text.nvic_irq_disable:00000014 $d
+C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s:273    .text.nvic_vector_table_set:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s:280    .text.nvic_vector_table_set:00000000 nvic_vector_table_set
+C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s:319    .text.nvic_vector_table_set:00000014 $d
+C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s:324    .text.system_lowpower_set:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s:331    .text.system_lowpower_set:00000000 system_lowpower_set
+C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s:350    .text.system_lowpower_set:0000000c $d
+C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s:355    .text.system_lowpower_reset:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s:362    .text.system_lowpower_reset:00000000 system_lowpower_reset
+C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s:381    .text.system_lowpower_reset:0000000c $d
+C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s:386    .text.systick_clksource_set:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccAxl2Ds.s:393    .text.systick_clksource_set:00000000 systick_clksource_set
 
 NO UNDEFINED SYMBOLS

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccNgyfvf.s 			page 1
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccPLYwlR.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -18,19 +18,10 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccNgyfvf.s 			page 1
   15              	.Ltext0:
   16              		.cfi_sections	.debug_frame
   17              	.Letext0:
-  18              		.file 1 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\machine\\_default_types.h"
-  19              		.file 2 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\sys\\_stdint.h"
-  20              		.file 3 "Drivers/CMSIS/core_cm4.h"
-  21              		.file 4 "Drivers/CMSIS/GD/GD32F30x/Include/system_gd32f30x.h"
-  22              		.file 5 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\sys\\lock.h"
-  23              		.file 6 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\sys\\_types.h"
-  24              		.file 7 "d:\\embedded_gcc\\arm_gcc\\lib\\gcc\\arm-none-eabi\\8.2.1\\include\\stddef.h"
-  25              		.file 8 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\sys\\reent.h"
-  26              		.file 9 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\stdlib.h"
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccNgyfvf.s 			page 2
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccPLYwlR.s 			page 2
 
 
 DEFINED SYMBOLS
-                            *ABS*:0000000000000000 gd32f30x_enet.c
+                            *ABS*:00000000 gd32f30x_enet.c
 
 NO UNDEFINED SYMBOLS

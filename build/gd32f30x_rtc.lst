@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s 			page 1
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s 			page 1
   27:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED 
   28:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
   29:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, 
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s 			page 2
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s 			page 2
 
 
   30:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT 
@@ -91,38 +91,36 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s 			page 1
   52:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     RTC_INTEN |= interrupt;
   35              		.loc 1 52 5 view .LVU1
   36              		.loc 1 52 15 is_stmt 0 view .LVU2
-  37 0000 024A     		ldr	r2, .L2
-  38 0002 1368     		ldr	r3, [r2]
-  39 0004 1843     		orrs	r0, r0, r3
-  40              	.LVL1:
-  41              		.loc 1 52 15 view .LVU3
-  42 0006 1060     		str	r0, [r2]
+  37 0000 034A     		ldr	r2, .L2
+  38 0002 D2F80038 		ldr	r3, [r2, #2048]
+  39 0006 0343     		orrs	r3, r3, r0
+  40 0008 C2F80038 		str	r3, [r2, #2048]
   53:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** }
-  43              		.loc 1 53 1 view .LVU4
-  44 0008 7047     		bx	lr
-  45              	.L3:
-  46 000a 00BF     		.align	2
-  47              	.L2:
-  48 000c 00280040 		.word	1073752064
-  49              		.cfi_endproc
-  50              	.LFE116:
-  52              		.section	.text.rtc_interrupt_disable,"ax",%progbits
-  53              		.align	1
-  54              		.global	rtc_interrupt_disable
-  55              		.syntax unified
-  56              		.thumb
-  57              		.thumb_func
-  58              		.fpu fpv4-sp-d16
-  60              	rtc_interrupt_disable:
-  61              	.LVL2:
-  62              	.LFB117:
+  41              		.loc 1 53 1 view .LVU3
+  42 000c 7047     		bx	lr
+  43              	.L3:
+  44 000e 00BF     		.align	2
+  45              	.L2:
+  46 0010 00200040 		.word	1073750016
+  47              		.cfi_endproc
+  48              	.LFE116:
+  50              		.section	.text.rtc_interrupt_disable,"ax",%progbits
+  51              		.align	1
+  52              		.global	rtc_interrupt_disable
+  53              		.syntax unified
+  54              		.thumb
+  55              		.thumb_func
+  56              		.fpu fpv4-sp-d16
+  58              	rtc_interrupt_disable:
+  59              	.LVL1:
+  60              	.LFB117:
   54:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** 
   55:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** /*!
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s 			page 3
-
-
   56:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     \brief      disable RTC interrupt
   57:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     \param[in]  interrupt: specify which interrupt to disbale
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s 			page 3
+
+
   58:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****           \arg    RTC_INT_SECOND: second interrupt
   59:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****           \arg    RTC_INT_ALARM: alarm interrupt
   60:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****           \arg    RTC_INT_OVERFLOW: overflow interrupt
@@ -131,38 +129,36 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s 			page 1
   63:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** */
   64:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** void rtc_interrupt_disable(uint32_t interrupt)
   65:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** {
-  63              		.loc 1 65 1 is_stmt 1 view -0
-  64              		.cfi_startproc
-  65              		@ args = 0, pretend = 0, frame = 0
-  66              		@ frame_needed = 0, uses_anonymous_args = 0
-  67              		@ link register save eliminated.
+  61              		.loc 1 65 1 is_stmt 1 view -0
+  62              		.cfi_startproc
+  63              		@ args = 0, pretend = 0, frame = 0
+  64              		@ frame_needed = 0, uses_anonymous_args = 0
+  65              		@ link register save eliminated.
   66:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     RTC_INTEN &= ~interrupt;
-  68              		.loc 1 66 5 view .LVU6
-  69              		.loc 1 66 15 is_stmt 0 view .LVU7
-  70 0000 024A     		ldr	r2, .L5
-  71 0002 1368     		ldr	r3, [r2]
-  72 0004 23EA0000 		bic	r0, r3, r0
-  73              	.LVL3:
-  74              		.loc 1 66 15 view .LVU8
-  75 0008 1060     		str	r0, [r2]
+  66              		.loc 1 66 5 view .LVU5
+  67              		.loc 1 66 15 is_stmt 0 view .LVU6
+  68 0000 034A     		ldr	r2, .L5
+  69 0002 D2F80038 		ldr	r3, [r2, #2048]
+  70 0006 23EA0003 		bic	r3, r3, r0
+  71 000a C2F80038 		str	r3, [r2, #2048]
   67:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** }
-  76              		.loc 1 67 1 view .LVU9
-  77 000a 7047     		bx	lr
-  78              	.L6:
-  79              		.align	2
-  80              	.L5:
-  81 000c 00280040 		.word	1073752064
-  82              		.cfi_endproc
-  83              	.LFE117:
-  85              		.section	.text.rtc_configuration_mode_enter,"ax",%progbits
-  86              		.align	1
-  87              		.global	rtc_configuration_mode_enter
-  88              		.syntax unified
-  89              		.thumb
-  90              		.thumb_func
-  91              		.fpu fpv4-sp-d16
-  93              	rtc_configuration_mode_enter:
-  94              	.LFB118:
+  72              		.loc 1 67 1 view .LVU7
+  73 000e 7047     		bx	lr
+  74              	.L6:
+  75              		.align	2
+  76              	.L5:
+  77 0010 00200040 		.word	1073750016
+  78              		.cfi_endproc
+  79              	.LFE117:
+  81              		.section	.text.rtc_configuration_mode_enter,"ax",%progbits
+  82              		.align	1
+  83              		.global	rtc_configuration_mode_enter
+  84              		.syntax unified
+  85              		.thumb
+  86              		.thumb_func
+  87              		.fpu fpv4-sp-d16
+  89              	rtc_configuration_mode_enter:
+  90              	.LFB118:
   68:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** 
   69:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** /*!
   70:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     \brief      enter RTC configuration mode
@@ -172,39 +168,39 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s 			page 1
   74:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** */
   75:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** void rtc_configuration_mode_enter(void)
   76:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** {
-  95              		.loc 1 76 1 is_stmt 1 view -0
-  96              		.cfi_startproc
-  97              		@ args = 0, pretend = 0, frame = 0
-  98              		@ frame_needed = 0, uses_anonymous_args = 0
-  99              		@ link register save eliminated.
+  91              		.loc 1 76 1 is_stmt 1 view -0
+  92              		.cfi_startproc
+  93              		@ args = 0, pretend = 0, frame = 0
+  94              		@ frame_needed = 0, uses_anonymous_args = 0
+  95              		@ link register save eliminated.
   77:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     RTC_CTL |= RTC_CTL_CMF;
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s 			page 4
+  96              		.loc 1 77 5 view .LVU9
+  97              		.loc 1 77 13 is_stmt 0 view .LVU10
+  98 0000 034A     		ldr	r2, .L8
+  99 0002 D2F80438 		ldr	r3, [r2, #2052]
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s 			page 4
 
 
- 100              		.loc 1 77 5 view .LVU11
- 101              		.loc 1 77 13 is_stmt 0 view .LVU12
- 102 0000 024A     		ldr	r2, .L8
- 103 0002 1368     		ldr	r3, [r2]
- 104 0004 43F01003 		orr	r3, r3, #16
- 105 0008 1360     		str	r3, [r2]
+ 100 0006 43F01003 		orr	r3, r3, #16
+ 101 000a C2F80438 		str	r3, [r2, #2052]
   78:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** }
- 106              		.loc 1 78 1 view .LVU13
- 107 000a 7047     		bx	lr
- 108              	.L9:
- 109              		.align	2
- 110              	.L8:
- 111 000c 04280040 		.word	1073752068
- 112              		.cfi_endproc
- 113              	.LFE118:
- 115              		.section	.text.rtc_configuration_mode_exit,"ax",%progbits
- 116              		.align	1
- 117              		.global	rtc_configuration_mode_exit
- 118              		.syntax unified
- 119              		.thumb
- 120              		.thumb_func
- 121              		.fpu fpv4-sp-d16
- 123              	rtc_configuration_mode_exit:
- 124              	.LFB119:
+ 102              		.loc 1 78 1 view .LVU11
+ 103 000e 7047     		bx	lr
+ 104              	.L9:
+ 105              		.align	2
+ 106              	.L8:
+ 107 0010 00200040 		.word	1073750016
+ 108              		.cfi_endproc
+ 109              	.LFE118:
+ 111              		.section	.text.rtc_configuration_mode_exit,"ax",%progbits
+ 112              		.align	1
+ 113              		.global	rtc_configuration_mode_exit
+ 114              		.syntax unified
+ 115              		.thumb
+ 116              		.thumb_func
+ 117              		.fpu fpv4-sp-d16
+ 119              	rtc_configuration_mode_exit:
+ 120              	.LFB119:
   79:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** 
   80:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** /*!
   81:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     \brief      exit RTC configuration mode 
@@ -214,39 +210,39 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s 			page 1
   85:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** */
   86:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** void rtc_configuration_mode_exit(void)
   87:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** {
- 125              		.loc 1 87 1 is_stmt 1 view -0
- 126              		.cfi_startproc
- 127              		@ args = 0, pretend = 0, frame = 0
- 128              		@ frame_needed = 0, uses_anonymous_args = 0
- 129              		@ link register save eliminated.
+ 121              		.loc 1 87 1 is_stmt 1 view -0
+ 122              		.cfi_startproc
+ 123              		@ args = 0, pretend = 0, frame = 0
+ 124              		@ frame_needed = 0, uses_anonymous_args = 0
+ 125              		@ link register save eliminated.
   88:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     RTC_CTL &= ~RTC_CTL_CMF;
- 130              		.loc 1 88 5 view .LVU15
- 131              		.loc 1 88 13 is_stmt 0 view .LVU16
- 132 0000 024A     		ldr	r2, .L11
- 133 0002 1368     		ldr	r3, [r2]
- 134 0004 23F01003 		bic	r3, r3, #16
- 135 0008 1360     		str	r3, [r2]
+ 126              		.loc 1 88 5 view .LVU13
+ 127              		.loc 1 88 13 is_stmt 0 view .LVU14
+ 128 0000 034A     		ldr	r2, .L11
+ 129 0002 D2F80438 		ldr	r3, [r2, #2052]
+ 130 0006 23F01003 		bic	r3, r3, #16
+ 131 000a C2F80438 		str	r3, [r2, #2052]
   89:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** }
- 136              		.loc 1 89 1 view .LVU17
- 137 000a 7047     		bx	lr
- 138              	.L12:
- 139              		.align	2
- 140              	.L11:
- 141 000c 04280040 		.word	1073752068
- 142              		.cfi_endproc
- 143              	.LFE119:
- 145              		.section	.text.rtc_lwoff_wait,"ax",%progbits
- 146              		.align	1
- 147              		.global	rtc_lwoff_wait
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s 			page 5
+ 132              		.loc 1 89 1 view .LVU15
+ 133 000e 7047     		bx	lr
+ 134              	.L12:
+ 135              		.align	2
+ 136              	.L11:
+ 137 0010 00200040 		.word	1073750016
+ 138              		.cfi_endproc
+ 139              	.LFE119:
+ 141              		.section	.text.rtc_lwoff_wait,"ax",%progbits
+ 142              		.align	1
+ 143              		.global	rtc_lwoff_wait
+ 144              		.syntax unified
+ 145              		.thumb
+ 146              		.thumb_func
+ 147              		.fpu fpv4-sp-d16
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s 			page 5
 
 
- 148              		.syntax unified
- 149              		.thumb
- 150              		.thumb_func
- 151              		.fpu fpv4-sp-d16
- 153              	rtc_lwoff_wait:
- 154              	.LFB120:
+ 149              	rtc_lwoff_wait:
+ 150              	.LFB120:
   90:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** 
   91:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** /*!
   92:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     \brief      wait RTC last write operation finished flag set
@@ -256,99 +252,103 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s 			page 1
   96:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** */
   97:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** void rtc_lwoff_wait(void)
   98:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** {
- 155              		.loc 1 98 1 is_stmt 1 view -0
- 156              		.cfi_startproc
- 157              		@ args = 0, pretend = 0, frame = 0
- 158              		@ frame_needed = 0, uses_anonymous_args = 0
- 159              		@ link register save eliminated.
- 160              	.L14:
+ 151              		.loc 1 98 1 is_stmt 1 view -0
+ 152              		.cfi_startproc
+ 153              		@ args = 0, pretend = 0, frame = 0
+ 154              		@ frame_needed = 0, uses_anonymous_args = 0
+ 155              		@ link register save eliminated.
+ 156              	.L14:
   99:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****      /* loop until LWOFF flag is set */
  100:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     while (RESET == (RTC_CTL & RTC_CTL_LWOFF)){
  101:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     }
- 161              		.loc 1 101 5 discriminator 1 view .LVU19
+ 157              		.loc 1 101 5 discriminator 1 view .LVU17
  100:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     }
- 162              		.loc 1 100 22 is_stmt 0 discriminator 1 view .LVU20
- 163 0000 024B     		ldr	r3, .L15
- 164 0002 1B68     		ldr	r3, [r3]
+ 158              		.loc 1 100 11 discriminator 1 view .LVU18
  100:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     }
- 165              		.loc 1 100 11 discriminator 1 view .LVU21
- 166 0004 13F0200F 		tst	r3, #32
- 167 0008 FAD0     		beq	.L14
+ 159              		.loc 1 100 22 is_stmt 0 discriminator 1 view .LVU19
+ 160 0000 034B     		ldr	r3, .L15
+ 161 0002 D3F80438 		ldr	r3, [r3, #2052]
+ 100:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     }
+ 162              		.loc 1 100 11 discriminator 1 view .LVU20
+ 163 0006 13F0200F 		tst	r3, #32
+ 164 000a F9D0     		beq	.L14
  102:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** }
- 168              		.loc 1 102 1 view .LVU22
- 169 000a 7047     		bx	lr
- 170              	.L16:
- 171              		.align	2
- 172              	.L15:
- 173 000c 04280040 		.word	1073752068
- 174              		.cfi_endproc
- 175              	.LFE120:
- 177              		.section	.text.rtc_register_sync_wait,"ax",%progbits
- 178              		.align	1
- 179              		.global	rtc_register_sync_wait
- 180              		.syntax unified
- 181              		.thumb
- 182              		.thumb_func
- 183              		.fpu fpv4-sp-d16
- 185              	rtc_register_sync_wait:
- 186              	.LFB121:
+ 165              		.loc 1 102 1 view .LVU21
+ 166 000c 7047     		bx	lr
+ 167              	.L16:
+ 168 000e 00BF     		.align	2
+ 169              	.L15:
+ 170 0010 00200040 		.word	1073750016
+ 171              		.cfi_endproc
+ 172              	.LFE120:
+ 174              		.section	.text.rtc_register_sync_wait,"ax",%progbits
+ 175              		.align	1
+ 176              		.global	rtc_register_sync_wait
+ 177              		.syntax unified
+ 178              		.thumb
+ 179              		.thumb_func
+ 180              		.fpu fpv4-sp-d16
+ 182              	rtc_register_sync_wait:
+ 183              	.LFB121:
  103:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** 
  104:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** /*!
  105:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     \brief      wait RTC registers synchronized flag set
  106:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     \param[in]  none
  107:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     \param[out] none
  108:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     \retval     none
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s 			page 6
-
-
  109:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** */
  110:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** void rtc_register_sync_wait(void)
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s 			page 6
+
+
  111:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** {
- 187              		.loc 1 111 1 is_stmt 1 view -0
- 188              		.cfi_startproc
- 189              		@ args = 0, pretend = 0, frame = 0
- 190              		@ frame_needed = 0, uses_anonymous_args = 0
- 191              		@ link register save eliminated.
+ 184              		.loc 1 111 1 is_stmt 1 view -0
+ 185              		.cfi_startproc
+ 186              		@ args = 0, pretend = 0, frame = 0
+ 187              		@ frame_needed = 0, uses_anonymous_args = 0
+ 188              		@ link register save eliminated.
  112:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****      /* clear RSYNF flag */
  113:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     RTC_CTL &= ~RTC_CTL_RSYNF;
- 192              		.loc 1 113 5 view .LVU24
- 193              		.loc 1 113 13 is_stmt 0 view .LVU25
- 194 0000 054A     		ldr	r2, .L19
- 195 0002 1368     		ldr	r3, [r2]
- 196 0004 23F00803 		bic	r3, r3, #8
- 197 0008 1360     		str	r3, [r2]
+ 189              		.loc 1 113 5 view .LVU23
+ 190              		.loc 1 113 13 is_stmt 0 view .LVU24
+ 191 0000 064A     		ldr	r2, .L19
+ 192 0002 D2F80438 		ldr	r3, [r2, #2052]
+ 193 0006 23F00803 		bic	r3, r3, #8
+ 194 000a C2F80438 		str	r3, [r2, #2052]
  114:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     /* loop until RSYNF flag is set */
  115:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     while (RESET == (RTC_CTL & RTC_CTL_RSYNF)){
- 198              		.loc 1 115 5 is_stmt 1 view .LVU26
- 199              	.L18:
+ 195              		.loc 1 115 5 is_stmt 1 view .LVU25
+ 196              	.L18:
  116:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     }
- 200              		.loc 1 116 5 discriminator 1 view .LVU27
+ 197              		.loc 1 116 5 discriminator 1 view .LVU26
  115:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     }
- 201              		.loc 1 115 22 is_stmt 0 discriminator 1 view .LVU28
- 202 000a 034B     		ldr	r3, .L19
- 203 000c 1B68     		ldr	r3, [r3]
+ 198              		.loc 1 115 11 discriminator 1 view .LVU27
  115:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     }
- 204              		.loc 1 115 11 discriminator 1 view .LVU29
- 205 000e 13F0080F 		tst	r3, #8
- 206 0012 FAD0     		beq	.L18
+ 199              		.loc 1 115 22 is_stmt 0 discriminator 1 view .LVU28
+ 200 000e 034B     		ldr	r3, .L19
+ 201 0010 D3F80438 		ldr	r3, [r3, #2052]
+ 115:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     }
+ 202              		.loc 1 115 11 discriminator 1 view .LVU29
+ 203 0014 13F0080F 		tst	r3, #8
+ 204 0018 F9D0     		beq	.L18
  117:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** }
- 207              		.loc 1 117 1 view .LVU30
- 208 0014 7047     		bx	lr
- 209              	.L20:
- 210 0016 00BF     		.align	2
- 211              	.L19:
- 212 0018 04280040 		.word	1073752068
- 213              		.cfi_endproc
- 214              	.LFE121:
- 216              		.section	.text.rtc_counter_get,"ax",%progbits
- 217              		.align	1
- 218              		.global	rtc_counter_get
- 219              		.syntax unified
- 220              		.thumb
- 221              		.thumb_func
- 222              		.fpu fpv4-sp-d16
- 224              	rtc_counter_get:
- 225              	.LFB122:
+ 205              		.loc 1 117 1 view .LVU30
+ 206 001a 7047     		bx	lr
+ 207              	.L20:
+ 208              		.align	2
+ 209              	.L19:
+ 210 001c 00200040 		.word	1073750016
+ 211              		.cfi_endproc
+ 212              	.LFE121:
+ 214              		.section	.text.rtc_counter_get,"ax",%progbits
+ 215              		.align	1
+ 216              		.global	rtc_counter_get
+ 217              		.syntax unified
+ 218              		.thumb
+ 219              		.thumb_func
+ 220              		.fpu fpv4-sp-d16
+ 222              	rtc_counter_get:
+ 223              	.LFB122:
  118:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** 
  119:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** /*!
  120:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     \brief      get RTC counter value
@@ -358,54 +358,52 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s 			page 1
  124:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** */
  125:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** uint32_t rtc_counter_get(void)
  126:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** {
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s 			page 7
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s 			page 7
 
 
- 226              		.loc 1 126 1 is_stmt 1 view -0
- 227              		.cfi_startproc
- 228              		@ args = 0, pretend = 0, frame = 0
- 229              		@ frame_needed = 0, uses_anonymous_args = 0
- 230              		@ link register save eliminated.
+ 224              		.loc 1 126 1 is_stmt 1 view -0
+ 225              		.cfi_startproc
+ 226              		@ args = 0, pretend = 0, frame = 0
+ 227              		@ frame_needed = 0, uses_anonymous_args = 0
+ 228              		@ link register save eliminated.
  127:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     uint32_t temp = 0x0U;
- 231              		.loc 1 127 5 view .LVU32
- 232              	.LVL4:
+ 229              		.loc 1 127 5 view .LVU32
+ 230              	.LVL2:
  128:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     temp = RTC_CNTL;
- 233              		.loc 1 128 5 view .LVU33
- 234              		.loc 1 128 10 is_stmt 0 view .LVU34
- 235 0000 034B     		ldr	r3, .L22
- 236 0002 1B68     		ldr	r3, [r3]
- 237              	.LVL5:
+ 231              		.loc 1 128 5 view .LVU33
+ 232              		.loc 1 128 10 is_stmt 0 view .LVU34
+ 233 0000 034B     		ldr	r3, .L22
+ 234 0002 D3F81C28 		ldr	r2, [r3, #2076]
+ 235              	.LVL3:
  129:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     temp |= (RTC_CNTH << 16);
- 238              		.loc 1 129 5 is_stmt 1 view .LVU35
- 239              		.loc 1 129 14 is_stmt 0 view .LVU36
- 240 0004 034A     		ldr	r2, .L22+4
- 241 0006 1068     		ldr	r0, [r2]
- 242              	.LVL6:
+ 236              		.loc 1 129 5 is_stmt 1 view .LVU35
+ 237              		.loc 1 129 14 is_stmt 0 view .LVU36
+ 238 0006 D3F81808 		ldr	r0, [r3, #2072]
+ 239              	.LVL4:
  130:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     return temp;
- 243              		.loc 1 130 5 is_stmt 1 view .LVU37
+ 240              		.loc 1 130 5 is_stmt 1 view .LVU37
  131:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** }
- 244              		.loc 1 131 1 is_stmt 0 view .LVU38
- 245 0008 43EA0040 		orr	r0, r3, r0, lsl #16
- 246              	.LVL7:
- 247              		.loc 1 131 1 view .LVU39
- 248 000c 7047     		bx	lr
- 249              	.L23:
- 250 000e 00BF     		.align	2
- 251              	.L22:
- 252 0010 1C280040 		.word	1073752092
- 253 0014 18280040 		.word	1073752088
- 254              		.cfi_endproc
- 255              	.LFE122:
- 257              		.section	.text.rtc_counter_set,"ax",%progbits
- 258              		.align	1
- 259              		.global	rtc_counter_set
- 260              		.syntax unified
- 261              		.thumb
- 262              		.thumb_func
- 263              		.fpu fpv4-sp-d16
- 265              	rtc_counter_set:
- 266              	.LVL8:
- 267              	.LFB123:
+ 241              		.loc 1 131 1 is_stmt 0 view .LVU38
+ 242 000a 42EA0040 		orr	r0, r2, r0, lsl #16
+ 243              	.LVL5:
+ 244              		.loc 1 131 1 view .LVU39
+ 245 000e 7047     		bx	lr
+ 246              	.L23:
+ 247              		.align	2
+ 248              	.L22:
+ 249 0010 00200040 		.word	1073750016
+ 250              		.cfi_endproc
+ 251              	.LFE122:
+ 253              		.section	.text.rtc_counter_set,"ax",%progbits
+ 254              		.align	1
+ 255              		.global	rtc_counter_set
+ 256              		.syntax unified
+ 257              		.thumb
+ 258              		.thumb_func
+ 259              		.fpu fpv4-sp-d16
+ 261              	rtc_counter_set:
+ 262              	.LVL6:
+ 263              	.LFB123:
  132:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** 
  133:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** /*!
  134:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     \brief      set RTC counter value
@@ -415,136 +413,134 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s 			page 1
  138:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** */
  139:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** void rtc_counter_set(uint32_t cnt)
  140:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** {
- 268              		.loc 1 140 1 is_stmt 1 view -0
- 269              		.cfi_startproc
- 270              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s 			page 8
+ 264              		.loc 1 140 1 is_stmt 1 view -0
+ 265              		.cfi_startproc
+ 266              		@ args = 0, pretend = 0, frame = 0
+ 267              		@ frame_needed = 0, uses_anonymous_args = 0
+ 268              		.loc 1 140 1 is_stmt 0 view .LVU41
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s 			page 8
 
 
- 271              		@ frame_needed = 0, uses_anonymous_args = 0
- 272              		.loc 1 140 1 is_stmt 0 view .LVU41
- 273 0000 10B5     		push	{r4, lr}
- 274              	.LCFI0:
- 275              		.cfi_def_cfa_offset 8
- 276              		.cfi_offset 4, -8
- 277              		.cfi_offset 14, -4
- 278 0002 0446     		mov	r4, r0
+ 269 0000 10B5     		push	{r4, lr}
+ 270              	.LCFI0:
+ 271              		.cfi_def_cfa_offset 8
+ 272              		.cfi_offset 4, -8
+ 273              		.cfi_offset 14, -4
+ 274 0002 0446     		mov	r4, r0
  141:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     rtc_configuration_mode_enter();
- 279              		.loc 1 141 5 is_stmt 1 view .LVU42
- 280 0004 FFF7FEFF 		bl	rtc_configuration_mode_enter
- 281              	.LVL9:
+ 275              		.loc 1 141 5 is_stmt 1 view .LVU42
+ 276 0004 FFF7FEFF 		bl	rtc_configuration_mode_enter
+ 277              	.LVL7:
  142:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     /* set the RTC counter high bits */
  143:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     RTC_CNTH = cnt >> 16;
- 282              		.loc 1 143 5 view .LVU43
- 283              		.loc 1 143 20 is_stmt 0 view .LVU44
- 284 0008 220C     		lsrs	r2, r4, #16
- 285              		.loc 1 143 14 view .LVU45
- 286 000a 044B     		ldr	r3, .L26
- 287 000c 1A60     		str	r2, [r3]
+ 278              		.loc 1 143 5 view .LVU43
+ 279              		.loc 1 143 20 is_stmt 0 view .LVU44
+ 280 0008 220C     		lsrs	r2, r4, #16
+ 281              		.loc 1 143 14 view .LVU45
+ 282 000a 044B     		ldr	r3, .L26
+ 283 000c C3F81828 		str	r2, [r3, #2072]
  144:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     /* set the RTC counter low bits */
  145:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     RTC_CNTL = (cnt & RTC_LOW_VALUE);
- 288              		.loc 1 145 5 is_stmt 1 view .LVU46
- 289              		.loc 1 145 21 is_stmt 0 view .LVU47
- 290 000e A4B2     		uxth	r4, r4
- 291              	.LVL10:
- 292              		.loc 1 145 14 view .LVU48
- 293 0010 0433     		adds	r3, r3, #4
- 294 0012 1C60     		str	r4, [r3]
+ 284              		.loc 1 145 5 is_stmt 1 view .LVU46
+ 285              		.loc 1 145 21 is_stmt 0 view .LVU47
+ 286 0010 A4B2     		uxth	r4, r4
+ 287              	.LVL8:
+ 288              		.loc 1 145 14 view .LVU48
+ 289 0012 C3F81C48 		str	r4, [r3, #2076]
  146:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     rtc_configuration_mode_exit();
- 295              		.loc 1 146 5 is_stmt 1 view .LVU49
- 296 0014 FFF7FEFF 		bl	rtc_configuration_mode_exit
- 297              	.LVL11:
+ 290              		.loc 1 146 5 is_stmt 1 view .LVU49
+ 291 0016 FFF7FEFF 		bl	rtc_configuration_mode_exit
+ 292              	.LVL9:
  147:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** }
- 298              		.loc 1 147 1 is_stmt 0 view .LVU50
- 299 0018 10BD     		pop	{r4, pc}
- 300              	.L27:
- 301 001a 00BF     		.align	2
- 302              	.L26:
- 303 001c 18280040 		.word	1073752088
- 304              		.cfi_endproc
- 305              	.LFE123:
- 307              		.section	.text.rtc_prescaler_set,"ax",%progbits
- 308              		.align	1
- 309              		.global	rtc_prescaler_set
- 310              		.syntax unified
- 311              		.thumb
- 312              		.thumb_func
- 313              		.fpu fpv4-sp-d16
- 315              	rtc_prescaler_set:
- 316              	.LVL12:
- 317              	.LFB124:
+ 293              		.loc 1 147 1 is_stmt 0 view .LVU50
+ 294 001a 10BD     		pop	{r4, pc}
+ 295              	.L27:
+ 296              		.align	2
+ 297              	.L26:
+ 298 001c 00200040 		.word	1073750016
+ 299              		.cfi_endproc
+ 300              	.LFE123:
+ 302              		.section	.text.rtc_prescaler_set,"ax",%progbits
+ 303              		.align	1
+ 304              		.global	rtc_prescaler_set
+ 305              		.syntax unified
+ 306              		.thumb
+ 307              		.thumb_func
+ 308              		.fpu fpv4-sp-d16
+ 310              	rtc_prescaler_set:
+ 311              	.LVL10:
+ 312              	.LFB124:
  148:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** 
  149:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** /*!
  150:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     \brief      set RTC prescaler value
  151:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     \param[in]  psc: RTC prescaler value
  152:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     \param[out] none
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s 			page 9
-
-
  153:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     \retval     none
  154:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** */
  155:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** void rtc_prescaler_set(uint32_t psc)
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s 			page 9
+
+
  156:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** {
- 318              		.loc 1 156 1 is_stmt 1 view -0
- 319              		.cfi_startproc
- 320              		@ args = 0, pretend = 0, frame = 0
- 321              		@ frame_needed = 0, uses_anonymous_args = 0
- 322              		.loc 1 156 1 is_stmt 0 view .LVU52
- 323 0000 10B5     		push	{r4, lr}
- 324              	.LCFI1:
- 325              		.cfi_def_cfa_offset 8
- 326              		.cfi_offset 4, -8
- 327              		.cfi_offset 14, -4
- 328 0002 0446     		mov	r4, r0
+ 313              		.loc 1 156 1 is_stmt 1 view -0
+ 314              		.cfi_startproc
+ 315              		@ args = 0, pretend = 0, frame = 0
+ 316              		@ frame_needed = 0, uses_anonymous_args = 0
+ 317              		.loc 1 156 1 is_stmt 0 view .LVU52
+ 318 0000 10B5     		push	{r4, lr}
+ 319              	.LCFI1:
+ 320              		.cfi_def_cfa_offset 8
+ 321              		.cfi_offset 4, -8
+ 322              		.cfi_offset 14, -4
+ 323 0002 0446     		mov	r4, r0
  157:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     rtc_configuration_mode_enter();
- 329              		.loc 1 157 5 is_stmt 1 view .LVU53
- 330 0004 FFF7FEFF 		bl	rtc_configuration_mode_enter
- 331              	.LVL13:
+ 324              		.loc 1 157 5 is_stmt 1 view .LVU53
+ 325 0004 FFF7FEFF 		bl	rtc_configuration_mode_enter
+ 326              	.LVL11:
  158:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     /* set the RTC prescaler high bits */
  159:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     RTC_PSCH = (psc & RTC_HIGH_VALUE) >> 16;
- 332              		.loc 1 159 5 view .LVU54
- 333              		.loc 1 159 39 is_stmt 0 view .LVU55
- 334 0008 C4F30342 		ubfx	r2, r4, #16, #4
- 335              		.loc 1 159 14 view .LVU56
- 336 000c 034B     		ldr	r3, .L30
- 337 000e 1A60     		str	r2, [r3]
+ 327              		.loc 1 159 5 view .LVU54
+ 328              		.loc 1 159 39 is_stmt 0 view .LVU55
+ 329 0008 C4F30342 		ubfx	r2, r4, #16, #4
+ 330              		.loc 1 159 14 view .LVU56
+ 331 000c 044B     		ldr	r3, .L30
+ 332 000e C3F80828 		str	r2, [r3, #2056]
  160:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     /* set the RTC prescaler low bits */
  161:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     RTC_PSCL = (psc & RTC_LOW_VALUE);
- 338              		.loc 1 161 5 is_stmt 1 view .LVU57
- 339              		.loc 1 161 21 is_stmt 0 view .LVU58
- 340 0010 A4B2     		uxth	r4, r4
- 341              	.LVL14:
- 342              		.loc 1 161 14 view .LVU59
- 343 0012 0433     		adds	r3, r3, #4
- 344 0014 1C60     		str	r4, [r3]
+ 333              		.loc 1 161 5 is_stmt 1 view .LVU57
+ 334              		.loc 1 161 21 is_stmt 0 view .LVU58
+ 335 0012 A4B2     		uxth	r4, r4
+ 336              	.LVL12:
+ 337              		.loc 1 161 14 view .LVU59
+ 338 0014 C3F80C48 		str	r4, [r3, #2060]
  162:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     rtc_configuration_mode_exit();
- 345              		.loc 1 162 5 is_stmt 1 view .LVU60
- 346 0016 FFF7FEFF 		bl	rtc_configuration_mode_exit
- 347              	.LVL15:
+ 339              		.loc 1 162 5 is_stmt 1 view .LVU60
+ 340 0018 FFF7FEFF 		bl	rtc_configuration_mode_exit
+ 341              	.LVL13:
  163:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** }
- 348              		.loc 1 163 1 is_stmt 0 view .LVU61
- 349 001a 10BD     		pop	{r4, pc}
- 350              	.L31:
- 351              		.align	2
- 352              	.L30:
- 353 001c 08280040 		.word	1073752072
- 354              		.cfi_endproc
- 355              	.LFE124:
- 357              		.section	.text.rtc_alarm_config,"ax",%progbits
- 358              		.align	1
- 359              		.global	rtc_alarm_config
- 360              		.syntax unified
- 361              		.thumb
- 362              		.thumb_func
- 363              		.fpu fpv4-sp-d16
- 365              	rtc_alarm_config:
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s 			page 10
-
-
- 366              	.LVL16:
- 367              	.LFB125:
+ 342              		.loc 1 163 1 is_stmt 0 view .LVU61
+ 343 001c 10BD     		pop	{r4, pc}
+ 344              	.L31:
+ 345 001e 00BF     		.align	2
+ 346              	.L30:
+ 347 0020 00200040 		.word	1073750016
+ 348              		.cfi_endproc
+ 349              	.LFE124:
+ 351              		.section	.text.rtc_alarm_config,"ax",%progbits
+ 352              		.align	1
+ 353              		.global	rtc_alarm_config
+ 354              		.syntax unified
+ 355              		.thumb
+ 356              		.thumb_func
+ 357              		.fpu fpv4-sp-d16
+ 359              	rtc_alarm_config:
+ 360              	.LVL14:
+ 361              	.LFB125:
  164:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** 
  165:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** /*!
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s 			page 10
+
+
  166:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     \brief      set RTC alarm value
  167:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     \param[in]  alarm: RTC alarm value
  168:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     \param[out] none
@@ -552,63 +548,62 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s 			page 1
  170:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** */
  171:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** void rtc_alarm_config(uint32_t alarm)
  172:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** {
- 368              		.loc 1 172 1 is_stmt 1 view -0
- 369              		.cfi_startproc
- 370              		@ args = 0, pretend = 0, frame = 0
- 371              		@ frame_needed = 0, uses_anonymous_args = 0
- 372              		.loc 1 172 1 is_stmt 0 view .LVU63
- 373 0000 10B5     		push	{r4, lr}
- 374              	.LCFI2:
- 375              		.cfi_def_cfa_offset 8
- 376              		.cfi_offset 4, -8
- 377              		.cfi_offset 14, -4
- 378 0002 0446     		mov	r4, r0
+ 362              		.loc 1 172 1 is_stmt 1 view -0
+ 363              		.cfi_startproc
+ 364              		@ args = 0, pretend = 0, frame = 0
+ 365              		@ frame_needed = 0, uses_anonymous_args = 0
+ 366              		.loc 1 172 1 is_stmt 0 view .LVU63
+ 367 0000 10B5     		push	{r4, lr}
+ 368              	.LCFI2:
+ 369              		.cfi_def_cfa_offset 8
+ 370              		.cfi_offset 4, -8
+ 371              		.cfi_offset 14, -4
+ 372 0002 0446     		mov	r4, r0
  173:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     rtc_configuration_mode_enter();
- 379              		.loc 1 173 5 is_stmt 1 view .LVU64
- 380 0004 FFF7FEFF 		bl	rtc_configuration_mode_enter
- 381              	.LVL17:
+ 373              		.loc 1 173 5 is_stmt 1 view .LVU64
+ 374 0004 FFF7FEFF 		bl	rtc_configuration_mode_enter
+ 375              	.LVL15:
  174:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     /* set the alarm high bits */
  175:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     RTC_ALRMH = alarm >> 16;
- 382              		.loc 1 175 5 view .LVU65
- 383              		.loc 1 175 23 is_stmt 0 view .LVU66
- 384 0008 220C     		lsrs	r2, r4, #16
- 385              		.loc 1 175 15 view .LVU67
- 386 000a 044B     		ldr	r3, .L34
- 387 000c 1A60     		str	r2, [r3]
+ 376              		.loc 1 175 5 view .LVU65
+ 377              		.loc 1 175 23 is_stmt 0 view .LVU66
+ 378 0008 220C     		lsrs	r2, r4, #16
+ 379              		.loc 1 175 15 view .LVU67
+ 380 000a 044B     		ldr	r3, .L34
+ 381 000c C3F82028 		str	r2, [r3, #2080]
  176:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     /* set the alarm low bits */
  177:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     RTC_ALRML = (alarm & RTC_LOW_VALUE);
- 388              		.loc 1 177 5 is_stmt 1 view .LVU68
- 389              		.loc 1 177 24 is_stmt 0 view .LVU69
- 390 000e A4B2     		uxth	r4, r4
- 391              	.LVL18:
- 392              		.loc 1 177 15 view .LVU70
- 393 0010 0433     		adds	r3, r3, #4
- 394 0012 1C60     		str	r4, [r3]
+ 382              		.loc 1 177 5 is_stmt 1 view .LVU68
+ 383              		.loc 1 177 24 is_stmt 0 view .LVU69
+ 384 0010 A4B2     		uxth	r4, r4
+ 385              	.LVL16:
+ 386              		.loc 1 177 15 view .LVU70
+ 387 0012 C3F82448 		str	r4, [r3, #2084]
  178:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     rtc_configuration_mode_exit();
- 395              		.loc 1 178 5 is_stmt 1 view .LVU71
- 396 0014 FFF7FEFF 		bl	rtc_configuration_mode_exit
- 397              	.LVL19:
+ 388              		.loc 1 178 5 is_stmt 1 view .LVU71
+ 389 0016 FFF7FEFF 		bl	rtc_configuration_mode_exit
+ 390              	.LVL17:
  179:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** }
- 398              		.loc 1 179 1 is_stmt 0 view .LVU72
- 399 0018 10BD     		pop	{r4, pc}
- 400              	.L35:
- 401 001a 00BF     		.align	2
- 402              	.L34:
- 403 001c 20280040 		.word	1073752096
- 404              		.cfi_endproc
- 405              	.LFE125:
- 407              		.section	.text.rtc_divider_get,"ax",%progbits
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s 			page 11
+ 391              		.loc 1 179 1 is_stmt 0 view .LVU72
+ 392 001a 10BD     		pop	{r4, pc}
+ 393              	.L35:
+ 394              		.align	2
+ 395              	.L34:
+ 396 001c 00200040 		.word	1073750016
+ 397              		.cfi_endproc
+ 398              	.LFE125:
+ 400              		.section	.text.rtc_divider_get,"ax",%progbits
+ 401              		.align	1
+ 402              		.global	rtc_divider_get
+ 403              		.syntax unified
+ 404              		.thumb
+ 405              		.thumb_func
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s 			page 11
 
 
- 408              		.align	1
- 409              		.global	rtc_divider_get
- 410              		.syntax unified
- 411              		.thumb
- 412              		.thumb_func
- 413              		.fpu fpv4-sp-d16
- 415              	rtc_divider_get:
- 416              	.LFB126:
+ 406              		.fpu fpv4-sp-d16
+ 408              	rtc_divider_get:
+ 409              	.LFB126:
  180:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** 
  181:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** /*!
  182:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     \brief      get RTC divider value
@@ -618,58 +613,56 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s 			page 1
  186:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** */
  187:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** uint32_t rtc_divider_get(void)
  188:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** {
- 417              		.loc 1 188 1 is_stmt 1 view -0
- 418              		.cfi_startproc
- 419              		@ args = 0, pretend = 0, frame = 0
- 420              		@ frame_needed = 0, uses_anonymous_args = 0
- 421              		@ link register save eliminated.
+ 410              		.loc 1 188 1 is_stmt 1 view -0
+ 411              		.cfi_startproc
+ 412              		@ args = 0, pretend = 0, frame = 0
+ 413              		@ frame_needed = 0, uses_anonymous_args = 0
+ 414              		@ link register save eliminated.
  189:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     uint32_t temp = 0x00U;
- 422              		.loc 1 189 5 view .LVU74
- 423              	.LVL20:
+ 415              		.loc 1 189 5 view .LVU74
+ 416              	.LVL18:
  190:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     temp = (RTC_DIVH & RTC_DIVH_DIV) << 16;
- 424              		.loc 1 190 5 view .LVU75
- 425              		.loc 1 190 13 is_stmt 0 view .LVU76
- 426 0000 044B     		ldr	r3, .L37
- 427 0002 1B68     		ldr	r3, [r3]
- 428              		.loc 1 190 38 view .LVU77
- 429 0004 1B04     		lsls	r3, r3, #16
- 430              		.loc 1 190 10 view .LVU78
- 431 0006 03F47023 		and	r3, r3, #983040
- 432              	.LVL21:
+ 417              		.loc 1 190 5 view .LVU75
+ 418              		.loc 1 190 13 is_stmt 0 view .LVU76
+ 419 0000 044A     		ldr	r2, .L37
+ 420 0002 D2F81038 		ldr	r3, [r2, #2064]
+ 421              		.loc 1 190 38 view .LVU77
+ 422 0006 1B04     		lsls	r3, r3, #16
+ 423              		.loc 1 190 10 view .LVU78
+ 424 0008 03F47023 		and	r3, r3, #983040
+ 425              	.LVL19:
  191:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     temp |= RTC_DIVL;
- 433              		.loc 1 191 5 is_stmt 1 view .LVU79
- 434              		.loc 1 191 13 is_stmt 0 view .LVU80
- 435 000a 034A     		ldr	r2, .L37+4
- 436 000c 1068     		ldr	r0, [r2]
- 437              	.LVL22:
+ 426              		.loc 1 191 5 is_stmt 1 view .LVU79
+ 427              		.loc 1 191 13 is_stmt 0 view .LVU80
+ 428 000c D2F81408 		ldr	r0, [r2, #2068]
+ 429              	.LVL20:
  192:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     return temp;
- 438              		.loc 1 192 5 is_stmt 1 view .LVU81
+ 430              		.loc 1 192 5 is_stmt 1 view .LVU81
  193:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** }
- 439              		.loc 1 193 1 is_stmt 0 view .LVU82
- 440 000e 1843     		orrs	r0, r0, r3
- 441              	.LVL23:
- 442              		.loc 1 193 1 view .LVU83
- 443 0010 7047     		bx	lr
- 444              	.L38:
- 445 0012 00BF     		.align	2
- 446              	.L37:
- 447 0014 10280040 		.word	1073752080
- 448 0018 14280040 		.word	1073752084
- 449              		.cfi_endproc
- 450              	.LFE126:
- 452              		.section	.text.rtc_flag_get,"ax",%progbits
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s 			page 12
+ 431              		.loc 1 193 1 is_stmt 0 view .LVU82
+ 432 0010 1843     		orrs	r0, r0, r3
+ 433              	.LVL21:
+ 434              		.loc 1 193 1 view .LVU83
+ 435 0012 7047     		bx	lr
+ 436              	.L38:
+ 437              		.align	2
+ 438              	.L37:
+ 439 0014 00200040 		.word	1073750016
+ 440              		.cfi_endproc
+ 441              	.LFE126:
+ 443              		.section	.text.rtc_flag_get,"ax",%progbits
+ 444              		.align	1
+ 445              		.global	rtc_flag_get
+ 446              		.syntax unified
+ 447              		.thumb
+ 448              		.thumb_func
+ 449              		.fpu fpv4-sp-d16
+ 451              	rtc_flag_get:
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s 			page 12
 
 
- 453              		.align	1
- 454              		.global	rtc_flag_get
- 455              		.syntax unified
- 456              		.thumb
- 457              		.thumb_func
- 458              		.fpu fpv4-sp-d16
- 460              	rtc_flag_get:
- 461              	.LVL24:
- 462              	.LFB127:
+ 452              	.LVL22:
+ 453              	.LFB127:
  194:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** 
  195:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** /*!
  196:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     \brief      get RTC flag status 
@@ -684,55 +677,55 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s 			page 1
  205:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** */
  206:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** FlagStatus rtc_flag_get(uint32_t flag)
  207:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** {
- 463              		.loc 1 207 1 is_stmt 1 view -0
- 464              		.cfi_startproc
- 465              		@ args = 0, pretend = 0, frame = 0
- 466              		@ frame_needed = 0, uses_anonymous_args = 0
- 467              		@ link register save eliminated.
+ 454              		.loc 1 207 1 is_stmt 1 view -0
+ 455              		.cfi_startproc
+ 456              		@ args = 0, pretend = 0, frame = 0
+ 457              		@ frame_needed = 0, uses_anonymous_args = 0
+ 458              		@ link register save eliminated.
  208:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     if(RESET != (RTC_CTL & flag)){
- 468              		.loc 1 208 5 view .LVU85
- 469              		.loc 1 208 18 is_stmt 0 view .LVU86
- 470 0000 034B     		ldr	r3, .L42
- 471 0002 1B68     		ldr	r3, [r3]
- 472              		.loc 1 208 7 view .LVU87
- 473 0004 0342     		tst	r3, r0
- 474 0006 01D0     		beq	.L41
+ 459              		.loc 1 208 5 view .LVU85
+ 460              		.loc 1 208 18 is_stmt 0 view .LVU86
+ 461 0000 044B     		ldr	r3, .L42
+ 462 0002 D3F80438 		ldr	r3, [r3, #2052]
+ 463              		.loc 1 208 7 view .LVU87
+ 464 0006 0342     		tst	r3, r0
+ 465 0008 01D0     		beq	.L41
  209:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****         return SET;
- 475              		.loc 1 209 16 view .LVU88
- 476 0008 0120     		movs	r0, #1
- 477              	.LVL25:
- 478              		.loc 1 209 16 view .LVU89
- 479 000a 7047     		bx	lr
- 480              	.LVL26:
- 481              	.L41:
+ 466              		.loc 1 209 16 view .LVU88
+ 467 000a 0120     		movs	r0, #1
+ 468              	.LVL23:
+ 469              		.loc 1 209 16 view .LVU89
+ 470 000c 7047     		bx	lr
+ 471              	.LVL24:
+ 472              	.L41:
  210:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     }else{
  211:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****         return RESET;
- 482              		.loc 1 211 16 view .LVU90
- 483 000c 0020     		movs	r0, #0
- 484              	.LVL27:
+ 473              		.loc 1 211 16 view .LVU90
+ 474 000e 0020     		movs	r0, #0
+ 475              	.LVL25:
  212:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     }
  213:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** }
- 485              		.loc 1 213 1 view .LVU91
- 486 000e 7047     		bx	lr
- 487              	.L43:
- 488              		.align	2
- 489              	.L42:
- 490 0010 04280040 		.word	1073752068
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s 			page 13
+ 476              		.loc 1 213 1 view .LVU91
+ 477 0010 7047     		bx	lr
+ 478              	.L43:
+ 479 0012 00BF     		.align	2
+ 480              	.L42:
+ 481 0014 00200040 		.word	1073750016
+ 482              		.cfi_endproc
+ 483              	.LFE127:
+ 485              		.section	.text.rtc_flag_clear,"ax",%progbits
+ 486              		.align	1
+ 487              		.global	rtc_flag_clear
+ 488              		.syntax unified
+ 489              		.thumb
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s 			page 13
 
 
- 491              		.cfi_endproc
- 492              	.LFE127:
- 494              		.section	.text.rtc_flag_clear,"ax",%progbits
- 495              		.align	1
- 496              		.global	rtc_flag_clear
- 497              		.syntax unified
- 498              		.thumb
- 499              		.thumb_func
- 500              		.fpu fpv4-sp-d16
- 502              	rtc_flag_clear:
- 503              	.LVL28:
- 504              	.LFB128:
+ 490              		.thumb_func
+ 491              		.fpu fpv4-sp-d16
+ 493              	rtc_flag_clear:
+ 494              	.LVL26:
+ 495              	.LFB128:
  214:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** 
  215:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** /*!
  216:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     \brief      clear RTC flag status
@@ -746,80 +739,76 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s 			page 1
  224:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** */
  225:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** void rtc_flag_clear(uint32_t flag)
  226:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** {
- 505              		.loc 1 226 1 is_stmt 1 view -0
- 506              		.cfi_startproc
- 507              		@ args = 0, pretend = 0, frame = 0
- 508              		@ frame_needed = 0, uses_anonymous_args = 0
- 509              		@ link register save eliminated.
+ 496              		.loc 1 226 1 is_stmt 1 view -0
+ 497              		.cfi_startproc
+ 498              		@ args = 0, pretend = 0, frame = 0
+ 499              		@ frame_needed = 0, uses_anonymous_args = 0
+ 500              		@ link register save eliminated.
  227:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     /* clear RTC flag */
  228:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c ****     RTC_CTL &= ~flag;
- 510              		.loc 1 228 5 view .LVU93
- 511              		.loc 1 228 13 is_stmt 0 view .LVU94
- 512 0000 024A     		ldr	r2, .L45
- 513 0002 1368     		ldr	r3, [r2]
- 514 0004 23EA0000 		bic	r0, r3, r0
- 515              	.LVL29:
- 516              		.loc 1 228 13 view .LVU95
- 517 0008 1060     		str	r0, [r2]
+ 501              		.loc 1 228 5 view .LVU93
+ 502              		.loc 1 228 13 is_stmt 0 view .LVU94
+ 503 0000 034A     		ldr	r2, .L45
+ 504 0002 D2F80438 		ldr	r3, [r2, #2052]
+ 505 0006 23EA0003 		bic	r3, r3, r0
+ 506 000a C2F80438 		str	r3, [r2, #2052]
  229:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_rtc.c **** }
- 518              		.loc 1 229 1 view .LVU96
- 519 000a 7047     		bx	lr
- 520              	.L46:
- 521              		.align	2
- 522              	.L45:
- 523 000c 04280040 		.word	1073752068
- 524              		.cfi_endproc
- 525              	.LFE128:
- 527              		.text
- 528              	.Letext0:
- 529              		.file 2 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\machine\\_default_types.h"
- 530              		.file 3 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\sys\\_stdint.h"
- 531              		.file 4 "Drivers/CMSIS/core_cm4.h"
- 532              		.file 5 "Drivers/CMSIS/GD/GD32F30x/Include/system_gd32f30x.h"
- 533              		.file 6 "Drivers/CMSIS/GD/GD32F30x/Include/gd32f30x.h"
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s 			page 14
+ 507              		.loc 1 229 1 view .LVU95
+ 508 000e 7047     		bx	lr
+ 509              	.L46:
+ 510              		.align	2
+ 511              	.L45:
+ 512 0010 00200040 		.word	1073750016
+ 513              		.cfi_endproc
+ 514              	.LFE128:
+ 516              		.text
+ 517              	.Letext0:
+ 518              		.file 2 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 519              		.file 3 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 520              		.file 4 "Drivers/CMSIS/GD/GD32F30x/Include/gd32f30x.h"
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s 			page 14
 
 
 DEFINED SYMBOLS
-                            *ABS*:0000000000000000 gd32f30x_rtc.c
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:18     .text.rtc_interrupt_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:26     .text.rtc_interrupt_enable:0000000000000000 rtc_interrupt_enable
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:48     .text.rtc_interrupt_enable:000000000000000c $d
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:53     .text.rtc_interrupt_disable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:60     .text.rtc_interrupt_disable:0000000000000000 rtc_interrupt_disable
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:81     .text.rtc_interrupt_disable:000000000000000c $d
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:86     .text.rtc_configuration_mode_enter:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:93     .text.rtc_configuration_mode_enter:0000000000000000 rtc_configuration_mode_enter
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:111    .text.rtc_configuration_mode_enter:000000000000000c $d
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:116    .text.rtc_configuration_mode_exit:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:123    .text.rtc_configuration_mode_exit:0000000000000000 rtc_configuration_mode_exit
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:141    .text.rtc_configuration_mode_exit:000000000000000c $d
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:146    .text.rtc_lwoff_wait:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:153    .text.rtc_lwoff_wait:0000000000000000 rtc_lwoff_wait
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:173    .text.rtc_lwoff_wait:000000000000000c $d
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:178    .text.rtc_register_sync_wait:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:185    .text.rtc_register_sync_wait:0000000000000000 rtc_register_sync_wait
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:212    .text.rtc_register_sync_wait:0000000000000018 $d
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:217    .text.rtc_counter_get:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:224    .text.rtc_counter_get:0000000000000000 rtc_counter_get
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:252    .text.rtc_counter_get:0000000000000010 $d
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:258    .text.rtc_counter_set:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:265    .text.rtc_counter_set:0000000000000000 rtc_counter_set
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:303    .text.rtc_counter_set:000000000000001c $d
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:308    .text.rtc_prescaler_set:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:315    .text.rtc_prescaler_set:0000000000000000 rtc_prescaler_set
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:353    .text.rtc_prescaler_set:000000000000001c $d
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:358    .text.rtc_alarm_config:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:365    .text.rtc_alarm_config:0000000000000000 rtc_alarm_config
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:403    .text.rtc_alarm_config:000000000000001c $d
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:408    .text.rtc_divider_get:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:415    .text.rtc_divider_get:0000000000000000 rtc_divider_get
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:447    .text.rtc_divider_get:0000000000000014 $d
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:453    .text.rtc_flag_get:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:460    .text.rtc_flag_get:0000000000000000 rtc_flag_get
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:490    .text.rtc_flag_get:0000000000000010 $d
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:495    .text.rtc_flag_clear:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:502    .text.rtc_flag_clear:0000000000000000 rtc_flag_clear
-C:\Users\Prog\AppData\Local\Temp\ccCWD1ub.s:523    .text.rtc_flag_clear:000000000000000c $d
+                            *ABS*:00000000 gd32f30x_rtc.c
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:18     .text.rtc_interrupt_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:26     .text.rtc_interrupt_enable:00000000 rtc_interrupt_enable
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:46     .text.rtc_interrupt_enable:00000010 $d
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:51     .text.rtc_interrupt_disable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:58     .text.rtc_interrupt_disable:00000000 rtc_interrupt_disable
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:77     .text.rtc_interrupt_disable:00000010 $d
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:82     .text.rtc_configuration_mode_enter:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:89     .text.rtc_configuration_mode_enter:00000000 rtc_configuration_mode_enter
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:107    .text.rtc_configuration_mode_enter:00000010 $d
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:112    .text.rtc_configuration_mode_exit:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:119    .text.rtc_configuration_mode_exit:00000000 rtc_configuration_mode_exit
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:137    .text.rtc_configuration_mode_exit:00000010 $d
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:142    .text.rtc_lwoff_wait:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:149    .text.rtc_lwoff_wait:00000000 rtc_lwoff_wait
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:170    .text.rtc_lwoff_wait:00000010 $d
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:175    .text.rtc_register_sync_wait:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:182    .text.rtc_register_sync_wait:00000000 rtc_register_sync_wait
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:210    .text.rtc_register_sync_wait:0000001c $d
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:215    .text.rtc_counter_get:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:222    .text.rtc_counter_get:00000000 rtc_counter_get
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:249    .text.rtc_counter_get:00000010 $d
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:254    .text.rtc_counter_set:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:261    .text.rtc_counter_set:00000000 rtc_counter_set
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:298    .text.rtc_counter_set:0000001c $d
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:303    .text.rtc_prescaler_set:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:310    .text.rtc_prescaler_set:00000000 rtc_prescaler_set
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:347    .text.rtc_prescaler_set:00000020 $d
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:352    .text.rtc_alarm_config:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:359    .text.rtc_alarm_config:00000000 rtc_alarm_config
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:396    .text.rtc_alarm_config:0000001c $d
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:401    .text.rtc_divider_get:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:408    .text.rtc_divider_get:00000000 rtc_divider_get
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:439    .text.rtc_divider_get:00000014 $d
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:444    .text.rtc_flag_get:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:451    .text.rtc_flag_get:00000000 rtc_flag_get
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:481    .text.rtc_flag_get:00000014 $d
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:486    .text.rtc_flag_clear:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:493    .text.rtc_flag_clear:00000000 rtc_flag_clear
+C:\Users\Prog\AppData\Local\Temp\cc2lXipe.s:512    .text.rtc_flag_clear:00000010 $d
 
 NO UNDEFINED SYMBOLS

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 1
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 1
   29:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
   30:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
   31:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****    POSSIBILITY OF SUCH DAMAGE.
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 2
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 2
 
 
   32:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****    ---------------------------------------------------------------------------*/
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 1
   86:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** static void system_clock_48m_hxtal(void);
   87:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** #elif defined (__SYSTEM_CLOCK_72M_PLL_HXTAL)
   88:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** uint32_t SystemCoreClock = __SYSTEM_CLOCK_72M_PLL_HXTAL;
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 3
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 3
 
 
   89:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** static void system_clock_72m_hxtal(void);
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 1
  143:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** /*!
  144:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     \brief      configure the system clock
  145:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     \param[in]  none
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 4
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 4
 
 
  146:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     \param[out] none
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 1
  200:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         }
  201:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     }
  202:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 5
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 5
 
 
  203:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* AHB = SYSCLK */
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 1
  257:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     RCU_CFG0 |= RCU_APB1_CKAHB_DIV2;
  258:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
  259:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* CK_PLL = (CK_IRC8M/2) * 12 = 48 MHz */
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 6
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 6
 
 
  260:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     RCU_CFG0 &= ~(RCU_CFG0_PLLMF | RCU_CFG0_PLLMF_4 | RCU_CFG0_PLLMF_5);
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 1
  314:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     }
  315:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
  316:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* LDO output voltage high mode */
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 7
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 7
 
 
  317:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     RCU_APB1EN |= RCU_APB1EN_PMUEN;
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 1
  371:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     RCU_CTL |= RCU_CTL_IRC8MEN;
  372:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
  373:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* wait until IRC8M is stable or the startup time is longer than IRC8M_STARTUP_TIMEOUT */
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 8
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 8
 
 
  374:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     do{
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 1
  428:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** /*!
  429:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     \brief      configure the system clock to 120M by PLL which selects IRC8M as its clock source
  430:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     \param[in]  none
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 9
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 9
 
 
  431:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     \param[out] none
@@ -501,7 +501,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 1
  440:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     RCU_CTL |= RCU_CTL_IRC8MEN;
   36              		.loc 1 440 5 view .LVU3
   37              		.loc 1 440 13 is_stmt 0 view .LVU4
-  38 0000 304A     		ldr	r2, .L10
+  38 0000 2F4A     		ldr	r2, .L10
   39 0002 1368     		ldr	r3, [r2]
   40 0004 43F00103 		orr	r3, r3, #1
   41 0008 1360     		str	r3, [r2]
@@ -522,389 +522,391 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 1
  445:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         stab_flag = (RCU_CTL & RCU_CTL_IRC8MSTB);
   51              		.loc 1 445 9 is_stmt 1 discriminator 2 view .LVU9
   52              		.loc 1 445 22 is_stmt 0 discriminator 2 view .LVU10
-  53 000e 2D4A     		ldr	r2, .L10
+  53 000e 2C4A     		ldr	r2, .L10
   54 0010 1268     		ldr	r2, [r2]
   55              	.LVL3:
  446:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     }while((0U == stab_flag) && (IRC8M_STARTUP_TIMEOUT != timeout));
-  56              		.loc 1 446 5 discriminator 2 view .LVU11
-  57 0012 12F0020F 		tst	r2, #2
-  58 0016 02D1     		bne	.L2
-  59              		.loc 1 446 30 discriminator 1 view .LVU12
-  60 0018 B3F5A06F 		cmp	r3, #1280
-  61 001c F6D1     		bne	.L3
-  62              	.L2:
+  56              		.loc 1 446 11 is_stmt 1 discriminator 2 view .LVU11
+  57              		.loc 1 446 5 is_stmt 0 discriminator 2 view .LVU12
+  58 0012 12F0020F 		tst	r2, #2
+  59 0016 02D1     		bne	.L2
+  60              		.loc 1 446 30 discriminator 1 view .LVU13
+  61 0018 B3F5A06F 		cmp	r3, #1280
+  62 001c F6D1     		bne	.L3
+  63              	.L2:
  447:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
  448:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* if fail */
  449:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     if(0U == (RCU_CTL & RCU_CTL_IRC8MSTB)){
-  63              		.loc 1 449 5 is_stmt 1 view .LVU13
-  64              		.loc 1 449 15 is_stmt 0 view .LVU14
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 10
+  64              		.loc 1 449 5 is_stmt 1 view .LVU14
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 10
 
 
-  65 001e 294B     		ldr	r3, .L10
-  66              	.LVL4:
-  67              		.loc 1 449 15 view .LVU15
-  68 0020 1B68     		ldr	r3, [r3]
-  69              		.loc 1 449 7 view .LVU16
-  70 0022 13F0020F 		tst	r3, #2
-  71 0026 00D1     		bne	.L4
-  72              	.L5:
+  65              		.loc 1 449 15 is_stmt 0 view .LVU15
+  66 001e 284B     		ldr	r3, .L10
+  67              	.LVL4:
+  68              		.loc 1 449 15 view .LVU16
+  69 0020 1B68     		ldr	r3, [r3]
+  70              		.loc 1 449 7 view .LVU17
+  71 0022 13F0020F 		tst	r3, #2
+  72 0026 00D1     		bne	.L4
+  73              	.L5:
  450:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         while(1){
-  73              		.loc 1 450 9 is_stmt 1 discriminator 1 view .LVU17
+  74              		.loc 1 450 9 is_stmt 1 discriminator 1 view .LVU18
  451:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         }
-  74              		.loc 1 451 9 discriminator 1 view .LVU18
-  75 0028 FEE7     		b	.L5
-  76              	.L4:
+  75              		.loc 1 451 9 discriminator 1 view .LVU19
+ 450:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         while(1){
+  76              		.loc 1 450 14 discriminator 1 view .LVU20
+  77 0028 FEE7     		b	.L5
+  78              	.L4:
  452:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     }
  453:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
  454:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* LDO output voltage high mode */
  455:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     RCU_APB1EN |= RCU_APB1EN_PMUEN;
-  77              		.loc 1 455 5 view .LVU19
-  78              		.loc 1 455 16 is_stmt 0 view .LVU20
-  79 002a 274A     		ldr	r2, .L10+4
-  80              	.LVL5:
-  81              		.loc 1 455 16 view .LVU21
-  82 002c 1368     		ldr	r3, [r2]
-  83 002e 43F08053 		orr	r3, r3, #268435456
-  84 0032 1360     		str	r3, [r2]
+  79              		.loc 1 455 5 view .LVU21
+  80              		.loc 1 455 16 is_stmt 0 view .LVU22
+  81 002a 254B     		ldr	r3, .L10
+  82 002c DA69     		ldr	r2, [r3, #28]
+  83              	.LVL5:
+  84              		.loc 1 455 16 view .LVU23
+  85 002e 42F08052 		orr	r2, r2, #268435456
+  86 0032 DA61     		str	r2, [r3, #28]
  456:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     PMU_CTL |= PMU_CTL_LDOVS;
-  85              		.loc 1 456 5 is_stmt 1 view .LVU22
-  86              		.loc 1 456 13 is_stmt 0 view .LVU23
-  87 0034 254A     		ldr	r2, .L10+8
-  88 0036 1368     		ldr	r3, [r2]
-  89 0038 43F44043 		orr	r3, r3, #49152
-  90 003c 1360     		str	r3, [r2]
+  87              		.loc 1 456 5 is_stmt 1 view .LVU24
+  88              		.loc 1 456 13 is_stmt 0 view .LVU25
+  89 0034 2349     		ldr	r1, .L10+4
+  90 0036 0A68     		ldr	r2, [r1]
+  91 0038 42F44042 		orr	r2, r2, #49152
+  92 003c 0A60     		str	r2, [r1]
  457:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
  458:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* IRC8M is stable */
  459:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* AHB = SYSCLK */
  460:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     RCU_CFG0 |= RCU_AHB_CKSYS_DIV1;
-  91              		.loc 1 460 5 is_stmt 1 view .LVU24
-  92              		.loc 1 460 14 is_stmt 0 view .LVU25
-  93 003e 244B     		ldr	r3, .L10+12
-  94 0040 1A68     		ldr	r2, [r3]
-  95 0042 1A60     		str	r2, [r3]
+  93              		.loc 1 460 5 is_stmt 1 view .LVU26
+  94              		.loc 1 460 14 is_stmt 0 view .LVU27
+  95 003e 5A68     		ldr	r2, [r3, #4]
+  96 0040 5A60     		str	r2, [r3, #4]
  461:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* APB2 = AHB/1 */
  462:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     RCU_CFG0 |= RCU_APB2_CKAHB_DIV1;
-  96              		.loc 1 462 5 is_stmt 1 view .LVU26
-  97              		.loc 1 462 14 is_stmt 0 view .LVU27
-  98 0044 1A68     		ldr	r2, [r3]
-  99 0046 1A60     		str	r2, [r3]
+  97              		.loc 1 462 5 is_stmt 1 view .LVU28
+  98              		.loc 1 462 14 is_stmt 0 view .LVU29
+  99 0042 5A68     		ldr	r2, [r3, #4]
+ 100 0044 5A60     		str	r2, [r3, #4]
  463:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* APB1 = AHB/2 */
  464:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     RCU_CFG0 |= RCU_APB1_CKAHB_DIV2;
- 100              		.loc 1 464 5 is_stmt 1 view .LVU28
- 101              		.loc 1 464 14 is_stmt 0 view .LVU29
- 102 0048 1A68     		ldr	r2, [r3]
- 103 004a 42F48062 		orr	r2, r2, #1024
- 104 004e 1A60     		str	r2, [r3]
+ 101              		.loc 1 464 5 is_stmt 1 view .LVU30
+ 102              		.loc 1 464 14 is_stmt 0 view .LVU31
+ 103 0046 5A68     		ldr	r2, [r3, #4]
+ 104 0048 42F48062 		orr	r2, r2, #1024
+ 105 004c 5A60     		str	r2, [r3, #4]
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 11
+
+
  465:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
  466:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* CK_PLL = (CK_IRC8M/2) * 30 = 120 MHz */
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 11
-
-
  467:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     RCU_CFG0 &= ~(RCU_CFG0_PLLMF | RCU_CFG0_PLLMF_4 | RCU_CFG0_PLLMF_5);
- 105              		.loc 1 467 5 is_stmt 1 view .LVU30
- 106              		.loc 1 467 14 is_stmt 0 view .LVU31
- 107 0050 1A68     		ldr	r2, [r3]
- 108 0052 22F09042 		bic	r2, r2, #1207959552
- 109 0056 22F47012 		bic	r2, r2, #3932160
- 110 005a 1A60     		str	r2, [r3]
+ 106              		.loc 1 467 5 is_stmt 1 view .LVU32
+ 107              		.loc 1 467 14 is_stmt 0 view .LVU33
+ 108 004e 5A68     		ldr	r2, [r3, #4]
+ 109 0050 22F09042 		bic	r2, r2, #1207959552
+ 110 0054 22F47012 		bic	r2, r2, #3932160
+ 111 0058 5A60     		str	r2, [r3, #4]
  468:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     RCU_CFG0 |= RCU_PLL_MUL30;
- 111              		.loc 1 468 5 is_stmt 1 view .LVU32
- 112              		.loc 1 468 14 is_stmt 0 view .LVU33
- 113 005c 1A68     		ldr	r2, [r3]
- 114 005e 42F00362 		orr	r2, r2, #137363456
- 115 0062 42F48022 		orr	r2, r2, #262144
- 116 0066 1A60     		str	r2, [r3]
+ 112              		.loc 1 468 5 is_stmt 1 view .LVU34
+ 113              		.loc 1 468 14 is_stmt 0 view .LVU35
+ 114 005a 5A68     		ldr	r2, [r3, #4]
+ 115 005c 42F00362 		orr	r2, r2, #137363456
+ 116 0060 42F48022 		orr	r2, r2, #262144
+ 117 0064 5A60     		str	r2, [r3, #4]
  469:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
  470:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* enable PLL */
  471:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     RCU_CTL |= RCU_CTL_PLLEN;
- 117              		.loc 1 471 5 is_stmt 1 view .LVU34
- 118              		.loc 1 471 13 is_stmt 0 view .LVU35
- 119 0068 164A     		ldr	r2, .L10
- 120 006a 1368     		ldr	r3, [r2]
- 121 006c 43F08073 		orr	r3, r3, #16777216
- 122 0070 1360     		str	r3, [r2]
+ 118              		.loc 1 471 5 is_stmt 1 view .LVU36
+ 119              		.loc 1 471 13 is_stmt 0 view .LVU37
+ 120 0066 1A68     		ldr	r2, [r3]
+ 121 0068 42F08072 		orr	r2, r2, #16777216
+ 122 006c 1A60     		str	r2, [r3]
  472:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
  473:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* wait until PLL is stable */
  474:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     while(0U == (RCU_CTL & RCU_CTL_PLLSTB)){
- 123              		.loc 1 474 5 is_stmt 1 view .LVU36
+ 123              		.loc 1 474 5 is_stmt 1 view .LVU38
  124              	.L6:
  475:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     }
- 125              		.loc 1 475 5 discriminator 1 view .LVU37
+ 125              		.loc 1 475 5 discriminator 1 view .LVU39
  474:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     }
- 126              		.loc 1 474 18 is_stmt 0 discriminator 1 view .LVU38
- 127 0072 144B     		ldr	r3, .L10
- 128 0074 1B68     		ldr	r3, [r3]
+ 126              		.loc 1 474 10 discriminator 1 view .LVU40
  474:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     }
- 129              		.loc 1 474 10 discriminator 1 view .LVU39
- 130 0076 13F0007F 		tst	r3, #33554432
- 131 007a FAD0     		beq	.L6
+ 127              		.loc 1 474 18 is_stmt 0 discriminator 1 view .LVU41
+ 128 006e 144B     		ldr	r3, .L10
+ 129 0070 1B68     		ldr	r3, [r3]
+ 474:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     }
+ 130              		.loc 1 474 10 discriminator 1 view .LVU42
+ 131 0072 13F0007F 		tst	r3, #33554432
+ 132 0076 FAD0     		beq	.L6
  476:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     
  477:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* enable the high-drive to extend the clock frequency to 120 MHz */
  478:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     PMU_CTL |= PMU_CTL_HDEN;
- 132              		.loc 1 478 5 is_stmt 1 view .LVU40
- 133              		.loc 1 478 13 is_stmt 0 view .LVU41
- 134 007c 134A     		ldr	r2, .L10+8
- 135 007e 1368     		ldr	r3, [r2]
- 136 0080 43F48033 		orr	r3, r3, #65536
- 137 0084 1360     		str	r3, [r2]
+ 133              		.loc 1 478 5 is_stmt 1 view .LVU43
+ 134              		.loc 1 478 13 is_stmt 0 view .LVU44
+ 135 0078 124A     		ldr	r2, .L10+4
+ 136 007a 1368     		ldr	r3, [r2]
+ 137 007c 43F48033 		orr	r3, r3, #65536
+ 138 0080 1360     		str	r3, [r2]
  479:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     while(0U == (PMU_CS & PMU_CS_HDRF)){
- 138              		.loc 1 479 5 is_stmt 1 view .LVU42
- 139              	.L7:
+ 139              		.loc 1 479 5 is_stmt 1 view .LVU45
+ 140              	.L7:
  480:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     }
- 140              		.loc 1 480 5 discriminator 1 view .LVU43
+ 141              		.loc 1 480 5 discriminator 1 view .LVU46
  479:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     while(0U == (PMU_CS & PMU_CS_HDRF)){
- 141              		.loc 1 479 18 is_stmt 0 discriminator 1 view .LVU44
- 142 0086 134B     		ldr	r3, .L10+16
- 143 0088 1B68     		ldr	r3, [r3]
- 479:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     while(0U == (PMU_CS & PMU_CS_HDRF)){
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 12
+ 142              		.loc 1 479 10 discriminator 1 view .LVU47
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 12
 
 
- 144              		.loc 1 479 10 discriminator 1 view .LVU45
- 145 008a 13F4803F 		tst	r3, #65536
- 146 008e FAD0     		beq	.L7
+ 479:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     while(0U == (PMU_CS & PMU_CS_HDRF)){
+ 143              		.loc 1 479 18 is_stmt 0 discriminator 1 view .LVU48
+ 144 0082 104B     		ldr	r3, .L10+4
+ 145 0084 5B68     		ldr	r3, [r3, #4]
+ 479:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     while(0U == (PMU_CS & PMU_CS_HDRF)){
+ 146              		.loc 1 479 10 discriminator 1 view .LVU49
+ 147 0086 13F4803F 		tst	r3, #65536
+ 148 008a FAD0     		beq	.L7
  481:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     
  482:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* select the high-drive mode */
  483:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     PMU_CTL |= PMU_CTL_HDS;
- 147              		.loc 1 483 5 is_stmt 1 view .LVU46
- 148              		.loc 1 483 13 is_stmt 0 view .LVU47
- 149 0090 0E4A     		ldr	r2, .L10+8
- 150 0092 1368     		ldr	r3, [r2]
- 151 0094 43F40033 		orr	r3, r3, #131072
- 152 0098 1360     		str	r3, [r2]
+ 149              		.loc 1 483 5 is_stmt 1 view .LVU50
+ 150              		.loc 1 483 13 is_stmt 0 view .LVU51
+ 151 008c 0D4A     		ldr	r2, .L10+4
+ 152 008e 1368     		ldr	r3, [r2]
+ 153 0090 43F40033 		orr	r3, r3, #131072
+ 154 0094 1360     		str	r3, [r2]
  484:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     while(0U == (PMU_CS & PMU_CS_HDSRF)){
- 153              		.loc 1 484 5 is_stmt 1 view .LVU48
- 154              	.L8:
+ 155              		.loc 1 484 5 is_stmt 1 view .LVU52
+ 156              	.L8:
  485:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     }
- 155              		.loc 1 485 5 discriminator 1 view .LVU49
+ 157              		.loc 1 485 5 discriminator 1 view .LVU53
  484:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     while(0U == (PMU_CS & PMU_CS_HDSRF)){
- 156              		.loc 1 484 18 is_stmt 0 discriminator 1 view .LVU50
- 157 009a 0E4B     		ldr	r3, .L10+16
- 158 009c 1B68     		ldr	r3, [r3]
+ 158              		.loc 1 484 10 discriminator 1 view .LVU54
  484:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     while(0U == (PMU_CS & PMU_CS_HDSRF)){
- 159              		.loc 1 484 10 discriminator 1 view .LVU51
- 160 009e 13F4003F 		tst	r3, #131072
- 161 00a2 FAD0     		beq	.L8
+ 159              		.loc 1 484 18 is_stmt 0 discriminator 1 view .LVU55
+ 160 0096 0B4B     		ldr	r3, .L10+4
+ 161 0098 5B68     		ldr	r3, [r3, #4]
+ 484:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     while(0U == (PMU_CS & PMU_CS_HDSRF)){
+ 162              		.loc 1 484 10 discriminator 1 view .LVU56
+ 163 009a 13F4003F 		tst	r3, #131072
+ 164 009e FAD0     		beq	.L8
  486:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     
  487:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* select PLL as system clock */
  488:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     RCU_CFG0 &= ~RCU_CFG0_SCS;
- 162              		.loc 1 488 5 is_stmt 1 view .LVU52
- 163              		.loc 1 488 14 is_stmt 0 view .LVU53
- 164 00a4 0A4B     		ldr	r3, .L10+12
- 165 00a6 1A68     		ldr	r2, [r3]
- 166 00a8 22F00302 		bic	r2, r2, #3
- 167 00ac 1A60     		str	r2, [r3]
+ 165              		.loc 1 488 5 is_stmt 1 view .LVU57
+ 166              		.loc 1 488 14 is_stmt 0 view .LVU58
+ 167 00a0 074B     		ldr	r3, .L10
+ 168 00a2 5A68     		ldr	r2, [r3, #4]
+ 169 00a4 22F00302 		bic	r2, r2, #3
+ 170 00a8 5A60     		str	r2, [r3, #4]
  489:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     RCU_CFG0 |= RCU_CKSYSSRC_PLL;
- 168              		.loc 1 489 5 is_stmt 1 view .LVU54
- 169              		.loc 1 489 14 is_stmt 0 view .LVU55
- 170 00ae 1A68     		ldr	r2, [r3]
- 171 00b0 42F00202 		orr	r2, r2, #2
- 172 00b4 1A60     		str	r2, [r3]
+ 171              		.loc 1 489 5 is_stmt 1 view .LVU59
+ 172              		.loc 1 489 14 is_stmt 0 view .LVU60
+ 173 00aa 5A68     		ldr	r2, [r3, #4]
+ 174 00ac 42F00202 		orr	r2, r2, #2
+ 175 00b0 5A60     		str	r2, [r3, #4]
  490:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
  491:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* wait until PLL is selected as system clock */
  492:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     while(0U == (RCU_CFG0 & RCU_SCSS_PLL)){
- 173              		.loc 1 492 5 is_stmt 1 view .LVU56
- 174              	.L9:
+ 176              		.loc 1 492 5 is_stmt 1 view .LVU61
+ 177              	.L9:
  493:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     }
- 175              		.loc 1 493 5 discriminator 1 view .LVU57
+ 178              		.loc 1 493 5 discriminator 1 view .LVU62
  492:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     }
- 176              		.loc 1 492 18 is_stmt 0 discriminator 1 view .LVU58
- 177 00b6 064B     		ldr	r3, .L10+12
- 178 00b8 1B68     		ldr	r3, [r3]
+ 179              		.loc 1 492 10 discriminator 1 view .LVU63
  492:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     }
- 179              		.loc 1 492 10 discriminator 1 view .LVU59
- 180 00ba 13F0080F 		tst	r3, #8
- 181 00be FAD0     		beq	.L9
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 13
+
+
+ 180              		.loc 1 492 18 is_stmt 0 discriminator 1 view .LVU64
+ 181 00b2 034B     		ldr	r3, .L10
+ 182 00b4 5B68     		ldr	r3, [r3, #4]
+ 492:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     }
+ 183              		.loc 1 492 10 discriminator 1 view .LVU65
+ 184 00b6 13F0080F 		tst	r3, #8
+ 185 00ba FAD0     		beq	.L9
  494:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** }
- 182              		.loc 1 494 1 view .LVU60
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 13
-
-
- 183 00c0 7047     		bx	lr
- 184              	.L11:
- 185 00c2 00BF     		.align	2
- 186              	.L10:
- 187 00c4 00100240 		.word	1073876992
- 188 00c8 1C100240 		.word	1073877020
- 189 00cc 00700040 		.word	1073770496
- 190 00d0 04100240 		.word	1073876996
- 191 00d4 04700040 		.word	1073770500
- 192              		.cfi_endproc
- 193              	.LFE118:
- 195              		.section	.text.system_clock_config,"ax",%progbits
- 196              		.align	1
- 197              		.syntax unified
- 198              		.thumb
- 199              		.thumb_func
- 200              		.fpu fpv4-sp-d16
- 202              	system_clock_config:
- 203              	.LFB117:
+ 186              		.loc 1 494 1 view .LVU66
+ 187 00bc 7047     		bx	lr
+ 188              	.L11:
+ 189 00be 00BF     		.align	2
+ 190              	.L10:
+ 191 00c0 00100240 		.word	1073876992
+ 192 00c4 00700040 		.word	1073770496
+ 193              		.cfi_endproc
+ 194              	.LFE118:
+ 196              		.section	.text.system_clock_config,"ax",%progbits
+ 197              		.align	1
+ 198              		.syntax unified
+ 199              		.thumb
+ 200              		.thumb_func
+ 201              		.fpu fpv4-sp-d16
+ 203              	system_clock_config:
+ 204              	.LFB117:
  150:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** #ifdef __SYSTEM_CLOCK_IRC8M
- 204              		.loc 1 150 1 is_stmt 1 view -0
- 205              		.cfi_startproc
- 206              		@ args = 0, pretend = 0, frame = 0
- 207              		@ frame_needed = 0, uses_anonymous_args = 0
- 208 0000 08B5     		push	{r3, lr}
- 209              	.LCFI0:
- 210              		.cfi_def_cfa_offset 8
- 211              		.cfi_offset 3, -8
- 212              		.cfi_offset 14, -4
+ 205              		.loc 1 150 1 is_stmt 1 view -0
+ 206              		.cfi_startproc
+ 207              		@ args = 0, pretend = 0, frame = 0
+ 208              		@ frame_needed = 0, uses_anonymous_args = 0
+ 209 0000 08B5     		push	{r3, lr}
+ 210              	.LCFI0:
+ 211              		.cfi_def_cfa_offset 8
+ 212              		.cfi_offset 3, -8
+ 213              		.cfi_offset 14, -4
  160:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
- 213              		.loc 1 160 5 view .LVU62
- 214 0002 FFF7FEFF 		bl	system_clock_120m_irc8m
- 215              	.LVL6:
+ 214              		.loc 1 160 5 view .LVU68
+ 215 0002 FFF7FEFF 		bl	system_clock_120m_irc8m
+ 216              	.LVL6:
  173:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
- 216              		.loc 1 173 1 is_stmt 0 view .LVU63
- 217 0006 08BD     		pop	{r3, pc}
- 218              		.cfi_endproc
- 219              	.LFE117:
- 221              		.section	.text.SystemInit,"ax",%progbits
- 222              		.align	1
- 223              		.global	SystemInit
- 224              		.syntax unified
- 225              		.thumb
- 226              		.thumb_func
- 227              		.fpu fpv4-sp-d16
- 229              	SystemInit:
- 230              	.LFB116:
+ 217              		.loc 1 173 1 is_stmt 0 view .LVU69
+ 218 0006 08BD     		pop	{r3, pc}
+ 219              		.cfi_endproc
+ 220              	.LFE117:
+ 222              		.section	.text.SystemInit,"ax",%progbits
+ 223              		.align	1
+ 224              		.global	SystemInit
+ 225              		.syntax unified
+ 226              		.thumb
+ 227              		.thumb_func
+ 228              		.fpu fpv4-sp-d16
+ 230              	SystemInit:
+ 231              	.LFB116:
  108:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****   /* FPU settings */
- 231              		.loc 1 108 1 is_stmt 1 view -0
- 232              		.cfi_startproc
- 233              		@ args = 0, pretend = 0, frame = 8
- 234              		@ frame_needed = 0, uses_anonymous_args = 0
- 235 0000 00B5     		push	{lr}
- 236              	.LCFI1:
- 237              		.cfi_def_cfa_offset 4
- 238              		.cfi_offset 14, -4
- 239 0002 83B0     		sub	sp, sp, #12
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 14
+ 232              		.loc 1 108 1 is_stmt 1 view -0
+ 233              		.cfi_startproc
+ 234              		@ args = 0, pretend = 0, frame = 8
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 14
 
 
- 240              	.LCFI2:
- 241              		.cfi_def_cfa_offset 16
+ 235              		@ frame_needed = 0, uses_anonymous_args = 0
+ 236 0000 00B5     		push	{lr}
+ 237              	.LCFI1:
+ 238              		.cfi_def_cfa_offset 4
+ 239              		.cfi_offset 14, -4
+ 240 0002 83B0     		sub	sp, sp, #12
+ 241              	.LCFI2:
+ 242              		.cfi_def_cfa_offset 16
  111:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** #endif
- 242              		.loc 1 111 5 view .LVU65
+ 243              		.loc 1 111 5 view .LVU71
  111:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** #endif
- 243              		.loc 1 111 16 is_stmt 0 view .LVU66
- 244 0004 1C4A     		ldr	r2, .L19
- 245 0006 D2F88830 		ldr	r3, [r2, #136]
- 246 000a 43F47003 		orr	r3, r3, #15728640
- 247 000e C2F88830 		str	r3, [r2, #136]
+ 244              		.loc 1 111 16 is_stmt 0 view .LVU72
+ 245 0004 1A4A     		ldr	r2, .L18
+ 246 0006 D2F88830 		ldr	r3, [r2, #136]
+ 247 000a 43F47003 		orr	r3, r3, #15728640
+ 248 000e C2F88830 		str	r3, [r2, #136]
  115:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
- 248              		.loc 1 115 5 is_stmt 1 view .LVU67
+ 249              		.loc 1 115 5 is_stmt 1 view .LVU73
  115:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
- 249              		.loc 1 115 13 is_stmt 0 view .LVU68
- 250 0012 1A4A     		ldr	r2, .L19+4
- 251 0014 1368     		ldr	r3, [r2]
- 252 0016 43F00103 		orr	r3, r3, #1
- 253 001a 1360     		str	r3, [r2]
- 254              	.LBB2:
+ 250              		.loc 1 115 13 is_stmt 0 view .LVU74
+ 251 0012 184B     		ldr	r3, .L18+4
+ 252 0014 1A68     		ldr	r2, [r3]
+ 253 0016 42F00102 		orr	r2, r2, #1
+ 254 001a 1A60     		str	r2, [r3]
+ 255              	.LBB2:
  117:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     
- 255              		.loc 1 117 5 is_stmt 1 view .LVU69
+ 256              		.loc 1 117 5 is_stmt 1 view .LVU75
  117:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     
- 256              		.loc 1 117 5 view .LVU70
- 257 001c 0432     		adds	r2, r2, #4
- 258 001e 1368     		ldr	r3, [r2]
- 259 0020 43F08003 		orr	r3, r3, #128
- 260 0024 1360     		str	r3, [r2]
+ 257              		.loc 1 117 5 view .LVU76
+ 258 001c 5A68     		ldr	r2, [r3, #4]
+ 259 001e 42F08002 		orr	r2, r2, #128
+ 260 0022 5A60     		str	r2, [r3, #4]
  117:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     
- 261              		.loc 1 117 5 view .LVU71
- 262 0026 0023     		movs	r3, #0
- 263 0028 0193     		str	r3, [sp, #4]
- 264              	.L15:
+ 261              		.loc 1 117 5 view .LVU77
+ 262 0024 0023     		movs	r3, #0
+ 263 0026 0193     		str	r3, [sp, #4]
+ 264 0028 02E0     		b	.L15
+ 265              	.L16:
  117:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     
- 265              		.loc 1 117 5 is_stmt 0 discriminator 1 view .LVU72
- 266 002a 019A     		ldr	r2, [sp, #4]
- 267 002c 44F61F63 		movw	r3, #19999
- 268 0030 9A42     		cmp	r2, r3
- 269 0032 03D8     		bhi	.L18
+ 266              		.loc 1 117 5 discriminator 3 view .LVU78
  117:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     
- 270              		.loc 1 117 5 is_stmt 1 discriminator 3 view .LVU73
- 271 0034 019B     		ldr	r3, [sp, #4]
- 272 0036 0133     		adds	r3, r3, #1
- 273 0038 0193     		str	r3, [sp, #4]
- 274 003a F6E7     		b	.L15
- 275              	.L18:
- 276              	.LBE2:
+ 267              		.loc 1 117 5 discriminator 3 view .LVU79
+ 268 002a 019B     		ldr	r3, [sp, #4]
+ 269 002c 0133     		adds	r3, r3, #1
+ 270 002e 0193     		str	r3, [sp, #4]
+ 271              	.L15:
+ 117:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     
+ 272              		.loc 1 117 5 discriminator 1 view .LVU80
+ 273 0030 019A     		ldr	r2, [sp, #4]
+ 274 0032 44F61F63 		movw	r3, #19999
+ 275 0036 9A42     		cmp	r2, r3
+ 276 0038 F7D9     		bls	.L16
+ 277              	.LBE2:
  119:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
- 277              		.loc 1 119 5 view .LVU74
+ 278              		.loc 1 119 5 view .LVU81
  119:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
- 278              		.loc 1 119 14 is_stmt 0 view .LVU75
- 279 003c 1049     		ldr	r1, .L19+8
- 280 003e 0B68     		ldr	r3, [r1]
- 281 0040 23F00303 		bic	r3, r3, #3
- 282 0044 0B60     		str	r3, [r1]
- 123:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* disable all interrupts */
- 283              		.loc 1 123 5 is_stmt 1 view .LVU76
- 123:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* disable all interrupts */
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 15
+ 279              		.loc 1 119 14 is_stmt 0 view .LVU82
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 15
 
 
- 284              		.loc 1 123 13 is_stmt 0 view .LVU77
- 285 0046 0D4A     		ldr	r2, .L19+4
- 286 0048 1368     		ldr	r3, [r2]
- 287 004a 23F08473 		bic	r3, r3, #17301504
- 288 004e 23F48033 		bic	r3, r3, #65536
- 289 0052 1360     		str	r3, [r2]
+ 280 003a 0E4B     		ldr	r3, .L18+4
+ 281 003c 5A68     		ldr	r2, [r3, #4]
+ 282 003e 22F00302 		bic	r2, r2, #3
+ 283 0042 5A60     		str	r2, [r3, #4]
+ 123:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* disable all interrupts */
+ 284              		.loc 1 123 5 is_stmt 1 view .LVU83
+ 123:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* disable all interrupts */
+ 285              		.loc 1 123 13 is_stmt 0 view .LVU84
+ 286 0044 1A68     		ldr	r2, [r3]
+ 287 0046 22F08472 		bic	r2, r2, #17301504
+ 288 004a 22F48032 		bic	r2, r2, #65536
+ 289 004e 1A60     		str	r2, [r3]
  125:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** #elif defined(GD32F30X_CL)
- 290              		.loc 1 125 5 is_stmt 1 view .LVU78
+ 290              		.loc 1 125 5 is_stmt 1 view .LVU85
  125:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** #elif defined(GD32F30X_CL)
- 291              		.loc 1 125 13 is_stmt 0 view .LVU79
- 292 0054 0B4B     		ldr	r3, .L19+12
- 293 0056 4FF41F00 		mov	r0, #10420224
- 294 005a 1860     		str	r0, [r3]
+ 291              		.loc 1 125 13 is_stmt 0 view .LVU86
+ 292 0050 4FF41F02 		mov	r2, #10420224
+ 293 0054 9A60     		str	r2, [r3, #8]
  134:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     
- 295              		.loc 1 134 5 is_stmt 1 view .LVU80
+ 294              		.loc 1 134 5 is_stmt 1 view .LVU87
  134:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     
- 296              		.loc 1 134 13 is_stmt 0 view .LVU81
- 297 005c 1368     		ldr	r3, [r2]
- 298 005e 23F48023 		bic	r3, r3, #262144
- 299 0062 1360     		str	r3, [r2]
+ 295              		.loc 1 134 13 is_stmt 0 view .LVU88
+ 296 0056 1A68     		ldr	r2, [r3]
+ 297 0058 22F48022 		bic	r2, r2, #262144
+ 298 005c 1A60     		str	r2, [r3]
  137:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     RCU_CFG1 = 0x00000000U;
- 300              		.loc 1 137 5 is_stmt 1 view .LVU82
+ 299              		.loc 1 137 5 is_stmt 1 view .LVU89
  137:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     RCU_CFG1 = 0x00000000U;
- 301              		.loc 1 137 14 is_stmt 0 view .LVU83
- 302 0064 0023     		movs	r3, #0
- 303 0066 0B60     		str	r3, [r1]
+ 300              		.loc 1 137 14 is_stmt 0 view .LVU90
+ 301 005e 0022     		movs	r2, #0
+ 302 0060 5A60     		str	r2, [r3, #4]
  138:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
- 304              		.loc 1 138 5 is_stmt 1 view .LVU84
+ 303              		.loc 1 138 5 is_stmt 1 view .LVU91
  138:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
- 305              		.loc 1 138 14 is_stmt 0 view .LVU85
- 306 0068 2C32     		adds	r2, r2, #44
- 307 006a 1360     		str	r3, [r2]
+ 304              		.loc 1 138 14 is_stmt 0 view .LVU92
+ 305 0062 DA62     		str	r2, [r3, #44]
  141:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** }
- 308              		.loc 1 141 5 is_stmt 1 view .LVU86
- 309 006c FFF7FEFF 		bl	system_clock_config
- 310              	.LVL7:
+ 306              		.loc 1 141 5 is_stmt 1 view .LVU93
+ 307 0064 FFF7FEFF 		bl	system_clock_config
+ 308              	.LVL7:
  142:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** /*!
- 311              		.loc 1 142 1 is_stmt 0 view .LVU87
- 312 0070 03B0     		add	sp, sp, #12
- 313              	.LCFI3:
- 314              		.cfi_def_cfa_offset 4
- 315              		@ sp needed
- 316 0072 5DF804FB 		ldr	pc, [sp], #4
- 317              	.L20:
- 318 0076 00BF     		.align	2
- 319              	.L19:
- 320 0078 00ED00E0 		.word	-536810240
- 321 007c 00100240 		.word	1073876992
- 322 0080 04100240 		.word	1073876996
- 323 0084 08100240 		.word	1073877000
- 324              		.cfi_endproc
- 325              	.LFE116:
- 327              		.section	.text.SystemCoreClockUpdate,"ax",%progbits
- 328              		.align	1
- 329              		.global	SystemCoreClockUpdate
- 330              		.syntax unified
- 331              		.thumb
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 16
+ 309              		.loc 1 142 1 is_stmt 0 view .LVU94
+ 310 0068 03B0     		add	sp, sp, #12
+ 311              	.LCFI3:
+ 312              		.cfi_def_cfa_offset 4
+ 313              		@ sp needed
+ 314 006a 5DF804FB 		ldr	pc, [sp], #4
+ 315              	.L19:
+ 316 006e 00BF     		.align	2
+ 317              	.L18:
+ 318 0070 00ED00E0 		.word	-536810240
+ 319 0074 00100240 		.word	1073876992
+ 320              		.cfi_endproc
+ 321              	.LFE116:
+ 323              		.section	.text.SystemCoreClockUpdate,"ax",%progbits
+ 324              		.align	1
+ 325              		.global	SystemCoreClockUpdate
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 16
 
 
- 332              		.thumb_func
- 333              		.fpu fpv4-sp-d16
- 335              	SystemCoreClockUpdate:
- 336              	.LFB119:
+ 326              		.syntax unified
+ 327              		.thumb
+ 328              		.thumb_func
+ 329              		.fpu fpv4-sp-d16
+ 331              	SystemCoreClockUpdate:
+ 332              	.LFB119:
  495:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
  496:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** #elif defined (__SYSTEM_CLOCK_HXTAL)
  497:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** /*!
@@ -956,11 +958,11 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 1
  543:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     \param[out] none
  544:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     \retval     none
  545:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** */
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 17
+
+
  546:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** static void system_clock_48m_hxtal(void)
  547:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** {
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 17
-
-
  548:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     uint32_t timeout = 0U;
  549:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     uint32_t stab_flag = 0U;
  550:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
@@ -1016,11 +1018,11 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 1
  600:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** #endif /* GD32F30X_HD and GD32F30X_XD */
  601:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
  602:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* enable PLL */
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 18
+
+
  603:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     RCU_CTL |= RCU_CTL_PLLEN;
  604:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 18
-
-
  605:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* wait until PLL is stable */
  606:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     while(0U == (RCU_CTL & RCU_CTL_PLLSTB)){
  607:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     }
@@ -1076,11 +1078,11 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 1
  657:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* HXTAL is stable */
  658:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* AHB = SYSCLK */
  659:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     RCU_CFG0 |= RCU_AHB_CKSYS_DIV1;
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 19
+
+
  660:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* APB2 = AHB/1 */
  661:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     RCU_CFG0 |= RCU_APB2_CKAHB_DIV1;
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 19
-
-
  662:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* APB1 = AHB/2 */
  663:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     RCU_CFG0 |= RCU_APB1_CKAHB_DIV2;
  664:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
@@ -1136,11 +1138,11 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 1
  714:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** }
  715:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
  716:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** #elif defined (__SYSTEM_CLOCK_108M_PLL_HXTAL)
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 20
+
+
  717:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** /*!
  718:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     \brief      configure the system clock to 108M by PLL which selects HXTAL(8M) as its clock sour
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 20
-
-
  719:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     \param[in]  none
  720:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     \param[out] none
  721:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     \retval     none
@@ -1196,11 +1198,11 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 1
  771:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
  772:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* enable PLL1 */
  773:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     RCU_CTL |= RCU_CTL_PLL1EN;
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 21
+
+
  774:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* wait till PLL1 is ready */
  775:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     while((RCU_CTL & RCU_CTL_PLL1STB) == 0){
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 21
-
-
  776:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     }
  777:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** #endif /* GD32F30X_HD and GD32F30X_XD */
  778:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
@@ -1256,11 +1258,11 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 1
  828:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         while(1){
  829:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         }
  830:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     }
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 22
+
+
  831:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
  832:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     RCU_APB1EN |= RCU_APB1EN_PMUEN;
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 22
-
-
  833:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     PMU_CTL |= PMU_CTL_LDOVS;
  834:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
  835:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* HXTAL is stable */
@@ -1316,11 +1318,11 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 1
  885:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* select PLL as system clock */
  886:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     RCU_CFG0 &= ~RCU_CFG0_SCS;
  887:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     RCU_CFG0 |= RCU_CKSYSSRC_PLL;
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 23
+
+
  888:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
  889:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* wait until PLL is selected as system clock */
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 23
-
-
  890:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     while(0U == (RCU_CFG0 & RCU_SCSS_PLL)){
  891:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     }
  892:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** }
@@ -1334,53 +1336,53 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 1
  900:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** */
  901:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** void SystemCoreClockUpdate(void)
  902:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** {
- 337              		.loc 1 902 1 is_stmt 1 view -0
- 338              		.cfi_startproc
- 339              		@ args = 0, pretend = 0, frame = 16
- 340              		@ frame_needed = 0, uses_anonymous_args = 0
- 341              		@ link register save eliminated.
- 342 0000 84B0     		sub	sp, sp, #16
- 343              	.LCFI4:
- 344              		.cfi_def_cfa_offset 16
+ 333              		.loc 1 902 1 is_stmt 1 view -0
+ 334              		.cfi_startproc
+ 335              		@ args = 0, pretend = 0, frame = 16
+ 336              		@ frame_needed = 0, uses_anonymous_args = 0
+ 337              		@ link register save eliminated.
+ 338 0000 84B0     		sub	sp, sp, #16
+ 339              	.LCFI4:
+ 340              		.cfi_def_cfa_offset 16
  903:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     uint32_t sws;
- 345              		.loc 1 903 5 view .LVU89
+ 341              		.loc 1 903 5 view .LVU96
  904:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     uint32_t pllsel, pllpresel, predv0sel, pllmf, ck_src, idx, clk_exp;
- 346              		.loc 1 904 5 view .LVU90
+ 342              		.loc 1 904 5 view .LVU97
  905:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* exponent of AHB, APB1 and APB2 clock divider */
  906:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     const uint8_t ahb_exp[16] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};
- 347              		.loc 1 906 5 view .LVU91
- 348              		.loc 1 906 19 is_stmt 0 view .LVU92
- 349 0002 2D4B     		ldr	r3, .L39
- 350 0004 0FCB     		ldm	r3, {r0, r1, r2, r3}
- 351 0006 0DF1100C 		add	ip, sp, #16
- 352 000a 0CE90F00 		stmdb	ip, {r0, r1, r2, r3}
+ 343              		.loc 1 906 5 view .LVU98
+ 344              		.loc 1 906 19 is_stmt 0 view .LVU99
+ 345 0002 2D4B     		ldr	r3, .L37
+ 346 0004 0FCB     		ldm	r3, {r0, r1, r2, r3}
+ 347 0006 0DF1100C 		add	ip, sp, #16
+ 348 000a 0CE90F00 		stmdb	ip, {r0, r1, r2, r3}
  907:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** #ifdef GD32F30X_CL
  908:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     uint32_t predv0, predv1, pll1mf;
  909:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** #endif /* GD32F30X_CL */
  910:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
  911:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     sws = GET_BITS(RCU_CFG0, 2, 3);
- 353              		.loc 1 911 5 is_stmt 1 view .LVU93
- 354              		.loc 1 911 11 is_stmt 0 view .LVU94
- 355 000e 2B4B     		ldr	r3, .L39+4
- 356 0010 1B68     		ldr	r3, [r3]
- 357              		.loc 1 911 9 view .LVU95
- 358 0012 C3F38103 		ubfx	r3, r3, #2, #2
- 359              	.LVL8:
+ 349              		.loc 1 911 5 is_stmt 1 view .LVU100
+ 350              		.loc 1 911 11 is_stmt 0 view .LVU101
+ 351 000e 2B4B     		ldr	r3, .L37+4
+ 352 0010 5B68     		ldr	r3, [r3, #4]
+ 353              		.loc 1 911 9 view .LVU102
+ 354 0012 C3F38103 		ubfx	r3, r3, #2, #2
+ 355              	.LVL8:
  912:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     switch(sws){
- 360              		.loc 1 912 5 is_stmt 1 view .LVU96
- 361 0016 012B     		cmp	r3, #1
- 362 0018 17D0     		beq	.L22
- 363 001a 2BB1     		cbz	r3, .L23
- 364 001c 022B     		cmp	r3, #2
- 365 001e 18D0     		beq	.L24
+ 356              		.loc 1 912 5 is_stmt 1 view .LVU103
+ 357 0016 012B     		cmp	r3, #1
+ 358 0018 17D0     		beq	.L21
+ 359 001a 022B     		cmp	r3, #2
+ 360 001c 19D0     		beq	.L22
+ 361 001e 1BB1     		cbz	r3, .L36
  913:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* IRC8M is selected as CK_SYS */
  914:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     case SEL_IRC8M:
  915:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         SystemCoreClock = IRC8M_VALUE;
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 24
+
+
  916:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         break;
  917:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* HXTAL is selected as CK_SYS */
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 24
-
-
  918:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     case SEL_HXTAL:
  919:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         SystemCoreClock = HXTAL_VALUE;
  920:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         break;
@@ -1436,11 +1438,11 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 1
  970:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****             pllmf |= 0x20U;
  971:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         }
  972:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 25
+
+
  973:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         if( pllmf >= 15U){
  974:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****             pllmf += 1U;
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 25
-
-
  975:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         }else{
  976:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****             pllmf += 2U;
  977:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         }
@@ -1457,333 +1459,318 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 1
  988:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* IRC8M is selected as CK_SYS */
  989:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     default:
  990:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         SystemCoreClock = IRC8M_VALUE;
- 366              		.loc 1 990 9 view .LVU97
- 367              		.loc 1 990 25 is_stmt 0 view .LVU98
- 368 0020 274B     		ldr	r3, .L39+8
- 369              	.LVL9:
- 370              		.loc 1 990 25 view .LVU99
- 371 0022 284A     		ldr	r2, .L39+12
- 372 0024 1A60     		str	r2, [r3]
+ 362              		.loc 1 990 9 view .LVU104
+ 363              		.loc 1 990 25 is_stmt 0 view .LVU105
+ 364 0020 274B     		ldr	r3, .L37+8
+ 365              	.LVL9:
+ 366              		.loc 1 990 25 view .LVU106
+ 367 0022 284A     		ldr	r2, .L37+12
+ 368 0024 1A60     		str	r2, [r3]
  991:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         break;
- 373              		.loc 1 991 9 is_stmt 1 view .LVU100
- 374 0026 02E0     		b	.L26
- 375              	.LVL10:
- 376              	.L23:
+ 369              		.loc 1 991 9 is_stmt 1 view .LVU107
+ 370 0026 02E0     		b	.L24
+ 371              	.LVL10:
+ 372              	.L36:
  915:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         break;
- 377              		.loc 1 915 9 view .LVU101
+ 373              		.loc 1 915 9 view .LVU108
  915:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         break;
- 378              		.loc 1 915 25 is_stmt 0 view .LVU102
- 379 0028 254B     		ldr	r3, .L39+8
- 380              	.LVL11:
+ 374              		.loc 1 915 25 is_stmt 0 view .LVU109
+ 375 0028 254B     		ldr	r3, .L37+8
+ 376              	.LVL11:
  915:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         break;
- 381              		.loc 1 915 25 view .LVU103
- 382 002a 264A     		ldr	r2, .L39+12
- 383 002c 1A60     		str	r2, [r3]
+ 377              		.loc 1 915 25 view .LVU110
+ 378 002a 264A     		ldr	r2, .L37+12
+ 379 002c 1A60     		str	r2, [r3]
  916:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* HXTAL is selected as CK_SYS */
- 384              		.loc 1 916 9 is_stmt 1 view .LVU104
- 385              	.L26:
+ 380              		.loc 1 916 9 is_stmt 1 view .LVU111
+ 381              	.L24:
  992:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     }
  993:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
  994:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* calculate AHB clock frequency */
  995:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     idx = GET_BITS(RCU_CFG0, 4, 7);
- 386              		.loc 1 995 5 view .LVU105
- 387              		.loc 1 995 11 is_stmt 0 view .LVU106
- 388 002e 234B     		ldr	r3, .L39+4
- 389 0030 1B68     		ldr	r3, [r3]
- 390              		.loc 1 995 9 view .LVU107
- 391 0032 C3F30313 		ubfx	r3, r3, #4, #4
- 392              	.LVL12:
+ 382              		.loc 1 995 5 view .LVU112
+ 383              		.loc 1 995 11 is_stmt 0 view .LVU113
+ 384 002e 234B     		ldr	r3, .L37+4
+ 385 0030 5B68     		ldr	r3, [r3, #4]
+ 386              		.loc 1 995 9 view .LVU114
+ 387 0032 C3F30313 		ubfx	r3, r3, #4, #4
+ 388              	.LVL12:
  996:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     clk_exp = ahb_exp[idx];
- 393              		.loc 1 996 5 is_stmt 1 view .LVU108
- 394              		.loc 1 996 22 is_stmt 0 view .LVU109
- 395 0036 04AA     		add	r2, sp, #16
- 396 0038 1344     		add	r3, r3, r2
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 26
+ 389              		.loc 1 996 5 is_stmt 1 view .LVU115
+ 390              		.loc 1 996 22 is_stmt 0 view .LVU116
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 26
 
 
- 397              	.LVL13:
- 398              		.loc 1 996 22 view .LVU110
- 399 003a 13F8101C 		ldrb	r1, [r3, #-16]	@ zero_extendqisi2
- 400              	.LVL14:
+ 391 0036 04AA     		add	r2, sp, #16
+ 392 0038 1344     		add	r3, r3, r2
+ 393              	.LVL13:
+ 394              		.loc 1 996 22 view .LVU117
+ 395 003a 13F8101C 		ldrb	r1, [r3, #-16]	@ zero_extendqisi2
+ 396              	.LVL14:
  997:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     SystemCoreClock = SystemCoreClock >> clk_exp;
- 401              		.loc 1 997 5 is_stmt 1 view .LVU111
- 402              		.loc 1 997 39 is_stmt 0 view .LVU112
- 403 003e 204A     		ldr	r2, .L39+8
- 404 0040 1368     		ldr	r3, [r2]
- 405 0042 CB40     		lsrs	r3, r3, r1
- 406              		.loc 1 997 21 view .LVU113
- 407 0044 1360     		str	r3, [r2]
+ 397              		.loc 1 997 5 is_stmt 1 view .LVU118
+ 398              		.loc 1 997 39 is_stmt 0 view .LVU119
+ 399 003e 204A     		ldr	r2, .L37+8
+ 400 0040 1368     		ldr	r3, [r2]
+ 401 0042 CB40     		lsrs	r3, r3, r1
+ 402              		.loc 1 997 21 view .LVU120
+ 403 0044 1360     		str	r3, [r2]
  998:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** }
- 408              		.loc 1 998 1 view .LVU114
- 409 0046 04B0     		add	sp, sp, #16
- 410              	.LCFI5:
- 411              		.cfi_remember_state
- 412              		.cfi_def_cfa_offset 0
- 413              		@ sp needed
- 414 0048 7047     		bx	lr
- 415              	.LVL15:
- 416              	.L22:
- 417              	.LCFI6:
- 418              		.cfi_restore_state
+ 404              		.loc 1 998 1 view .LVU121
+ 405 0046 04B0     		add	sp, sp, #16
+ 406              	.LCFI5:
+ 407              		.cfi_remember_state
+ 408              		.cfi_def_cfa_offset 0
+ 409              		@ sp needed
+ 410 0048 7047     		bx	lr
+ 411              	.LVL15:
+ 412              	.L21:
+ 413              	.LCFI6:
+ 414              		.cfi_restore_state
  919:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         break;
- 419              		.loc 1 919 9 is_stmt 1 view .LVU115
+ 415              		.loc 1 919 9 is_stmt 1 view .LVU122
  919:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         break;
- 420              		.loc 1 919 25 is_stmt 0 view .LVU116
- 421 004a 1D4B     		ldr	r3, .L39+8
- 422              	.LVL16:
+ 416              		.loc 1 919 25 is_stmt 0 view .LVU123
+ 417 004a 1D4B     		ldr	r3, .L37+8
+ 418              	.LVL16:
  919:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         break;
- 423              		.loc 1 919 25 view .LVU117
- 424 004c 1D4A     		ldr	r2, .L39+12
- 425 004e 1A60     		str	r2, [r3]
+ 419              		.loc 1 919 25 view .LVU124
+ 420 004c 1D4A     		ldr	r2, .L37+12
+ 421 004e 1A60     		str	r2, [r3]
  920:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* PLL is selected as CK_SYS */
- 426              		.loc 1 920 9 is_stmt 1 view .LVU118
- 427 0050 EDE7     		b	.L26
- 428              	.LVL17:
- 429              	.L24:
+ 422              		.loc 1 920 9 is_stmt 1 view .LVU125
+ 423 0050 EDE7     		b	.L24
+ 424              	.LVL17:
+ 425              	.L22:
  924:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
- 430              		.loc 1 924 9 view .LVU119
+ 426              		.loc 1 924 9 view .LVU126
  924:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
- 431              		.loc 1 924 19 is_stmt 0 view .LVU120
- 432 0052 1A4B     		ldr	r3, .L39+4
- 433              	.LVL18:
+ 427              		.loc 1 924 19 is_stmt 0 view .LVU127
+ 428 0052 1A4B     		ldr	r3, .L37+4
+ 429              	.LVL18:
  924:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
- 434              		.loc 1 924 19 view .LVU121
- 435 0054 1B68     		ldr	r3, [r3]
- 436              	.LVL19:
+ 430              		.loc 1 924 19 view .LVU128
+ 431 0054 5B68     		ldr	r3, [r3, #4]
+ 432              	.LVL19:
  926:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****             /* PLL clock source is HXTAL or IRC48M */
- 437              		.loc 1 926 9 is_stmt 1 view .LVU122
+ 433              		.loc 1 926 9 is_stmt 1 view .LVU129
  926:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****             /* PLL clock source is HXTAL or IRC48M */
- 438              		.loc 1 926 11 is_stmt 0 view .LVU123
- 439 0056 13F4803F 		tst	r3, #65536
- 440 005a 0ED0     		beq	.L34
- 928:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****             
- 441              		.loc 1 928 13 is_stmt 1 view .LVU124
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 27
+ 434              		.loc 1 926 11 is_stmt 0 view .LVU130
+ 435 0056 13F4803F 		tst	r3, #65536
+ 436 005a 0ED0     		beq	.L32
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 27
 
 
  928:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****             
- 442              		.loc 1 928 26 is_stmt 0 view .LVU125
- 443 005c 1A4B     		ldr	r3, .L39+16
- 444              	.LVL20:
+ 437              		.loc 1 928 13 is_stmt 1 view .LVU131
  928:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****             
- 445              		.loc 1 928 26 view .LVU126
- 446 005e 1B68     		ldr	r3, [r3]
- 447              	.LVL21:
+ 438              		.loc 1 928 26 is_stmt 0 view .LVU132
+ 439 005c 174B     		ldr	r3, .L37+4
+ 440              	.LVL20:
+ 928:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****             
+ 441              		.loc 1 928 26 view .LVU133
+ 442 005e DB6A     		ldr	r3, [r3, #44]
+ 443              	.LVL21:
  930:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****                 /* PLL clock source is HXTAL */
- 448              		.loc 1 930 13 is_stmt 1 view .LVU127
+ 444              		.loc 1 930 13 is_stmt 1 view .LVU134
  930:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****                 /* PLL clock source is HXTAL */
- 449              		.loc 1 930 15 is_stmt 0 view .LVU128
- 450 0060 13F0804F 		tst	r3, #1073741824
- 451 0064 07D1     		bne	.L35
+ 445              		.loc 1 930 15 is_stmt 0 view .LVU135
+ 446 0060 13F0804F 		tst	r3, #1073741824
+ 447 0064 07D1     		bne	.L33
  932:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****             }else{
- 452              		.loc 1 932 24 view .LVU129
- 453 0066 174A     		ldr	r2, .L39+12
- 454              	.L28:
- 455              	.LVL22:
+ 448              		.loc 1 932 24 view .LVU136
+ 449 0066 1749     		ldr	r1, .L37+12
+ 450              	.L26:
+ 451              	.LVL22:
  939:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****             /* PREDV0 input source clock divided by 2 */
- 456              		.loc 1 939 13 is_stmt 1 view .LVU130
+ 452              		.loc 1 939 13 is_stmt 1 view .LVU137
  939:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****             /* PREDV0 input source clock divided by 2 */
- 457              		.loc 1 939 26 is_stmt 0 view .LVU131
- 458 0068 144B     		ldr	r3, .L39+4
- 459              	.LVL23:
+ 453              		.loc 1 939 26 is_stmt 0 view .LVU138
+ 454 0068 144B     		ldr	r3, .L37+4
+ 455              	.LVL23:
  939:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****             /* PREDV0 input source clock divided by 2 */
- 460              		.loc 1 939 26 view .LVU132
- 461 006a 1B68     		ldr	r3, [r3]
- 462              	.LVL24:
+ 456              		.loc 1 939 26 view .LVU139
+ 457 006a 5B68     		ldr	r3, [r3, #4]
+ 458              	.LVL24:
  941:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****                 ck_src /= 2U;
- 463              		.loc 1 941 13 is_stmt 1 view .LVU133
+ 459              		.loc 1 941 13 is_stmt 1 view .LVU140
  941:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****                 ck_src /= 2U;
- 464              		.loc 1 941 15 is_stmt 0 view .LVU134
- 465 006c 13F4003F 		tst	r3, #131072
- 466 0070 04D0     		beq	.L27
+ 460              		.loc 1 941 15 is_stmt 0 view .LVU141
+ 461 006c 13F4003F 		tst	r3, #131072
+ 462 0070 04D0     		beq	.L25
  942:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****             }
- 467              		.loc 1 942 17 is_stmt 1 view .LVU135
+ 463              		.loc 1 942 17 is_stmt 1 view .LVU142
  942:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****             }
- 468              		.loc 1 942 24 is_stmt 0 view .LVU136
- 469 0072 5208     		lsrs	r2, r2, #1
- 470              	.LVL25:
+ 464              		.loc 1 942 24 is_stmt 0 view .LVU143
+ 465 0072 4908     		lsrs	r1, r1, #1
+ 466              	.LVL25:
  942:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****             }
- 471              		.loc 1 942 24 view .LVU137
- 472 0074 02E0     		b	.L27
- 473              	.LVL26:
- 474              	.L35:
+ 467              		.loc 1 942 24 view .LVU144
+ 468 0074 02E0     		b	.L25
+ 469              	.LVL26:
+ 470              	.L33:
  935:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****             }
- 475              		.loc 1 935 24 view .LVU138
- 476 0076 154A     		ldr	r2, .L39+20
- 477 0078 F6E7     		b	.L28
- 478              	.LVL27:
- 479              	.L34:
+ 471              		.loc 1 935 24 view .LVU145
+ 472 0076 1449     		ldr	r1, .L37+16
+ 473 0078 F6E7     		b	.L26
+ 474              	.LVL27:
+ 475              	.L32:
  960:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         }
- 480              		.loc 1 960 20 view .LVU139
- 481 007a 154A     		ldr	r2, .L39+24
- 482              	.LVL28:
- 483              	.L27:
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 28
+ 476              		.loc 1 960 20 view .LVU146
+ 477 007a 1449     		ldr	r1, .L37+20
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 28
 
 
+ 478              	.LVL28:
+ 479              	.L25:
  964:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
- 484              		.loc 1 964 9 is_stmt 1 view .LVU140
+ 480              		.loc 1 964 9 is_stmt 1 view .LVU147
  964:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
- 485              		.loc 1 964 17 is_stmt 0 view .LVU141
- 486 007c 0F49     		ldr	r1, .L39+4
- 487 007e 0B68     		ldr	r3, [r1]
+ 481              		.loc 1 964 17 is_stmt 0 view .LVU148
+ 482 007c 0F4A     		ldr	r2, .L37+4
+ 483 007e 5368     		ldr	r3, [r2, #4]
  964:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c **** 
- 488              		.loc 1 964 15 view .LVU142
- 489 0080 C3F38343 		ubfx	r3, r3, #18, #4
- 490              	.LVL29:
+ 484              		.loc 1 964 15 view .LVU149
+ 485 0080 C3F38343 		ubfx	r3, r3, #18, #4
+ 486              	.LVL29:
  966:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****             pllmf |= 0x10U;
- 491              		.loc 1 966 9 is_stmt 1 view .LVU143
+ 487              		.loc 1 966 9 is_stmt 1 view .LVU150
  966:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****             pllmf |= 0x10U;
- 492              		.loc 1 966 13 is_stmt 0 view .LVU144
- 493 0084 0968     		ldr	r1, [r1]
+ 488              		.loc 1 966 13 is_stmt 0 view .LVU151
+ 489 0084 5268     		ldr	r2, [r2, #4]
  966:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****             pllmf |= 0x10U;
- 494              		.loc 1 966 11 view .LVU145
- 495 0086 11F0006F 		tst	r1, #134217728
- 496 008a 01D0     		beq	.L29
+ 490              		.loc 1 966 11 view .LVU152
+ 491 0086 12F0006F 		tst	r2, #134217728
+ 492 008a 01D0     		beq	.L27
  967:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         }
- 497              		.loc 1 967 13 is_stmt 1 view .LVU146
+ 493              		.loc 1 967 13 is_stmt 1 view .LVU153
  967:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         }
- 498              		.loc 1 967 19 is_stmt 0 view .LVU147
- 499 008c 43F01003 		orr	r3, r3, #16
- 500              	.LVL30:
- 501              	.L29:
+ 494              		.loc 1 967 19 is_stmt 0 view .LVU154
+ 495 008c 43F01003 		orr	r3, r3, #16
+ 496              	.LVL30:
+ 497              	.L27:
  969:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****             pllmf |= 0x20U;
- 502              		.loc 1 969 9 is_stmt 1 view .LVU148
+ 498              		.loc 1 969 9 is_stmt 1 view .LVU155
  969:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****             pllmf |= 0x20U;
- 503              		.loc 1 969 13 is_stmt 0 view .LVU149
- 504 0090 0A49     		ldr	r1, .L39+4
- 505 0092 0968     		ldr	r1, [r1]
+ 499              		.loc 1 969 13 is_stmt 0 view .LVU156
+ 500 0090 0A4A     		ldr	r2, .L37+4
+ 501 0092 5268     		ldr	r2, [r2, #4]
  969:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****             pllmf |= 0x20U;
- 506              		.loc 1 969 11 view .LVU150
- 507 0094 11F0804F 		tst	r1, #1073741824
- 508 0098 01D0     		beq	.L30
+ 502              		.loc 1 969 11 view .LVU157
+ 503 0094 12F0804F 		tst	r2, #1073741824
+ 504 0098 01D0     		beq	.L28
  970:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         }
- 509              		.loc 1 970 13 is_stmt 1 view .LVU151
+ 505              		.loc 1 970 13 is_stmt 1 view .LVU158
  970:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         }
- 510              		.loc 1 970 19 is_stmt 0 view .LVU152
- 511 009a 43F02003 		orr	r3, r3, #32
- 512              	.LVL31:
- 513              	.L30:
+ 506              		.loc 1 970 19 is_stmt 0 view .LVU159
+ 507 009a 43F02003 		orr	r3, r3, #32
+ 508              	.LVL31:
+ 509              	.L28:
  973:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****             pllmf += 1U;
- 514              		.loc 1 973 9 is_stmt 1 view .LVU153
+ 510              		.loc 1 973 9 is_stmt 1 view .LVU160
  973:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****             pllmf += 1U;
- 515              		.loc 1 973 11 is_stmt 0 view .LVU154
- 516 009e 0E2B     		cmp	r3, #14
- 517 00a0 08D9     		bls	.L31
+ 511              		.loc 1 973 11 is_stmt 0 view .LVU161
+ 512 009e 0E2B     		cmp	r3, #14
+ 513 00a0 08D9     		bls	.L29
  974:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         }else{
- 518              		.loc 1 974 13 is_stmt 1 view .LVU155
+ 514              		.loc 1 974 13 is_stmt 1 view .LVU162
  974:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         }else{
- 519              		.loc 1 974 19 is_stmt 0 view .LVU156
- 520 00a2 0133     		adds	r3, r3, #1
- 521              	.LVL32:
- 522              	.L32:
- 978:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****             pllmf = 63U;
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 29
+ 515              		.loc 1 974 19 is_stmt 0 view .LVU163
+ 516 00a2 0133     		adds	r3, r3, #1
+ 517              	.LVL32:
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 29
 
 
- 523              		.loc 1 978 9 is_stmt 1 view .LVU157
+ 518              	.L30:
  978:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****             pllmf = 63U;
- 524              		.loc 1 978 11 is_stmt 0 view .LVU158
- 525 00a4 3D2B     		cmp	r3, #61
- 526 00a6 00D9     		bls	.L33
+ 519              		.loc 1 978 9 is_stmt 1 view .LVU164
+ 978:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****             pllmf = 63U;
+ 520              		.loc 1 978 11 is_stmt 0 view .LVU165
+ 521 00a4 3D2B     		cmp	r3, #61
+ 522 00a6 00D9     		bls	.L31
  979:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         }
- 527              		.loc 1 979 19 view .LVU159
- 528 00a8 3F23     		movs	r3, #63
- 529              	.LVL33:
- 530              	.L33:
+ 523              		.loc 1 979 19 view .LVU166
+ 524 00a8 3F23     		movs	r3, #63
+ 525              	.LVL33:
+ 526              	.L31:
  981:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     #ifdef GD32F30X_CL
- 531              		.loc 1 981 9 is_stmt 1 view .LVU160
+ 527              		.loc 1 981 9 is_stmt 1 view .LVU167
  981:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     #ifdef GD32F30X_CL
- 532              		.loc 1 981 34 is_stmt 0 view .LVU161
- 533 00aa 02FB03F3 		mul	r3, r2, r3
- 534              	.LVL34:
+ 528              		.loc 1 981 34 is_stmt 0 view .LVU168
+ 529 00aa 01FB03F3 		mul	r3, r1, r3
+ 530              	.LVL34:
  981:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     #ifdef GD32F30X_CL
- 535              		.loc 1 981 25 view .LVU162
- 536 00ae 044A     		ldr	r2, .L39+8
- 537              	.LVL35:
- 981:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     #ifdef GD32F30X_CL
- 538              		.loc 1 981 25 view .LVU163
- 539 00b0 1360     		str	r3, [r2]
+ 531              		.loc 1 981 25 view .LVU169
+ 532 00ae 044A     		ldr	r2, .L37+8
+ 533 00b0 1360     		str	r3, [r2]
  987:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****     /* IRC8M is selected as CK_SYS */
- 540              		.loc 1 987 9 is_stmt 1 view .LVU164
- 541 00b2 BCE7     		b	.L26
- 542              	.LVL36:
- 543              	.L31:
+ 534              		.loc 1 987 9 is_stmt 1 view .LVU170
+ 535 00b2 BCE7     		b	.L24
+ 536              	.LVL35:
+ 537              	.L29:
  976:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         }
- 544              		.loc 1 976 13 view .LVU165
+ 538              		.loc 1 976 13 view .LVU171
  976:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         }
- 545              		.loc 1 976 19 is_stmt 0 view .LVU166
- 546 00b4 0233     		adds	r3, r3, #2
- 547              	.LVL37:
+ 539              		.loc 1 976 19 is_stmt 0 view .LVU172
+ 540 00b4 0233     		adds	r3, r3, #2
+ 541              	.LVL36:
  976:Drivers/CMSIS/GD/GD32F30x/Source/system_gd32f30x.c ****         }
- 548              		.loc 1 976 19 view .LVU167
- 549 00b6 F5E7     		b	.L32
- 550              	.L40:
- 551              		.align	2
- 552              	.L39:
- 553 00b8 00000000 		.word	.LANCHOR0
- 554 00bc 04100240 		.word	1073876996
- 555 00c0 00000000 		.word	.LANCHOR1
- 556 00c4 00127A00 		.word	8000000
- 557 00c8 2C100240 		.word	1073877036
- 558 00cc 006CDC02 		.word	48000000
- 559 00d0 00093D00 		.word	4000000
- 560              		.cfi_endproc
- 561              	.LFE119:
- 563              		.global	SystemCoreClock
- 564              		.section	.rodata
- 565              		.align	2
- 566              		.set	.LANCHOR0,. + 0
- 567              	.LC0:
- 568 0000 00       		.byte	0
- 569 0001 00       		.byte	0
- 570 0002 00       		.byte	0
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 30
+ 542              		.loc 1 976 19 view .LVU173
+ 543 00b6 F5E7     		b	.L30
+ 544              	.L38:
+ 545              		.align	2
+ 546              	.L37:
+ 547 00b8 00000000 		.word	.LANCHOR0
+ 548 00bc 00100240 		.word	1073876992
+ 549 00c0 00000000 		.word	.LANCHOR1
+ 550 00c4 00127A00 		.word	8000000
+ 551 00c8 006CDC02 		.word	48000000
+ 552 00cc 00093D00 		.word	4000000
+ 553              		.cfi_endproc
+ 554              	.LFE119:
+ 556              		.global	SystemCoreClock
+ 557              		.section	.rodata
+ 558              		.align	2
+ 559              		.set	.LANCHOR0,. + 0
+ 560              	.LC0:
+ 561 0000 00000000 		.ascii	"\000\000\000\000\000\000\000\000\001\002\003\004\006"
+ 561      00000000 
+ 561      01020304 
+ 561      06
+ 562 000d 070809   		.ascii	"\007\010\011"
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 30
 
 
- 571 0003 00       		.byte	0
- 572 0004 00       		.byte	0
- 573 0005 00       		.byte	0
- 574 0006 00       		.byte	0
- 575 0007 00       		.byte	0
- 576 0008 01       		.byte	1
- 577 0009 02       		.byte	2
- 578 000a 03       		.byte	3
- 579 000b 04       		.byte	4
- 580 000c 06       		.byte	6
- 581 000d 07       		.byte	7
- 582 000e 08       		.byte	8
- 583 000f 09       		.byte	9
- 584              		.section	.data.SystemCoreClock,"aw"
- 585              		.align	2
- 586              		.set	.LANCHOR1,. + 0
- 589              	SystemCoreClock:
- 590 0000 000E2707 		.word	120000000
- 591              		.text
- 592              	.Letext0:
- 593              		.file 2 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\machine\\_default_types.h"
- 594              		.file 3 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\sys\\_stdint.h"
- 595              		.file 4 "Drivers/CMSIS/core_cm4.h"
- 596              		.file 5 "Drivers/CMSIS/GD/GD32F30x/Include/system_gd32f30x.h"
- 597              		.file 6 "Drivers/GD32F30x_standard_peripheral/Include/gd32f30x_dbg.h"
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s 			page 31
+ 563              		.section	.data.SystemCoreClock,"aw"
+ 564              		.align	2
+ 565              		.set	.LANCHOR1,. + 0
+ 568              	SystemCoreClock:
+ 569 0000 000E2707 		.word	120000000
+ 570              		.text
+ 571              	.Letext0:
+ 572              		.file 2 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 573              		.file 3 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 574              		.file 4 "Drivers/CMSIS/core_cm4.h"
+ 575              		.file 5 "Drivers/CMSIS/GD/GD32F30x/Include/system_gd32f30x.h"
+ 576              		.file 6 "Drivers/GD32F30x_standard_peripheral/Include/gd32f30x_dbg.h"
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s 			page 31
 
 
 DEFINED SYMBOLS
-                            *ABS*:0000000000000000 system_gd32f30x.c
-C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s:18     .text.system_clock_120m_irc8m:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s:25     .text.system_clock_120m_irc8m:0000000000000000 system_clock_120m_irc8m
-C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s:187    .text.system_clock_120m_irc8m:00000000000000c4 $d
-C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s:196    .text.system_clock_config:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s:202    .text.system_clock_config:0000000000000000 system_clock_config
-C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s:222    .text.SystemInit:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s:229    .text.SystemInit:0000000000000000 SystemInit
-C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s:320    .text.SystemInit:0000000000000078 $d
-C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s:328    .text.SystemCoreClockUpdate:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s:335    .text.SystemCoreClockUpdate:0000000000000000 SystemCoreClockUpdate
-C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s:553    .text.SystemCoreClockUpdate:00000000000000b8 $d
-C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s:589    .data.SystemCoreClock:0000000000000000 SystemCoreClock
-C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s:565    .rodata:0000000000000000 $d
-C:\Users\Prog\AppData\Local\Temp\ccVgC9Kr.s:585    .data.SystemCoreClock:0000000000000000 $d
+                            *ABS*:00000000 system_gd32f30x.c
+C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s:18     .text.system_clock_120m_irc8m:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s:25     .text.system_clock_120m_irc8m:00000000 system_clock_120m_irc8m
+C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s:191    .text.system_clock_120m_irc8m:000000c0 $d
+C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s:197    .text.system_clock_config:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s:203    .text.system_clock_config:00000000 system_clock_config
+C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s:223    .text.SystemInit:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s:230    .text.SystemInit:00000000 SystemInit
+C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s:318    .text.SystemInit:00000070 $d
+C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s:324    .text.SystemCoreClockUpdate:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s:331    .text.SystemCoreClockUpdate:00000000 SystemCoreClockUpdate
+C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s:547    .text.SystemCoreClockUpdate:000000b8 $d
+C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s:568    .data.SystemCoreClock:00000000 SystemCoreClock
+C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s:558    .rodata:00000000 $d
+C:\Users\Prog\AppData\Local\Temp\ccUIrW6R.s:564    .data.SystemCoreClock:00000000 $d
 
 NO UNDEFINED SYMBOLS

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 1
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 1
   28:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
   29:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, 
   30:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT 
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 2
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 2
 
 
   31:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 1
   85:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     init_struct->periph_addr  = 0U;
   86:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     init_struct->periph_width = 0U; 
   87:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     init_struct->periph_inc   = DMA_PERIPH_INCREASE_DISABLE;
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 3
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 3
 
 
   88:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     init_struct->memory_addr  = 0U;
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 1
  142:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }else{
  143:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_CHCTL(dma_periph, channelx) &= ~DMA_CHXCTL_PNAGA;
  144:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 4
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 4
 
 
  145:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 1
  199:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** /*!
  200:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     \brief      enable memory to memory mode
  201:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     \param[in]  dma_periph: DMAx(x=0,1)
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 5
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 5
 
 
  202:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****       \arg        DMAx(x=0,1)
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 1
  256:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** /*!
  257:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     \brief      disable DMA channel 
  258:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     \param[in]  dma_periph: DMAx(x=0,1)
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 6
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 6
 
 
  259:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****       \arg        DMAx(x=0,1)
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 1
  313:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
  314:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
  315:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** /*!
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 7
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 7
 
 
  316:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     \brief      set the number of remaining data to be transferred by the DMA 
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 1
  370:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** void dma_priority_config(uint32_t dma_periph, dma_channel_enum channelx, uint32_t priority)
  371:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** {
  372:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     uint32_t ctl;
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 8
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 8
 
 
  373:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 1
  427:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****       \arg        DMA_PERIPHERAL_WIDTH_16BIT: transfer data width of peripheral is 16-bit
  428:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****       \arg        DMA_PERIPHERAL_WIDTH_32BIT: transfer data width of peripheral is 32-bit
  429:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     \param[out] none
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 9
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 9
 
 
  430:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     \retval     none
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 1
  484:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
  485:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
  486:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** /*!
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 10
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 10
 
 
  487:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     \brief      enable next address increasement algorithm of peripheral
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 1
  541:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
  542:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
  543:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 11
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 11
 
 
  544:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(DMA_PERIPHERAL_TO_MEMORY == direction){
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 1
  598:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     DMA_INTC(dma_periph) |= DMA_FLAG_ADD(flag, channelx);
  599:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
  600:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 12
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 12
 
 
  601:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** /*!
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 1
  655:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****       \arg        DMA_INT_FLAG_HTF: half transfer finish interrupt flag of channel
  656:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****       \arg        DMA_INT_FLAG_ERR: error interrupt flag of channel
  657:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     \param[out] none
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 13
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 13
 
 
  658:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     \retval     none
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 1
  712:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
  713:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** /*!
  714:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     \brief      check whether peripheral and channels match
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 14
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 14
 
 
  715:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     \param[in]  dma_periph: DMAx(x=0,1)
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 1
  733:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
  734:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     return val;
   61              		.loc 1 734 5 is_stmt 1 view .LVU11
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 15
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 15
 
 
  735:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
@@ -890,61 +890,62 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 1
  103              		.loc 1 59 9 is_stmt 1 discriminator 1 view .LVU18
   59:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
  104              		.loc 1 59 9 discriminator 1 view .LVU19
- 105 000c FEE7     		b	.L10
- 106              	.L9:
+  59:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
+ 105              		.loc 1 59 9 discriminator 1 view .LVU20
+ 106 000c FEE7     		b	.L10
+ 107              	.L9:
   63:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     /* reset DMA channel registers */
- 107              		.loc 1 63 5 view .LVU20
+ 108              		.loc 1 63 5 view .LVU21
   63:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     /* reset DMA channel registers */
- 108              		.loc 1 63 37 is_stmt 0 view .LVU21
- 109 000e A100     		lsls	r1, r4, #2
- 110 0010 0C44     		add	r4, r4, r1
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 16
+ 109              		.loc 1 63 37 is_stmt 0 view .LVU22
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 16
 
 
- 111 0012 A300     		lsls	r3, r4, #2
- 112 0014 2B44     		add	r3, r3, r5
- 113 0016 9A68     		ldr	r2, [r3, #8]
- 114 0018 22F00102 		bic	r2, r2, #1
- 115 001c 9A60     		str	r2, [r3, #8]
+ 110 000e A100     		lsls	r1, r4, #2
+ 111 0010 04EB8404 		add	r4, r4, r4, lsl #2
+ 112 0014 05EB8403 		add	r3, r5, r4, lsl #2
+ 113 0018 9A68     		ldr	r2, [r3, #8]
+ 114 001a 22F00102 		bic	r2, r2, #1
+ 115 001e 9A60     		str	r2, [r3, #8]
   65:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     DMA_CHCNT(dma_periph, channelx) = DMA_CHCNT_RESET_VALUE;
- 116              		.loc 1 65 5 is_stmt 1 view .LVU22
+ 116              		.loc 1 65 5 is_stmt 1 view .LVU23
   65:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     DMA_CHCNT(dma_periph, channelx) = DMA_CHCNT_RESET_VALUE;
- 117              		.loc 1 65 37 is_stmt 0 view .LVU23
- 118 001e 0022     		movs	r2, #0
- 119 0020 9A60     		str	r2, [r3, #8]
+ 117              		.loc 1 65 37 is_stmt 0 view .LVU24
+ 118 0020 0022     		movs	r2, #0
+ 119 0022 9A60     		str	r2, [r3, #8]
   66:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     DMA_CHPADDR(dma_periph, channelx) = DMA_CHPADDR_RESET_VALUE;
- 120              		.loc 1 66 5 is_stmt 1 view .LVU24
+ 120              		.loc 1 66 5 is_stmt 1 view .LVU25
   66:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     DMA_CHPADDR(dma_periph, channelx) = DMA_CHPADDR_RESET_VALUE;
- 121              		.loc 1 66 37 is_stmt 0 view .LVU25
- 122 0022 DA60     		str	r2, [r3, #12]
+ 121              		.loc 1 66 37 is_stmt 0 view .LVU26
+ 122 0024 DA60     		str	r2, [r3, #12]
   67:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     DMA_CHMADDR(dma_periph, channelx) = DMA_CHMADDR_RESET_VALUE;
- 123              		.loc 1 67 5 is_stmt 1 view .LVU26
+ 123              		.loc 1 67 5 is_stmt 1 view .LVU27
   67:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     DMA_CHMADDR(dma_periph, channelx) = DMA_CHMADDR_RESET_VALUE;
- 124              		.loc 1 67 39 is_stmt 0 view .LVU27
- 125 0024 1A61     		str	r2, [r3, #16]
+ 124              		.loc 1 67 39 is_stmt 0 view .LVU28
+ 125 0026 1A61     		str	r2, [r3, #16]
   68:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     DMA_INTC(dma_periph) |= DMA_FLAG_ADD(DMA_CHINTF_RESET_VALUE, channelx);
- 126              		.loc 1 68 5 is_stmt 1 view .LVU28
+ 126              		.loc 1 68 5 is_stmt 1 view .LVU29
   68:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     DMA_INTC(dma_periph) |= DMA_FLAG_ADD(DMA_CHINTF_RESET_VALUE, channelx);
- 127              		.loc 1 68 39 is_stmt 0 view .LVU29
- 128 0026 5A61     		str	r2, [r3, #20]
+ 127              		.loc 1 68 39 is_stmt 0 view .LVU30
+ 128 0028 5A61     		str	r2, [r3, #20]
   69:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 129              		.loc 1 69 5 is_stmt 1 view .LVU30
+ 129              		.loc 1 69 5 is_stmt 1 view .LVU31
   69:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 130              		.loc 1 69 26 is_stmt 0 view .LVU31
- 131 0028 6B68     		ldr	r3, [r5, #4]
+ 130              		.loc 1 69 26 is_stmt 0 view .LVU32
+ 131 002a 6B68     		ldr	r3, [r5, #4]
   69:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 132              		.loc 1 69 29 view .LVU32
- 133 002a 0F22     		movs	r2, #15
- 134 002c 8A40     		lsls	r2, r2, r1
+ 132              		.loc 1 69 29 view .LVU33
+ 133 002c 0F22     		movs	r2, #15
+ 134 002e 8A40     		lsls	r2, r2, r1
   69:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 135              		.loc 1 69 26 view .LVU33
- 136 002e 1343     		orrs	r3, r3, r2
- 137 0030 6B60     		str	r3, [r5, #4]
+ 135              		.loc 1 69 26 view .LVU34
+ 136 0030 1343     		orrs	r3, r3, r2
+ 137 0032 6B60     		str	r3, [r5, #4]
   70:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 138              		.loc 1 70 1 view .LVU34
- 139 0032 38BD     		pop	{r3, r4, r5, pc}
+ 138              		.loc 1 70 1 view .LVU35
+ 139 0034 38BD     		pop	{r3, r4, r5, pc}
   70:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 140              		.loc 1 70 1 view .LVU35
+ 140              		.loc 1 70 1 view .LVU36
  141              		.cfi_endproc
  142              	.LFE116:
  144              		.section	.text.dma_struct_para_init,"ax",%progbits
@@ -957,2029 +958,2030 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 1
  152              	dma_struct_para_init:
  153              	.LVL8:
  154              	.LFB117:
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 17
+
+
   79:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(NULL == init_struct){
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 17
-
-
  155              		.loc 1 79 1 is_stmt 1 view -0
  156              		.cfi_startproc
  157              		@ args = 0, pretend = 0, frame = 0
  158              		@ frame_needed = 0, uses_anonymous_args = 0
  159              		@ link register save eliminated.
   80:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 160              		.loc 1 80 5 view .LVU37
+ 160              		.loc 1 80 5 view .LVU38
   80:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 161              		.loc 1 80 7 is_stmt 0 view .LVU38
+ 161              		.loc 1 80 7 is_stmt 0 view .LVU39
  162 0000 50B1     		cbz	r0, .L14
   85:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     init_struct->periph_width = 0U; 
- 163              		.loc 1 85 5 is_stmt 1 view .LVU39
+ 163              		.loc 1 85 5 is_stmt 1 view .LVU40
   85:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     init_struct->periph_width = 0U; 
- 164              		.loc 1 85 31 is_stmt 0 view .LVU40
+ 164              		.loc 1 85 31 is_stmt 0 view .LVU41
  165 0002 0022     		movs	r2, #0
  166 0004 0260     		str	r2, [r0]
   86:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     init_struct->periph_inc   = DMA_PERIPH_INCREASE_DISABLE;
- 167              		.loc 1 86 5 is_stmt 1 view .LVU41
+ 167              		.loc 1 86 5 is_stmt 1 view .LVU42
   86:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     init_struct->periph_inc   = DMA_PERIPH_INCREASE_DISABLE;
- 168              		.loc 1 86 31 is_stmt 0 view .LVU42
+ 168              		.loc 1 86 31 is_stmt 0 view .LVU43
  169 0006 4260     		str	r2, [r0, #4]
   87:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     init_struct->memory_addr  = 0U;
- 170              		.loc 1 87 5 is_stmt 1 view .LVU43
+ 170              		.loc 1 87 5 is_stmt 1 view .LVU44
   87:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     init_struct->memory_addr  = 0U;
- 171              		.loc 1 87 31 is_stmt 0 view .LVU44
+ 171              		.loc 1 87 31 is_stmt 0 view .LVU45
  172 0008 0276     		strb	r2, [r0, #24]
   88:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     init_struct->memory_width = 0U;
- 173              		.loc 1 88 5 is_stmt 1 view .LVU45
+ 173              		.loc 1 88 5 is_stmt 1 view .LVU46
   88:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     init_struct->memory_width = 0U;
- 174              		.loc 1 88 31 is_stmt 0 view .LVU46
+ 174              		.loc 1 88 31 is_stmt 0 view .LVU47
  175 000a 8260     		str	r2, [r0, #8]
   89:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     init_struct->memory_inc   = DMA_MEMORY_INCREASE_DISABLE;
- 176              		.loc 1 89 5 is_stmt 1 view .LVU47
+ 176              		.loc 1 89 5 is_stmt 1 view .LVU48
   89:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     init_struct->memory_inc   = DMA_MEMORY_INCREASE_DISABLE;
- 177              		.loc 1 89 31 is_stmt 0 view .LVU48
+ 177              		.loc 1 89 31 is_stmt 0 view .LVU49
  178 000c C260     		str	r2, [r0, #12]
   90:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     init_struct->number       = 0U;
- 179              		.loc 1 90 5 is_stmt 1 view .LVU49
+ 179              		.loc 1 90 5 is_stmt 1 view .LVU50
   90:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     init_struct->number       = 0U;
- 180              		.loc 1 90 31 is_stmt 0 view .LVU50
+ 180              		.loc 1 90 31 is_stmt 0 view .LVU51
  181 000e 4276     		strb	r2, [r0, #25]
   91:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     init_struct->direction    = DMA_PERIPHERAL_TO_MEMORY;
- 182              		.loc 1 91 5 is_stmt 1 view .LVU51
+ 182              		.loc 1 91 5 is_stmt 1 view .LVU52
   91:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     init_struct->direction    = DMA_PERIPHERAL_TO_MEMORY;
- 183              		.loc 1 91 31 is_stmt 0 view .LVU52
+ 183              		.loc 1 91 31 is_stmt 0 view .LVU53
  184 0010 0261     		str	r2, [r0, #16]
   92:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     init_struct->priority     = DMA_PRIORITY_LOW;
- 185              		.loc 1 92 5 is_stmt 1 view .LVU53
+ 185              		.loc 1 92 5 is_stmt 1 view .LVU54
   92:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     init_struct->priority     = DMA_PRIORITY_LOW;
- 186              		.loc 1 92 31 is_stmt 0 view .LVU54
+ 186              		.loc 1 92 31 is_stmt 0 view .LVU55
  187 0012 8276     		strb	r2, [r0, #26]
   93:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 188              		.loc 1 93 5 is_stmt 1 view .LVU55
+ 188              		.loc 1 93 5 is_stmt 1 view .LVU56
   93:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 189              		.loc 1 93 31 is_stmt 0 view .LVU56
+ 189              		.loc 1 93 31 is_stmt 0 view .LVU57
  190 0014 4261     		str	r2, [r0, #20]
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 18
+
+
   94:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 18
-
-
- 191              		.loc 1 94 1 view .LVU57
+ 191              		.loc 1 94 1 view .LVU58
  192 0016 7047     		bx	lr
  193              	.L14:
   81:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 194              		.loc 1 81 9 is_stmt 1 discriminator 1 view .LVU58
+ 194              		.loc 1 81 9 is_stmt 1 discriminator 1 view .LVU59
   81:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 195              		.loc 1 81 9 discriminator 1 view .LVU59
- 196 0018 FEE7     		b	.L14
- 197              		.cfi_endproc
- 198              	.LFE117:
- 200              		.section	.text.dma_init,"ax",%progbits
- 201              		.align	1
- 202              		.global	dma_init
- 203              		.syntax unified
- 204              		.thumb
- 205              		.thumb_func
- 206              		.fpu fpv4-sp-d16
- 208              	dma_init:
- 209              	.LVL9:
- 210              	.LFB118:
+ 195              		.loc 1 81 9 discriminator 1 view .LVU60
+  81:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
+ 196              		.loc 1 81 9 discriminator 1 view .LVU61
+ 197 0018 FEE7     		b	.L14
+ 198              		.cfi_endproc
+ 199              	.LFE117:
+ 201              		.section	.text.dma_init,"ax",%progbits
+ 202              		.align	1
+ 203              		.global	dma_init
+ 204              		.syntax unified
+ 205              		.thumb
+ 206              		.thumb_func
+ 207              		.fpu fpv4-sp-d16
+ 209              	dma_init:
+ 210              	.LVL9:
+ 211              	.LFB118:
  117:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     uint32_t ctl;
- 211              		.loc 1 117 1 view -0
- 212              		.cfi_startproc
- 213              		@ args = 0, pretend = 0, frame = 0
- 214              		@ frame_needed = 0, uses_anonymous_args = 0
+ 212              		.loc 1 117 1 view -0
+ 213              		.cfi_startproc
+ 214              		@ args = 0, pretend = 0, frame = 0
+ 215              		@ frame_needed = 0, uses_anonymous_args = 0
  117:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     uint32_t ctl;
- 215              		.loc 1 117 1 is_stmt 0 view .LVU61
- 216 0000 70B5     		push	{r4, r5, r6, lr}
- 217              	.LCFI1:
- 218              		.cfi_def_cfa_offset 16
- 219              		.cfi_offset 4, -16
- 220              		.cfi_offset 5, -12
- 221              		.cfi_offset 6, -8
- 222              		.cfi_offset 14, -4
- 223 0002 0646     		mov	r6, r0
- 224 0004 0D46     		mov	r5, r1
- 225 0006 1446     		mov	r4, r2
+ 216              		.loc 1 117 1 is_stmt 0 view .LVU63
+ 217 0000 70B5     		push	{r4, r5, r6, lr}
+ 218              	.LCFI1:
+ 219              		.cfi_def_cfa_offset 16
+ 220              		.cfi_offset 4, -16
+ 221              		.cfi_offset 5, -12
+ 222              		.cfi_offset 6, -8
+ 223              		.cfi_offset 14, -4
+ 224 0002 0646     		mov	r6, r0
+ 225 0004 0C46     		mov	r4, r1
+ 226 0006 1546     		mov	r5, r2
  118:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 226              		.loc 1 118 5 is_stmt 1 view .LVU62
+ 227              		.loc 1 118 5 is_stmt 1 view .LVU64
  120:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 227              		.loc 1 120 5 view .LVU63
+ 228              		.loc 1 120 5 view .LVU65
  120:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 228              		.loc 1 120 17 is_stmt 0 view .LVU64
- 229 0008 FFF7FEFF 		bl	dma_periph_and_channel_check
- 230              	.LVL10:
+ 229              		.loc 1 120 17 is_stmt 0 view .LVU66
+ 230 0008 FFF7FEFF 		bl	dma_periph_and_channel_check
+ 231              	.LVL10:
  120:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 231              		.loc 1 120 7 view .LVU65
- 232 000c 00B9     		cbnz	r0, .L16
- 233              	.L17:
+ 232              		.loc 1 120 7 view .LVU67
+ 233 000c 00B9     		cbnz	r0, .L16
+ 234              	.L17:
  121:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 234              		.loc 1 121 9 is_stmt 1 discriminator 1 view .LVU66
+ 235              		.loc 1 121 9 is_stmt 1 discriminator 1 view .LVU68
  121:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 235              		.loc 1 121 9 discriminator 1 view .LVU67
- 236 000e FEE7     		b	.L17
- 237              	.L16:
- 125:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 238              		.loc 1 125 5 view .LVU68
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 19
+ 236              		.loc 1 121 9 discriminator 1 view .LVU69
+ 121:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 19
 
 
- 239 0010 05EB8505 		add	r5, r5, r5, lsl #2
- 240 0014 AB00     		lsls	r3, r5, #2
- 241 0016 3344     		add	r3, r3, r6
+ 237              		.loc 1 121 9 discriminator 1 view .LVU70
+ 238 000e FEE7     		b	.L17
+ 239              	.L16:
  125:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 242              		.loc 1 125 52 is_stmt 0 view .LVU69
- 243 0018 2268     		ldr	r2, [r4]
+ 240              		.loc 1 125 5 view .LVU71
+ 241 0010 04EB8401 		add	r1, r4, r4, lsl #2
+ 242 0014 06EB8103 		add	r3, r6, r1, lsl #2
  125:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 244              		.loc 1 125 39 view .LVU70
- 245 001a 1A61     		str	r2, [r3, #16]
+ 243              		.loc 1 125 52 is_stmt 0 view .LVU72
+ 244 0018 2A68     		ldr	r2, [r5]
+ 125:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
+ 245              		.loc 1 125 39 view .LVU73
+ 246 001a 1A61     		str	r2, [r3, #16]
  128:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     
- 246              		.loc 1 128 5 is_stmt 1 view .LVU71
+ 247              		.loc 1 128 5 is_stmt 1 view .LVU74
  128:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     
- 247              		.loc 1 128 52 is_stmt 0 view .LVU72
- 248 001c A268     		ldr	r2, [r4, #8]
+ 248              		.loc 1 128 52 is_stmt 0 view .LVU75
+ 249 001c AA68     		ldr	r2, [r5, #8]
  128:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     
- 249              		.loc 1 128 39 view .LVU73
- 250 001e 5A61     		str	r2, [r3, #20]
+ 250              		.loc 1 128 39 view .LVU76
+ 251 001e 5A61     		str	r2, [r3, #20]
  131:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 251              		.loc 1 131 5 is_stmt 1 view .LVU74
+ 252              		.loc 1 131 5 is_stmt 1 view .LVU77
  131:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 252              		.loc 1 131 60 is_stmt 0 view .LVU75
- 253 0020 228A     		ldrh	r2, [r4, #16]
+ 253              		.loc 1 131 60 is_stmt 0 view .LVU78
+ 254 0020 2A8A     		ldrh	r2, [r5, #16]
  131:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 254              		.loc 1 131 37 view .LVU76
- 255 0022 DA60     		str	r2, [r3, #12]
+ 255              		.loc 1 131 37 view .LVU79
+ 256 0022 DA60     		str	r2, [r3, #12]
  134:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     ctl &= ~(DMA_CHXCTL_PWIDTH | DMA_CHXCTL_MWIDTH | DMA_CHXCTL_PRIO);
- 256              		.loc 1 134 5 is_stmt 1 view .LVU77
+ 257              		.loc 1 134 5 is_stmt 1 view .LVU80
  134:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     ctl &= ~(DMA_CHXCTL_PWIDTH | DMA_CHXCTL_MWIDTH | DMA_CHXCTL_PRIO);
- 257              		.loc 1 134 9 is_stmt 0 view .LVU78
- 258 0024 9968     		ldr	r1, [r3, #8]
- 259              	.LVL11:
+ 258              		.loc 1 134 9 is_stmt 0 view .LVU81
+ 259 0024 9A68     		ldr	r2, [r3, #8]
+ 260              	.LVL11:
  135:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     ctl |= (init_struct->periph_width | init_struct->memory_width | init_struct->priority);
- 260              		.loc 1 135 5 is_stmt 1 view .LVU79
+ 261              		.loc 1 135 5 is_stmt 1 view .LVU82
  135:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     ctl |= (init_struct->periph_width | init_struct->memory_width | init_struct->priority);
- 261              		.loc 1 135 9 is_stmt 0 view .LVU80
- 262 0026 21F47C51 		bic	r1, r1, #16128
- 263              	.LVL12:
+ 262              		.loc 1 135 9 is_stmt 0 view .LVU83
+ 263 0026 22F47C52 		bic	r2, r2, #16128
+ 264              	.LVL12:
  136:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     DMA_CHCTL(dma_periph, channelx) = ctl;
- 264              		.loc 1 136 5 is_stmt 1 view .LVU81
+ 265              		.loc 1 136 5 is_stmt 1 view .LVU84
  136:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     DMA_CHCTL(dma_periph, channelx) = ctl;
- 265              		.loc 1 136 24 is_stmt 0 view .LVU82
- 266 002a 6268     		ldr	r2, [r4, #4]
+ 266              		.loc 1 136 24 is_stmt 0 view .LVU85
+ 267 002a 6968     		ldr	r1, [r5, #4]
  136:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     DMA_CHCTL(dma_periph, channelx) = ctl;
- 267              		.loc 1 136 52 view .LVU83
- 268 002c E068     		ldr	r0, [r4, #12]
+ 268              		.loc 1 136 52 view .LVU86
+ 269 002c E868     		ldr	r0, [r5, #12]
  136:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     DMA_CHCTL(dma_periph, channelx) = ctl;
- 269              		.loc 1 136 39 view .LVU84
- 270 002e 0243     		orrs	r2, r2, r0
+ 270              		.loc 1 136 39 view .LVU87
+ 271 002e 0143     		orrs	r1, r1, r0
  136:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     DMA_CHCTL(dma_periph, channelx) = ctl;
- 271              		.loc 1 136 80 view .LVU85
- 272 0030 6069     		ldr	r0, [r4, #20]
+ 272              		.loc 1 136 80 view .LVU88
+ 273 0030 6869     		ldr	r0, [r5, #20]
  136:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     DMA_CHCTL(dma_periph, channelx) = ctl;
- 273              		.loc 1 136 67 view .LVU86
- 274 0032 0243     		orrs	r2, r2, r0
- 136:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     DMA_CHCTL(dma_periph, channelx) = ctl;
- 275              		.loc 1 136 9 view .LVU87
- 276 0034 0A43     		orrs	r2, r2, r1
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 20
+ 274              		.loc 1 136 67 view .LVU89
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 20
 
 
- 277              	.LVL13:
+ 275 0032 0143     		orrs	r1, r1, r0
+ 136:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     DMA_CHCTL(dma_periph, channelx) = ctl;
+ 276              		.loc 1 136 9 view .LVU90
+ 277 0034 1143     		orrs	r1, r1, r2
+ 278              	.LVL13:
  137:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 278              		.loc 1 137 5 is_stmt 1 view .LVU88
+ 279              		.loc 1 137 5 is_stmt 1 view .LVU91
  137:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 279              		.loc 1 137 37 is_stmt 0 view .LVU89
- 280 0036 9A60     		str	r2, [r3, #8]
+ 280              		.loc 1 137 37 is_stmt 0 view .LVU92
+ 281 0036 9960     		str	r1, [r3, #8]
  140:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_CHCTL(dma_periph, channelx) |= DMA_CHXCTL_PNAGA;
- 281              		.loc 1 140 5 is_stmt 1 view .LVU90
+ 282              		.loc 1 140 5 is_stmt 1 view .LVU93
  140:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_CHCTL(dma_periph, channelx) |= DMA_CHXCTL_PNAGA;
- 282              		.loc 1 140 49 is_stmt 0 view .LVU91
- 283 0038 227E     		ldrb	r2, [r4, #24]	@ zero_extendqisi2
- 284              	.LVL14:
+ 283              		.loc 1 140 49 is_stmt 0 view .LVU94
+ 284 0038 2A7E     		ldrb	r2, [r5, #24]	@ zero_extendqisi2
  140:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_CHCTL(dma_periph, channelx) |= DMA_CHXCTL_PNAGA;
- 285              		.loc 1 140 7 view .LVU92
+ 285              		.loc 1 140 7 view .LVU95
  286 003a 012A     		cmp	r2, #1
  287 003c 11D0     		beq	.L25
  143:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 288              		.loc 1 143 9 is_stmt 1 view .LVU93
+ 288              		.loc 1 143 9 is_stmt 1 view .LVU96
  143:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 289              		.loc 1 143 41 is_stmt 0 view .LVU94
+ 289              		.loc 1 143 41 is_stmt 0 view .LVU97
  290 003e 9A68     		ldr	r2, [r3, #8]
  291 0040 22F04002 		bic	r2, r2, #64
  292 0044 9A60     		str	r2, [r3, #8]
- 293              	.LVL15:
- 294              	.L19:
+ 293              	.L19:
  147:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_CHCTL(dma_periph, channelx) |= DMA_CHXCTL_MNAGA;
- 295              		.loc 1 147 5 is_stmt 1 view .LVU95
+ 294              		.loc 1 147 5 is_stmt 1 view .LVU98
  147:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_CHCTL(dma_periph, channelx) |= DMA_CHXCTL_MNAGA;
- 296              		.loc 1 147 49 is_stmt 0 view .LVU96
- 297 0046 627E     		ldrb	r2, [r4, #25]	@ zero_extendqisi2
+ 295              		.loc 1 147 49 is_stmt 0 view .LVU99
+ 296 0046 6A7E     		ldrb	r2, [r5, #25]	@ zero_extendqisi2
  147:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_CHCTL(dma_periph, channelx) |= DMA_CHXCTL_MNAGA;
- 298              		.loc 1 147 7 view .LVU97
- 299 0048 012A     		cmp	r2, #1
- 300 004a 0FD0     		beq	.L26
+ 297              		.loc 1 147 7 view .LVU100
+ 298 0048 012A     		cmp	r2, #1
+ 299 004a 0FD0     		beq	.L26
  150:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 301              		.loc 1 150 9 is_stmt 1 view .LVU98
+ 300              		.loc 1 150 9 is_stmt 1 view .LVU101
  150:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 302              		.loc 1 150 41 is_stmt 0 view .LVU99
- 303 004c 9A68     		ldr	r2, [r3, #8]
- 304 004e 22F08002 		bic	r2, r2, #128
- 305 0052 9A60     		str	r2, [r3, #8]
- 306              	.L21:
+ 301              		.loc 1 150 41 is_stmt 0 view .LVU102
+ 302 004c 9A68     		ldr	r2, [r3, #8]
+ 303 004e 22F08002 		bic	r2, r2, #128
+ 304 0052 9A60     		str	r2, [r3, #8]
+ 305              	.L21:
  154:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_CHCTL(dma_periph, channelx) &= ~DMA_CHXCTL_DIR;
- 307              		.loc 1 154 5 is_stmt 1 view .LVU100
+ 306              		.loc 1 154 5 is_stmt 1 view .LVU103
  154:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_CHCTL(dma_periph, channelx) &= ~DMA_CHXCTL_DIR;
- 308              		.loc 1 154 47 is_stmt 0 view .LVU101
- 309 0054 A27E     		ldrb	r2, [r4, #26]	@ zero_extendqisi2
+ 307              		.loc 1 154 47 is_stmt 0 view .LVU104
+ 308 0054 AA7E     		ldrb	r2, [r5, #26]	@ zero_extendqisi2
  154:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_CHCTL(dma_periph, channelx) &= ~DMA_CHXCTL_DIR;
- 310              		.loc 1 154 7 view .LVU102
- 311 0056 72B9     		cbnz	r2, .L22
+ 309              		.loc 1 154 7 view .LVU105
+ 310 0056 72B9     		cbnz	r2, .L22
  155:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }else{
- 312              		.loc 1 155 9 is_stmt 1 view .LVU103
+ 311              		.loc 1 155 9 is_stmt 1 view .LVU106
  155:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }else{
- 313              		.loc 1 155 41 is_stmt 0 view .LVU104
- 314 0058 9A68     		ldr	r2, [r3, #8]
- 315 005a 22F01002 		bic	r2, r2, #16
- 316 005e 9A60     		str	r2, [r3, #8]
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 21
+ 312              		.loc 1 155 41 is_stmt 0 view .LVU107
+ 313 0058 9A68     		ldr	r2, [r3, #8]
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 21
 
 
- 317              	.L15:
+ 314 005a 22F01002 		bic	r2, r2, #16
+ 315 005e 9A60     		str	r2, [r3, #8]
+ 316              	.L15:
  159:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 318              		.loc 1 159 1 view .LVU105
- 319 0060 70BD     		pop	{r4, r5, r6, pc}
- 320              	.LVL16:
- 321              	.L25:
+ 317              		.loc 1 159 1 view .LVU108
+ 318 0060 70BD     		pop	{r4, r5, r6, pc}
+ 319              	.LVL14:
+ 320              	.L25:
  141:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }else{
- 322              		.loc 1 141 9 is_stmt 1 view .LVU106
+ 321              		.loc 1 141 9 is_stmt 1 view .LVU109
  141:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }else{
- 323              		.loc 1 141 41 is_stmt 0 view .LVU107
- 324 0062 9A68     		ldr	r2, [r3, #8]
- 325 0064 42F04002 		orr	r2, r2, #64
- 326 0068 9A60     		str	r2, [r3, #8]
- 327              	.LVL17:
- 141:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }else{
- 328              		.loc 1 141 41 view .LVU108
- 329 006a ECE7     		b	.L19
- 330              	.L26:
+ 322              		.loc 1 141 41 is_stmt 0 view .LVU110
+ 323 0062 9A68     		ldr	r2, [r3, #8]
+ 324 0064 42F04002 		orr	r2, r2, #64
+ 325 0068 9A60     		str	r2, [r3, #8]
+ 326 006a ECE7     		b	.L19
+ 327              	.L26:
  148:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }else{
- 331              		.loc 1 148 9 is_stmt 1 view .LVU109
+ 328              		.loc 1 148 9 is_stmt 1 view .LVU111
  148:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }else{
- 332              		.loc 1 148 41 is_stmt 0 view .LVU110
- 333 006c 9A68     		ldr	r2, [r3, #8]
- 334 006e 42F08002 		orr	r2, r2, #128
- 335 0072 9A60     		str	r2, [r3, #8]
- 336 0074 EEE7     		b	.L21
- 337              	.L22:
+ 329              		.loc 1 148 41 is_stmt 0 view .LVU112
+ 330 006c 9A68     		ldr	r2, [r3, #8]
+ 331 006e 42F08002 		orr	r2, r2, #128
+ 332 0072 9A60     		str	r2, [r3, #8]
+ 333 0074 EEE7     		b	.L21
+ 334              	.L22:
  157:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 338              		.loc 1 157 9 is_stmt 1 view .LVU111
+ 335              		.loc 1 157 9 is_stmt 1 view .LVU113
  157:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 339              		.loc 1 157 41 is_stmt 0 view .LVU112
- 340 0076 9A68     		ldr	r2, [r3, #8]
- 341 0078 42F01002 		orr	r2, r2, #16
- 342 007c 9A60     		str	r2, [r3, #8]
+ 336              		.loc 1 157 41 is_stmt 0 view .LVU114
+ 337 0076 9A68     		ldr	r2, [r3, #8]
+ 338 0078 42F01002 		orr	r2, r2, #16
+ 339 007c 9A60     		str	r2, [r3, #8]
  159:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 343              		.loc 1 159 1 view .LVU113
- 344 007e EFE7     		b	.L15
- 345              		.cfi_endproc
- 346              	.LFE118:
- 348              		.section	.text.dma_circulation_enable,"ax",%progbits
- 349              		.align	1
- 350              		.global	dma_circulation_enable
- 351              		.syntax unified
- 352              		.thumb
- 353              		.thumb_func
- 354              		.fpu fpv4-sp-d16
- 356              	dma_circulation_enable:
- 357              	.LVL18:
- 358              	.LFB119:
+ 340              		.loc 1 159 1 view .LVU115
+ 341 007e EFE7     		b	.L15
+ 342              		.cfi_endproc
+ 343              	.LFE118:
+ 345              		.section	.text.dma_circulation_enable,"ax",%progbits
+ 346              		.align	1
+ 347              		.global	dma_circulation_enable
+ 348              		.syntax unified
+ 349              		.thumb
+ 350              		.thumb_func
+ 351              		.fpu fpv4-sp-d16
+ 353              	dma_circulation_enable:
+ 354              	.LVL15:
+ 355              	.LFB119:
  172:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 359              		.loc 1 172 1 is_stmt 1 view -0
- 360              		.cfi_startproc
- 361              		@ args = 0, pretend = 0, frame = 0
- 362              		@ frame_needed = 0, uses_anonymous_args = 0
+ 356              		.loc 1 172 1 is_stmt 1 view -0
+ 357              		.cfi_startproc
+ 358              		@ args = 0, pretend = 0, frame = 0
+ 359              		@ frame_needed = 0, uses_anonymous_args = 0
  172:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 363              		.loc 1 172 1 is_stmt 0 view .LVU115
- 364 0000 38B5     		push	{r3, r4, r5, lr}
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 22
+ 360              		.loc 1 172 1 is_stmt 0 view .LVU117
+ 361 0000 38B5     		push	{r3, r4, r5, lr}
+ 362              	.LCFI2:
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 22
 
 
- 365              	.LCFI2:
- 366              		.cfi_def_cfa_offset 16
- 367              		.cfi_offset 3, -16
- 368              		.cfi_offset 4, -12
- 369              		.cfi_offset 5, -8
- 370              		.cfi_offset 14, -4
- 371 0002 0546     		mov	r5, r0
- 372 0004 0C46     		mov	r4, r1
+ 363              		.cfi_def_cfa_offset 16
+ 364              		.cfi_offset 3, -16
+ 365              		.cfi_offset 4, -12
+ 366              		.cfi_offset 5, -8
+ 367              		.cfi_offset 14, -4
+ 368 0002 0446     		mov	r4, r0
+ 369 0004 0D46     		mov	r5, r1
  173:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 373              		.loc 1 173 5 is_stmt 1 view .LVU116
+ 370              		.loc 1 173 5 is_stmt 1 view .LVU118
  173:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 374              		.loc 1 173 17 is_stmt 0 view .LVU117
- 375 0006 FFF7FEFF 		bl	dma_periph_and_channel_check
- 376              	.LVL19:
+ 371              		.loc 1 173 17 is_stmt 0 view .LVU119
+ 372 0006 FFF7FEFF 		bl	dma_periph_and_channel_check
+ 373              	.LVL16:
  173:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 377              		.loc 1 173 7 view .LVU118
- 378 000a 00B9     		cbnz	r0, .L28
- 379              	.L29:
+ 374              		.loc 1 173 7 view .LVU120
+ 375 000a 00B9     		cbnz	r0, .L28
+ 376              	.L29:
  174:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 380              		.loc 1 174 9 is_stmt 1 discriminator 1 view .LVU119
+ 377              		.loc 1 174 9 is_stmt 1 discriminator 1 view .LVU121
  174:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 381              		.loc 1 174 9 discriminator 1 view .LVU120
- 382 000c FEE7     		b	.L29
- 383              	.L28:
+ 378              		.loc 1 174 9 discriminator 1 view .LVU122
+ 174:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
+ 379              		.loc 1 174 9 discriminator 1 view .LVU123
+ 380 000c FEE7     		b	.L29
+ 381              	.L28:
  177:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 384              		.loc 1 177 5 view .LVU121
+ 382              		.loc 1 177 5 view .LVU124
  177:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 385              		.loc 1 177 37 is_stmt 0 view .LVU122
- 386 000e 04EB8404 		add	r4, r4, r4, lsl #2
- 387 0012 A300     		lsls	r3, r4, #2
- 388 0014 2B44     		add	r3, r3, r5
- 389 0016 9A68     		ldr	r2, [r3, #8]
- 390 0018 42F02002 		orr	r2, r2, #32
- 391 001c 9A60     		str	r2, [r3, #8]
+ 383              		.loc 1 177 37 is_stmt 0 view .LVU125
+ 384 000e 05EB8501 		add	r1, r5, r5, lsl #2
+ 385 0012 04EB8100 		add	r0, r4, r1, lsl #2
+ 386 0016 8368     		ldr	r3, [r0, #8]
+ 387 0018 43F02003 		orr	r3, r3, #32
+ 388 001c 8360     		str	r3, [r0, #8]
  178:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 392              		.loc 1 178 1 view .LVU123
- 393 001e 38BD     		pop	{r3, r4, r5, pc}
+ 389              		.loc 1 178 1 view .LVU126
+ 390 001e 38BD     		pop	{r3, r4, r5, pc}
  178:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 394              		.loc 1 178 1 view .LVU124
- 395              		.cfi_endproc
- 396              	.LFE119:
- 398              		.section	.text.dma_circulation_disable,"ax",%progbits
- 399              		.align	1
- 400              		.global	dma_circulation_disable
- 401              		.syntax unified
- 402              		.thumb
- 403              		.thumb_func
- 404              		.fpu fpv4-sp-d16
- 406              	dma_circulation_disable:
- 407              	.LVL20:
- 408              	.LFB120:
+ 391              		.loc 1 178 1 view .LVU127
+ 392              		.cfi_endproc
+ 393              	.LFE119:
+ 395              		.section	.text.dma_circulation_disable,"ax",%progbits
+ 396              		.align	1
+ 397              		.global	dma_circulation_disable
+ 398              		.syntax unified
+ 399              		.thumb
+ 400              		.thumb_func
+ 401              		.fpu fpv4-sp-d16
+ 403              	dma_circulation_disable:
+ 404              	.LVL17:
+ 405              	.LFB120:
  191:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 409              		.loc 1 191 1 is_stmt 1 view -0
- 410              		.cfi_startproc
- 411              		@ args = 0, pretend = 0, frame = 0
- 412              		@ frame_needed = 0, uses_anonymous_args = 0
+ 406              		.loc 1 191 1 is_stmt 1 view -0
+ 407              		.cfi_startproc
+ 408              		@ args = 0, pretend = 0, frame = 0
+ 409              		@ frame_needed = 0, uses_anonymous_args = 0
  191:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 23
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 23
 
 
- 413              		.loc 1 191 1 is_stmt 0 view .LVU126
- 414 0000 38B5     		push	{r3, r4, r5, lr}
- 415              	.LCFI3:
- 416              		.cfi_def_cfa_offset 16
- 417              		.cfi_offset 3, -16
- 418              		.cfi_offset 4, -12
- 419              		.cfi_offset 5, -8
- 420              		.cfi_offset 14, -4
- 421 0002 0546     		mov	r5, r0
- 422 0004 0C46     		mov	r4, r1
+ 410              		.loc 1 191 1 is_stmt 0 view .LVU129
+ 411 0000 38B5     		push	{r3, r4, r5, lr}
+ 412              	.LCFI3:
+ 413              		.cfi_def_cfa_offset 16
+ 414              		.cfi_offset 3, -16
+ 415              		.cfi_offset 4, -12
+ 416              		.cfi_offset 5, -8
+ 417              		.cfi_offset 14, -4
+ 418 0002 0446     		mov	r4, r0
+ 419 0004 0D46     		mov	r5, r1
  192:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 423              		.loc 1 192 5 is_stmt 1 view .LVU127
+ 420              		.loc 1 192 5 is_stmt 1 view .LVU130
  192:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 424              		.loc 1 192 17 is_stmt 0 view .LVU128
- 425 0006 FFF7FEFF 		bl	dma_periph_and_channel_check
- 426              	.LVL21:
+ 421              		.loc 1 192 17 is_stmt 0 view .LVU131
+ 422 0006 FFF7FEFF 		bl	dma_periph_and_channel_check
+ 423              	.LVL18:
  192:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 427              		.loc 1 192 7 view .LVU129
- 428 000a 00B9     		cbnz	r0, .L32
- 429              	.L33:
+ 424              		.loc 1 192 7 view .LVU132
+ 425 000a 00B9     		cbnz	r0, .L32
+ 426              	.L33:
  193:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 430              		.loc 1 193 9 is_stmt 1 discriminator 1 view .LVU130
+ 427              		.loc 1 193 9 is_stmt 1 discriminator 1 view .LVU133
  193:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 431              		.loc 1 193 9 discriminator 1 view .LVU131
- 432 000c FEE7     		b	.L33
- 433              	.L32:
+ 428              		.loc 1 193 9 discriminator 1 view .LVU134
+ 193:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
+ 429              		.loc 1 193 9 discriminator 1 view .LVU135
+ 430 000c FEE7     		b	.L33
+ 431              	.L32:
  196:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 434              		.loc 1 196 5 view .LVU132
+ 432              		.loc 1 196 5 view .LVU136
  196:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 435              		.loc 1 196 37 is_stmt 0 view .LVU133
- 436 000e 04EB8404 		add	r4, r4, r4, lsl #2
- 437 0012 A300     		lsls	r3, r4, #2
- 438 0014 2B44     		add	r3, r3, r5
- 439 0016 9A68     		ldr	r2, [r3, #8]
- 440 0018 22F02002 		bic	r2, r2, #32
- 441 001c 9A60     		str	r2, [r3, #8]
+ 433              		.loc 1 196 37 is_stmt 0 view .LVU137
+ 434 000e 05EB8501 		add	r1, r5, r5, lsl #2
+ 435 0012 04EB8100 		add	r0, r4, r1, lsl #2
+ 436 0016 8368     		ldr	r3, [r0, #8]
+ 437 0018 23F02003 		bic	r3, r3, #32
+ 438 001c 8360     		str	r3, [r0, #8]
  197:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 442              		.loc 1 197 1 view .LVU134
- 443 001e 38BD     		pop	{r3, r4, r5, pc}
+ 439              		.loc 1 197 1 view .LVU138
+ 440 001e 38BD     		pop	{r3, r4, r5, pc}
  197:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 444              		.loc 1 197 1 view .LVU135
- 445              		.cfi_endproc
- 446              	.LFE120:
- 448              		.section	.text.dma_memory_to_memory_enable,"ax",%progbits
- 449              		.align	1
- 450              		.global	dma_memory_to_memory_enable
- 451              		.syntax unified
- 452              		.thumb
- 453              		.thumb_func
- 454              		.fpu fpv4-sp-d16
- 456              	dma_memory_to_memory_enable:
- 457              	.LVL22:
- 458              	.LFB121:
+ 441              		.loc 1 197 1 view .LVU139
+ 442              		.cfi_endproc
+ 443              	.LFE120:
+ 445              		.section	.text.dma_memory_to_memory_enable,"ax",%progbits
+ 446              		.align	1
+ 447              		.global	dma_memory_to_memory_enable
+ 448              		.syntax unified
+ 449              		.thumb
+ 450              		.thumb_func
+ 451              		.fpu fpv4-sp-d16
+ 453              	dma_memory_to_memory_enable:
+ 454              	.LVL19:
+ 455              	.LFB121:
  210:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 459              		.loc 1 210 1 is_stmt 1 view -0
- 460              		.cfi_startproc
- 461              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 24
+ 456              		.loc 1 210 1 is_stmt 1 view -0
+ 457              		.cfi_startproc
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 24
 
 
- 462              		@ frame_needed = 0, uses_anonymous_args = 0
+ 458              		@ args = 0, pretend = 0, frame = 0
+ 459              		@ frame_needed = 0, uses_anonymous_args = 0
  210:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 463              		.loc 1 210 1 is_stmt 0 view .LVU137
- 464 0000 38B5     		push	{r3, r4, r5, lr}
- 465              	.LCFI4:
- 466              		.cfi_def_cfa_offset 16
- 467              		.cfi_offset 3, -16
- 468              		.cfi_offset 4, -12
- 469              		.cfi_offset 5, -8
- 470              		.cfi_offset 14, -4
- 471 0002 0546     		mov	r5, r0
- 472 0004 0C46     		mov	r4, r1
+ 460              		.loc 1 210 1 is_stmt 0 view .LVU141
+ 461 0000 38B5     		push	{r3, r4, r5, lr}
+ 462              	.LCFI4:
+ 463              		.cfi_def_cfa_offset 16
+ 464              		.cfi_offset 3, -16
+ 465              		.cfi_offset 4, -12
+ 466              		.cfi_offset 5, -8
+ 467              		.cfi_offset 14, -4
+ 468 0002 0446     		mov	r4, r0
+ 469 0004 0D46     		mov	r5, r1
  211:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 473              		.loc 1 211 5 is_stmt 1 view .LVU138
+ 470              		.loc 1 211 5 is_stmt 1 view .LVU142
  211:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 474              		.loc 1 211 17 is_stmt 0 view .LVU139
- 475 0006 FFF7FEFF 		bl	dma_periph_and_channel_check
- 476              	.LVL23:
+ 471              		.loc 1 211 17 is_stmt 0 view .LVU143
+ 472 0006 FFF7FEFF 		bl	dma_periph_and_channel_check
+ 473              	.LVL20:
  211:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 477              		.loc 1 211 7 view .LVU140
- 478 000a 00B9     		cbnz	r0, .L36
- 479              	.L37:
+ 474              		.loc 1 211 7 view .LVU144
+ 475 000a 00B9     		cbnz	r0, .L36
+ 476              	.L37:
  212:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 480              		.loc 1 212 9 is_stmt 1 discriminator 1 view .LVU141
+ 477              		.loc 1 212 9 is_stmt 1 discriminator 1 view .LVU145
  212:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 481              		.loc 1 212 9 discriminator 1 view .LVU142
- 482 000c FEE7     		b	.L37
- 483              	.L36:
+ 478              		.loc 1 212 9 discriminator 1 view .LVU146
+ 212:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
+ 479              		.loc 1 212 9 discriminator 1 view .LVU147
+ 480 000c FEE7     		b	.L37
+ 481              	.L36:
  215:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 484              		.loc 1 215 5 view .LVU143
+ 482              		.loc 1 215 5 view .LVU148
  215:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 485              		.loc 1 215 37 is_stmt 0 view .LVU144
- 486 000e 04EB8404 		add	r4, r4, r4, lsl #2
- 487 0012 A300     		lsls	r3, r4, #2
- 488 0014 2B44     		add	r3, r3, r5
- 489 0016 9A68     		ldr	r2, [r3, #8]
- 490 0018 42F48042 		orr	r2, r2, #16384
- 491 001c 9A60     		str	r2, [r3, #8]
+ 483              		.loc 1 215 37 is_stmt 0 view .LVU149
+ 484 000e 05EB8501 		add	r1, r5, r5, lsl #2
+ 485 0012 04EB8100 		add	r0, r4, r1, lsl #2
+ 486 0016 8368     		ldr	r3, [r0, #8]
+ 487 0018 43F48043 		orr	r3, r3, #16384
+ 488 001c 8360     		str	r3, [r0, #8]
  216:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 492              		.loc 1 216 1 view .LVU145
- 493 001e 38BD     		pop	{r3, r4, r5, pc}
+ 489              		.loc 1 216 1 view .LVU150
+ 490 001e 38BD     		pop	{r3, r4, r5, pc}
  216:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 494              		.loc 1 216 1 view .LVU146
- 495              		.cfi_endproc
- 496              	.LFE121:
- 498              		.section	.text.dma_memory_to_memory_disable,"ax",%progbits
- 499              		.align	1
- 500              		.global	dma_memory_to_memory_disable
- 501              		.syntax unified
- 502              		.thumb
- 503              		.thumb_func
- 504              		.fpu fpv4-sp-d16
- 506              	dma_memory_to_memory_disable:
- 507              	.LVL24:
- 508              	.LFB122:
+ 491              		.loc 1 216 1 view .LVU151
+ 492              		.cfi_endproc
+ 493              	.LFE121:
+ 495              		.section	.text.dma_memory_to_memory_disable,"ax",%progbits
+ 496              		.align	1
+ 497              		.global	dma_memory_to_memory_disable
+ 498              		.syntax unified
+ 499              		.thumb
+ 500              		.thumb_func
+ 501              		.fpu fpv4-sp-d16
+ 503              	dma_memory_to_memory_disable:
+ 504              	.LVL21:
+ 505              	.LFB122:
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 25
+
+
  229:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 509              		.loc 1 229 1 is_stmt 1 view -0
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 25
-
-
- 510              		.cfi_startproc
- 511              		@ args = 0, pretend = 0, frame = 0
- 512              		@ frame_needed = 0, uses_anonymous_args = 0
+ 506              		.loc 1 229 1 is_stmt 1 view -0
+ 507              		.cfi_startproc
+ 508              		@ args = 0, pretend = 0, frame = 0
+ 509              		@ frame_needed = 0, uses_anonymous_args = 0
  229:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 513              		.loc 1 229 1 is_stmt 0 view .LVU148
- 514 0000 38B5     		push	{r3, r4, r5, lr}
- 515              	.LCFI5:
- 516              		.cfi_def_cfa_offset 16
- 517              		.cfi_offset 3, -16
- 518              		.cfi_offset 4, -12
- 519              		.cfi_offset 5, -8
- 520              		.cfi_offset 14, -4
- 521 0002 0546     		mov	r5, r0
- 522 0004 0C46     		mov	r4, r1
+ 510              		.loc 1 229 1 is_stmt 0 view .LVU153
+ 511 0000 38B5     		push	{r3, r4, r5, lr}
+ 512              	.LCFI5:
+ 513              		.cfi_def_cfa_offset 16
+ 514              		.cfi_offset 3, -16
+ 515              		.cfi_offset 4, -12
+ 516              		.cfi_offset 5, -8
+ 517              		.cfi_offset 14, -4
+ 518 0002 0446     		mov	r4, r0
+ 519 0004 0D46     		mov	r5, r1
  230:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 523              		.loc 1 230 5 is_stmt 1 view .LVU149
+ 520              		.loc 1 230 5 is_stmt 1 view .LVU154
  230:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 524              		.loc 1 230 17 is_stmt 0 view .LVU150
- 525 0006 FFF7FEFF 		bl	dma_periph_and_channel_check
- 526              	.LVL25:
+ 521              		.loc 1 230 17 is_stmt 0 view .LVU155
+ 522 0006 FFF7FEFF 		bl	dma_periph_and_channel_check
+ 523              	.LVL22:
  230:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 527              		.loc 1 230 7 view .LVU151
- 528 000a 00B9     		cbnz	r0, .L40
- 529              	.L41:
+ 524              		.loc 1 230 7 view .LVU156
+ 525 000a 00B9     		cbnz	r0, .L40
+ 526              	.L41:
  231:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 530              		.loc 1 231 9 is_stmt 1 discriminator 1 view .LVU152
+ 527              		.loc 1 231 9 is_stmt 1 discriminator 1 view .LVU157
  231:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 531              		.loc 1 231 9 discriminator 1 view .LVU153
- 532 000c FEE7     		b	.L41
- 533              	.L40:
+ 528              		.loc 1 231 9 discriminator 1 view .LVU158
+ 231:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
+ 529              		.loc 1 231 9 discriminator 1 view .LVU159
+ 530 000c FEE7     		b	.L41
+ 531              	.L40:
  234:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 534              		.loc 1 234 5 view .LVU154
+ 532              		.loc 1 234 5 view .LVU160
  234:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 535              		.loc 1 234 37 is_stmt 0 view .LVU155
- 536 000e 04EB8404 		add	r4, r4, r4, lsl #2
- 537 0012 A300     		lsls	r3, r4, #2
- 538 0014 2B44     		add	r3, r3, r5
- 539 0016 9A68     		ldr	r2, [r3, #8]
- 540 0018 22F48042 		bic	r2, r2, #16384
- 541 001c 9A60     		str	r2, [r3, #8]
+ 533              		.loc 1 234 37 is_stmt 0 view .LVU161
+ 534 000e 05EB8501 		add	r1, r5, r5, lsl #2
+ 535 0012 04EB8100 		add	r0, r4, r1, lsl #2
+ 536 0016 8368     		ldr	r3, [r0, #8]
+ 537 0018 23F48043 		bic	r3, r3, #16384
+ 538 001c 8360     		str	r3, [r0, #8]
  235:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 542              		.loc 1 235 1 view .LVU156
- 543 001e 38BD     		pop	{r3, r4, r5, pc}
+ 539              		.loc 1 235 1 view .LVU162
+ 540 001e 38BD     		pop	{r3, r4, r5, pc}
  235:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 544              		.loc 1 235 1 view .LVU157
- 545              		.cfi_endproc
- 546              	.LFE122:
- 548              		.section	.text.dma_channel_enable,"ax",%progbits
- 549              		.align	1
- 550              		.global	dma_channel_enable
- 551              		.syntax unified
- 552              		.thumb
- 553              		.thumb_func
- 554              		.fpu fpv4-sp-d16
- 556              	dma_channel_enable:
- 557              	.LVL26:
- 558              	.LFB123:
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 26
+ 541              		.loc 1 235 1 view .LVU163
+ 542              		.cfi_endproc
+ 543              	.LFE122:
+ 545              		.section	.text.dma_channel_enable,"ax",%progbits
+ 546              		.align	1
+ 547              		.global	dma_channel_enable
+ 548              		.syntax unified
+ 549              		.thumb
+ 550              		.thumb_func
+ 551              		.fpu fpv4-sp-d16
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 26
 
 
+ 553              	dma_channel_enable:
+ 554              	.LVL23:
+ 555              	.LFB123:
  248:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 559              		.loc 1 248 1 is_stmt 1 view -0
- 560              		.cfi_startproc
- 561              		@ args = 0, pretend = 0, frame = 0
- 562              		@ frame_needed = 0, uses_anonymous_args = 0
+ 556              		.loc 1 248 1 is_stmt 1 view -0
+ 557              		.cfi_startproc
+ 558              		@ args = 0, pretend = 0, frame = 0
+ 559              		@ frame_needed = 0, uses_anonymous_args = 0
  248:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 563              		.loc 1 248 1 is_stmt 0 view .LVU159
- 564 0000 38B5     		push	{r3, r4, r5, lr}
- 565              	.LCFI6:
- 566              		.cfi_def_cfa_offset 16
- 567              		.cfi_offset 3, -16
- 568              		.cfi_offset 4, -12
- 569              		.cfi_offset 5, -8
- 570              		.cfi_offset 14, -4
- 571 0002 0546     		mov	r5, r0
- 572 0004 0C46     		mov	r4, r1
+ 560              		.loc 1 248 1 is_stmt 0 view .LVU165
+ 561 0000 38B5     		push	{r3, r4, r5, lr}
+ 562              	.LCFI6:
+ 563              		.cfi_def_cfa_offset 16
+ 564              		.cfi_offset 3, -16
+ 565              		.cfi_offset 4, -12
+ 566              		.cfi_offset 5, -8
+ 567              		.cfi_offset 14, -4
+ 568 0002 0446     		mov	r4, r0
+ 569 0004 0D46     		mov	r5, r1
  249:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 573              		.loc 1 249 5 is_stmt 1 view .LVU160
+ 570              		.loc 1 249 5 is_stmt 1 view .LVU166
  249:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 574              		.loc 1 249 17 is_stmt 0 view .LVU161
- 575 0006 FFF7FEFF 		bl	dma_periph_and_channel_check
- 576              	.LVL27:
+ 571              		.loc 1 249 17 is_stmt 0 view .LVU167
+ 572 0006 FFF7FEFF 		bl	dma_periph_and_channel_check
+ 573              	.LVL24:
  249:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 577              		.loc 1 249 7 view .LVU162
- 578 000a 00B9     		cbnz	r0, .L44
- 579              	.L45:
+ 574              		.loc 1 249 7 view .LVU168
+ 575 000a 00B9     		cbnz	r0, .L44
+ 576              	.L45:
  250:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 580              		.loc 1 250 9 is_stmt 1 discriminator 1 view .LVU163
+ 577              		.loc 1 250 9 is_stmt 1 discriminator 1 view .LVU169
  250:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 581              		.loc 1 250 9 discriminator 1 view .LVU164
- 582 000c FEE7     		b	.L45
- 583              	.L44:
+ 578              		.loc 1 250 9 discriminator 1 view .LVU170
+ 250:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
+ 579              		.loc 1 250 9 discriminator 1 view .LVU171
+ 580 000c FEE7     		b	.L45
+ 581              	.L44:
  253:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 584              		.loc 1 253 5 view .LVU165
+ 582              		.loc 1 253 5 view .LVU172
  253:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 585              		.loc 1 253 37 is_stmt 0 view .LVU166
- 586 000e 04EB8404 		add	r4, r4, r4, lsl #2
- 587 0012 A300     		lsls	r3, r4, #2
- 588 0014 2B44     		add	r3, r3, r5
- 589 0016 9A68     		ldr	r2, [r3, #8]
- 590 0018 42F00102 		orr	r2, r2, #1
- 591 001c 9A60     		str	r2, [r3, #8]
+ 583              		.loc 1 253 37 is_stmt 0 view .LVU173
+ 584 000e 05EB8501 		add	r1, r5, r5, lsl #2
+ 585 0012 04EB8100 		add	r0, r4, r1, lsl #2
+ 586 0016 8368     		ldr	r3, [r0, #8]
+ 587 0018 43F00103 		orr	r3, r3, #1
+ 588 001c 8360     		str	r3, [r0, #8]
  254:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 592              		.loc 1 254 1 view .LVU167
- 593 001e 38BD     		pop	{r3, r4, r5, pc}
+ 589              		.loc 1 254 1 view .LVU174
+ 590 001e 38BD     		pop	{r3, r4, r5, pc}
  254:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 594              		.loc 1 254 1 view .LVU168
- 595              		.cfi_endproc
- 596              	.LFE123:
- 598              		.section	.text.dma_channel_disable,"ax",%progbits
- 599              		.align	1
- 600              		.global	dma_channel_disable
- 601              		.syntax unified
- 602              		.thumb
- 603              		.thumb_func
- 604              		.fpu fpv4-sp-d16
- 606              	dma_channel_disable:
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 27
+ 591              		.loc 1 254 1 view .LVU175
+ 592              		.cfi_endproc
+ 593              	.LFE123:
+ 595              		.section	.text.dma_channel_disable,"ax",%progbits
+ 596              		.align	1
+ 597              		.global	dma_channel_disable
+ 598              		.syntax unified
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 27
 
 
- 607              	.LVL28:
- 608              	.LFB124:
+ 599              		.thumb
+ 600              		.thumb_func
+ 601              		.fpu fpv4-sp-d16
+ 603              	dma_channel_disable:
+ 604              	.LVL25:
+ 605              	.LFB124:
  267:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 609              		.loc 1 267 1 is_stmt 1 view -0
- 610              		.cfi_startproc
- 611              		@ args = 0, pretend = 0, frame = 0
- 612              		@ frame_needed = 0, uses_anonymous_args = 0
+ 606              		.loc 1 267 1 is_stmt 1 view -0
+ 607              		.cfi_startproc
+ 608              		@ args = 0, pretend = 0, frame = 0
+ 609              		@ frame_needed = 0, uses_anonymous_args = 0
  267:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 613              		.loc 1 267 1 is_stmt 0 view .LVU170
- 614 0000 38B5     		push	{r3, r4, r5, lr}
- 615              	.LCFI7:
- 616              		.cfi_def_cfa_offset 16
- 617              		.cfi_offset 3, -16
- 618              		.cfi_offset 4, -12
- 619              		.cfi_offset 5, -8
- 620              		.cfi_offset 14, -4
- 621 0002 0546     		mov	r5, r0
- 622 0004 0C46     		mov	r4, r1
+ 610              		.loc 1 267 1 is_stmt 0 view .LVU177
+ 611 0000 38B5     		push	{r3, r4, r5, lr}
+ 612              	.LCFI7:
+ 613              		.cfi_def_cfa_offset 16
+ 614              		.cfi_offset 3, -16
+ 615              		.cfi_offset 4, -12
+ 616              		.cfi_offset 5, -8
+ 617              		.cfi_offset 14, -4
+ 618 0002 0446     		mov	r4, r0
+ 619 0004 0D46     		mov	r5, r1
  268:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 623              		.loc 1 268 5 is_stmt 1 view .LVU171
+ 620              		.loc 1 268 5 is_stmt 1 view .LVU178
  268:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 624              		.loc 1 268 17 is_stmt 0 view .LVU172
- 625 0006 FFF7FEFF 		bl	dma_periph_and_channel_check
- 626              	.LVL29:
+ 621              		.loc 1 268 17 is_stmt 0 view .LVU179
+ 622 0006 FFF7FEFF 		bl	dma_periph_and_channel_check
+ 623              	.LVL26:
  268:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 627              		.loc 1 268 7 view .LVU173
- 628 000a 00B9     		cbnz	r0, .L48
- 629              	.L49:
+ 624              		.loc 1 268 7 view .LVU180
+ 625 000a 00B9     		cbnz	r0, .L48
+ 626              	.L49:
  269:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 630              		.loc 1 269 9 is_stmt 1 discriminator 1 view .LVU174
+ 627              		.loc 1 269 9 is_stmt 1 discriminator 1 view .LVU181
  269:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 631              		.loc 1 269 9 discriminator 1 view .LVU175
- 632 000c FEE7     		b	.L49
- 633              	.L48:
+ 628              		.loc 1 269 9 discriminator 1 view .LVU182
+ 269:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
+ 629              		.loc 1 269 9 discriminator 1 view .LVU183
+ 630 000c FEE7     		b	.L49
+ 631              	.L48:
  272:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 634              		.loc 1 272 5 view .LVU176
+ 632              		.loc 1 272 5 view .LVU184
  272:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 635              		.loc 1 272 37 is_stmt 0 view .LVU177
- 636 000e 04EB8404 		add	r4, r4, r4, lsl #2
- 637 0012 A300     		lsls	r3, r4, #2
- 638 0014 2B44     		add	r3, r3, r5
- 639 0016 9A68     		ldr	r2, [r3, #8]
- 640 0018 22F00102 		bic	r2, r2, #1
- 641 001c 9A60     		str	r2, [r3, #8]
+ 633              		.loc 1 272 37 is_stmt 0 view .LVU185
+ 634 000e 05EB8501 		add	r1, r5, r5, lsl #2
+ 635 0012 04EB8100 		add	r0, r4, r1, lsl #2
+ 636 0016 8368     		ldr	r3, [r0, #8]
+ 637 0018 23F00103 		bic	r3, r3, #1
+ 638 001c 8360     		str	r3, [r0, #8]
  273:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 642              		.loc 1 273 1 view .LVU178
- 643 001e 38BD     		pop	{r3, r4, r5, pc}
+ 639              		.loc 1 273 1 view .LVU186
+ 640 001e 38BD     		pop	{r3, r4, r5, pc}
  273:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 644              		.loc 1 273 1 view .LVU179
- 645              		.cfi_endproc
- 646              	.LFE124:
- 648              		.section	.text.dma_periph_address_config,"ax",%progbits
- 649              		.align	1
- 650              		.global	dma_periph_address_config
- 651              		.syntax unified
- 652              		.thumb
- 653              		.thumb_func
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 28
+ 641              		.loc 1 273 1 view .LVU187
+ 642              		.cfi_endproc
+ 643              	.LFE124:
+ 645              		.section	.text.dma_periph_address_config,"ax",%progbits
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 28
 
 
- 654              		.fpu fpv4-sp-d16
- 656              	dma_periph_address_config:
- 657              	.LVL30:
- 658              	.LFB125:
+ 646              		.align	1
+ 647              		.global	dma_periph_address_config
+ 648              		.syntax unified
+ 649              		.thumb
+ 650              		.thumb_func
+ 651              		.fpu fpv4-sp-d16
+ 653              	dma_periph_address_config:
+ 654              	.LVL27:
+ 655              	.LFB125:
  287:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 659              		.loc 1 287 1 is_stmt 1 view -0
- 660              		.cfi_startproc
- 661              		@ args = 0, pretend = 0, frame = 0
- 662              		@ frame_needed = 0, uses_anonymous_args = 0
+ 656              		.loc 1 287 1 is_stmt 1 view -0
+ 657              		.cfi_startproc
+ 658              		@ args = 0, pretend = 0, frame = 0
+ 659              		@ frame_needed = 0, uses_anonymous_args = 0
  287:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 663              		.loc 1 287 1 is_stmt 0 view .LVU181
- 664 0000 70B5     		push	{r4, r5, r6, lr}
- 665              	.LCFI8:
- 666              		.cfi_def_cfa_offset 16
- 667              		.cfi_offset 4, -16
- 668              		.cfi_offset 5, -12
- 669              		.cfi_offset 6, -8
- 670              		.cfi_offset 14, -4
- 671 0002 0646     		mov	r6, r0
- 672 0004 0C46     		mov	r4, r1
- 673 0006 1546     		mov	r5, r2
+ 660              		.loc 1 287 1 is_stmt 0 view .LVU189
+ 661 0000 70B5     		push	{r4, r5, r6, lr}
+ 662              	.LCFI8:
+ 663              		.cfi_def_cfa_offset 16
+ 664              		.cfi_offset 4, -16
+ 665              		.cfi_offset 5, -12
+ 666              		.cfi_offset 6, -8
+ 667              		.cfi_offset 14, -4
+ 668 0002 0546     		mov	r5, r0
+ 669 0004 0C46     		mov	r4, r1
+ 670 0006 1646     		mov	r6, r2
  288:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 674              		.loc 1 288 5 is_stmt 1 view .LVU182
+ 671              		.loc 1 288 5 is_stmt 1 view .LVU190
  288:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 675              		.loc 1 288 17 is_stmt 0 view .LVU183
- 676 0008 FFF7FEFF 		bl	dma_periph_and_channel_check
- 677              	.LVL31:
+ 672              		.loc 1 288 17 is_stmt 0 view .LVU191
+ 673 0008 FFF7FEFF 		bl	dma_periph_and_channel_check
+ 674              	.LVL28:
  288:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 678              		.loc 1 288 7 view .LVU184
- 679 000c 00B9     		cbnz	r0, .L52
- 680              	.L53:
+ 675              		.loc 1 288 7 view .LVU192
+ 676 000c 00B9     		cbnz	r0, .L52
+ 677              	.L53:
  289:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 681              		.loc 1 289 9 is_stmt 1 discriminator 1 view .LVU185
+ 678              		.loc 1 289 9 is_stmt 1 discriminator 1 view .LVU193
  289:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 682              		.loc 1 289 9 discriminator 1 view .LVU186
- 683 000e FEE7     		b	.L53
- 684              	.L52:
+ 679              		.loc 1 289 9 discriminator 1 view .LVU194
+ 289:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
+ 680              		.loc 1 289 9 discriminator 1 view .LVU195
+ 681 000e FEE7     		b	.L53
+ 682              	.L52:
  292:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 685              		.loc 1 292 5 view .LVU187
- 686 0010 04EB8404 		add	r4, r4, r4, lsl #2
- 687 0014 A300     		lsls	r3, r4, #2
- 688 0016 3344     		add	r3, r3, r6
+ 683              		.loc 1 292 5 view .LVU196
+ 684 0010 04EB8401 		add	r1, r4, r4, lsl #2
+ 685 0014 05EB8101 		add	r1, r5, r1, lsl #2
  292:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 689              		.loc 1 292 39 is_stmt 0 view .LVU188
- 690 0018 1D61     		str	r5, [r3, #16]
+ 686              		.loc 1 292 39 is_stmt 0 view .LVU197
+ 687 0018 0E61     		str	r6, [r1, #16]
  293:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 691              		.loc 1 293 1 view .LVU189
- 692 001a 70BD     		pop	{r4, r5, r6, pc}
+ 688              		.loc 1 293 1 view .LVU198
+ 689 001a 70BD     		pop	{r4, r5, r6, pc}
  293:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 693              		.loc 1 293 1 view .LVU190
- 694              		.cfi_endproc
- 695              	.LFE125:
- 697              		.section	.text.dma_memory_address_config,"ax",%progbits
- 698              		.align	1
- 699              		.global	dma_memory_address_config
- 700              		.syntax unified
- 701              		.thumb
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 29
+ 690              		.loc 1 293 1 view .LVU199
+ 691              		.cfi_endproc
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 29
 
 
- 702              		.thumb_func
- 703              		.fpu fpv4-sp-d16
- 705              	dma_memory_address_config:
- 706              	.LVL32:
- 707              	.LFB126:
+ 692              	.LFE125:
+ 694              		.section	.text.dma_memory_address_config,"ax",%progbits
+ 695              		.align	1
+ 696              		.global	dma_memory_address_config
+ 697              		.syntax unified
+ 698              		.thumb
+ 699              		.thumb_func
+ 700              		.fpu fpv4-sp-d16
+ 702              	dma_memory_address_config:
+ 703              	.LVL29:
+ 704              	.LFB126:
  307:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 708              		.loc 1 307 1 is_stmt 1 view -0
- 709              		.cfi_startproc
- 710              		@ args = 0, pretend = 0, frame = 0
- 711              		@ frame_needed = 0, uses_anonymous_args = 0
+ 705              		.loc 1 307 1 is_stmt 1 view -0
+ 706              		.cfi_startproc
+ 707              		@ args = 0, pretend = 0, frame = 0
+ 708              		@ frame_needed = 0, uses_anonymous_args = 0
  307:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 712              		.loc 1 307 1 is_stmt 0 view .LVU192
- 713 0000 70B5     		push	{r4, r5, r6, lr}
- 714              	.LCFI9:
- 715              		.cfi_def_cfa_offset 16
- 716              		.cfi_offset 4, -16
- 717              		.cfi_offset 5, -12
- 718              		.cfi_offset 6, -8
- 719              		.cfi_offset 14, -4
- 720 0002 0646     		mov	r6, r0
- 721 0004 0C46     		mov	r4, r1
- 722 0006 1546     		mov	r5, r2
+ 709              		.loc 1 307 1 is_stmt 0 view .LVU201
+ 710 0000 70B5     		push	{r4, r5, r6, lr}
+ 711              	.LCFI9:
+ 712              		.cfi_def_cfa_offset 16
+ 713              		.cfi_offset 4, -16
+ 714              		.cfi_offset 5, -12
+ 715              		.cfi_offset 6, -8
+ 716              		.cfi_offset 14, -4
+ 717 0002 0546     		mov	r5, r0
+ 718 0004 0C46     		mov	r4, r1
+ 719 0006 1646     		mov	r6, r2
  308:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 723              		.loc 1 308 5 is_stmt 1 view .LVU193
+ 720              		.loc 1 308 5 is_stmt 1 view .LVU202
  308:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 724              		.loc 1 308 17 is_stmt 0 view .LVU194
- 725 0008 FFF7FEFF 		bl	dma_periph_and_channel_check
- 726              	.LVL33:
+ 721              		.loc 1 308 17 is_stmt 0 view .LVU203
+ 722 0008 FFF7FEFF 		bl	dma_periph_and_channel_check
+ 723              	.LVL30:
  308:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 727              		.loc 1 308 7 view .LVU195
- 728 000c 00B9     		cbnz	r0, .L56
- 729              	.L57:
+ 724              		.loc 1 308 7 view .LVU204
+ 725 000c 00B9     		cbnz	r0, .L56
+ 726              	.L57:
  309:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 730              		.loc 1 309 9 is_stmt 1 discriminator 1 view .LVU196
+ 727              		.loc 1 309 9 is_stmt 1 discriminator 1 view .LVU205
  309:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 731              		.loc 1 309 9 discriminator 1 view .LVU197
- 732 000e FEE7     		b	.L57
- 733              	.L56:
+ 728              		.loc 1 309 9 discriminator 1 view .LVU206
+ 309:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
+ 729              		.loc 1 309 9 discriminator 1 view .LVU207
+ 730 000e FEE7     		b	.L57
+ 731              	.L56:
  312:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 734              		.loc 1 312 5 view .LVU198
- 735 0010 04EB8404 		add	r4, r4, r4, lsl #2
- 736 0014 A300     		lsls	r3, r4, #2
- 737 0016 3344     		add	r3, r3, r6
+ 732              		.loc 1 312 5 view .LVU208
+ 733 0010 04EB8401 		add	r1, r4, r4, lsl #2
+ 734 0014 05EB8101 		add	r1, r5, r1, lsl #2
  312:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 738              		.loc 1 312 39 is_stmt 0 view .LVU199
- 739 0018 5D61     		str	r5, [r3, #20]
+ 735              		.loc 1 312 39 is_stmt 0 view .LVU209
+ 736 0018 4E61     		str	r6, [r1, #20]
  313:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 740              		.loc 1 313 1 view .LVU200
- 741 001a 70BD     		pop	{r4, r5, r6, pc}
+ 737              		.loc 1 313 1 view .LVU210
+ 738 001a 70BD     		pop	{r4, r5, r6, pc}
  313:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 742              		.loc 1 313 1 view .LVU201
- 743              		.cfi_endproc
- 744              	.LFE126:
- 746              		.section	.text.dma_transfer_number_config,"ax",%progbits
- 747              		.align	1
- 748              		.global	dma_transfer_number_config
- 749              		.syntax unified
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 30
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 30
 
 
- 750              		.thumb
- 751              		.thumb_func
- 752              		.fpu fpv4-sp-d16
- 754              	dma_transfer_number_config:
- 755              	.LVL34:
- 756              	.LFB127:
+ 739              		.loc 1 313 1 view .LVU211
+ 740              		.cfi_endproc
+ 741              	.LFE126:
+ 743              		.section	.text.dma_transfer_number_config,"ax",%progbits
+ 744              		.align	1
+ 745              		.global	dma_transfer_number_config
+ 746              		.syntax unified
+ 747              		.thumb
+ 748              		.thumb_func
+ 749              		.fpu fpv4-sp-d16
+ 751              	dma_transfer_number_config:
+ 752              	.LVL31:
+ 753              	.LFB127:
  327:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 757              		.loc 1 327 1 is_stmt 1 view -0
- 758              		.cfi_startproc
- 759              		@ args = 0, pretend = 0, frame = 0
- 760              		@ frame_needed = 0, uses_anonymous_args = 0
+ 754              		.loc 1 327 1 is_stmt 1 view -0
+ 755              		.cfi_startproc
+ 756              		@ args = 0, pretend = 0, frame = 0
+ 757              		@ frame_needed = 0, uses_anonymous_args = 0
  327:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 761              		.loc 1 327 1 is_stmt 0 view .LVU203
- 762 0000 70B5     		push	{r4, r5, r6, lr}
- 763              	.LCFI10:
- 764              		.cfi_def_cfa_offset 16
- 765              		.cfi_offset 4, -16
- 766              		.cfi_offset 5, -12
- 767              		.cfi_offset 6, -8
- 768              		.cfi_offset 14, -4
- 769 0002 0646     		mov	r6, r0
- 770 0004 0C46     		mov	r4, r1
- 771 0006 1546     		mov	r5, r2
+ 758              		.loc 1 327 1 is_stmt 0 view .LVU213
+ 759 0000 70B5     		push	{r4, r5, r6, lr}
+ 760              	.LCFI10:
+ 761              		.cfi_def_cfa_offset 16
+ 762              		.cfi_offset 4, -16
+ 763              		.cfi_offset 5, -12
+ 764              		.cfi_offset 6, -8
+ 765              		.cfi_offset 14, -4
+ 766 0002 0546     		mov	r5, r0
+ 767 0004 0C46     		mov	r4, r1
+ 768 0006 1646     		mov	r6, r2
  328:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 772              		.loc 1 328 5 is_stmt 1 view .LVU204
+ 769              		.loc 1 328 5 is_stmt 1 view .LVU214
  328:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 773              		.loc 1 328 17 is_stmt 0 view .LVU205
- 774 0008 FFF7FEFF 		bl	dma_periph_and_channel_check
- 775              	.LVL35:
+ 770              		.loc 1 328 17 is_stmt 0 view .LVU215
+ 771 0008 FFF7FEFF 		bl	dma_periph_and_channel_check
+ 772              	.LVL32:
  328:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 776              		.loc 1 328 7 view .LVU206
- 777 000c 00B9     		cbnz	r0, .L60
- 778              	.L61:
+ 773              		.loc 1 328 7 view .LVU216
+ 774 000c 00B9     		cbnz	r0, .L60
+ 775              	.L61:
  329:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 779              		.loc 1 329 9 is_stmt 1 discriminator 1 view .LVU207
+ 776              		.loc 1 329 9 is_stmt 1 discriminator 1 view .LVU217
  329:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 780              		.loc 1 329 9 discriminator 1 view .LVU208
- 781 000e FEE7     		b	.L61
- 782              	.L60:
+ 777              		.loc 1 329 9 discriminator 1 view .LVU218
+ 329:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
+ 778              		.loc 1 329 9 discriminator 1 view .LVU219
+ 779 000e FEE7     		b	.L61
+ 780              	.L60:
  332:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 783              		.loc 1 332 5 view .LVU209
- 784 0010 04EB8404 		add	r4, r4, r4, lsl #2
- 785 0014 A300     		lsls	r3, r4, #2
- 786 0016 3344     		add	r3, r3, r6
+ 781              		.loc 1 332 5 view .LVU220
+ 782 0010 04EB8401 		add	r1, r4, r4, lsl #2
+ 783 0014 05EB8101 		add	r1, r5, r1, lsl #2
  332:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 787              		.loc 1 332 47 is_stmt 0 view .LVU210
- 788 0018 ADB2     		uxth	r5, r5
- 789              	.LVL36:
+ 784              		.loc 1 332 47 is_stmt 0 view .LVU221
+ 785 0018 B6B2     		uxth	r6, r6
+ 786              	.LVL33:
  332:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 790              		.loc 1 332 37 view .LVU211
- 791 001a DD60     		str	r5, [r3, #12]
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 31
+
+
+ 787              		.loc 1 332 37 view .LVU222
+ 788 001a CE60     		str	r6, [r1, #12]
  333:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 792              		.loc 1 333 1 view .LVU212
- 793 001c 70BD     		pop	{r4, r5, r6, pc}
+ 789              		.loc 1 333 1 view .LVU223
+ 790 001c 70BD     		pop	{r4, r5, r6, pc}
  333:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 794              		.loc 1 333 1 view .LVU213
- 795              		.cfi_endproc
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 31
-
-
- 796              	.LFE127:
- 798              		.section	.text.dma_transfer_number_get,"ax",%progbits
- 799              		.align	1
- 800              		.global	dma_transfer_number_get
- 801              		.syntax unified
- 802              		.thumb
- 803              		.thumb_func
- 804              		.fpu fpv4-sp-d16
- 806              	dma_transfer_number_get:
- 807              	.LVL37:
- 808              	.LFB128:
+ 791              		.loc 1 333 1 view .LVU224
+ 792              		.cfi_endproc
+ 793              	.LFE127:
+ 795              		.section	.text.dma_transfer_number_get,"ax",%progbits
+ 796              		.align	1
+ 797              		.global	dma_transfer_number_get
+ 798              		.syntax unified
+ 799              		.thumb
+ 800              		.thumb_func
+ 801              		.fpu fpv4-sp-d16
+ 803              	dma_transfer_number_get:
+ 804              	.LVL34:
+ 805              	.LFB128:
  346:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 809              		.loc 1 346 1 is_stmt 1 view -0
- 810              		.cfi_startproc
- 811              		@ args = 0, pretend = 0, frame = 0
- 812              		@ frame_needed = 0, uses_anonymous_args = 0
+ 806              		.loc 1 346 1 is_stmt 1 view -0
+ 807              		.cfi_startproc
+ 808              		@ args = 0, pretend = 0, frame = 0
+ 809              		@ frame_needed = 0, uses_anonymous_args = 0
  346:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 813              		.loc 1 346 1 is_stmt 0 view .LVU215
- 814 0000 38B5     		push	{r3, r4, r5, lr}
- 815              	.LCFI11:
- 816              		.cfi_def_cfa_offset 16
- 817              		.cfi_offset 3, -16
- 818              		.cfi_offset 4, -12
- 819              		.cfi_offset 5, -8
- 820              		.cfi_offset 14, -4
- 821 0002 0546     		mov	r5, r0
- 822 0004 0C46     		mov	r4, r1
+ 810              		.loc 1 346 1 is_stmt 0 view .LVU226
+ 811 0000 38B5     		push	{r3, r4, r5, lr}
+ 812              	.LCFI11:
+ 813              		.cfi_def_cfa_offset 16
+ 814              		.cfi_offset 3, -16
+ 815              		.cfi_offset 4, -12
+ 816              		.cfi_offset 5, -8
+ 817              		.cfi_offset 14, -4
+ 818 0002 0546     		mov	r5, r0
+ 819 0004 0C46     		mov	r4, r1
  347:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 823              		.loc 1 347 5 is_stmt 1 view .LVU216
+ 820              		.loc 1 347 5 is_stmt 1 view .LVU227
  347:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 824              		.loc 1 347 17 is_stmt 0 view .LVU217
- 825 0006 FFF7FEFF 		bl	dma_periph_and_channel_check
- 826              	.LVL38:
+ 821              		.loc 1 347 17 is_stmt 0 view .LVU228
+ 822 0006 FFF7FEFF 		bl	dma_periph_and_channel_check
+ 823              	.LVL35:
  347:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 827              		.loc 1 347 7 view .LVU218
- 828 000a 00B9     		cbnz	r0, .L64
- 829              	.L65:
+ 824              		.loc 1 347 7 view .LVU229
+ 825 000a 00B9     		cbnz	r0, .L64
+ 826              	.L65:
  348:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 830              		.loc 1 348 9 is_stmt 1 discriminator 1 view .LVU219
+ 827              		.loc 1 348 9 is_stmt 1 discriminator 1 view .LVU230
  348:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 831              		.loc 1 348 9 discriminator 1 view .LVU220
- 832 000c FEE7     		b	.L65
- 833              	.L64:
+ 828              		.loc 1 348 9 discriminator 1 view .LVU231
+ 348:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
+ 829              		.loc 1 348 9 discriminator 1 view .LVU232
+ 830 000c FEE7     		b	.L65
+ 831              	.L64:
  351:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 834              		.loc 1 351 5 view .LVU221
+ 832              		.loc 1 351 5 view .LVU233
  351:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 835              		.loc 1 351 22 is_stmt 0 view .LVU222
- 836 000e 04EB8404 		add	r4, r4, r4, lsl #2
- 837 0012 A300     		lsls	r3, r4, #2
- 838 0014 2B44     		add	r3, r3, r5
- 351:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 839              		.loc 1 351 12 view .LVU223
- 840 0016 D868     		ldr	r0, [r3, #12]
- 352:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 841              		.loc 1 352 1 view .LVU224
- 842 0018 38BD     		pop	{r3, r4, r5, pc}
- 352:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 32
+ 833              		.loc 1 351 22 is_stmt 0 view .LVU234
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 32
 
 
- 843              		.loc 1 352 1 view .LVU225
- 844              		.cfi_endproc
- 845              	.LFE128:
- 847              		.section	.text.dma_priority_config,"ax",%progbits
- 848              		.align	1
- 849              		.global	dma_priority_config
- 850              		.syntax unified
- 851              		.thumb
- 852              		.thumb_func
- 853              		.fpu fpv4-sp-d16
- 855              	dma_priority_config:
- 856              	.LVL39:
- 857              	.LFB129:
+ 834 000e 04EB8401 		add	r1, r4, r4, lsl #2
+ 835 0012 05EB8101 		add	r1, r5, r1, lsl #2
+ 351:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
+ 836              		.loc 1 351 12 view .LVU235
+ 837 0016 C868     		ldr	r0, [r1, #12]
+ 352:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
+ 838              		.loc 1 352 1 view .LVU236
+ 839 0018 38BD     		pop	{r3, r4, r5, pc}
+ 352:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
+ 840              		.loc 1 352 1 view .LVU237
+ 841              		.cfi_endproc
+ 842              	.LFE128:
+ 844              		.section	.text.dma_priority_config,"ax",%progbits
+ 845              		.align	1
+ 846              		.global	dma_priority_config
+ 847              		.syntax unified
+ 848              		.thumb
+ 849              		.thumb_func
+ 850              		.fpu fpv4-sp-d16
+ 852              	dma_priority_config:
+ 853              	.LVL36:
+ 854              	.LFB129:
  371:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     uint32_t ctl;
- 858              		.loc 1 371 1 is_stmt 1 view -0
- 859              		.cfi_startproc
- 860              		@ args = 0, pretend = 0, frame = 0
- 861              		@ frame_needed = 0, uses_anonymous_args = 0
+ 855              		.loc 1 371 1 is_stmt 1 view -0
+ 856              		.cfi_startproc
+ 857              		@ args = 0, pretend = 0, frame = 0
+ 858              		@ frame_needed = 0, uses_anonymous_args = 0
  371:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     uint32_t ctl;
- 862              		.loc 1 371 1 is_stmt 0 view .LVU227
- 863 0000 70B5     		push	{r4, r5, r6, lr}
- 864              	.LCFI12:
- 865              		.cfi_def_cfa_offset 16
- 866              		.cfi_offset 4, -16
- 867              		.cfi_offset 5, -12
- 868              		.cfi_offset 6, -8
- 869              		.cfi_offset 14, -4
- 870 0002 0646     		mov	r6, r0
- 871 0004 0C46     		mov	r4, r1
- 872 0006 1546     		mov	r5, r2
+ 859              		.loc 1 371 1 is_stmt 0 view .LVU239
+ 860 0000 70B5     		push	{r4, r5, r6, lr}
+ 861              	.LCFI12:
+ 862              		.cfi_def_cfa_offset 16
+ 863              		.cfi_offset 4, -16
+ 864              		.cfi_offset 5, -12
+ 865              		.cfi_offset 6, -8
+ 866              		.cfi_offset 14, -4
+ 867 0002 0446     		mov	r4, r0
+ 868 0004 0D46     		mov	r5, r1
+ 869 0006 1646     		mov	r6, r2
  372:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 873              		.loc 1 372 5 is_stmt 1 view .LVU228
+ 870              		.loc 1 372 5 is_stmt 1 view .LVU240
  374:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 874              		.loc 1 374 5 view .LVU229
+ 871              		.loc 1 374 5 view .LVU241
  374:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 875              		.loc 1 374 17 is_stmt 0 view .LVU230
- 876 0008 FFF7FEFF 		bl	dma_periph_and_channel_check
- 877              	.LVL40:
+ 872              		.loc 1 374 17 is_stmt 0 view .LVU242
+ 873 0008 FFF7FEFF 		bl	dma_periph_and_channel_check
+ 874              	.LVL37:
  374:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 878              		.loc 1 374 7 view .LVU231
- 879 000c 00B9     		cbnz	r0, .L68
- 880              	.L69:
+ 875              		.loc 1 374 7 view .LVU243
+ 876 000c 00B9     		cbnz	r0, .L68
+ 877              	.L69:
  375:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 881              		.loc 1 375 9 is_stmt 1 discriminator 1 view .LVU232
+ 878              		.loc 1 375 9 is_stmt 1 discriminator 1 view .LVU244
  375:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 882              		.loc 1 375 9 discriminator 1 view .LVU233
- 883 000e FEE7     		b	.L69
- 884              	.L68:
- 379:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     /* assign regiser */
- 885              		.loc 1 379 5 view .LVU234
- 379:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     /* assign regiser */
- 886              		.loc 1 379 11 is_stmt 0 view .LVU235
- 887 0010 04EB8404 		add	r4, r4, r4, lsl #2
- 888 0014 A300     		lsls	r3, r4, #2
- 889 0016 3344     		add	r3, r3, r6
- 379:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     /* assign regiser */
- 890              		.loc 1 379 9 view .LVU236
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 33
+ 879              		.loc 1 375 9 discriminator 1 view .LVU245
+ 375:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
+ 880              		.loc 1 375 9 discriminator 1 view .LVU246
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 33
 
 
- 891 0018 9A68     		ldr	r2, [r3, #8]
- 892              	.LVL41:
+ 881 000e FEE7     		b	.L69
+ 882              	.L68:
+ 379:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     /* assign regiser */
+ 883              		.loc 1 379 5 view .LVU247
+ 379:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     /* assign regiser */
+ 884              		.loc 1 379 11 is_stmt 0 view .LVU248
+ 885 0010 05EB8501 		add	r1, r5, r5, lsl #2
+ 886 0014 04EB8100 		add	r0, r4, r1, lsl #2
+ 379:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     /* assign regiser */
+ 887              		.loc 1 379 9 view .LVU249
+ 888 0018 8268     		ldr	r2, [r0, #8]
+ 889              	.LVL38:
  381:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     ctl |= priority;
- 893              		.loc 1 381 5 is_stmt 1 view .LVU237
+ 890              		.loc 1 381 5 is_stmt 1 view .LVU250
  381:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     ctl |= priority;
- 894              		.loc 1 381 9 is_stmt 0 view .LVU238
- 895 001a 22F44052 		bic	r2, r2, #12288
- 896              	.LVL42:
+ 891              		.loc 1 381 9 is_stmt 0 view .LVU251
+ 892 001a 22F44052 		bic	r2, r2, #12288
+ 893              	.LVL39:
  382:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     DMA_CHCTL(dma_periph, channelx) = ctl;
- 897              		.loc 1 382 5 is_stmt 1 view .LVU239
+ 894              		.loc 1 382 5 is_stmt 1 view .LVU252
  382:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     DMA_CHCTL(dma_periph, channelx) = ctl;
- 898              		.loc 1 382 9 is_stmt 0 view .LVU240
- 899 001e 2A43     		orrs	r2, r2, r5
- 900              	.LVL43:
+ 895              		.loc 1 382 9 is_stmt 0 view .LVU253
+ 896 001e 3243     		orrs	r2, r2, r6
+ 897              	.LVL40:
  383:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 901              		.loc 1 383 5 is_stmt 1 view .LVU241
+ 898              		.loc 1 383 5 is_stmt 1 view .LVU254
  383:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 902              		.loc 1 383 37 is_stmt 0 view .LVU242
- 903 0020 9A60     		str	r2, [r3, #8]
+ 899              		.loc 1 383 37 is_stmt 0 view .LVU255
+ 900 0020 8260     		str	r2, [r0, #8]
  384:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 904              		.loc 1 384 1 view .LVU243
- 905 0022 70BD     		pop	{r4, r5, r6, pc}
+ 901              		.loc 1 384 1 view .LVU256
+ 902 0022 70BD     		pop	{r4, r5, r6, pc}
  384:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 906              		.loc 1 384 1 view .LVU244
- 907              		.cfi_endproc
- 908              	.LFE129:
- 910              		.section	.text.dma_memory_width_config,"ax",%progbits
- 911              		.align	1
- 912              		.global	dma_memory_width_config
- 913              		.syntax unified
- 914              		.thumb
- 915              		.thumb_func
- 916              		.fpu fpv4-sp-d16
- 918              	dma_memory_width_config:
- 919              	.LVL44:
- 920              	.LFB130:
+ 903              		.loc 1 384 1 view .LVU257
+ 904              		.cfi_endproc
+ 905              	.LFE129:
+ 907              		.section	.text.dma_memory_width_config,"ax",%progbits
+ 908              		.align	1
+ 909              		.global	dma_memory_width_config
+ 910              		.syntax unified
+ 911              		.thumb
+ 912              		.thumb_func
+ 913              		.fpu fpv4-sp-d16
+ 915              	dma_memory_width_config:
+ 916              	.LVL41:
+ 917              	.LFB130:
  402:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     uint32_t ctl;
- 921              		.loc 1 402 1 is_stmt 1 view -0
- 922              		.cfi_startproc
- 923              		@ args = 0, pretend = 0, frame = 0
- 924              		@ frame_needed = 0, uses_anonymous_args = 0
+ 918              		.loc 1 402 1 is_stmt 1 view -0
+ 919              		.cfi_startproc
+ 920              		@ args = 0, pretend = 0, frame = 0
+ 921              		@ frame_needed = 0, uses_anonymous_args = 0
  402:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     uint32_t ctl;
- 925              		.loc 1 402 1 is_stmt 0 view .LVU246
- 926 0000 70B5     		push	{r4, r5, r6, lr}
- 927              	.LCFI13:
- 928              		.cfi_def_cfa_offset 16
- 929              		.cfi_offset 4, -16
- 930              		.cfi_offset 5, -12
- 931              		.cfi_offset 6, -8
- 932              		.cfi_offset 14, -4
- 933 0002 0646     		mov	r6, r0
- 934 0004 0C46     		mov	r4, r1
- 935 0006 1546     		mov	r5, r2
+ 922              		.loc 1 402 1 is_stmt 0 view .LVU259
+ 923 0000 70B5     		push	{r4, r5, r6, lr}
+ 924              	.LCFI13:
+ 925              		.cfi_def_cfa_offset 16
+ 926              		.cfi_offset 4, -16
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 34
+
+
+ 927              		.cfi_offset 5, -12
+ 928              		.cfi_offset 6, -8
+ 929              		.cfi_offset 14, -4
+ 930 0002 0446     		mov	r4, r0
+ 931 0004 0D46     		mov	r5, r1
+ 932 0006 1646     		mov	r6, r2
  403:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 936              		.loc 1 403 5 is_stmt 1 view .LVU247
+ 933              		.loc 1 403 5 is_stmt 1 view .LVU260
  405:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 937              		.loc 1 405 5 view .LVU248
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 34
-
-
+ 934              		.loc 1 405 5 view .LVU261
  405:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 938              		.loc 1 405 17 is_stmt 0 view .LVU249
- 939 0008 FFF7FEFF 		bl	dma_periph_and_channel_check
- 940              	.LVL45:
+ 935              		.loc 1 405 17 is_stmt 0 view .LVU262
+ 936 0008 FFF7FEFF 		bl	dma_periph_and_channel_check
+ 937              	.LVL42:
  405:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 941              		.loc 1 405 7 view .LVU250
- 942 000c 00B9     		cbnz	r0, .L72
- 943              	.L73:
+ 938              		.loc 1 405 7 view .LVU263
+ 939 000c 00B9     		cbnz	r0, .L72
+ 940              	.L73:
  406:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 944              		.loc 1 406 9 is_stmt 1 discriminator 1 view .LVU251
+ 941              		.loc 1 406 9 is_stmt 1 discriminator 1 view .LVU264
  406:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 945              		.loc 1 406 9 discriminator 1 view .LVU252
- 946 000e FEE7     		b	.L73
- 947              	.L72:
+ 942              		.loc 1 406 9 discriminator 1 view .LVU265
+ 406:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
+ 943              		.loc 1 406 9 discriminator 1 view .LVU266
+ 944 000e FEE7     		b	.L73
+ 945              	.L72:
  410:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     /* assign regiser */
- 948              		.loc 1 410 5 view .LVU253
+ 946              		.loc 1 410 5 view .LVU267
  410:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     /* assign regiser */
- 949              		.loc 1 410 11 is_stmt 0 view .LVU254
- 950 0010 04EB8404 		add	r4, r4, r4, lsl #2
- 951 0014 A300     		lsls	r3, r4, #2
- 952 0016 3344     		add	r3, r3, r6
+ 947              		.loc 1 410 11 is_stmt 0 view .LVU268
+ 948 0010 05EB8501 		add	r1, r5, r5, lsl #2
+ 949 0014 04EB8100 		add	r0, r4, r1, lsl #2
  410:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     /* assign regiser */
- 953              		.loc 1 410 9 view .LVU255
- 954 0018 9A68     		ldr	r2, [r3, #8]
- 955              	.LVL46:
+ 950              		.loc 1 410 9 view .LVU269
+ 951 0018 8268     		ldr	r2, [r0, #8]
+ 952              	.LVL43:
  412:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     ctl |= mwidth;
- 956              		.loc 1 412 5 is_stmt 1 view .LVU256
+ 953              		.loc 1 412 5 is_stmt 1 view .LVU270
  412:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     ctl |= mwidth;
- 957              		.loc 1 412 9 is_stmt 0 view .LVU257
- 958 001a 22F44062 		bic	r2, r2, #3072
- 959              	.LVL47:
+ 954              		.loc 1 412 9 is_stmt 0 view .LVU271
+ 955 001a 22F44062 		bic	r2, r2, #3072
+ 956              	.LVL44:
  413:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     DMA_CHCTL(dma_periph, channelx) = ctl;
- 960              		.loc 1 413 5 is_stmt 1 view .LVU258
+ 957              		.loc 1 413 5 is_stmt 1 view .LVU272
  413:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     DMA_CHCTL(dma_periph, channelx) = ctl;
- 961              		.loc 1 413 9 is_stmt 0 view .LVU259
- 962 001e 2A43     		orrs	r2, r2, r5
- 963              	.LVL48:
+ 958              		.loc 1 413 9 is_stmt 0 view .LVU273
+ 959 001e 3243     		orrs	r2, r2, r6
+ 960              	.LVL45:
  414:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 964              		.loc 1 414 5 is_stmt 1 view .LVU260
+ 961              		.loc 1 414 5 is_stmt 1 view .LVU274
  414:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 965              		.loc 1 414 37 is_stmt 0 view .LVU261
- 966 0020 9A60     		str	r2, [r3, #8]
+ 962              		.loc 1 414 37 is_stmt 0 view .LVU275
+ 963 0020 8260     		str	r2, [r0, #8]
  415:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 967              		.loc 1 415 1 view .LVU262
- 968 0022 70BD     		pop	{r4, r5, r6, pc}
+ 964              		.loc 1 415 1 view .LVU276
+ 965 0022 70BD     		pop	{r4, r5, r6, pc}
  415:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 969              		.loc 1 415 1 view .LVU263
- 970              		.cfi_endproc
- 971              	.LFE130:
- 973              		.section	.text.dma_periph_width_config,"ax",%progbits
- 974              		.align	1
- 975              		.global	dma_periph_width_config
- 976              		.syntax unified
- 977              		.thumb
- 978              		.thumb_func
- 979              		.fpu fpv4-sp-d16
- 981              	dma_periph_width_config:
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 35
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 35
 
 
- 982              	.LVL49:
- 983              	.LFB131:
+ 966              		.loc 1 415 1 view .LVU277
+ 967              		.cfi_endproc
+ 968              	.LFE130:
+ 970              		.section	.text.dma_periph_width_config,"ax",%progbits
+ 971              		.align	1
+ 972              		.global	dma_periph_width_config
+ 973              		.syntax unified
+ 974              		.thumb
+ 975              		.thumb_func
+ 976              		.fpu fpv4-sp-d16
+ 978              	dma_periph_width_config:
+ 979              	.LVL46:
+ 980              	.LFB131:
  433:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     uint32_t ctl;
- 984              		.loc 1 433 1 is_stmt 1 view -0
- 985              		.cfi_startproc
- 986              		@ args = 0, pretend = 0, frame = 0
- 987              		@ frame_needed = 0, uses_anonymous_args = 0
+ 981              		.loc 1 433 1 is_stmt 1 view -0
+ 982              		.cfi_startproc
+ 983              		@ args = 0, pretend = 0, frame = 0
+ 984              		@ frame_needed = 0, uses_anonymous_args = 0
  433:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     uint32_t ctl;
- 988              		.loc 1 433 1 is_stmt 0 view .LVU265
- 989 0000 70B5     		push	{r4, r5, r6, lr}
- 990              	.LCFI14:
- 991              		.cfi_def_cfa_offset 16
- 992              		.cfi_offset 4, -16
- 993              		.cfi_offset 5, -12
- 994              		.cfi_offset 6, -8
- 995              		.cfi_offset 14, -4
- 996 0002 0646     		mov	r6, r0
- 997 0004 0C46     		mov	r4, r1
- 998 0006 1546     		mov	r5, r2
+ 985              		.loc 1 433 1 is_stmt 0 view .LVU279
+ 986 0000 70B5     		push	{r4, r5, r6, lr}
+ 987              	.LCFI14:
+ 988              		.cfi_def_cfa_offset 16
+ 989              		.cfi_offset 4, -16
+ 990              		.cfi_offset 5, -12
+ 991              		.cfi_offset 6, -8
+ 992              		.cfi_offset 14, -4
+ 993 0002 0446     		mov	r4, r0
+ 994 0004 0D46     		mov	r5, r1
+ 995 0006 1646     		mov	r6, r2
  434:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 999              		.loc 1 434 5 is_stmt 1 view .LVU266
+ 996              		.loc 1 434 5 is_stmt 1 view .LVU280
  436:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 1000              		.loc 1 436 5 view .LVU267
+ 997              		.loc 1 436 5 view .LVU281
  436:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 1001              		.loc 1 436 17 is_stmt 0 view .LVU268
- 1002 0008 FFF7FEFF 		bl	dma_periph_and_channel_check
- 1003              	.LVL50:
+ 998              		.loc 1 436 17 is_stmt 0 view .LVU282
+ 999 0008 FFF7FEFF 		bl	dma_periph_and_channel_check
+ 1000              	.LVL47:
  436:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 1004              		.loc 1 436 7 view .LVU269
- 1005 000c 00B9     		cbnz	r0, .L76
- 1006              	.L77:
+ 1001              		.loc 1 436 7 view .LVU283
+ 1002 000c 00B9     		cbnz	r0, .L76
+ 1003              	.L77:
  437:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 1007              		.loc 1 437 9 is_stmt 1 discriminator 1 view .LVU270
+ 1004              		.loc 1 437 9 is_stmt 1 discriminator 1 view .LVU284
  437:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 1008              		.loc 1 437 9 discriminator 1 view .LVU271
- 1009 000e FEE7     		b	.L77
- 1010              	.L76:
+ 1005              		.loc 1 437 9 discriminator 1 view .LVU285
+ 437:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
+ 1006              		.loc 1 437 9 discriminator 1 view .LVU286
+ 1007 000e FEE7     		b	.L77
+ 1008              	.L76:
  441:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     /* assign regiser */
- 1011              		.loc 1 441 5 view .LVU272
+ 1009              		.loc 1 441 5 view .LVU287
  441:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     /* assign regiser */
- 1012              		.loc 1 441 11 is_stmt 0 view .LVU273
- 1013 0010 04EB8404 		add	r4, r4, r4, lsl #2
- 1014 0014 A300     		lsls	r3, r4, #2
- 1015 0016 3344     		add	r3, r3, r6
+ 1010              		.loc 1 441 11 is_stmt 0 view .LVU288
+ 1011 0010 05EB8501 		add	r1, r5, r5, lsl #2
+ 1012 0014 04EB8100 		add	r0, r4, r1, lsl #2
  441:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     /* assign regiser */
- 1016              		.loc 1 441 9 view .LVU274
- 1017 0018 9A68     		ldr	r2, [r3, #8]
- 1018              	.LVL51:
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 36
+
+
+ 1013              		.loc 1 441 9 view .LVU289
+ 1014 0018 8268     		ldr	r2, [r0, #8]
+ 1015              	.LVL48:
  443:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     ctl |= pwidth;
- 1019              		.loc 1 443 5 is_stmt 1 view .LVU275
+ 1016              		.loc 1 443 5 is_stmt 1 view .LVU290
  443:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     ctl |= pwidth;
- 1020              		.loc 1 443 9 is_stmt 0 view .LVU276
- 1021 001a 22F44072 		bic	r2, r2, #768
- 1022              	.LVL52:
+ 1017              		.loc 1 443 9 is_stmt 0 view .LVU291
+ 1018 001a 22F44072 		bic	r2, r2, #768
+ 1019              	.LVL49:
  444:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     DMA_CHCTL(dma_periph, channelx) = ctl;
- 1023              		.loc 1 444 5 is_stmt 1 view .LVU277
+ 1020              		.loc 1 444 5 is_stmt 1 view .LVU292
  444:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     DMA_CHCTL(dma_periph, channelx) = ctl;
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 36
-
-
- 1024              		.loc 1 444 9 is_stmt 0 view .LVU278
- 1025 001e 2A43     		orrs	r2, r2, r5
- 1026              	.LVL53:
+ 1021              		.loc 1 444 9 is_stmt 0 view .LVU293
+ 1022 001e 3243     		orrs	r2, r2, r6
+ 1023              	.LVL50:
  445:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 1027              		.loc 1 445 5 is_stmt 1 view .LVU279
+ 1024              		.loc 1 445 5 is_stmt 1 view .LVU294
  445:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 1028              		.loc 1 445 37 is_stmt 0 view .LVU280
- 1029 0020 9A60     		str	r2, [r3, #8]
+ 1025              		.loc 1 445 37 is_stmt 0 view .LVU295
+ 1026 0020 8260     		str	r2, [r0, #8]
  446:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 1030              		.loc 1 446 1 view .LVU281
- 1031 0022 70BD     		pop	{r4, r5, r6, pc}
+ 1027              		.loc 1 446 1 view .LVU296
+ 1028 0022 70BD     		pop	{r4, r5, r6, pc}
  446:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 1032              		.loc 1 446 1 view .LVU282
- 1033              		.cfi_endproc
- 1034              	.LFE131:
- 1036              		.section	.text.dma_memory_increase_enable,"ax",%progbits
- 1037              		.align	1
- 1038              		.global	dma_memory_increase_enable
- 1039              		.syntax unified
- 1040              		.thumb
- 1041              		.thumb_func
- 1042              		.fpu fpv4-sp-d16
- 1044              	dma_memory_increase_enable:
- 1045              	.LVL54:
- 1046              	.LFB132:
+ 1029              		.loc 1 446 1 view .LVU297
+ 1030              		.cfi_endproc
+ 1031              	.LFE131:
+ 1033              		.section	.text.dma_memory_increase_enable,"ax",%progbits
+ 1034              		.align	1
+ 1035              		.global	dma_memory_increase_enable
+ 1036              		.syntax unified
+ 1037              		.thumb
+ 1038              		.thumb_func
+ 1039              		.fpu fpv4-sp-d16
+ 1041              	dma_memory_increase_enable:
+ 1042              	.LVL51:
+ 1043              	.LFB132:
  459:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 1047              		.loc 1 459 1 is_stmt 1 view -0
- 1048              		.cfi_startproc
- 1049              		@ args = 0, pretend = 0, frame = 0
- 1050              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1044              		.loc 1 459 1 is_stmt 1 view -0
+ 1045              		.cfi_startproc
+ 1046              		@ args = 0, pretend = 0, frame = 0
+ 1047              		@ frame_needed = 0, uses_anonymous_args = 0
  459:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 1051              		.loc 1 459 1 is_stmt 0 view .LVU284
- 1052 0000 38B5     		push	{r3, r4, r5, lr}
- 1053              	.LCFI15:
- 1054              		.cfi_def_cfa_offset 16
- 1055              		.cfi_offset 3, -16
- 1056              		.cfi_offset 4, -12
- 1057              		.cfi_offset 5, -8
- 1058              		.cfi_offset 14, -4
- 1059 0002 0546     		mov	r5, r0
- 1060 0004 0C46     		mov	r4, r1
+ 1048              		.loc 1 459 1 is_stmt 0 view .LVU299
+ 1049 0000 38B5     		push	{r3, r4, r5, lr}
+ 1050              	.LCFI15:
+ 1051              		.cfi_def_cfa_offset 16
+ 1052              		.cfi_offset 3, -16
+ 1053              		.cfi_offset 4, -12
+ 1054              		.cfi_offset 5, -8
+ 1055              		.cfi_offset 14, -4
+ 1056 0002 0446     		mov	r4, r0
+ 1057 0004 0D46     		mov	r5, r1
  460:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 1061              		.loc 1 460 5 is_stmt 1 view .LVU285
+ 1058              		.loc 1 460 5 is_stmt 1 view .LVU300
  460:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 1062              		.loc 1 460 17 is_stmt 0 view .LVU286
- 1063 0006 FFF7FEFF 		bl	dma_periph_and_channel_check
- 1064              	.LVL55:
+ 1059              		.loc 1 460 17 is_stmt 0 view .LVU301
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 37
+
+
+ 1060 0006 FFF7FEFF 		bl	dma_periph_and_channel_check
+ 1061              	.LVL52:
  460:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 1065              		.loc 1 460 7 view .LVU287
- 1066 000a 00B9     		cbnz	r0, .L80
- 1067              	.L81:
+ 1062              		.loc 1 460 7 view .LVU302
+ 1063 000a 00B9     		cbnz	r0, .L80
+ 1064              	.L81:
  461:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 1068              		.loc 1 461 9 is_stmt 1 discriminator 1 view .LVU288
+ 1065              		.loc 1 461 9 is_stmt 1 discriminator 1 view .LVU303
  461:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 1069              		.loc 1 461 9 discriminator 1 view .LVU289
- 1070 000c FEE7     		b	.L81
- 1071              	.L80:
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 37
-
-
+ 1066              		.loc 1 461 9 discriminator 1 view .LVU304
+ 461:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
+ 1067              		.loc 1 461 9 discriminator 1 view .LVU305
+ 1068 000c FEE7     		b	.L81
+ 1069              	.L80:
  464:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 1072              		.loc 1 464 5 view .LVU290
+ 1070              		.loc 1 464 5 view .LVU306
  464:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 1073              		.loc 1 464 37 is_stmt 0 view .LVU291
- 1074 000e 04EB8404 		add	r4, r4, r4, lsl #2
- 1075 0012 A300     		lsls	r3, r4, #2
- 1076 0014 2B44     		add	r3, r3, r5
- 1077 0016 9A68     		ldr	r2, [r3, #8]
- 1078 0018 42F08002 		orr	r2, r2, #128
- 1079 001c 9A60     		str	r2, [r3, #8]
+ 1071              		.loc 1 464 37 is_stmt 0 view .LVU307
+ 1072 000e 05EB8501 		add	r1, r5, r5, lsl #2
+ 1073 0012 04EB8100 		add	r0, r4, r1, lsl #2
+ 1074 0016 8368     		ldr	r3, [r0, #8]
+ 1075 0018 43F08003 		orr	r3, r3, #128
+ 1076 001c 8360     		str	r3, [r0, #8]
  465:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 1080              		.loc 1 465 1 view .LVU292
- 1081 001e 38BD     		pop	{r3, r4, r5, pc}
+ 1077              		.loc 1 465 1 view .LVU308
+ 1078 001e 38BD     		pop	{r3, r4, r5, pc}
  465:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 1082              		.loc 1 465 1 view .LVU293
- 1083              		.cfi_endproc
- 1084              	.LFE132:
- 1086              		.section	.text.dma_memory_increase_disable,"ax",%progbits
- 1087              		.align	1
- 1088              		.global	dma_memory_increase_disable
- 1089              		.syntax unified
- 1090              		.thumb
- 1091              		.thumb_func
- 1092              		.fpu fpv4-sp-d16
- 1094              	dma_memory_increase_disable:
- 1095              	.LVL56:
- 1096              	.LFB133:
+ 1079              		.loc 1 465 1 view .LVU309
+ 1080              		.cfi_endproc
+ 1081              	.LFE132:
+ 1083              		.section	.text.dma_memory_increase_disable,"ax",%progbits
+ 1084              		.align	1
+ 1085              		.global	dma_memory_increase_disable
+ 1086              		.syntax unified
+ 1087              		.thumb
+ 1088              		.thumb_func
+ 1089              		.fpu fpv4-sp-d16
+ 1091              	dma_memory_increase_disable:
+ 1092              	.LVL53:
+ 1093              	.LFB133:
  478:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 1097              		.loc 1 478 1 is_stmt 1 view -0
- 1098              		.cfi_startproc
- 1099              		@ args = 0, pretend = 0, frame = 0
- 1100              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1094              		.loc 1 478 1 is_stmt 1 view -0
+ 1095              		.cfi_startproc
+ 1096              		@ args = 0, pretend = 0, frame = 0
+ 1097              		@ frame_needed = 0, uses_anonymous_args = 0
  478:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 1101              		.loc 1 478 1 is_stmt 0 view .LVU295
- 1102 0000 38B5     		push	{r3, r4, r5, lr}
- 1103              	.LCFI16:
- 1104              		.cfi_def_cfa_offset 16
- 1105              		.cfi_offset 3, -16
- 1106              		.cfi_offset 4, -12
- 1107              		.cfi_offset 5, -8
- 1108              		.cfi_offset 14, -4
- 1109 0002 0546     		mov	r5, r0
- 1110 0004 0C46     		mov	r4, r1
+ 1098              		.loc 1 478 1 is_stmt 0 view .LVU311
+ 1099 0000 38B5     		push	{r3, r4, r5, lr}
+ 1100              	.LCFI16:
+ 1101              		.cfi_def_cfa_offset 16
+ 1102              		.cfi_offset 3, -16
+ 1103              		.cfi_offset 4, -12
+ 1104              		.cfi_offset 5, -8
+ 1105              		.cfi_offset 14, -4
+ 1106 0002 0446     		mov	r4, r0
+ 1107 0004 0D46     		mov	r5, r1
  479:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 1111              		.loc 1 479 5 is_stmt 1 view .LVU296
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 38
+
+
+ 1108              		.loc 1 479 5 is_stmt 1 view .LVU312
  479:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 1112              		.loc 1 479 17 is_stmt 0 view .LVU297
- 1113 0006 FFF7FEFF 		bl	dma_periph_and_channel_check
- 1114              	.LVL57:
+ 1109              		.loc 1 479 17 is_stmt 0 view .LVU313
+ 1110 0006 FFF7FEFF 		bl	dma_periph_and_channel_check
+ 1111              	.LVL54:
  479:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 1115              		.loc 1 479 7 view .LVU298
- 1116 000a 00B9     		cbnz	r0, .L84
- 1117              	.L85:
+ 1112              		.loc 1 479 7 view .LVU314
+ 1113 000a 00B9     		cbnz	r0, .L84
+ 1114              	.L85:
  480:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 1118              		.loc 1 480 9 is_stmt 1 discriminator 1 view .LVU299
+ 1115              		.loc 1 480 9 is_stmt 1 discriminator 1 view .LVU315
  480:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 1119              		.loc 1 480 9 discriminator 1 view .LVU300
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 38
-
-
- 1120 000c FEE7     		b	.L85
- 1121              	.L84:
+ 1116              		.loc 1 480 9 discriminator 1 view .LVU316
+ 480:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
+ 1117              		.loc 1 480 9 discriminator 1 view .LVU317
+ 1118 000c FEE7     		b	.L85
+ 1119              	.L84:
  483:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 1122              		.loc 1 483 5 view .LVU301
+ 1120              		.loc 1 483 5 view .LVU318
  483:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 1123              		.loc 1 483 37 is_stmt 0 view .LVU302
- 1124 000e 04EB8404 		add	r4, r4, r4, lsl #2
- 1125 0012 A300     		lsls	r3, r4, #2
- 1126 0014 2B44     		add	r3, r3, r5
- 1127 0016 9A68     		ldr	r2, [r3, #8]
- 1128 0018 22F08002 		bic	r2, r2, #128
- 1129 001c 9A60     		str	r2, [r3, #8]
+ 1121              		.loc 1 483 37 is_stmt 0 view .LVU319
+ 1122 000e 05EB8501 		add	r1, r5, r5, lsl #2
+ 1123 0012 04EB8100 		add	r0, r4, r1, lsl #2
+ 1124 0016 8368     		ldr	r3, [r0, #8]
+ 1125 0018 23F08003 		bic	r3, r3, #128
+ 1126 001c 8360     		str	r3, [r0, #8]
  484:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 1130              		.loc 1 484 1 view .LVU303
- 1131 001e 38BD     		pop	{r3, r4, r5, pc}
+ 1127              		.loc 1 484 1 view .LVU320
+ 1128 001e 38BD     		pop	{r3, r4, r5, pc}
  484:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 1132              		.loc 1 484 1 view .LVU304
- 1133              		.cfi_endproc
- 1134              	.LFE133:
- 1136              		.section	.text.dma_periph_increase_enable,"ax",%progbits
- 1137              		.align	1
- 1138              		.global	dma_periph_increase_enable
- 1139              		.syntax unified
- 1140              		.thumb
- 1141              		.thumb_func
- 1142              		.fpu fpv4-sp-d16
- 1144              	dma_periph_increase_enable:
- 1145              	.LVL58:
- 1146              	.LFB134:
+ 1129              		.loc 1 484 1 view .LVU321
+ 1130              		.cfi_endproc
+ 1131              	.LFE133:
+ 1133              		.section	.text.dma_periph_increase_enable,"ax",%progbits
+ 1134              		.align	1
+ 1135              		.global	dma_periph_increase_enable
+ 1136              		.syntax unified
+ 1137              		.thumb
+ 1138              		.thumb_func
+ 1139              		.fpu fpv4-sp-d16
+ 1141              	dma_periph_increase_enable:
+ 1142              	.LVL55:
+ 1143              	.LFB134:
  497:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 1147              		.loc 1 497 1 is_stmt 1 view -0
- 1148              		.cfi_startproc
- 1149              		@ args = 0, pretend = 0, frame = 0
- 1150              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1144              		.loc 1 497 1 is_stmt 1 view -0
+ 1145              		.cfi_startproc
+ 1146              		@ args = 0, pretend = 0, frame = 0
+ 1147              		@ frame_needed = 0, uses_anonymous_args = 0
  497:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 1151              		.loc 1 497 1 is_stmt 0 view .LVU306
- 1152 0000 38B5     		push	{r3, r4, r5, lr}
- 1153              	.LCFI17:
- 1154              		.cfi_def_cfa_offset 16
- 1155              		.cfi_offset 3, -16
- 1156              		.cfi_offset 4, -12
- 1157              		.cfi_offset 5, -8
- 1158              		.cfi_offset 14, -4
- 1159 0002 0546     		mov	r5, r0
- 1160 0004 0C46     		mov	r4, r1
+ 1148              		.loc 1 497 1 is_stmt 0 view .LVU323
+ 1149 0000 38B5     		push	{r3, r4, r5, lr}
+ 1150              	.LCFI17:
+ 1151              		.cfi_def_cfa_offset 16
+ 1152              		.cfi_offset 3, -16
+ 1153              		.cfi_offset 4, -12
+ 1154              		.cfi_offset 5, -8
+ 1155              		.cfi_offset 14, -4
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 39
+
+
+ 1156 0002 0446     		mov	r4, r0
+ 1157 0004 0D46     		mov	r5, r1
  498:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 1161              		.loc 1 498 5 is_stmt 1 view .LVU307
+ 1158              		.loc 1 498 5 is_stmt 1 view .LVU324
  498:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 1162              		.loc 1 498 17 is_stmt 0 view .LVU308
- 1163 0006 FFF7FEFF 		bl	dma_periph_and_channel_check
- 1164              	.LVL59:
+ 1159              		.loc 1 498 17 is_stmt 0 view .LVU325
+ 1160 0006 FFF7FEFF 		bl	dma_periph_and_channel_check
+ 1161              	.LVL56:
  498:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 1165              		.loc 1 498 7 view .LVU309
- 1166 000a 00B9     		cbnz	r0, .L88
- 1167              	.L89:
+ 1162              		.loc 1 498 7 view .LVU326
+ 1163 000a 00B9     		cbnz	r0, .L88
+ 1164              	.L89:
  499:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 1168              		.loc 1 499 9 is_stmt 1 discriminator 1 view .LVU310
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 39
-
-
+ 1165              		.loc 1 499 9 is_stmt 1 discriminator 1 view .LVU327
  499:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 1169              		.loc 1 499 9 discriminator 1 view .LVU311
- 1170 000c FEE7     		b	.L89
- 1171              	.L88:
+ 1166              		.loc 1 499 9 discriminator 1 view .LVU328
+ 499:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
+ 1167              		.loc 1 499 9 discriminator 1 view .LVU329
+ 1168 000c FEE7     		b	.L89
+ 1169              	.L88:
  502:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 1172              		.loc 1 502 5 view .LVU312
+ 1170              		.loc 1 502 5 view .LVU330
  502:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 1173              		.loc 1 502 37 is_stmt 0 view .LVU313
- 1174 000e 04EB8404 		add	r4, r4, r4, lsl #2
- 1175 0012 A300     		lsls	r3, r4, #2
- 1176 0014 2B44     		add	r3, r3, r5
- 1177 0016 9A68     		ldr	r2, [r3, #8]
- 1178 0018 42F04002 		orr	r2, r2, #64
- 1179 001c 9A60     		str	r2, [r3, #8]
+ 1171              		.loc 1 502 37 is_stmt 0 view .LVU331
+ 1172 000e 05EB8501 		add	r1, r5, r5, lsl #2
+ 1173 0012 04EB8100 		add	r0, r4, r1, lsl #2
+ 1174 0016 8368     		ldr	r3, [r0, #8]
+ 1175 0018 43F04003 		orr	r3, r3, #64
+ 1176 001c 8360     		str	r3, [r0, #8]
  503:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 1180              		.loc 1 503 1 view .LVU314
- 1181 001e 38BD     		pop	{r3, r4, r5, pc}
+ 1177              		.loc 1 503 1 view .LVU332
+ 1178 001e 38BD     		pop	{r3, r4, r5, pc}
  503:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 1182              		.loc 1 503 1 view .LVU315
- 1183              		.cfi_endproc
- 1184              	.LFE134:
- 1186              		.section	.text.dma_periph_increase_disable,"ax",%progbits
- 1187              		.align	1
- 1188              		.global	dma_periph_increase_disable
- 1189              		.syntax unified
- 1190              		.thumb
- 1191              		.thumb_func
- 1192              		.fpu fpv4-sp-d16
- 1194              	dma_periph_increase_disable:
- 1195              	.LVL60:
- 1196              	.LFB135:
+ 1179              		.loc 1 503 1 view .LVU333
+ 1180              		.cfi_endproc
+ 1181              	.LFE134:
+ 1183              		.section	.text.dma_periph_increase_disable,"ax",%progbits
+ 1184              		.align	1
+ 1185              		.global	dma_periph_increase_disable
+ 1186              		.syntax unified
+ 1187              		.thumb
+ 1188              		.thumb_func
+ 1189              		.fpu fpv4-sp-d16
+ 1191              	dma_periph_increase_disable:
+ 1192              	.LVL57:
+ 1193              	.LFB135:
  516:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 1197              		.loc 1 516 1 is_stmt 1 view -0
- 1198              		.cfi_startproc
- 1199              		@ args = 0, pretend = 0, frame = 0
- 1200              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1194              		.loc 1 516 1 is_stmt 1 view -0
+ 1195              		.cfi_startproc
+ 1196              		@ args = 0, pretend = 0, frame = 0
+ 1197              		@ frame_needed = 0, uses_anonymous_args = 0
  516:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 1201              		.loc 1 516 1 is_stmt 0 view .LVU317
- 1202 0000 38B5     		push	{r3, r4, r5, lr}
- 1203              	.LCFI18:
- 1204              		.cfi_def_cfa_offset 16
- 1205              		.cfi_offset 3, -16
- 1206              		.cfi_offset 4, -12
- 1207              		.cfi_offset 5, -8
- 1208              		.cfi_offset 14, -4
- 1209 0002 0546     		mov	r5, r0
- 1210 0004 0C46     		mov	r4, r1
- 517:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 1211              		.loc 1 517 5 is_stmt 1 view .LVU318
- 517:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 1212              		.loc 1 517 17 is_stmt 0 view .LVU319
- 1213 0006 FFF7FEFF 		bl	dma_periph_and_channel_check
- 1214              	.LVL61:
- 517:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 1215              		.loc 1 517 7 view .LVU320
- 1216 000a 00B9     		cbnz	r0, .L92
- 1217              	.L93:
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 40
+ 1198              		.loc 1 516 1 is_stmt 0 view .LVU335
+ 1199 0000 38B5     		push	{r3, r4, r5, lr}
+ 1200              	.LCFI18:
+ 1201              		.cfi_def_cfa_offset 16
+ 1202              		.cfi_offset 3, -16
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 40
 
 
+ 1203              		.cfi_offset 4, -12
+ 1204              		.cfi_offset 5, -8
+ 1205              		.cfi_offset 14, -4
+ 1206 0002 0446     		mov	r4, r0
+ 1207 0004 0D46     		mov	r5, r1
+ 517:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
+ 1208              		.loc 1 517 5 is_stmt 1 view .LVU336
+ 517:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
+ 1209              		.loc 1 517 17 is_stmt 0 view .LVU337
+ 1210 0006 FFF7FEFF 		bl	dma_periph_and_channel_check
+ 1211              	.LVL58:
+ 517:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
+ 1212              		.loc 1 517 7 view .LVU338
+ 1213 000a 00B9     		cbnz	r0, .L92
+ 1214              	.L93:
  518:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 1218              		.loc 1 518 9 is_stmt 1 discriminator 1 view .LVU321
+ 1215              		.loc 1 518 9 is_stmt 1 discriminator 1 view .LVU339
  518:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 1219              		.loc 1 518 9 discriminator 1 view .LVU322
- 1220 000c FEE7     		b	.L93
- 1221              	.L92:
+ 1216              		.loc 1 518 9 discriminator 1 view .LVU340
+ 518:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
+ 1217              		.loc 1 518 9 discriminator 1 view .LVU341
+ 1218 000c FEE7     		b	.L93
+ 1219              	.L92:
  521:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 1222              		.loc 1 521 5 view .LVU323
+ 1220              		.loc 1 521 5 view .LVU342
  521:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 1223              		.loc 1 521 37 is_stmt 0 view .LVU324
- 1224 000e 04EB8404 		add	r4, r4, r4, lsl #2
- 1225 0012 A300     		lsls	r3, r4, #2
- 1226 0014 2B44     		add	r3, r3, r5
- 1227 0016 9A68     		ldr	r2, [r3, #8]
- 1228 0018 22F04002 		bic	r2, r2, #64
- 1229 001c 9A60     		str	r2, [r3, #8]
+ 1221              		.loc 1 521 37 is_stmt 0 view .LVU343
+ 1222 000e 05EB8501 		add	r1, r5, r5, lsl #2
+ 1223 0012 04EB8100 		add	r0, r4, r1, lsl #2
+ 1224 0016 8368     		ldr	r3, [r0, #8]
+ 1225 0018 23F04003 		bic	r3, r3, #64
+ 1226 001c 8360     		str	r3, [r0, #8]
  522:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 1230              		.loc 1 522 1 view .LVU325
- 1231 001e 38BD     		pop	{r3, r4, r5, pc}
+ 1227              		.loc 1 522 1 view .LVU344
+ 1228 001e 38BD     		pop	{r3, r4, r5, pc}
  522:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 1232              		.loc 1 522 1 view .LVU326
- 1233              		.cfi_endproc
- 1234              	.LFE135:
- 1236              		.section	.text.dma_transfer_direction_config,"ax",%progbits
- 1237              		.align	1
- 1238              		.global	dma_transfer_direction_config
- 1239              		.syntax unified
- 1240              		.thumb
- 1241              		.thumb_func
- 1242              		.fpu fpv4-sp-d16
- 1244              	dma_transfer_direction_config:
- 1245              	.LVL62:
- 1246              	.LFB136:
+ 1229              		.loc 1 522 1 view .LVU345
+ 1230              		.cfi_endproc
+ 1231              	.LFE135:
+ 1233              		.section	.text.dma_transfer_direction_config,"ax",%progbits
+ 1234              		.align	1
+ 1235              		.global	dma_transfer_direction_config
+ 1236              		.syntax unified
+ 1237              		.thumb
+ 1238              		.thumb_func
+ 1239              		.fpu fpv4-sp-d16
+ 1241              	dma_transfer_direction_config:
+ 1242              	.LVL59:
+ 1243              	.LFB136:
  539:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 1247              		.loc 1 539 1 is_stmt 1 view -0
- 1248              		.cfi_startproc
- 1249              		@ args = 0, pretend = 0, frame = 0
- 1250              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1244              		.loc 1 539 1 is_stmt 1 view -0
+ 1245              		.cfi_startproc
+ 1246              		@ args = 0, pretend = 0, frame = 0
+ 1247              		@ frame_needed = 0, uses_anonymous_args = 0
  539:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 1251              		.loc 1 539 1 is_stmt 0 view .LVU328
- 1252 0000 70B5     		push	{r4, r5, r6, lr}
- 1253              	.LCFI19:
- 1254              		.cfi_def_cfa_offset 16
- 1255              		.cfi_offset 4, -16
- 1256              		.cfi_offset 5, -12
- 1257              		.cfi_offset 6, -8
- 1258              		.cfi_offset 14, -4
- 1259 0002 0546     		mov	r5, r0
- 1260 0004 0C46     		mov	r4, r1
- 1261 0006 1646     		mov	r6, r2
- 540:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 1262              		.loc 1 540 5 is_stmt 1 view .LVU329
- 540:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 1263              		.loc 1 540 17 is_stmt 0 view .LVU330
- 1264 0008 FFF7FEFF 		bl	dma_periph_and_channel_check
- 1265              	.LVL63:
- 540:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 41
+ 1248              		.loc 1 539 1 is_stmt 0 view .LVU347
+ 1249 0000 70B5     		push	{r4, r5, r6, lr}
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 41
 
 
- 1266              		.loc 1 540 7 view .LVU331
- 1267 000c 00B9     		cbnz	r0, .L96
- 1268              	.L97:
+ 1250              	.LCFI19:
+ 1251              		.cfi_def_cfa_offset 16
+ 1252              		.cfi_offset 4, -16
+ 1253              		.cfi_offset 5, -12
+ 1254              		.cfi_offset 6, -8
+ 1255              		.cfi_offset 14, -4
+ 1256 0002 0446     		mov	r4, r0
+ 1257 0004 0D46     		mov	r5, r1
+ 1258 0006 1646     		mov	r6, r2
+ 540:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
+ 1259              		.loc 1 540 5 is_stmt 1 view .LVU348
+ 540:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
+ 1260              		.loc 1 540 17 is_stmt 0 view .LVU349
+ 1261 0008 FFF7FEFF 		bl	dma_periph_and_channel_check
+ 1262              	.LVL60:
+ 540:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
+ 1263              		.loc 1 540 7 view .LVU350
+ 1264 000c 00B9     		cbnz	r0, .L96
+ 1265              	.L97:
  541:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 1269              		.loc 1 541 9 is_stmt 1 discriminator 1 view .LVU332
+ 1266              		.loc 1 541 9 is_stmt 1 discriminator 1 view .LVU351
  541:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 1270              		.loc 1 541 9 discriminator 1 view .LVU333
- 1271 000e FEE7     		b	.L97
- 1272              	.L96:
+ 1267              		.loc 1 541 9 discriminator 1 view .LVU352
+ 541:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
+ 1268              		.loc 1 541 9 discriminator 1 view .LVU353
+ 1269 000e FEE7     		b	.L97
+ 1270              	.L96:
  544:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_CHCTL(dma_periph, channelx) &= ~DMA_CHXCTL_DIR;
- 1273              		.loc 1 544 5 view .LVU334
+ 1271              		.loc 1 544 5 view .LVU354
  544:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_CHCTL(dma_periph, channelx) &= ~DMA_CHXCTL_DIR;
- 1274              		.loc 1 544 7 is_stmt 0 view .LVU335
- 1275 0010 46B9     		cbnz	r6, .L98
+ 1272              		.loc 1 544 7 is_stmt 0 view .LVU355
+ 1273 0010 46B9     		cbnz	r6, .L98
  545:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     } else {
- 1276              		.loc 1 545 9 is_stmt 1 view .LVU336
+ 1274              		.loc 1 545 9 is_stmt 1 view .LVU356
  545:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     } else {
- 1277              		.loc 1 545 41 is_stmt 0 view .LVU337
- 1278 0012 04EB8404 		add	r4, r4, r4, lsl #2
- 1279 0016 A300     		lsls	r3, r4, #2
- 1280 0018 2B44     		add	r3, r3, r5
- 1281 001a 9A68     		ldr	r2, [r3, #8]
- 1282 001c 22F01002 		bic	r2, r2, #16
- 1283 0020 9A60     		str	r2, [r3, #8]
- 1284              	.L95:
+ 1275              		.loc 1 545 41 is_stmt 0 view .LVU357
+ 1276 0012 05EB8500 		add	r0, r5, r5, lsl #2
+ 1277 0016 04EB8000 		add	r0, r4, r0, lsl #2
+ 1278 001a 8368     		ldr	r3, [r0, #8]
+ 1279 001c 23F01003 		bic	r3, r3, #16
+ 1280 0020 8360     		str	r3, [r0, #8]
+ 1281              	.L95:
  549:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 1285              		.loc 1 549 1 view .LVU338
- 1286 0022 70BD     		pop	{r4, r5, r6, pc}
- 1287              	.LVL64:
- 1288              	.L98:
+ 1282              		.loc 1 549 1 view .LVU358
+ 1283 0022 70BD     		pop	{r4, r5, r6, pc}
+ 1284              	.LVL61:
+ 1285              	.L98:
  547:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 1289              		.loc 1 547 9 is_stmt 1 view .LVU339
+ 1286              		.loc 1 547 9 is_stmt 1 view .LVU359
  547:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 1290              		.loc 1 547 41 is_stmt 0 view .LVU340
- 1291 0024 04EB8404 		add	r4, r4, r4, lsl #2
- 1292 0028 A300     		lsls	r3, r4, #2
- 1293 002a 2B44     		add	r3, r3, r5
- 1294 002c 9A68     		ldr	r2, [r3, #8]
- 1295 002e 42F01002 		orr	r2, r2, #16
- 1296 0032 9A60     		str	r2, [r3, #8]
+ 1287              		.loc 1 547 41 is_stmt 0 view .LVU360
+ 1288 0024 05EB8500 		add	r0, r5, r5, lsl #2
+ 1289 0028 04EB8000 		add	r0, r4, r0, lsl #2
+ 1290 002c 8368     		ldr	r3, [r0, #8]
+ 1291 002e 43F01003 		orr	r3, r3, #16
+ 1292 0032 8360     		str	r3, [r0, #8]
  549:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 1297              		.loc 1 549 1 view .LVU341
- 1298 0034 F5E7     		b	.L95
- 1299              		.cfi_endproc
- 1300              	.LFE136:
- 1302              		.section	.text.dma_flag_get,"ax",%progbits
- 1303              		.align	1
- 1304              		.global	dma_flag_get
- 1305              		.syntax unified
- 1306              		.thumb
- 1307              		.thumb_func
- 1308              		.fpu fpv4-sp-d16
- 1310              	dma_flag_get:
- 1311              	.LVL65:
- 1312              	.LFB137:
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 42
+
+
+ 1293              		.loc 1 549 1 view .LVU361
+ 1294 0034 F5E7     		b	.L95
+ 1295              		.cfi_endproc
+ 1296              	.LFE136:
+ 1298              		.section	.text.dma_flag_get,"ax",%progbits
+ 1299              		.align	1
+ 1300              		.global	dma_flag_get
+ 1301              		.syntax unified
+ 1302              		.thumb
+ 1303              		.thumb_func
+ 1304              		.fpu fpv4-sp-d16
+ 1306              	dma_flag_get:
+ 1307              	.LVL62:
+ 1308              	.LFB137:
  568:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     FlagStatus reval;
- 1313              		.loc 1 568 1 is_stmt 1 view -0
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 42
-
-
- 1314              		.cfi_startproc
- 1315              		@ args = 0, pretend = 0, frame = 0
- 1316              		@ frame_needed = 0, uses_anonymous_args = 0
- 1317              		@ link register save eliminated.
+ 1309              		.loc 1 568 1 is_stmt 1 view -0
+ 1310              		.cfi_startproc
+ 1311              		@ args = 0, pretend = 0, frame = 0
+ 1312              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1313              		@ link register save eliminated.
  569:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 1318              		.loc 1 569 5 view .LVU343
+ 1314              		.loc 1 569 5 view .LVU363
  571:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         reval = SET;
- 1319              		.loc 1 571 5 view .LVU344
+ 1315              		.loc 1 571 5 view .LVU364
  571:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         reval = SET;
- 1320              		.loc 1 571 18 is_stmt 0 view .LVU345
- 1321 0000 0368     		ldr	r3, [r0]
+ 1316              		.loc 1 571 18 is_stmt 0 view .LVU365
+ 1317 0000 0368     		ldr	r3, [r0]
  571:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         reval = SET;
- 1322              		.loc 1 571 41 view .LVU346
- 1323 0002 8900     		lsls	r1, r1, #2
- 1324              	.LVL66:
+ 1318              		.loc 1 571 41 view .LVU366
+ 1319 0002 8900     		lsls	r1, r1, #2
+ 1320              	.LVL63:
  571:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         reval = SET;
- 1325              		.loc 1 571 41 view .LVU347
- 1326 0004 8A40     		lsls	r2, r2, r1
- 1327              	.LVL67:
+ 1321              		.loc 1 571 41 view .LVU367
+ 1322 0004 8A40     		lsls	r2, r2, r1
+ 1323              	.LVL64:
  571:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         reval = SET;
- 1328              		.loc 1 571 7 view .LVU348
- 1329 0006 1342     		tst	r3, r2
- 1330 0008 01D0     		beq	.L103
+ 1324              		.loc 1 571 7 view .LVU368
+ 1325 0006 1342     		tst	r3, r2
+ 1326 0008 01D0     		beq	.L103
  572:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }else{
- 1331              		.loc 1 572 15 view .LVU349
- 1332 000a 0120     		movs	r0, #1
- 1333              	.LVL68:
+ 1327              		.loc 1 572 15 view .LVU369
+ 1328 000a 0120     		movs	r0, #1
+ 1329              	.LVL65:
  572:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }else{
- 1334              		.loc 1 572 15 view .LVU350
- 1335 000c 7047     		bx	lr
- 1336              	.LVL69:
- 1337              	.L103:
+ 1330              		.loc 1 572 15 view .LVU370
+ 1331 000c 7047     		bx	lr
+ 1332              	.LVL66:
+ 1333              	.L103:
  574:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 1338              		.loc 1 574 15 view .LVU351
- 1339 000e 0020     		movs	r0, #0
- 1340              	.LVL70:
+ 1334              		.loc 1 574 15 view .LVU371
+ 1335 000e 0020     		movs	r0, #0
+ 1336              	.LVL67:
  577:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 1341              		.loc 1 577 5 is_stmt 1 view .LVU352
+ 1337              		.loc 1 577 5 is_stmt 1 view .LVU372
  578:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 1342              		.loc 1 578 1 is_stmt 0 view .LVU353
- 1343 0010 7047     		bx	lr
- 1344              		.cfi_endproc
- 1345              	.LFE137:
- 1347              		.section	.text.dma_flag_clear,"ax",%progbits
- 1348              		.align	1
- 1349              		.global	dma_flag_clear
- 1350              		.syntax unified
- 1351              		.thumb
- 1352              		.thumb_func
- 1353              		.fpu fpv4-sp-d16
- 1355              	dma_flag_clear:
- 1356              	.LVL71:
- 1357              	.LFB138:
+ 1338              		.loc 1 578 1 is_stmt 0 view .LVU373
+ 1339 0010 7047     		bx	lr
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 43
+
+
+ 1340              		.cfi_endproc
+ 1341              	.LFE137:
+ 1343              		.section	.text.dma_flag_clear,"ax",%progbits
+ 1344              		.align	1
+ 1345              		.global	dma_flag_clear
+ 1346              		.syntax unified
+ 1347              		.thumb
+ 1348              		.thumb_func
+ 1349              		.fpu fpv4-sp-d16
+ 1351              	dma_flag_clear:
+ 1352              	.LVL68:
+ 1353              	.LFB138:
  597:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     DMA_INTC(dma_periph) |= DMA_FLAG_ADD(flag, channelx);
- 1358              		.loc 1 597 1 is_stmt 1 view -0
- 1359              		.cfi_startproc
- 1360              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 43
-
-
- 1361              		@ frame_needed = 0, uses_anonymous_args = 0
- 1362              		@ link register save eliminated.
+ 1354              		.loc 1 597 1 is_stmt 1 view -0
+ 1355              		.cfi_startproc
+ 1356              		@ args = 0, pretend = 0, frame = 0
+ 1357              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1358              		@ link register save eliminated.
  598:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 1363              		.loc 1 598 5 view .LVU355
+ 1359              		.loc 1 598 5 view .LVU375
  598:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 1364              		.loc 1 598 26 is_stmt 0 view .LVU356
- 1365 0000 4368     		ldr	r3, [r0, #4]
+ 1360              		.loc 1 598 26 is_stmt 0 view .LVU376
+ 1361 0000 4368     		ldr	r3, [r0, #4]
  598:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 1366              		.loc 1 598 29 view .LVU357
- 1367 0002 8900     		lsls	r1, r1, #2
- 1368              	.LVL72:
+ 1362              		.loc 1 598 29 view .LVU377
+ 1363 0002 8900     		lsls	r1, r1, #2
+ 1364              	.LVL69:
  598:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 1369              		.loc 1 598 29 view .LVU358
- 1370 0004 8A40     		lsls	r2, r2, r1
- 1371              	.LVL73:
+ 1365              		.loc 1 598 29 view .LVU378
+ 1366 0004 8A40     		lsls	r2, r2, r1
+ 1367              	.LVL70:
  598:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 1372              		.loc 1 598 26 view .LVU359
- 1373 0006 1343     		orrs	r3, r3, r2
- 1374 0008 4360     		str	r3, [r0, #4]
+ 1368              		.loc 1 598 26 view .LVU379
+ 1369 0006 1343     		orrs	r3, r3, r2
+ 1370 0008 4360     		str	r3, [r0, #4]
  599:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 1375              		.loc 1 599 1 view .LVU360
- 1376 000a 7047     		bx	lr
- 1377              		.cfi_endproc
- 1378              	.LFE138:
- 1380              		.section	.text.dma_interrupt_flag_get,"ax",%progbits
- 1381              		.align	1
- 1382              		.global	dma_interrupt_flag_get
- 1383              		.syntax unified
- 1384              		.thumb
- 1385              		.thumb_func
- 1386              		.fpu fpv4-sp-d16
- 1388              	dma_interrupt_flag_get:
- 1389              	.LVL74:
- 1390              	.LFB139:
+ 1371              		.loc 1 599 1 view .LVU380
+ 1372 000a 7047     		bx	lr
+ 1373              		.cfi_endproc
+ 1374              	.LFE138:
+ 1376              		.section	.text.dma_interrupt_flag_get,"ax",%progbits
+ 1377              		.align	1
+ 1378              		.global	dma_interrupt_flag_get
+ 1379              		.syntax unified
+ 1380              		.thumb
+ 1381              		.thumb_func
+ 1382              		.fpu fpv4-sp-d16
+ 1384              	dma_interrupt_flag_get:
+ 1385              	.LVL71:
+ 1386              	.LFB139:
  617:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     uint32_t interrupt_enable = 0U, interrupt_flag = 0U;
- 1391              		.loc 1 617 1 is_stmt 1 view -0
- 1392              		.cfi_startproc
- 1393              		@ args = 0, pretend = 0, frame = 0
- 1394              		@ frame_needed = 0, uses_anonymous_args = 0
- 1395              		@ link register save eliminated.
+ 1387              		.loc 1 617 1 is_stmt 1 view -0
+ 1388              		.cfi_startproc
+ 1389              		@ args = 0, pretend = 0, frame = 0
+ 1390              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1391              		@ link register save eliminated.
  617:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     uint32_t interrupt_enable = 0U, interrupt_flag = 0U;
- 1396              		.loc 1 617 1 is_stmt 0 view .LVU362
- 1397 0000 10B4     		push	{r4}
- 1398              	.LCFI20:
- 1399              		.cfi_def_cfa_offset 4
- 1400              		.cfi_offset 4, -4
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 44
+
+
+ 1392              		.loc 1 617 1 is_stmt 0 view .LVU382
+ 1393 0000 10B4     		push	{r4}
+ 1394              	.LCFI20:
+ 1395              		.cfi_def_cfa_offset 4
+ 1396              		.cfi_offset 4, -4
  618:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 1401              		.loc 1 618 5 is_stmt 1 view .LVU363
- 1402              	.LVL75:
+ 1397              		.loc 1 618 5 is_stmt 1 view .LVU383
+ 1398              	.LVL72:
  620:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         case DMA_INT_FLAG_FTF:
- 1403              		.loc 1 620 5 view .LVU364
- 1404 0002 042A     		cmp	r2, #4
- 1405 0004 12D0     		beq	.L106
- 1406 0006 082A     		cmp	r2, #8
- 1407 0008 1BD0     		beq	.L107
- 1408 000a 022A     		cmp	r2, #2
- 1409 000c 00D0     		beq	.L114
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 44
-
-
- 1410              	.L108:
+ 1399              		.loc 1 620 5 view .LVU384
+ 1400 0002 042A     		cmp	r2, #4
+ 1401 0004 12D0     		beq	.L106
+ 1402 0006 082A     		cmp	r2, #8
+ 1403 0008 1BD0     		beq	.L107
+ 1404 000a 022A     		cmp	r2, #2
+ 1405 000c 00D0     		beq	.L114
+ 1406              	.L108:
  634:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         }
- 1411              		.loc 1 634 13 discriminator 1 view .LVU365
+ 1407              		.loc 1 634 13 discriminator 1 view .LVU385
  634:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         }
- 1412              		.loc 1 634 13 discriminator 1 view .LVU366
- 1413 000e FEE7     		b	.L108
- 1414              	.L114:
+ 1408              		.loc 1 634 13 discriminator 1 view .LVU386
+ 634:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         }
+ 1409              		.loc 1 634 13 discriminator 1 view .LVU387
+ 1410 000e FEE7     		b	.L108
+ 1411              	.L114:
  622:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****             interrupt_enable = DMA_CHCTL(dma_periph, channelx) & DMA_CHXCTL_FTFIE;
- 1415              		.loc 1 622 13 view .LVU367
+ 1412              		.loc 1 622 13 view .LVU388
  622:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****             interrupt_enable = DMA_CHCTL(dma_periph, channelx) & DMA_CHXCTL_FTFIE;
- 1416              		.loc 1 622 30 is_stmt 0 view .LVU368
- 1417 0010 0468     		ldr	r4, [r0]
+ 1413              		.loc 1 622 30 is_stmt 0 view .LVU389
+ 1414 0010 0468     		ldr	r4, [r0]
  622:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****             interrupt_enable = DMA_CHCTL(dma_periph, channelx) & DMA_CHXCTL_FTFIE;
- 1418              		.loc 1 622 53 view .LVU369
- 1419 0012 8B00     		lsls	r3, r1, #2
- 1420 0014 9A40     		lsls	r2, r2, r3
- 1421              	.LVL76:
+ 1415              		.loc 1 622 53 view .LVU390
+ 1416 0012 8B00     		lsls	r3, r1, #2
+ 1417 0014 9A40     		lsls	r2, r2, r3
+ 1418              	.LVL73:
  622:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****             interrupt_enable = DMA_CHCTL(dma_periph, channelx) & DMA_CHXCTL_FTFIE;
- 1422              		.loc 1 622 28 view .LVU370
- 1423 0016 2240     		ands	r2, r2, r4
- 1424              	.LVL77:
+ 1419              		.loc 1 622 28 view .LVU391
+ 1420 0016 2240     		ands	r2, r2, r4
+ 1421              	.LVL74:
  623:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****             break;
- 1425              		.loc 1 623 13 is_stmt 1 view .LVU371
+ 1422              		.loc 1 623 13 is_stmt 1 view .LVU392
  623:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****             break;
- 1426              		.loc 1 623 32 is_stmt 0 view .LVU372
- 1427 0018 0B44     		add	r3, r3, r1
- 1428 001a 9900     		lsls	r1, r3, #2
- 1429              	.LVL78:
+ 1423              		.loc 1 623 32 is_stmt 0 view .LVU393
+ 1424 0018 0B44     		add	r3, r3, r1
+ 1425 001a 00EB8300 		add	r0, r0, r3, lsl #2
+ 1426              	.LVL75:
  623:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****             break;
- 1430              		.loc 1 623 32 view .LVU373
- 1431 001c 0144     		add	r1, r1, r0
- 1432 001e 8B68     		ldr	r3, [r1, #8]
+ 1427              		.loc 1 623 32 view .LVU394
+ 1428 001e 8368     		ldr	r3, [r0, #8]
  623:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****             break;
- 1433              		.loc 1 623 30 view .LVU374
- 1434 0020 03F00203 		and	r3, r3, #2
- 1435              	.LVL79:
+ 1429              		.loc 1 623 30 view .LVU395
+ 1430 0020 03F00203 		and	r3, r3, #2
+ 1431              	.LVL76:
  624:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         case DMA_INT_FLAG_HTF:
- 1436              		.loc 1 624 13 is_stmt 1 view .LVU375
- 1437              	.L109:
+ 1432              		.loc 1 624 13 is_stmt 1 view .LVU396
+ 1433              	.L109:
  637:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         return SET;
- 1438              		.loc 1 637 5 view .LVU376
- 637:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         return SET;
- 1439              		.loc 1 637 7 is_stmt 0 view .LVU377
- 1440 0024 C2B1     		cbz	r2, .L111
- 637:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         return SET;
- 1441              		.loc 1 637 23 discriminator 1 view .LVU378
- 1442 0026 DBB9     		cbnz	r3, .L112
- 640:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 1443              		.loc 1 640 16 view .LVU379
- 1444 0028 0020     		movs	r0, #0
- 1445              	.LVL80:
- 640:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 1446              		.loc 1 640 16 view .LVU380
- 1447 002a 16E0     		b	.L110
- 1448              	.LVL81:
- 1449              	.L106:
- 626:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****             interrupt_enable = DMA_CHCTL(dma_periph, channelx) & DMA_CHXCTL_HTFIE;
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 45
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 45
 
 
- 1450              		.loc 1 626 13 is_stmt 1 view .LVU381
+ 1434              		.loc 1 637 5 view .LVU397
+ 637:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         return SET;
+ 1435              		.loc 1 637 7 is_stmt 0 view .LVU398
+ 1436 0024 C2B1     		cbz	r2, .L111
+ 637:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         return SET;
+ 1437              		.loc 1 637 23 discriminator 1 view .LVU399
+ 1438 0026 DBB9     		cbnz	r3, .L112
+ 640:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
+ 1439              		.loc 1 640 16 view .LVU400
+ 1440 0028 0020     		movs	r0, #0
+ 1441 002a 16E0     		b	.L110
+ 1442              	.LVL77:
+ 1443              	.L106:
  626:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****             interrupt_enable = DMA_CHCTL(dma_periph, channelx) & DMA_CHXCTL_HTFIE;
- 1451              		.loc 1 626 30 is_stmt 0 view .LVU382
- 1452 002c 0468     		ldr	r4, [r0]
+ 1444              		.loc 1 626 13 is_stmt 1 view .LVU401
  626:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****             interrupt_enable = DMA_CHCTL(dma_periph, channelx) & DMA_CHXCTL_HTFIE;
- 1453              		.loc 1 626 53 view .LVU383
- 1454 002e 8B00     		lsls	r3, r1, #2
- 1455 0030 9A40     		lsls	r2, r2, r3
- 1456              	.LVL82:
+ 1445              		.loc 1 626 30 is_stmt 0 view .LVU402
+ 1446 002c 0468     		ldr	r4, [r0]
  626:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****             interrupt_enable = DMA_CHCTL(dma_periph, channelx) & DMA_CHXCTL_HTFIE;
- 1457              		.loc 1 626 28 view .LVU384
- 1458 0032 2240     		ands	r2, r2, r4
- 1459              	.LVL83:
+ 1447              		.loc 1 626 53 view .LVU403
+ 1448 002e 8B00     		lsls	r3, r1, #2
+ 1449 0030 9A40     		lsls	r2, r2, r3
+ 1450              	.LVL78:
+ 626:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****             interrupt_enable = DMA_CHCTL(dma_periph, channelx) & DMA_CHXCTL_HTFIE;
+ 1451              		.loc 1 626 28 view .LVU404
+ 1452 0032 2240     		ands	r2, r2, r4
+ 1453              	.LVL79:
  627:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****             break;
- 1460              		.loc 1 627 13 is_stmt 1 view .LVU385
+ 1454              		.loc 1 627 13 is_stmt 1 view .LVU405
  627:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****             break;
- 1461              		.loc 1 627 32 is_stmt 0 view .LVU386
- 1462 0034 0B44     		add	r3, r3, r1
- 1463 0036 9900     		lsls	r1, r3, #2
- 1464              	.LVL84:
+ 1455              		.loc 1 627 32 is_stmt 0 view .LVU406
+ 1456 0034 0B44     		add	r3, r3, r1
+ 1457 0036 00EB8300 		add	r0, r0, r3, lsl #2
+ 1458              	.LVL80:
  627:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****             break;
- 1465              		.loc 1 627 32 view .LVU387
- 1466 0038 0144     		add	r1, r1, r0
- 1467 003a 8B68     		ldr	r3, [r1, #8]
+ 1459              		.loc 1 627 32 view .LVU407
+ 1460 003a 8368     		ldr	r3, [r0, #8]
  627:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****             break;
- 1468              		.loc 1 627 30 view .LVU388
- 1469 003c 03F00403 		and	r3, r3, #4
- 1470              	.LVL85:
+ 1461              		.loc 1 627 30 view .LVU408
+ 1462 003c 03F00403 		and	r3, r3, #4
+ 1463              	.LVL81:
  628:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         case DMA_INT_FLAG_ERR:
- 1471              		.loc 1 628 13 is_stmt 1 view .LVU389
- 1472 0040 F0E7     		b	.L109
- 1473              	.LVL86:
- 1474              	.L107:
+ 1464              		.loc 1 628 13 is_stmt 1 view .LVU409
+ 1465 0040 F0E7     		b	.L109
+ 1466              	.LVL82:
+ 1467              	.L107:
  630:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****             interrupt_enable = DMA_CHCTL(dma_periph, channelx) & DMA_CHXCTL_ERRIE;
- 1475              		.loc 1 630 13 view .LVU390
+ 1468              		.loc 1 630 13 view .LVU410
  630:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****             interrupt_enable = DMA_CHCTL(dma_periph, channelx) & DMA_CHXCTL_ERRIE;
- 1476              		.loc 1 630 30 is_stmt 0 view .LVU391
- 1477 0042 0468     		ldr	r4, [r0]
+ 1469              		.loc 1 630 30 is_stmt 0 view .LVU411
+ 1470 0042 0468     		ldr	r4, [r0]
  630:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****             interrupt_enable = DMA_CHCTL(dma_periph, channelx) & DMA_CHXCTL_ERRIE;
- 1478              		.loc 1 630 53 view .LVU392
- 1479 0044 8B00     		lsls	r3, r1, #2
- 1480 0046 9A40     		lsls	r2, r2, r3
- 1481              	.LVL87:
+ 1471              		.loc 1 630 53 view .LVU412
+ 1472 0044 8B00     		lsls	r3, r1, #2
+ 1473 0046 9A40     		lsls	r2, r2, r3
+ 1474              	.LVL83:
  630:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****             interrupt_enable = DMA_CHCTL(dma_periph, channelx) & DMA_CHXCTL_ERRIE;
- 1482              		.loc 1 630 28 view .LVU393
- 1483 0048 2240     		ands	r2, r2, r4
- 1484              	.LVL88:
- 631:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****             break;
- 1485              		.loc 1 631 13 is_stmt 1 view .LVU394
- 631:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****             break;
- 1486              		.loc 1 631 32 is_stmt 0 view .LVU395
- 1487 004a 0B44     		add	r3, r3, r1
- 1488 004c 9900     		lsls	r1, r3, #2
- 1489              	.LVL89:
- 631:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****             break;
- 1490              		.loc 1 631 32 view .LVU396
- 1491 004e 0144     		add	r1, r1, r0
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 46
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 46
 
 
- 1492 0050 8B68     		ldr	r3, [r1, #8]
+ 1475              		.loc 1 630 28 view .LVU413
+ 1476 0048 2240     		ands	r2, r2, r4
+ 1477              	.LVL84:
  631:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****             break;
- 1493              		.loc 1 631 30 view .LVU397
- 1494 0052 03F00803 		and	r3, r3, #8
- 1495              	.LVL90:
+ 1478              		.loc 1 631 13 is_stmt 1 view .LVU414
+ 631:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****             break;
+ 1479              		.loc 1 631 32 is_stmt 0 view .LVU415
+ 1480 004a 0B44     		add	r3, r3, r1
+ 1481 004c 00EB8300 		add	r0, r0, r3, lsl #2
+ 1482              	.LVL85:
+ 631:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****             break;
+ 1483              		.loc 1 631 32 view .LVU416
+ 1484 0050 8368     		ldr	r3, [r0, #8]
+ 631:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****             break;
+ 1485              		.loc 1 631 30 view .LVU417
+ 1486 0052 03F00803 		and	r3, r3, #8
+ 1487              	.LVL86:
  632:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         default:
- 1496              		.loc 1 632 13 is_stmt 1 view .LVU398
- 1497 0056 E5E7     		b	.L109
- 1498              	.L111:
+ 1488              		.loc 1 632 13 is_stmt 1 view .LVU418
+ 1489 0056 E5E7     		b	.L109
+ 1490              	.L111:
  640:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 1499              		.loc 1 640 16 is_stmt 0 view .LVU399
- 1500 0058 0020     		movs	r0, #0
- 1501              	.LVL91:
- 1502              	.L110:
+ 1491              		.loc 1 640 16 is_stmt 0 view .LVU419
+ 1492 0058 0020     		movs	r0, #0
+ 1493              	.L110:
  642:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 1503              		.loc 1 642 1 view .LVU400
- 1504 005a 5DF8044B 		ldr	r4, [sp], #4
- 1505              	.LCFI21:
- 1506              		.cfi_remember_state
- 1507              		.cfi_restore 4
- 1508              		.cfi_def_cfa_offset 0
- 1509 005e 7047     		bx	lr
- 1510              	.LVL92:
- 1511              	.L112:
- 1512              	.LCFI22:
- 1513              		.cfi_restore_state
+ 1494              		.loc 1 642 1 view .LVU420
+ 1495 005a 5DF8044B 		ldr	r4, [sp], #4
+ 1496              	.LCFI21:
+ 1497              		.cfi_remember_state
+ 1498              		.cfi_restore 4
+ 1499              		.cfi_def_cfa_offset 0
+ 1500 005e 7047     		bx	lr
+ 1501              	.L112:
+ 1502              	.LCFI22:
+ 1503              		.cfi_restore_state
  638:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }else{
- 1514              		.loc 1 638 16 view .LVU401
- 1515 0060 0120     		movs	r0, #1
- 1516              	.LVL93:
- 638:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }else{
- 1517              		.loc 1 638 16 view .LVU402
- 1518 0062 FAE7     		b	.L110
- 1519              		.cfi_endproc
- 1520              	.LFE139:
- 1522              		.section	.text.dma_interrupt_flag_clear,"ax",%progbits
- 1523              		.align	1
- 1524              		.global	dma_interrupt_flag_clear
- 1525              		.syntax unified
- 1526              		.thumb
- 1527              		.thumb_func
- 1528              		.fpu fpv4-sp-d16
- 1530              	dma_interrupt_flag_clear:
- 1531              	.LVL94:
- 1532              	.LFB140:
+ 1504              		.loc 1 638 16 view .LVU421
+ 1505 0060 0120     		movs	r0, #1
+ 1506 0062 FAE7     		b	.L110
+ 1507              		.cfi_endproc
+ 1508              	.LFE139:
+ 1510              		.section	.text.dma_interrupt_flag_clear,"ax",%progbits
+ 1511              		.align	1
+ 1512              		.global	dma_interrupt_flag_clear
+ 1513              		.syntax unified
+ 1514              		.thumb
+ 1515              		.thumb_func
+ 1516              		.fpu fpv4-sp-d16
+ 1518              	dma_interrupt_flag_clear:
+ 1519              	.LVL87:
+ 1520              	.LFB140:
  661:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     DMA_INTC(dma_periph) |= DMA_FLAG_ADD(flag, channelx);
- 1533              		.loc 1 661 1 is_stmt 1 view -0
- 1534              		.cfi_startproc
- 1535              		@ args = 0, pretend = 0, frame = 0
- 1536              		@ frame_needed = 0, uses_anonymous_args = 0
- 1537              		@ link register save eliminated.
- 662:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 1538              		.loc 1 662 5 view .LVU404
- 662:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 1539              		.loc 1 662 26 is_stmt 0 view .LVU405
- 1540 0000 4368     		ldr	r3, [r0, #4]
- 662:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 47
+ 1521              		.loc 1 661 1 is_stmt 1 view -0
+ 1522              		.cfi_startproc
+ 1523              		@ args = 0, pretend = 0, frame = 0
+ 1524              		@ frame_needed = 0, uses_anonymous_args = 0
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 47
 
 
- 1541              		.loc 1 662 29 view .LVU406
- 1542 0002 8900     		lsls	r1, r1, #2
- 1543              	.LVL95:
+ 1525              		@ link register save eliminated.
  662:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 1544              		.loc 1 662 29 view .LVU407
- 1545 0004 8A40     		lsls	r2, r2, r1
- 1546              	.LVL96:
+ 1526              		.loc 1 662 5 view .LVU423
  662:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 1547              		.loc 1 662 26 view .LVU408
- 1548 0006 1343     		orrs	r3, r3, r2
- 1549 0008 4360     		str	r3, [r0, #4]
+ 1527              		.loc 1 662 26 is_stmt 0 view .LVU424
+ 1528 0000 4368     		ldr	r3, [r0, #4]
+ 662:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
+ 1529              		.loc 1 662 29 view .LVU425
+ 1530 0002 8900     		lsls	r1, r1, #2
+ 1531              	.LVL88:
+ 662:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
+ 1532              		.loc 1 662 29 view .LVU426
+ 1533 0004 8A40     		lsls	r2, r2, r1
+ 1534              	.LVL89:
+ 662:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
+ 1535              		.loc 1 662 26 view .LVU427
+ 1536 0006 1343     		orrs	r3, r3, r2
+ 1537 0008 4360     		str	r3, [r0, #4]
  663:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 1550              		.loc 1 663 1 view .LVU409
- 1551 000a 7047     		bx	lr
- 1552              		.cfi_endproc
- 1553              	.LFE140:
- 1555              		.section	.text.dma_interrupt_enable,"ax",%progbits
- 1556              		.align	1
- 1557              		.global	dma_interrupt_enable
- 1558              		.syntax unified
- 1559              		.thumb
- 1560              		.thumb_func
- 1561              		.fpu fpv4-sp-d16
- 1563              	dma_interrupt_enable:
- 1564              	.LVL97:
- 1565              	.LFB141:
+ 1538              		.loc 1 663 1 view .LVU428
+ 1539 000a 7047     		bx	lr
+ 1540              		.cfi_endproc
+ 1541              	.LFE140:
+ 1543              		.section	.text.dma_interrupt_enable,"ax",%progbits
+ 1544              		.align	1
+ 1545              		.global	dma_interrupt_enable
+ 1546              		.syntax unified
+ 1547              		.thumb
+ 1548              		.thumb_func
+ 1549              		.fpu fpv4-sp-d16
+ 1551              	dma_interrupt_enable:
+ 1552              	.LVL90:
+ 1553              	.LFB141:
  681:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 1566              		.loc 1 681 1 is_stmt 1 view -0
- 1567              		.cfi_startproc
- 1568              		@ args = 0, pretend = 0, frame = 0
- 1569              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1554              		.loc 1 681 1 is_stmt 1 view -0
+ 1555              		.cfi_startproc
+ 1556              		@ args = 0, pretend = 0, frame = 0
+ 1557              		@ frame_needed = 0, uses_anonymous_args = 0
  681:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 1570              		.loc 1 681 1 is_stmt 0 view .LVU411
- 1571 0000 70B5     		push	{r4, r5, r6, lr}
- 1572              	.LCFI23:
- 1573              		.cfi_def_cfa_offset 16
- 1574              		.cfi_offset 4, -16
- 1575              		.cfi_offset 5, -12
- 1576              		.cfi_offset 6, -8
- 1577              		.cfi_offset 14, -4
- 1578 0002 0646     		mov	r6, r0
- 1579 0004 0C46     		mov	r4, r1
- 1580 0006 1546     		mov	r5, r2
+ 1558              		.loc 1 681 1 is_stmt 0 view .LVU430
+ 1559 0000 70B5     		push	{r4, r5, r6, lr}
+ 1560              	.LCFI23:
+ 1561              		.cfi_def_cfa_offset 16
+ 1562              		.cfi_offset 4, -16
+ 1563              		.cfi_offset 5, -12
+ 1564              		.cfi_offset 6, -8
+ 1565              		.cfi_offset 14, -4
+ 1566 0002 0446     		mov	r4, r0
+ 1567 0004 0D46     		mov	r5, r1
+ 1568 0006 1646     		mov	r6, r2
  682:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 1581              		.loc 1 682 5 is_stmt 1 view .LVU412
+ 1569              		.loc 1 682 5 is_stmt 1 view .LVU431
  682:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 1582              		.loc 1 682 17 is_stmt 0 view .LVU413
- 1583 0008 FFF7FEFF 		bl	dma_periph_and_channel_check
- 1584              	.LVL98:
+ 1570              		.loc 1 682 17 is_stmt 0 view .LVU432
+ 1571 0008 FFF7FEFF 		bl	dma_periph_and_channel_check
+ 1572              	.LVL91:
  682:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 1585              		.loc 1 682 7 view .LVU414
- 1586 000c 00B9     		cbnz	r0, .L117
- 1587              	.L118:
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 48
+
+
+ 1573              		.loc 1 682 7 view .LVU433
+ 1574 000c 00B9     		cbnz	r0, .L117
+ 1575              	.L118:
  683:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 1588              		.loc 1 683 9 is_stmt 1 discriminator 1 view .LVU415
+ 1576              		.loc 1 683 9 is_stmt 1 discriminator 1 view .LVU434
  683:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 1589              		.loc 1 683 9 discriminator 1 view .LVU416
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 48
-
-
- 1590 000e FEE7     		b	.L118
- 1591              	.L117:
+ 1577              		.loc 1 683 9 discriminator 1 view .LVU435
+ 683:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
+ 1578              		.loc 1 683 9 discriminator 1 view .LVU436
+ 1579 000e FEE7     		b	.L118
+ 1580              	.L117:
  686:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 1592              		.loc 1 686 5 view .LVU417
+ 1581              		.loc 1 686 5 view .LVU437
  686:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 1593              		.loc 1 686 37 is_stmt 0 view .LVU418
- 1594 0010 04EB8404 		add	r4, r4, r4, lsl #2
- 1595 0014 A300     		lsls	r3, r4, #2
- 1596 0016 3344     		add	r3, r3, r6
- 1597 0018 9A68     		ldr	r2, [r3, #8]
- 1598 001a 2A43     		orrs	r2, r2, r5
- 1599 001c 9A60     		str	r2, [r3, #8]
+ 1582              		.loc 1 686 37 is_stmt 0 view .LVU438
+ 1583 0010 05EB8501 		add	r1, r5, r5, lsl #2
+ 1584 0014 04EB8100 		add	r0, r4, r1, lsl #2
+ 1585 0018 8268     		ldr	r2, [r0, #8]
+ 1586 001a 3243     		orrs	r2, r2, r6
+ 1587 001c 8260     		str	r2, [r0, #8]
  687:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 1600              		.loc 1 687 1 view .LVU419
- 1601 001e 70BD     		pop	{r4, r5, r6, pc}
+ 1588              		.loc 1 687 1 view .LVU439
+ 1589 001e 70BD     		pop	{r4, r5, r6, pc}
  687:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 1602              		.loc 1 687 1 view .LVU420
- 1603              		.cfi_endproc
- 1604              	.LFE141:
- 1606              		.section	.text.dma_interrupt_disable,"ax",%progbits
- 1607              		.align	1
- 1608              		.global	dma_interrupt_disable
- 1609              		.syntax unified
- 1610              		.thumb
- 1611              		.thumb_func
- 1612              		.fpu fpv4-sp-d16
- 1614              	dma_interrupt_disable:
- 1615              	.LVL99:
- 1616              	.LFB142:
+ 1590              		.loc 1 687 1 view .LVU440
+ 1591              		.cfi_endproc
+ 1592              	.LFE141:
+ 1594              		.section	.text.dma_interrupt_disable,"ax",%progbits
+ 1595              		.align	1
+ 1596              		.global	dma_interrupt_disable
+ 1597              		.syntax unified
+ 1598              		.thumb
+ 1599              		.thumb_func
+ 1600              		.fpu fpv4-sp-d16
+ 1602              	dma_interrupt_disable:
+ 1603              	.LVL92:
+ 1604              	.LFB142:
  705:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 1617              		.loc 1 705 1 is_stmt 1 view -0
- 1618              		.cfi_startproc
- 1619              		@ args = 0, pretend = 0, frame = 0
- 1620              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1605              		.loc 1 705 1 is_stmt 1 view -0
+ 1606              		.cfi_startproc
+ 1607              		@ args = 0, pretend = 0, frame = 0
+ 1608              		@ frame_needed = 0, uses_anonymous_args = 0
  705:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     if(ERROR == dma_periph_and_channel_check(dma_periph, channelx)){
- 1621              		.loc 1 705 1 is_stmt 0 view .LVU422
- 1622 0000 70B5     		push	{r4, r5, r6, lr}
- 1623              	.LCFI24:
- 1624              		.cfi_def_cfa_offset 16
- 1625              		.cfi_offset 4, -16
- 1626              		.cfi_offset 5, -12
- 1627              		.cfi_offset 6, -8
- 1628              		.cfi_offset 14, -4
- 1629 0002 0646     		mov	r6, r0
- 1630 0004 0C46     		mov	r4, r1
- 1631 0006 1546     		mov	r5, r2
+ 1609              		.loc 1 705 1 is_stmt 0 view .LVU442
+ 1610 0000 70B5     		push	{r4, r5, r6, lr}
+ 1611              	.LCFI24:
+ 1612              		.cfi_def_cfa_offset 16
+ 1613              		.cfi_offset 4, -16
+ 1614              		.cfi_offset 5, -12
+ 1615              		.cfi_offset 6, -8
+ 1616              		.cfi_offset 14, -4
+ 1617 0002 0446     		mov	r4, r0
+ 1618 0004 0D46     		mov	r5, r1
+ 1619 0006 1646     		mov	r6, r2
  706:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 1632              		.loc 1 706 5 is_stmt 1 view .LVU423
+ 1620              		.loc 1 706 5 is_stmt 1 view .LVU443
  706:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 1633              		.loc 1 706 17 is_stmt 0 view .LVU424
- 1634 0008 FFF7FEFF 		bl	dma_periph_and_channel_check
- 1635              	.LVL100:
- 706:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
- 1636              		.loc 1 706 7 view .LVU425
- 1637 000c 00B9     		cbnz	r0, .L121
- 1638              	.L122:
- 707:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 49
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 49
 
 
- 1639              		.loc 1 707 9 is_stmt 1 discriminator 1 view .LVU426
+ 1621              		.loc 1 706 17 is_stmt 0 view .LVU444
+ 1622 0008 FFF7FEFF 		bl	dma_periph_and_channel_check
+ 1623              	.LVL93:
+ 706:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****         DMA_WRONG_HANDLE
+ 1624              		.loc 1 706 7 view .LVU445
+ 1625 000c 00B9     		cbnz	r0, .L121
+ 1626              	.L122:
  707:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
- 1640              		.loc 1 707 9 discriminator 1 view .LVU427
- 1641 000e FEE7     		b	.L122
- 1642              	.L121:
+ 1627              		.loc 1 707 9 is_stmt 1 discriminator 1 view .LVU446
+ 707:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
+ 1628              		.loc 1 707 9 discriminator 1 view .LVU447
+ 707:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c ****     }
+ 1629              		.loc 1 707 9 discriminator 1 view .LVU448
+ 1630 000e FEE7     		b	.L122
+ 1631              	.L121:
  710:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 1643              		.loc 1 710 5 view .LVU428
+ 1632              		.loc 1 710 5 view .LVU449
  710:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** }
- 1644              		.loc 1 710 37 is_stmt 0 view .LVU429
- 1645 0010 04EB8404 		add	r4, r4, r4, lsl #2
- 1646 0014 A300     		lsls	r3, r4, #2
- 1647 0016 3344     		add	r3, r3, r6
- 1648 0018 9A68     		ldr	r2, [r3, #8]
- 1649 001a 22EA0502 		bic	r2, r2, r5
- 1650 001e 9A60     		str	r2, [r3, #8]
+ 1633              		.loc 1 710 37 is_stmt 0 view .LVU450
+ 1634 0010 05EB8501 		add	r1, r5, r5, lsl #2
+ 1635 0014 04EB8100 		add	r0, r4, r1, lsl #2
+ 1636 0018 8268     		ldr	r2, [r0, #8]
+ 1637 001a 22EA0602 		bic	r2, r2, r6
+ 1638 001e 8260     		str	r2, [r0, #8]
  711:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 1651              		.loc 1 711 1 view .LVU430
- 1652 0020 70BD     		pop	{r4, r5, r6, pc}
+ 1639              		.loc 1 711 1 view .LVU451
+ 1640 0020 70BD     		pop	{r4, r5, r6, pc}
  711:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dma.c **** 
- 1653              		.loc 1 711 1 view .LVU431
- 1654              		.cfi_endproc
- 1655              	.LFE142:
- 1657              		.text
- 1658              	.Letext0:
- 1659              		.file 2 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\machine\\_default_types.h"
- 1660              		.file 3 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\sys\\_stdint.h"
- 1661              		.file 4 "Drivers/CMSIS/core_cm4.h"
- 1662              		.file 5 "Drivers/CMSIS/GD/GD32F30x/Include/system_gd32f30x.h"
- 1663              		.file 6 "Drivers/CMSIS/GD/GD32F30x/Include/gd32f30x.h"
- 1664              		.file 7 "Drivers/GD32F30x_standard_peripheral/Include/gd32f30x_dma.h"
- 1665              		.file 8 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\sys\\lock.h"
- 1666              		.file 9 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\sys\\_types.h"
- 1667              		.file 10 "d:\\embedded_gcc\\arm_gcc\\lib\\gcc\\arm-none-eabi\\8.2.1\\include\\stddef.h"
- 1668              		.file 11 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\sys\\reent.h"
- 1669              		.file 12 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\stdlib.h"
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 50
+ 1641              		.loc 1 711 1 view .LVU452
+ 1642              		.cfi_endproc
+ 1643              	.LFE142:
+ 1645              		.text
+ 1646              	.Letext0:
+ 1647              		.file 2 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 1648              		.file 3 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 1649              		.file 4 "Drivers/CMSIS/GD/GD32F30x/Include/gd32f30x.h"
+ 1650              		.file 5 "Drivers/GD32F30x_standard_peripheral/Include/gd32f30x_dma.h"
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 50
 
 
 DEFINED SYMBOLS
-                            *ABS*:0000000000000000 gd32f30x_dma.c
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:18     .text.dma_periph_and_channel_check:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:25     .text.dma_periph_and_channel_check:0000000000000000 dma_periph_and_channel_check
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:67     .text.dma_periph_and_channel_check:0000000000000018 $d
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:72     .text.dma_deinit:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:79     .text.dma_deinit:0000000000000000 dma_deinit
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:145    .text.dma_struct_para_init:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:152    .text.dma_struct_para_init:0000000000000000 dma_struct_para_init
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:201    .text.dma_init:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:208    .text.dma_init:0000000000000000 dma_init
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:349    .text.dma_circulation_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:356    .text.dma_circulation_enable:0000000000000000 dma_circulation_enable
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:399    .text.dma_circulation_disable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:406    .text.dma_circulation_disable:0000000000000000 dma_circulation_disable
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:449    .text.dma_memory_to_memory_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:456    .text.dma_memory_to_memory_enable:0000000000000000 dma_memory_to_memory_enable
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:499    .text.dma_memory_to_memory_disable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:506    .text.dma_memory_to_memory_disable:0000000000000000 dma_memory_to_memory_disable
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:549    .text.dma_channel_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:556    .text.dma_channel_enable:0000000000000000 dma_channel_enable
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:599    .text.dma_channel_disable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:606    .text.dma_channel_disable:0000000000000000 dma_channel_disable
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:649    .text.dma_periph_address_config:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:656    .text.dma_periph_address_config:0000000000000000 dma_periph_address_config
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:698    .text.dma_memory_address_config:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:705    .text.dma_memory_address_config:0000000000000000 dma_memory_address_config
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:747    .text.dma_transfer_number_config:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:754    .text.dma_transfer_number_config:0000000000000000 dma_transfer_number_config
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:799    .text.dma_transfer_number_get:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:806    .text.dma_transfer_number_get:0000000000000000 dma_transfer_number_get
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:848    .text.dma_priority_config:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:855    .text.dma_priority_config:0000000000000000 dma_priority_config
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:911    .text.dma_memory_width_config:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:918    .text.dma_memory_width_config:0000000000000000 dma_memory_width_config
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:974    .text.dma_periph_width_config:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:981    .text.dma_periph_width_config:0000000000000000 dma_periph_width_config
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:1037   .text.dma_memory_increase_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:1044   .text.dma_memory_increase_enable:0000000000000000 dma_memory_increase_enable
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:1087   .text.dma_memory_increase_disable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:1094   .text.dma_memory_increase_disable:0000000000000000 dma_memory_increase_disable
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:1137   .text.dma_periph_increase_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:1144   .text.dma_periph_increase_enable:0000000000000000 dma_periph_increase_enable
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:1187   .text.dma_periph_increase_disable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:1194   .text.dma_periph_increase_disable:0000000000000000 dma_periph_increase_disable
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:1237   .text.dma_transfer_direction_config:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:1244   .text.dma_transfer_direction_config:0000000000000000 dma_transfer_direction_config
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:1303   .text.dma_flag_get:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:1310   .text.dma_flag_get:0000000000000000 dma_flag_get
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:1348   .text.dma_flag_clear:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:1355   .text.dma_flag_clear:0000000000000000 dma_flag_clear
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:1381   .text.dma_interrupt_flag_get:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:1388   .text.dma_interrupt_flag_get:0000000000000000 dma_interrupt_flag_get
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:1523   .text.dma_interrupt_flag_clear:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:1530   .text.dma_interrupt_flag_clear:0000000000000000 dma_interrupt_flag_clear
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:1556   .text.dma_interrupt_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:1563   .text.dma_interrupt_enable:0000000000000000 dma_interrupt_enable
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s 			page 51
+                            *ABS*:00000000 gd32f30x_dma.c
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:18     .text.dma_periph_and_channel_check:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:25     .text.dma_periph_and_channel_check:00000000 dma_periph_and_channel_check
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:67     .text.dma_periph_and_channel_check:00000018 $d
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:72     .text.dma_deinit:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:79     .text.dma_deinit:00000000 dma_deinit
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:145    .text.dma_struct_para_init:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:152    .text.dma_struct_para_init:00000000 dma_struct_para_init
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:202    .text.dma_init:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:209    .text.dma_init:00000000 dma_init
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:346    .text.dma_circulation_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:353    .text.dma_circulation_enable:00000000 dma_circulation_enable
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:396    .text.dma_circulation_disable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:403    .text.dma_circulation_disable:00000000 dma_circulation_disable
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:446    .text.dma_memory_to_memory_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:453    .text.dma_memory_to_memory_enable:00000000 dma_memory_to_memory_enable
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:496    .text.dma_memory_to_memory_disable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:503    .text.dma_memory_to_memory_disable:00000000 dma_memory_to_memory_disable
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:546    .text.dma_channel_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:553    .text.dma_channel_enable:00000000 dma_channel_enable
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:596    .text.dma_channel_disable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:603    .text.dma_channel_disable:00000000 dma_channel_disable
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:646    .text.dma_periph_address_config:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:653    .text.dma_periph_address_config:00000000 dma_periph_address_config
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:695    .text.dma_memory_address_config:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:702    .text.dma_memory_address_config:00000000 dma_memory_address_config
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:744    .text.dma_transfer_number_config:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:751    .text.dma_transfer_number_config:00000000 dma_transfer_number_config
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:796    .text.dma_transfer_number_get:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:803    .text.dma_transfer_number_get:00000000 dma_transfer_number_get
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:845    .text.dma_priority_config:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:852    .text.dma_priority_config:00000000 dma_priority_config
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:908    .text.dma_memory_width_config:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:915    .text.dma_memory_width_config:00000000 dma_memory_width_config
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:971    .text.dma_periph_width_config:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:978    .text.dma_periph_width_config:00000000 dma_periph_width_config
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:1034   .text.dma_memory_increase_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:1041   .text.dma_memory_increase_enable:00000000 dma_memory_increase_enable
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:1084   .text.dma_memory_increase_disable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:1091   .text.dma_memory_increase_disable:00000000 dma_memory_increase_disable
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:1134   .text.dma_periph_increase_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:1141   .text.dma_periph_increase_enable:00000000 dma_periph_increase_enable
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:1184   .text.dma_periph_increase_disable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:1191   .text.dma_periph_increase_disable:00000000 dma_periph_increase_disable
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:1234   .text.dma_transfer_direction_config:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:1241   .text.dma_transfer_direction_config:00000000 dma_transfer_direction_config
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:1299   .text.dma_flag_get:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:1306   .text.dma_flag_get:00000000 dma_flag_get
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:1344   .text.dma_flag_clear:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:1351   .text.dma_flag_clear:00000000 dma_flag_clear
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:1377   .text.dma_interrupt_flag_get:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:1384   .text.dma_interrupt_flag_get:00000000 dma_interrupt_flag_get
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:1511   .text.dma_interrupt_flag_clear:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:1518   .text.dma_interrupt_flag_clear:00000000 dma_interrupt_flag_clear
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:1544   .text.dma_interrupt_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:1551   .text.dma_interrupt_enable:00000000 dma_interrupt_enable
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s 			page 51
 
 
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:1607   .text.dma_interrupt_disable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccLrnOWd.s:1614   .text.dma_interrupt_disable:0000000000000000 dma_interrupt_disable
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:1595   .text.dma_interrupt_disable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccBCnbcK.s:1602   .text.dma_interrupt_disable:00000000 dma_interrupt_disable
 
 NO UNDEFINED SYMBOLS

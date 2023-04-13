@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 1
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 1
   28:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
   29:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, 
   30:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT 
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 2
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s 			page 2
 
 
   31:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR 
@@ -87,51 +87,47 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 1
   49:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     EXTI_INTEN = (uint32_t)0x00000000U;
   34              		.loc 1 49 5 view .LVU1
   35              		.loc 1 49 16 is_stmt 0 view .LVU2
-  36 0000 0023     		movs	r3, #0
-  37 0002 054A     		ldr	r2, .L2
-  38 0004 1360     		str	r3, [r2]
+  36 0000 064B     		ldr	r3, .L2
+  37 0002 0022     		movs	r2, #0
+  38 0004 C3F80024 		str	r2, [r3, #1024]
   50:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     EXTI_EVEN  = (uint32_t)0x00000000U;
   39              		.loc 1 50 5 is_stmt 1 view .LVU3
   40              		.loc 1 50 16 is_stmt 0 view .LVU4
-  41 0006 0432     		adds	r2, r2, #4
-  42 0008 1360     		str	r3, [r2]
+  41 0008 C3F80424 		str	r2, [r3, #1028]
   51:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     EXTI_RTEN  = (uint32_t)0x00000000U;
-  43              		.loc 1 51 5 is_stmt 1 view .LVU5
-  44              		.loc 1 51 16 is_stmt 0 view .LVU6
-  45 000a 0432     		adds	r2, r2, #4
-  46 000c 1360     		str	r3, [r2]
+  42              		.loc 1 51 5 is_stmt 1 view .LVU5
+  43              		.loc 1 51 16 is_stmt 0 view .LVU6
+  44 000c C3F80824 		str	r2, [r3, #1032]
   52:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     EXTI_FTEN  = (uint32_t)0x00000000U;
-  47              		.loc 1 52 5 is_stmt 1 view .LVU7
-  48              		.loc 1 52 16 is_stmt 0 view .LVU8
-  49 000e 0432     		adds	r2, r2, #4
-  50 0010 1360     		str	r3, [r2]
+  45              		.loc 1 52 5 is_stmt 1 view .LVU7
+  46              		.loc 1 52 16 is_stmt 0 view .LVU8
+  47 0010 C3F80C24 		str	r2, [r3, #1036]
   53:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     EXTI_SWIEV = (uint32_t)0x00000000U;
-  51              		.loc 1 53 5 is_stmt 1 view .LVU9
-  52              		.loc 1 53 16 is_stmt 0 view .LVU10
-  53 0012 0432     		adds	r2, r2, #4
-  54 0014 1360     		str	r3, [r2]
+  48              		.loc 1 53 5 is_stmt 1 view .LVU9
+  49              		.loc 1 53 16 is_stmt 0 view .LVU10
+  50 0014 C3F81024 		str	r2, [r3, #1040]
   54:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** }
-  55              		.loc 1 54 1 view .LVU11
-  56 0016 7047     		bx	lr
-  57              	.L3:
-  58              		.align	2
-  59              	.L2:
-  60 0018 00040140 		.word	1073808384
-  61              		.cfi_endproc
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 3
+  51              		.loc 1 54 1 view .LVU11
+  52 0018 7047     		bx	lr
+  53              	.L3:
+  54 001a 00BF     		.align	2
+  55              	.L2:
+  56 001c 00000140 		.word	1073807360
+  57              		.cfi_endproc
+  58              	.LFE116:
+  60              		.section	.text.exti_init,"ax",%progbits
+  61              		.align	1
+  62              		.global	exti_init
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s 			page 3
 
 
-  62              	.LFE116:
-  64              		.section	.text.exti_init,"ax",%progbits
-  65              		.align	1
-  66              		.global	exti_init
-  67              		.syntax unified
-  68              		.thumb
-  69              		.thumb_func
-  70              		.fpu fpv4-sp-d16
-  72              	exti_init:
-  73              	.LVL0:
-  74              	.LFB117:
+  63              		.syntax unified
+  64              		.thumb
+  65              		.thumb_func
+  66              		.fpu fpv4-sp-d16
+  68              	exti_init:
+  69              	.LVL0:
+  70              	.LFB117:
   55:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** 
   56:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** /*!
   57:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     \brief      initialize the EXTI
@@ -152,61 +148,57 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 1
   72:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** */
   73:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** void exti_init(exti_line_enum linex, exti_mode_enum mode, exti_trig_type_enum trig_type)
   74:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** {
-  75              		.loc 1 74 1 is_stmt 1 view -0
-  76              		.cfi_startproc
-  77              		@ args = 0, pretend = 0, frame = 0
-  78              		@ frame_needed = 0, uses_anonymous_args = 0
-  79              		@ link register save eliminated.
-  80              		.loc 1 74 1 is_stmt 0 view .LVU13
-  81 0000 30B4     		push	{r4, r5}
-  82              	.LCFI0:
-  83              		.cfi_def_cfa_offset 8
-  84              		.cfi_offset 4, -8
-  85              		.cfi_offset 5, -4
+  71              		.loc 1 74 1 is_stmt 1 view -0
+  72              		.cfi_startproc
+  73              		@ args = 0, pretend = 0, frame = 0
+  74              		@ frame_needed = 0, uses_anonymous_args = 0
+  75              		@ link register save eliminated.
+  76              		.loc 1 74 1 is_stmt 0 view .LVU13
+  77 0000 10B4     		push	{r4}
+  78              	.LCFI0:
+  79              		.cfi_def_cfa_offset 4
+  80              		.cfi_offset 4, -4
   75:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     /* reset the EXTI line x */
   76:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     EXTI_INTEN &= ~(uint32_t)linex;
-  86              		.loc 1 76 5 is_stmt 1 view .LVU14
-  87              		.loc 1 76 16 is_stmt 0 view .LVU15
-  88 0002 204D     		ldr	r5, .L13
-  89 0004 2C68     		ldr	r4, [r5]
-  90              		.loc 1 76 19 view .LVU16
-  91 0006 C343     		mvns	r3, r0
-  92              		.loc 1 76 16 view .LVU17
-  93 0008 1C40     		ands	r4, r4, r3
-  94 000a 2C60     		str	r4, [r5]
+  81              		.loc 1 76 5 is_stmt 1 view .LVU14
+  82              		.loc 1 76 16 is_stmt 0 view .LVU15
+  83 0002 2D4B     		ldr	r3, .L13
+  84 0004 D3F80044 		ldr	r4, [r3, #1024]
+  85              		.loc 1 76 19 view .LVU16
+  86 0008 6FEA000C 		mvn	ip, r0
+  87              		.loc 1 76 16 view .LVU17
+  88 000c 24EA0004 		bic	r4, r4, r0
+  89 0010 C3F80044 		str	r4, [r3, #1024]
   77:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     EXTI_EVEN &= ~(uint32_t)linex;
-  95              		.loc 1 77 5 is_stmt 1 view .LVU18
-  96              		.loc 1 77 15 is_stmt 0 view .LVU19
-  97 000c 0435     		adds	r5, r5, #4
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 4
-
-
-  98 000e 2C68     		ldr	r4, [r5]
-  99 0010 1C40     		ands	r4, r4, r3
- 100 0012 2C60     		str	r4, [r5]
+  90              		.loc 1 77 5 is_stmt 1 view .LVU18
+  91              		.loc 1 77 15 is_stmt 0 view .LVU19
+  92 0014 D3F80444 		ldr	r4, [r3, #1028]
+  93 0018 24EA0004 		bic	r4, r4, r0
+  94 001c C3F80444 		str	r4, [r3, #1028]
   78:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     EXTI_RTEN &= ~(uint32_t)linex;
- 101              		.loc 1 78 5 is_stmt 1 view .LVU20
- 102              		.loc 1 78 15 is_stmt 0 view .LVU21
- 103 0014 0435     		adds	r5, r5, #4
- 104 0016 2C68     		ldr	r4, [r5]
- 105 0018 1C40     		ands	r4, r4, r3
- 106 001a 2C60     		str	r4, [r5]
+  95              		.loc 1 78 5 is_stmt 1 view .LVU20
+  96              		.loc 1 78 15 is_stmt 0 view .LVU21
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s 			page 4
+
+
+  97 0020 D3F80844 		ldr	r4, [r3, #1032]
+  98 0024 24EA0004 		bic	r4, r4, r0
+  99 0028 C3F80844 		str	r4, [r3, #1032]
   79:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     EXTI_FTEN &= ~(uint32_t)linex;
- 107              		.loc 1 79 5 is_stmt 1 view .LVU22
- 108              		.loc 1 79 15 is_stmt 0 view .LVU23
- 109 001c 0435     		adds	r5, r5, #4
- 110 001e 2C68     		ldr	r4, [r5]
- 111 0020 1C40     		ands	r4, r4, r3
- 112 0022 2C60     		str	r4, [r5]
+ 100              		.loc 1 79 5 is_stmt 1 view .LVU22
+ 101              		.loc 1 79 15 is_stmt 0 view .LVU23
+ 102 002c D3F80C44 		ldr	r4, [r3, #1036]
+ 103 0030 24EA0004 		bic	r4, r4, r0
+ 104 0034 C3F80C44 		str	r4, [r3, #1036]
   80:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     
   81:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     /* set the EXTI mode and enable the interrupts or events from EXTI line x */
   82:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     switch(mode){
- 113              		.loc 1 82 5 is_stmt 1 view .LVU24
- 114 0024 49B1     		cbz	r1, .L5
- 115 0026 0129     		cmp	r1, #1
- 116 0028 0CD0     		beq	.L6
- 117              	.LVL1:
- 118              	.L7:
+ 105              		.loc 1 82 5 is_stmt 1 view .LVU24
+ 106 0038 49B1     		cbz	r1, .L5
+ 107 003a 0129     		cmp	r1, #1
+ 108 003c 0ED0     		beq	.L6
+ 109              	.LVL1:
+ 110              	.L7:
   83:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     case EXTI_INTERRUPT:
   84:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         EXTI_INTEN |= (uint32_t)linex;
   85:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         break;
@@ -219,15 +211,14 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 1
   92:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     
   93:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     /* set the EXTI trigger type */
   94:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     switch(trig_type){
- 119              		.loc 1 94 5 view .LVU25
- 120 002a 012A     		cmp	r2, #1
- 121 002c 18D0     		beq	.L8
- 122 002e 51B2     		sxtb	r1, r2
- 123 0030 69B1     		cbz	r1, .L9
- 124 0032 022A     		cmp	r2, #2
- 125 0034 1DD0     		beq	.L10
- 126              	.LVL2:
- 127              	.L4:
+ 111              		.loc 1 94 5 view .LVU25
+ 112 003e 012A     		cmp	r2, #1
+ 113 0040 20D0     		beq	.L8
+ 114 0042 022A     		cmp	r2, #2
+ 115 0044 2BD0     		beq	.L9
+ 116 0046 82B1     		cbz	r2, .L12
+ 117              	.LVL2:
+ 118              	.L4:
   95:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     case EXTI_TRIG_RISING:
   96:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         EXTI_RTEN |= (uint32_t)linex;
   97:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         EXTI_FTEN &= ~(uint32_t)linex;
@@ -238,165 +229,156 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 1
  102:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         break;
  103:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     case EXTI_TRIG_BOTH:
  104:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         EXTI_RTEN |= (uint32_t)linex;
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 5
-
-
  105:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         EXTI_FTEN |= (uint32_t)linex;
  106:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         break;
  107:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     default:
  108:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         break;
  109:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     }
  110:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** }
- 128              		.loc 1 110 1 is_stmt 0 view .LVU26
- 129 0036 30BC     		pop	{r4, r5}
- 130              	.LCFI1:
- 131              		.cfi_remember_state
- 132              		.cfi_restore 5
- 133              		.cfi_restore 4
- 134              		.cfi_def_cfa_offset 0
- 135 0038 7047     		bx	lr
- 136              	.LVL3:
- 137              	.L5:
- 138              	.LCFI2:
- 139              		.cfi_restore_state
+ 119              		.loc 1 110 1 is_stmt 0 view .LVU26
+ 120 0048 5DF8044B 		ldr	r4, [sp], #4
+ 121              	.LCFI1:
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s 			page 5
+
+
+ 122              		.cfi_remember_state
+ 123              		.cfi_restore 4
+ 124              		.cfi_def_cfa_offset 0
+ 125 004c 7047     		bx	lr
+ 126              	.LVL3:
+ 127              	.L5:
+ 128              	.LCFI2:
+ 129              		.cfi_restore_state
   84:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         break;
- 140              		.loc 1 84 9 is_stmt 1 view .LVU27
+ 130              		.loc 1 84 9 is_stmt 1 view .LVU27
   84:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         break;
- 141              		.loc 1 84 20 is_stmt 0 view .LVU28
- 142 003a 124C     		ldr	r4, .L13
- 143 003c 2168     		ldr	r1, [r4]
- 144              	.LVL4:
+ 131              		.loc 1 84 20 is_stmt 0 view .LVU28
+ 132 004e 1A49     		ldr	r1, .L13
+ 133              	.LVL4:
   84:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         break;
- 145              		.loc 1 84 20 view .LVU29
- 146 003e 0143     		orrs	r1, r1, r0
- 147 0040 2160     		str	r1, [r4]
+ 134              		.loc 1 84 20 view .LVU29
+ 135 0050 D1F80034 		ldr	r3, [r1, #1024]
+ 136 0054 0343     		orrs	r3, r3, r0
+ 137 0056 C1F80034 		str	r3, [r1, #1024]
   85:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     case EXTI_EVENT:
- 148              		.loc 1 85 9 is_stmt 1 view .LVU30
- 149 0042 F2E7     		b	.L7
- 150              	.LVL5:
- 151              	.L6:
+ 138              		.loc 1 85 9 is_stmt 1 view .LVU30
+ 139 005a F0E7     		b	.L7
+ 140              	.LVL5:
+ 141              	.L6:
   87:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         break;
- 152              		.loc 1 87 9 view .LVU31
+ 142              		.loc 1 87 9 view .LVU31
   87:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         break;
- 153              		.loc 1 87 19 is_stmt 0 view .LVU32
- 154 0044 104C     		ldr	r4, .L13+4
- 155 0046 2168     		ldr	r1, [r4]
- 156              	.LVL6:
+ 143              		.loc 1 87 19 is_stmt 0 view .LVU32
+ 144 005c 1649     		ldr	r1, .L13
+ 145              	.LVL6:
   87:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         break;
- 157              		.loc 1 87 19 view .LVU33
- 158 0048 0143     		orrs	r1, r1, r0
- 159 004a 2160     		str	r1, [r4]
+ 146              		.loc 1 87 19 view .LVU33
+ 147 005e D1F80434 		ldr	r3, [r1, #1028]
+ 148 0062 0343     		orrs	r3, r3, r0
+ 149 0064 C1F80434 		str	r3, [r1, #1028]
   88:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     default:
- 160              		.loc 1 88 9 is_stmt 1 view .LVU34
- 161 004c EDE7     		b	.L7
- 162              	.L9:
+ 150              		.loc 1 88 9 is_stmt 1 view .LVU34
+ 151 0068 E9E7     		b	.L7
+ 152              	.L12:
   96:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         EXTI_FTEN &= ~(uint32_t)linex;
- 163              		.loc 1 96 9 view .LVU35
+ 153              		.loc 1 96 9 view .LVU35
   96:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         EXTI_FTEN &= ~(uint32_t)linex;
- 164              		.loc 1 96 19 is_stmt 0 view .LVU36
- 165 004e 0F49     		ldr	r1, .L13+8
- 166 0050 0A68     		ldr	r2, [r1]
- 167              	.LVL7:
+ 154              		.loc 1 96 19 is_stmt 0 view .LVU36
+ 155 006a 134B     		ldr	r3, .L13
+ 156 006c D3F80824 		ldr	r2, [r3, #1032]
+ 157              	.LVL7:
   96:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         EXTI_FTEN &= ~(uint32_t)linex;
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 6
+ 158              		.loc 1 96 19 view .LVU37
+ 159 0070 1043     		orrs	r0, r0, r2
+ 160              	.LVL8:
+  96:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         EXTI_FTEN &= ~(uint32_t)linex;
+ 161              		.loc 1 96 19 view .LVU38
+ 162 0072 C3F80804 		str	r0, [r3, #1032]
+  97:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         break;
+ 163              		.loc 1 97 9 is_stmt 1 view .LVU39
+  97:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         break;
+ 164              		.loc 1 97 19 is_stmt 0 view .LVU40
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s 			page 6
 
 
- 168              		.loc 1 96 19 view .LVU37
- 169 0052 1043     		orrs	r0, r0, r2
- 170              	.LVL8:
-  96:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         EXTI_FTEN &= ~(uint32_t)linex;
- 171              		.loc 1 96 19 view .LVU38
- 172 0054 0860     		str	r0, [r1]
-  97:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         break;
- 173              		.loc 1 97 9 is_stmt 1 view .LVU39
-  97:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         break;
- 174              		.loc 1 97 19 is_stmt 0 view .LVU40
- 175 0056 0431     		adds	r1, r1, #4
- 176 0058 0A68     		ldr	r2, [r1]
- 177 005a 1340     		ands	r3, r3, r2
- 178              	.LVL9:
-  97:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         break;
- 179              		.loc 1 97 19 view .LVU41
- 180 005c 0B60     		str	r3, [r1]
+ 165 0076 D3F80C24 		ldr	r2, [r3, #1036]
+ 166 007a 0CEA0202 		and	r2, ip, r2
+ 167 007e C3F80C24 		str	r2, [r3, #1036]
   98:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     case EXTI_TRIG_FALLING:
- 181              		.loc 1 98 9 is_stmt 1 view .LVU42
- 182 005e EAE7     		b	.L4
- 183              	.LVL10:
- 184              	.L8:
+ 168              		.loc 1 98 9 is_stmt 1 view .LVU41
+ 169 0082 E1E7     		b	.L4
+ 170              	.LVL9:
+ 171              	.L8:
  100:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         EXTI_FTEN |= (uint32_t)linex;
- 185              		.loc 1 100 9 view .LVU43
+ 172              		.loc 1 100 9 view .LVU42
  100:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         EXTI_FTEN |= (uint32_t)linex;
- 186              		.loc 1 100 19 is_stmt 0 view .LVU44
- 187 0060 0A4A     		ldr	r2, .L13+8
- 188              	.LVL11:
+ 173              		.loc 1 100 19 is_stmt 0 view .LVU43
+ 174 0084 0C4A     		ldr	r2, .L13
+ 175              	.LVL10:
  100:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         EXTI_FTEN |= (uint32_t)linex;
- 189              		.loc 1 100 19 view .LVU45
- 190 0062 1168     		ldr	r1, [r2]
- 191 0064 0B40     		ands	r3, r3, r1
- 192 0066 1360     		str	r3, [r2]
+ 176              		.loc 1 100 19 view .LVU44
+ 177 0086 D2F80834 		ldr	r3, [r2, #1032]
+ 178 008a 0CEA0303 		and	r3, ip, r3
+ 179 008e C2F80834 		str	r3, [r2, #1032]
  101:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         break;
- 193              		.loc 1 101 9 is_stmt 1 view .LVU46
+ 180              		.loc 1 101 9 is_stmt 1 view .LVU45
  101:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         break;
- 194              		.loc 1 101 19 is_stmt 0 view .LVU47
- 195 0068 0432     		adds	r2, r2, #4
- 196 006a 1368     		ldr	r3, [r2]
- 197 006c 1843     		orrs	r0, r0, r3
- 198              	.LVL12:
+ 181              		.loc 1 101 19 is_stmt 0 view .LVU46
+ 182 0092 D2F80C34 		ldr	r3, [r2, #1036]
+ 183 0096 1843     		orrs	r0, r0, r3
+ 184              	.LVL11:
  101:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         break;
- 199              		.loc 1 101 19 view .LVU48
- 200 006e 1060     		str	r0, [r2]
+ 185              		.loc 1 101 19 view .LVU47
+ 186 0098 C2F80C04 		str	r0, [r2, #1036]
  102:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     case EXTI_TRIG_BOTH:
- 201              		.loc 1 102 9 is_stmt 1 view .LVU49
- 202 0070 E1E7     		b	.L4
- 203              	.LVL13:
- 204              	.L10:
+ 187              		.loc 1 102 9 is_stmt 1 view .LVU48
+ 188 009c D4E7     		b	.L4
+ 189              	.LVL12:
+ 190              	.L9:
  104:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         EXTI_FTEN |= (uint32_t)linex;
- 205              		.loc 1 104 9 view .LVU50
+ 191              		.loc 1 104 9 view .LVU49
  104:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         EXTI_FTEN |= (uint32_t)linex;
- 206              		.loc 1 104 19 is_stmt 0 view .LVU51
- 207 0072 064A     		ldr	r2, .L13+8
- 208              	.LVL14:
+ 192              		.loc 1 104 19 is_stmt 0 view .LVU50
+ 193 009e 064B     		ldr	r3, .L13
+ 194 00a0 D3F80824 		ldr	r2, [r3, #1032]
+ 195              	.LVL13:
  104:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         EXTI_FTEN |= (uint32_t)linex;
- 209              		.loc 1 104 19 view .LVU52
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 7
-
-
- 210 0074 1368     		ldr	r3, [r2]
- 211 0076 0343     		orrs	r3, r3, r0
- 212 0078 1360     		str	r3, [r2]
+ 196              		.loc 1 104 19 view .LVU51
+ 197 00a4 0243     		orrs	r2, r2, r0
+ 198 00a6 C3F80824 		str	r2, [r3, #1032]
  105:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         break;
- 213              		.loc 1 105 9 is_stmt 1 view .LVU53
+ 199              		.loc 1 105 9 is_stmt 1 view .LVU52
  105:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         break;
- 214              		.loc 1 105 19 is_stmt 0 view .LVU54
- 215 007a 0432     		adds	r2, r2, #4
- 216 007c 1368     		ldr	r3, [r2]
- 217 007e 1843     		orrs	r0, r0, r3
- 218              	.LVL15:
+ 200              		.loc 1 105 19 is_stmt 0 view .LVU53
+ 201 00aa D3F80C24 		ldr	r2, [r3, #1036]
+ 202 00ae 1043     		orrs	r0, r0, r2
+ 203              	.LVL14:
  105:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         break;
- 219              		.loc 1 105 19 view .LVU55
- 220 0080 1060     		str	r0, [r2]
+ 204              		.loc 1 105 19 view .LVU54
+ 205 00b0 C3F80C04 		str	r0, [r3, #1036]
  106:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     default:
- 221              		.loc 1 106 9 is_stmt 1 view .LVU56
- 222              		.loc 1 110 1 is_stmt 0 view .LVU57
- 223 0082 D8E7     		b	.L4
- 224              	.L14:
- 225              		.align	2
- 226              	.L13:
- 227 0084 00040140 		.word	1073808384
- 228 0088 04040140 		.word	1073808388
- 229 008c 08040140 		.word	1073808392
- 230              		.cfi_endproc
- 231              	.LFE117:
- 233              		.section	.text.exti_interrupt_enable,"ax",%progbits
- 234              		.align	1
- 235              		.global	exti_interrupt_enable
- 236              		.syntax unified
- 237              		.thumb
- 238              		.thumb_func
- 239              		.fpu fpv4-sp-d16
- 241              	exti_interrupt_enable:
- 242              	.LVL16:
- 243              	.LFB118:
+ 206              		.loc 1 106 9 is_stmt 1 view .LVU55
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s 			page 7
+
+
+ 207              		.loc 1 110 1 is_stmt 0 view .LVU56
+ 208 00b4 C8E7     		b	.L4
+ 209              	.L14:
+ 210 00b6 00BF     		.align	2
+ 211              	.L13:
+ 212 00b8 00000140 		.word	1073807360
+ 213              		.cfi_endproc
+ 214              	.LFE117:
+ 216              		.section	.text.exti_interrupt_enable,"ax",%progbits
+ 217              		.align	1
+ 218              		.global	exti_interrupt_enable
+ 219              		.syntax unified
+ 220              		.thumb
+ 221              		.thumb_func
+ 222              		.fpu fpv4-sp-d16
+ 224              	exti_interrupt_enable:
+ 225              	.LVL15:
+ 226              	.LFB118:
  111:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** 
  112:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** /*!
  113:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     \brief      enable the interrupts from EXTI line x
@@ -408,42 +390,40 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 1
  119:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** */
  120:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** void exti_interrupt_enable(exti_line_enum linex)
  121:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** {
- 244              		.loc 1 121 1 is_stmt 1 view -0
- 245              		.cfi_startproc
- 246              		@ args = 0, pretend = 0, frame = 0
- 247              		@ frame_needed = 0, uses_anonymous_args = 0
- 248              		@ link register save eliminated.
+ 227              		.loc 1 121 1 is_stmt 1 view -0
+ 228              		.cfi_startproc
+ 229              		@ args = 0, pretend = 0, frame = 0
+ 230              		@ frame_needed = 0, uses_anonymous_args = 0
+ 231              		@ link register save eliminated.
  122:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     EXTI_INTEN |= (uint32_t)linex;
- 249              		.loc 1 122 5 view .LVU59
- 250              		.loc 1 122 16 is_stmt 0 view .LVU60
- 251 0000 024A     		ldr	r2, .L16
- 252 0002 1368     		ldr	r3, [r2]
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 8
-
-
- 253 0004 1843     		orrs	r0, r0, r3
- 254              	.LVL17:
- 255              		.loc 1 122 16 view .LVU61
- 256 0006 1060     		str	r0, [r2]
+ 232              		.loc 1 122 5 view .LVU58
+ 233              		.loc 1 122 16 is_stmt 0 view .LVU59
+ 234 0000 034A     		ldr	r2, .L16
+ 235 0002 D2F80034 		ldr	r3, [r2, #1024]
+ 236 0006 0343     		orrs	r3, r3, r0
+ 237 0008 C2F80034 		str	r3, [r2, #1024]
  123:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** }
- 257              		.loc 1 123 1 view .LVU62
- 258 0008 7047     		bx	lr
- 259              	.L17:
- 260 000a 00BF     		.align	2
- 261              	.L16:
- 262 000c 00040140 		.word	1073808384
- 263              		.cfi_endproc
- 264              	.LFE118:
- 266              		.section	.text.exti_event_enable,"ax",%progbits
- 267              		.align	1
- 268              		.global	exti_event_enable
- 269              		.syntax unified
- 270              		.thumb
- 271              		.thumb_func
- 272              		.fpu fpv4-sp-d16
- 274              	exti_event_enable:
- 275              	.LVL18:
- 276              	.LFB119:
+ 238              		.loc 1 123 1 view .LVU60
+ 239 000c 7047     		bx	lr
+ 240              	.L17:
+ 241 000e 00BF     		.align	2
+ 242              	.L16:
+ 243 0010 00000140 		.word	1073807360
+ 244              		.cfi_endproc
+ 245              	.LFE118:
+ 247              		.section	.text.exti_event_enable,"ax",%progbits
+ 248              		.align	1
+ 249              		.global	exti_event_enable
+ 250              		.syntax unified
+ 251              		.thumb
+ 252              		.thumb_func
+ 253              		.fpu fpv4-sp-d16
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s 			page 8
+
+
+ 255              	exti_event_enable:
+ 256              	.LVL16:
+ 257              	.LFB119:
  124:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** 
  125:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** /*!
  126:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     \brief      enable the events from EXTI line x
@@ -455,42 +435,37 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 1
  132:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** */
  133:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** void exti_event_enable(exti_line_enum linex)
  134:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** {
- 277              		.loc 1 134 1 is_stmt 1 view -0
- 278              		.cfi_startproc
- 279              		@ args = 0, pretend = 0, frame = 0
- 280              		@ frame_needed = 0, uses_anonymous_args = 0
- 281              		@ link register save eliminated.
+ 258              		.loc 1 134 1 is_stmt 1 view -0
+ 259              		.cfi_startproc
+ 260              		@ args = 0, pretend = 0, frame = 0
+ 261              		@ frame_needed = 0, uses_anonymous_args = 0
+ 262              		@ link register save eliminated.
  135:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     EXTI_EVEN |= (uint32_t)linex;
- 282              		.loc 1 135 5 view .LVU64
- 283              		.loc 1 135 15 is_stmt 0 view .LVU65
- 284 0000 024A     		ldr	r2, .L19
- 285 0002 1368     		ldr	r3, [r2]
- 286 0004 1843     		orrs	r0, r0, r3
- 287              	.LVL19:
- 288              		.loc 1 135 15 view .LVU66
- 289 0006 1060     		str	r0, [r2]
+ 263              		.loc 1 135 5 view .LVU62
+ 264              		.loc 1 135 15 is_stmt 0 view .LVU63
+ 265 0000 034A     		ldr	r2, .L19
+ 266 0002 D2F80434 		ldr	r3, [r2, #1028]
+ 267 0006 0343     		orrs	r3, r3, r0
+ 268 0008 C2F80434 		str	r3, [r2, #1028]
  136:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** }
- 290              		.loc 1 136 1 view .LVU67
- 291 0008 7047     		bx	lr
- 292              	.L20:
- 293 000a 00BF     		.align	2
- 294              	.L19:
- 295 000c 04040140 		.word	1073808388
- 296              		.cfi_endproc
- 297              	.LFE119:
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 9
-
-
- 299              		.section	.text.exti_interrupt_disable,"ax",%progbits
- 300              		.align	1
- 301              		.global	exti_interrupt_disable
- 302              		.syntax unified
- 303              		.thumb
- 304              		.thumb_func
- 305              		.fpu fpv4-sp-d16
- 307              	exti_interrupt_disable:
- 308              	.LVL20:
- 309              	.LFB120:
+ 269              		.loc 1 136 1 view .LVU64
+ 270 000c 7047     		bx	lr
+ 271              	.L20:
+ 272 000e 00BF     		.align	2
+ 273              	.L19:
+ 274 0010 00000140 		.word	1073807360
+ 275              		.cfi_endproc
+ 276              	.LFE119:
+ 278              		.section	.text.exti_interrupt_disable,"ax",%progbits
+ 279              		.align	1
+ 280              		.global	exti_interrupt_disable
+ 281              		.syntax unified
+ 282              		.thumb
+ 283              		.thumb_func
+ 284              		.fpu fpv4-sp-d16
+ 286              	exti_interrupt_disable:
+ 287              	.LVL17:
+ 288              	.LFB120:
  137:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** 
  138:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** /*!
  139:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     \brief      disable the interrupt from EXTI line x
@@ -502,45 +477,43 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 1
  145:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** */
  146:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** void exti_interrupt_disable(exti_line_enum linex)
  147:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** {
- 310              		.loc 1 147 1 is_stmt 1 view -0
- 311              		.cfi_startproc
- 312              		@ args = 0, pretend = 0, frame = 0
- 313              		@ frame_needed = 0, uses_anonymous_args = 0
- 314              		@ link register save eliminated.
+ 289              		.loc 1 147 1 is_stmt 1 view -0
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s 			page 9
+
+
+ 290              		.cfi_startproc
+ 291              		@ args = 0, pretend = 0, frame = 0
+ 292              		@ frame_needed = 0, uses_anonymous_args = 0
+ 293              		@ link register save eliminated.
  148:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     EXTI_INTEN &= ~(uint32_t)linex;
- 315              		.loc 1 148 5 view .LVU69
- 316              		.loc 1 148 16 is_stmt 0 view .LVU70
- 317 0000 024A     		ldr	r2, .L22
- 318 0002 1368     		ldr	r3, [r2]
- 319 0004 23EA0000 		bic	r0, r3, r0
- 320              	.LVL21:
- 321              		.loc 1 148 16 view .LVU71
- 322 0008 1060     		str	r0, [r2]
+ 294              		.loc 1 148 5 view .LVU66
+ 295              		.loc 1 148 16 is_stmt 0 view .LVU67
+ 296 0000 034A     		ldr	r2, .L22
+ 297 0002 D2F80034 		ldr	r3, [r2, #1024]
+ 298 0006 23EA0003 		bic	r3, r3, r0
+ 299 000a C2F80034 		str	r3, [r2, #1024]
  149:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** }
- 323              		.loc 1 149 1 view .LVU72
- 324 000a 7047     		bx	lr
- 325              	.L23:
- 326              		.align	2
- 327              	.L22:
- 328 000c 00040140 		.word	1073808384
- 329              		.cfi_endproc
- 330              	.LFE120:
- 332              		.section	.text.exti_event_disable,"ax",%progbits
- 333              		.align	1
- 334              		.global	exti_event_disable
- 335              		.syntax unified
- 336              		.thumb
- 337              		.thumb_func
- 338              		.fpu fpv4-sp-d16
- 340              	exti_event_disable:
- 341              	.LVL22:
- 342              	.LFB121:
+ 300              		.loc 1 149 1 view .LVU68
+ 301 000e 7047     		bx	lr
+ 302              	.L23:
+ 303              		.align	2
+ 304              	.L22:
+ 305 0010 00000140 		.word	1073807360
+ 306              		.cfi_endproc
+ 307              	.LFE120:
+ 309              		.section	.text.exti_event_disable,"ax",%progbits
+ 310              		.align	1
+ 311              		.global	exti_event_disable
+ 312              		.syntax unified
+ 313              		.thumb
+ 314              		.thumb_func
+ 315              		.fpu fpv4-sp-d16
+ 317              	exti_event_disable:
+ 318              	.LVL18:
+ 319              	.LFB121:
  150:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** 
  151:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** /*!
  152:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     \brief      disable the events from EXTI line x
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 10
-
-
  153:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     \param[in]  linex: EXTI line number, refer to exti_line_enum
  154:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****                 only one parameter can be selected which is shown as below:
  155:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****       \arg        EXTI_x (x=0..19): EXTI line x
@@ -549,39 +522,40 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 1
  158:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** */
  159:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** void exti_event_disable(exti_line_enum linex)
  160:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** {
- 343              		.loc 1 160 1 is_stmt 1 view -0
- 344              		.cfi_startproc
- 345              		@ args = 0, pretend = 0, frame = 0
- 346              		@ frame_needed = 0, uses_anonymous_args = 0
- 347              		@ link register save eliminated.
+ 320              		.loc 1 160 1 is_stmt 1 view -0
+ 321              		.cfi_startproc
+ 322              		@ args = 0, pretend = 0, frame = 0
+ 323              		@ frame_needed = 0, uses_anonymous_args = 0
+ 324              		@ link register save eliminated.
  161:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     EXTI_EVEN &= ~(uint32_t)linex;
- 348              		.loc 1 161 5 view .LVU74
- 349              		.loc 1 161 15 is_stmt 0 view .LVU75
- 350 0000 024A     		ldr	r2, .L25
- 351 0002 1368     		ldr	r3, [r2]
- 352 0004 23EA0000 		bic	r0, r3, r0
- 353              	.LVL23:
- 354              		.loc 1 161 15 view .LVU76
- 355 0008 1060     		str	r0, [r2]
+ 325              		.loc 1 161 5 view .LVU70
+ 326              		.loc 1 161 15 is_stmt 0 view .LVU71
+ 327 0000 034A     		ldr	r2, .L25
+ 328 0002 D2F80434 		ldr	r3, [r2, #1028]
+ 329 0006 23EA0003 		bic	r3, r3, r0
+ 330 000a C2F80434 		str	r3, [r2, #1028]
  162:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** }
- 356              		.loc 1 162 1 view .LVU77
- 357 000a 7047     		bx	lr
- 358              	.L26:
- 359              		.align	2
- 360              	.L25:
- 361 000c 04040140 		.word	1073808388
- 362              		.cfi_endproc
- 363              	.LFE121:
- 365              		.section	.text.exti_flag_get,"ax",%progbits
- 366              		.align	1
- 367              		.global	exti_flag_get
- 368              		.syntax unified
- 369              		.thumb
- 370              		.thumb_func
- 371              		.fpu fpv4-sp-d16
- 373              	exti_flag_get:
- 374              	.LVL24:
- 375              	.LFB122:
+ 331              		.loc 1 162 1 view .LVU72
+ 332 000e 7047     		bx	lr
+ 333              	.L26:
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s 			page 10
+
+
+ 334              		.align	2
+ 335              	.L25:
+ 336 0010 00000140 		.word	1073807360
+ 337              		.cfi_endproc
+ 338              	.LFE121:
+ 340              		.section	.text.exti_flag_get,"ax",%progbits
+ 341              		.align	1
+ 342              		.global	exti_flag_get
+ 343              		.syntax unified
+ 344              		.thumb
+ 345              		.thumb_func
+ 346              		.fpu fpv4-sp-d16
+ 348              	exti_flag_get:
+ 349              	.LVL19:
+ 350              	.LFB122:
  163:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** 
  164:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** /*!
  165:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     \brief      get EXTI lines flag
@@ -593,55 +567,55 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 1
  171:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** */
  172:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** FlagStatus exti_flag_get(exti_line_enum linex)
  173:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** {
- 376              		.loc 1 173 1 is_stmt 1 view -0
- 377              		.cfi_startproc
- 378              		@ args = 0, pretend = 0, frame = 0
- 379              		@ frame_needed = 0, uses_anonymous_args = 0
- 380              		@ link register save eliminated.
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 11
-
-
+ 351              		.loc 1 173 1 is_stmt 1 view -0
+ 352              		.cfi_startproc
+ 353              		@ args = 0, pretend = 0, frame = 0
+ 354              		@ frame_needed = 0, uses_anonymous_args = 0
+ 355              		@ link register save eliminated.
  174:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     if(RESET != (EXTI_PD & (uint32_t)linex)){
- 381              		.loc 1 174 5 view .LVU79
- 382              		.loc 1 174 18 is_stmt 0 view .LVU80
- 383 0000 034B     		ldr	r3, .L30
- 384 0002 1B68     		ldr	r3, [r3]
- 385              		.loc 1 174 7 view .LVU81
- 386 0004 0342     		tst	r3, r0
- 387 0006 01D0     		beq	.L29
+ 356              		.loc 1 174 5 view .LVU74
+ 357              		.loc 1 174 18 is_stmt 0 view .LVU75
+ 358 0000 044B     		ldr	r3, .L30
+ 359 0002 D3F81434 		ldr	r3, [r3, #1044]
+ 360              		.loc 1 174 7 view .LVU76
+ 361 0006 0342     		tst	r3, r0
+ 362 0008 01D0     		beq	.L29
  175:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         return SET;
- 388              		.loc 1 175 16 view .LVU82
- 389 0008 0120     		movs	r0, #1
- 390              	.LVL25:
- 391              		.loc 1 175 16 view .LVU83
- 392 000a 7047     		bx	lr
- 393              	.LVL26:
- 394              	.L29:
+ 363              		.loc 1 175 16 view .LVU77
+ 364 000a 0120     		movs	r0, #1
+ 365              	.LVL20:
+ 366              		.loc 1 175 16 view .LVU78
+ 367 000c 7047     		bx	lr
+ 368              	.LVL21:
+ 369              	.L29:
  176:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     }else{
  177:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         return RESET;
- 395              		.loc 1 177 16 view .LVU84
- 396 000c 0020     		movs	r0, #0
- 397              	.LVL27:
+ 370              		.loc 1 177 16 view .LVU79
+ 371 000e 0020     		movs	r0, #0
+ 372              	.LVL22:
  178:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     } 
  179:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** }
- 398              		.loc 1 179 1 view .LVU85
- 399 000e 7047     		bx	lr
- 400              	.L31:
- 401              		.align	2
- 402              	.L30:
- 403 0010 14040140 		.word	1073808404
- 404              		.cfi_endproc
- 405              	.LFE122:
- 407              		.section	.text.exti_flag_clear,"ax",%progbits
- 408              		.align	1
- 409              		.global	exti_flag_clear
- 410              		.syntax unified
- 411              		.thumb
- 412              		.thumb_func
- 413              		.fpu fpv4-sp-d16
- 415              	exti_flag_clear:
- 416              	.LVL28:
- 417              	.LFB123:
+ 373              		.loc 1 179 1 view .LVU80
+ 374 0010 7047     		bx	lr
+ 375              	.L31:
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s 			page 11
+
+
+ 376 0012 00BF     		.align	2
+ 377              	.L30:
+ 378 0014 00000140 		.word	1073807360
+ 379              		.cfi_endproc
+ 380              	.LFE122:
+ 382              		.section	.text.exti_flag_clear,"ax",%progbits
+ 383              		.align	1
+ 384              		.global	exti_flag_clear
+ 385              		.syntax unified
+ 386              		.thumb
+ 387              		.thumb_func
+ 388              		.fpu fpv4-sp-d16
+ 390              	exti_flag_clear:
+ 391              	.LVL23:
+ 392              	.LFB123:
  180:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** 
  181:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** /*!
  182:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     \brief      clear EXTI lines pending flag
@@ -653,40 +627,40 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 1
  188:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** */
  189:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** void exti_flag_clear(exti_line_enum linex)
  190:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** {
- 418              		.loc 1 190 1 is_stmt 1 view -0
- 419              		.cfi_startproc
- 420              		@ args = 0, pretend = 0, frame = 0
- 421              		@ frame_needed = 0, uses_anonymous_args = 0
- 422              		@ link register save eliminated.
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 12
-
-
+ 393              		.loc 1 190 1 is_stmt 1 view -0
+ 394              		.cfi_startproc
+ 395              		@ args = 0, pretend = 0, frame = 0
+ 396              		@ frame_needed = 0, uses_anonymous_args = 0
+ 397              		@ link register save eliminated.
  191:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     EXTI_PD = (uint32_t)linex;
- 423              		.loc 1 191 5 view .LVU87
- 424              		.loc 1 191 13 is_stmt 0 view .LVU88
- 425 0000 014B     		ldr	r3, .L33
- 426 0002 1860     		str	r0, [r3]
+ 398              		.loc 1 191 5 view .LVU82
+ 399              		.loc 1 191 13 is_stmt 0 view .LVU83
+ 400 0000 014B     		ldr	r3, .L33
+ 401 0002 C3F81404 		str	r0, [r3, #1044]
  192:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** }
- 427              		.loc 1 192 1 view .LVU89
- 428 0004 7047     		bx	lr
- 429              	.L34:
- 430 0006 00BF     		.align	2
- 431              	.L33:
- 432 0008 14040140 		.word	1073808404
- 433              		.cfi_endproc
- 434              	.LFE123:
- 436              		.section	.text.exti_interrupt_flag_get,"ax",%progbits
- 437              		.align	1
- 438              		.global	exti_interrupt_flag_get
- 439              		.syntax unified
- 440              		.thumb
- 441              		.thumb_func
- 442              		.fpu fpv4-sp-d16
- 444              	exti_interrupt_flag_get:
- 445              	.LVL29:
- 446              	.LFB124:
+ 402              		.loc 1 192 1 view .LVU84
+ 403 0006 7047     		bx	lr
+ 404              	.L34:
+ 405              		.align	2
+ 406              	.L33:
+ 407 0008 00000140 		.word	1073807360
+ 408              		.cfi_endproc
+ 409              	.LFE123:
+ 411              		.section	.text.exti_interrupt_flag_get,"ax",%progbits
+ 412              		.align	1
+ 413              		.global	exti_interrupt_flag_get
+ 414              		.syntax unified
+ 415              		.thumb
+ 416              		.thumb_func
+ 417              		.fpu fpv4-sp-d16
+ 419              	exti_interrupt_flag_get:
+ 420              	.LVL24:
+ 421              	.LFB124:
  193:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** 
  194:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** /*!
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s 			page 12
+
+
  195:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     \brief      get EXTI lines flag when the interrupt flag is set
  196:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     \param[in]  linex: EXTI line number, refer to exti_line_enum
  197:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****                 only one parameter can be selected which is shown as below:
@@ -696,80 +670,79 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 1
  201:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** */
  202:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** FlagStatus exti_interrupt_flag_get(exti_line_enum linex)
  203:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** {
- 447              		.loc 1 203 1 is_stmt 1 view -0
- 448              		.cfi_startproc
- 449              		@ args = 0, pretend = 0, frame = 0
- 450              		@ frame_needed = 0, uses_anonymous_args = 0
- 451              		@ link register save eliminated.
+ 422              		.loc 1 203 1 is_stmt 1 view -0
+ 423              		.cfi_startproc
+ 424              		@ args = 0, pretend = 0, frame = 0
+ 425              		@ frame_needed = 0, uses_anonymous_args = 0
+ 426              		@ link register save eliminated.
  204:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     uint32_t flag_left, flag_right;
- 452              		.loc 1 204 5 view .LVU91
+ 427              		.loc 1 204 5 view .LVU86
  205:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     
  206:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     flag_left = EXTI_PD & (uint32_t)linex;
- 453              		.loc 1 206 5 view .LVU92
- 454              		.loc 1 206 17 is_stmt 0 view .LVU93
- 455 0000 064B     		ldr	r3, .L39
- 456 0002 1A68     		ldr	r2, [r3]
- 457              	.LVL30:
+ 428              		.loc 1 206 5 view .LVU87
+ 429              		.loc 1 206 17 is_stmt 0 view .LVU88
+ 430 0000 074B     		ldr	r3, .L39
+ 431 0002 D3F81424 		ldr	r2, [r3, #1044]
+ 432              	.LVL25:
  207:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     flag_right = EXTI_INTEN & (uint32_t)linex;
- 458              		.loc 1 207 5 is_stmt 1 view .LVU94
- 459              		.loc 1 207 18 is_stmt 0 view .LVU95
- 460 0004 143B     		subs	r3, r3, #20
- 461 0006 1B68     		ldr	r3, [r3]
- 462              		.loc 1 207 16 view .LVU96
- 463 0008 0340     		ands	r3, r3, r0
- 464              	.LVL31:
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 13
-
-
+ 433              		.loc 1 207 5 is_stmt 1 view .LVU89
+ 434              		.loc 1 207 18 is_stmt 0 view .LVU90
+ 435 0006 D3F80034 		ldr	r3, [r3, #1024]
+ 436              		.loc 1 207 16 view .LVU91
+ 437 000a 0340     		ands	r3, r3, r0
+ 438              	.LVL26:
  208:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     
  209:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     if((RESET != flag_left) && (RESET != flag_right)){
- 465              		.loc 1 209 5 is_stmt 1 view .LVU97
- 466              		.loc 1 209 7 is_stmt 0 view .LVU98
- 467 000a 0242     		tst	r2, r0
- 468 000c 02D0     		beq	.L37
- 469              		.loc 1 209 29 discriminator 1 view .LVU99
- 470 000e 1BB9     		cbnz	r3, .L38
+ 439              		.loc 1 209 5 is_stmt 1 view .LVU92
+ 440              		.loc 1 209 7 is_stmt 0 view .LVU93
+ 441 000c 0242     		tst	r2, r0
+ 442 000e 02D0     		beq	.L37
+ 443              		.loc 1 209 29 discriminator 1 view .LVU94
+ 444 0010 1BB9     		cbnz	r3, .L38
  210:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         return SET;
  211:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     }else{
  212:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         return RESET;
- 471              		.loc 1 212 16 view .LVU100
- 472 0010 0020     		movs	r0, #0
- 473              	.LVL32:
- 474              		.loc 1 212 16 view .LVU101
- 475 0012 7047     		bx	lr
- 476              	.LVL33:
- 477              	.L37:
- 478              		.loc 1 212 16 view .LVU102
- 479 0014 0020     		movs	r0, #0
- 480              	.LVL34:
- 481              		.loc 1 212 16 view .LVU103
- 482 0016 7047     		bx	lr
- 483              	.LVL35:
- 484              	.L38:
+ 445              		.loc 1 212 16 view .LVU95
+ 446 0012 0020     		movs	r0, #0
+ 447              	.LVL27:
+ 448              		.loc 1 212 16 view .LVU96
+ 449 0014 7047     		bx	lr
+ 450              	.LVL28:
+ 451              	.L37:
+ 452              		.loc 1 212 16 view .LVU97
+ 453 0016 0020     		movs	r0, #0
+ 454              	.LVL29:
+ 455              		.loc 1 212 16 view .LVU98
+ 456 0018 7047     		bx	lr
+ 457              	.LVL30:
+ 458              	.L38:
  210:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****         return SET;
- 485              		.loc 1 210 16 view .LVU104
- 486 0018 0120     		movs	r0, #1
- 487              	.LVL36:
+ 459              		.loc 1 210 16 view .LVU99
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s 			page 13
+
+
+ 460 001a 0120     		movs	r0, #1
+ 461              	.LVL31:
  213:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     }
  214:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** }
- 488              		.loc 1 214 1 view .LVU105
- 489 001a 7047     		bx	lr
- 490              	.L40:
- 491              		.align	2
- 492              	.L39:
- 493 001c 14040140 		.word	1073808404
- 494              		.cfi_endproc
- 495              	.LFE124:
- 497              		.section	.text.exti_interrupt_flag_clear,"ax",%progbits
- 498              		.align	1
- 499              		.global	exti_interrupt_flag_clear
- 500              		.syntax unified
- 501              		.thumb
- 502              		.thumb_func
- 503              		.fpu fpv4-sp-d16
- 505              	exti_interrupt_flag_clear:
- 506              	.LVL37:
- 507              	.LFB125:
+ 462              		.loc 1 214 1 view .LVU100
+ 463 001c 7047     		bx	lr
+ 464              	.L40:
+ 465 001e 00BF     		.align	2
+ 466              	.L39:
+ 467 0020 00000140 		.word	1073807360
+ 468              		.cfi_endproc
+ 469              	.LFE124:
+ 471              		.section	.text.exti_interrupt_flag_clear,"ax",%progbits
+ 472              		.align	1
+ 473              		.global	exti_interrupt_flag_clear
+ 474              		.syntax unified
+ 475              		.thumb
+ 476              		.thumb_func
+ 477              		.fpu fpv4-sp-d16
+ 479              	exti_interrupt_flag_clear:
+ 480              	.LVL32:
+ 481              	.LFB125:
  215:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** 
  216:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** /*!
  217:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     \brief      clear EXTI lines pending flag
@@ -778,41 +751,41 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 1
  220:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****       \arg        EXTI_x (x=0..19): EXTI line x
  221:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     \param[out] none
  222:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     \retval     none
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 14
-
-
  223:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** */
  224:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** void exti_interrupt_flag_clear(exti_line_enum linex)
  225:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** {
- 508              		.loc 1 225 1 is_stmt 1 view -0
- 509              		.cfi_startproc
- 510              		@ args = 0, pretend = 0, frame = 0
- 511              		@ frame_needed = 0, uses_anonymous_args = 0
- 512              		@ link register save eliminated.
+ 482              		.loc 1 225 1 is_stmt 1 view -0
+ 483              		.cfi_startproc
+ 484              		@ args = 0, pretend = 0, frame = 0
+ 485              		@ frame_needed = 0, uses_anonymous_args = 0
+ 486              		@ link register save eliminated.
  226:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     EXTI_PD = (uint32_t)linex;
- 513              		.loc 1 226 5 view .LVU107
- 514              		.loc 1 226 13 is_stmt 0 view .LVU108
- 515 0000 014B     		ldr	r3, .L42
- 516 0002 1860     		str	r0, [r3]
+ 487              		.loc 1 226 5 view .LVU102
+ 488              		.loc 1 226 13 is_stmt 0 view .LVU103
+ 489 0000 014B     		ldr	r3, .L42
+ 490 0002 C3F81404 		str	r0, [r3, #1044]
  227:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** }
- 517              		.loc 1 227 1 view .LVU109
- 518 0004 7047     		bx	lr
- 519              	.L43:
- 520 0006 00BF     		.align	2
- 521              	.L42:
- 522 0008 14040140 		.word	1073808404
- 523              		.cfi_endproc
- 524              	.LFE125:
- 526              		.section	.text.exti_software_interrupt_enable,"ax",%progbits
- 527              		.align	1
- 528              		.global	exti_software_interrupt_enable
- 529              		.syntax unified
- 530              		.thumb
- 531              		.thumb_func
- 532              		.fpu fpv4-sp-d16
- 534              	exti_software_interrupt_enable:
- 535              	.LVL38:
- 536              	.LFB126:
+ 491              		.loc 1 227 1 view .LVU104
+ 492 0006 7047     		bx	lr
+ 493              	.L43:
+ 494              		.align	2
+ 495              	.L42:
+ 496 0008 00000140 		.word	1073807360
+ 497              		.cfi_endproc
+ 498              	.LFE125:
+ 500              		.section	.text.exti_software_interrupt_enable,"ax",%progbits
+ 501              		.align	1
+ 502              		.global	exti_software_interrupt_enable
+ 503              		.syntax unified
+ 504              		.thumb
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s 			page 14
+
+
+ 505              		.thumb_func
+ 506              		.fpu fpv4-sp-d16
+ 508              	exti_software_interrupt_enable:
+ 509              	.LVL33:
+ 510              	.LFB126:
  228:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** 
  229:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** /*!
  230:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     \brief      enable EXTI software interrupt event
@@ -824,42 +797,37 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 1
  236:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** */
  237:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** void exti_software_interrupt_enable(exti_line_enum linex)
  238:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** {
- 537              		.loc 1 238 1 is_stmt 1 view -0
- 538              		.cfi_startproc
- 539              		@ args = 0, pretend = 0, frame = 0
- 540              		@ frame_needed = 0, uses_anonymous_args = 0
- 541              		@ link register save eliminated.
+ 511              		.loc 1 238 1 is_stmt 1 view -0
+ 512              		.cfi_startproc
+ 513              		@ args = 0, pretend = 0, frame = 0
+ 514              		@ frame_needed = 0, uses_anonymous_args = 0
+ 515              		@ link register save eliminated.
  239:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     EXTI_SWIEV |= (uint32_t)linex;
- 542              		.loc 1 239 5 view .LVU111
- 543              		.loc 1 239 16 is_stmt 0 view .LVU112
- 544 0000 024A     		ldr	r2, .L45
- 545 0002 1368     		ldr	r3, [r2]
- 546 0004 1843     		orrs	r0, r0, r3
- 547              	.LVL39:
- 548              		.loc 1 239 16 view .LVU113
- 549 0006 1060     		str	r0, [r2]
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 15
-
-
+ 516              		.loc 1 239 5 view .LVU106
+ 517              		.loc 1 239 16 is_stmt 0 view .LVU107
+ 518 0000 034A     		ldr	r2, .L45
+ 519 0002 D2F81034 		ldr	r3, [r2, #1040]
+ 520 0006 0343     		orrs	r3, r3, r0
+ 521 0008 C2F81034 		str	r3, [r2, #1040]
  240:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** }
- 550              		.loc 1 240 1 view .LVU114
- 551 0008 7047     		bx	lr
- 552              	.L46:
- 553 000a 00BF     		.align	2
- 554              	.L45:
- 555 000c 10040140 		.word	1073808400
- 556              		.cfi_endproc
- 557              	.LFE126:
- 559              		.section	.text.exti_software_interrupt_disable,"ax",%progbits
- 560              		.align	1
- 561              		.global	exti_software_interrupt_disable
- 562              		.syntax unified
- 563              		.thumb
- 564              		.thumb_func
- 565              		.fpu fpv4-sp-d16
- 567              	exti_software_interrupt_disable:
- 568              	.LVL40:
- 569              	.LFB127:
+ 522              		.loc 1 240 1 view .LVU108
+ 523 000c 7047     		bx	lr
+ 524              	.L46:
+ 525 000e 00BF     		.align	2
+ 526              	.L45:
+ 527 0010 00000140 		.word	1073807360
+ 528              		.cfi_endproc
+ 529              	.LFE126:
+ 531              		.section	.text.exti_software_interrupt_disable,"ax",%progbits
+ 532              		.align	1
+ 533              		.global	exti_software_interrupt_disable
+ 534              		.syntax unified
+ 535              		.thumb
+ 536              		.thumb_func
+ 537              		.fpu fpv4-sp-d16
+ 539              	exti_software_interrupt_disable:
+ 540              	.LVL34:
+ 541              	.LFB127:
  241:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** 
  242:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** /*!
  243:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     \brief      disable EXTI software interrupt event
@@ -870,81 +838,77 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 1
  248:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     \retval     none
  249:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** */
  250:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** void exti_software_interrupt_disable(exti_line_enum linex)
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s 			page 15
+
+
  251:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** {
- 570              		.loc 1 251 1 is_stmt 1 view -0
- 571              		.cfi_startproc
- 572              		@ args = 0, pretend = 0, frame = 0
- 573              		@ frame_needed = 0, uses_anonymous_args = 0
- 574              		@ link register save eliminated.
+ 542              		.loc 1 251 1 is_stmt 1 view -0
+ 543              		.cfi_startproc
+ 544              		@ args = 0, pretend = 0, frame = 0
+ 545              		@ frame_needed = 0, uses_anonymous_args = 0
+ 546              		@ link register save eliminated.
  252:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c ****     EXTI_SWIEV &= ~(uint32_t)linex;
- 575              		.loc 1 252 5 view .LVU116
- 576              		.loc 1 252 16 is_stmt 0 view .LVU117
- 577 0000 024A     		ldr	r2, .L48
- 578 0002 1368     		ldr	r3, [r2]
- 579 0004 23EA0000 		bic	r0, r3, r0
- 580              	.LVL41:
- 581              		.loc 1 252 16 view .LVU118
- 582 0008 1060     		str	r0, [r2]
+ 547              		.loc 1 252 5 view .LVU110
+ 548              		.loc 1 252 16 is_stmt 0 view .LVU111
+ 549 0000 034A     		ldr	r2, .L48
+ 550 0002 D2F81034 		ldr	r3, [r2, #1040]
+ 551 0006 23EA0003 		bic	r3, r3, r0
+ 552 000a C2F81034 		str	r3, [r2, #1040]
  253:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exti.c **** }
- 583              		.loc 1 253 1 view .LVU119
- 584 000a 7047     		bx	lr
- 585              	.L49:
- 586              		.align	2
- 587              	.L48:
- 588 000c 10040140 		.word	1073808400
- 589              		.cfi_endproc
- 590              	.LFE127:
- 592              		.text
- 593              	.Letext0:
- 594              		.file 2 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\machine\\_default_types.h"
- 595              		.file 3 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\sys\\_stdint.h"
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 16
-
-
- 596              		.file 4 "Drivers/CMSIS/core_cm4.h"
- 597              		.file 5 "Drivers/CMSIS/GD/GD32F30x/Include/system_gd32f30x.h"
- 598              		.file 6 "Drivers/CMSIS/GD/GD32F30x/Include/gd32f30x.h"
- 599              		.file 7 "Drivers/GD32F30x_standard_peripheral/Include/gd32f30x_exti.h"
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s 			page 17
+ 553              		.loc 1 253 1 view .LVU112
+ 554 000e 7047     		bx	lr
+ 555              	.L49:
+ 556              		.align	2
+ 557              	.L48:
+ 558 0010 00000140 		.word	1073807360
+ 559              		.cfi_endproc
+ 560              	.LFE127:
+ 562              		.text
+ 563              	.Letext0:
+ 564              		.file 2 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 565              		.file 3 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 566              		.file 4 "Drivers/CMSIS/GD/GD32F30x/Include/gd32f30x.h"
+ 567              		.file 5 "Drivers/GD32F30x_standard_peripheral/Include/gd32f30x_exti.h"
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s 			page 16
 
 
 DEFINED SYMBOLS
-                            *ABS*:0000000000000000 gd32f30x_exti.c
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:18     .text.exti_deinit:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:26     .text.exti_deinit:0000000000000000 exti_deinit
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:60     .text.exti_deinit:0000000000000018 $d
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:65     .text.exti_init:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:72     .text.exti_init:0000000000000000 exti_init
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:227    .text.exti_init:0000000000000084 $d
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:234    .text.exti_interrupt_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:241    .text.exti_interrupt_enable:0000000000000000 exti_interrupt_enable
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:262    .text.exti_interrupt_enable:000000000000000c $d
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:267    .text.exti_event_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:274    .text.exti_event_enable:0000000000000000 exti_event_enable
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:295    .text.exti_event_enable:000000000000000c $d
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:300    .text.exti_interrupt_disable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:307    .text.exti_interrupt_disable:0000000000000000 exti_interrupt_disable
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:328    .text.exti_interrupt_disable:000000000000000c $d
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:333    .text.exti_event_disable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:340    .text.exti_event_disable:0000000000000000 exti_event_disable
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:361    .text.exti_event_disable:000000000000000c $d
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:366    .text.exti_flag_get:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:373    .text.exti_flag_get:0000000000000000 exti_flag_get
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:403    .text.exti_flag_get:0000000000000010 $d
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:408    .text.exti_flag_clear:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:415    .text.exti_flag_clear:0000000000000000 exti_flag_clear
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:432    .text.exti_flag_clear:0000000000000008 $d
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:437    .text.exti_interrupt_flag_get:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:444    .text.exti_interrupt_flag_get:0000000000000000 exti_interrupt_flag_get
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:493    .text.exti_interrupt_flag_get:000000000000001c $d
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:498    .text.exti_interrupt_flag_clear:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:505    .text.exti_interrupt_flag_clear:0000000000000000 exti_interrupt_flag_clear
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:522    .text.exti_interrupt_flag_clear:0000000000000008 $d
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:527    .text.exti_software_interrupt_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:534    .text.exti_software_interrupt_enable:0000000000000000 exti_software_interrupt_enable
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:555    .text.exti_software_interrupt_enable:000000000000000c $d
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:560    .text.exti_software_interrupt_disable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:567    .text.exti_software_interrupt_disable:0000000000000000 exti_software_interrupt_disable
-C:\Users\Prog\AppData\Local\Temp\cc8eEbdl.s:588    .text.exti_software_interrupt_disable:000000000000000c $d
+                            *ABS*:00000000 gd32f30x_exti.c
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:18     .text.exti_deinit:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:26     .text.exti_deinit:00000000 exti_deinit
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:56     .text.exti_deinit:0000001c $d
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:61     .text.exti_init:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:68     .text.exti_init:00000000 exti_init
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:212    .text.exti_init:000000b8 $d
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:217    .text.exti_interrupt_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:224    .text.exti_interrupt_enable:00000000 exti_interrupt_enable
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:243    .text.exti_interrupt_enable:00000010 $d
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:248    .text.exti_event_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:255    .text.exti_event_enable:00000000 exti_event_enable
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:274    .text.exti_event_enable:00000010 $d
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:279    .text.exti_interrupt_disable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:286    .text.exti_interrupt_disable:00000000 exti_interrupt_disable
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:305    .text.exti_interrupt_disable:00000010 $d
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:310    .text.exti_event_disable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:317    .text.exti_event_disable:00000000 exti_event_disable
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:336    .text.exti_event_disable:00000010 $d
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:341    .text.exti_flag_get:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:348    .text.exti_flag_get:00000000 exti_flag_get
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:378    .text.exti_flag_get:00000014 $d
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:383    .text.exti_flag_clear:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:390    .text.exti_flag_clear:00000000 exti_flag_clear
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:407    .text.exti_flag_clear:00000008 $d
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:412    .text.exti_interrupt_flag_get:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:419    .text.exti_interrupt_flag_get:00000000 exti_interrupt_flag_get
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:467    .text.exti_interrupt_flag_get:00000020 $d
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:472    .text.exti_interrupt_flag_clear:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:479    .text.exti_interrupt_flag_clear:00000000 exti_interrupt_flag_clear
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:496    .text.exti_interrupt_flag_clear:00000008 $d
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:501    .text.exti_software_interrupt_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:508    .text.exti_software_interrupt_enable:00000000 exti_software_interrupt_enable
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:527    .text.exti_software_interrupt_enable:00000010 $d
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:532    .text.exti_software_interrupt_disable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:539    .text.exti_software_interrupt_disable:00000000 exti_software_interrupt_disable
+C:\Users\Prog\AppData\Local\Temp\ccbpZEwW.s:558    .text.exti_software_interrupt_disable:00000010 $d
 
 NO UNDEFINED SYMBOLS

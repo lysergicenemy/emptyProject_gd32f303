@@ -1,18 +1,19 @@
+
 /* Entry Point */
 ENTRY(Reset_Handler)
 
-/* Highest address of the user mode stack */
-_estack = 0x20000400;    /* end of 64K RAM */
-
+/* Highest address of the user mode stack */ 
+_estack = ORIGIN(RAM) + _Min_Stack_Size;    /* end of RAM */
 /* Generate a link error if heap and stack don't fit into RAM */
-_Min_Heap_Size = 0;      /* required amount of heap  */
-_Min_Stack_Size = 0x200; /* required amount of stack */
+_Min_Heap_Size = 0x200;      /* required amount of heap  */
+_Min_Stack_Size = 2K;     /* required amount of stack */
 
 /* Specify the memory areas */
 MEMORY
 {
-  FLASH (rx)      : ORIGIN = 0x08000000, LENGTH = 256K
-  RAM (xrw)       : ORIGIN = 0x20000000, LENGTH = 48K
+    FLASH (rx)      : ORIGIN = 0x08000000, LENGTH = 256K
+    RAM (xrw)      : ORIGIN = 0x20000000, LENGTH = 48K
+    CCRAM (xrw)    : ORIGIN = 0x10000000, LENGTH = 0K
 }
 
 /* Define output sections */
@@ -32,27 +33,30 @@ SECTIONS
     . = ALIGN(4);
     *(.text)           /* .text sections (code) */
     *(.text*)          /* .text* sections (code) */
-    *(.rodata)         /* .rodata sections (constants, strings, etc.) */
-    *(.rodata*)        /* .rodata* sections (constants, strings, etc.) */
     *(.glue_7)         /* glue arm to thumb code */
     *(.glue_7t)        /* glue thumb to arm code */
-
+    *(.eh_frame)
     KEEP (*(.init))
     KEEP (*(.fini))
-
     . = ALIGN(4);
     _etext = .;        /* define a global symbols at end of code */
   } >FLASH
 
+  /* Constant data goes into FLASH */
+  .rodata :
+  {
+    . = ALIGN(4);
+    *(.rodata)         /* .rodata sections (constants, strings, etc.) */
+    *(.rodata*)        /* .rodata* sections (constants, strings, etc.) */
+    . = ALIGN(4);
+  } >FLASH
 
-   .ARM.extab   : { *(.ARM.extab* .gnu.linkonce.armextab.*) } >FLASH
-    .ARM : {
+  .ARM.extab   : { *(.ARM.extab* .gnu.linkonce.armextab.*) } >FLASH
+  .ARM : {
     __exidx_start = .;
-      *(.ARM.exidx*)
-      __exidx_end = .;
-    } >FLASH
-
-  .ARM.attributes : { *(.ARM.attributes) } > FLASH
+    *(.ARM.exidx*)
+    __exidx_end = .;
+  } >FLASH
 
   .preinit_array     :
   {
@@ -70,26 +74,25 @@ SECTIONS
   .fini_array :
   {
     PROVIDE_HIDDEN (__fini_array_start = .);
-    KEEP (*(.fini_array*))
     KEEP (*(SORT(.fini_array.*)))
+    KEEP (*(.fini_array*))
     PROVIDE_HIDDEN (__fini_array_end = .);
   } >FLASH
 
   /* used by the startup to initialize data */
-  _sidata = .;
+  _sidata = LOADADDR(.data);
 
   /* Initialized data sections goes into RAM, load LMA copy after code */
-  .data : AT ( _sidata )
+  .data : 
   {
     . = ALIGN(4);
     _sdata = .;        /* create a global symbol at data start */
     *(.data)           /* .data sections */
     *(.data*)          /* .data* sections */
-
     . = ALIGN(4);
     _edata = .;        /* define a global symbol at data end */
-  } >RAM
-
+  } >RAM AT> FLASH
+  
   /* Uninitialized data section */
   . = ALIGN(4);
   .bss :
@@ -100,23 +103,44 @@ SECTIONS
     *(.bss)
     *(.bss*)
     *(COMMON)
-
     . = ALIGN(4);
     _ebss = .;         /* define a global symbol at bss end */
     __bss_end__ = _ebss;
   } >RAM
 
-  PROVIDE ( end = _ebss );
-  PROVIDE ( _end = _ebss );
-
   /* User_heap_stack section, used to check that there is enough RAM left */
   ._user_heap_stack :
   {
     . = ALIGN(4);
+    PROVIDE ( end = . );
+    PROVIDE ( _end = . );
     . = . + _Min_Heap_Size;
     . = . + _Min_Stack_Size;
     . = ALIGN(4);
   } >RAM
+
+  /* uninitialized CCRAM objects (like, buffers) */
+  .ccram_bss :
+  {
+    __ccram_start_bss__ = .; /* define a global symbol at ccram start */
+    KEEP(*(.ccram_bss))
+    KEEP(*(.ccram_bss*))
+    . = ALIGN(4);
+    __ccram_end_bss__ = .; /* define a global symbol at end of *used* CCRAM (BSS) */
+  } >CCRAM
+
+  /* initialized CCRAM objects (like, initialized variables) */
+  _si_ccram_data = LOADADDR(.ccram_data);
+  .ccram_data :
+  {
+    . = ALIGN(4);
+    _ccram_start_data = .;    /* create a global symbol at data start */
+    *(.ccram_bss)             /* .data sections */
+    *(.ccram_bss*)            /* .data* sections */
+    . = ALIGN(4);
+    _ccram_end_data = .;      /* define a global symbol at data end */
+  } >CCRAM AT> FLASH
+  
 
   /* Remove information from the standard libraries */
   /DISCARD/ :
@@ -125,4 +149,6 @@ SECTIONS
     libm.a ( * )
     libgcc.a ( * )
   }
+
+  .ARM.attributes 0 : { *(.ARM.attributes) }
 }

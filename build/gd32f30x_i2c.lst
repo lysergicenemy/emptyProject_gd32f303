@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
   27:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
   28:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED 
   29:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 2
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 2
 
 
   30:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
   65:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         break;
   66:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     case I2C1:
   67:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         /* reset I2C1 */
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 3
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 3
 
 
   68:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         rcu_periph_reset_enable(RCU_I2C1RST);
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
   89              		.global	i2c_clock_config
   90              		.syntax unified
   91              		.thumb
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 4
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 4
 
 
   92              		.thumb_func
@@ -219,148 +219,149 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
   95:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         I2C_ERROR_HANDLE("the parameter can not be 0 \r\n");
  108              		.loc 1 95 9 is_stmt 1 discriminator 1 view .LVU18
  109              		.loc 1 95 9 discriminator 1 view .LVU19
- 110 0002 FEE7     		b	.L10
- 111              	.L9:
+ 110              		.loc 1 95 9 discriminator 1 view .LVU20
+ 111 0002 FEE7     		b	.L10
+ 112              	.L9:
   89:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     uint32_t pclk1, clkc, freq, risetime;
- 112              		.loc 1 89 1 is_stmt 0 view .LVU20
- 113 0004 70B5     		push	{r4, r5, r6, lr}
- 114              	.LCFI1:
- 115              		.cfi_def_cfa_offset 16
- 116              		.cfi_offset 4, -16
- 117              		.cfi_offset 5, -12
- 118              		.cfi_offset 6, -8
- 119              		.cfi_offset 14, -4
- 120 0006 0C46     		mov	r4, r1
- 121 0008 1646     		mov	r6, r2
- 122 000a 0546     		mov	r5, r0
+ 113              		.loc 1 89 1 is_stmt 0 view .LVU21
+ 114 0004 70B5     		push	{r4, r5, r6, lr}
+ 115              	.LCFI1:
+ 116              		.cfi_def_cfa_offset 16
+ 117              		.cfi_offset 4, -16
+ 118              		.cfi_offset 5, -12
+ 119              		.cfi_offset 6, -8
+ 120              		.cfi_offset 14, -4
+ 121 0006 0446     		mov	r4, r0
+ 122 0008 1646     		mov	r6, r2
+ 123 000a 0D46     		mov	r5, r1
   96:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }
   97:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     
   98:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     pclk1 = rcu_clock_freq_get(CK_APB1);
- 123              		.loc 1 98 5 is_stmt 1 view .LVU21
- 124              		.loc 1 98 13 is_stmt 0 view .LVU22
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 5
+ 124              		.loc 1 98 5 is_stmt 1 view .LVU22
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 5
 
 
- 125 000c 0220     		movs	r0, #2
- 126              	.LVL11:
- 127              		.loc 1 98 13 view .LVU23
- 128 000e FFF7FEFF 		bl	rcu_clock_freq_get
- 129              	.LVL12:
+ 125              		.loc 1 98 13 is_stmt 0 view .LVU23
+ 126 000c 0220     		movs	r0, #2
+ 127              	.LVL11:
+ 128              		.loc 1 98 13 view .LVU24
+ 129 000e FFF7FEFF 		bl	rcu_clock_freq_get
+ 130              	.LVL12:
   99:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     /* I2C peripheral clock frequency */
  100:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     freq = (uint32_t)(pclk1/1000000U);
- 130              		.loc 1 100 5 is_stmt 1 view .LVU24
- 131              		.loc 1 100 10 is_stmt 0 view .LVU25
- 132 0012 404B     		ldr	r3, .L28
- 133 0014 A3FB0023 		umull	r2, r3, r3, r0
- 134 0018 9B0C     		lsrs	r3, r3, #18
- 135              	.LVL13:
+ 131              		.loc 1 100 5 is_stmt 1 view .LVU25
+ 132              		.loc 1 100 10 is_stmt 0 view .LVU26
+ 133 0012 404B     		ldr	r3, .L28
+ 134 0014 A3FB0023 		umull	r2, r3, r3, r0
+ 135 0018 9B0C     		lsrs	r3, r3, #18
+ 136              	.LVL13:
  101:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     if(freq >= I2CCLK_MAX){
- 136              		.loc 1 101 5 is_stmt 1 view .LVU26
- 137              		.loc 1 101 7 is_stmt 0 view .LVU27
- 138 001a 3F4A     		ldr	r2, .L28+4
- 139 001c 9042     		cmp	r0, r2
- 140 001e 19D8     		bhi	.L24
+ 137              		.loc 1 101 5 is_stmt 1 view .LVU27
+ 138              		.loc 1 101 7 is_stmt 0 view .LVU28
+ 139 001a 3F4A     		ldr	r2, .L28+4
+ 140 001c 9042     		cmp	r0, r2
+ 141 001e 19D2     		bcs	.L24
  100:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     if(freq >= I2CCLK_MAX){
- 141              		.loc 1 100 10 view .LVU28
- 142 0020 1A46     		mov	r2, r3
- 143              	.L11:
- 144              	.LVL14:
+ 142              		.loc 1 100 10 view .LVU29
+ 143 0020 1A46     		mov	r2, r3
+ 144              	.L11:
+ 145              	.LVL14:
  102:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         freq = I2CCLK_MAX;
  103:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }
  104:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     temp = I2C_CTL1(i2c_periph);
- 145              		.loc 1 104 5 is_stmt 1 view .LVU29
- 146              		.loc 1 104 10 is_stmt 0 view .LVU30
- 147 0022 6968     		ldr	r1, [r5, #4]
- 148              	.LVL15:
+ 146              		.loc 1 104 5 is_stmt 1 view .LVU30
+ 147              		.loc 1 104 10 is_stmt 0 view .LVU31
+ 148 0022 6168     		ldr	r1, [r4, #4]
+ 149              	.LVL15:
  105:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     temp &= ~I2C_CTL1_I2CCLK;
- 149              		.loc 1 105 5 is_stmt 1 view .LVU31
- 150              		.loc 1 105 10 is_stmt 0 view .LVU32
- 151 0024 21F07F01 		bic	r1, r1, #127
- 152              	.LVL16:
+ 150              		.loc 1 105 5 is_stmt 1 view .LVU32
+ 151              		.loc 1 105 10 is_stmt 0 view .LVU33
+ 152 0024 21F07F01 		bic	r1, r1, #127
+ 153              	.LVL16:
  106:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     temp |= freq;
- 153              		.loc 1 106 5 is_stmt 1 view .LVU33
- 154              		.loc 1 106 10 is_stmt 0 view .LVU34
- 155 0028 1143     		orrs	r1, r1, r2
- 156              	.LVL17:
+ 154              		.loc 1 106 5 is_stmt 1 view .LVU34
+ 155              		.loc 1 106 10 is_stmt 0 view .LVU35
+ 156 0028 1143     		orrs	r1, r1, r2
+ 157              	.LVL17:
  107:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     
  108:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     I2C_CTL1(i2c_periph) = temp;
- 157              		.loc 1 108 5 is_stmt 1 view .LVU35
- 158              		.loc 1 108 26 is_stmt 0 view .LVU36
- 159 002a 6960     		str	r1, [r5, #4]
+ 158              		.loc 1 108 5 is_stmt 1 view .LVU36
+ 159              		.loc 1 108 26 is_stmt 0 view .LVU37
+ 160 002a 6160     		str	r1, [r4, #4]
  109:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     
  110:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     if(100000U >= clkspeed){
- 160              		.loc 1 110 5 is_stmt 1 view .LVU37
- 161              		.loc 1 110 7 is_stmt 0 view .LVU38
- 162 002c 3B49     		ldr	r1, .L28+8
- 163              	.LVL18:
- 164              		.loc 1 110 7 view .LVU39
- 165 002e 8C42     		cmp	r4, r1
- 166 0030 19D8     		bhi	.L12
+ 161              		.loc 1 110 5 is_stmt 1 view .LVU38
+ 162              		.loc 1 110 7 is_stmt 0 view .LVU39
+ 163 002c 3B49     		ldr	r1, .L28+8
+ 164              	.LVL18:
+ 165              		.loc 1 110 7 view .LVU40
+ 166 002e 8D42     		cmp	r5, r1
+ 167 0030 19D8     		bhi	.L12
  111:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         /* the maximum SCL rise time is 1000ns in standard mode */
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 6
+
+
  112:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         risetime = (uint32_t)((pclk1/1000000U)+1U);
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 6
-
-
- 167              		.loc 1 112 9 is_stmt 1 view .LVU40
- 168              		.loc 1 112 18 is_stmt 0 view .LVU41
- 169 0032 0133     		adds	r3, r3, #1
- 170              	.LVL19:
+ 168              		.loc 1 112 9 is_stmt 1 view .LVU41
+ 169              		.loc 1 112 18 is_stmt 0 view .LVU42
+ 170 0032 0133     		adds	r3, r3, #1
+ 171              	.LVL19:
  113:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         if(risetime >= I2CCLK_MAX){
- 171              		.loc 1 113 9 is_stmt 1 view .LVU42
- 172              		.loc 1 113 11 is_stmt 0 view .LVU43
- 173 0034 3B2B     		cmp	r3, #59
- 174 0036 0FD9     		bls	.L13
+ 172              		.loc 1 113 9 is_stmt 1 view .LVU43
+ 173              		.loc 1 113 11 is_stmt 0 view .LVU44
+ 174 0034 3B2B     		cmp	r3, #59
+ 175 0036 0FD9     		bls	.L13
  114:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             I2C_RT(i2c_periph) = I2CCLK_MAX;
- 175              		.loc 1 114 13 is_stmt 1 view .LVU44
- 176              		.loc 1 114 32 is_stmt 0 view .LVU45
- 177 0038 3C23     		movs	r3, #60
- 178              	.LVL20:
- 179              		.loc 1 114 32 view .LVU46
- 180 003a 2B62     		str	r3, [r5, #32]
- 181              	.LVL21:
- 182              	.L14:
+ 176              		.loc 1 114 13 is_stmt 1 view .LVU45
+ 177              		.loc 1 114 32 is_stmt 0 view .LVU46
+ 178 0038 3C23     		movs	r3, #60
+ 179              	.LVL20:
+ 180              		.loc 1 114 32 view .LVU47
+ 181 003a 2362     		str	r3, [r4, #32]
+ 182              	.LVL21:
+ 183              	.L14:
  115:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }else if(risetime <= I2CCLK_MIN){
  116:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             I2C_RT(i2c_periph) = I2CCLK_MIN;
  117:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }else{
  118:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             I2C_RT(i2c_periph) = risetime;
  119:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }
  120:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         clkc = (uint32_t)(pclk1/(clkspeed*2U));
- 183              		.loc 1 120 9 is_stmt 1 view .LVU47
- 184              		.loc 1 120 42 is_stmt 0 view .LVU48
- 185 003c 6400     		lsls	r4, r4, #1
- 186              	.LVL22:
- 187              		.loc 1 120 14 view .LVU49
- 188 003e B0FBF4F0 		udiv	r0, r0, r4
- 189              	.LVL23:
+ 184              		.loc 1 120 9 is_stmt 1 view .LVU48
+ 185              		.loc 1 120 42 is_stmt 0 view .LVU49
+ 186 003c 6D00     		lsls	r5, r5, #1
+ 187              	.LVL22:
+ 188              		.loc 1 120 14 view .LVU50
+ 189 003e B0FBF5F0 		udiv	r0, r0, r5
+ 190              	.LVL23:
  121:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         if(clkc < 0x04U){
- 190              		.loc 1 121 9 is_stmt 1 view .LVU50
- 191              		.loc 1 121 11 is_stmt 0 view .LVU51
- 192 0042 0328     		cmp	r0, #3
- 193 0044 00D8     		bhi	.L16
+ 191              		.loc 1 121 9 is_stmt 1 view .LVU51
+ 192              		.loc 1 121 11 is_stmt 0 view .LVU52
+ 193 0042 0328     		cmp	r0, #3
+ 194 0044 00D8     		bhi	.L16
  122:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             /* the CLKC in standard mode minmum value is 4 */
  123:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             clkc = 0x04U;
- 194              		.loc 1 123 18 view .LVU52
- 195 0046 0420     		movs	r0, #4
- 196              	.LVL24:
- 197              	.L16:
+ 195              		.loc 1 123 18 view .LVU53
+ 196 0046 0420     		movs	r0, #4
+ 197              	.LVL24:
+ 198              	.L16:
  124:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }
  125:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         I2C_CKCFG(i2c_periph) |= (I2C_CKCFG_CLKC & clkc);
- 198              		.loc 1 125 9 is_stmt 1 view .LVU53
- 199              		.loc 1 125 31 is_stmt 0 view .LVU54
- 200 0048 EB69     		ldr	r3, [r5, #28]
- 201              		.loc 1 125 50 view .LVU55
- 202 004a C0F30B00 		ubfx	r0, r0, #0, #12
- 203              	.LVL25:
- 204              		.loc 1 125 31 view .LVU56
- 205 004e 1843     		orrs	r0, r0, r3
- 206 0050 E861     		str	r0, [r5, #28]
- 207              	.LVL26:
- 208              	.L8:
+ 199              		.loc 1 125 9 is_stmt 1 view .LVU54
+ 200              		.loc 1 125 31 is_stmt 0 view .LVU55
+ 201 0048 E369     		ldr	r3, [r4, #28]
+ 202              		.loc 1 125 50 view .LVU56
+ 203 004a C0F30B00 		ubfx	r0, r0, #0, #12
+ 204              	.LVL25:
+ 205              		.loc 1 125 31 view .LVU57
+ 206 004e 1843     		orrs	r0, r0, r3
+ 207 0050 E061     		str	r0, [r4, #28]
+ 208              	.LVL26:
+ 209              	.L8:
  126:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 7
+
+
  127:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }else if(400000U >= clkspeed){
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 7
-
-
  128:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         /* the maximum SCL rise time is 300ns in fast mode */
  129:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         I2C_RT(i2c_periph) = (uint32_t)(((freq*(uint32_t)300U)/(uint32_t)1000U)+(uint32_t)1U);
  130:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         if(I2C_DTCY_2 == dutycyc){
@@ -397,282 +398,284 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  161:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         I2C_FMPCFG(i2c_periph) = I2C_FMPCFG_FMPEN;
  162:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }
  163:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 209              		.loc 1 163 1 view .LVU57
- 210 0052 70BD     		pop	{r4, r5, r6, pc}
- 211              	.LVL27:
- 212              	.L24:
+ 210              		.loc 1 163 1 view .LVU58
+ 211 0052 70BD     		pop	{r4, r5, r6, pc}
+ 212              	.LVL27:
+ 213              	.L24:
  102:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }
- 213              		.loc 1 102 14 view .LVU58
- 214 0054 3C22     		movs	r2, #60
- 215 0056 E4E7     		b	.L11
- 216              	.LVL28:
- 217              	.L13:
+ 214              		.loc 1 102 14 view .LVU59
+ 215 0054 3C22     		movs	r2, #60
+ 216 0056 E4E7     		b	.L11
+ 217              	.LVL28:
+ 218              	.L13:
  115:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             I2C_RT(i2c_periph) = I2CCLK_MIN;
- 218              		.loc 1 115 15 is_stmt 1 view .LVU59
+ 219              		.loc 1 115 15 is_stmt 1 view .LVU60
  115:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             I2C_RT(i2c_periph) = I2CCLK_MIN;
- 219              		.loc 1 115 17 is_stmt 0 view .LVU60
- 220 0058 022B     		cmp	r3, #2
- 221 005a 02D8     		bhi	.L15
+ 220              		.loc 1 115 17 is_stmt 0 view .LVU61
+ 221 0058 022B     		cmp	r3, #2
+ 222 005a 02D8     		bhi	.L15
  116:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }else{
- 222              		.loc 1 116 13 is_stmt 1 view .LVU61
+ 223              		.loc 1 116 13 is_stmt 1 view .LVU62
  116:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }else{
- 223              		.loc 1 116 32 is_stmt 0 view .LVU62
- 224 005c 0223     		movs	r3, #2
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 8
+ 224              		.loc 1 116 32 is_stmt 0 view .LVU63
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 8
 
 
- 225              	.LVL29:
+ 225 005c 0223     		movs	r3, #2
+ 226              	.LVL29:
  116:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }else{
- 226              		.loc 1 116 32 view .LVU63
- 227 005e 2B62     		str	r3, [r5, #32]
- 228              	.LVL30:
+ 227              		.loc 1 116 32 view .LVU64
+ 228 005e 2362     		str	r3, [r4, #32]
+ 229              	.LVL30:
  116:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }else{
- 229              		.loc 1 116 32 view .LVU64
- 230 0060 ECE7     		b	.L14
- 231              	.LVL31:
- 232              	.L15:
+ 230              		.loc 1 116 32 view .LVU65
+ 231 0060 ECE7     		b	.L14
+ 232              	.LVL31:
+ 233              	.L15:
  118:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }
- 233              		.loc 1 118 13 is_stmt 1 view .LVU65
+ 234              		.loc 1 118 13 is_stmt 1 view .LVU66
  118:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }
- 234              		.loc 1 118 32 is_stmt 0 view .LVU66
- 235 0062 2B62     		str	r3, [r5, #32]
- 236              	.LVL32:
+ 235              		.loc 1 118 32 is_stmt 0 view .LVU67
+ 236 0062 2362     		str	r3, [r4, #32]
+ 237              	.LVL32:
  118:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }
- 237              		.loc 1 118 32 view .LVU67
- 238 0064 EAE7     		b	.L14
- 239              	.LVL33:
- 240              	.L12:
+ 238              		.loc 1 118 32 view .LVU68
+ 239 0064 EAE7     		b	.L14
+ 240              	.LVL33:
+ 241              	.L12:
  127:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         /* the maximum SCL rise time is 300ns in fast mode */
- 241              		.loc 1 127 11 is_stmt 1 view .LVU68
+ 242              		.loc 1 127 11 is_stmt 1 view .LVU69
  127:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         /* the maximum SCL rise time is 300ns in fast mode */
- 242              		.loc 1 127 13 is_stmt 0 view .LVU69
- 243 0066 2E4B     		ldr	r3, .L28+12
- 244 0068 9C42     		cmp	r4, r3
- 245 006a 2AD8     		bhi	.L18
+ 243              		.loc 1 127 13 is_stmt 0 view .LVU70
+ 244 0066 2E4B     		ldr	r3, .L28+12
+ 245 0068 9D42     		cmp	r5, r3
+ 246 006a 2AD8     		bhi	.L18
  129:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         if(I2C_DTCY_2 == dutycyc){
- 246              		.loc 1 129 9 is_stmt 1 view .LVU70
+ 247              		.loc 1 129 9 is_stmt 1 view .LVU71
  129:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         if(I2C_DTCY_2 == dutycyc){
- 247              		.loc 1 129 47 is_stmt 0 view .LVU71
- 248 006c 4FF49673 		mov	r3, #300
- 249 0070 03FB02F3 		mul	r3, r3, r2
+ 248              		.loc 1 129 47 is_stmt 0 view .LVU72
+ 249 006c 4FF49673 		mov	r3, #300
+ 250 0070 02FB03F3 		mul	r3, r2, r3
  129:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         if(I2C_DTCY_2 == dutycyc){
- 250              		.loc 1 129 63 view .LVU72
- 251 0074 2B4A     		ldr	r2, .L28+16
- 252              	.LVL34:
+ 251              		.loc 1 129 63 view .LVU73
+ 252 0074 2B4A     		ldr	r2, .L28+16
+ 253              	.LVL34:
  129:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         if(I2C_DTCY_2 == dutycyc){
- 253              		.loc 1 129 63 view .LVU73
- 254 0076 A2FB0323 		umull	r2, r3, r2, r3
- 255 007a 9B09     		lsrs	r3, r3, #6
+ 254              		.loc 1 129 63 view .LVU74
+ 255 0076 A2FB0323 		umull	r2, r3, r2, r3
+ 256 007a 9B09     		lsrs	r3, r3, #6
  129:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         if(I2C_DTCY_2 == dutycyc){
- 256              		.loc 1 129 30 view .LVU74
- 257 007c 0133     		adds	r3, r3, #1
+ 257              		.loc 1 129 30 view .LVU75
+ 258 007c 0133     		adds	r3, r3, #1
  129:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         if(I2C_DTCY_2 == dutycyc){
- 258              		.loc 1 129 28 view .LVU75
- 259 007e 2B62     		str	r3, [r5, #32]
- 260              	.LVL35:
+ 259              		.loc 1 129 28 view .LVU76
+ 260 007e 2362     		str	r3, [r4, #32]
+ 261              	.LVL35:
  130:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             /* I2C duty cycle is 2 */
- 261              		.loc 1 130 9 is_stmt 1 view .LVU76
+ 262              		.loc 1 130 9 is_stmt 1 view .LVU77
  130:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             /* I2C duty cycle is 2 */
- 262              		.loc 1 130 11 is_stmt 0 view .LVU77
- 263 0080 A6B9     		cbnz	r6, .L19
+ 263              		.loc 1 130 11 is_stmt 0 view .LVU78
+ 264 0080 A6B9     		cbnz	r6, .L19
  132:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             I2C_CKCFG(i2c_periph) &= ~I2C_CKCFG_DTCY;
- 264              		.loc 1 132 13 is_stmt 1 view .LVU78
- 132:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             I2C_CKCFG(i2c_periph) &= ~I2C_CKCFG_DTCY;
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 9
+ 265              		.loc 1 132 13 is_stmt 1 view .LVU79
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 9
 
 
- 265              		.loc 1 132 46 is_stmt 0 view .LVU79
- 266 0082 04EB4404 		add	r4, r4, r4, lsl #1
- 267              	.LVL36:
  132:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             I2C_CKCFG(i2c_periph) &= ~I2C_CKCFG_DTCY;
- 268              		.loc 1 132 18 view .LVU80
- 269 0086 B0FBF4F0 		udiv	r0, r0, r4
- 270              	.LVL37:
+ 266              		.loc 1 132 46 is_stmt 0 view .LVU80
+ 267 0082 05EB4505 		add	r5, r5, r5, lsl #1
+ 268              	.LVL36:
+ 132:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             I2C_CKCFG(i2c_periph) &= ~I2C_CKCFG_DTCY;
+ 269              		.loc 1 132 18 view .LVU81
+ 270 0086 B0FBF5F0 		udiv	r0, r0, r5
+ 271              	.LVL37:
  133:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }else{
- 271              		.loc 1 133 13 is_stmt 1 view .LVU81
+ 272              		.loc 1 133 13 is_stmt 1 view .LVU82
  133:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }else{
- 272              		.loc 1 133 35 is_stmt 0 view .LVU82
- 273 008a EB69     		ldr	r3, [r5, #28]
- 274 008c 23F48043 		bic	r3, r3, #16384
- 275 0090 EB61     		str	r3, [r5, #28]
- 276              	.L20:
+ 273              		.loc 1 133 35 is_stmt 0 view .LVU83
+ 274 008a E369     		ldr	r3, [r4, #28]
+ 275 008c 23F48043 		bic	r3, r3, #16384
+ 276 0090 E361     		str	r3, [r4, #28]
+ 277              	.L20:
  139:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             /* the CLKC in fast mode minmum value is 1 */
- 277              		.loc 1 139 9 is_stmt 1 view .LVU83
+ 278              		.loc 1 139 9 is_stmt 1 view .LVU84
  139:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             /* the CLKC in fast mode minmum value is 1 */
- 278              		.loc 1 139 24 is_stmt 0 view .LVU84
- 279 0092 C0F30B03 		ubfx	r3, r0, #0, #12
+ 279              		.loc 1 139 24 is_stmt 0 view .LVU85
+ 280 0092 C0F30B03 		ubfx	r3, r0, #0, #12
  139:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             /* the CLKC in fast mode minmum value is 1 */
- 280              		.loc 1 139 11 view .LVU85
- 281 0096 0BB9     		cbnz	r3, .L21
+ 281              		.loc 1 139 11 view .LVU86
+ 282 0096 0BB9     		cbnz	r3, .L21
  141:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }
- 282              		.loc 1 141 13 is_stmt 1 view .LVU86
+ 283              		.loc 1 141 13 is_stmt 1 view .LVU87
  141:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }
- 283              		.loc 1 141 18 is_stmt 0 view .LVU87
- 284 0098 40F00100 		orr	r0, r0, #1
- 285              	.LVL38:
- 286              	.L21:
+ 284              		.loc 1 141 18 is_stmt 0 view .LVU88
+ 285 0098 40F00100 		orr	r0, r0, #1
+ 286              	.LVL38:
+ 287              	.L21:
  143:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         I2C_CKCFG(i2c_periph) |= clkc;
- 287              		.loc 1 143 9 is_stmt 1 view .LVU88
+ 288              		.loc 1 143 9 is_stmt 1 view .LVU89
  143:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         I2C_CKCFG(i2c_periph) |= clkc;
- 288              		.loc 1 143 31 is_stmt 0 view .LVU89
- 289 009c EB69     		ldr	r3, [r5, #28]
- 290 009e 43F40043 		orr	r3, r3, #32768
- 291 00a2 EB61     		str	r3, [r5, #28]
+ 289              		.loc 1 143 31 is_stmt 0 view .LVU90
+ 290 009c E369     		ldr	r3, [r4, #28]
+ 291 009e 43F40043 		orr	r3, r3, #32768
+ 292 00a2 E361     		str	r3, [r4, #28]
  144:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }else{
- 292              		.loc 1 144 9 is_stmt 1 view .LVU90
+ 293              		.loc 1 144 9 is_stmt 1 view .LVU91
  144:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }else{
- 293              		.loc 1 144 31 is_stmt 0 view .LVU91
- 294 00a4 EB69     		ldr	r3, [r5, #28]
- 295 00a6 1843     		orrs	r0, r0, r3
- 296              	.LVL39:
+ 294              		.loc 1 144 31 is_stmt 0 view .LVU92
+ 295 00a4 E369     		ldr	r3, [r4, #28]
+ 296 00a6 1843     		orrs	r0, r0, r3
+ 297              	.LVL39:
  144:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }else{
- 297              		.loc 1 144 31 view .LVU92
- 298 00a8 E861     		str	r0, [r5, #28]
- 299 00aa D2E7     		b	.L8
- 300              	.LVL40:
- 301              	.L19:
+ 298              		.loc 1 144 31 view .LVU93
+ 299 00a8 E061     		str	r0, [r4, #28]
+ 300 00aa D2E7     		b	.L8
+ 301              	.LVL40:
+ 302              	.L19:
  136:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             I2C_CKCFG(i2c_periph) |= I2C_CKCFG_DTCY;
- 302              		.loc 1 136 13 is_stmt 1 view .LVU93
+ 303              		.loc 1 136 13 is_stmt 1 view .LVU94
  136:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             I2C_CKCFG(i2c_periph) |= I2C_CKCFG_DTCY;
- 303              		.loc 1 136 46 is_stmt 0 view .LVU94
- 304 00ac 04EB8404 		add	r4, r4, r4, lsl #2
- 305              	.LVL41:
- 136:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             I2C_CKCFG(i2c_periph) |= I2C_CKCFG_DTCY;
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 10
+ 304              		.loc 1 136 46 is_stmt 0 view .LVU95
+ 305 00ac 05EB8505 		add	r5, r5, r5, lsl #2
+ 306              	.LVL41:
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 10
 
 
- 306              		.loc 1 136 46 view .LVU95
- 307 00b0 04EB8404 		add	r4, r4, r4, lsl #2
  136:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             I2C_CKCFG(i2c_periph) |= I2C_CKCFG_DTCY;
- 308              		.loc 1 136 18 view .LVU96
- 309 00b4 B0FBF4F0 		udiv	r0, r0, r4
- 310              	.LVL42:
+ 307              		.loc 1 136 46 view .LVU96
+ 308 00b0 05EB8505 		add	r5, r5, r5, lsl #2
+ 136:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             I2C_CKCFG(i2c_periph) |= I2C_CKCFG_DTCY;
+ 309              		.loc 1 136 18 view .LVU97
+ 310 00b4 B0FBF5F0 		udiv	r0, r0, r5
+ 311              	.LVL42:
  137:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }
- 311              		.loc 1 137 13 is_stmt 1 view .LVU97
+ 312              		.loc 1 137 13 is_stmt 1 view .LVU98
  137:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }
- 312              		.loc 1 137 35 is_stmt 0 view .LVU98
- 313 00b8 EB69     		ldr	r3, [r5, #28]
- 314 00ba 43F48043 		orr	r3, r3, #16384
- 315 00be EB61     		str	r3, [r5, #28]
- 316 00c0 E7E7     		b	.L20
- 317              	.LVL43:
- 318              	.L18:
+ 313              		.loc 1 137 35 is_stmt 0 view .LVU99
+ 314 00b8 E369     		ldr	r3, [r4, #28]
+ 315 00ba 43F48043 		orr	r3, r3, #16384
+ 316 00be E361     		str	r3, [r4, #28]
+ 317 00c0 E7E7     		b	.L20
+ 318              	.LVL43:
+ 319              	.L18:
  147:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         if(I2C_DTCY_2 == dutycyc){
- 319              		.loc 1 147 9 is_stmt 1 view .LVU99
+ 320              		.loc 1 147 9 is_stmt 1 view .LVU100
  147:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         if(I2C_DTCY_2 == dutycyc){
- 320              		.loc 1 147 47 is_stmt 0 view .LVU100
- 321 00c2 C2EB0213 		rsb	r3, r2, r2, lsl #4
- 322 00c6 DA00     		lsls	r2, r3, #3
- 323              	.LVL44:
+ 321              		.loc 1 147 47 is_stmt 0 view .LVU101
+ 322 00c2 C2EB0213 		rsb	r3, r2, r2, lsl #4
+ 323 00c6 DB00     		lsls	r3, r3, #3
  147:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         if(I2C_DTCY_2 == dutycyc){
- 324              		.loc 1 147 63 view .LVU101
- 325 00c8 164B     		ldr	r3, .L28+16
- 326 00ca A3FB0223 		umull	r2, r3, r3, r2
- 327 00ce 9B09     		lsrs	r3, r3, #6
+ 324              		.loc 1 147 63 view .LVU102
+ 325 00c8 164A     		ldr	r2, .L28+16
+ 326              	.LVL44:
  147:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         if(I2C_DTCY_2 == dutycyc){
- 328              		.loc 1 147 30 view .LVU102
- 329 00d0 0133     		adds	r3, r3, #1
+ 327              		.loc 1 147 63 view .LVU103
+ 328 00ca A2FB0323 		umull	r2, r3, r2, r3
+ 329 00ce 9B09     		lsrs	r3, r3, #6
  147:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         if(I2C_DTCY_2 == dutycyc){
- 330              		.loc 1 147 28 view .LVU103
- 331 00d2 2B62     		str	r3, [r5, #32]
- 332              	.LVL45:
+ 330              		.loc 1 147 30 view .LVU104
+ 331 00d0 0133     		adds	r3, r3, #1
+ 147:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         if(I2C_DTCY_2 == dutycyc){
+ 332              		.loc 1 147 28 view .LVU105
+ 333 00d2 2362     		str	r3, [r4, #32]
+ 334              	.LVL45:
  148:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             /* I2C duty cycle is 2 */
- 333              		.loc 1 148 9 is_stmt 1 view .LVU104
+ 335              		.loc 1 148 9 is_stmt 1 view .LVU106
  148:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             /* I2C duty cycle is 2 */
- 334              		.loc 1 148 11 is_stmt 0 view .LVU105
- 335 00d4 96B9     		cbnz	r6, .L22
+ 336              		.loc 1 148 11 is_stmt 0 view .LVU107
+ 337 00d4 96B9     		cbnz	r6, .L22
  150:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             I2C_CKCFG(i2c_periph) &= ~I2C_CKCFG_DTCY;
- 336              		.loc 1 150 13 is_stmt 1 view .LVU106
+ 338              		.loc 1 150 13 is_stmt 1 view .LVU108
  150:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             I2C_CKCFG(i2c_periph) &= ~I2C_CKCFG_DTCY;
- 337              		.loc 1 150 46 is_stmt 0 view .LVU107
- 338 00d6 04EB4404 		add	r4, r4, r4, lsl #1
- 339              	.LVL46:
+ 339              		.loc 1 150 46 is_stmt 0 view .LVU109
+ 340 00d6 05EB4505 		add	r5, r5, r5, lsl #1
+ 341              	.LVL46:
  150:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             I2C_CKCFG(i2c_periph) &= ~I2C_CKCFG_DTCY;
- 340              		.loc 1 150 18 view .LVU108
- 341 00da B0FBF4F0 		udiv	r0, r0, r4
- 342              	.LVL47:
+ 342              		.loc 1 150 18 view .LVU110
+ 343 00da B0FBF5F0 		udiv	r0, r0, r5
+ 344              	.LVL47:
  151:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }else{
- 343              		.loc 1 151 13 is_stmt 1 view .LVU109
+ 345              		.loc 1 151 13 is_stmt 1 view .LVU111
  151:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }else{
- 344              		.loc 1 151 35 is_stmt 0 view .LVU110
- 345 00de EB69     		ldr	r3, [r5, #28]
- 346 00e0 23F48043 		bic	r3, r3, #16384
- 347 00e4 EB61     		str	r3, [r5, #28]
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 11
+ 346              		.loc 1 151 35 is_stmt 0 view .LVU112
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 11
 
 
- 348              	.L23:
+ 347 00de E369     		ldr	r3, [r4, #28]
+ 348 00e0 23F48043 		bic	r3, r3, #16384
+ 349 00e4 E361     		str	r3, [r4, #28]
+ 350              	.L23:
  158:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         I2C_CKCFG(i2c_periph) |= clkc;
- 349              		.loc 1 158 9 is_stmt 1 view .LVU111
+ 351              		.loc 1 158 9 is_stmt 1 view .LVU113
  158:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         I2C_CKCFG(i2c_periph) |= clkc;
- 350              		.loc 1 158 31 is_stmt 0 view .LVU112
- 351 00e6 EB69     		ldr	r3, [r5, #28]
- 352 00e8 43F40043 		orr	r3, r3, #32768
- 353 00ec EB61     		str	r3, [r5, #28]
+ 352              		.loc 1 158 31 is_stmt 0 view .LVU114
+ 353 00e6 E369     		ldr	r3, [r4, #28]
+ 354 00e8 43F40043 		orr	r3, r3, #32768
+ 355 00ec E361     		str	r3, [r4, #28]
  159:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         /* enable I2C fast mode plus */
- 354              		.loc 1 159 9 is_stmt 1 view .LVU113
+ 356              		.loc 1 159 9 is_stmt 1 view .LVU115
  159:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         /* enable I2C fast mode plus */
- 355              		.loc 1 159 31 is_stmt 0 view .LVU114
- 356 00ee EB69     		ldr	r3, [r5, #28]
- 357 00f0 1843     		orrs	r0, r0, r3
- 358              	.LVL48:
+ 357              		.loc 1 159 31 is_stmt 0 view .LVU116
+ 358 00ee E369     		ldr	r3, [r4, #28]
+ 359 00f0 1843     		orrs	r0, r0, r3
+ 360              	.LVL48:
  159:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         /* enable I2C fast mode plus */
- 359              		.loc 1 159 31 view .LVU115
- 360 00f2 E861     		str	r0, [r5, #28]
+ 361              		.loc 1 159 31 view .LVU117
+ 362 00f2 E061     		str	r0, [r4, #28]
  161:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }
- 361              		.loc 1 161 9 is_stmt 1 view .LVU116
+ 363              		.loc 1 161 9 is_stmt 1 view .LVU118
  161:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }
- 362              		.loc 1 161 32 is_stmt 0 view .LVU117
- 363 00f4 0123     		movs	r3, #1
- 364 00f6 C5F89030 		str	r3, [r5, #144]
- 365              		.loc 1 163 1 view .LVU118
- 366 00fa AAE7     		b	.L8
- 367              	.LVL49:
- 368              	.L22:
+ 364              		.loc 1 161 32 is_stmt 0 view .LVU119
+ 365 00f4 0123     		movs	r3, #1
+ 366 00f6 C4F89030 		str	r3, [r4, #144]
+ 367              		.loc 1 163 1 view .LVU120
+ 368 00fa AAE7     		b	.L8
+ 369              	.LVL49:
+ 370              	.L22:
  154:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             I2C_CKCFG(i2c_periph) |= I2C_CKCFG_DTCY;
- 369              		.loc 1 154 13 is_stmt 1 view .LVU119
+ 371              		.loc 1 154 13 is_stmt 1 view .LVU121
  154:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             I2C_CKCFG(i2c_periph) |= I2C_CKCFG_DTCY;
- 370              		.loc 1 154 46 is_stmt 0 view .LVU120
- 371 00fc 04EB8404 		add	r4, r4, r4, lsl #2
- 372              	.LVL50:
+ 372              		.loc 1 154 46 is_stmt 0 view .LVU122
+ 373 00fc 05EB8505 		add	r5, r5, r5, lsl #2
+ 374              	.LVL50:
  154:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             I2C_CKCFG(i2c_periph) |= I2C_CKCFG_DTCY;
- 373              		.loc 1 154 46 view .LVU121
- 374 0100 04EB8404 		add	r4, r4, r4, lsl #2
+ 375              		.loc 1 154 46 view .LVU123
+ 376 0100 05EB8505 		add	r5, r5, r5, lsl #2
  154:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             I2C_CKCFG(i2c_periph) |= I2C_CKCFG_DTCY;
- 375              		.loc 1 154 18 view .LVU122
- 376 0104 B0FBF4F0 		udiv	r0, r0, r4
- 377              	.LVL51:
+ 377              		.loc 1 154 18 view .LVU124
+ 378 0104 B0FBF5F0 		udiv	r0, r0, r5
+ 379              	.LVL51:
  155:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }
- 378              		.loc 1 155 13 is_stmt 1 view .LVU123
+ 380              		.loc 1 155 13 is_stmt 1 view .LVU125
  155:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }
- 379              		.loc 1 155 35 is_stmt 0 view .LVU124
- 380 0108 EB69     		ldr	r3, [r5, #28]
- 381 010a 43F48043 		orr	r3, r3, #16384
- 382 010e EB61     		str	r3, [r5, #28]
- 383 0110 E9E7     		b	.L23
- 384              	.L29:
- 385 0112 00BF     		.align	2
- 386              	.L28:
- 387 0114 83DE1B43 		.word	1125899907
- 388 0118 FF869303 		.word	59999999
- 389 011c A0860100 		.word	100000
- 390 0120 801A0600 		.word	400000
- 391 0124 D34D6210 		.word	274877907
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 12
+ 381              		.loc 1 155 35 is_stmt 0 view .LVU126
+ 382 0108 E369     		ldr	r3, [r4, #28]
+ 383 010a 43F48043 		orr	r3, r3, #16384
+ 384 010e E361     		str	r3, [r4, #28]
+ 385 0110 E9E7     		b	.L23
+ 386              	.L29:
+ 387 0112 00BF     		.align	2
+ 388              	.L28:
+ 389 0114 83DE1B43 		.word	1125899907
+ 390 0118 00879303 		.word	60000000
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 12
 
 
- 392              		.cfi_endproc
- 393              	.LFE117:
- 395              		.section	.text.i2c_mode_addr_config,"ax",%progbits
- 396              		.align	1
- 397              		.global	i2c_mode_addr_config
- 398              		.syntax unified
- 399              		.thumb
- 400              		.thumb_func
- 401              		.fpu fpv4-sp-d16
- 403              	i2c_mode_addr_config:
- 404              	.LVL52:
- 405              	.LFB118:
+ 391 011c A0860100 		.word	100000
+ 392 0120 801A0600 		.word	400000
+ 393 0124 D34D6210 		.word	274877907
+ 394              		.cfi_endproc
+ 395              	.LFE117:
+ 397              		.section	.text.i2c_mode_addr_config,"ax",%progbits
+ 398              		.align	1
+ 399              		.global	i2c_mode_addr_config
+ 400              		.syntax unified
+ 401              		.thumb
+ 402              		.thumb_func
+ 403              		.fpu fpv4-sp-d16
+ 405              	i2c_mode_addr_config:
+ 406              	.LVL52:
+ 407              	.LFB118:
  164:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  165:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  166:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      configure I2C address 
@@ -691,75 +694,75 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  179:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
  180:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** void i2c_mode_addr_config(uint32_t i2c_periph, uint32_t mode, uint32_t addformat, uint32_t addr)
  181:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 406              		.loc 1 181 1 is_stmt 1 view -0
- 407              		.cfi_startproc
- 408              		@ args = 0, pretend = 0, frame = 0
- 409              		@ frame_needed = 0, uses_anonymous_args = 0
- 410              		@ link register save eliminated.
- 411              		.loc 1 181 1 is_stmt 0 view .LVU126
- 412 0000 10B4     		push	{r4}
- 413              	.LCFI2:
- 414              		.cfi_def_cfa_offset 4
- 415              		.cfi_offset 4, -4
+ 408              		.loc 1 181 1 is_stmt 1 view -0
+ 409              		.cfi_startproc
+ 410              		@ args = 0, pretend = 0, frame = 0
+ 411              		@ frame_needed = 0, uses_anonymous_args = 0
+ 412              		@ link register save eliminated.
+ 413              		.loc 1 181 1 is_stmt 0 view .LVU128
+ 414 0000 10B4     		push	{r4}
+ 415              	.LCFI2:
+ 416              		.cfi_def_cfa_offset 4
+ 417              		.cfi_offset 4, -4
  182:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     /* SMBus/I2C mode selected */
  183:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     uint32_t ctl = 0U;
- 416              		.loc 1 183 5 is_stmt 1 view .LVU127
- 417              	.LVL53:
+ 418              		.loc 1 183 5 is_stmt 1 view .LVU129
+ 419              	.LVL53:
  184:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  185:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl = I2C_CTL0(i2c_periph);
- 418              		.loc 1 185 5 view .LVU128
- 419              		.loc 1 185 9 is_stmt 0 view .LVU129
- 420 0002 0468     		ldr	r4, [r0]
- 421              	.LVL54:
+ 420              		.loc 1 185 5 view .LVU130
+ 421              		.loc 1 185 9 is_stmt 0 view .LVU131
+ 422 0002 0468     		ldr	r4, [r0]
+ 423              	.LVL54:
  186:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl &= ~(I2C_CTL0_SMBEN); 
- 422              		.loc 1 186 5 is_stmt 1 view .LVU130
- 423              		.loc 1 186 9 is_stmt 0 view .LVU131
- 424 0004 24F00204 		bic	r4, r4, #2
- 425              	.LVL55:
+ 424              		.loc 1 186 5 is_stmt 1 view .LVU132
+ 425              		.loc 1 186 9 is_stmt 0 view .LVU133
+ 426 0004 24F0020C 		bic	ip, r4, #2
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 13
+
+
+ 427              	.LVL55:
  187:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl |= mode;
- 426              		.loc 1 187 5 is_stmt 1 view .LVU132
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 13
-
-
- 427              		.loc 1 187 9 is_stmt 0 view .LVU133
- 428 0008 2143     		orrs	r1, r1, r4
- 429              	.LVL56:
+ 428              		.loc 1 187 5 is_stmt 1 view .LVU134
+ 429              		.loc 1 187 9 is_stmt 0 view .LVU135
+ 430 0008 4CEA0101 		orr	r1, ip, r1
+ 431              	.LVL56:
  188:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     I2C_CTL0(i2c_periph) = ctl;
- 430              		.loc 1 188 5 is_stmt 1 view .LVU134
- 431              		.loc 1 188 26 is_stmt 0 view .LVU135
- 432 000a 0160     		str	r1, [r0]
+ 432              		.loc 1 188 5 is_stmt 1 view .LVU136
+ 433              		.loc 1 188 26 is_stmt 0 view .LVU137
+ 434 000c 0160     		str	r1, [r0]
  189:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     /* configure address */
  190:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     addr = addr & I2C_ADDRESS_MASK;
- 433              		.loc 1 190 5 is_stmt 1 view .LVU136
- 434              		.loc 1 190 10 is_stmt 0 view .LVU137
- 435 000c C3F30903 		ubfx	r3, r3, #0, #10
- 436              	.LVL57:
+ 435              		.loc 1 190 5 is_stmt 1 view .LVU138
+ 436              		.loc 1 190 10 is_stmt 0 view .LVU139
+ 437 000e C3F30903 		ubfx	r3, r3, #0, #10
+ 438              	.LVL57:
  191:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     I2C_SADDR0(i2c_periph) = (addformat | addr);
- 437              		.loc 1 191 5 is_stmt 1 view .LVU138
- 438              		.loc 1 191 41 is_stmt 0 view .LVU139
- 439 0010 1343     		orrs	r3, r3, r2
- 440              	.LVL58:
- 441              		.loc 1 191 28 view .LVU140
- 442 0012 8360     		str	r3, [r0, #8]
+ 439              		.loc 1 191 5 is_stmt 1 view .LVU140
+ 440              		.loc 1 191 41 is_stmt 0 view .LVU141
+ 441 0012 1343     		orrs	r3, r3, r2
+ 442              	.LVL58:
+ 443              		.loc 1 191 28 view .LVU142
+ 444 0014 8360     		str	r3, [r0, #8]
  192:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 443              		.loc 1 192 1 view .LVU141
- 444 0014 5DF8044B 		ldr	r4, [sp], #4
- 445              	.LCFI3:
- 446              		.cfi_restore 4
- 447              		.cfi_def_cfa_offset 0
- 448 0018 7047     		bx	lr
- 449              		.cfi_endproc
- 450              	.LFE118:
- 452              		.section	.text.i2c_smbus_type_config,"ax",%progbits
- 453              		.align	1
- 454              		.global	i2c_smbus_type_config
- 455              		.syntax unified
- 456              		.thumb
- 457              		.thumb_func
- 458              		.fpu fpv4-sp-d16
- 460              	i2c_smbus_type_config:
- 461              	.LVL59:
- 462              	.LFB119:
+ 445              		.loc 1 192 1 view .LVU143
+ 446 0016 5DF8044B 		ldr	r4, [sp], #4
+ 447              	.LCFI3:
+ 448              		.cfi_restore 4
+ 449              		.cfi_def_cfa_offset 0
+ 450 001a 7047     		bx	lr
+ 451              		.cfi_endproc
+ 452              	.LFE118:
+ 454              		.section	.text.i2c_smbus_type_config,"ax",%progbits
+ 455              		.align	1
+ 456              		.global	i2c_smbus_type_config
+ 457              		.syntax unified
+ 458              		.thumb
+ 459              		.thumb_func
+ 460              		.fpu fpv4-sp-d16
+ 462              	i2c_smbus_type_config:
+ 463              	.LVL59:
+ 464              	.LFB119:
  193:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  194:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  195:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      SMBus type selection
@@ -773,52 +776,52 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  203:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
  204:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** void i2c_smbus_type_config(uint32_t i2c_periph, uint32_t type)
  205:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 463              		.loc 1 205 1 is_stmt 1 view -0
- 464              		.cfi_startproc
- 465              		@ args = 0, pretend = 0, frame = 0
- 466              		@ frame_needed = 0, uses_anonymous_args = 0
- 467              		@ link register save eliminated.
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 14
+ 465              		.loc 1 205 1 is_stmt 1 view -0
+ 466              		.cfi_startproc
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 14
 
 
+ 467              		@ args = 0, pretend = 0, frame = 0
+ 468              		@ frame_needed = 0, uses_anonymous_args = 0
+ 469              		@ link register save eliminated.
  206:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     if(I2C_SMBUS_HOST == type){
- 468              		.loc 1 206 5 view .LVU143
- 469              		.loc 1 206 7 is_stmt 0 view .LVU144
- 470 0000 0829     		cmp	r1, #8
- 471 0002 04D0     		beq	.L35
+ 470              		.loc 1 206 5 view .LVU145
+ 471              		.loc 1 206 7 is_stmt 0 view .LVU146
+ 472 0000 0829     		cmp	r1, #8
+ 473 0002 04D0     		beq	.L35
  207:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         I2C_CTL0(i2c_periph) |= I2C_CTL0_SMBSEL;
  208:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }else{
  209:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         I2C_CTL0(i2c_periph) &= ~(I2C_CTL0_SMBSEL);
- 472              		.loc 1 209 9 is_stmt 1 view .LVU145
- 473              		.loc 1 209 30 is_stmt 0 view .LVU146
- 474 0004 0368     		ldr	r3, [r0]
- 475 0006 23F00803 		bic	r3, r3, #8
- 476 000a 0360     		str	r3, [r0]
+ 474              		.loc 1 209 9 is_stmt 1 view .LVU147
+ 475              		.loc 1 209 30 is_stmt 0 view .LVU148
+ 476 0004 0368     		ldr	r3, [r0]
+ 477 0006 23F00803 		bic	r3, r3, #8
+ 478 000a 0360     		str	r3, [r0]
  210:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }
  211:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 477              		.loc 1 211 1 view .LVU147
- 478 000c 7047     		bx	lr
- 479              	.L35:
+ 479              		.loc 1 211 1 view .LVU149
+ 480 000c 7047     		bx	lr
+ 481              	.L35:
  207:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         I2C_CTL0(i2c_periph) |= I2C_CTL0_SMBSEL;
- 480              		.loc 1 207 9 is_stmt 1 view .LVU148
+ 482              		.loc 1 207 9 is_stmt 1 view .LVU150
  207:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         I2C_CTL0(i2c_periph) |= I2C_CTL0_SMBSEL;
- 481              		.loc 1 207 30 is_stmt 0 view .LVU149
- 482 000e 0368     		ldr	r3, [r0]
- 483 0010 43F00803 		orr	r3, r3, #8
- 484 0014 0360     		str	r3, [r0]
- 485 0016 7047     		bx	lr
- 486              		.cfi_endproc
- 487              	.LFE119:
- 489              		.section	.text.i2c_ack_config,"ax",%progbits
- 490              		.align	1
- 491              		.global	i2c_ack_config
- 492              		.syntax unified
- 493              		.thumb
- 494              		.thumb_func
- 495              		.fpu fpv4-sp-d16
- 497              	i2c_ack_config:
- 498              	.LVL60:
- 499              	.LFB120:
+ 483              		.loc 1 207 30 is_stmt 0 view .LVU151
+ 484 000e 0368     		ldr	r3, [r0]
+ 485 0010 43F00803 		orr	r3, r3, #8
+ 486 0014 0360     		str	r3, [r0]
+ 487 0016 7047     		bx	lr
+ 488              		.cfi_endproc
+ 489              	.LFE119:
+ 491              		.section	.text.i2c_ack_config,"ax",%progbits
+ 492              		.align	1
+ 493              		.global	i2c_ack_config
+ 494              		.syntax unified
+ 495              		.thumb
+ 496              		.thumb_func
+ 497              		.fpu fpv4-sp-d16
+ 499              	i2c_ack_config:
+ 500              	.LVL60:
+ 501              	.LFB120:
  212:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  213:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  214:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      whether or not to send an ACK
@@ -832,52 +835,52 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  222:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
  223:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** void i2c_ack_config(uint32_t i2c_periph, uint32_t ack)
  224:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 500              		.loc 1 224 1 is_stmt 1 view -0
- 501              		.cfi_startproc
- 502              		@ args = 0, pretend = 0, frame = 0
- 503              		@ frame_needed = 0, uses_anonymous_args = 0
- 504              		@ link register save eliminated.
+ 502              		.loc 1 224 1 is_stmt 1 view -0
+ 503              		.cfi_startproc
+ 504              		@ args = 0, pretend = 0, frame = 0
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 15
+
+
+ 505              		@ frame_needed = 0, uses_anonymous_args = 0
+ 506              		@ link register save eliminated.
  225:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     if(I2C_ACK_ENABLE == ack){
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 15
-
-
- 505              		.loc 1 225 5 view .LVU151
- 506              		.loc 1 225 7 is_stmt 0 view .LVU152
- 507 0000 0129     		cmp	r1, #1
- 508 0002 04D0     		beq	.L39
+ 507              		.loc 1 225 5 view .LVU153
+ 508              		.loc 1 225 7 is_stmt 0 view .LVU154
+ 509 0000 0129     		cmp	r1, #1
+ 510 0002 04D0     		beq	.L39
  226:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         I2C_CTL0(i2c_periph) |= I2C_CTL0_ACKEN;
  227:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }else{
  228:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         I2C_CTL0(i2c_periph) &= ~(I2C_CTL0_ACKEN);
- 509              		.loc 1 228 9 is_stmt 1 view .LVU153
- 510              		.loc 1 228 30 is_stmt 0 view .LVU154
- 511 0004 0368     		ldr	r3, [r0]
- 512 0006 23F48063 		bic	r3, r3, #1024
- 513 000a 0360     		str	r3, [r0]
+ 511              		.loc 1 228 9 is_stmt 1 view .LVU155
+ 512              		.loc 1 228 30 is_stmt 0 view .LVU156
+ 513 0004 0368     		ldr	r3, [r0]
+ 514 0006 23F48063 		bic	r3, r3, #1024
+ 515 000a 0360     		str	r3, [r0]
  229:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }
  230:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 514              		.loc 1 230 1 view .LVU155
- 515 000c 7047     		bx	lr
- 516              	.L39:
+ 516              		.loc 1 230 1 view .LVU157
+ 517 000c 7047     		bx	lr
+ 518              	.L39:
  226:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         I2C_CTL0(i2c_periph) |= I2C_CTL0_ACKEN;
- 517              		.loc 1 226 9 is_stmt 1 view .LVU156
+ 519              		.loc 1 226 9 is_stmt 1 view .LVU158
  226:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         I2C_CTL0(i2c_periph) |= I2C_CTL0_ACKEN;
- 518              		.loc 1 226 30 is_stmt 0 view .LVU157
- 519 000e 0368     		ldr	r3, [r0]
- 520 0010 43F48063 		orr	r3, r3, #1024
- 521 0014 0360     		str	r3, [r0]
- 522 0016 7047     		bx	lr
- 523              		.cfi_endproc
- 524              	.LFE120:
- 526              		.section	.text.i2c_ackpos_config,"ax",%progbits
- 527              		.align	1
- 528              		.global	i2c_ackpos_config
- 529              		.syntax unified
- 530              		.thumb
- 531              		.thumb_func
- 532              		.fpu fpv4-sp-d16
- 534              	i2c_ackpos_config:
- 535              	.LVL61:
- 536              	.LFB121:
+ 520              		.loc 1 226 30 is_stmt 0 view .LVU159
+ 521 000e 0368     		ldr	r3, [r0]
+ 522 0010 43F48063 		orr	r3, r3, #1024
+ 523 0014 0360     		str	r3, [r0]
+ 524 0016 7047     		bx	lr
+ 525              		.cfi_endproc
+ 526              	.LFE120:
+ 528              		.section	.text.i2c_ackpos_config,"ax",%progbits
+ 529              		.align	1
+ 530              		.global	i2c_ackpos_config
+ 531              		.syntax unified
+ 532              		.thumb
+ 533              		.thumb_func
+ 534              		.fpu fpv4-sp-d16
+ 536              	i2c_ackpos_config:
+ 537              	.LVL61:
+ 538              	.LFB121:
  231:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  232:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  233:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      configure I2C POAP position
@@ -891,50 +894,50 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  241:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
  242:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** void i2c_ackpos_config(uint32_t i2c_periph, uint32_t pos)
  243:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 537              		.loc 1 243 1 is_stmt 1 view -0
- 538              		.cfi_startproc
- 539              		@ args = 0, pretend = 0, frame = 0
- 540              		@ frame_needed = 0, uses_anonymous_args = 0
- 541              		@ link register save eliminated.
+ 539              		.loc 1 243 1 is_stmt 1 view -0
+ 540              		.cfi_startproc
+ 541              		@ args = 0, pretend = 0, frame = 0
+ 542              		@ frame_needed = 0, uses_anonymous_args = 0
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 16
+
+
+ 543              		@ link register save eliminated.
  244:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     /* configure I2C POAP position */
  245:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     if(I2C_ACKPOS_NEXT == pos){
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 16
-
-
- 542              		.loc 1 245 5 view .LVU159
- 543              		.loc 1 245 7 is_stmt 0 view .LVU160
- 544 0000 21B9     		cbnz	r1, .L41
+ 544              		.loc 1 245 5 view .LVU161
+ 545              		.loc 1 245 7 is_stmt 0 view .LVU162
+ 546 0000 21B9     		cbnz	r1, .L41
  246:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         I2C_CTL0(i2c_periph) |= I2C_CTL0_POAP;
- 545              		.loc 1 246 9 is_stmt 1 view .LVU161
- 546              		.loc 1 246 30 is_stmt 0 view .LVU162
- 547 0002 0368     		ldr	r3, [r0]
- 548 0004 43F40063 		orr	r3, r3, #2048
- 549 0008 0360     		str	r3, [r0]
- 550 000a 7047     		bx	lr
- 551              	.L41:
+ 547              		.loc 1 246 9 is_stmt 1 view .LVU163
+ 548              		.loc 1 246 30 is_stmt 0 view .LVU164
+ 549 0002 0368     		ldr	r3, [r0]
+ 550 0004 43F40063 		orr	r3, r3, #2048
+ 551 0008 0360     		str	r3, [r0]
+ 552 000a 7047     		bx	lr
+ 553              	.L41:
  247:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }else{
  248:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         I2C_CTL0(i2c_periph) &= ~(I2C_CTL0_POAP);
- 552              		.loc 1 248 9 is_stmt 1 view .LVU163
- 553              		.loc 1 248 30 is_stmt 0 view .LVU164
- 554 000c 0368     		ldr	r3, [r0]
- 555 000e 23F40063 		bic	r3, r3, #2048
- 556 0012 0360     		str	r3, [r0]
+ 554              		.loc 1 248 9 is_stmt 1 view .LVU165
+ 555              		.loc 1 248 30 is_stmt 0 view .LVU166
+ 556 000c 0368     		ldr	r3, [r0]
+ 557 000e 23F40063 		bic	r3, r3, #2048
+ 558 0012 0360     		str	r3, [r0]
  249:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }
  250:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 557              		.loc 1 250 1 view .LVU165
- 558 0014 7047     		bx	lr
- 559              		.cfi_endproc
- 560              	.LFE121:
- 562              		.section	.text.i2c_master_addressing,"ax",%progbits
- 563              		.align	1
- 564              		.global	i2c_master_addressing
- 565              		.syntax unified
- 566              		.thumb
- 567              		.thumb_func
- 568              		.fpu fpv4-sp-d16
- 570              	i2c_master_addressing:
- 571              	.LVL62:
- 572              	.LFB122:
+ 559              		.loc 1 250 1 view .LVU167
+ 560 0014 7047     		bx	lr
+ 561              		.cfi_endproc
+ 562              	.LFE121:
+ 564              		.section	.text.i2c_master_addressing,"ax",%progbits
+ 565              		.align	1
+ 566              		.global	i2c_master_addressing
+ 567              		.syntax unified
+ 568              		.thumb
+ 569              		.thumb_func
+ 570              		.fpu fpv4-sp-d16
+ 572              	i2c_master_addressing:
+ 573              	.LVL62:
+ 574              	.LFB122:
  251:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  252:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  253:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      master sends slave address
@@ -949,59 +952,59 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  262:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
  263:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** void i2c_master_addressing(uint32_t i2c_periph, uint32_t addr, uint32_t trandirection)
  264:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 573              		.loc 1 264 1 is_stmt 1 view -0
- 574              		.cfi_startproc
- 575              		@ args = 0, pretend = 0, frame = 0
- 576              		@ frame_needed = 0, uses_anonymous_args = 0
- 577              		@ link register save eliminated.
+ 575              		.loc 1 264 1 is_stmt 1 view -0
+ 576              		.cfi_startproc
+ 577              		@ args = 0, pretend = 0, frame = 0
+ 578              		@ frame_needed = 0, uses_anonymous_args = 0
+ 579              		@ link register save eliminated.
  265:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     /* master is a transmitter or a receiver */
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 17
+
+
  266:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     if(I2C_TRANSMITTER == trandirection){
- 578              		.loc 1 266 5 view .LVU167
- 579              		.loc 1 266 7 is_stmt 0 view .LVU168
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 17
-
-
- 580 0000 12F1020F 		cmn	r2, #2
- 581 0004 03D0     		beq	.L46
+ 580              		.loc 1 266 5 view .LVU169
+ 581              		.loc 1 266 7 is_stmt 0 view .LVU170
+ 582 0000 12F1020F 		cmn	r2, #2
+ 583 0004 03D0     		beq	.L46
  267:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         addr = addr & I2C_TRANSMITTER;
  268:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }else{
  269:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         addr = addr | I2C_RECEIVER;
- 582              		.loc 1 269 9 is_stmt 1 view .LVU169
- 583              		.loc 1 269 14 is_stmt 0 view .LVU170
- 584 0006 41F00101 		orr	r1, r1, #1
- 585              	.LVL63:
- 586              	.L45:
+ 584              		.loc 1 269 9 is_stmt 1 view .LVU171
+ 585              		.loc 1 269 14 is_stmt 0 view .LVU172
+ 586 0006 41F00101 		orr	r1, r1, #1
+ 587              	.LVL63:
+ 588              	.L45:
  270:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }
  271:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     /* send slave address */
  272:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     I2C_DATA(i2c_periph) = addr;
- 587              		.loc 1 272 5 is_stmt 1 view .LVU171
- 588              		.loc 1 272 26 is_stmt 0 view .LVU172
- 589 000a 0161     		str	r1, [r0, #16]
+ 589              		.loc 1 272 5 is_stmt 1 view .LVU173
+ 590              		.loc 1 272 26 is_stmt 0 view .LVU174
+ 591 000a 0161     		str	r1, [r0, #16]
  273:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 590              		.loc 1 273 1 view .LVU173
- 591 000c 7047     		bx	lr
- 592              	.L46:
+ 592              		.loc 1 273 1 view .LVU175
+ 593 000c 7047     		bx	lr
+ 594              	.L46:
  267:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         addr = addr & I2C_TRANSMITTER;
- 593              		.loc 1 267 9 is_stmt 1 view .LVU174
+ 595              		.loc 1 267 9 is_stmt 1 view .LVU176
  267:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         addr = addr & I2C_TRANSMITTER;
- 594              		.loc 1 267 14 is_stmt 0 view .LVU175
- 595 000e 21F00101 		bic	r1, r1, #1
- 596              	.LVL64:
+ 596              		.loc 1 267 14 is_stmt 0 view .LVU177
+ 597 000e 21F00101 		bic	r1, r1, #1
+ 598              	.LVL64:
  267:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         addr = addr & I2C_TRANSMITTER;
- 597              		.loc 1 267 14 view .LVU176
- 598 0012 FAE7     		b	.L45
- 599              		.cfi_endproc
- 600              	.LFE122:
- 602              		.section	.text.i2c_dualaddr_enable,"ax",%progbits
- 603              		.align	1
- 604              		.global	i2c_dualaddr_enable
- 605              		.syntax unified
- 606              		.thumb
- 607              		.thumb_func
- 608              		.fpu fpv4-sp-d16
- 610              	i2c_dualaddr_enable:
- 611              	.LVL65:
- 612              	.LFB123:
+ 599              		.loc 1 267 14 view .LVU178
+ 600 0012 FAE7     		b	.L45
+ 601              		.cfi_endproc
+ 602              	.LFE122:
+ 604              		.section	.text.i2c_dualaddr_enable,"ax",%progbits
+ 605              		.align	1
+ 606              		.global	i2c_dualaddr_enable
+ 607              		.syntax unified
+ 608              		.thumb
+ 609              		.thumb_func
+ 610              		.fpu fpv4-sp-d16
+ 612              	i2c_dualaddr_enable:
+ 613              	.LVL65:
+ 614              	.LFB123:
  274:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  275:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  276:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      enable dual-address mode
@@ -1012,42 +1015,42 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  281:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
  282:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** void i2c_dualaddr_enable(uint32_t i2c_periph, uint32_t dualaddr)
  283:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 613              		.loc 1 283 1 is_stmt 1 view -0
- 614              		.cfi_startproc
- 615              		@ args = 0, pretend = 0, frame = 0
- 616              		@ frame_needed = 0, uses_anonymous_args = 0
- 617              		@ link register save eliminated.
+ 615              		.loc 1 283 1 is_stmt 1 view -0
+ 616              		.cfi_startproc
+ 617              		@ args = 0, pretend = 0, frame = 0
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 18
+
+
+ 618              		@ frame_needed = 0, uses_anonymous_args = 0
+ 619              		@ link register save eliminated.
  284:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     /* configure address */
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 18
-
-
  285:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     dualaddr = dualaddr & I2C_ADDRESS2_MASK;
- 618              		.loc 1 285 5 view .LVU178
- 619              		.loc 1 285 14 is_stmt 0 view .LVU179
- 620 0000 01F0FE01 		and	r1, r1, #254
- 621              	.LVL66:
+ 620              		.loc 1 285 5 view .LVU180
+ 621              		.loc 1 285 14 is_stmt 0 view .LVU181
+ 622 0000 01F0FE01 		and	r1, r1, #254
+ 623              	.LVL66:
  286:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     I2C_SADDR1(i2c_periph) = (I2C_SADDR1_DUADEN | dualaddr);
- 622              		.loc 1 286 5 is_stmt 1 view .LVU180
- 623              		.loc 1 286 49 is_stmt 0 view .LVU181
- 624 0004 41F00101 		orr	r1, r1, #1
- 625              	.LVL67:
- 626              		.loc 1 286 28 view .LVU182
- 627 0008 C160     		str	r1, [r0, #12]
+ 624              		.loc 1 286 5 is_stmt 1 view .LVU182
+ 625              		.loc 1 286 49 is_stmt 0 view .LVU183
+ 626 0004 41F00101 		orr	r1, r1, #1
+ 627              	.LVL67:
+ 628              		.loc 1 286 28 view .LVU184
+ 629 0008 C160     		str	r1, [r0, #12]
  287:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 628              		.loc 1 287 1 view .LVU183
- 629 000a 7047     		bx	lr
- 630              		.cfi_endproc
- 631              	.LFE123:
- 633              		.section	.text.i2c_dualaddr_disable,"ax",%progbits
- 634              		.align	1
- 635              		.global	i2c_dualaddr_disable
- 636              		.syntax unified
- 637              		.thumb
- 638              		.thumb_func
- 639              		.fpu fpv4-sp-d16
- 641              	i2c_dualaddr_disable:
- 642              	.LVL68:
- 643              	.LFB124:
+ 630              		.loc 1 287 1 view .LVU185
+ 631 000a 7047     		bx	lr
+ 632              		.cfi_endproc
+ 633              	.LFE123:
+ 635              		.section	.text.i2c_dualaddr_disable,"ax",%progbits
+ 636              		.align	1
+ 637              		.global	i2c_dualaddr_disable
+ 638              		.syntax unified
+ 639              		.thumb
+ 640              		.thumb_func
+ 641              		.fpu fpv4-sp-d16
+ 643              	i2c_dualaddr_disable:
+ 644              	.LVL68:
+ 645              	.LFB124:
  288:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  289:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  290:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      disable dual-address mode
@@ -1057,35 +1060,35 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  294:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
  295:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** void i2c_dualaddr_disable(uint32_t i2c_periph)
  296:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 644              		.loc 1 296 1 is_stmt 1 view -0
- 645              		.cfi_startproc
- 646              		@ args = 0, pretend = 0, frame = 0
- 647              		@ frame_needed = 0, uses_anonymous_args = 0
- 648              		@ link register save eliminated.
+ 646              		.loc 1 296 1 is_stmt 1 view -0
+ 647              		.cfi_startproc
+ 648              		@ args = 0, pretend = 0, frame = 0
+ 649              		@ frame_needed = 0, uses_anonymous_args = 0
+ 650              		@ link register save eliminated.
  297:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     I2C_SADDR1(i2c_periph) &= ~(I2C_SADDR1_DUADEN);
- 649              		.loc 1 297 5 view .LVU185
- 650              		.loc 1 297 28 is_stmt 0 view .LVU186
- 651 0000 C368     		ldr	r3, [r0, #12]
- 652 0002 23F00103 		bic	r3, r3, #1
- 653 0006 C360     		str	r3, [r0, #12]
+ 651              		.loc 1 297 5 view .LVU187
+ 652              		.loc 1 297 28 is_stmt 0 view .LVU188
+ 653 0000 C368     		ldr	r3, [r0, #12]
+ 654 0002 23F00103 		bic	r3, r3, #1
+ 655 0006 C360     		str	r3, [r0, #12]
  298:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 654              		.loc 1 298 1 view .LVU187
- 655 0008 7047     		bx	lr
- 656              		.cfi_endproc
- 657              	.LFE124:
- 659              		.section	.text.i2c_enable,"ax",%progbits
- 660              		.align	1
- 661              		.global	i2c_enable
- 662              		.syntax unified
- 663              		.thumb
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 19
+ 656              		.loc 1 298 1 view .LVU189
+ 657 0008 7047     		bx	lr
+ 658              		.cfi_endproc
+ 659              	.LFE124:
+ 661              		.section	.text.i2c_enable,"ax",%progbits
+ 662              		.align	1
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 19
 
 
- 664              		.thumb_func
- 665              		.fpu fpv4-sp-d16
- 667              	i2c_enable:
- 668              	.LVL69:
- 669              	.LFB125:
+ 663              		.global	i2c_enable
+ 664              		.syntax unified
+ 665              		.thumb
+ 666              		.thumb_func
+ 667              		.fpu fpv4-sp-d16
+ 669              	i2c_enable:
+ 670              	.LVL69:
+ 671              	.LFB125:
  299:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  300:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  301:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      enable I2C
@@ -1095,32 +1098,32 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  305:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
  306:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** void i2c_enable(uint32_t i2c_periph)
  307:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 670              		.loc 1 307 1 is_stmt 1 view -0
- 671              		.cfi_startproc
- 672              		@ args = 0, pretend = 0, frame = 0
- 673              		@ frame_needed = 0, uses_anonymous_args = 0
- 674              		@ link register save eliminated.
+ 672              		.loc 1 307 1 is_stmt 1 view -0
+ 673              		.cfi_startproc
+ 674              		@ args = 0, pretend = 0, frame = 0
+ 675              		@ frame_needed = 0, uses_anonymous_args = 0
+ 676              		@ link register save eliminated.
  308:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     I2C_CTL0(i2c_periph) |= I2C_CTL0_I2CEN;
- 675              		.loc 1 308 5 view .LVU189
- 676              		.loc 1 308 26 is_stmt 0 view .LVU190
- 677 0000 0368     		ldr	r3, [r0]
- 678 0002 43F00103 		orr	r3, r3, #1
- 679 0006 0360     		str	r3, [r0]
+ 677              		.loc 1 308 5 view .LVU191
+ 678              		.loc 1 308 26 is_stmt 0 view .LVU192
+ 679 0000 0368     		ldr	r3, [r0]
+ 680 0002 43F00103 		orr	r3, r3, #1
+ 681 0006 0360     		str	r3, [r0]
  309:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 680              		.loc 1 309 1 view .LVU191
- 681 0008 7047     		bx	lr
- 682              		.cfi_endproc
- 683              	.LFE125:
- 685              		.section	.text.i2c_disable,"ax",%progbits
- 686              		.align	1
- 687              		.global	i2c_disable
- 688              		.syntax unified
- 689              		.thumb
- 690              		.thumb_func
- 691              		.fpu fpv4-sp-d16
- 693              	i2c_disable:
- 694              	.LVL70:
- 695              	.LFB126:
+ 682              		.loc 1 309 1 view .LVU193
+ 683 0008 7047     		bx	lr
+ 684              		.cfi_endproc
+ 685              	.LFE125:
+ 687              		.section	.text.i2c_disable,"ax",%progbits
+ 688              		.align	1
+ 689              		.global	i2c_disable
+ 690              		.syntax unified
+ 691              		.thumb
+ 692              		.thumb_func
+ 693              		.fpu fpv4-sp-d16
+ 695              	i2c_disable:
+ 696              	.LVL70:
+ 697              	.LFB126:
  310:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  311:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  312:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      disable I2C
@@ -1130,35 +1133,35 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  316:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
  317:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** void i2c_disable(uint32_t i2c_periph)
  318:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 696              		.loc 1 318 1 is_stmt 1 view -0
- 697              		.cfi_startproc
- 698              		@ args = 0, pretend = 0, frame = 0
- 699              		@ frame_needed = 0, uses_anonymous_args = 0
- 700              		@ link register save eliminated.
+ 698              		.loc 1 318 1 is_stmt 1 view -0
+ 699              		.cfi_startproc
+ 700              		@ args = 0, pretend = 0, frame = 0
+ 701              		@ frame_needed = 0, uses_anonymous_args = 0
+ 702              		@ link register save eliminated.
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 20
+
+
  319:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     I2C_CTL0(i2c_periph) &= ~(I2C_CTL0_I2CEN);
- 701              		.loc 1 319 5 view .LVU193
- 702              		.loc 1 319 26 is_stmt 0 view .LVU194
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 20
-
-
- 703 0000 0368     		ldr	r3, [r0]
- 704 0002 23F00103 		bic	r3, r3, #1
- 705 0006 0360     		str	r3, [r0]
+ 703              		.loc 1 319 5 view .LVU195
+ 704              		.loc 1 319 26 is_stmt 0 view .LVU196
+ 705 0000 0368     		ldr	r3, [r0]
+ 706 0002 23F00103 		bic	r3, r3, #1
+ 707 0006 0360     		str	r3, [r0]
  320:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 706              		.loc 1 320 1 view .LVU195
- 707 0008 7047     		bx	lr
- 708              		.cfi_endproc
- 709              	.LFE126:
- 711              		.section	.text.i2c_start_on_bus,"ax",%progbits
- 712              		.align	1
- 713              		.global	i2c_start_on_bus
- 714              		.syntax unified
- 715              		.thumb
- 716              		.thumb_func
- 717              		.fpu fpv4-sp-d16
- 719              	i2c_start_on_bus:
- 720              	.LVL71:
- 721              	.LFB127:
+ 708              		.loc 1 320 1 view .LVU197
+ 709 0008 7047     		bx	lr
+ 710              		.cfi_endproc
+ 711              	.LFE126:
+ 713              		.section	.text.i2c_start_on_bus,"ax",%progbits
+ 714              		.align	1
+ 715              		.global	i2c_start_on_bus
+ 716              		.syntax unified
+ 717              		.thumb
+ 718              		.thumb_func
+ 719              		.fpu fpv4-sp-d16
+ 721              	i2c_start_on_bus:
+ 722              	.LVL71:
+ 723              	.LFB127:
  321:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  322:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  323:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      generate a START condition on I2C bus
@@ -1168,70 +1171,70 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  327:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
  328:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** void i2c_start_on_bus(uint32_t i2c_periph)
  329:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 722              		.loc 1 329 1 is_stmt 1 view -0
- 723              		.cfi_startproc
- 724              		@ args = 0, pretend = 0, frame = 0
- 725              		@ frame_needed = 0, uses_anonymous_args = 0
- 726              		@ link register save eliminated.
+ 724              		.loc 1 329 1 is_stmt 1 view -0
+ 725              		.cfi_startproc
+ 726              		@ args = 0, pretend = 0, frame = 0
+ 727              		@ frame_needed = 0, uses_anonymous_args = 0
+ 728              		@ link register save eliminated.
  330:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     I2C_CTL0(i2c_periph) |= I2C_CTL0_START;
- 727              		.loc 1 330 5 view .LVU197
- 728              		.loc 1 330 26 is_stmt 0 view .LVU198
- 729 0000 0368     		ldr	r3, [r0]
- 730 0002 43F48073 		orr	r3, r3, #256
- 731 0006 0360     		str	r3, [r0]
+ 729              		.loc 1 330 5 view .LVU199
+ 730              		.loc 1 330 26 is_stmt 0 view .LVU200
+ 731 0000 0368     		ldr	r3, [r0]
+ 732 0002 43F48073 		orr	r3, r3, #256
+ 733 0006 0360     		str	r3, [r0]
  331:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 732              		.loc 1 331 1 view .LVU199
- 733 0008 7047     		bx	lr
- 734              		.cfi_endproc
- 735              	.LFE127:
- 737              		.section	.text.i2c_stop_on_bus,"ax",%progbits
- 738              		.align	1
- 739              		.global	i2c_stop_on_bus
- 740              		.syntax unified
- 741              		.thumb
- 742              		.thumb_func
- 743              		.fpu fpv4-sp-d16
- 745              	i2c_stop_on_bus:
- 746              	.LVL72:
- 747              	.LFB128:
+ 734              		.loc 1 331 1 view .LVU201
+ 735 0008 7047     		bx	lr
+ 736              		.cfi_endproc
+ 737              	.LFE127:
+ 739              		.section	.text.i2c_stop_on_bus,"ax",%progbits
+ 740              		.align	1
+ 741              		.global	i2c_stop_on_bus
+ 742              		.syntax unified
+ 743              		.thumb
+ 744              		.thumb_func
+ 745              		.fpu fpv4-sp-d16
+ 747              	i2c_stop_on_bus:
+ 748              	.LVL72:
+ 749              	.LFB128:
  332:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 21
+
+
  333:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  334:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      generate a STOP condition on I2C bus
  335:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \param[in]  i2c_periph: I2Cx(x=0,1)
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 21
-
-
  336:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \param[out] none
  337:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \retval     none
  338:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
  339:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** void i2c_stop_on_bus(uint32_t i2c_periph)
  340:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 748              		.loc 1 340 1 is_stmt 1 view -0
- 749              		.cfi_startproc
- 750              		@ args = 0, pretend = 0, frame = 0
- 751              		@ frame_needed = 0, uses_anonymous_args = 0
- 752              		@ link register save eliminated.
+ 750              		.loc 1 340 1 is_stmt 1 view -0
+ 751              		.cfi_startproc
+ 752              		@ args = 0, pretend = 0, frame = 0
+ 753              		@ frame_needed = 0, uses_anonymous_args = 0
+ 754              		@ link register save eliminated.
  341:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     I2C_CTL0(i2c_periph) |= I2C_CTL0_STOP;
- 753              		.loc 1 341 5 view .LVU201
- 754              		.loc 1 341 26 is_stmt 0 view .LVU202
- 755 0000 0368     		ldr	r3, [r0]
- 756 0002 43F40073 		orr	r3, r3, #512
- 757 0006 0360     		str	r3, [r0]
+ 755              		.loc 1 341 5 view .LVU203
+ 756              		.loc 1 341 26 is_stmt 0 view .LVU204
+ 757 0000 0368     		ldr	r3, [r0]
+ 758 0002 43F40073 		orr	r3, r3, #512
+ 759 0006 0360     		str	r3, [r0]
  342:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 758              		.loc 1 342 1 view .LVU203
- 759 0008 7047     		bx	lr
- 760              		.cfi_endproc
- 761              	.LFE128:
- 763              		.section	.text.i2c_data_transmit,"ax",%progbits
- 764              		.align	1
- 765              		.global	i2c_data_transmit
- 766              		.syntax unified
- 767              		.thumb
- 768              		.thumb_func
- 769              		.fpu fpv4-sp-d16
- 771              	i2c_data_transmit:
- 772              	.LVL73:
- 773              	.LFB129:
+ 760              		.loc 1 342 1 view .LVU205
+ 761 0008 7047     		bx	lr
+ 762              		.cfi_endproc
+ 763              	.LFE128:
+ 765              		.section	.text.i2c_data_transmit,"ax",%progbits
+ 766              		.align	1
+ 767              		.global	i2c_data_transmit
+ 768              		.syntax unified
+ 769              		.thumb
+ 770              		.thumb_func
+ 771              		.fpu fpv4-sp-d16
+ 773              	i2c_data_transmit:
+ 774              	.LVL73:
+ 775              	.LFB129:
  343:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  344:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  345:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      I2C transmit data function
@@ -1242,33 +1245,33 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  350:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
  351:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** void i2c_data_transmit(uint32_t i2c_periph, uint8_t data)
  352:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 774              		.loc 1 352 1 is_stmt 1 view -0
- 775              		.cfi_startproc
- 776              		@ args = 0, pretend = 0, frame = 0
- 777              		@ frame_needed = 0, uses_anonymous_args = 0
- 778              		@ link register save eliminated.
+ 776              		.loc 1 352 1 is_stmt 1 view -0
+ 777              		.cfi_startproc
+ 778              		@ args = 0, pretend = 0, frame = 0
+ 779              		@ frame_needed = 0, uses_anonymous_args = 0
+ 780              		@ link register save eliminated.
  353:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     I2C_DATA(i2c_periph) = DATA_TRANS(data);
- 779              		.loc 1 353 5 view .LVU205
- 780              		.loc 1 353 26 is_stmt 0 view .LVU206
- 781 0000 0161     		str	r1, [r0, #16]
+ 781              		.loc 1 353 5 view .LVU207
+ 782              		.loc 1 353 26 is_stmt 0 view .LVU208
+ 783 0000 0161     		str	r1, [r0, #16]
  354:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 782              		.loc 1 354 1 view .LVU207
- 783 0002 7047     		bx	lr
- 784              		.cfi_endproc
- 785              	.LFE129:
- 787              		.section	.text.i2c_data_receive,"ax",%progbits
- 788              		.align	1
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 22
+ 784              		.loc 1 354 1 view .LVU209
+ 785 0002 7047     		bx	lr
+ 786              		.cfi_endproc
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 22
 
 
- 789              		.global	i2c_data_receive
- 790              		.syntax unified
- 791              		.thumb
- 792              		.thumb_func
- 793              		.fpu fpv4-sp-d16
- 795              	i2c_data_receive:
- 796              	.LVL74:
- 797              	.LFB130:
+ 787              	.LFE129:
+ 789              		.section	.text.i2c_data_receive,"ax",%progbits
+ 790              		.align	1
+ 791              		.global	i2c_data_receive
+ 792              		.syntax unified
+ 793              		.thumb
+ 794              		.thumb_func
+ 795              		.fpu fpv4-sp-d16
+ 797              	i2c_data_receive:
+ 798              	.LVL74:
+ 799              	.LFB130:
  355:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  356:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  357:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      I2C receive data function
@@ -1278,32 +1281,32 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  361:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
  362:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** uint8_t i2c_data_receive(uint32_t i2c_periph)
  363:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 798              		.loc 1 363 1 is_stmt 1 view -0
- 799              		.cfi_startproc
- 800              		@ args = 0, pretend = 0, frame = 0
- 801              		@ frame_needed = 0, uses_anonymous_args = 0
- 802              		@ link register save eliminated.
+ 800              		.loc 1 363 1 is_stmt 1 view -0
+ 801              		.cfi_startproc
+ 802              		@ args = 0, pretend = 0, frame = 0
+ 803              		@ frame_needed = 0, uses_anonymous_args = 0
+ 804              		@ link register save eliminated.
  364:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     return (uint8_t)DATA_RECV(I2C_DATA(i2c_periph));
- 803              		.loc 1 364 5 view .LVU209
- 804              		.loc 1 364 21 is_stmt 0 view .LVU210
- 805 0000 0069     		ldr	r0, [r0, #16]
- 806              	.LVL75:
+ 805              		.loc 1 364 5 view .LVU211
+ 806              		.loc 1 364 21 is_stmt 0 view .LVU212
+ 807 0000 0069     		ldr	r0, [r0, #16]
+ 808              	.LVL75:
  365:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 807              		.loc 1 365 1 view .LVU211
- 808 0002 C0B2     		uxtb	r0, r0
- 809 0004 7047     		bx	lr
- 810              		.cfi_endproc
- 811              	.LFE130:
- 813              		.section	.text.i2c_dma_enable,"ax",%progbits
- 814              		.align	1
- 815              		.global	i2c_dma_enable
- 816              		.syntax unified
- 817              		.thumb
- 818              		.thumb_func
- 819              		.fpu fpv4-sp-d16
- 821              	i2c_dma_enable:
- 822              	.LVL76:
- 823              	.LFB131:
+ 809              		.loc 1 365 1 view .LVU213
+ 810 0002 C0B2     		uxtb	r0, r0
+ 811 0004 7047     		bx	lr
+ 812              		.cfi_endproc
+ 813              	.LFE130:
+ 815              		.section	.text.i2c_dma_enable,"ax",%progbits
+ 816              		.align	1
+ 817              		.global	i2c_dma_enable
+ 818              		.syntax unified
+ 819              		.thumb
+ 820              		.thumb_func
+ 821              		.fpu fpv4-sp-d16
+ 823              	i2c_dma_enable:
+ 824              	.LVL76:
+ 825              	.LFB131:
  366:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  367:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  368:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      enable I2C DMA mode 
@@ -1315,54 +1318,54 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  374:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \param[out] none
  375:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \retval     none
  376:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 23
+
+
  377:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** void i2c_dma_enable(uint32_t i2c_periph, uint32_t dmastate)
  378:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 824              		.loc 1 378 1 is_stmt 1 view -0
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 23
-
-
- 825              		.cfi_startproc
- 826              		@ args = 0, pretend = 0, frame = 0
- 827              		@ frame_needed = 0, uses_anonymous_args = 0
- 828              		@ link register save eliminated.
+ 826              		.loc 1 378 1 is_stmt 1 view -0
+ 827              		.cfi_startproc
+ 828              		@ args = 0, pretend = 0, frame = 0
+ 829              		@ frame_needed = 0, uses_anonymous_args = 0
+ 830              		@ link register save eliminated.
  379:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     /* configure I2C DMA function */
  380:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     uint32_t ctl = 0U;
- 829              		.loc 1 380 5 view .LVU213
+ 831              		.loc 1 380 5 view .LVU215
  381:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  382:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl = I2C_CTL1(i2c_periph);
- 830              		.loc 1 382 5 view .LVU214
- 831              		.loc 1 382 9 is_stmt 0 view .LVU215
- 832 0000 4368     		ldr	r3, [r0, #4]
- 833              	.LVL77:
+ 832              		.loc 1 382 5 view .LVU216
+ 833              		.loc 1 382 9 is_stmt 0 view .LVU217
+ 834 0000 4368     		ldr	r3, [r0, #4]
+ 835              	.LVL77:
  383:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl &= ~(I2C_CTL1_DMAON); 
- 834              		.loc 1 383 5 is_stmt 1 view .LVU216
- 835              		.loc 1 383 9 is_stmt 0 view .LVU217
- 836 0002 23F40063 		bic	r3, r3, #2048
- 837              	.LVL78:
+ 836              		.loc 1 383 5 is_stmt 1 view .LVU218
+ 837              		.loc 1 383 9 is_stmt 0 view .LVU219
+ 838 0002 23F40063 		bic	r3, r3, #2048
+ 839              	.LVL78:
  384:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl |= dmastate;
- 838              		.loc 1 384 5 is_stmt 1 view .LVU218
- 839              		.loc 1 384 9 is_stmt 0 view .LVU219
- 840 0006 1943     		orrs	r1, r1, r3
- 841              	.LVL79:
+ 840              		.loc 1 384 5 is_stmt 1 view .LVU220
+ 841              		.loc 1 384 9 is_stmt 0 view .LVU221
+ 842 0006 0B43     		orrs	r3, r3, r1
+ 843              	.LVL79:
  385:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     I2C_CTL1(i2c_periph) = ctl;
- 842              		.loc 1 385 5 is_stmt 1 view .LVU220
- 843              		.loc 1 385 26 is_stmt 0 view .LVU221
- 844 0008 4160     		str	r1, [r0, #4]
+ 844              		.loc 1 385 5 is_stmt 1 view .LVU222
+ 845              		.loc 1 385 26 is_stmt 0 view .LVU223
+ 846 0008 4360     		str	r3, [r0, #4]
  386:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 845              		.loc 1 386 1 view .LVU222
- 846 000a 7047     		bx	lr
- 847              		.cfi_endproc
- 848              	.LFE131:
- 850              		.section	.text.i2c_dma_last_transfer_config,"ax",%progbits
- 851              		.align	1
- 852              		.global	i2c_dma_last_transfer_config
- 853              		.syntax unified
- 854              		.thumb
- 855              		.thumb_func
- 856              		.fpu fpv4-sp-d16
- 858              	i2c_dma_last_transfer_config:
- 859              	.LVL80:
- 860              	.LFB132:
+ 847              		.loc 1 386 1 view .LVU224
+ 848 000a 7047     		bx	lr
+ 849              		.cfi_endproc
+ 850              	.LFE131:
+ 852              		.section	.text.i2c_dma_last_transfer_config,"ax",%progbits
+ 853              		.align	1
+ 854              		.global	i2c_dma_last_transfer_config
+ 855              		.syntax unified
+ 856              		.thumb
+ 857              		.thumb_func
+ 858              		.fpu fpv4-sp-d16
+ 860              	i2c_dma_last_transfer_config:
+ 861              	.LVL80:
+ 862              	.LFB132:
  387:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  388:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  389:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      configure whether next DMA EOT is DMA last transfer or not
@@ -1375,53 +1378,53 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  396:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \retval     none
  397:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
  398:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** void i2c_dma_last_transfer_config(uint32_t i2c_periph, uint32_t dmalast)
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 24
+
+
  399:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 861              		.loc 1 399 1 is_stmt 1 view -0
- 862              		.cfi_startproc
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 24
-
-
- 863              		@ args = 0, pretend = 0, frame = 0
- 864              		@ frame_needed = 0, uses_anonymous_args = 0
- 865              		@ link register save eliminated.
+ 863              		.loc 1 399 1 is_stmt 1 view -0
+ 864              		.cfi_startproc
+ 865              		@ args = 0, pretend = 0, frame = 0
+ 866              		@ frame_needed = 0, uses_anonymous_args = 0
+ 867              		@ link register save eliminated.
  400:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     /* configure DMA last transfer */
  401:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     uint32_t ctl = 0U;
- 866              		.loc 1 401 5 view .LVU224
+ 868              		.loc 1 401 5 view .LVU226
  402:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     
  403:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl = I2C_CTL1(i2c_periph);
- 867              		.loc 1 403 5 view .LVU225
- 868              		.loc 1 403 9 is_stmt 0 view .LVU226
- 869 0000 4368     		ldr	r3, [r0, #4]
- 870              	.LVL81:
+ 869              		.loc 1 403 5 view .LVU227
+ 870              		.loc 1 403 9 is_stmt 0 view .LVU228
+ 871 0000 4368     		ldr	r3, [r0, #4]
+ 872              	.LVL81:
  404:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl &= ~(I2C_CTL1_DMALST); 
- 871              		.loc 1 404 5 is_stmt 1 view .LVU227
- 872              		.loc 1 404 9 is_stmt 0 view .LVU228
- 873 0002 23F48053 		bic	r3, r3, #4096
- 874              	.LVL82:
+ 873              		.loc 1 404 5 is_stmt 1 view .LVU229
+ 874              		.loc 1 404 9 is_stmt 0 view .LVU230
+ 875 0002 23F48053 		bic	r3, r3, #4096
+ 876              	.LVL82:
  405:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl |= dmalast;
- 875              		.loc 1 405 5 is_stmt 1 view .LVU229
- 876              		.loc 1 405 9 is_stmt 0 view .LVU230
- 877 0006 1943     		orrs	r1, r1, r3
- 878              	.LVL83:
+ 877              		.loc 1 405 5 is_stmt 1 view .LVU231
+ 878              		.loc 1 405 9 is_stmt 0 view .LVU232
+ 879 0006 0B43     		orrs	r3, r3, r1
+ 880              	.LVL83:
  406:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     I2C_CTL1(i2c_periph) = ctl;
- 879              		.loc 1 406 5 is_stmt 1 view .LVU231
- 880              		.loc 1 406 26 is_stmt 0 view .LVU232
- 881 0008 4160     		str	r1, [r0, #4]
+ 881              		.loc 1 406 5 is_stmt 1 view .LVU233
+ 882              		.loc 1 406 26 is_stmt 0 view .LVU234
+ 883 0008 4360     		str	r3, [r0, #4]
  407:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 882              		.loc 1 407 1 view .LVU233
- 883 000a 7047     		bx	lr
- 884              		.cfi_endproc
- 885              	.LFE132:
- 887              		.section	.text.i2c_stretch_scl_low_config,"ax",%progbits
- 888              		.align	1
- 889              		.global	i2c_stretch_scl_low_config
- 890              		.syntax unified
- 891              		.thumb
- 892              		.thumb_func
- 893              		.fpu fpv4-sp-d16
- 895              	i2c_stretch_scl_low_config:
- 896              	.LVL84:
- 897              	.LFB133:
+ 884              		.loc 1 407 1 view .LVU235
+ 885 000a 7047     		bx	lr
+ 886              		.cfi_endproc
+ 887              	.LFE132:
+ 889              		.section	.text.i2c_stretch_scl_low_config,"ax",%progbits
+ 890              		.align	1
+ 891              		.global	i2c_stretch_scl_low_config
+ 892              		.syntax unified
+ 893              		.thumb
+ 894              		.thumb_func
+ 895              		.fpu fpv4-sp-d16
+ 897              	i2c_stretch_scl_low_config:
+ 898              	.LVL84:
+ 899              	.LFB133:
  408:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  409:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  410:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      whether to stretch SCL low when data is not ready in slave mode 
@@ -1435,52 +1438,52 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  418:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
  419:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** void i2c_stretch_scl_low_config(uint32_t i2c_periph, uint32_t stretchpara)
  420:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 898              		.loc 1 420 1 is_stmt 1 view -0
- 899              		.cfi_startproc
- 900              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 25
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 25
 
 
- 901              		@ frame_needed = 0, uses_anonymous_args = 0
- 902              		@ link register save eliminated.
+ 900              		.loc 1 420 1 is_stmt 1 view -0
+ 901              		.cfi_startproc
+ 902              		@ args = 0, pretend = 0, frame = 0
+ 903              		@ frame_needed = 0, uses_anonymous_args = 0
+ 904              		@ link register save eliminated.
  421:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     /* configure I2C SCL strerching enable or disable */
  422:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     uint32_t ctl = 0U;
- 903              		.loc 1 422 5 view .LVU235
+ 905              		.loc 1 422 5 view .LVU237
  423:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     
  424:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl = I2C_CTL0(i2c_periph);
- 904              		.loc 1 424 5 view .LVU236
- 905              		.loc 1 424 9 is_stmt 0 view .LVU237
- 906 0000 0368     		ldr	r3, [r0]
- 907              	.LVL85:
+ 906              		.loc 1 424 5 view .LVU238
+ 907              		.loc 1 424 9 is_stmt 0 view .LVU239
+ 908 0000 0368     		ldr	r3, [r0]
+ 909              	.LVL85:
  425:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl &= ~(I2C_CTL0_SS); 
- 908              		.loc 1 425 5 is_stmt 1 view .LVU238
- 909              		.loc 1 425 9 is_stmt 0 view .LVU239
- 910 0002 23F08003 		bic	r3, r3, #128
- 911              	.LVL86:
+ 910              		.loc 1 425 5 is_stmt 1 view .LVU240
+ 911              		.loc 1 425 9 is_stmt 0 view .LVU241
+ 912 0002 23F08003 		bic	r3, r3, #128
+ 913              	.LVL86:
  426:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl |= stretchpara;
- 912              		.loc 1 426 5 is_stmt 1 view .LVU240
- 913              		.loc 1 426 9 is_stmt 0 view .LVU241
- 914 0006 1943     		orrs	r1, r1, r3
- 915              	.LVL87:
+ 914              		.loc 1 426 5 is_stmt 1 view .LVU242
+ 915              		.loc 1 426 9 is_stmt 0 view .LVU243
+ 916 0006 0B43     		orrs	r3, r3, r1
+ 917              	.LVL87:
  427:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     I2C_CTL0(i2c_periph) = ctl;
- 916              		.loc 1 427 5 is_stmt 1 view .LVU242
- 917              		.loc 1 427 26 is_stmt 0 view .LVU243
- 918 0008 0160     		str	r1, [r0]
+ 918              		.loc 1 427 5 is_stmt 1 view .LVU244
+ 919              		.loc 1 427 26 is_stmt 0 view .LVU245
+ 920 0008 0360     		str	r3, [r0]
  428:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 919              		.loc 1 428 1 view .LVU244
- 920 000a 7047     		bx	lr
- 921              		.cfi_endproc
- 922              	.LFE133:
- 924              		.section	.text.i2c_slave_response_to_gcall_config,"ax",%progbits
- 925              		.align	1
- 926              		.global	i2c_slave_response_to_gcall_config
- 927              		.syntax unified
- 928              		.thumb
- 929              		.thumb_func
- 930              		.fpu fpv4-sp-d16
- 932              	i2c_slave_response_to_gcall_config:
- 933              	.LVL88:
- 934              	.LFB134:
+ 921              		.loc 1 428 1 view .LVU246
+ 922 000a 7047     		bx	lr
+ 923              		.cfi_endproc
+ 924              	.LFE133:
+ 926              		.section	.text.i2c_slave_response_to_gcall_config,"ax",%progbits
+ 927              		.align	1
+ 928              		.global	i2c_slave_response_to_gcall_config
+ 929              		.syntax unified
+ 930              		.thumb
+ 931              		.thumb_func
+ 932              		.fpu fpv4-sp-d16
+ 934              	i2c_slave_response_to_gcall_config:
+ 935              	.LVL88:
+ 936              	.LFB134:
  429:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  430:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  431:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      whether or not to response to a general call 
@@ -1494,52 +1497,52 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  439:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
  440:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** void i2c_slave_response_to_gcall_config(uint32_t i2c_periph, uint32_t gcallpara)
  441:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 935              		.loc 1 441 1 is_stmt 1 view -0
- 936              		.cfi_startproc
- 937              		@ args = 0, pretend = 0, frame = 0
- 938              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 26
+ 937              		.loc 1 441 1 is_stmt 1 view -0
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 26
 
 
- 939              		@ link register save eliminated.
+ 938              		.cfi_startproc
+ 939              		@ args = 0, pretend = 0, frame = 0
+ 940              		@ frame_needed = 0, uses_anonymous_args = 0
+ 941              		@ link register save eliminated.
  442:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     /* configure slave response to a general call enable or disable */
  443:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     uint32_t ctl = 0U;
- 940              		.loc 1 443 5 view .LVU246
+ 942              		.loc 1 443 5 view .LVU248
  444:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     
  445:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl = I2C_CTL0(i2c_periph);
- 941              		.loc 1 445 5 view .LVU247
- 942              		.loc 1 445 9 is_stmt 0 view .LVU248
- 943 0000 0368     		ldr	r3, [r0]
- 944              	.LVL89:
+ 943              		.loc 1 445 5 view .LVU249
+ 944              		.loc 1 445 9 is_stmt 0 view .LVU250
+ 945 0000 0368     		ldr	r3, [r0]
+ 946              	.LVL89:
  446:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl &= ~(I2C_CTL0_GCEN); 
- 945              		.loc 1 446 5 is_stmt 1 view .LVU249
- 946              		.loc 1 446 9 is_stmt 0 view .LVU250
- 947 0002 23F04003 		bic	r3, r3, #64
- 948              	.LVL90:
+ 947              		.loc 1 446 5 is_stmt 1 view .LVU251
+ 948              		.loc 1 446 9 is_stmt 0 view .LVU252
+ 949 0002 23F04003 		bic	r3, r3, #64
+ 950              	.LVL90:
  447:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl |= gcallpara;
- 949              		.loc 1 447 5 is_stmt 1 view .LVU251
- 950              		.loc 1 447 9 is_stmt 0 view .LVU252
- 951 0006 1943     		orrs	r1, r1, r3
- 952              	.LVL91:
+ 951              		.loc 1 447 5 is_stmt 1 view .LVU253
+ 952              		.loc 1 447 9 is_stmt 0 view .LVU254
+ 953 0006 0B43     		orrs	r3, r3, r1
+ 954              	.LVL91:
  448:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     I2C_CTL0(i2c_periph) = ctl;
- 953              		.loc 1 448 5 is_stmt 1 view .LVU253
- 954              		.loc 1 448 26 is_stmt 0 view .LVU254
- 955 0008 0160     		str	r1, [r0]
+ 955              		.loc 1 448 5 is_stmt 1 view .LVU255
+ 956              		.loc 1 448 26 is_stmt 0 view .LVU256
+ 957 0008 0360     		str	r3, [r0]
  449:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 956              		.loc 1 449 1 view .LVU255
- 957 000a 7047     		bx	lr
- 958              		.cfi_endproc
- 959              	.LFE134:
- 961              		.section	.text.i2c_software_reset_config,"ax",%progbits
- 962              		.align	1
- 963              		.global	i2c_software_reset_config
- 964              		.syntax unified
- 965              		.thumb
- 966              		.thumb_func
- 967              		.fpu fpv4-sp-d16
- 969              	i2c_software_reset_config:
- 970              	.LVL92:
- 971              	.LFB135:
+ 958              		.loc 1 449 1 view .LVU257
+ 959 000a 7047     		bx	lr
+ 960              		.cfi_endproc
+ 961              	.LFE134:
+ 963              		.section	.text.i2c_software_reset_config,"ax",%progbits
+ 964              		.align	1
+ 965              		.global	i2c_software_reset_config
+ 966              		.syntax unified
+ 967              		.thumb
+ 968              		.thumb_func
+ 969              		.fpu fpv4-sp-d16
+ 971              	i2c_software_reset_config:
+ 972              	.LVL92:
+ 973              	.LFB135:
  450:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  451:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  452:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      software reset I2C 
@@ -1553,52 +1556,52 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  460:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
  461:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** void i2c_software_reset_config(uint32_t i2c_periph, uint32_t sreset)
  462:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 972              		.loc 1 462 1 is_stmt 1 view -0
- 973              		.cfi_startproc
- 974              		@ args = 0, pretend = 0, frame = 0
- 975              		@ frame_needed = 0, uses_anonymous_args = 0
- 976              		@ link register save eliminated.
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 27
+ 974              		.loc 1 462 1 is_stmt 1 view -0
+ 975              		.cfi_startproc
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 27
 
 
+ 976              		@ args = 0, pretend = 0, frame = 0
+ 977              		@ frame_needed = 0, uses_anonymous_args = 0
+ 978              		@ link register save eliminated.
  463:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     /* modify CTL0 and configure software reset I2C state */
  464:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     uint32_t ctl = 0U;
- 977              		.loc 1 464 5 view .LVU257
+ 979              		.loc 1 464 5 view .LVU259
  465:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     
  466:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl = I2C_CTL0(i2c_periph);
- 978              		.loc 1 466 5 view .LVU258
- 979              		.loc 1 466 9 is_stmt 0 view .LVU259
- 980 0000 0368     		ldr	r3, [r0]
- 981              	.LVL93:
+ 980              		.loc 1 466 5 view .LVU260
+ 981              		.loc 1 466 9 is_stmt 0 view .LVU261
+ 982 0000 0368     		ldr	r3, [r0]
+ 983              	.LVL93:
  467:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl &= ~(I2C_CTL0_SRESET); 
- 982              		.loc 1 467 5 is_stmt 1 view .LVU260
- 983              		.loc 1 467 9 is_stmt 0 view .LVU261
- 984 0002 23F40043 		bic	r3, r3, #32768
- 985              	.LVL94:
+ 984              		.loc 1 467 5 is_stmt 1 view .LVU262
+ 985              		.loc 1 467 9 is_stmt 0 view .LVU263
+ 986 0002 23F40043 		bic	r3, r3, #32768
+ 987              	.LVL94:
  468:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl |= sreset;
- 986              		.loc 1 468 5 is_stmt 1 view .LVU262
- 987              		.loc 1 468 9 is_stmt 0 view .LVU263
- 988 0006 1943     		orrs	r1, r1, r3
- 989              	.LVL95:
+ 988              		.loc 1 468 5 is_stmt 1 view .LVU264
+ 989              		.loc 1 468 9 is_stmt 0 view .LVU265
+ 990 0006 0B43     		orrs	r3, r3, r1
+ 991              	.LVL95:
  469:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     I2C_CTL0(i2c_periph) = ctl;
- 990              		.loc 1 469 5 is_stmt 1 view .LVU264
- 991              		.loc 1 469 26 is_stmt 0 view .LVU265
- 992 0008 0160     		str	r1, [r0]
+ 992              		.loc 1 469 5 is_stmt 1 view .LVU266
+ 993              		.loc 1 469 26 is_stmt 0 view .LVU267
+ 994 0008 0360     		str	r3, [r0]
  470:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 993              		.loc 1 470 1 view .LVU266
- 994 000a 7047     		bx	lr
- 995              		.cfi_endproc
- 996              	.LFE135:
- 998              		.section	.text.i2c_pec_enable,"ax",%progbits
- 999              		.align	1
- 1000              		.global	i2c_pec_enable
- 1001              		.syntax unified
- 1002              		.thumb
- 1003              		.thumb_func
- 1004              		.fpu fpv4-sp-d16
- 1006              	i2c_pec_enable:
- 1007              	.LVL96:
- 1008              	.LFB136:
+ 995              		.loc 1 470 1 view .LVU268
+ 996 000a 7047     		bx	lr
+ 997              		.cfi_endproc
+ 998              	.LFE135:
+ 1000              		.section	.text.i2c_pec_enable,"ax",%progbits
+ 1001              		.align	1
+ 1002              		.global	i2c_pec_enable
+ 1003              		.syntax unified
+ 1004              		.thumb
+ 1005              		.thumb_func
+ 1006              		.fpu fpv4-sp-d16
+ 1008              	i2c_pec_enable:
+ 1009              	.LVL96:
+ 1010              	.LFB136:
  471:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  472:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  473:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      I2C PEC calculation on or off
@@ -1612,52 +1615,52 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  481:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
  482:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** void i2c_pec_enable(uint32_t i2c_periph, uint32_t pecstate)
  483:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 1009              		.loc 1 483 1 is_stmt 1 view -0
- 1010              		.cfi_startproc
- 1011              		@ args = 0, pretend = 0, frame = 0
- 1012              		@ frame_needed = 0, uses_anonymous_args = 0
- 1013              		@ link register save eliminated.
+ 1011              		.loc 1 483 1 is_stmt 1 view -0
+ 1012              		.cfi_startproc
+ 1013              		@ args = 0, pretend = 0, frame = 0
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 28
+
+
+ 1014              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1015              		@ link register save eliminated.
  484:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     /* on/off PEC calculation */
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 28
-
-
  485:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     uint32_t ctl = 0U;
- 1014              		.loc 1 485 5 view .LVU268
+ 1016              		.loc 1 485 5 view .LVU270
  486:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     
  487:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl = I2C_CTL0(i2c_periph);
- 1015              		.loc 1 487 5 view .LVU269
- 1016              		.loc 1 487 9 is_stmt 0 view .LVU270
- 1017 0000 0368     		ldr	r3, [r0]
- 1018              	.LVL97:
+ 1017              		.loc 1 487 5 view .LVU271
+ 1018              		.loc 1 487 9 is_stmt 0 view .LVU272
+ 1019 0000 0368     		ldr	r3, [r0]
+ 1020              	.LVL97:
  488:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl &= ~(I2C_CTL0_PECEN);
- 1019              		.loc 1 488 5 is_stmt 1 view .LVU271
- 1020              		.loc 1 488 9 is_stmt 0 view .LVU272
- 1021 0002 23F02003 		bic	r3, r3, #32
- 1022              	.LVL98:
+ 1021              		.loc 1 488 5 is_stmt 1 view .LVU273
+ 1022              		.loc 1 488 9 is_stmt 0 view .LVU274
+ 1023 0002 23F02003 		bic	r3, r3, #32
+ 1024              	.LVL98:
  489:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl |= pecstate;
- 1023              		.loc 1 489 5 is_stmt 1 view .LVU273
- 1024              		.loc 1 489 9 is_stmt 0 view .LVU274
- 1025 0006 1943     		orrs	r1, r1, r3
- 1026              	.LVL99:
+ 1025              		.loc 1 489 5 is_stmt 1 view .LVU275
+ 1026              		.loc 1 489 9 is_stmt 0 view .LVU276
+ 1027 0006 0B43     		orrs	r3, r3, r1
+ 1028              	.LVL99:
  490:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     I2C_CTL0(i2c_periph) = ctl;
- 1027              		.loc 1 490 5 is_stmt 1 view .LVU275
- 1028              		.loc 1 490 26 is_stmt 0 view .LVU276
- 1029 0008 0160     		str	r1, [r0]
+ 1029              		.loc 1 490 5 is_stmt 1 view .LVU277
+ 1030              		.loc 1 490 26 is_stmt 0 view .LVU278
+ 1031 0008 0360     		str	r3, [r0]
  491:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 1030              		.loc 1 491 1 view .LVU277
- 1031 000a 7047     		bx	lr
- 1032              		.cfi_endproc
- 1033              	.LFE136:
- 1035              		.section	.text.i2c_pec_transfer_enable,"ax",%progbits
- 1036              		.align	1
- 1037              		.global	i2c_pec_transfer_enable
- 1038              		.syntax unified
- 1039              		.thumb
- 1040              		.thumb_func
- 1041              		.fpu fpv4-sp-d16
- 1043              	i2c_pec_transfer_enable:
- 1044              	.LVL100:
- 1045              	.LFB137:
+ 1032              		.loc 1 491 1 view .LVU279
+ 1033 000a 7047     		bx	lr
+ 1034              		.cfi_endproc
+ 1035              	.LFE136:
+ 1037              		.section	.text.i2c_pec_transfer_enable,"ax",%progbits
+ 1038              		.align	1
+ 1039              		.global	i2c_pec_transfer_enable
+ 1040              		.syntax unified
+ 1041              		.thumb
+ 1042              		.thumb_func
+ 1043              		.fpu fpv4-sp-d16
+ 1045              	i2c_pec_transfer_enable:
+ 1046              	.LVL100:
+ 1047              	.LFB137:
  492:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  493:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  494:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      I2C whether to transfer PEC value
@@ -1671,52 +1674,52 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  502:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
  503:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** void i2c_pec_transfer_enable(uint32_t i2c_periph, uint32_t pecpara)
  504:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 1046              		.loc 1 504 1 is_stmt 1 view -0
- 1047              		.cfi_startproc
- 1048              		@ args = 0, pretend = 0, frame = 0
- 1049              		@ frame_needed = 0, uses_anonymous_args = 0
- 1050              		@ link register save eliminated.
+ 1048              		.loc 1 504 1 is_stmt 1 view -0
+ 1049              		.cfi_startproc
+ 1050              		@ args = 0, pretend = 0, frame = 0
+ 1051              		@ frame_needed = 0, uses_anonymous_args = 0
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 29
+
+
+ 1052              		@ link register save eliminated.
  505:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     /* whether to transfer PEC */
  506:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     uint32_t ctl = 0U;
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 29
-
-
- 1051              		.loc 1 506 5 view .LVU279
+ 1053              		.loc 1 506 5 view .LVU281
  507:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     
  508:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl = I2C_CTL0(i2c_periph);
- 1052              		.loc 1 508 5 view .LVU280
- 1053              		.loc 1 508 9 is_stmt 0 view .LVU281
- 1054 0000 0368     		ldr	r3, [r0]
- 1055              	.LVL101:
+ 1054              		.loc 1 508 5 view .LVU282
+ 1055              		.loc 1 508 9 is_stmt 0 view .LVU283
+ 1056 0000 0368     		ldr	r3, [r0]
+ 1057              	.LVL101:
  509:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl &= ~(I2C_CTL0_PECTRANS);
- 1056              		.loc 1 509 5 is_stmt 1 view .LVU282
- 1057              		.loc 1 509 9 is_stmt 0 view .LVU283
- 1058 0002 23F48053 		bic	r3, r3, #4096
- 1059              	.LVL102:
+ 1058              		.loc 1 509 5 is_stmt 1 view .LVU284
+ 1059              		.loc 1 509 9 is_stmt 0 view .LVU285
+ 1060 0002 23F48053 		bic	r3, r3, #4096
+ 1061              	.LVL102:
  510:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl |= pecpara;
- 1060              		.loc 1 510 5 is_stmt 1 view .LVU284
- 1061              		.loc 1 510 9 is_stmt 0 view .LVU285
- 1062 0006 1943     		orrs	r1, r1, r3
- 1063              	.LVL103:
+ 1062              		.loc 1 510 5 is_stmt 1 view .LVU286
+ 1063              		.loc 1 510 9 is_stmt 0 view .LVU287
+ 1064 0006 0B43     		orrs	r3, r3, r1
+ 1065              	.LVL103:
  511:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     I2C_CTL0(i2c_periph) = ctl;
- 1064              		.loc 1 511 5 is_stmt 1 view .LVU286
- 1065              		.loc 1 511 26 is_stmt 0 view .LVU287
- 1066 0008 0160     		str	r1, [r0]
+ 1066              		.loc 1 511 5 is_stmt 1 view .LVU288
+ 1067              		.loc 1 511 26 is_stmt 0 view .LVU289
+ 1068 0008 0360     		str	r3, [r0]
  512:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 1067              		.loc 1 512 1 view .LVU288
- 1068 000a 7047     		bx	lr
- 1069              		.cfi_endproc
- 1070              	.LFE137:
- 1072              		.section	.text.i2c_pec_value_get,"ax",%progbits
- 1073              		.align	1
- 1074              		.global	i2c_pec_value_get
- 1075              		.syntax unified
- 1076              		.thumb
- 1077              		.thumb_func
- 1078              		.fpu fpv4-sp-d16
- 1080              	i2c_pec_value_get:
- 1081              	.LVL104:
- 1082              	.LFB138:
+ 1069              		.loc 1 512 1 view .LVU290
+ 1070 000a 7047     		bx	lr
+ 1071              		.cfi_endproc
+ 1072              	.LFE137:
+ 1074              		.section	.text.i2c_pec_value_get,"ax",%progbits
+ 1075              		.align	1
+ 1076              		.global	i2c_pec_value_get
+ 1077              		.syntax unified
+ 1078              		.thumb
+ 1079              		.thumb_func
+ 1080              		.fpu fpv4-sp-d16
+ 1082              	i2c_pec_value_get:
+ 1083              	.LVL104:
+ 1084              	.LFB138:
  513:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  514:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  515:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      get packet error checking value 
@@ -1726,35 +1729,35 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  519:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
  520:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** uint8_t i2c_pec_value_get(uint32_t i2c_periph)
  521:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 1083              		.loc 1 521 1 is_stmt 1 view -0
- 1084              		.cfi_startproc
- 1085              		@ args = 0, pretend = 0, frame = 0
- 1086              		@ frame_needed = 0, uses_anonymous_args = 0
- 1087              		@ link register save eliminated.
+ 1085              		.loc 1 521 1 is_stmt 1 view -0
+ 1086              		.cfi_startproc
+ 1087              		@ args = 0, pretend = 0, frame = 0
+ 1088              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1089              		@ link register save eliminated.
  522:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     return (uint8_t)((I2C_STAT1(i2c_periph) & I2C_STAT1_PECV)>>STAT1_PECV_OFFSET);
- 1088              		.loc 1 522 5 view .LVU290
- 1089              		.loc 1 522 23 is_stmt 0 view .LVU291
- 1090 0000 8069     		ldr	r0, [r0, #24]
- 1091              	.LVL105:
+ 1090              		.loc 1 522 5 view .LVU292
+ 1091              		.loc 1 522 23 is_stmt 0 view .LVU293
+ 1092 0000 8069     		ldr	r0, [r0, #24]
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 30
+
+
+ 1093              	.LVL105:
  523:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 1092              		.loc 1 523 1 view .LVU292
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 30
-
-
- 1093 0002 C0F30720 		ubfx	r0, r0, #8, #8
- 1094 0006 7047     		bx	lr
- 1095              		.cfi_endproc
- 1096              	.LFE138:
- 1098              		.section	.text.i2c_smbus_issue_alert,"ax",%progbits
- 1099              		.align	1
- 1100              		.global	i2c_smbus_issue_alert
- 1101              		.syntax unified
- 1102              		.thumb
- 1103              		.thumb_func
- 1104              		.fpu fpv4-sp-d16
- 1106              	i2c_smbus_issue_alert:
- 1107              	.LVL106:
- 1108              	.LFB139:
+ 1094              		.loc 1 523 1 view .LVU294
+ 1095 0002 C0F30720 		ubfx	r0, r0, #8, #8
+ 1096 0006 7047     		bx	lr
+ 1097              		.cfi_endproc
+ 1098              	.LFE138:
+ 1100              		.section	.text.i2c_smbus_issue_alert,"ax",%progbits
+ 1101              		.align	1
+ 1102              		.global	i2c_smbus_issue_alert
+ 1103              		.syntax unified
+ 1104              		.thumb
+ 1105              		.thumb_func
+ 1106              		.fpu fpv4-sp-d16
+ 1108              	i2c_smbus_issue_alert:
+ 1109              	.LVL106:
+ 1110              	.LFB139:
  524:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  525:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  526:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      I2C issue alert through SMBA pin 
@@ -1768,52 +1771,52 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  534:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
  535:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** void i2c_smbus_issue_alert(uint32_t i2c_periph, uint32_t smbuspara)
  536:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 1109              		.loc 1 536 1 is_stmt 1 view -0
- 1110              		.cfi_startproc
- 1111              		@ args = 0, pretend = 0, frame = 0
- 1112              		@ frame_needed = 0, uses_anonymous_args = 0
- 1113              		@ link register save eliminated.
+ 1111              		.loc 1 536 1 is_stmt 1 view -0
+ 1112              		.cfi_startproc
+ 1113              		@ args = 0, pretend = 0, frame = 0
+ 1114              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1115              		@ link register save eliminated.
  537:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     /* issue alert through SMBA pin configure*/
  538:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     uint32_t ctl = 0U;
- 1114              		.loc 1 538 5 view .LVU294
+ 1116              		.loc 1 538 5 view .LVU296
  539:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     
  540:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl = I2C_CTL0(i2c_periph);
- 1115              		.loc 1 540 5 view .LVU295
- 1116              		.loc 1 540 9 is_stmt 0 view .LVU296
- 1117 0000 0368     		ldr	r3, [r0]
- 1118              	.LVL107:
+ 1117              		.loc 1 540 5 view .LVU297
+ 1118              		.loc 1 540 9 is_stmt 0 view .LVU298
+ 1119 0000 0368     		ldr	r3, [r0]
+ 1120              	.LVL107:
  541:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl &= ~(I2C_CTL0_SALT);
- 1119              		.loc 1 541 5 is_stmt 1 view .LVU297
- 1120              		.loc 1 541 9 is_stmt 0 view .LVU298
- 1121 0002 23F40053 		bic	r3, r3, #8192
- 1122              	.LVL108:
+ 1121              		.loc 1 541 5 is_stmt 1 view .LVU299
+ 1122              		.loc 1 541 9 is_stmt 0 view .LVU300
+ 1123 0002 23F40053 		bic	r3, r3, #8192
+ 1124              	.LVL108:
  542:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl |= smbuspara;
- 1123              		.loc 1 542 5 is_stmt 1 view .LVU299
- 1124              		.loc 1 542 9 is_stmt 0 view .LVU300
- 1125 0006 1943     		orrs	r1, r1, r3
- 1126              	.LVL109:
+ 1125              		.loc 1 542 5 is_stmt 1 view .LVU301
+ 1126              		.loc 1 542 9 is_stmt 0 view .LVU302
+ 1127 0006 0B43     		orrs	r3, r3, r1
+ 1128              	.LVL109:
  543:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     I2C_CTL0(i2c_periph) = ctl;
- 1127              		.loc 1 543 5 is_stmt 1 view .LVU301
- 1128              		.loc 1 543 26 is_stmt 0 view .LVU302
- 1129 0008 0160     		str	r1, [r0]
+ 1129              		.loc 1 543 5 is_stmt 1 view .LVU303
+ 1130              		.loc 1 543 26 is_stmt 0 view .LVU304
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 31
+
+
+ 1131 0008 0360     		str	r3, [r0]
  544:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 1130              		.loc 1 544 1 view .LVU303
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 31
-
-
- 1131 000a 7047     		bx	lr
- 1132              		.cfi_endproc
- 1133              	.LFE139:
- 1135              		.section	.text.i2c_smbus_arp_enable,"ax",%progbits
- 1136              		.align	1
- 1137              		.global	i2c_smbus_arp_enable
- 1138              		.syntax unified
- 1139              		.thumb
- 1140              		.thumb_func
- 1141              		.fpu fpv4-sp-d16
- 1143              	i2c_smbus_arp_enable:
- 1144              	.LVL110:
- 1145              	.LFB140:
+ 1132              		.loc 1 544 1 view .LVU305
+ 1133 000a 7047     		bx	lr
+ 1134              		.cfi_endproc
+ 1135              	.LFE139:
+ 1137              		.section	.text.i2c_smbus_arp_enable,"ax",%progbits
+ 1138              		.align	1
+ 1139              		.global	i2c_smbus_arp_enable
+ 1140              		.syntax unified
+ 1141              		.thumb
+ 1142              		.thumb_func
+ 1143              		.fpu fpv4-sp-d16
+ 1145              	i2c_smbus_arp_enable:
+ 1146              	.LVL110:
+ 1147              	.LFB140:
  545:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  546:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  547:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      enable or disable I2C ARP protocol in SMBus switch
@@ -1827,52 +1830,52 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  555:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
  556:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** void i2c_smbus_arp_enable(uint32_t i2c_periph, uint32_t arpstate)
  557:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 1146              		.loc 1 557 1 is_stmt 1 view -0
- 1147              		.cfi_startproc
- 1148              		@ args = 0, pretend = 0, frame = 0
- 1149              		@ frame_needed = 0, uses_anonymous_args = 0
- 1150              		@ link register save eliminated.
+ 1148              		.loc 1 557 1 is_stmt 1 view -0
+ 1149              		.cfi_startproc
+ 1150              		@ args = 0, pretend = 0, frame = 0
+ 1151              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1152              		@ link register save eliminated.
  558:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     /* enable or disable I2C ARP protocol*/
  559:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     uint32_t ctl = 0U;
- 1151              		.loc 1 559 5 view .LVU305
+ 1153              		.loc 1 559 5 view .LVU307
  560:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     
  561:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl = I2C_CTL0(i2c_periph);
- 1152              		.loc 1 561 5 view .LVU306
- 1153              		.loc 1 561 9 is_stmt 0 view .LVU307
- 1154 0000 0368     		ldr	r3, [r0]
- 1155              	.LVL111:
+ 1154              		.loc 1 561 5 view .LVU308
+ 1155              		.loc 1 561 9 is_stmt 0 view .LVU309
+ 1156 0000 0368     		ldr	r3, [r0]
+ 1157              	.LVL111:
  562:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl &= ~(I2C_CTL0_ARPEN);
- 1156              		.loc 1 562 5 is_stmt 1 view .LVU308
- 1157              		.loc 1 562 9 is_stmt 0 view .LVU309
- 1158 0002 23F01003 		bic	r3, r3, #16
- 1159              	.LVL112:
+ 1158              		.loc 1 562 5 is_stmt 1 view .LVU310
+ 1159              		.loc 1 562 9 is_stmt 0 view .LVU311
+ 1160 0002 23F01003 		bic	r3, r3, #16
+ 1161              	.LVL112:
  563:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     ctl |= arpstate;
- 1160              		.loc 1 563 5 is_stmt 1 view .LVU310
- 1161              		.loc 1 563 9 is_stmt 0 view .LVU311
- 1162 0006 1943     		orrs	r1, r1, r3
- 1163              	.LVL113:
+ 1162              		.loc 1 563 5 is_stmt 1 view .LVU312
+ 1163              		.loc 1 563 9 is_stmt 0 view .LVU313
+ 1164 0006 0B43     		orrs	r3, r3, r1
+ 1165              	.LVL113:
  564:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     I2C_CTL0(i2c_periph) = ctl;
- 1164              		.loc 1 564 5 is_stmt 1 view .LVU312
- 1165              		.loc 1 564 26 is_stmt 0 view .LVU313
- 1166 0008 0160     		str	r1, [r0]
+ 1166              		.loc 1 564 5 is_stmt 1 view .LVU314
+ 1167              		.loc 1 564 26 is_stmt 0 view .LVU315
+ 1168 0008 0360     		str	r3, [r0]
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 32
+
+
  565:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 1167              		.loc 1 565 1 view .LVU314
- 1168 000a 7047     		bx	lr
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 32
-
-
- 1169              		.cfi_endproc
- 1170              	.LFE140:
- 1172              		.section	.text.i2c_flag_get,"ax",%progbits
- 1173              		.align	1
- 1174              		.global	i2c_flag_get
- 1175              		.syntax unified
- 1176              		.thumb
- 1177              		.thumb_func
- 1178              		.fpu fpv4-sp-d16
- 1180              	i2c_flag_get:
- 1181              	.LVL114:
- 1182              	.LFB141:
+ 1169              		.loc 1 565 1 view .LVU316
+ 1170 000a 7047     		bx	lr
+ 1171              		.cfi_endproc
+ 1172              	.LFE140:
+ 1174              		.section	.text.i2c_flag_get,"ax",%progbits
+ 1175              		.align	1
+ 1176              		.global	i2c_flag_get
+ 1177              		.syntax unified
+ 1178              		.thumb
+ 1179              		.thumb_func
+ 1180              		.fpu fpv4-sp-d16
+ 1182              	i2c_flag_get:
+ 1183              	.LVL114:
+ 1184              	.LFB141:
  566:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  567:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  568:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      check I2C flag is set or not
@@ -1905,56 +1908,56 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  595:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
  596:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** FlagStatus i2c_flag_get(uint32_t i2c_periph, i2c_flag_enum flag)
  597:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 1183              		.loc 1 597 1 is_stmt 1 view -0
- 1184              		.cfi_startproc
- 1185              		@ args = 0, pretend = 0, frame = 0
- 1186              		@ frame_needed = 0, uses_anonymous_args = 0
- 1187              		@ link register save eliminated.
+ 1185              		.loc 1 597 1 is_stmt 1 view -0
+ 1186              		.cfi_startproc
+ 1187              		@ args = 0, pretend = 0, frame = 0
+ 1188              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1189              		@ link register save eliminated.
  598:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     if(RESET != (I2C_REG_VAL(i2c_periph, flag) & BIT(I2C_BIT_POS(flag)))){
- 1188              		.loc 1 598 5 view .LVU316
- 1189              		.loc 1 598 18 is_stmt 0 view .LVU317
- 1190 0000 8B09     		lsrs	r3, r1, #6
- 1191 0002 1B58     		ldr	r3, [r3, r0]
- 1192              		.loc 1 598 50 view .LVU318
- 1193 0004 01F01F01 		and	r1, r1, #31
- 1194              	.LVL115:
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 33
+ 1190              		.loc 1 598 5 view .LVU318
+ 1191              		.loc 1 598 18 is_stmt 0 view .LVU319
+ 1192 0000 8B09     		lsrs	r3, r1, #6
+ 1193 0002 1B58     		ldr	r3, [r3, r0]
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 33
 
 
- 1195              		.loc 1 598 14 view .LVU319
- 1196 0008 23FA01F1 		lsr	r1, r3, r1
- 1197              		.loc 1 598 7 view .LVU320
- 1198 000c 11F0010F 		tst	r1, #1
- 1199 0010 01D0     		beq	.L67
+ 1194              		.loc 1 598 50 view .LVU320
+ 1195 0004 01F01F01 		and	r1, r1, #31
+ 1196              	.LVL115:
+ 1197              		.loc 1 598 14 view .LVU321
+ 1198 0008 23FA01F1 		lsr	r1, r3, r1
+ 1199              		.loc 1 598 7 view .LVU322
+ 1200 000c 11F0010F 		tst	r1, #1
+ 1201 0010 01D0     		beq	.L67
  599:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         return SET;
- 1200              		.loc 1 599 16 view .LVU321
- 1201 0012 0120     		movs	r0, #1
- 1202              	.LVL116:
- 1203              		.loc 1 599 16 view .LVU322
- 1204 0014 7047     		bx	lr
- 1205              	.LVL117:
- 1206              	.L67:
+ 1202              		.loc 1 599 16 view .LVU323
+ 1203 0012 0120     		movs	r0, #1
+ 1204              	.LVL116:
+ 1205              		.loc 1 599 16 view .LVU324
+ 1206 0014 7047     		bx	lr
+ 1207              	.LVL117:
+ 1208              	.L67:
  600:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }else{
  601:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         return RESET;
- 1207              		.loc 1 601 16 view .LVU323
- 1208 0016 0020     		movs	r0, #0
- 1209              	.LVL118:
+ 1209              		.loc 1 601 16 view .LVU325
+ 1210 0016 0020     		movs	r0, #0
+ 1211              	.LVL118:
  602:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }
  603:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 1210              		.loc 1 603 1 view .LVU324
- 1211 0018 7047     		bx	lr
- 1212              		.cfi_endproc
- 1213              	.LFE141:
- 1215              		.section	.text.i2c_flag_clear,"ax",%progbits
- 1216              		.align	1
- 1217              		.global	i2c_flag_clear
- 1218              		.syntax unified
- 1219              		.thumb
- 1220              		.thumb_func
- 1221              		.fpu fpv4-sp-d16
- 1223              	i2c_flag_clear:
- 1224              	.LVL119:
- 1225              	.LFB142:
+ 1212              		.loc 1 603 1 view .LVU326
+ 1213 0018 7047     		bx	lr
+ 1214              		.cfi_endproc
+ 1215              	.LFE141:
+ 1217              		.section	.text.i2c_flag_clear,"ax",%progbits
+ 1218              		.align	1
+ 1219              		.global	i2c_flag_clear
+ 1220              		.syntax unified
+ 1221              		.thumb
+ 1222              		.thumb_func
+ 1223              		.fpu fpv4-sp-d16
+ 1225              	i2c_flag_clear:
+ 1226              	.LVL119:
+ 1227              	.LFB142:
  604:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  605:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  606:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      clear I2C flag
@@ -1974,80 +1977,70 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  620:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
  621:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** void i2c_flag_clear(uint32_t i2c_periph, i2c_flag_enum flag)
  622:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 1226              		.loc 1 622 1 is_stmt 1 view -0
- 1227              		.cfi_startproc
- 1228              		@ args = 0, pretend = 0, frame = 0
- 1229              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 34
+ 1228              		.loc 1 622 1 is_stmt 1 view -0
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 34
 
 
- 1230              		@ link register save eliminated.
+ 1229              		.cfi_startproc
+ 1230              		@ args = 0, pretend = 0, frame = 0
+ 1231              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1232              		@ link register save eliminated.
  623:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     if(I2C_FLAG_ADDSEND == flag){
- 1231              		.loc 1 623 5 view .LVU326
- 1232              		.loc 1 623 7 is_stmt 0 view .LVU327
- 1233 0000 40F20153 		movw	r3, #1281
- 1234 0004 9942     		cmp	r1, r3
- 1235 0006 0DD0     		beq	.L74
- 622:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     if(I2C_FLAG_ADDSEND == flag){
- 1236              		.loc 1 622 1 view .LVU328
- 1237 0008 10B4     		push	{r4}
- 1238              	.LCFI4:
- 1239              		.cfi_def_cfa_offset 4
- 1240              		.cfi_offset 4, -4
+ 1233              		.loc 1 623 5 view .LVU328
+ 1234              		.loc 1 623 7 is_stmt 0 view .LVU329
+ 1235 0000 40F20153 		movw	r3, #1281
+ 1236 0004 9942     		cmp	r1, r3
+ 1237 0006 0DD0     		beq	.L71
  624:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         /* read I2C_STAT0 and then read I2C_STAT1 to clear ADDSEND */
  625:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         I2C_STAT0(i2c_periph);
  626:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         I2C_STAT1(i2c_periph);
  627:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }else{
  628:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         I2C_REG_VAL(i2c_periph, flag) &= ~BIT(I2C_BIT_POS(flag));
- 1241              		.loc 1 628 9 is_stmt 1 view .LVU329
- 1242              		.loc 1 628 39 is_stmt 0 view .LVU330
- 1243 000a 8C09     		lsrs	r4, r1, #6
- 1244 000c 2358     		ldr	r3, [r4, r0]
- 1245              		.loc 1 628 43 view .LVU331
- 1246 000e 01F01F01 		and	r1, r1, #31
- 1247              	.LVL120:
- 1248              		.loc 1 628 43 view .LVU332
- 1249 0012 0122     		movs	r2, #1
- 1250 0014 02FA01F1 		lsl	r1, r2, r1
- 1251              		.loc 1 628 39 view .LVU333
- 1252 0018 23EA0103 		bic	r3, r3, r1
- 1253 001c 2350     		str	r3, [r4, r0]
+ 1238              		.loc 1 628 9 is_stmt 1 view .LVU330
+ 1239              		.loc 1 628 39 is_stmt 0 view .LVU331
+ 1240 0008 4FEA911C 		lsr	ip, r1, #6
+ 1241 000c 5CF80030 		ldr	r3, [ip, r0]
+ 1242              		.loc 1 628 43 view .LVU332
+ 1243 0010 01F01F01 		and	r1, r1, #31
+ 1244              	.LVL120:
+ 1245              		.loc 1 628 43 view .LVU333
+ 1246 0014 0122     		movs	r2, #1
+ 1247 0016 02FA01F1 		lsl	r1, r2, r1
+ 1248              		.loc 1 628 39 view .LVU334
+ 1249 001a 23EA0101 		bic	r1, r3, r1
+ 1250 001e 4CF80010 		str	r1, [ip, r0]
  629:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }
  630:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 1254              		.loc 1 630 1 view .LVU334
- 1255 001e 5DF8044B 		ldr	r4, [sp], #4
- 1256              	.LCFI5:
- 1257              		.cfi_restore 4
- 1258              		.cfi_def_cfa_offset 0
- 1259 0022 7047     		bx	lr
- 1260              	.LVL121:
- 1261              	.L74:
+ 1251              		.loc 1 630 1 view .LVU335
+ 1252 0022 7047     		bx	lr
+ 1253              	.LVL121:
+ 1254              	.L71:
  625:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         I2C_STAT1(i2c_periph);
- 1262              		.loc 1 625 9 is_stmt 1 view .LVU335
- 1263 0024 4369     		ldr	r3, [r0, #20]
+ 1255              		.loc 1 625 9 is_stmt 1 view .LVU336
+ 1256 0024 4369     		ldr	r3, [r0, #20]
  626:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }else{
- 1264              		.loc 1 626 9 view .LVU336
- 1265 0026 8369     		ldr	r3, [r0, #24]
- 1266 0028 7047     		bx	lr
- 1267              		.cfi_endproc
- 1268              	.LFE142:
- 1270              		.section	.text.i2c_interrupt_enable,"ax",%progbits
- 1271              		.align	1
- 1272              		.global	i2c_interrupt_enable
- 1273              		.syntax unified
- 1274              		.thumb
- 1275              		.thumb_func
- 1276              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 35
-
-
- 1278              	i2c_interrupt_enable:
- 1279              	.LVL122:
- 1280              	.LFB143:
+ 1257              		.loc 1 626 9 view .LVU337
+ 1258 0026 8369     		ldr	r3, [r0, #24]
+ 1259 0028 7047     		bx	lr
+ 1260              		.cfi_endproc
+ 1261              	.LFE142:
+ 1263              		.section	.text.i2c_interrupt_enable,"ax",%progbits
+ 1264              		.align	1
+ 1265              		.global	i2c_interrupt_enable
+ 1266              		.syntax unified
+ 1267              		.thumb
+ 1268              		.thumb_func
+ 1269              		.fpu fpv4-sp-d16
+ 1271              	i2c_interrupt_enable:
+ 1272              	.LVL122:
+ 1273              	.LFB143:
  631:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  632:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  633:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      enable I2C interrupt
  634:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \param[in]  i2c_periph: I2Cx(x=0,1)
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 35
+
+
  635:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \param[in]  interrupt: I2C interrupts, refer to i2c_interrupt_enum
  636:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****                 only one parameter can be selected which is shown as below:
  637:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****       \arg        I2C_INT_ERR: error interrupt enable 
@@ -2058,52 +2051,40 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  642:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
  643:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** void i2c_interrupt_enable(uint32_t i2c_periph, i2c_interrupt_enum interrupt)
  644:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 1281              		.loc 1 644 1 view -0
- 1282              		.cfi_startproc
- 1283              		@ args = 0, pretend = 0, frame = 0
- 1284              		@ frame_needed = 0, uses_anonymous_args = 0
- 1285              		@ link register save eliminated.
- 1286              		.loc 1 644 1 is_stmt 0 view .LVU338
- 1287 0000 10B4     		push	{r4}
- 1288              	.LCFI6:
- 1289              		.cfi_def_cfa_offset 4
- 1290              		.cfi_offset 4, -4
+ 1274              		.loc 1 644 1 view -0
+ 1275              		.cfi_startproc
+ 1276              		@ args = 0, pretend = 0, frame = 0
+ 1277              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1278              		@ link register save eliminated.
  645:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     I2C_REG_VAL(i2c_periph, interrupt) |= BIT(I2C_BIT_POS(interrupt));
- 1291              		.loc 1 645 5 is_stmt 1 view .LVU339
- 1292              		.loc 1 645 40 is_stmt 0 view .LVU340
- 1293 0002 8C09     		lsrs	r4, r1, #6
- 1294 0004 2358     		ldr	r3, [r4, r0]
- 1295              		.loc 1 645 43 view .LVU341
- 1296 0006 01F01F01 		and	r1, r1, #31
- 1297              	.LVL123:
- 1298              		.loc 1 645 43 view .LVU342
- 1299 000a 0122     		movs	r2, #1
- 1300 000c 02FA01F1 		lsl	r1, r2, r1
- 1301              		.loc 1 645 40 view .LVU343
- 1302 0010 0B43     		orrs	r3, r3, r1
- 1303 0012 2350     		str	r3, [r4, r0]
+ 1279              		.loc 1 645 5 view .LVU339
+ 1280              		.loc 1 645 40 is_stmt 0 view .LVU340
+ 1281 0000 4FEA911C 		lsr	ip, r1, #6
+ 1282 0004 5CF80030 		ldr	r3, [ip, r0]
+ 1283              		.loc 1 645 43 view .LVU341
+ 1284 0008 01F01F01 		and	r1, r1, #31
+ 1285              	.LVL123:
+ 1286              		.loc 1 645 43 view .LVU342
+ 1287 000c 0122     		movs	r2, #1
+ 1288 000e 02FA01F1 		lsl	r1, r2, r1
+ 1289              		.loc 1 645 40 view .LVU343
+ 1290 0012 1943     		orrs	r1, r1, r3
+ 1291 0014 4CF80010 		str	r1, [ip, r0]
  646:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 1304              		.loc 1 646 1 view .LVU344
- 1305 0014 5DF8044B 		ldr	r4, [sp], #4
- 1306              	.LCFI7:
- 1307              		.cfi_restore 4
- 1308              		.cfi_def_cfa_offset 0
- 1309 0018 7047     		bx	lr
- 1310              		.cfi_endproc
- 1311              	.LFE143:
- 1313              		.section	.text.i2c_interrupt_disable,"ax",%progbits
- 1314              		.align	1
- 1315              		.global	i2c_interrupt_disable
- 1316              		.syntax unified
- 1317              		.thumb
- 1318              		.thumb_func
- 1319              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 36
-
-
- 1321              	i2c_interrupt_disable:
- 1322              	.LVL124:
- 1323              	.LFB144:
+ 1292              		.loc 1 646 1 view .LVU344
+ 1293 0018 7047     		bx	lr
+ 1294              		.cfi_endproc
+ 1295              	.LFE143:
+ 1297              		.section	.text.i2c_interrupt_disable,"ax",%progbits
+ 1298              		.align	1
+ 1299              		.global	i2c_interrupt_disable
+ 1300              		.syntax unified
+ 1301              		.thumb
+ 1302              		.thumb_func
+ 1303              		.fpu fpv4-sp-d16
+ 1305              	i2c_interrupt_disable:
+ 1306              	.LVL124:
+ 1307              	.LFB144:
  647:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  648:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  649:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      disable I2C interrupt
@@ -2117,53 +2098,44 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  657:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \retval     none
  658:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
  659:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** void i2c_interrupt_disable(uint32_t i2c_periph, i2c_interrupt_enum interrupt)
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 36
+
+
  660:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 1324              		.loc 1 660 1 is_stmt 1 view -0
- 1325              		.cfi_startproc
- 1326              		@ args = 0, pretend = 0, frame = 0
- 1327              		@ frame_needed = 0, uses_anonymous_args = 0
- 1328              		@ link register save eliminated.
- 1329              		.loc 1 660 1 is_stmt 0 view .LVU346
- 1330 0000 10B4     		push	{r4}
- 1331              	.LCFI8:
- 1332              		.cfi_def_cfa_offset 4
- 1333              		.cfi_offset 4, -4
+ 1308              		.loc 1 660 1 is_stmt 1 view -0
+ 1309              		.cfi_startproc
+ 1310              		@ args = 0, pretend = 0, frame = 0
+ 1311              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1312              		@ link register save eliminated.
  661:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     I2C_REG_VAL(i2c_periph, interrupt) &= ~BIT(I2C_BIT_POS(interrupt));
- 1334              		.loc 1 661 5 is_stmt 1 view .LVU347
- 1335              		.loc 1 661 40 is_stmt 0 view .LVU348
- 1336 0002 8C09     		lsrs	r4, r1, #6
- 1337 0004 2358     		ldr	r3, [r4, r0]
- 1338              		.loc 1 661 44 view .LVU349
- 1339 0006 01F01F01 		and	r1, r1, #31
- 1340              	.LVL125:
- 1341              		.loc 1 661 44 view .LVU350
- 1342 000a 0122     		movs	r2, #1
- 1343 000c 02FA01F1 		lsl	r1, r2, r1
- 1344              		.loc 1 661 40 view .LVU351
- 1345 0010 23EA0103 		bic	r3, r3, r1
- 1346 0014 2350     		str	r3, [r4, r0]
+ 1313              		.loc 1 661 5 view .LVU346
+ 1314              		.loc 1 661 40 is_stmt 0 view .LVU347
+ 1315 0000 4FEA911C 		lsr	ip, r1, #6
+ 1316 0004 5CF80030 		ldr	r3, [ip, r0]
+ 1317              		.loc 1 661 44 view .LVU348
+ 1318 0008 01F01F01 		and	r1, r1, #31
+ 1319              	.LVL125:
+ 1320              		.loc 1 661 44 view .LVU349
+ 1321 000c 0122     		movs	r2, #1
+ 1322 000e 02FA01F1 		lsl	r1, r2, r1
+ 1323              		.loc 1 661 40 view .LVU350
+ 1324 0012 23EA0101 		bic	r1, r3, r1
+ 1325 0016 4CF80010 		str	r1, [ip, r0]
  662:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 1347              		.loc 1 662 1 view .LVU352
- 1348 0016 5DF8044B 		ldr	r4, [sp], #4
- 1349              	.LCFI9:
- 1350              		.cfi_restore 4
- 1351              		.cfi_def_cfa_offset 0
- 1352 001a 7047     		bx	lr
- 1353              		.cfi_endproc
- 1354              	.LFE144:
- 1356              		.section	.text.i2c_interrupt_flag_get,"ax",%progbits
- 1357              		.align	1
- 1358              		.global	i2c_interrupt_flag_get
- 1359              		.syntax unified
- 1360              		.thumb
- 1361              		.thumb_func
- 1362              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 37
-
-
- 1364              	i2c_interrupt_flag_get:
- 1365              	.LVL126:
- 1366              	.LFB145:
+ 1326              		.loc 1 662 1 view .LVU351
+ 1327 001a 7047     		bx	lr
+ 1328              		.cfi_endproc
+ 1329              	.LFE144:
+ 1331              		.section	.text.i2c_interrupt_flag_get,"ax",%progbits
+ 1332              		.align	1
+ 1333              		.global	i2c_interrupt_flag_get
+ 1334              		.syntax unified
+ 1335              		.thumb
+ 1336              		.thumb_func
+ 1337              		.fpu fpv4-sp-d16
+ 1339              	i2c_interrupt_flag_get:
+ 1340              	.LVL126:
+ 1341              	.LFB145:
  663:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  664:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  665:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      check I2C interrupt flag
@@ -2186,75 +2158,77 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  682:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****       \arg        I2C_INT_FLAG_SMBALT: SMBus Alert status interrupt flag
  683:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \param[out] none
  684:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \retval     FlagStatus: SET or RESET
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 37
+
+
  685:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
  686:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** FlagStatus i2c_interrupt_flag_get(uint32_t i2c_periph, i2c_interrupt_flag_enum int_flag)
  687:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 1367              		.loc 1 687 1 is_stmt 1 view -0
- 1368              		.cfi_startproc
- 1369              		@ args = 0, pretend = 0, frame = 0
- 1370              		@ frame_needed = 0, uses_anonymous_args = 0
- 1371              		@ link register save eliminated.
- 1372              		.loc 1 687 1 is_stmt 0 view .LVU354
- 1373 0000 30B4     		push	{r4, r5}
- 1374              	.LCFI10:
- 1375              		.cfi_def_cfa_offset 8
- 1376              		.cfi_offset 4, -8
- 1377              		.cfi_offset 5, -4
+ 1342              		.loc 1 687 1 is_stmt 1 view -0
+ 1343              		.cfi_startproc
+ 1344              		@ args = 0, pretend = 0, frame = 0
+ 1345              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1346              		@ link register save eliminated.
+ 1347              		.loc 1 687 1 is_stmt 0 view .LVU353
+ 1348 0000 10B4     		push	{r4}
+ 1349              	.LCFI4:
+ 1350              		.cfi_def_cfa_offset 4
+ 1351              		.cfi_offset 4, -4
  688:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     uint32_t intenable = 0U, flagstatus = 0U, bufie;
- 1378              		.loc 1 688 5 is_stmt 1 view .LVU355
- 1379              	.LVL127:
+ 1352              		.loc 1 688 5 is_stmt 1 view .LVU354
+ 1353              	.LVL127:
  689:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     
  690:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     /* check BUFIE */
  691:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     bufie = I2C_CTL1(i2c_periph)&I2C_CTL1_BUFIE;
- 1380              		.loc 1 691 5 view .LVU356
- 1381              		.loc 1 691 13 is_stmt 0 view .LVU357
- 1382 0002 4568     		ldr	r5, [r0, #4]
- 1383              		.loc 1 691 11 view .LVU358
- 1384 0004 05F48065 		and	r5, r5, #1024
- 1385              	.LVL128:
+ 1354              		.loc 1 691 5 view .LVU355
+ 1355              		.loc 1 691 13 is_stmt 0 view .LVU356
+ 1356 0002 4468     		ldr	r4, [r0, #4]
+ 1357              		.loc 1 691 11 view .LVU357
+ 1358 0004 04F48064 		and	r4, r4, #1024
+ 1359              	.LVL128:
  692:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     
  693:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     /* get the interrupt enable bit status */
  694:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     intenable = (I2C_REG_VAL(i2c_periph, int_flag) & BIT(I2C_BIT_POS(int_flag)));
- 1386              		.loc 1 694 5 is_stmt 1 view .LVU359
- 1387              		.loc 1 694 18 is_stmt 0 view .LVU360
- 1388 0008 C1F38913 		ubfx	r3, r1, #6, #10
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 38
-
-
- 1389 000c 1A58     		ldr	r2, [r3, r0]
- 1390              		.loc 1 694 54 view .LVU361
- 1391 000e 01F01F04 		and	r4, r1, #31
- 1392 0012 0123     		movs	r3, #1
- 1393 0014 03FA04F4 		lsl	r4, r3, r4
- 1394              		.loc 1 694 15 view .LVU362
- 1395 0018 2240     		ands	r2, r2, r4
- 1396              	.LVL129:
+ 1360              		.loc 1 694 5 is_stmt 1 view .LVU358
+ 1361              		.loc 1 694 18 is_stmt 0 view .LVU359
+ 1362 0008 C1F38913 		ubfx	r3, r1, #6, #10
+ 1363 000c 1A58     		ldr	r2, [r3, r0]
+ 1364              		.loc 1 694 54 view .LVU360
+ 1365 000e 01F01F0C 		and	ip, r1, #31
+ 1366 0012 0123     		movs	r3, #1
+ 1367 0014 03FA0CFC 		lsl	ip, r3, ip
+ 1368              		.loc 1 694 15 view .LVU361
+ 1369 0018 02EA0C02 		and	r2, r2, ip
+ 1370              	.LVL129:
  695:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     /* get the corresponding flag bit status */
  696:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     flagstatus = (I2C_REG_VAL2(i2c_periph, int_flag) & BIT(I2C_BIT_POS2(int_flag)));
- 1397              		.loc 1 696 5 is_stmt 1 view .LVU363
- 1398              		.loc 1 696 19 is_stmt 0 view .LVU364
- 1399 001a 8C0D     		lsrs	r4, r1, #22
- 1400 001c 2058     		ldr	r0, [r4, r0]
- 1401              	.LVL130:
- 1402              		.loc 1 696 56 view .LVU365
- 1403 001e C1F30444 		ubfx	r4, r1, #16, #5
- 1404 0022 A340     		lsls	r3, r3, r4
- 1405              		.loc 1 696 16 view .LVU366
- 1406 0024 0340     		ands	r3, r3, r0
- 1407              	.LVL131:
+ 1371              		.loc 1 696 5 is_stmt 1 view .LVU362
+ 1372              		.loc 1 696 19 is_stmt 0 view .LVU363
+ 1373 001c 4FEA915C 		lsr	ip, r1, #22
+ 1374 0020 5CF80000 		ldr	r0, [ip, r0]
+ 1375              	.LVL130:
+ 1376              		.loc 1 696 56 view .LVU364
+ 1377 0024 C1F3044C 		ubfx	ip, r1, #16, #5
+ 1378 0028 03FA0CF3 		lsl	r3, r3, ip
+ 1379              		.loc 1 696 16 view .LVU365
+ 1380 002c 0340     		ands	r3, r3, r0
+ 1381              	.LVL131:
  697:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  698:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     if((I2C_INT_FLAG_RBNE == int_flag) || (I2C_INT_FLAG_TBE == int_flag)){
- 1408              		.loc 1 698 5 is_stmt 1 view .LVU367
- 1409              		.loc 1 698 7 is_stmt 0 view .LVU368
- 1410 0026 0C48     		ldr	r0, .L88
- 1411 0028 8142     		cmp	r1, r0
- 1412 002a 07D0     		beq	.L80
- 1413              		.loc 1 698 40 discriminator 1 view .LVU369
- 1414 002c 00F58030 		add	r0, r0, #65536
- 1415 0030 8142     		cmp	r1, r0
- 1416 0032 03D0     		beq	.L80
- 1417              	.LVL132:
- 1418              	.L81:
+ 1382              		.loc 1 698 5 is_stmt 1 view .LVU366
+ 1383              		.loc 1 698 7 is_stmt 0 view .LVU367
+ 1384 002e 0C48     		ldr	r0, .L83
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 38
+
+
+ 1385 0030 8142     		cmp	r1, r0
+ 1386 0032 07D0     		beq	.L75
+ 1387              		.loc 1 698 40 discriminator 1 view .LVU368
+ 1388 0034 00F58030 		add	r0, r0, #65536
+ 1389 0038 8142     		cmp	r1, r0
+ 1390 003a 03D0     		beq	.L75
+ 1391              	.LVL132:
+ 1392              	.L76:
  699:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         if(intenable && bufie){
  700:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****             intenable = 1U;                       
  701:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }else{
@@ -2262,98 +2236,94 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  703:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }
  704:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }
  705:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     if((0U != flagstatus) && (0U != intenable)){
- 1419              		.loc 1 705 5 is_stmt 1 view .LVU370
- 1420              		.loc 1 705 7 is_stmt 0 view .LVU371
- 1421 0034 53B1     		cbz	r3, .L85
- 1422              		.loc 1 705 27 discriminator 1 view .LVU372
- 1423 0036 62B9     		cbnz	r2, .L86
+ 1393              		.loc 1 705 5 is_stmt 1 view .LVU369
+ 1394              		.loc 1 705 7 is_stmt 0 view .LVU370
+ 1395 003c 53B1     		cbz	r3, .L80
+ 1396              		.loc 1 705 27 discriminator 1 view .LVU371
+ 1397 003e 6AB9     		cbnz	r2, .L81
  706:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         return SET;
  707:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }else{
  708:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         return RESET; 
- 1424              		.loc 1 708 16 view .LVU373
- 1425 0038 0020     		movs	r0, #0
- 1426 003a 08E0     		b	.L82
+ 1398              		.loc 1 708 16 view .LVU372
+ 1399 0040 0020     		movs	r0, #0
+ 1400 0042 08E0     		b	.L77
+ 1401              	.L75:
+ 699:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         if(intenable && bufie){
+ 1402              		.loc 1 699 9 is_stmt 1 view .LVU373
+ 699:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         if(intenable && bufie){
+ 1403              		.loc 1 699 11 is_stmt 0 view .LVU374
+ 1404 0044 12B1     		cbz	r2, .L78
+ 699:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         if(intenable && bufie){
+ 1405              		.loc 1 699 22 discriminator 1 view .LVU375
+ 1406 0046 1CB9     		cbnz	r4, .L79
+ 702:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }
+ 1407              		.loc 1 702 23 view .LVU376
+ 1408 0048 0022     		movs	r2, #0
+ 1409              	.LVL133:
+ 702:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }
+ 1410              		.loc 1 702 23 view .LVU377
+ 1411 004a F7E7     		b	.L76
+ 1412              	.LVL134:
+ 1413              	.L78:
+ 702:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }
+ 1414              		.loc 1 702 23 view .LVU378
+ 1415 004c 0022     		movs	r2, #0
+ 1416              	.LVL135:
+ 702:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }
+ 1417              		.loc 1 702 23 view .LVU379
+ 1418 004e F5E7     		b	.L76
+ 1419              	.LVL136:
+ 1420              	.L79:
+ 700:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }else{
+ 1421              		.loc 1 700 23 view .LVU380
+ 1422 0050 0122     		movs	r2, #1
+ 1423              	.LVL137:
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 39
+
+
+ 700:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }else{
+ 1424              		.loc 1 700 23 view .LVU381
+ 1425 0052 F3E7     		b	.L76
+ 1426              	.LVL138:
  1427              	.L80:
- 699:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         if(intenable && bufie){
- 1428              		.loc 1 699 9 is_stmt 1 view .LVU374
- 699:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         if(intenable && bufie){
- 1429              		.loc 1 699 11 is_stmt 0 view .LVU375
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 39
-
-
- 1430 003c 12B1     		cbz	r2, .L83
- 699:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         if(intenable && bufie){
- 1431              		.loc 1 699 22 discriminator 1 view .LVU376
- 1432 003e 1DB9     		cbnz	r5, .L84
- 702:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }
- 1433              		.loc 1 702 23 view .LVU377
- 1434 0040 0022     		movs	r2, #0
- 1435              	.LVL133:
- 702:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }
- 1436              		.loc 1 702 23 view .LVU378
- 1437 0042 F7E7     		b	.L81
- 1438              	.LVL134:
- 1439              	.L83:
- 702:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }
- 1440              		.loc 1 702 23 view .LVU379
- 1441 0044 0022     		movs	r2, #0
- 1442              	.LVL135:
- 702:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }
- 1443              		.loc 1 702 23 view .LVU380
- 1444 0046 F5E7     		b	.L81
- 1445              	.LVL136:
- 1446              	.L84:
- 700:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }else{
- 1447              		.loc 1 700 23 view .LVU381
- 1448 0048 0122     		movs	r2, #1
- 1449              	.LVL137:
- 700:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         }else{
- 1450              		.loc 1 700 23 view .LVU382
- 1451 004a F3E7     		b	.L81
- 1452              	.LVL138:
- 1453              	.L85:
- 1454              		.loc 1 708 16 view .LVU383
- 1455 004c 0020     		movs	r0, #0
- 1456              	.L82:
+ 1428              		.loc 1 708 16 view .LVU382
+ 1429 0054 0020     		movs	r0, #0
+ 1430              	.L77:
  709:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }
  710:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 1457              		.loc 1 710 1 view .LVU384
- 1458 004e 30BC     		pop	{r4, r5}
- 1459              	.LCFI11:
- 1460              		.cfi_remember_state
- 1461              		.cfi_restore 5
- 1462              		.cfi_restore 4
- 1463              		.cfi_def_cfa_offset 0
- 1464              	.LVL139:
- 1465              		.loc 1 710 1 view .LVU385
- 1466 0050 7047     		bx	lr
- 1467              	.LVL140:
- 1468              	.L86:
- 1469              	.LCFI12:
- 1470              		.cfi_restore_state
+ 1431              		.loc 1 710 1 view .LVU383
+ 1432 0056 5DF8044B 		ldr	r4, [sp], #4
+ 1433              	.LCFI5:
+ 1434              		.cfi_remember_state
+ 1435              		.cfi_restore 4
+ 1436              		.cfi_def_cfa_offset 0
+ 1437              	.LVL139:
+ 1438              		.loc 1 710 1 view .LVU384
+ 1439 005a 7047     		bx	lr
+ 1440              	.LVL140:
+ 1441              	.L81:
+ 1442              	.LCFI6:
+ 1443              		.cfi_restore_state
  706:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }else{
- 1471              		.loc 1 706 16 view .LVU386
- 1472 0052 0120     		movs	r0, #1
- 1473 0054 FBE7     		b	.L82
- 1474              	.L89:
- 1475 0056 00BF     		.align	2
- 1476              	.L88:
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 40
-
-
- 1477 0058 09010605 		.word	84279561
- 1478              		.cfi_endproc
- 1479              	.LFE145:
- 1481              		.section	.text.i2c_interrupt_flag_clear,"ax",%progbits
- 1482              		.align	1
- 1483              		.global	i2c_interrupt_flag_clear
- 1484              		.syntax unified
- 1485              		.thumb
- 1486              		.thumb_func
- 1487              		.fpu fpv4-sp-d16
- 1489              	i2c_interrupt_flag_clear:
- 1490              	.LVL141:
- 1491              	.LFB146:
+ 1444              		.loc 1 706 16 view .LVU385
+ 1445 005c 0120     		movs	r0, #1
+ 1446 005e FAE7     		b	.L77
+ 1447              	.L84:
+ 1448              		.align	2
+ 1449              	.L83:
+ 1450 0060 09010605 		.word	84279561
+ 1451              		.cfi_endproc
+ 1452              	.LFE145:
+ 1454              		.section	.text.i2c_interrupt_flag_clear,"ax",%progbits
+ 1455              		.align	1
+ 1456              		.global	i2c_interrupt_flag_clear
+ 1457              		.syntax unified
+ 1458              		.thumb
+ 1459              		.thumb_func
+ 1460              		.fpu fpv4-sp-d16
+ 1462              	i2c_interrupt_flag_clear:
+ 1463              	.LVL141:
+ 1464              	.LFB146:
  711:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** 
  712:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** /*!
  713:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \brief      clear I2C interrupt flag
@@ -2368,155 +2338,146 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 1
  722:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****       \arg        I2C_INT_FLAG_PECERR: PEC error when receiving data interrupt flag
  723:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****       \arg        I2C_INT_FLAG_SMBTO: timeout signal in SMBus mode interrupt flag
  724:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****       \arg        I2C_INT_FLAG_SMBALT: SMBus Alert status interrupt flag
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 40
+
+
  725:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \param[out] none
  726:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     \retval     none
  727:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** */
  728:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** void i2c_interrupt_flag_clear(uint32_t i2c_periph, i2c_interrupt_flag_enum int_flag)
  729:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** {
- 1492              		.loc 1 729 1 is_stmt 1 view -0
- 1493              		.cfi_startproc
- 1494              		@ args = 0, pretend = 0, frame = 0
- 1495              		@ frame_needed = 0, uses_anonymous_args = 0
- 1496              		@ link register save eliminated.
+ 1465              		.loc 1 729 1 is_stmt 1 view -0
+ 1466              		.cfi_startproc
+ 1467              		@ args = 0, pretend = 0, frame = 0
+ 1468              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1469              		@ link register save eliminated.
  730:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     if(I2C_INT_FLAG_ADDSEND == int_flag){
- 1497              		.loc 1 730 5 view .LVU388
- 1498              		.loc 1 730 7 is_stmt 0 view .LVU389
- 1499 0000 094B     		ldr	r3, .L97
- 1500 0002 9942     		cmp	r1, r3
- 1501 0004 0DD0     		beq	.L96
- 729:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     if(I2C_INT_FLAG_ADDSEND == int_flag){
- 1502              		.loc 1 729 1 view .LVU390
- 1503 0006 10B4     		push	{r4}
- 1504              	.LCFI13:
- 1505              		.cfi_def_cfa_offset 4
- 1506              		.cfi_offset 4, -4
+ 1470              		.loc 1 730 5 view .LVU387
+ 1471              		.loc 1 730 7 is_stmt 0 view .LVU388
+ 1472 0000 094B     		ldr	r3, .L89
+ 1473 0002 9942     		cmp	r1, r3
+ 1474 0004 0DD0     		beq	.L88
  731:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         /* read I2C_STAT0 and then read I2C_STAT1 to clear ADDSEND */
  732:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         I2C_STAT0(i2c_periph);
  733:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         I2C_STAT1(i2c_periph);
  734:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }else{
  735:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         I2C_REG_VAL2(i2c_periph, int_flag) &= ~BIT(I2C_BIT_POS2(int_flag));
- 1507              		.loc 1 735 9 is_stmt 1 view .LVU391
- 1508              		.loc 1 735 44 is_stmt 0 view .LVU392
- 1509 0008 8C0D     		lsrs	r4, r1, #22
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 41
-
-
- 1510 000a 2358     		ldr	r3, [r4, r0]
- 1511              		.loc 1 735 48 view .LVU393
- 1512 000c C1F30441 		ubfx	r1, r1, #16, #5
- 1513              	.LVL142:
- 1514              		.loc 1 735 48 view .LVU394
- 1515 0010 0122     		movs	r2, #1
- 1516 0012 02FA01F1 		lsl	r1, r2, r1
- 1517              		.loc 1 735 44 view .LVU395
- 1518 0016 23EA0103 		bic	r3, r3, r1
- 1519 001a 2350     		str	r3, [r4, r0]
+ 1475              		.loc 1 735 9 is_stmt 1 view .LVU389
+ 1476              		.loc 1 735 44 is_stmt 0 view .LVU390
+ 1477 0006 4FEA915C 		lsr	ip, r1, #22
+ 1478 000a 5CF80030 		ldr	r3, [ip, r0]
+ 1479              		.loc 1 735 48 view .LVU391
+ 1480 000e C1F30441 		ubfx	r1, r1, #16, #5
+ 1481              	.LVL142:
+ 1482              		.loc 1 735 48 view .LVU392
+ 1483 0012 0122     		movs	r2, #1
+ 1484 0014 02FA01F1 		lsl	r1, r2, r1
+ 1485              		.loc 1 735 44 view .LVU393
+ 1486 0018 23EA0101 		bic	r1, r3, r1
+ 1487 001c 4CF80010 		str	r1, [ip, r0]
  736:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }
  737:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c **** }
- 1520              		.loc 1 737 1 view .LVU396
- 1521 001c 5DF8044B 		ldr	r4, [sp], #4
- 1522              	.LCFI14:
- 1523              		.cfi_restore 4
- 1524              		.cfi_def_cfa_offset 0
- 1525 0020 7047     		bx	lr
- 1526              	.LVL143:
- 1527              	.L96:
+ 1488              		.loc 1 737 1 view .LVU394
+ 1489 0020 7047     		bx	lr
+ 1490              	.LVL143:
+ 1491              	.L88:
  732:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****         I2C_STAT1(i2c_periph);
- 1528              		.loc 1 732 9 is_stmt 1 view .LVU397
- 1529 0022 4369     		ldr	r3, [r0, #20]
+ 1492              		.loc 1 732 9 is_stmt 1 view .LVU395
+ 1493 0022 4369     		ldr	r3, [r0, #20]
  733:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_i2c.c ****     }else{
- 1530              		.loc 1 733 9 view .LVU398
- 1531 0024 8369     		ldr	r3, [r0, #24]
- 1532 0026 7047     		bx	lr
- 1533              	.L98:
- 1534              		.align	2
- 1535              	.L97:
- 1536 0028 09010105 		.word	83951881
- 1537              		.cfi_endproc
- 1538              	.LFE146:
- 1540              		.text
- 1541              	.Letext0:
- 1542              		.file 2 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\machine\\_default_types.h"
- 1543              		.file 3 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\sys\\_stdint.h"
- 1544              		.file 4 "Drivers/CMSIS/core_cm4.h"
- 1545              		.file 5 "Drivers/CMSIS/GD/GD32F30x/Include/system_gd32f30x.h"
- 1546              		.file 6 "Drivers/CMSIS/GD/GD32F30x/Include/gd32f30x.h"
- 1547              		.file 7 "Drivers/GD32F30x_standard_peripheral/Include/gd32f30x_rcu.h"
- 1548              		.file 8 "Drivers/GD32F30x_standard_peripheral/Include/gd32f30x_i2c.h"
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 42
+ 1494              		.loc 1 733 9 view .LVU396
+ 1495 0024 8369     		ldr	r3, [r0, #24]
+ 1496 0026 7047     		bx	lr
+ 1497              	.L90:
+ 1498              		.align	2
+ 1499              	.L89:
+ 1500 0028 09010105 		.word	83951881
+ 1501              		.cfi_endproc
+ 1502              	.LFE146:
+ 1504              		.text
+ 1505              	.Letext0:
+ 1506              		.file 2 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 1507              		.file 3 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 41
+
+
+ 1508              		.file 4 "Drivers/CMSIS/GD/GD32F30x/Include/gd32f30x.h"
+ 1509              		.file 5 "Drivers/GD32F30x_standard_peripheral/Include/gd32f30x_rcu.h"
+ 1510              		.file 6 "Drivers/GD32F30x_standard_peripheral/Include/gd32f30x_i2c.h"
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 42
 
 
 DEFINED SYMBOLS
-                            *ABS*:0000000000000000 gd32f30x_i2c.c
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:18     .text.i2c_deinit:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:26     .text.i2c_deinit:0000000000000000 i2c_deinit
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:83     .text.i2c_deinit:0000000000000038 $d
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:88     .text.i2c_clock_config:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:95     .text.i2c_clock_config:0000000000000000 i2c_clock_config
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:387    .text.i2c_clock_config:0000000000000114 $d
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:396    .text.i2c_mode_addr_config:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:403    .text.i2c_mode_addr_config:0000000000000000 i2c_mode_addr_config
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:453    .text.i2c_smbus_type_config:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:460    .text.i2c_smbus_type_config:0000000000000000 i2c_smbus_type_config
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:490    .text.i2c_ack_config:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:497    .text.i2c_ack_config:0000000000000000 i2c_ack_config
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:527    .text.i2c_ackpos_config:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:534    .text.i2c_ackpos_config:0000000000000000 i2c_ackpos_config
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:563    .text.i2c_master_addressing:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:570    .text.i2c_master_addressing:0000000000000000 i2c_master_addressing
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:603    .text.i2c_dualaddr_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:610    .text.i2c_dualaddr_enable:0000000000000000 i2c_dualaddr_enable
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:634    .text.i2c_dualaddr_disable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:641    .text.i2c_dualaddr_disable:0000000000000000 i2c_dualaddr_disable
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:660    .text.i2c_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:667    .text.i2c_enable:0000000000000000 i2c_enable
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:686    .text.i2c_disable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:693    .text.i2c_disable:0000000000000000 i2c_disable
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:712    .text.i2c_start_on_bus:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:719    .text.i2c_start_on_bus:0000000000000000 i2c_start_on_bus
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:738    .text.i2c_stop_on_bus:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:745    .text.i2c_stop_on_bus:0000000000000000 i2c_stop_on_bus
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:764    .text.i2c_data_transmit:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:771    .text.i2c_data_transmit:0000000000000000 i2c_data_transmit
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:788    .text.i2c_data_receive:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:795    .text.i2c_data_receive:0000000000000000 i2c_data_receive
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:814    .text.i2c_dma_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:821    .text.i2c_dma_enable:0000000000000000 i2c_dma_enable
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:851    .text.i2c_dma_last_transfer_config:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:858    .text.i2c_dma_last_transfer_config:0000000000000000 i2c_dma_last_transfer_config
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:888    .text.i2c_stretch_scl_low_config:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:895    .text.i2c_stretch_scl_low_config:0000000000000000 i2c_stretch_scl_low_config
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:925    .text.i2c_slave_response_to_gcall_config:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:932    .text.i2c_slave_response_to_gcall_config:0000000000000000 i2c_slave_response_to_gcall_config
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:962    .text.i2c_software_reset_config:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:969    .text.i2c_software_reset_config:0000000000000000 i2c_software_reset_config
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:999    .text.i2c_pec_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:1006   .text.i2c_pec_enable:0000000000000000 i2c_pec_enable
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:1036   .text.i2c_pec_transfer_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:1043   .text.i2c_pec_transfer_enable:0000000000000000 i2c_pec_transfer_enable
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:1073   .text.i2c_pec_value_get:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:1080   .text.i2c_pec_value_get:0000000000000000 i2c_pec_value_get
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:1099   .text.i2c_smbus_issue_alert:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:1106   .text.i2c_smbus_issue_alert:0000000000000000 i2c_smbus_issue_alert
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:1136   .text.i2c_smbus_arp_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:1143   .text.i2c_smbus_arp_enable:0000000000000000 i2c_smbus_arp_enable
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:1173   .text.i2c_flag_get:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:1180   .text.i2c_flag_get:0000000000000000 i2c_flag_get
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:1216   .text.i2c_flag_clear:0000000000000000 $t
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s 			page 43
+                            *ABS*:00000000 gd32f30x_i2c.c
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:18     .text.i2c_deinit:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:26     .text.i2c_deinit:00000000 i2c_deinit
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:83     .text.i2c_deinit:00000038 $d
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:88     .text.i2c_clock_config:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:95     .text.i2c_clock_config:00000000 i2c_clock_config
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:389    .text.i2c_clock_config:00000114 $d
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:398    .text.i2c_mode_addr_config:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:405    .text.i2c_mode_addr_config:00000000 i2c_mode_addr_config
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:455    .text.i2c_smbus_type_config:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:462    .text.i2c_smbus_type_config:00000000 i2c_smbus_type_config
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:492    .text.i2c_ack_config:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:499    .text.i2c_ack_config:00000000 i2c_ack_config
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:529    .text.i2c_ackpos_config:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:536    .text.i2c_ackpos_config:00000000 i2c_ackpos_config
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:565    .text.i2c_master_addressing:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:572    .text.i2c_master_addressing:00000000 i2c_master_addressing
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:605    .text.i2c_dualaddr_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:612    .text.i2c_dualaddr_enable:00000000 i2c_dualaddr_enable
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:636    .text.i2c_dualaddr_disable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:643    .text.i2c_dualaddr_disable:00000000 i2c_dualaddr_disable
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:662    .text.i2c_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:669    .text.i2c_enable:00000000 i2c_enable
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:688    .text.i2c_disable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:695    .text.i2c_disable:00000000 i2c_disable
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:714    .text.i2c_start_on_bus:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:721    .text.i2c_start_on_bus:00000000 i2c_start_on_bus
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:740    .text.i2c_stop_on_bus:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:747    .text.i2c_stop_on_bus:00000000 i2c_stop_on_bus
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:766    .text.i2c_data_transmit:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:773    .text.i2c_data_transmit:00000000 i2c_data_transmit
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:790    .text.i2c_data_receive:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:797    .text.i2c_data_receive:00000000 i2c_data_receive
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:816    .text.i2c_dma_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:823    .text.i2c_dma_enable:00000000 i2c_dma_enable
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:853    .text.i2c_dma_last_transfer_config:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:860    .text.i2c_dma_last_transfer_config:00000000 i2c_dma_last_transfer_config
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:890    .text.i2c_stretch_scl_low_config:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:897    .text.i2c_stretch_scl_low_config:00000000 i2c_stretch_scl_low_config
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:927    .text.i2c_slave_response_to_gcall_config:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:934    .text.i2c_slave_response_to_gcall_config:00000000 i2c_slave_response_to_gcall_config
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:964    .text.i2c_software_reset_config:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:971    .text.i2c_software_reset_config:00000000 i2c_software_reset_config
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:1001   .text.i2c_pec_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:1008   .text.i2c_pec_enable:00000000 i2c_pec_enable
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:1038   .text.i2c_pec_transfer_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:1045   .text.i2c_pec_transfer_enable:00000000 i2c_pec_transfer_enable
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:1075   .text.i2c_pec_value_get:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:1082   .text.i2c_pec_value_get:00000000 i2c_pec_value_get
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:1101   .text.i2c_smbus_issue_alert:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:1108   .text.i2c_smbus_issue_alert:00000000 i2c_smbus_issue_alert
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:1138   .text.i2c_smbus_arp_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:1145   .text.i2c_smbus_arp_enable:00000000 i2c_smbus_arp_enable
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:1175   .text.i2c_flag_get:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:1182   .text.i2c_flag_get:00000000 i2c_flag_get
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:1218   .text.i2c_flag_clear:00000000 $t
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s 			page 43
 
 
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:1223   .text.i2c_flag_clear:0000000000000000 i2c_flag_clear
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:1271   .text.i2c_interrupt_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:1278   .text.i2c_interrupt_enable:0000000000000000 i2c_interrupt_enable
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:1314   .text.i2c_interrupt_disable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:1321   .text.i2c_interrupt_disable:0000000000000000 i2c_interrupt_disable
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:1357   .text.i2c_interrupt_flag_get:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:1364   .text.i2c_interrupt_flag_get:0000000000000000 i2c_interrupt_flag_get
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:1477   .text.i2c_interrupt_flag_get:0000000000000058 $d
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:1482   .text.i2c_interrupt_flag_clear:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:1489   .text.i2c_interrupt_flag_clear:0000000000000000 i2c_interrupt_flag_clear
-C:\Users\Prog\AppData\Local\Temp\ccMxndGz.s:1536   .text.i2c_interrupt_flag_clear:0000000000000028 $d
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:1225   .text.i2c_flag_clear:00000000 i2c_flag_clear
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:1264   .text.i2c_interrupt_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:1271   .text.i2c_interrupt_enable:00000000 i2c_interrupt_enable
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:1298   .text.i2c_interrupt_disable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:1305   .text.i2c_interrupt_disable:00000000 i2c_interrupt_disable
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:1332   .text.i2c_interrupt_flag_get:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:1339   .text.i2c_interrupt_flag_get:00000000 i2c_interrupt_flag_get
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:1450   .text.i2c_interrupt_flag_get:00000060 $d
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:1455   .text.i2c_interrupt_flag_clear:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:1462   .text.i2c_interrupt_flag_clear:00000000 i2c_interrupt_flag_clear
+C:\Users\Prog\AppData\Local\Temp\ccVyqkr9.s:1500   .text.i2c_interrupt_flag_clear:00000028 $d
 
 UNDEFINED SYMBOLS
 rcu_periph_reset_enable

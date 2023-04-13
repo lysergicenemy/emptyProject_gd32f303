@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s 			page 1
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\cclg6MT9.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s 			page 1
   28:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c **** WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
   29:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c **** IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, 
   30:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c **** INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT 
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s 			page 2
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\cclg6MT9.s 			page 2
 
 
   31:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c **** NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s 			page 1
   58:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     \param[in]  none
   59:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     \param[out] none
   60:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     \retval     none
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s 			page 3
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\cclg6MT9.s 			page 3
 
 
   61:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c **** */
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s 			page 1
   98 0008 7047     		bx	lr
   99              	.L9:
  100 000a 00BF     		.align	2
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s 			page 4
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\cclg6MT9.s 			page 4
 
 
  101              	.L8:
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s 			page 1
   90:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     \brief      configure counter reload value, and prescaler divider value
   91:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     \param[in]  reload_value: specify reload value(0x0000 - 0x0FFF)
   92:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     \param[in]  prescaler_div: FWDGT prescaler value
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s 			page 5
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\cclg6MT9.s 			page 5
 
 
   93:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****                 only one parameter can be selected which is shown as below:
@@ -268,9 +268,9 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s 			page 1
  110:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     FWDGT_CTL = FWDGT_WRITEACCESS_ENABLE;
  153              		.loc 1 110 5 view .LVU19
  154              		.loc 1 110 15 is_stmt 0 view .LVU20
- 155 0000 134B     		ldr	r3, .L21
- 156 0002 45F25552 		movw	r2, #21845
- 157 0006 1A60     		str	r2, [r3]
+ 155 0000 134A     		ldr	r2, .L21
+ 156 0002 45F25553 		movw	r3, #21845
+ 157 0006 1360     		str	r3, [r2]
  106:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     uint32_t flag_status = RESET;
  158              		.loc 1 106 14 view .LVU21
  159 0008 124A     		ldr	r2, .L21+4
@@ -283,147 +283,145 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s 			page 1
  114:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****        flag_status = FWDGT_STAT & FWDGT_STAT_PUD;
  163              		.loc 1 114 8 discriminator 2 view .LVU23
  164              		.loc 1 114 22 is_stmt 0 discriminator 2 view .LVU24
- 165 000a 134B     		ldr	r3, .L21+8
- 166 000c 1B68     		ldr	r3, [r3]
+ 165 000a 114B     		ldr	r3, .L21
+ 166 000c DB68     		ldr	r3, [r3, #12]
  167              		.loc 1 114 20 discriminator 2 view .LVU25
  168 000e 03F00103 		and	r3, r3, #1
  169              	.LVL2:
  115:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     }while((--timeout > 0U) && ((uint32_t)RESET != flag_status));
- 170              		.loc 1 115 5 discriminator 2 view .LVU26
- 171 0012 013A     		subs	r2, r2, #1
- 172              	.LVL3:
- 173              		.loc 1 115 5 discriminator 2 view .LVU27
- 174 0014 01D0     		beq	.L14
- 175              		.loc 1 115 29 discriminator 1 view .LVU28
- 176 0016 002B     		cmp	r3, #0
- 177 0018 F7D1     		bne	.L15
- 178              	.L14:
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s 			page 6
+ 170              		.loc 1 115 11 is_stmt 1 discriminator 2 view .LVU26
+ 171              		.loc 1 115 5 is_stmt 0 discriminator 2 view .LVU27
+ 172 0012 013A     		subs	r2, r2, #1
+ 173              	.LVL3:
+ 174              		.loc 1 115 5 discriminator 2 view .LVU28
+ 175 0014 01D0     		beq	.L14
+ 176              		.loc 1 115 29 discriminator 1 view .LVU29
+ 177 0016 002B     		cmp	r3, #0
+ 178 0018 F7D1     		bne	.L15
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\cclg6MT9.s 			page 6
 
 
+ 179              	.L14:
  116:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     
  117:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     if ((uint32_t)RESET != flag_status){
- 179              		.loc 1 117 5 is_stmt 1 view .LVU29
- 180              		.loc 1 117 8 is_stmt 0 view .LVU30
- 181 001a ABB9     		cbnz	r3, .L19
+ 180              		.loc 1 117 5 is_stmt 1 view .LVU30
+ 181              		.loc 1 117 8 is_stmt 0 view .LVU31
+ 182 001a A3B9     		cbnz	r3, .L19
  118:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****         return ERROR;
  119:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     }
  120:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c **** 
  121:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     /* configure FWDGT */
  122:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     FWDGT_PSC = (uint32_t)prescaler_div;
- 182              		.loc 1 122 5 is_stmt 1 view .LVU31
- 183              		.loc 1 122 15 is_stmt 0 view .LVU32
- 184 001c 0F4B     		ldr	r3, .L21+12
- 185              	.LVL4:
- 186              		.loc 1 122 15 view .LVU33
- 187 001e 1960     		str	r1, [r3]
+ 183              		.loc 1 122 5 is_stmt 1 view .LVU32
+ 184              		.loc 1 122 15 is_stmt 0 view .LVU33
+ 185 001c 0C4B     		ldr	r3, .L21
+ 186              	.LVL4:
+ 187              		.loc 1 122 15 view .LVU34
+ 188 001e 5960     		str	r1, [r3, #4]
  123:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c **** 
  124:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     timeout = FWDGT_RLD_TIMEOUT;
- 188              		.loc 1 124 5 is_stmt 1 view .LVU34
- 189              	.LVL5:
- 190              		.loc 1 124 13 is_stmt 0 view .LVU35
- 191 0020 0C4A     		ldr	r2, .L21+4
- 192              	.LVL6:
- 193              	.L18:
+ 189              		.loc 1 124 5 is_stmt 1 view .LVU35
+ 190              	.LVL5:
+ 191              		.loc 1 124 13 is_stmt 0 view .LVU36
+ 192 0020 0C4A     		ldr	r2, .L21+4
+ 193              	.LVL6:
+ 194              	.L18:
  125:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     /* wait until the RUD flag to be reset */
  126:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     do{
- 194              		.loc 1 126 5 is_stmt 1 discriminator 2 view .LVU36
+ 195              		.loc 1 126 5 is_stmt 1 discriminator 2 view .LVU37
  127:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****        flag_status = FWDGT_STAT & FWDGT_STAT_RUD;
- 195              		.loc 1 127 8 discriminator 2 view .LVU37
- 196              		.loc 1 127 22 is_stmt 0 discriminator 2 view .LVU38
- 197 0022 0D4B     		ldr	r3, .L21+8
- 198 0024 1B68     		ldr	r3, [r3]
- 199              		.loc 1 127 20 discriminator 2 view .LVU39
- 200 0026 03F00203 		and	r3, r3, #2
- 201              	.LVL7:
+ 196              		.loc 1 127 8 discriminator 2 view .LVU38
+ 197              		.loc 1 127 22 is_stmt 0 discriminator 2 view .LVU39
+ 198 0022 0B4B     		ldr	r3, .L21
+ 199 0024 DB68     		ldr	r3, [r3, #12]
+ 200              		.loc 1 127 20 discriminator 2 view .LVU40
+ 201 0026 03F00203 		and	r3, r3, #2
+ 202              	.LVL7:
  128:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     }while((--timeout > 0U) && ((uint32_t)RESET != flag_status));
- 202              		.loc 1 128 5 discriminator 2 view .LVU40
- 203 002a 013A     		subs	r2, r2, #1
- 204              	.LVL8:
- 205              		.loc 1 128 5 discriminator 2 view .LVU41
- 206 002c 01D0     		beq	.L17
- 207              		.loc 1 128 29 discriminator 1 view .LVU42
- 208 002e 002B     		cmp	r3, #0
- 209 0030 F7D1     		bne	.L18
- 210              	.L17:
+ 203              		.loc 1 128 11 is_stmt 1 discriminator 2 view .LVU41
+ 204              		.loc 1 128 5 is_stmt 0 discriminator 2 view .LVU42
+ 205 002a 013A     		subs	r2, r2, #1
+ 206              	.LVL8:
+ 207              		.loc 1 128 5 discriminator 2 view .LVU43
+ 208 002c 01D0     		beq	.L17
+ 209              		.loc 1 128 29 discriminator 1 view .LVU44
+ 210 002e 002B     		cmp	r3, #0
+ 211 0030 F7D1     		bne	.L18
+ 212              	.L17:
  129:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****    
  130:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     if ((uint32_t)RESET != flag_status){
- 211              		.loc 1 130 5 is_stmt 1 view .LVU43
- 212              		.loc 1 130 8 is_stmt 0 view .LVU44
- 213 0032 5BB9     		cbnz	r3, .L20
+ 213              		.loc 1 130 5 is_stmt 1 view .LVU45
+ 214              		.loc 1 130 8 is_stmt 0 view .LVU46
+ 215 0032 53B9     		cbnz	r3, .L20
  131:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****         return ERROR;
  132:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     }
  133:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     
  134:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     FWDGT_RLD = RLD_RLD(reload_value);
- 214              		.loc 1 134 5 is_stmt 1 view .LVU45
- 215              		.loc 1 134 17 is_stmt 0 view .LVU46
- 216 0034 C0F30B00 		ubfx	r0, r0, #0, #12
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s 			page 7
+ 216              		.loc 1 134 5 is_stmt 1 view .LVU47
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\cclg6MT9.s 			page 7
 
 
- 217              	.LVL9:
- 218              		.loc 1 134 15 view .LVU47
- 219 0038 094B     		ldr	r3, .L21+16
- 220              	.LVL10:
- 221              		.loc 1 134 15 view .LVU48
- 222 003a 1860     		str	r0, [r3]
+ 217              		.loc 1 134 17 is_stmt 0 view .LVU48
+ 218 0034 C0F30B00 		ubfx	r0, r0, #0, #12
+ 219              	.LVL9:
+ 220              		.loc 1 134 15 view .LVU49
+ 221 0038 054A     		ldr	r2, .L21
+ 222              	.LVL10:
+ 223              		.loc 1 134 15 view .LVU50
+ 224 003a 9060     		str	r0, [r2, #8]
  135:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     
  136:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     /* reload the counter */
  137:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     FWDGT_CTL = FWDGT_KEY_RELOAD;
- 223              		.loc 1 137 5 is_stmt 1 view .LVU49
- 224              		.loc 1 137 15 is_stmt 0 view .LVU50
- 225 003c 083B     		subs	r3, r3, #8
- 226 003e 4AF6AA22 		movw	r2, #43690
- 227              	.LVL11:
- 228              		.loc 1 137 15 view .LVU51
- 229 0042 1A60     		str	r2, [r3]
+ 225              		.loc 1 137 5 is_stmt 1 view .LVU51
+ 226              		.loc 1 137 15 is_stmt 0 view .LVU52
+ 227 003c 4AF6AA23 		movw	r3, #43690
+ 228              	.LVL11:
+ 229              		.loc 1 137 15 view .LVU53
+ 230 0040 1360     		str	r3, [r2]
  138:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c **** 
  139:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     return SUCCESS;
- 230              		.loc 1 139 5 is_stmt 1 view .LVU52
- 231              		.loc 1 139 12 is_stmt 0 view .LVU53
- 232 0044 0120     		movs	r0, #1
- 233 0046 7047     		bx	lr
- 234              	.LVL12:
- 235              	.L19:
+ 231              		.loc 1 139 5 is_stmt 1 view .LVU54
+ 232              		.loc 1 139 12 is_stmt 0 view .LVU55
+ 233 0042 0120     		movs	r0, #1
+ 234 0044 7047     		bx	lr
+ 235              	.LVL12:
+ 236              	.L19:
  118:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     }
- 236              		.loc 1 118 16 view .LVU54
- 237 0048 0020     		movs	r0, #0
- 238              	.LVL13:
+ 237              		.loc 1 118 16 view .LVU56
+ 238 0046 0020     		movs	r0, #0
+ 239              	.LVL13:
  118:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     }
- 239              		.loc 1 118 16 view .LVU55
- 240 004a 7047     		bx	lr
- 241              	.LVL14:
- 242              	.L20:
+ 240              		.loc 1 118 16 view .LVU57
+ 241 0048 7047     		bx	lr
+ 242              	.LVL14:
+ 243              	.L20:
  131:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     }
- 243              		.loc 1 131 16 view .LVU56
- 244 004c 0020     		movs	r0, #0
- 245              	.LVL15:
+ 244              		.loc 1 131 16 view .LVU58
+ 245 004a 0020     		movs	r0, #0
+ 246              	.LVL15:
  140:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c **** }
- 246              		.loc 1 140 1 view .LVU57
- 247 004e 7047     		bx	lr
- 248              	.L22:
- 249              		.align	2
- 250              	.L21:
- 251 0050 00300040 		.word	1073754112
- 252 0054 FFFF0F00 		.word	1048575
- 253 0058 0C300040 		.word	1073754124
- 254 005c 04300040 		.word	1073754116
- 255 0060 08300040 		.word	1073754120
- 256              		.cfi_endproc
- 257              	.LFE120:
- 259              		.section	.text.fwdgt_flag_get,"ax",%progbits
- 260              		.align	1
- 261              		.global	fwdgt_flag_get
- 262              		.syntax unified
- 263              		.thumb
- 264              		.thumb_func
- 265              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s 			page 8
+ 247              		.loc 1 140 1 view .LVU59
+ 248 004c 7047     		bx	lr
+ 249              	.L22:
+ 250 004e 00BF     		.align	2
+ 251              	.L21:
+ 252 0050 00300040 		.word	1073754112
+ 253 0054 FFFF0F00 		.word	1048575
+ 254              		.cfi_endproc
+ 255              	.LFE120:
+ 257              		.section	.text.fwdgt_flag_get,"ax",%progbits
+ 258              		.align	1
+ 259              		.global	fwdgt_flag_get
+ 260              		.syntax unified
+ 261              		.thumb
+ 262              		.thumb_func
+ 263              		.fpu fpv4-sp-d16
+ 265              	fwdgt_flag_get:
+ 266              	.LVL16:
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\cclg6MT9.s 			page 8
 
 
- 267              	fwdgt_flag_get:
- 268              	.LVL16:
- 269              	.LFB121:
+ 267              	.LFB121:
  141:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c **** 
  142:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c **** /*!
  143:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     \brief      get flag state of FWDGT
@@ -436,75 +434,70 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s 			page 1
  150:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c **** */
  151:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c **** FlagStatus fwdgt_flag_get(uint16_t flag)
  152:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c **** {
- 270              		.loc 1 152 1 is_stmt 1 view -0
- 271              		.cfi_startproc
- 272              		@ args = 0, pretend = 0, frame = 0
- 273              		@ frame_needed = 0, uses_anonymous_args = 0
- 274              		@ link register save eliminated.
+ 268              		.loc 1 152 1 is_stmt 1 view -0
+ 269              		.cfi_startproc
+ 270              		@ args = 0, pretend = 0, frame = 0
+ 271              		@ frame_needed = 0, uses_anonymous_args = 0
+ 272              		@ link register save eliminated.
  153:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****   if(RESET != (FWDGT_STAT & flag)){
- 275              		.loc 1 153 3 view .LVU59
- 276              		.loc 1 153 16 is_stmt 0 view .LVU60
- 277 0000 034B     		ldr	r3, .L26
- 278 0002 1B68     		ldr	r3, [r3]
- 279              		.loc 1 153 5 view .LVU61
- 280 0004 1842     		tst	r0, r3
- 281 0006 01D1     		bne	.L25
+ 273              		.loc 1 153 3 view .LVU61
+ 274              		.loc 1 153 16 is_stmt 0 view .LVU62
+ 275 0000 034B     		ldr	r3, .L26
+ 276 0002 DB68     		ldr	r3, [r3, #12]
+ 277              		.loc 1 153 5 view .LVU63
+ 278 0004 1842     		tst	r0, r3
+ 279 0006 01D1     		bne	.L25
  154:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****         return SET;
  155:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****   }
  156:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c **** 
  157:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****     return RESET;
- 282              		.loc 1 157 12 view .LVU62
- 283 0008 0020     		movs	r0, #0
- 284              	.LVL17:
- 285              		.loc 1 157 12 view .LVU63
- 286 000a 7047     		bx	lr
- 287              	.LVL18:
- 288              	.L25:
+ 280              		.loc 1 157 12 view .LVU64
+ 281 0008 0020     		movs	r0, #0
+ 282              	.LVL17:
+ 283              		.loc 1 157 12 view .LVU65
+ 284 000a 7047     		bx	lr
+ 285              	.LVL18:
+ 286              	.L25:
  154:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c ****         return SET;
- 289              		.loc 1 154 16 view .LVU64
- 290 000c 0120     		movs	r0, #1
- 291              	.LVL19:
+ 287              		.loc 1 154 16 view .LVU66
+ 288 000c 0120     		movs	r0, #1
+ 289              	.LVL19:
  158:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_fwdgt.c **** }
- 292              		.loc 1 158 1 view .LVU65
- 293 000e 7047     		bx	lr
- 294              	.L27:
- 295              		.align	2
- 296              	.L26:
- 297 0010 0C300040 		.word	1073754124
- 298              		.cfi_endproc
- 299              	.LFE121:
- 301              		.text
- 302              	.Letext0:
- 303              		.file 2 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\machine\\_default_types.h"
- 304              		.file 3 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\sys\\_stdint.h"
- 305              		.file 4 "Drivers/CMSIS/core_cm4.h"
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s 			page 9
-
-
- 306              		.file 5 "Drivers/CMSIS/GD/GD32F30x/Include/system_gd32f30x.h"
- 307              		.file 6 "Drivers/CMSIS/GD/GD32F30x/Include/gd32f30x.h"
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s 			page 10
+ 290              		.loc 1 158 1 view .LVU67
+ 291 000e 7047     		bx	lr
+ 292              	.L27:
+ 293              		.align	2
+ 294              	.L26:
+ 295 0010 00300040 		.word	1073754112
+ 296              		.cfi_endproc
+ 297              	.LFE121:
+ 299              		.text
+ 300              	.Letext0:
+ 301              		.file 2 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 302              		.file 3 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 303              		.file 4 "Drivers/CMSIS/GD/GD32F30x/Include/gd32f30x.h"
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\cclg6MT9.s 			page 9
 
 
 DEFINED SYMBOLS
-                            *ABS*:0000000000000000 gd32f30x_fwdgt.c
-C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s:18     .text.fwdgt_write_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s:26     .text.fwdgt_write_enable:0000000000000000 fwdgt_write_enable
-C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s:44     .text.fwdgt_write_enable:000000000000000c $d
-C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s:49     .text.fwdgt_write_disable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s:56     .text.fwdgt_write_disable:0000000000000000 fwdgt_write_disable
-C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s:73     .text.fwdgt_write_disable:0000000000000008 $d
-C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s:78     .text.fwdgt_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s:85     .text.fwdgt_enable:0000000000000000 fwdgt_enable
-C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s:102    .text.fwdgt_enable:000000000000000c $d
-C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s:107    .text.fwdgt_counter_reload:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s:114    .text.fwdgt_counter_reload:0000000000000000 fwdgt_counter_reload
-C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s:131    .text.fwdgt_counter_reload:000000000000000c $d
-C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s:136    .text.fwdgt_config:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s:143    .text.fwdgt_config:0000000000000000 fwdgt_config
-C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s:251    .text.fwdgt_config:0000000000000050 $d
-C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s:260    .text.fwdgt_flag_get:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s:267    .text.fwdgt_flag_get:0000000000000000 fwdgt_flag_get
-C:\Users\Prog\AppData\Local\Temp\ccmAh0Gr.s:297    .text.fwdgt_flag_get:0000000000000010 $d
+                            *ABS*:00000000 gd32f30x_fwdgt.c
+C:\Users\Prog\AppData\Local\Temp\cclg6MT9.s:18     .text.fwdgt_write_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\cclg6MT9.s:26     .text.fwdgt_write_enable:00000000 fwdgt_write_enable
+C:\Users\Prog\AppData\Local\Temp\cclg6MT9.s:44     .text.fwdgt_write_enable:0000000c $d
+C:\Users\Prog\AppData\Local\Temp\cclg6MT9.s:49     .text.fwdgt_write_disable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\cclg6MT9.s:56     .text.fwdgt_write_disable:00000000 fwdgt_write_disable
+C:\Users\Prog\AppData\Local\Temp\cclg6MT9.s:73     .text.fwdgt_write_disable:00000008 $d
+C:\Users\Prog\AppData\Local\Temp\cclg6MT9.s:78     .text.fwdgt_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\cclg6MT9.s:85     .text.fwdgt_enable:00000000 fwdgt_enable
+C:\Users\Prog\AppData\Local\Temp\cclg6MT9.s:102    .text.fwdgt_enable:0000000c $d
+C:\Users\Prog\AppData\Local\Temp\cclg6MT9.s:107    .text.fwdgt_counter_reload:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\cclg6MT9.s:114    .text.fwdgt_counter_reload:00000000 fwdgt_counter_reload
+C:\Users\Prog\AppData\Local\Temp\cclg6MT9.s:131    .text.fwdgt_counter_reload:0000000c $d
+C:\Users\Prog\AppData\Local\Temp\cclg6MT9.s:136    .text.fwdgt_config:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\cclg6MT9.s:143    .text.fwdgt_config:00000000 fwdgt_config
+C:\Users\Prog\AppData\Local\Temp\cclg6MT9.s:252    .text.fwdgt_config:00000050 $d
+C:\Users\Prog\AppData\Local\Temp\cclg6MT9.s:258    .text.fwdgt_flag_get:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\cclg6MT9.s:265    .text.fwdgt_flag_get:00000000 fwdgt_flag_get
+C:\Users\Prog\AppData\Local\Temp\cclg6MT9.s:295    .text.fwdgt_flag_get:00000010 $d
 
 NO UNDEFINED SYMBOLS

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s 			page 1
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s 			page 1
   28:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
   29:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, 
   30:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT 
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s 			page 2
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s 			page 2
 
 
   31:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR 
@@ -89,42 +89,40 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s 			page 1
   51:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     CRC_DATA  = CRC_DATA_RESET_VALUE;
   34              		.loc 1 51 5 view .LVU1
   35              		.loc 1 51 15 is_stmt 0 view .LVU2
-  36 0000 054B     		ldr	r3, .L2
+  36 0000 044B     		ldr	r3, .L2
   37 0002 4FF0FF32 		mov	r2, #-1
   38 0006 1A60     		str	r2, [r3]
   52:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     CRC_FDATA = CRC_FDATA_RESET_VALUE;
   39              		.loc 1 52 5 is_stmt 1 view .LVU3
   40              		.loc 1 52 15 is_stmt 0 view .LVU4
-  41 0008 0433     		adds	r3, r3, #4
-  42 000a 0022     		movs	r2, #0
-  43 000c 1A60     		str	r2, [r3]
+  41 0008 0022     		movs	r2, #0
+  42 000a 5A60     		str	r2, [r3, #4]
   53:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     CRC_CTL   = (uint32_t)CRC_CTL_RST;
-  44              		.loc 1 53 5 is_stmt 1 view .LVU5
-  45              		.loc 1 53 15 is_stmt 0 view .LVU6
-  46 000e 0433     		adds	r3, r3, #4
-  47 0010 0122     		movs	r2, #1
-  48 0012 1A60     		str	r2, [r3]
+  43              		.loc 1 53 5 is_stmt 1 view .LVU5
+  44              		.loc 1 53 15 is_stmt 0 view .LVU6
+  45 000c 0122     		movs	r2, #1
+  46 000e 9A60     		str	r2, [r3, #8]
   54:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** }
-  49              		.loc 1 54 1 view .LVU7
-  50 0014 7047     		bx	lr
-  51              	.L3:
-  52 0016 00BF     		.align	2
-  53              	.L2:
-  54 0018 00300240 		.word	1073885184
-  55              		.cfi_endproc
-  56              	.LFE116:
-  58              		.section	.text.crc_data_register_reset,"ax",%progbits
-  59              		.align	1
-  60              		.global	crc_data_register_reset
-  61              		.syntax unified
-  62              		.thumb
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s 			page 3
+  47              		.loc 1 54 1 view .LVU7
+  48 0010 7047     		bx	lr
+  49              	.L3:
+  50 0012 00BF     		.align	2
+  51              	.L2:
+  52 0014 00300240 		.word	1073885184
+  53              		.cfi_endproc
+  54              	.LFE116:
+  56              		.section	.text.crc_data_register_reset,"ax",%progbits
+  57              		.align	1
+  58              		.global	crc_data_register_reset
+  59              		.syntax unified
+  60              		.thumb
+  61              		.thumb_func
+  62              		.fpu fpv4-sp-d16
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s 			page 3
 
 
-  63              		.thumb_func
-  64              		.fpu fpv4-sp-d16
-  66              	crc_data_register_reset:
-  67              	.LFB117:
+  64              	crc_data_register_reset:
+  65              	.LFB117:
   55:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** 
   56:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** /*!
   57:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     \brief      reset data register(CRC_DATA) to the value of 0xFFFFFFFF
@@ -134,36 +132,36 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s 			page 1
   61:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** */
   62:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** void crc_data_register_reset(void)
   63:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** {
-  68              		.loc 1 63 1 is_stmt 1 view -0
-  69              		.cfi_startproc
-  70              		@ args = 0, pretend = 0, frame = 0
-  71              		@ frame_needed = 0, uses_anonymous_args = 0
-  72              		@ link register save eliminated.
+  66              		.loc 1 63 1 is_stmt 1 view -0
+  67              		.cfi_startproc
+  68              		@ args = 0, pretend = 0, frame = 0
+  69              		@ frame_needed = 0, uses_anonymous_args = 0
+  70              		@ link register save eliminated.
   64:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     CRC_CTL |= (uint32_t)CRC_CTL_RST;
-  73              		.loc 1 64 5 view .LVU9
-  74              		.loc 1 64 13 is_stmt 0 view .LVU10
-  75 0000 024A     		ldr	r2, .L5
-  76 0002 1368     		ldr	r3, [r2]
-  77 0004 43F00103 		orr	r3, r3, #1
-  78 0008 1360     		str	r3, [r2]
+  71              		.loc 1 64 5 view .LVU9
+  72              		.loc 1 64 13 is_stmt 0 view .LVU10
+  73 0000 024A     		ldr	r2, .L5
+  74 0002 9368     		ldr	r3, [r2, #8]
+  75 0004 43F00103 		orr	r3, r3, #1
+  76 0008 9360     		str	r3, [r2, #8]
   65:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** }
-  79              		.loc 1 65 1 view .LVU11
-  80 000a 7047     		bx	lr
-  81              	.L6:
-  82              		.align	2
-  83              	.L5:
-  84 000c 08300240 		.word	1073885192
-  85              		.cfi_endproc
-  86              	.LFE117:
-  88              		.section	.text.crc_data_register_read,"ax",%progbits
-  89              		.align	1
-  90              		.global	crc_data_register_read
-  91              		.syntax unified
-  92              		.thumb
-  93              		.thumb_func
-  94              		.fpu fpv4-sp-d16
-  96              	crc_data_register_read:
-  97              	.LFB118:
+  77              		.loc 1 65 1 view .LVU11
+  78 000a 7047     		bx	lr
+  79              	.L6:
+  80              		.align	2
+  81              	.L5:
+  82 000c 00300240 		.word	1073885184
+  83              		.cfi_endproc
+  84              	.LFE117:
+  86              		.section	.text.crc_data_register_read,"ax",%progbits
+  87              		.align	1
+  88              		.global	crc_data_register_read
+  89              		.syntax unified
+  90              		.thumb
+  91              		.thumb_func
+  92              		.fpu fpv4-sp-d16
+  94              	crc_data_register_read:
+  95              	.LFB118:
   66:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** 
   67:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** /*!
   68:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     \brief      read the value of the data register 
@@ -173,42 +171,42 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s 			page 1
   72:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** */
   73:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** uint32_t crc_data_register_read(void)
   74:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** {
-  98              		.loc 1 74 1 is_stmt 1 view -0
-  99              		.cfi_startproc
- 100              		@ args = 0, pretend = 0, frame = 0
- 101              		@ frame_needed = 0, uses_anonymous_args = 0
- 102              		@ link register save eliminated.
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s 			page 4
-
-
+  96              		.loc 1 74 1 is_stmt 1 view -0
+  97              		.cfi_startproc
+  98              		@ args = 0, pretend = 0, frame = 0
+  99              		@ frame_needed = 0, uses_anonymous_args = 0
+ 100              		@ link register save eliminated.
   75:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     uint32_t data;
- 103              		.loc 1 75 5 view .LVU13
+ 101              		.loc 1 75 5 view .LVU13
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s 			page 4
+
+
   76:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     data = CRC_DATA;
- 104              		.loc 1 76 5 view .LVU14
- 105              		.loc 1 76 10 is_stmt 0 view .LVU15
- 106 0000 014B     		ldr	r3, .L8
- 107 0002 1868     		ldr	r0, [r3]
- 108              	.LVL0:
+ 102              		.loc 1 76 5 view .LVU14
+ 103              		.loc 1 76 10 is_stmt 0 view .LVU15
+ 104 0000 014B     		ldr	r3, .L8
+ 105 0002 1868     		ldr	r0, [r3]
+ 106              	.LVL0:
   77:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     return (data);
- 109              		.loc 1 77 5 is_stmt 1 view .LVU16
+ 107              		.loc 1 77 5 is_stmt 1 view .LVU16
   78:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** }
- 110              		.loc 1 78 1 is_stmt 0 view .LVU17
- 111 0004 7047     		bx	lr
- 112              	.L9:
- 113 0006 00BF     		.align	2
- 114              	.L8:
- 115 0008 00300240 		.word	1073885184
- 116              		.cfi_endproc
- 117              	.LFE118:
- 119              		.section	.text.crc_free_data_register_read,"ax",%progbits
- 120              		.align	1
- 121              		.global	crc_free_data_register_read
- 122              		.syntax unified
- 123              		.thumb
- 124              		.thumb_func
- 125              		.fpu fpv4-sp-d16
- 127              	crc_free_data_register_read:
- 128              	.LFB119:
+ 108              		.loc 1 78 1 is_stmt 0 view .LVU17
+ 109 0004 7047     		bx	lr
+ 110              	.L9:
+ 111 0006 00BF     		.align	2
+ 112              	.L8:
+ 113 0008 00300240 		.word	1073885184
+ 114              		.cfi_endproc
+ 115              	.LFE118:
+ 117              		.section	.text.crc_free_data_register_read,"ax",%progbits
+ 118              		.align	1
+ 119              		.global	crc_free_data_register_read
+ 120              		.syntax unified
+ 121              		.thumb
+ 122              		.thumb_func
+ 123              		.fpu fpv4-sp-d16
+ 125              	crc_free_data_register_read:
+ 126              	.LFB119:
   79:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** 
   80:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** /*!
   81:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     \brief      read the value of the free data register
@@ -218,45 +216,45 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s 			page 1
   85:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** */
   86:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** uint8_t crc_free_data_register_read(void)
   87:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** {
- 129              		.loc 1 87 1 is_stmt 1 view -0
- 130              		.cfi_startproc
- 131              		@ args = 0, pretend = 0, frame = 0
- 132              		@ frame_needed = 0, uses_anonymous_args = 0
- 133              		@ link register save eliminated.
+ 127              		.loc 1 87 1 is_stmt 1 view -0
+ 128              		.cfi_startproc
+ 129              		@ args = 0, pretend = 0, frame = 0
+ 130              		@ frame_needed = 0, uses_anonymous_args = 0
+ 131              		@ link register save eliminated.
   88:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     uint8_t fdata;
- 134              		.loc 1 88 5 view .LVU19
+ 132              		.loc 1 88 5 view .LVU19
   89:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     fdata = (uint8_t)CRC_FDATA;
- 135              		.loc 1 89 5 view .LVU20
- 136              		.loc 1 89 22 is_stmt 0 view .LVU21
- 137 0000 014B     		ldr	r3, .L11
- 138 0002 1868     		ldr	r0, [r3]
- 139              	.LVL1:
+ 133              		.loc 1 89 5 view .LVU20
+ 134              		.loc 1 89 22 is_stmt 0 view .LVU21
+ 135 0000 014B     		ldr	r3, .L11
+ 136 0002 5868     		ldr	r0, [r3, #4]
+ 137              	.LVL1:
   90:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     return (fdata);
- 140              		.loc 1 90 5 is_stmt 1 view .LVU22
+ 138              		.loc 1 90 5 is_stmt 1 view .LVU22
   91:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** }
- 141              		.loc 1 91 1 is_stmt 0 view .LVU23
- 142 0004 C0B2     		uxtb	r0, r0
- 143              		.loc 1 91 1 view .LVU24
- 144 0006 7047     		bx	lr
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s 			page 5
+ 139              		.loc 1 91 1 is_stmt 0 view .LVU23
+ 140 0004 C0B2     		uxtb	r0, r0
+ 141              		.loc 1 91 1 view .LVU24
+ 142 0006 7047     		bx	lr
+ 143              	.L12:
+ 144              		.align	2
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s 			page 5
 
 
- 145              	.L12:
- 146              		.align	2
- 147              	.L11:
- 148 0008 04300240 		.word	1073885188
- 149              		.cfi_endproc
- 150              	.LFE119:
- 152              		.section	.text.crc_free_data_register_write,"ax",%progbits
- 153              		.align	1
- 154              		.global	crc_free_data_register_write
- 155              		.syntax unified
- 156              		.thumb
- 157              		.thumb_func
- 158              		.fpu fpv4-sp-d16
- 160              	crc_free_data_register_write:
- 161              	.LVL2:
- 162              	.LFB120:
+ 145              	.L11:
+ 146 0008 00300240 		.word	1073885184
+ 147              		.cfi_endproc
+ 148              	.LFE119:
+ 150              		.section	.text.crc_free_data_register_write,"ax",%progbits
+ 151              		.align	1
+ 152              		.global	crc_free_data_register_write
+ 153              		.syntax unified
+ 154              		.thumb
+ 155              		.thumb_func
+ 156              		.fpu fpv4-sp-d16
+ 158              	crc_free_data_register_write:
+ 159              	.LVL2:
+ 160              	.LFB120:
   92:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** 
   93:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** /*!
   94:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     \brief      write data to the free data register
@@ -266,81 +264,81 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s 			page 1
   98:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** */
   99:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** void crc_free_data_register_write(uint8_t free_data)
  100:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** {
- 163              		.loc 1 100 1 is_stmt 1 view -0
- 164              		.cfi_startproc
- 165              		@ args = 0, pretend = 0, frame = 0
- 166              		@ frame_needed = 0, uses_anonymous_args = 0
- 167              		@ link register save eliminated.
+ 161              		.loc 1 100 1 is_stmt 1 view -0
+ 162              		.cfi_startproc
+ 163              		@ args = 0, pretend = 0, frame = 0
+ 164              		@ frame_needed = 0, uses_anonymous_args = 0
+ 165              		@ link register save eliminated.
  101:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     CRC_FDATA = (uint32_t)free_data;
- 168              		.loc 1 101 5 view .LVU26
- 169              		.loc 1 101 15 is_stmt 0 view .LVU27
- 170 0000 014B     		ldr	r3, .L14
- 171 0002 1860     		str	r0, [r3]
+ 166              		.loc 1 101 5 view .LVU26
+ 167              		.loc 1 101 15 is_stmt 0 view .LVU27
+ 168 0000 014B     		ldr	r3, .L14
+ 169 0002 5860     		str	r0, [r3, #4]
  102:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** }
- 172              		.loc 1 102 1 view .LVU28
- 173 0004 7047     		bx	lr
- 174              	.L15:
- 175 0006 00BF     		.align	2
- 176              	.L14:
- 177 0008 04300240 		.word	1073885188
- 178              		.cfi_endproc
- 179              	.LFE120:
- 181              		.section	.text.crc_single_data_calculate,"ax",%progbits
- 182              		.align	1
- 183              		.global	crc_single_data_calculate
- 184              		.syntax unified
- 185              		.thumb
- 186              		.thumb_func
- 187              		.fpu fpv4-sp-d16
- 189              	crc_single_data_calculate:
- 190              	.LVL3:
- 191              	.LFB121:
+ 170              		.loc 1 102 1 view .LVU28
+ 171 0004 7047     		bx	lr
+ 172              	.L15:
+ 173 0006 00BF     		.align	2
+ 174              	.L14:
+ 175 0008 00300240 		.word	1073885184
+ 176              		.cfi_endproc
+ 177              	.LFE120:
+ 179              		.section	.text.crc_single_data_calculate,"ax",%progbits
+ 180              		.align	1
+ 181              		.global	crc_single_data_calculate
+ 182              		.syntax unified
+ 183              		.thumb
+ 184              		.thumb_func
+ 185              		.fpu fpv4-sp-d16
+ 187              	crc_single_data_calculate:
+ 188              	.LVL3:
+ 189              	.LFB121:
  103:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** 
  104:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** /*!
  105:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     \brief      calculate the CRC value of a 32-bit data
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s 			page 6
-
-
  106:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     \param[in]  sdata: specified 32-bit data
  107:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     \param[out] none
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s 			page 6
+
+
  108:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     \retval     32-bit value calculated by CRC
  109:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** */
  110:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** uint32_t crc_single_data_calculate(uint32_t sdata)
  111:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** {
- 192              		.loc 1 111 1 is_stmt 1 view -0
- 193              		.cfi_startproc
- 194              		@ args = 0, pretend = 0, frame = 0
- 195              		@ frame_needed = 0, uses_anonymous_args = 0
- 196              		@ link register save eliminated.
+ 190              		.loc 1 111 1 is_stmt 1 view -0
+ 191              		.cfi_startproc
+ 192              		@ args = 0, pretend = 0, frame = 0
+ 193              		@ frame_needed = 0, uses_anonymous_args = 0
+ 194              		@ link register save eliminated.
  112:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     CRC_DATA = sdata;
- 197              		.loc 1 112 5 view .LVU30
- 198              		.loc 1 112 14 is_stmt 0 view .LVU31
- 199 0000 014B     		ldr	r3, .L17
- 200 0002 1860     		str	r0, [r3]
+ 195              		.loc 1 112 5 view .LVU30
+ 196              		.loc 1 112 14 is_stmt 0 view .LVU31
+ 197 0000 014B     		ldr	r3, .L17
+ 198 0002 1860     		str	r0, [r3]
  113:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     return (CRC_DATA);
- 201              		.loc 1 113 5 is_stmt 1 view .LVU32
- 202              		.loc 1 113 13 is_stmt 0 view .LVU33
- 203 0004 1868     		ldr	r0, [r3]
- 204              	.LVL4:
+ 199              		.loc 1 113 5 is_stmt 1 view .LVU32
+ 200              		.loc 1 113 13 is_stmt 0 view .LVU33
+ 201 0004 1868     		ldr	r0, [r3]
+ 202              	.LVL4:
  114:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** }
- 205              		.loc 1 114 1 view .LVU34
- 206 0006 7047     		bx	lr
- 207              	.L18:
- 208              		.align	2
- 209              	.L17:
- 210 0008 00300240 		.word	1073885184
- 211              		.cfi_endproc
- 212              	.LFE121:
- 214              		.section	.text.crc_block_data_calculate,"ax",%progbits
- 215              		.align	1
- 216              		.global	crc_block_data_calculate
- 217              		.syntax unified
- 218              		.thumb
- 219              		.thumb_func
- 220              		.fpu fpv4-sp-d16
- 222              	crc_block_data_calculate:
- 223              	.LVL5:
- 224              	.LFB122:
+ 203              		.loc 1 114 1 view .LVU34
+ 204 0006 7047     		bx	lr
+ 205              	.L18:
+ 206              		.align	2
+ 207              	.L17:
+ 208 0008 00300240 		.word	1073885184
+ 209              		.cfi_endproc
+ 210              	.LFE121:
+ 212              		.section	.text.crc_block_data_calculate,"ax",%progbits
+ 213              		.align	1
+ 214              		.global	crc_block_data_calculate
+ 215              		.syntax unified
+ 216              		.thumb
+ 217              		.thumb_func
+ 218              		.fpu fpv4-sp-d16
+ 220              	crc_block_data_calculate:
+ 221              	.LVL5:
+ 222              	.LFB122:
  115:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** 
  116:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** /*!
  117:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     \brief      calculate the CRC value of an array of 32-bit values
@@ -351,57 +349,61 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s 			page 1
  122:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** */
  123:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** uint32_t crc_block_data_calculate(const uint32_t *array, uint32_t size)
  124:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** {
- 225              		.loc 1 124 1 is_stmt 1 view -0
- 226              		.cfi_startproc
- 227              		@ args = 0, pretend = 0, frame = 0
- 228              		@ frame_needed = 0, uses_anonymous_args = 0
- 229              		@ link register save eliminated.
+ 223              		.loc 1 124 1 is_stmt 1 view -0
+ 224              		.cfi_startproc
+ 225              		@ args = 0, pretend = 0, frame = 0
+ 226              		@ frame_needed = 0, uses_anonymous_args = 0
+ 227              		@ link register save eliminated.
  125:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     uint32_t index;
- 230              		.loc 1 125 5 view .LVU36
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s 			page 7
-
-
+ 228              		.loc 1 125 5 view .LVU36
  126:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     for(index = 0U; index < size; index++){
- 231              		.loc 1 126 5 view .LVU37
- 232              		.loc 1 126 15 is_stmt 0 view .LVU38
- 233 0000 0023     		movs	r3, #0
- 234              	.LVL6:
- 235              		.loc 1 126 5 view .LVU39
- 236 0002 8B42     		cmp	r3, r1
- 237 0004 0CD2     		bcs	.L26
+ 229              		.loc 1 126 5 view .LVU37
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s 			page 7
+
+
+ 230              		.loc 1 126 15 is_stmt 0 view .LVU38
+ 231 0000 0023     		movs	r3, #0
+ 232              	.LVL6:
+ 233              		.loc 1 126 21 is_stmt 1 view .LVU39
+ 234              		.loc 1 126 5 is_stmt 0 view .LVU40
+ 235 0002 8B42     		cmp	r3, r1
+ 236 0004 0CD2     		bcs	.L26
  124:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     uint32_t index;
- 238              		.loc 1 124 1 view .LVU40
- 239 0006 10B4     		push	{r4}
- 240              	.LCFI0:
- 241              		.cfi_def_cfa_offset 4
- 242              		.cfi_offset 4, -4
- 243              	.L21:
+ 237              		.loc 1 124 1 view .LVU41
+ 238 0006 10B4     		push	{r4}
+ 239              	.LCFI0:
+ 240              		.cfi_def_cfa_offset 4
+ 241              		.cfi_offset 4, -4
+ 242              	.L21:
  127:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****         CRC_DATA = *(array+index);
- 244              		.loc 1 127 9 is_stmt 1 discriminator 3 view .LVU41
- 245              		.loc 1 127 20 is_stmt 0 discriminator 3 view .LVU42
- 246 0008 50F82340 		ldr	r4, [r0, r3, lsl #2]
- 247              		.loc 1 127 18 discriminator 3 view .LVU43
- 248 000c 064A     		ldr	r2, .L27
- 249 000e 1460     		str	r4, [r2]
+ 243              		.loc 1 127 9 is_stmt 1 discriminator 3 view .LVU42
+ 244              		.loc 1 127 18 is_stmt 0 discriminator 3 view .LVU43
+ 245 0008 074A     		ldr	r2, .L27
+ 246 000a 50F82340 		ldr	r4, [r0, r3, lsl #2]
+ 247 000e 1460     		str	r4, [r2]
  126:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     for(index = 0U; index < size; index++){
- 250              		.loc 1 126 40 discriminator 3 view .LVU44
- 251 0010 0133     		adds	r3, r3, #1
- 252              	.LVL7:
+ 248              		.loc 1 126 35 is_stmt 1 discriminator 3 view .LVU44
  126:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     for(index = 0U; index < size; index++){
- 253              		.loc 1 126 5 discriminator 3 view .LVU45
+ 249              		.loc 1 126 40 is_stmt 0 discriminator 3 view .LVU45
+ 250 0010 0133     		adds	r3, r3, #1
+ 251              	.LVL7:
+ 126:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     for(index = 0U; index < size; index++){
+ 252              		.loc 1 126 21 is_stmt 1 discriminator 3 view .LVU46
+ 126:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     for(index = 0U; index < size; index++){
+ 253              		.loc 1 126 5 is_stmt 0 discriminator 3 view .LVU47
  254 0012 8B42     		cmp	r3, r1
  255 0014 F8D3     		bcc	.L21
  128:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     }
  129:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c ****     return (CRC_DATA);
- 256              		.loc 1 129 5 is_stmt 1 view .LVU46
- 257              		.loc 1 129 13 is_stmt 0 view .LVU47
+ 256              		.loc 1 129 5 is_stmt 1 view .LVU48
+ 257              		.loc 1 129 13 is_stmt 0 view .LVU49
  258 0016 044B     		ldr	r3, .L27
  259              	.LVL8:
- 260              		.loc 1 129 13 view .LVU48
+ 260              		.loc 1 129 13 view .LVU50
  261 0018 1868     		ldr	r0, [r3]
  262              	.LVL9:
  130:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** }
- 263              		.loc 1 130 1 view .LVU49
+ 263              		.loc 1 130 1 view .LVU51
  264 001a 5DF8044B 		ldr	r4, [sp], #4
  265              	.LCFI1:
  266              		.cfi_restore 4
@@ -410,19 +412,19 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s 			page 1
  269              	.LVL10:
  270              	.L26:
  129:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** }
- 271              		.loc 1 129 5 is_stmt 1 view .LVU50
+ 271              		.loc 1 129 5 is_stmt 1 view .LVU52
  129:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** }
- 272              		.loc 1 129 13 is_stmt 0 view .LVU51
+ 272              		.loc 1 129 13 is_stmt 0 view .LVU53
  273 0020 014B     		ldr	r3, .L27
  274              	.LVL11:
  129:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_crc.c **** }
- 275              		.loc 1 129 13 view .LVU52
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s 			page 8
+
+
+ 275              		.loc 1 129 13 view .LVU54
  276 0022 1868     		ldr	r0, [r3]
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s 			page 8
-
-
  277              	.LVL12:
- 278              		.loc 1 130 1 view .LVU53
+ 278              		.loc 1 130 1 view .LVU55
  279 0024 7047     		bx	lr
  280              	.L28:
  281 0026 00BF     		.align	2
@@ -432,35 +434,33 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s 			page 1
  285              	.LFE122:
  287              		.text
  288              	.Letext0:
- 289              		.file 2 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\machine\\_default_types.h"
- 290              		.file 3 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\sys\\_stdint.h"
- 291              		.file 4 "Drivers/CMSIS/core_cm4.h"
- 292              		.file 5 "Drivers/CMSIS/GD/GD32F30x/Include/system_gd32f30x.h"
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s 			page 9
+ 289              		.file 2 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 290              		.file 3 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s 			page 9
 
 
 DEFINED SYMBOLS
-                            *ABS*:0000000000000000 gd32f30x_crc.c
-C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s:18     .text.crc_deinit:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s:26     .text.crc_deinit:0000000000000000 crc_deinit
-C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s:54     .text.crc_deinit:0000000000000018 $d
-C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s:59     .text.crc_data_register_reset:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s:66     .text.crc_data_register_reset:0000000000000000 crc_data_register_reset
-C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s:84     .text.crc_data_register_reset:000000000000000c $d
-C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s:89     .text.crc_data_register_read:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s:96     .text.crc_data_register_read:0000000000000000 crc_data_register_read
-C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s:115    .text.crc_data_register_read:0000000000000008 $d
-C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s:120    .text.crc_free_data_register_read:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s:127    .text.crc_free_data_register_read:0000000000000000 crc_free_data_register_read
-C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s:148    .text.crc_free_data_register_read:0000000000000008 $d
-C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s:153    .text.crc_free_data_register_write:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s:160    .text.crc_free_data_register_write:0000000000000000 crc_free_data_register_write
-C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s:177    .text.crc_free_data_register_write:0000000000000008 $d
-C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s:182    .text.crc_single_data_calculate:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s:189    .text.crc_single_data_calculate:0000000000000000 crc_single_data_calculate
-C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s:210    .text.crc_single_data_calculate:0000000000000008 $d
-C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s:215    .text.crc_block_data_calculate:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s:222    .text.crc_block_data_calculate:0000000000000000 crc_block_data_calculate
-C:\Users\Prog\AppData\Local\Temp\ccd0g0Kq.s:283    .text.crc_block_data_calculate:0000000000000028 $d
+                            *ABS*:00000000 gd32f30x_crc.c
+C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s:18     .text.crc_deinit:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s:26     .text.crc_deinit:00000000 crc_deinit
+C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s:52     .text.crc_deinit:00000014 $d
+C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s:57     .text.crc_data_register_reset:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s:64     .text.crc_data_register_reset:00000000 crc_data_register_reset
+C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s:82     .text.crc_data_register_reset:0000000c $d
+C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s:87     .text.crc_data_register_read:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s:94     .text.crc_data_register_read:00000000 crc_data_register_read
+C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s:113    .text.crc_data_register_read:00000008 $d
+C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s:118    .text.crc_free_data_register_read:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s:125    .text.crc_free_data_register_read:00000000 crc_free_data_register_read
+C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s:146    .text.crc_free_data_register_read:00000008 $d
+C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s:151    .text.crc_free_data_register_write:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s:158    .text.crc_free_data_register_write:00000000 crc_free_data_register_write
+C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s:175    .text.crc_free_data_register_write:00000008 $d
+C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s:180    .text.crc_single_data_calculate:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s:187    .text.crc_single_data_calculate:00000000 crc_single_data_calculate
+C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s:208    .text.crc_single_data_calculate:00000008 $d
+C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s:213    .text.crc_block_data_calculate:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s:220    .text.crc_block_data_calculate:00000000 crc_block_data_calculate
+C:\Users\Prog\AppData\Local\Temp\ccSleZmb.s:283    .text.crc_block_data_calculate:00000028 $d
 
 NO UNDEFINED SYMBOLS

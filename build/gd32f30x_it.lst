@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s 			page 1
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccuLzmrR.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s 			page 1
   28:Src/gd32f30x_it.c **** WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
   29:Src/gd32f30x_it.c **** IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, 
   30:Src/gd32f30x_it.c **** INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT 
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s 			page 2
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccuLzmrR.s 			page 2
 
 
   31:Src/gd32f30x_it.c **** NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR 
@@ -118,23 +118,25 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s 			page 1
   60:Src/gd32f30x_it.c ****     /* if Hard Fault exception occurs, go to infinite loop */
   61:Src/gd32f30x_it.c ****     while (1){
   56              		.loc 1 61 5 discriminator 1 view .LVU3
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s 			page 3
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccuLzmrR.s 			page 3
 
 
   62:Src/gd32f30x_it.c ****     }
   57              		.loc 1 62 5 discriminator 1 view .LVU4
-  58 0000 FEE7     		b	.L3
-  59              		.cfi_endproc
-  60              	.LFE117:
-  62              		.section	.text.MemManage_Handler,"ax",%progbits
-  63              		.align	1
-  64              		.global	MemManage_Handler
-  65              		.syntax unified
-  66              		.thumb
-  67              		.thumb_func
-  68              		.fpu fpv4-sp-d16
-  70              	MemManage_Handler:
-  71              	.LFB118:
+  61:Src/gd32f30x_it.c ****     }
+  58              		.loc 1 61 11 discriminator 1 view .LVU5
+  59 0000 FEE7     		b	.L3
+  60              		.cfi_endproc
+  61              	.LFE117:
+  63              		.section	.text.MemManage_Handler,"ax",%progbits
+  64              		.align	1
+  65              		.global	MemManage_Handler
+  66              		.syntax unified
+  67              		.thumb
+  68              		.thumb_func
+  69              		.fpu fpv4-sp-d16
+  71              	MemManage_Handler:
+  72              	.LFB118:
   63:Src/gd32f30x_it.c **** }
   64:Src/gd32f30x_it.c **** 
   65:Src/gd32f30x_it.c **** /*!
@@ -145,67 +147,71 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s 			page 1
   70:Src/gd32f30x_it.c **** */
   71:Src/gd32f30x_it.c **** void MemManage_Handler(void)
   72:Src/gd32f30x_it.c **** {
-  72              		.loc 1 72 1 view -0
-  73              		.cfi_startproc
-  74              		@ Volatile: function does not return.
-  75              		@ args = 0, pretend = 0, frame = 0
-  76              		@ frame_needed = 0, uses_anonymous_args = 0
-  77              		@ link register save eliminated.
-  78              	.L5:
+  73              		.loc 1 72 1 view -0
+  74              		.cfi_startproc
+  75              		@ Volatile: function does not return.
+  76              		@ args = 0, pretend = 0, frame = 0
+  77              		@ frame_needed = 0, uses_anonymous_args = 0
+  78              		@ link register save eliminated.
+  79              	.L5:
   73:Src/gd32f30x_it.c ****     /* if Memory Manage exception occurs, go to infinite loop */
   74:Src/gd32f30x_it.c ****     while (1){
-  79              		.loc 1 74 5 discriminator 1 view .LVU6
+  80              		.loc 1 74 5 discriminator 1 view .LVU7
   75:Src/gd32f30x_it.c ****     }
-  80              		.loc 1 75 5 discriminator 1 view .LVU7
-  81 0000 FEE7     		b	.L5
-  82              		.cfi_endproc
-  83              	.LFE118:
-  85              		.section	.text.BusFault_Handler,"ax",%progbits
-  86              		.align	1
-  87              		.global	BusFault_Handler
-  88              		.syntax unified
-  89              		.thumb
-  90              		.thumb_func
-  91              		.fpu fpv4-sp-d16
-  93              	BusFault_Handler:
-  94              	.LFB119:
+  81              		.loc 1 75 5 discriminator 1 view .LVU8
+  74:Src/gd32f30x_it.c ****     }
+  82              		.loc 1 74 11 discriminator 1 view .LVU9
+  83 0000 FEE7     		b	.L5
+  84              		.cfi_endproc
+  85              	.LFE118:
+  87              		.section	.text.BusFault_Handler,"ax",%progbits
+  88              		.align	1
+  89              		.global	BusFault_Handler
+  90              		.syntax unified
+  91              		.thumb
+  92              		.thumb_func
+  93              		.fpu fpv4-sp-d16
+  95              	BusFault_Handler:
+  96              	.LFB119:
   76:Src/gd32f30x_it.c **** }
   77:Src/gd32f30x_it.c **** 
   78:Src/gd32f30x_it.c **** /*!
   79:Src/gd32f30x_it.c ****     \brief      this function handles BusFault exception
   80:Src/gd32f30x_it.c ****     \param[in]  none
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccuLzmrR.s 			page 4
+
+
   81:Src/gd32f30x_it.c ****     \param[out] none
   82:Src/gd32f30x_it.c ****     \retval     none
   83:Src/gd32f30x_it.c **** */
   84:Src/gd32f30x_it.c **** void BusFault_Handler(void)
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s 			page 4
-
-
   85:Src/gd32f30x_it.c **** {
-  95              		.loc 1 85 1 view -0
-  96              		.cfi_startproc
-  97              		@ Volatile: function does not return.
-  98              		@ args = 0, pretend = 0, frame = 0
-  99              		@ frame_needed = 0, uses_anonymous_args = 0
- 100              		@ link register save eliminated.
- 101              	.L7:
+  97              		.loc 1 85 1 view -0
+  98              		.cfi_startproc
+  99              		@ Volatile: function does not return.
+ 100              		@ args = 0, pretend = 0, frame = 0
+ 101              		@ frame_needed = 0, uses_anonymous_args = 0
+ 102              		@ link register save eliminated.
+ 103              	.L7:
   86:Src/gd32f30x_it.c ****     /* if Bus Fault exception occurs, go to infinite loop */
   87:Src/gd32f30x_it.c ****     while (1){
- 102              		.loc 1 87 5 discriminator 1 view .LVU9
+ 104              		.loc 1 87 5 discriminator 1 view .LVU11
   88:Src/gd32f30x_it.c ****     }
- 103              		.loc 1 88 5 discriminator 1 view .LVU10
- 104 0000 FEE7     		b	.L7
- 105              		.cfi_endproc
- 106              	.LFE119:
- 108              		.section	.text.UsageFault_Handler,"ax",%progbits
- 109              		.align	1
- 110              		.global	UsageFault_Handler
- 111              		.syntax unified
- 112              		.thumb
- 113              		.thumb_func
- 114              		.fpu fpv4-sp-d16
- 116              	UsageFault_Handler:
- 117              	.LFB120:
+ 105              		.loc 1 88 5 discriminator 1 view .LVU12
+  87:Src/gd32f30x_it.c ****     }
+ 106              		.loc 1 87 11 discriminator 1 view .LVU13
+ 107 0000 FEE7     		b	.L7
+ 108              		.cfi_endproc
+ 109              	.LFE119:
+ 111              		.section	.text.UsageFault_Handler,"ax",%progbits
+ 112              		.align	1
+ 113              		.global	UsageFault_Handler
+ 114              		.syntax unified
+ 115              		.thumb
+ 116              		.thumb_func
+ 117              		.fpu fpv4-sp-d16
+ 119              	UsageFault_Handler:
+ 120              	.LFB120:
   89:Src/gd32f30x_it.c **** }
   90:Src/gd32f30x_it.c **** 
   91:Src/gd32f30x_it.c **** /*!
@@ -216,33 +222,35 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s 			page 1
   96:Src/gd32f30x_it.c **** */
   97:Src/gd32f30x_it.c **** void UsageFault_Handler(void)
   98:Src/gd32f30x_it.c **** {
- 118              		.loc 1 98 1 view -0
- 119              		.cfi_startproc
- 120              		@ Volatile: function does not return.
- 121              		@ args = 0, pretend = 0, frame = 0
- 122              		@ frame_needed = 0, uses_anonymous_args = 0
- 123              		@ link register save eliminated.
- 124              	.L9:
+ 121              		.loc 1 98 1 view -0
+ 122              		.cfi_startproc
+ 123              		@ Volatile: function does not return.
+ 124              		@ args = 0, pretend = 0, frame = 0
+ 125              		@ frame_needed = 0, uses_anonymous_args = 0
+ 126              		@ link register save eliminated.
+ 127              	.L9:
   99:Src/gd32f30x_it.c ****     /* if Usage Fault exception occurs, go to infinite loop */
  100:Src/gd32f30x_it.c ****     while (1){
- 125              		.loc 1 100 5 discriminator 1 view .LVU12
+ 128              		.loc 1 100 5 discriminator 1 view .LVU15
  101:Src/gd32f30x_it.c ****     }
- 126              		.loc 1 101 5 discriminator 1 view .LVU13
- 127 0000 FEE7     		b	.L9
- 128              		.cfi_endproc
- 129              	.LFE120:
- 131              		.section	.text.SVC_Handler,"ax",%progbits
- 132              		.align	1
- 133              		.global	SVC_Handler
- 134              		.syntax unified
- 135              		.thumb
- 136              		.thumb_func
- 137              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s 			page 5
+ 129              		.loc 1 101 5 discriminator 1 view .LVU16
+ 100:Src/gd32f30x_it.c ****     }
+ 130              		.loc 1 100 11 discriminator 1 view .LVU17
+ 131 0000 FEE7     		b	.L9
+ 132              		.cfi_endproc
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccuLzmrR.s 			page 5
 
 
- 139              	SVC_Handler:
- 140              	.LFB121:
+ 133              	.LFE120:
+ 135              		.section	.text.SVC_Handler,"ax",%progbits
+ 136              		.align	1
+ 137              		.global	SVC_Handler
+ 138              		.syntax unified
+ 139              		.thumb
+ 140              		.thumb_func
+ 141              		.fpu fpv4-sp-d16
+ 143              	SVC_Handler:
+ 144              	.LFB121:
  102:Src/gd32f30x_it.c **** }
  103:Src/gd32f30x_it.c **** 
  104:Src/gd32f30x_it.c **** /*!
@@ -253,25 +261,25 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s 			page 1
  109:Src/gd32f30x_it.c **** */
  110:Src/gd32f30x_it.c **** void SVC_Handler(void)
  111:Src/gd32f30x_it.c **** {
- 141              		.loc 1 111 1 view -0
- 142              		.cfi_startproc
- 143              		@ args = 0, pretend = 0, frame = 0
- 144              		@ frame_needed = 0, uses_anonymous_args = 0
- 145              		@ link register save eliminated.
+ 145              		.loc 1 111 1 view -0
+ 146              		.cfi_startproc
+ 147              		@ args = 0, pretend = 0, frame = 0
+ 148              		@ frame_needed = 0, uses_anonymous_args = 0
+ 149              		@ link register save eliminated.
  112:Src/gd32f30x_it.c **** }
- 146              		.loc 1 112 1 view .LVU15
- 147 0000 7047     		bx	lr
- 148              		.cfi_endproc
- 149              	.LFE121:
- 151              		.section	.text.DebugMon_Handler,"ax",%progbits
- 152              		.align	1
- 153              		.global	DebugMon_Handler
- 154              		.syntax unified
- 155              		.thumb
- 156              		.thumb_func
- 157              		.fpu fpv4-sp-d16
- 159              	DebugMon_Handler:
- 160              	.LFB122:
+ 150              		.loc 1 112 1 view .LVU19
+ 151 0000 7047     		bx	lr
+ 152              		.cfi_endproc
+ 153              	.LFE121:
+ 155              		.section	.text.DebugMon_Handler,"ax",%progbits
+ 156              		.align	1
+ 157              		.global	DebugMon_Handler
+ 158              		.syntax unified
+ 159              		.thumb
+ 160              		.thumb_func
+ 161              		.fpu fpv4-sp-d16
+ 163              	DebugMon_Handler:
+ 164              	.LFB122:
  113:Src/gd32f30x_it.c **** 
  114:Src/gd32f30x_it.c **** /*!
  115:Src/gd32f30x_it.c ****     \brief      this function handles DebugMon exception
@@ -281,28 +289,28 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s 			page 1
  119:Src/gd32f30x_it.c **** */
  120:Src/gd32f30x_it.c **** void DebugMon_Handler(void)
  121:Src/gd32f30x_it.c **** {
- 161              		.loc 1 121 1 view -0
- 162              		.cfi_startproc
- 163              		@ args = 0, pretend = 0, frame = 0
- 164              		@ frame_needed = 0, uses_anonymous_args = 0
- 165              		@ link register save eliminated.
+ 165              		.loc 1 121 1 view -0
+ 166              		.cfi_startproc
+ 167              		@ args = 0, pretend = 0, frame = 0
+ 168              		@ frame_needed = 0, uses_anonymous_args = 0
+ 169              		@ link register save eliminated.
  122:Src/gd32f30x_it.c **** }
- 166              		.loc 1 122 1 view .LVU17
- 167 0000 7047     		bx	lr
- 168              		.cfi_endproc
- 169              	.LFE122:
- 171              		.section	.text.PendSV_Handler,"ax",%progbits
- 172              		.align	1
- 173              		.global	PendSV_Handler
- 174              		.syntax unified
- 175              		.thumb
- 176              		.thumb_func
- 177              		.fpu fpv4-sp-d16
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s 			page 6
+ 170              		.loc 1 122 1 view .LVU21
+ 171 0000 7047     		bx	lr
+ 172              		.cfi_endproc
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccuLzmrR.s 			page 6
 
 
- 179              	PendSV_Handler:
- 180              	.LFB123:
+ 173              	.LFE122:
+ 175              		.section	.text.PendSV_Handler,"ax",%progbits
+ 176              		.align	1
+ 177              		.global	PendSV_Handler
+ 178              		.syntax unified
+ 179              		.thumb
+ 180              		.thumb_func
+ 181              		.fpu fpv4-sp-d16
+ 183              	PendSV_Handler:
+ 184              	.LFB123:
  123:Src/gd32f30x_it.c **** 
  124:Src/gd32f30x_it.c **** /*!
  125:Src/gd32f30x_it.c ****     \brief      this function handles PendSV exception
@@ -312,25 +320,25 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s 			page 1
  129:Src/gd32f30x_it.c **** */
  130:Src/gd32f30x_it.c **** void PendSV_Handler(void)
  131:Src/gd32f30x_it.c **** {
- 181              		.loc 1 131 1 view -0
- 182              		.cfi_startproc
- 183              		@ args = 0, pretend = 0, frame = 0
- 184              		@ frame_needed = 0, uses_anonymous_args = 0
- 185              		@ link register save eliminated.
+ 185              		.loc 1 131 1 view -0
+ 186              		.cfi_startproc
+ 187              		@ args = 0, pretend = 0, frame = 0
+ 188              		@ frame_needed = 0, uses_anonymous_args = 0
+ 189              		@ link register save eliminated.
  132:Src/gd32f30x_it.c **** }
- 186              		.loc 1 132 1 view .LVU19
- 187 0000 7047     		bx	lr
- 188              		.cfi_endproc
- 189              	.LFE123:
- 191              		.section	.text.SysTick_Handler,"ax",%progbits
- 192              		.align	1
- 193              		.global	SysTick_Handler
- 194              		.syntax unified
- 195              		.thumb
- 196              		.thumb_func
- 197              		.fpu fpv4-sp-d16
- 199              	SysTick_Handler:
- 200              	.LFB124:
+ 190              		.loc 1 132 1 view .LVU23
+ 191 0000 7047     		bx	lr
+ 192              		.cfi_endproc
+ 193              	.LFE123:
+ 195              		.section	.text.SysTick_Handler,"ax",%progbits
+ 196              		.align	1
+ 197              		.global	SysTick_Handler
+ 198              		.syntax unified
+ 199              		.thumb
+ 200              		.thumb_func
+ 201              		.fpu fpv4-sp-d16
+ 203              	SysTick_Handler:
+ 204              	.LFB124:
  133:Src/gd32f30x_it.c **** 
  134:Src/gd32f30x_it.c **** /*!
  135:Src/gd32f30x_it.c ****     \brief      this function handles SysTick exception
@@ -340,57 +348,53 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s 			page 1
  139:Src/gd32f30x_it.c **** */
  140:Src/gd32f30x_it.c **** void SysTick_Handler(void)
  141:Src/gd32f30x_it.c **** {
- 201              		.loc 1 141 1 view -0
- 202              		.cfi_startproc
- 203              		@ args = 0, pretend = 0, frame = 0
- 204              		@ frame_needed = 0, uses_anonymous_args = 0
- 205 0000 08B5     		push	{r3, lr}
- 206              	.LCFI0:
- 207              		.cfi_def_cfa_offset 8
- 208              		.cfi_offset 3, -8
- 209              		.cfi_offset 14, -4
+ 205              		.loc 1 141 1 view -0
+ 206              		.cfi_startproc
+ 207              		@ args = 0, pretend = 0, frame = 0
+ 208              		@ frame_needed = 0, uses_anonymous_args = 0
+ 209 0000 08B5     		push	{r3, lr}
+ 210              	.LCFI0:
+ 211              		.cfi_def_cfa_offset 8
+ 212              		.cfi_offset 3, -8
+ 213              		.cfi_offset 14, -4
  142:Src/gd32f30x_it.c ****     delay_decrement();
- 210              		.loc 1 142 5 view .LVU21
- 211 0002 FFF7FEFF 		bl	delay_decrement
- 212              	.LVL0:
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccuLzmrR.s 			page 7
+
+
+ 214              		.loc 1 142 5 view .LVU25
+ 215 0002 FFF7FEFF 		bl	delay_decrement
+ 216              	.LVL0:
  143:Src/gd32f30x_it.c **** }
- 213              		.loc 1 143 1 is_stmt 0 view .LVU22
- 214 0006 08BD     		pop	{r3, pc}
- 215              		.cfi_endproc
- 216              	.LFE124:
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s 			page 7
-
-
- 218              		.text
- 219              	.Letext0:
- 220              		.file 2 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\machine\\_default_types.h"
- 221              		.file 3 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\sys\\_stdint.h"
- 222              		.file 4 "Drivers/CMSIS/core_cm4.h"
- 223              		.file 5 "Drivers/CMSIS/GD/GD32F30x/Include/system_gd32f30x.h"
- 224              		.file 6 "Inc/systick.h"
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s 			page 8
+ 217              		.loc 1 143 1 is_stmt 0 view .LVU26
+ 218 0006 08BD     		pop	{r3, pc}
+ 219              		.cfi_endproc
+ 220              	.LFE124:
+ 222              		.text
+ 223              	.Letext0:
+ 224              		.file 2 "Inc/systick.h"
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccuLzmrR.s 			page 8
 
 
 DEFINED SYMBOLS
-                            *ABS*:0000000000000000 gd32f30x_it.c
-C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s:18     .text.NMI_Handler:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s:26     .text.NMI_Handler:0000000000000000 NMI_Handler
-C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s:40     .text.HardFault_Handler:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s:47     .text.HardFault_Handler:0000000000000000 HardFault_Handler
-C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s:63     .text.MemManage_Handler:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s:70     .text.MemManage_Handler:0000000000000000 MemManage_Handler
-C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s:86     .text.BusFault_Handler:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s:93     .text.BusFault_Handler:0000000000000000 BusFault_Handler
-C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s:109    .text.UsageFault_Handler:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s:116    .text.UsageFault_Handler:0000000000000000 UsageFault_Handler
-C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s:132    .text.SVC_Handler:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s:139    .text.SVC_Handler:0000000000000000 SVC_Handler
-C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s:152    .text.DebugMon_Handler:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s:159    .text.DebugMon_Handler:0000000000000000 DebugMon_Handler
-C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s:172    .text.PendSV_Handler:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s:179    .text.PendSV_Handler:0000000000000000 PendSV_Handler
-C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s:192    .text.SysTick_Handler:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccTDEI5j.s:199    .text.SysTick_Handler:0000000000000000 SysTick_Handler
+                            *ABS*:00000000 gd32f30x_it.c
+C:\Users\Prog\AppData\Local\Temp\ccuLzmrR.s:18     .text.NMI_Handler:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccuLzmrR.s:26     .text.NMI_Handler:00000000 NMI_Handler
+C:\Users\Prog\AppData\Local\Temp\ccuLzmrR.s:40     .text.HardFault_Handler:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccuLzmrR.s:47     .text.HardFault_Handler:00000000 HardFault_Handler
+C:\Users\Prog\AppData\Local\Temp\ccuLzmrR.s:64     .text.MemManage_Handler:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccuLzmrR.s:71     .text.MemManage_Handler:00000000 MemManage_Handler
+C:\Users\Prog\AppData\Local\Temp\ccuLzmrR.s:88     .text.BusFault_Handler:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccuLzmrR.s:95     .text.BusFault_Handler:00000000 BusFault_Handler
+C:\Users\Prog\AppData\Local\Temp\ccuLzmrR.s:112    .text.UsageFault_Handler:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccuLzmrR.s:119    .text.UsageFault_Handler:00000000 UsageFault_Handler
+C:\Users\Prog\AppData\Local\Temp\ccuLzmrR.s:136    .text.SVC_Handler:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccuLzmrR.s:143    .text.SVC_Handler:00000000 SVC_Handler
+C:\Users\Prog\AppData\Local\Temp\ccuLzmrR.s:156    .text.DebugMon_Handler:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccuLzmrR.s:163    .text.DebugMon_Handler:00000000 DebugMon_Handler
+C:\Users\Prog\AppData\Local\Temp\ccuLzmrR.s:176    .text.PendSV_Handler:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccuLzmrR.s:183    .text.PendSV_Handler:00000000 PendSV_Handler
+C:\Users\Prog\AppData\Local\Temp\ccuLzmrR.s:196    .text.SysTick_Handler:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccuLzmrR.s:203    .text.SysTick_Handler:00000000 SysTick_Handler
 
 UNDEFINED SYMBOLS
 delay_decrement

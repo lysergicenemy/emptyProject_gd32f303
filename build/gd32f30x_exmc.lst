@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
   27:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED 
   28:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
   29:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, 
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 2
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 2
 
 
   30:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
   84:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** #define NPATCFG_ATTHLD_OFFSET             ((uint32_t)16U)
   85:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** #define NPATCFG_ATTHIZ_OFFSET             ((uint32_t)24U)
   86:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 3
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 3
 
 
   87:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** #define PIOTCFG_IOWAIT_OFFSET             ((uint32_t)8U)
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
   58              		.loc 1 107 9 is_stmt 1 view .LVU10
   59 0022 00F1A052 		add	r2, r0, #335544320
   60 0026 D200     		lsls	r2, r2, #3
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 4
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 4
 
 
  107:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     }
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
  102              		.loc 1 125 45 is_stmt 0 view .LVU21
  103 000c 8362     		str	r3, [r0, #40]
  126:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_norsram_init_struct->burst_mode = DISABLE;
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 5
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 5
 
 
  104              		.loc 1 126 5 is_stmt 1 view .LVU22
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
  145              		.loc 1 139 70 view .LVU48
  146 002c FF21     		movs	r1, #255
  147 002e 2161     		str	r1, [r4, #16]
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 6
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 6
 
 
  140:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_norsram_init_struct->read_write_timing->bus_latency = 0xFU;
@@ -316,72 +316,67 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
  158 003a A560     		str	r5, [r4, #8]
  142:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_norsram_init_struct->read_write_timing->syn_data_latency = EXMC_DATALAT_17_CLK;
  159              		.loc 1 142 5 is_stmt 1 view .LVU55
- 160              		.loc 1 142 29 is_stmt 0 view .LVU56
- 161 003c 446B     		ldr	r4, [r0, #52]
- 162              		.loc 1 142 67 view .LVU57
- 163 003e 4FF07065 		mov	r5, #251658240
- 164 0042 6560     		str	r5, [r4, #4]
+ 160              		.loc 1 142 67 is_stmt 0 view .LVU56
+ 161 003c 4FF07064 		mov	r4, #251658240
+ 162 0040 456B     		ldr	r5, [r0, #52]
+ 163 0042 6C60     		str	r4, [r5, #4]
  143:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_norsram_init_struct->read_write_timing->asyn_access_mode = EXMC_ACCESS_MODE_A;
- 165              		.loc 1 143 5 is_stmt 1 view .LVU58
- 166              		.loc 1 143 29 is_stmt 0 view .LVU59
- 167 0044 446B     		ldr	r4, [r0, #52]
- 168              		.loc 1 143 67 view .LVU60
- 169 0046 2360     		str	r3, [r4]
+ 164              		.loc 1 143 5 is_stmt 1 view .LVU57
+ 165              		.loc 1 143 67 is_stmt 0 view .LVU58
+ 166 0044 446B     		ldr	r4, [r0, #52]
+ 167 0046 2360     		str	r3, [r4]
  144:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  145:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     /* write timing configure, when extended mode is used */
  146:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_norsram_init_struct->write_timing->asyn_address_setuptime = 0xFU;
- 170              		.loc 1 146 5 is_stmt 1 view .LVU61
- 171              		.loc 1 146 29 is_stmt 0 view .LVU62
- 172 0048 846B     		ldr	r4, [r0, #56]
- 173              		.loc 1 146 68 view .LVU63
- 174 004a A261     		str	r2, [r4, #24]
+ 168              		.loc 1 146 5 is_stmt 1 view .LVU59
+ 169              		.loc 1 146 68 is_stmt 0 view .LVU60
+ 170 0048 846B     		ldr	r4, [r0, #56]
+ 171 004a A261     		str	r2, [r4, #24]
  147:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_norsram_init_struct->write_timing->asyn_address_holdtime = 0xFU;
- 175              		.loc 1 147 5 is_stmt 1 view .LVU64
- 176              		.loc 1 147 29 is_stmt 0 view .LVU65
- 177 004c 846B     		ldr	r4, [r0, #56]
- 178              		.loc 1 147 67 view .LVU66
- 179 004e 6261     		str	r2, [r4, #20]
+ 172              		.loc 1 147 5 is_stmt 1 view .LVU61
+ 173              		.loc 1 147 67 is_stmt 0 view .LVU62
+ 174 004c 846B     		ldr	r4, [r0, #56]
+ 175 004e 6261     		str	r2, [r4, #20]
  148:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_norsram_init_struct->write_timing->asyn_data_setuptime = 0xFFU;
- 180              		.loc 1 148 5 is_stmt 1 view .LVU67
- 181              		.loc 1 148 29 is_stmt 0 view .LVU68
- 182 0050 846B     		ldr	r4, [r0, #56]
- 183              		.loc 1 148 65 view .LVU69
- 184 0052 2161     		str	r1, [r4, #16]
+ 176              		.loc 1 148 5 is_stmt 1 view .LVU63
+ 177              		.loc 1 148 65 is_stmt 0 view .LVU64
+ 178 0050 846B     		ldr	r4, [r0, #56]
+ 179 0052 2161     		str	r1, [r4, #16]
  149:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_norsram_init_struct->write_timing->bus_latency = 0xFU;
- 185              		.loc 1 149 5 is_stmt 1 view .LVU70
- 186              		.loc 1 149 29 is_stmt 0 view .LVU71
- 187 0054 816B     		ldr	r1, [r0, #56]
- 188              		.loc 1 149 57 view .LVU72
- 189 0056 CA60     		str	r2, [r1, #12]
+ 180              		.loc 1 149 5 is_stmt 1 view .LVU65
+ 181              		.loc 1 149 29 is_stmt 0 view .LVU66
+ 182 0054 816B     		ldr	r1, [r0, #56]
+ 183              		.loc 1 149 57 view .LVU67
+ 184 0056 CA60     		str	r2, [r1, #12]
  150:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_norsram_init_struct->write_timing->asyn_access_mode = EXMC_ACCESS_MODE_A;
- 190              		.loc 1 150 5 is_stmt 1 view .LVU73
- 191              		.loc 1 150 29 is_stmt 0 view .LVU74
- 192 0058 826B     		ldr	r2, [r0, #56]
- 193              		.loc 1 150 62 view .LVU75
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 7
-
-
- 194 005a 1360     		str	r3, [r2]
+ 185              		.loc 1 150 5 is_stmt 1 view .LVU68
+ 186              		.loc 1 150 29 is_stmt 0 view .LVU69
+ 187 0058 826B     		ldr	r2, [r0, #56]
+ 188              		.loc 1 150 62 view .LVU70
+ 189 005a 1360     		str	r3, [r2]
  151:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** }
- 195              		.loc 1 151 1 view .LVU76
- 196 005c 30BC     		pop	{r4, r5}
- 197              	.LCFI1:
- 198              		.cfi_restore 5
- 199              		.cfi_restore 4
- 200              		.cfi_def_cfa_offset 0
- 201 005e 7047     		bx	lr
- 202              		.cfi_endproc
- 203              	.LFE117:
- 205              		.section	.text.exmc_norsram_init,"ax",%progbits
- 206              		.align	1
- 207              		.global	exmc_norsram_init
- 208              		.syntax unified
- 209              		.thumb
- 210              		.thumb_func
- 211              		.fpu fpv4-sp-d16
- 213              	exmc_norsram_init:
- 214              	.LVL2:
- 215              	.LFB118:
+ 190              		.loc 1 151 1 view .LVU71
+ 191 005c 30BC     		pop	{r4, r5}
+ 192              	.LCFI1:
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 7
+
+
+ 193              		.cfi_restore 5
+ 194              		.cfi_restore 4
+ 195              		.cfi_def_cfa_offset 0
+ 196 005e 7047     		bx	lr
+ 197              		.cfi_endproc
+ 198              	.LFE117:
+ 200              		.section	.text.exmc_norsram_init,"ax",%progbits
+ 201              		.align	1
+ 202              		.global	exmc_norsram_init
+ 203              		.syntax unified
+ 204              		.thumb
+ 205              		.thumb_func
+ 206              		.fpu fpv4-sp-d16
+ 208              	exmc_norsram_init:
+ 209              	.LVL2:
+ 210              	.LFB118:
  152:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  153:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** /*!
  154:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \brief      initialize EXMC NOR/SRAM region
@@ -406,214 +401,207 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
  173:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** */
  174:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** void exmc_norsram_init(exmc_norsram_parameter_struct* exmc_norsram_init_struct)
  175:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** {
- 216              		.loc 1 175 1 is_stmt 1 view -0
- 217              		.cfi_startproc
- 218              		@ args = 0, pretend = 0, frame = 0
- 219              		@ frame_needed = 0, uses_anonymous_args = 0
- 220              		@ link register save eliminated.
- 221              		.loc 1 175 1 is_stmt 0 view .LVU78
- 222 0000 F0B4     		push	{r4, r5, r6, r7}
- 223              	.LCFI2:
- 224              		.cfi_def_cfa_offset 16
- 225              		.cfi_offset 4, -16
- 226              		.cfi_offset 5, -12
- 227              		.cfi_offset 6, -8
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 8
-
-
- 228              		.cfi_offset 7, -4
+ 211              		.loc 1 175 1 is_stmt 1 view -0
+ 212              		.cfi_startproc
+ 213              		@ args = 0, pretend = 0, frame = 0
+ 214              		@ frame_needed = 0, uses_anonymous_args = 0
+ 215              		@ link register save eliminated.
+ 216              		.loc 1 175 1 is_stmt 0 view .LVU73
+ 217 0000 F0B4     		push	{r4, r5, r6, r7}
+ 218              	.LCFI2:
+ 219              		.cfi_def_cfa_offset 16
+ 220              		.cfi_offset 4, -16
+ 221              		.cfi_offset 5, -12
+ 222              		.cfi_offset 6, -8
+ 223              		.cfi_offset 7, -4
  176:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     uint32_t snctl = 0x00000000U,sntcfg = 0x00000000U,snwtcfg = 0x00000000U;
- 229              		.loc 1 176 5 is_stmt 1 view .LVU79
- 230              	.LVL3:
+ 224              		.loc 1 176 5 is_stmt 1 view .LVU74
+ 225              	.LVL3:
  177:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 8
+
+
  178:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     /* get the register value */
  179:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     snctl = EXMC_SNCTL(exmc_norsram_init_struct->norsram_region);
- 231              		.loc 1 179 5 view .LVU80
- 232              		.loc 1 179 13 is_stmt 0 view .LVU81
- 233 0002 0168     		ldr	r1, [r0]
- 234 0004 01F1A051 		add	r1, r1, #335544320
- 235 0008 C900     		lsls	r1, r1, #3
- 236              		.loc 1 179 11 view .LVU82
- 237 000a 0B68     		ldr	r3, [r1]
- 238              	.LVL4:
+ 226              		.loc 1 179 5 view .LVU75
+ 227              		.loc 1 179 13 is_stmt 0 view .LVU76
+ 228 0002 0168     		ldr	r1, [r0]
+ 229 0004 01F1A051 		add	r1, r1, #335544320
+ 230 0008 C900     		lsls	r1, r1, #3
+ 231              		.loc 1 179 11 view .LVU77
+ 232 000a 0B68     		ldr	r3, [r1]
+ 233              	.LVL4:
  180:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  181:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     /* clear relative bits */
  182:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     snctl &= ((uint32_t)~(EXMC_SNCTL_NRMUX | EXMC_SNCTL_NRTP | EXMC_SNCTL_NRW | EXMC_SNCTL_SBRSTEN 
- 239              		.loc 1 182 5 is_stmt 1 view .LVU83
- 240              		.loc 1 182 11 is_stmt 0 view .LVU84
- 241 000c 354D     		ldr	r5, .L13
- 242 000e 1D40     		ands	r5, r5, r3
- 243              	.LVL5:
+ 234              		.loc 1 182 5 is_stmt 1 view .LVU78
+ 235              		.loc 1 182 11 is_stmt 0 view .LVU79
+ 236 000c 3A4D     		ldr	r5, .L13
+ 237 000e 1D40     		ands	r5, r5, r3
+ 238              	.LVL5:
  183:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                           EXMC_SNCTL_NREN | EXMC_SNCTL_NRWTPOL | EXMC_SNCTL_WRAPEN | EXMC_SNCTL_NRW
  184:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                           EXMC_SNCTL_WREN | EXMC_SNCTL_NRWTEN | EXMC_SNCTL_EXMODEN | EXMC_SNCTL_ASY
  185:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                           EXMC_SNCTL_SYNCWR ));
  186:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  187:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     snctl |= (uint32_t)(exmc_norsram_init_struct->address_data_mux << SNCTL_NRMUX_OFFSET) |
- 244              		.loc 1 187 5 is_stmt 1 view .LVU85
- 245              		.loc 1 187 49 is_stmt 0 view .LVU86
- 246 0010 026B     		ldr	r2, [r0, #48]
+ 239              		.loc 1 187 5 is_stmt 1 view .LVU80
+ 240              		.loc 1 187 49 is_stmt 0 view .LVU81
+ 241 0010 026B     		ldr	r2, [r0, #48]
  188:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                         exmc_norsram_init_struct->memory_type |
- 247              		.loc 1 188 49 view .LVU87
- 248 0012 C46A     		ldr	r4, [r0, #44]
+ 242              		.loc 1 188 49 view .LVU82
+ 243 0012 C46A     		ldr	r4, [r0, #44]
  187:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                         exmc_norsram_init_struct->memory_type |
- 249              		.loc 1 187 91 view .LVU88
- 250 0014 44EA4203 		orr	r3, r4, r2, lsl #1
+ 244              		.loc 1 187 91 view .LVU83
+ 245 0014 44EA4203 		orr	r3, r4, r2, lsl #1
  189:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                         exmc_norsram_init_struct->databus_width |
- 251              		.loc 1 189 49 view .LVU89
- 252 0018 826A     		ldr	r2, [r0, #40]
+ 246              		.loc 1 189 49 view .LVU84
+ 247 0018 826A     		ldr	r2, [r0, #40]
  188:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                         exmc_norsram_init_struct->memory_type |
- 253              		.loc 1 188 63 view .LVU90
- 254 001a 1343     		orrs	r3, r3, r2
+ 248              		.loc 1 188 63 view .LVU85
+ 249 001a 1343     		orrs	r3, r3, r2
  190:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        (exmc_norsram_init_struct->burst_mode << SNCTL_SBRSTEN_OFFSET) |
- 255              		.loc 1 190 49 view .LVU91
- 256 001c 426A     		ldr	r2, [r0, #36]
+ 250              		.loc 1 190 49 view .LVU86
+ 251 001c 426A     		ldr	r2, [r0, #36]
  189:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                         exmc_norsram_init_struct->databus_width |
- 257              		.loc 1 189 65 view .LVU92
- 258 001e 43EA0223 		orr	r3, r3, r2, lsl #8
+ 252              		.loc 1 189 65 view .LVU87
+ 253 001e 43EA0223 		orr	r3, r3, r2, lsl #8
  191:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                         exmc_norsram_init_struct->nwait_polarity |
- 259              		.loc 1 191 49 view .LVU93
- 260 0022 026A     		ldr	r2, [r0, #32]
+ 254              		.loc 1 191 49 view .LVU88
+ 255 0022 026A     		ldr	r2, [r0, #32]
  190:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        (exmc_norsram_init_struct->burst_mode << SNCTL_SBRSTEN_OFFSET) |
- 261              		.loc 1 190 87 view .LVU94
- 262 0024 1343     		orrs	r3, r3, r2
+ 256              		.loc 1 190 87 view .LVU89
+ 257 0024 1343     		orrs	r3, r3, r2
  192:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        (exmc_norsram_init_struct->wrap_burst_mode << SNCTL_WRAPEN_OFFSET) |
- 263              		.loc 1 192 49 view .LVU95
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 9
-
-
- 264 0026 C269     		ldr	r2, [r0, #28]
+ 258              		.loc 1 192 49 view .LVU90
+ 259 0026 C269     		ldr	r2, [r0, #28]
  191:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                         exmc_norsram_init_struct->nwait_polarity |
- 265              		.loc 1 191 66 view .LVU96
- 266 0028 43EA8223 		orr	r3, r3, r2, lsl #10
+ 260              		.loc 1 191 66 view .LVU91
+ 261 0028 43EA8223 		orr	r3, r3, r2, lsl #10
  193:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                         exmc_norsram_init_struct->nwait_config |
- 267              		.loc 1 193 49 view .LVU97
- 268 002c 8269     		ldr	r2, [r0, #24]
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 9
+
+
+ 262              		.loc 1 193 49 view .LVU92
+ 263 002c 8269     		ldr	r2, [r0, #24]
  192:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        (exmc_norsram_init_struct->wrap_burst_mode << SNCTL_WRAPEN_OFFSET) |
- 269              		.loc 1 192 91 view .LVU98
- 270 002e 1343     		orrs	r3, r3, r2
+ 264              		.loc 1 192 91 view .LVU93
+ 265 002e 1343     		orrs	r3, r3, r2
  194:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        (exmc_norsram_init_struct->memory_write << SNCTL_WREN_OFFSET) |
- 271              		.loc 1 194 49 view .LVU99
- 272 0030 4269     		ldr	r2, [r0, #20]
+ 266              		.loc 1 194 49 view .LVU94
+ 267 0030 4269     		ldr	r2, [r0, #20]
  193:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                         exmc_norsram_init_struct->nwait_config |
- 273              		.loc 1 193 64 view .LVU100
- 274 0032 43EA0233 		orr	r3, r3, r2, lsl #12
+ 268              		.loc 1 193 64 view .LVU95
+ 269 0032 43EA0233 		orr	r3, r3, r2, lsl #12
  195:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        (exmc_norsram_init_struct->nwait_signal << SNCTL_NRWTEN_OFFSET) |
- 275              		.loc 1 195 49 view .LVU101
- 276 0036 0269     		ldr	r2, [r0, #16]
+ 270              		.loc 1 195 49 view .LVU96
+ 271 0036 0269     		ldr	r2, [r0, #16]
  194:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        (exmc_norsram_init_struct->memory_write << SNCTL_WREN_OFFSET) |
- 277              		.loc 1 194 86 view .LVU102
- 278 0038 43EA4233 		orr	r3, r3, r2, lsl #13
+ 272              		.loc 1 194 86 view .LVU97
+ 273 0038 43EA4233 		orr	r3, r3, r2, lsl #13
  196:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        (exmc_norsram_init_struct->extended_mode << SNCTL_EXMODEN_OFFSET) |
- 279              		.loc 1 196 49 view .LVU103
- 280 003c 8668     		ldr	r6, [r0, #8]
+ 274              		.loc 1 196 49 view .LVU98
+ 275 003c 8668     		ldr	r6, [r0, #8]
  195:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        (exmc_norsram_init_struct->nwait_signal << SNCTL_NRWTEN_OFFSET) |
- 281              		.loc 1 195 88 view .LVU104
- 282 003e 43EA8633 		orr	r3, r3, r6, lsl #14
+ 276              		.loc 1 195 88 view .LVU99
+ 277 003e 43EA8633 		orr	r3, r3, r6, lsl #14
  197:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        (exmc_norsram_init_struct->asyn_wait << SNCTL_ASYNCWAIT_OFFSET) |
- 283              		.loc 1 197 49 view .LVU105
- 284 0042 C268     		ldr	r2, [r0, #12]
+ 278              		.loc 1 197 49 view .LVU100
+ 279 0042 C268     		ldr	r2, [r0, #12]
  196:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        (exmc_norsram_init_struct->extended_mode << SNCTL_EXMODEN_OFFSET) |
- 285              		.loc 1 196 90 view .LVU106
- 286 0044 43EAC233 		orr	r3, r3, r2, lsl #15
+ 280              		.loc 1 196 90 view .LVU101
+ 281 0044 43EAC233 		orr	r3, r3, r2, lsl #15
  198:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                         exmc_norsram_init_struct->write_mode;
- 287              		.loc 1 198 49 view .LVU107
- 288 0048 4268     		ldr	r2, [r0, #4]
+ 282              		.loc 1 198 49 view .LVU102
+ 283 0048 4268     		ldr	r2, [r0, #4]
  197:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        (exmc_norsram_init_struct->asyn_wait << SNCTL_ASYNCWAIT_OFFSET) |
- 289              		.loc 1 197 88 view .LVU108
- 290 004a 1343     		orrs	r3, r3, r2
+ 284              		.loc 1 197 88 view .LVU103
+ 285 004a 1343     		orrs	r3, r3, r2
  187:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                         exmc_norsram_init_struct->memory_type |
- 291              		.loc 1 187 11 view .LVU109
- 292 004c 2B43     		orrs	r3, r3, r5
- 293              	.LVL6:
+ 286              		.loc 1 187 11 view .LVU104
+ 287 004c 2B43     		orrs	r3, r3, r5
+ 288              	.LVL6:
  199:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  200:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     sntcfg = (uint32_t)((exmc_norsram_init_struct->read_write_timing->asyn_address_setuptime - 1U )
- 294              		.loc 1 200 5 is_stmt 1 view .LVU110
- 295              		.loc 1 200 50 is_stmt 0 view .LVU111
- 296 004e 456B     		ldr	r5, [r0, #52]
- 297              		.loc 1 200 69 view .LVU112
- 298 0050 AA69     		ldr	r2, [r5, #24]
- 299              		.loc 1 200 94 view .LVU113
- 300 0052 013A     		subs	r2, r2, #1
- 301              		.loc 1 200 14 view .LVU114
- 302 0054 02F00F02 		and	r2, r2, #15
+ 289              		.loc 1 200 5 is_stmt 1 view .LVU105
+ 290              		.loc 1 200 50 is_stmt 0 view .LVU106
+ 291 004e 456B     		ldr	r5, [r0, #52]
+ 292              		.loc 1 200 69 view .LVU107
+ 293 0050 AA69     		ldr	r2, [r5, #24]
+ 294              		.loc 1 200 94 view .LVU108
+ 295 0052 013A     		subs	r2, r2, #1
+ 296              		.loc 1 200 14 view .LVU109
+ 297 0054 02F00F02 		and	r2, r2, #15
  201:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        (((exmc_norsram_init_struct->read_write_timing->asyn_address_holdtime - 1U )
- 303              		.loc 1 201 70 view .LVU115
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 10
+ 298              		.loc 1 201 94 view .LVU110
+ 299 0058 6F69     		ldr	r7, [r5, #20]
+ 300 005a 07F1FF3C 		add	ip, r7, #-1
+ 301              		.loc 1 201 101 view .LVU111
+ 302 005e 4FEA0C1C 		lsl	ip, ip, #4
+ 303              		.loc 1 201 125 view .LVU112
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 10
 
 
- 304 0058 6F69     		ldr	r7, [r5, #20]
- 305              		.loc 1 201 94 view .LVU116
- 306 005a 013F     		subs	r7, r7, #1
- 307              		.loc 1 201 101 view .LVU117
- 308 005c 3F01     		lsls	r7, r7, #4
- 309              		.loc 1 201 125 view .LVU118
- 310 005e FFB2     		uxtb	r7, r7
+ 304 0062 5FFA8CFC 		uxtb	ip, ip
  200:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        (((exmc_norsram_init_struct->read_write_timing->asyn_address_holdtime - 1U )
- 311              		.loc 1 200 121 view .LVU119
- 312 0060 3A43     		orrs	r2, r2, r7
+ 305              		.loc 1 200 121 view .LVU113
+ 306 0066 42EA0C02 		orr	r2, r2, ip
  202:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        (((exmc_norsram_init_struct->read_write_timing->asyn_data_setuptime - 1U ) <
- 313              		.loc 1 202 70 view .LVU120
- 314 0062 2F69     		ldr	r7, [r5, #16]
- 315              		.loc 1 202 92 view .LVU121
- 316 0064 013F     		subs	r7, r7, #1
- 317              		.loc 1 202 99 view .LVU122
- 318 0066 3F02     		lsls	r7, r7, #8
- 319              		.loc 1 202 123 view .LVU123
- 320 0068 BFB2     		uxth	r7, r7
+ 307              		.loc 1 202 92 view .LVU114
+ 308 006a 2F69     		ldr	r7, [r5, #16]
+ 309 006c 07F1FF3C 		add	ip, r7, #-1
+ 310              		.loc 1 202 99 view .LVU115
+ 311 0070 4FEA0C2C 		lsl	ip, ip, #8
+ 312              		.loc 1 202 123 view .LVU116
+ 313 0074 1FFA8CFC 		uxth	ip, ip
  201:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        (((exmc_norsram_init_struct->read_write_timing->asyn_address_holdtime - 1U )
- 321              		.loc 1 201 146 view .LVU124
- 322 006a 3A43     		orrs	r2, r2, r7
+ 314              		.loc 1 201 146 view .LVU117
+ 315 0078 42EA0C02 		orr	r2, r2, ip
  203:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        (((exmc_norsram_init_struct->read_write_timing->bus_latency - 1U ) << SNTCFG
- 323              		.loc 1 203 70 view .LVU125
- 324 006c EF68     		ldr	r7, [r5, #12]
- 325              		.loc 1 203 84 view .LVU126
- 326 006e 013F     		subs	r7, r7, #1
- 327              		.loc 1 203 91 view .LVU127
- 328 0070 3F04     		lsls	r7, r7, #16
- 329              		.loc 1 203 117 view .LVU128
- 330 0072 07F47027 		and	r7, r7, #983040
+ 316              		.loc 1 203 84 view .LVU118
+ 317 007c EF68     		ldr	r7, [r5, #12]
+ 318 007e 07F1FF3C 		add	ip, r7, #-1
+ 319              		.loc 1 203 91 view .LVU119
+ 320 0082 4FEA0C4C 		lsl	ip, ip, #16
+ 321              		.loc 1 203 117 view .LVU120
+ 322 0086 0CF4702C 		and	ip, ip, #983040
  202:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        (((exmc_norsram_init_struct->read_write_timing->asyn_data_setuptime - 1U ) <
- 331              		.loc 1 202 144 view .LVU129
- 332 0076 3A43     		orrs	r2, r2, r7
+ 323              		.loc 1 202 144 view .LVU121
+ 324 008a 42EA0C02 		orr	r2, r2, ip
+ 325              		.loc 1 203 139 view .LVU122
+ 326 008e AF68     		ldr	r7, [r5, #8]
+ 327 0090 3A43     		orrs	r2, r2, r7
  204:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        exmc_norsram_init_struct->read_write_timing->syn_clk_division |
- 333              		.loc 1 204 67 view .LVU130
- 334 0078 AF68     		ldr	r7, [r5, #8]
- 203:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        (((exmc_norsram_init_struct->read_write_timing->bus_latency - 1U ) << SNTCFG
- 335              		.loc 1 203 139 view .LVU131
- 336 007a 3A43     		orrs	r2, r2, r7
+ 328              		.loc 1 204 86 view .LVU123
+ 329 0092 6F68     		ldr	r7, [r5, #4]
+ 330 0094 3A43     		orrs	r2, r2, r7
  205:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        exmc_norsram_init_struct->read_write_timing->syn_data_latency |
- 337              		.loc 1 205 67 view .LVU132
- 338 007c 6F68     		ldr	r7, [r5, #4]
- 204:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        exmc_norsram_init_struct->read_write_timing->syn_clk_division |
- 339              		.loc 1 204 86 view .LVU133
- 340 007e 3A43     		orrs	r2, r2, r7
  206:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        exmc_norsram_init_struct->read_write_timing->asyn_access_mode;
- 341              		.loc 1 206 67 view .LVU134
- 342 0080 2D68     		ldr	r5, [r5]
+ 331              		.loc 1 206 67 view .LVU124
+ 332 0096 2D68     		ldr	r5, [r5]
  200:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        (((exmc_norsram_init_struct->read_write_timing->asyn_address_holdtime - 1U )
- 343              		.loc 1 200 12 view .LVU135
- 344 0082 2A43     		orrs	r2, r2, r5
- 345              	.LVL7:
+ 333              		.loc 1 200 12 view .LVU125
+ 334 0098 2A43     		orrs	r2, r2, r5
+ 335              	.LVL7:
  207:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  208:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     /* nor flash access enable */
  209:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     if(EXMC_MEMORY_TYPE_NOR == exmc_norsram_init_struct->memory_type){
- 346              		.loc 1 209 5 is_stmt 1 view .LVU136
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 11
-
-
- 347              		.loc 1 209 7 is_stmt 0 view .LVU137
- 348 0084 082C     		cmp	r4, #8
- 349 0086 11D0     		beq	.L11
- 350              	.L7:
+ 336              		.loc 1 209 5 is_stmt 1 view .LVU126
+ 337              		.loc 1 209 7 is_stmt 0 view .LVU127
+ 338 009a 082C     		cmp	r4, #8
+ 339 009c 11D0     		beq	.L11
+ 340              	.L7:
  210:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****         snctl |= (uint32_t)EXMC_SNCTL_NREN;
  211:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     }
  212:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  213:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     /* extended mode configure */
  214:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     if(ENABLE == exmc_norsram_init_struct->extended_mode){
- 351              		.loc 1 214 5 is_stmt 1 view .LVU138
- 352              		.loc 1 214 7 is_stmt 0 view .LVU139
- 353 0088 012E     		cmp	r6, #1
- 354 008a 12D0     		beq	.L12
+ 341              		.loc 1 214 5 is_stmt 1 view .LVU128
+ 342              		.loc 1 214 7 is_stmt 0 view .LVU129
+ 343 009e 012E     		cmp	r6, #1
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 11
+
+
+ 344 00a0 12D0     		beq	.L12
  215:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****         snwtcfg = (uint32_t)((exmc_norsram_init_struct->write_timing->asyn_address_setuptime - 1U) 
  216:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->asyn_address_holdtime -1U ) <
  217:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->asyn_data_setuptime -1U ) << 
@@ -621,152 +609,152 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
  219:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                             exmc_norsram_init_struct->write_timing->asyn_access_mode;
  220:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     }else{
  221:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****         snwtcfg = BANK0_SNWTCFG_RESET;
- 355              		.loc 1 221 17 view .LVU140
- 356 008c 6FF07044 		mvn	r4, #-268435456
- 357              	.LVL8:
- 358              	.L8:
+ 345              		.loc 1 221 17 view .LVU130
+ 346 00a2 6FF07044 		mvn	r4, #-268435456
+ 347              	.LVL8:
+ 348              	.L8:
  222:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     }
  223:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  224:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     /* configure the registers */
  225:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_SNCTL(exmc_norsram_init_struct->norsram_region) = snctl;
- 359              		.loc 1 225 5 is_stmt 1 view .LVU141
- 360              		.loc 1 225 58 is_stmt 0 view .LVU142
- 361 0090 0B60     		str	r3, [r1]
+ 349              		.loc 1 225 5 is_stmt 1 view .LVU131
+ 350              		.loc 1 225 58 is_stmt 0 view .LVU132
+ 351 00a6 0B60     		str	r3, [r1]
  226:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_SNTCFG(exmc_norsram_init_struct->norsram_region) = sntcfg;
- 362              		.loc 1 226 5 is_stmt 1 view .LVU143
- 363 0092 0368     		ldr	r3, [r0]
- 364              	.LVL9:
- 365              		.loc 1 226 5 is_stmt 0 view .LVU144
- 366 0094 DB00     		lsls	r3, r3, #3
- 367 0096 03F12043 		add	r3, r3, #-1610612736
- 368              		.loc 1 226 59 view .LVU145
- 369 009a 5A60     		str	r2, [r3, #4]
- 370              	.LVL10:
+ 352              		.loc 1 226 5 is_stmt 1 view .LVU133
+ 353 00a8 0368     		ldr	r3, [r0]
+ 354              	.LVL9:
+ 355              		.loc 1 226 5 is_stmt 0 view .LVU134
+ 356 00aa DB00     		lsls	r3, r3, #3
+ 357 00ac 03F12043 		add	r3, r3, #-1610612736
+ 358              		.loc 1 226 59 view .LVU135
+ 359 00b0 5A60     		str	r2, [r3, #4]
+ 360              	.LVL10:
  227:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_SNWTCFG(exmc_norsram_init_struct->norsram_region) = snwtcfg;
- 371              		.loc 1 227 5 is_stmt 1 view .LVU146
- 372 009c 0368     		ldr	r3, [r0]
- 373 009e DB00     		lsls	r3, r3, #3
- 374 00a0 03F12043 		add	r3, r3, #-1610612736
- 375              		.loc 1 227 60 is_stmt 0 view .LVU147
- 376 00a4 C3F80441 		str	r4, [r3, #260]
+ 361              		.loc 1 227 5 is_stmt 1 view .LVU136
+ 362 00b2 0368     		ldr	r3, [r0]
+ 363 00b4 DB00     		lsls	r3, r3, #3
+ 364 00b6 03F12043 		add	r3, r3, #-1610612736
+ 365              		.loc 1 227 60 is_stmt 0 view .LVU137
+ 366 00ba C3F80441 		str	r4, [r3, #260]
  228:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** }
- 377              		.loc 1 228 1 view .LVU148
- 378 00a8 F0BC     		pop	{r4, r5, r6, r7}
- 379              	.LCFI3:
- 380              		.cfi_remember_state
- 381              		.cfi_restore 7
- 382              		.cfi_restore 6
- 383              		.cfi_restore 5
- 384              		.cfi_restore 4
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 12
-
-
- 385              		.cfi_def_cfa_offset 0
- 386              	.LVL11:
- 387              		.loc 1 228 1 view .LVU149
- 388 00aa 7047     		bx	lr
- 389              	.LVL12:
- 390              	.L11:
- 391              	.LCFI4:
- 392              		.cfi_restore_state
+ 367              		.loc 1 228 1 view .LVU138
+ 368 00be F0BC     		pop	{r4, r5, r6, r7}
+ 369              	.LCFI3:
+ 370              		.cfi_remember_state
+ 371              		.cfi_restore 7
+ 372              		.cfi_restore 6
+ 373              		.cfi_restore 5
+ 374              		.cfi_restore 4
+ 375              		.cfi_def_cfa_offset 0
+ 376              	.LVL11:
+ 377              		.loc 1 228 1 view .LVU139
+ 378 00c0 7047     		bx	lr
+ 379              	.LVL12:
+ 380              	.L11:
+ 381              	.LCFI4:
+ 382              		.cfi_restore_state
  210:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     }
- 393              		.loc 1 210 9 is_stmt 1 view .LVU150
+ 383              		.loc 1 210 9 is_stmt 1 view .LVU140
  210:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     }
- 394              		.loc 1 210 15 is_stmt 0 view .LVU151
- 395 00ac 43F04003 		orr	r3, r3, #64
- 396              	.LVL13:
- 210:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     }
- 397              		.loc 1 210 15 view .LVU152
- 398 00b0 EAE7     		b	.L7
- 399              	.L12:
- 215:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->asyn_address_holdtime -1U ) <
- 400              		.loc 1 215 9 is_stmt 1 view .LVU153
- 215:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->asyn_address_holdtime -1U ) <
- 401              		.loc 1 215 55 is_stmt 0 view .LVU154
- 402 00b2 866B     		ldr	r6, [r0, #56]
- 215:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->asyn_address_holdtime -1U ) <
- 403              		.loc 1 215 69 view .LVU155
- 404 00b4 B469     		ldr	r4, [r6, #24]
- 215:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->asyn_address_holdtime -1U ) <
- 405              		.loc 1 215 94 view .LVU156
- 406 00b6 013C     		subs	r4, r4, #1
- 215:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->asyn_address_holdtime -1U ) <
- 407              		.loc 1 215 19 view .LVU157
- 408 00b8 04F00F04 		and	r4, r4, #15
- 216:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->asyn_data_setuptime -1U ) << 
- 409              		.loc 1 216 69 view .LVU158
- 410 00bc 7569     		ldr	r5, [r6, #20]
- 216:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->asyn_data_setuptime -1U ) << 
- 411              		.loc 1 216 93 view .LVU159
- 412 00be 013D     		subs	r5, r5, #1
- 216:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->asyn_data_setuptime -1U ) << 
- 413              		.loc 1 216 99 view .LVU160
- 414 00c0 2D01     		lsls	r5, r5, #4
- 216:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->asyn_data_setuptime -1U ) << 
- 415              		.loc 1 216 125 view .LVU161
- 416 00c2 EDB2     		uxtb	r5, r5
- 215:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->asyn_address_holdtime -1U ) <
- 417              		.loc 1 215 123 view .LVU162
- 418 00c4 2C43     		orrs	r4, r4, r5
- 217:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->bus_latency - 1U ) << SNWTCFG
- 419              		.loc 1 217 69 view .LVU163
- 420 00c6 3569     		ldr	r5, [r6, #16]
- 217:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->bus_latency - 1U ) << SNWTCFG
- 421              		.loc 1 217 91 view .LVU164
- 422 00c8 013D     		subs	r5, r5, #1
- 217:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->bus_latency - 1U ) << SNWTCFG
- 423              		.loc 1 217 97 view .LVU165
- 424 00ca 2D02     		lsls	r5, r5, #8
- 217:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->bus_latency - 1U ) << SNWTCFG
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 13
+ 384              		.loc 1 210 15 is_stmt 0 view .LVU141
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 12
 
 
- 425              		.loc 1 217 123 view .LVU166
- 426 00cc ADB2     		uxth	r5, r5
+ 385 00c2 43F04003 		orr	r3, r3, #64
+ 386              	.LVL13:
+ 210:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     }
+ 387              		.loc 1 210 15 view .LVU142
+ 388 00c6 EAE7     		b	.L7
+ 389              	.L12:
+ 215:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->asyn_address_holdtime -1U ) <
+ 390              		.loc 1 215 9 is_stmt 1 view .LVU143
+ 215:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->asyn_address_holdtime -1U ) <
+ 391              		.loc 1 215 55 is_stmt 0 view .LVU144
+ 392 00c8 866B     		ldr	r6, [r0, #56]
+ 215:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->asyn_address_holdtime -1U ) <
+ 393              		.loc 1 215 69 view .LVU145
+ 394 00ca B469     		ldr	r4, [r6, #24]
+ 215:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->asyn_address_holdtime -1U ) <
+ 395              		.loc 1 215 94 view .LVU146
+ 396 00cc 013C     		subs	r4, r4, #1
+ 215:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->asyn_address_holdtime -1U ) <
+ 397              		.loc 1 215 19 view .LVU147
+ 398 00ce 04F00F04 		and	r4, r4, #15
  216:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->asyn_data_setuptime -1U ) << 
- 427              		.loc 1 216 147 view .LVU167
- 428 00ce 2C43     		orrs	r4, r4, r5
- 218:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                             exmc_norsram_init_struct->write_timing->asyn_access_mode;
- 429              		.loc 1 218 69 view .LVU168
- 430 00d0 F568     		ldr	r5, [r6, #12]
- 218:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                             exmc_norsram_init_struct->write_timing->asyn_access_mode;
- 431              		.loc 1 218 83 view .LVU169
- 432 00d2 013D     		subs	r5, r5, #1
- 218:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                             exmc_norsram_init_struct->write_timing->asyn_access_mode;
- 433              		.loc 1 218 90 view .LVU170
- 434 00d4 2D04     		lsls	r5, r5, #16
- 218:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                             exmc_norsram_init_struct->write_timing->asyn_access_mode;
- 435              		.loc 1 218 118 view .LVU171
- 436 00d6 05F47025 		and	r5, r5, #983040
+ 399              		.loc 1 216 69 view .LVU148
+ 400 00d2 7569     		ldr	r5, [r6, #20]
+ 216:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->asyn_data_setuptime -1U ) << 
+ 401              		.loc 1 216 93 view .LVU149
+ 402 00d4 013D     		subs	r5, r5, #1
+ 216:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->asyn_data_setuptime -1U ) << 
+ 403              		.loc 1 216 99 view .LVU150
+ 404 00d6 2D01     		lsls	r5, r5, #4
+ 216:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->asyn_data_setuptime -1U ) << 
+ 405              		.loc 1 216 125 view .LVU151
+ 406 00d8 EDB2     		uxtb	r5, r5
+ 215:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->asyn_address_holdtime -1U ) <
+ 407              		.loc 1 215 123 view .LVU152
+ 408 00da 2C43     		orrs	r4, r4, r5
  217:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->bus_latency - 1U ) << SNWTCFG
- 437              		.loc 1 217 145 view .LVU172
- 438 00da 2C43     		orrs	r4, r4, r5
+ 409              		.loc 1 217 69 view .LVU153
+ 410 00dc 3569     		ldr	r5, [r6, #16]
+ 217:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->bus_latency - 1U ) << SNWTCFG
+ 411              		.loc 1 217 91 view .LVU154
+ 412 00de 013D     		subs	r5, r5, #1
+ 217:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->bus_latency - 1U ) << SNWTCFG
+ 413              		.loc 1 217 97 view .LVU155
+ 414 00e0 2D02     		lsls	r5, r5, #8
+ 217:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->bus_latency - 1U ) << SNWTCFG
+ 415              		.loc 1 217 123 view .LVU156
+ 416 00e2 ADB2     		uxth	r5, r5
+ 216:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->asyn_data_setuptime -1U ) << 
+ 417              		.loc 1 216 147 view .LVU157
+ 418 00e4 2C43     		orrs	r4, r4, r5
+ 218:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                             exmc_norsram_init_struct->write_timing->asyn_access_mode;
+ 419              		.loc 1 218 69 view .LVU158
+ 420 00e6 F568     		ldr	r5, [r6, #12]
+ 218:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                             exmc_norsram_init_struct->write_timing->asyn_access_mode;
+ 421              		.loc 1 218 83 view .LVU159
+ 422 00e8 013D     		subs	r5, r5, #1
+ 218:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                             exmc_norsram_init_struct->write_timing->asyn_access_mode;
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 13
+
+
+ 423              		.loc 1 218 90 view .LVU160
+ 424 00ea 2D04     		lsls	r5, r5, #16
+ 218:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                             exmc_norsram_init_struct->write_timing->asyn_access_mode;
+ 425              		.loc 1 218 118 view .LVU161
+ 426 00ec 05F47025 		and	r5, r5, #983040
+ 217:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->bus_latency - 1U ) << SNWTCFG
+ 427              		.loc 1 217 145 view .LVU162
+ 428 00f0 2C43     		orrs	r4, r4, r5
  219:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     }else{
- 439              		.loc 1 219 67 view .LVU173
- 440 00dc 3568     		ldr	r5, [r6]
+ 429              		.loc 1 219 67 view .LVU163
+ 430 00f2 3568     		ldr	r5, [r6]
  215:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->asyn_address_holdtime -1U ) <
- 441              		.loc 1 215 17 view .LVU174
- 442 00de 2C43     		orrs	r4, r4, r5
- 443              	.LVL14:
+ 431              		.loc 1 215 17 view .LVU164
+ 432 00f4 2C43     		orrs	r4, r4, r5
+ 433              	.LVL14:
  215:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                            (((exmc_norsram_init_struct->write_timing->asyn_address_holdtime -1U ) <
- 444              		.loc 1 215 17 view .LVU175
- 445 00e0 D6E7     		b	.L8
- 446              	.L14:
- 447 00e2 00BF     		.align	2
- 448              	.L13:
- 449 00e4 8100F7FF 		.word	-589695
- 450              		.cfi_endproc
- 451              	.LFE118:
- 453              		.section	.text.exmc_norsram_enable,"ax",%progbits
- 454              		.align	1
- 455              		.global	exmc_norsram_enable
- 456              		.syntax unified
- 457              		.thumb
- 458              		.thumb_func
- 459              		.fpu fpv4-sp-d16
- 461              	exmc_norsram_enable:
- 462              	.LVL15:
- 463              	.LFB119:
+ 434              		.loc 1 215 17 view .LVU165
+ 435 00f6 D6E7     		b	.L8
+ 436              	.L14:
+ 437              		.align	2
+ 438              	.L13:
+ 439 00f8 8100F7FF 		.word	-589695
+ 440              		.cfi_endproc
+ 441              	.LFE118:
+ 443              		.section	.text.exmc_norsram_enable,"ax",%progbits
+ 444              		.align	1
+ 445              		.global	exmc_norsram_enable
+ 446              		.syntax unified
+ 447              		.thumb
+ 448              		.thumb_func
+ 449              		.fpu fpv4-sp-d16
+ 451              	exmc_norsram_enable:
+ 452              	.LVL15:
+ 453              	.LFB119:
  229:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  230:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** /*!
  231:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \brief      enable EXMC NOR/PSRAM bank region
@@ -778,41 +766,41 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
  237:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** */
  238:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** void exmc_norsram_enable(uint32_t exmc_norsram_region)
  239:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** {
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 14
-
-
- 464              		.loc 1 239 1 is_stmt 1 view -0
- 465              		.cfi_startproc
- 466              		@ args = 0, pretend = 0, frame = 0
- 467              		@ frame_needed = 0, uses_anonymous_args = 0
- 468              		@ link register save eliminated.
+ 454              		.loc 1 239 1 is_stmt 1 view -0
+ 455              		.cfi_startproc
+ 456              		@ args = 0, pretend = 0, frame = 0
+ 457              		@ frame_needed = 0, uses_anonymous_args = 0
+ 458              		@ link register save eliminated.
  240:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_SNCTL(exmc_norsram_region) |= (uint32_t)EXMC_SNCTL_NRBKEN;
- 469              		.loc 1 240 5 view .LVU177
- 470              		.loc 1 240 37 is_stmt 0 view .LVU178
- 471 0000 00F1A050 		add	r0, r0, #335544320
- 472              	.LVL16:
- 473              		.loc 1 240 37 view .LVU179
- 474 0004 C000     		lsls	r0, r0, #3
- 475              	.LVL17:
- 476              		.loc 1 240 37 view .LVU180
- 477 0006 0368     		ldr	r3, [r0]
- 478 0008 43F00103 		orr	r3, r3, #1
- 479 000c 0360     		str	r3, [r0]
+ 459              		.loc 1 240 5 view .LVU167
+ 460              		.loc 1 240 37 is_stmt 0 view .LVU168
+ 461 0000 00F1A050 		add	r0, r0, #335544320
+ 462              	.LVL16:
+ 463              		.loc 1 240 37 view .LVU169
+ 464 0004 C000     		lsls	r0, r0, #3
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 14
+
+
+ 465              	.LVL17:
+ 466              		.loc 1 240 37 view .LVU170
+ 467 0006 0368     		ldr	r3, [r0]
+ 468 0008 43F00103 		orr	r3, r3, #1
+ 469 000c 0360     		str	r3, [r0]
  241:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** }
- 480              		.loc 1 241 1 view .LVU181
- 481 000e 7047     		bx	lr
- 482              		.cfi_endproc
- 483              	.LFE119:
- 485              		.section	.text.exmc_norsram_disable,"ax",%progbits
- 486              		.align	1
- 487              		.global	exmc_norsram_disable
- 488              		.syntax unified
- 489              		.thumb
- 490              		.thumb_func
- 491              		.fpu fpv4-sp-d16
- 493              	exmc_norsram_disable:
- 494              	.LVL18:
- 495              	.LFB120:
+ 470              		.loc 1 241 1 view .LVU171
+ 471 000e 7047     		bx	lr
+ 472              		.cfi_endproc
+ 473              	.LFE119:
+ 475              		.section	.text.exmc_norsram_disable,"ax",%progbits
+ 476              		.align	1
+ 477              		.global	exmc_norsram_disable
+ 478              		.syntax unified
+ 479              		.thumb
+ 480              		.thumb_func
+ 481              		.fpu fpv4-sp-d16
+ 483              	exmc_norsram_disable:
+ 484              	.LVL18:
+ 485              	.LFB120:
  242:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  243:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** /*!
  244:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \brief      disable EXMC NOR/PSRAM bank region
@@ -824,41 +812,41 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
  250:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** */
  251:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** void exmc_norsram_disable(uint32_t exmc_norsram_region)
  252:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** {
- 496              		.loc 1 252 1 is_stmt 1 view -0
- 497              		.cfi_startproc
- 498              		@ args = 0, pretend = 0, frame = 0
- 499              		@ frame_needed = 0, uses_anonymous_args = 0
- 500              		@ link register save eliminated.
+ 486              		.loc 1 252 1 is_stmt 1 view -0
+ 487              		.cfi_startproc
+ 488              		@ args = 0, pretend = 0, frame = 0
+ 489              		@ frame_needed = 0, uses_anonymous_args = 0
+ 490              		@ link register save eliminated.
  253:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_SNCTL(exmc_norsram_region) &= ~(uint32_t)EXMC_SNCTL_NRBKEN;
- 501              		.loc 1 253 5 view .LVU183
- 502              		.loc 1 253 37 is_stmt 0 view .LVU184
- 503 0000 00F1A050 		add	r0, r0, #335544320
- 504              	.LVL19:
- 505              		.loc 1 253 37 view .LVU185
- 506 0004 C000     		lsls	r0, r0, #3
- 507              	.LVL20:
- 508              		.loc 1 253 37 view .LVU186
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 15
-
-
- 509 0006 0368     		ldr	r3, [r0]
- 510 0008 23F00103 		bic	r3, r3, #1
- 511 000c 0360     		str	r3, [r0]
+ 491              		.loc 1 253 5 view .LVU173
+ 492              		.loc 1 253 37 is_stmt 0 view .LVU174
+ 493 0000 00F1A050 		add	r0, r0, #335544320
+ 494              	.LVL19:
+ 495              		.loc 1 253 37 view .LVU175
+ 496 0004 C000     		lsls	r0, r0, #3
+ 497              	.LVL20:
+ 498              		.loc 1 253 37 view .LVU176
+ 499 0006 0368     		ldr	r3, [r0]
+ 500 0008 23F00103 		bic	r3, r3, #1
+ 501 000c 0360     		str	r3, [r0]
  254:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** }
- 512              		.loc 1 254 1 view .LVU187
- 513 000e 7047     		bx	lr
- 514              		.cfi_endproc
- 515              	.LFE120:
- 517              		.section	.text.exmc_nand_deinit,"ax",%progbits
- 518              		.align	1
- 519              		.global	exmc_nand_deinit
- 520              		.syntax unified
- 521              		.thumb
- 522              		.thumb_func
- 523              		.fpu fpv4-sp-d16
- 525              	exmc_nand_deinit:
- 526              	.LVL21:
- 527              	.LFB121:
+ 502              		.loc 1 254 1 view .LVU177
+ 503 000e 7047     		bx	lr
+ 504              		.cfi_endproc
+ 505              	.LFE120:
+ 507              		.section	.text.exmc_nand_deinit,"ax",%progbits
+ 508              		.align	1
+ 509              		.global	exmc_nand_deinit
+ 510              		.syntax unified
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 15
+
+
+ 511              		.thumb
+ 512              		.thumb_func
+ 513              		.fpu fpv4-sp-d16
+ 515              	exmc_nand_deinit:
+ 516              	.LVL21:
+ 517              	.LFB121:
  255:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  256:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** /*!
  257:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \brief      deinitialize EXMC NAND bank
@@ -870,56 +858,56 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
  263:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** */
  264:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** void exmc_nand_deinit(uint32_t exmc_nand_bank)
  265:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** {
- 528              		.loc 1 265 1 is_stmt 1 view -0
- 529              		.cfi_startproc
- 530              		@ args = 0, pretend = 0, frame = 0
- 531              		@ frame_needed = 0, uses_anonymous_args = 0
- 532              		@ link register save eliminated.
+ 518              		.loc 1 265 1 is_stmt 1 view -0
+ 519              		.cfi_startproc
+ 520              		@ args = 0, pretend = 0, frame = 0
+ 521              		@ frame_needed = 0, uses_anonymous_args = 0
+ 522              		@ link register save eliminated.
  266:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     /* EXMC_BANK1_NAND or EXMC_BANK2_NAND */
  267:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_NPCTL(exmc_nand_bank) = BANK1_2_NPCTL_RESET;
- 533              		.loc 1 267 5 view .LVU189
- 534 0000 00F1A063 		add	r3, r0, #83886080
- 535 0004 0233     		adds	r3, r3, #2
- 536 0006 5B01     		lsls	r3, r3, #5
- 537              		.loc 1 267 32 is_stmt 0 view .LVU190
- 538 0008 1822     		movs	r2, #24
- 539 000a 1A60     		str	r2, [r3]
+ 523              		.loc 1 267 5 view .LVU179
+ 524 0000 00F1A063 		add	r3, r0, #83886080
+ 525 0004 0233     		adds	r3, r3, #2
+ 526 0006 5B01     		lsls	r3, r3, #5
+ 527              		.loc 1 267 32 is_stmt 0 view .LVU180
+ 528 0008 1822     		movs	r2, #24
+ 529 000a 1A60     		str	r2, [r3]
  268:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_NPINTEN(exmc_nand_bank) = BANK1_2_NPINTEN_RESET;
- 540              		.loc 1 268 5 is_stmt 1 view .LVU191
- 541 000c 4001     		lsls	r0, r0, #5
- 542              	.LVL22:
- 543              		.loc 1 268 5 is_stmt 0 view .LVU192
- 544 000e 00F12040 		add	r0, r0, #-1610612736
- 545              		.loc 1 268 34 view .LVU193
- 546 0012 4223     		movs	r3, #66
- 547 0014 4364     		str	r3, [r0, #68]
+ 530              		.loc 1 268 5 is_stmt 1 view .LVU181
+ 531 000c 4001     		lsls	r0, r0, #5
+ 532              	.LVL22:
+ 533              		.loc 1 268 5 is_stmt 0 view .LVU182
+ 534 000e 00F12040 		add	r0, r0, #-1610612736
+ 535              		.loc 1 268 34 view .LVU183
+ 536 0012 4223     		movs	r3, #66
+ 537 0014 4364     		str	r3, [r0, #68]
  269:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_NPCTCFG(exmc_nand_bank) = BANK1_2_NPCTCFG_RESET;
- 548              		.loc 1 269 5 is_stmt 1 view .LVU194
- 549              		.loc 1 269 34 is_stmt 0 view .LVU195
- 550 0016 4FF0FC33 		mov	r3, #-50529028
- 551 001a 8364     		str	r3, [r0, #72]
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 16
-
-
+ 538              		.loc 1 269 5 is_stmt 1 view .LVU184
+ 539              		.loc 1 269 34 is_stmt 0 view .LVU185
+ 540 0016 4FF0FC33 		mov	r3, #-50529028
+ 541 001a 8364     		str	r3, [r0, #72]
  270:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_NPATCFG(exmc_nand_bank) = BANK1_2_NPATCFG_RESET;
- 552              		.loc 1 270 5 is_stmt 1 view .LVU196
- 553              		.loc 1 270 34 is_stmt 0 view .LVU197
- 554 001c C364     		str	r3, [r0, #76]
+ 542              		.loc 1 270 5 is_stmt 1 view .LVU186
+ 543              		.loc 1 270 34 is_stmt 0 view .LVU187
+ 544 001c C364     		str	r3, [r0, #76]
  271:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** }
- 555              		.loc 1 271 1 view .LVU198
- 556 001e 7047     		bx	lr
- 557              		.cfi_endproc
- 558              	.LFE121:
- 560              		.section	.text.exmc_nand_struct_para_init,"ax",%progbits
- 561              		.align	1
- 562              		.global	exmc_nand_struct_para_init
- 563              		.syntax unified
- 564              		.thumb
- 565              		.thumb_func
- 566              		.fpu fpv4-sp-d16
- 568              	exmc_nand_struct_para_init:
- 569              	.LVL23:
- 570              	.LFB122:
+ 545              		.loc 1 271 1 view .LVU188
+ 546 001e 7047     		bx	lr
+ 547              		.cfi_endproc
+ 548              	.LFE121:
+ 550              		.section	.text.exmc_nand_struct_para_init,"ax",%progbits
+ 551              		.align	1
+ 552              		.global	exmc_nand_struct_para_init
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 16
+
+
+ 553              		.syntax unified
+ 554              		.thumb
+ 555              		.thumb_func
+ 556              		.fpu fpv4-sp-d16
+ 558              	exmc_nand_struct_para_init:
+ 559              	.LVL23:
+ 560              	.LFB122:
  272:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  273:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** /*!
  274:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \brief      initialize exmc_norsram_parameter_struct with the default values
@@ -929,112 +917,112 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
  278:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** */
  279:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** void exmc_nand_struct_para_init(exmc_nand_parameter_struct* exmc_nand_init_struct)
  280:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** {
- 571              		.loc 1 280 1 is_stmt 1 view -0
- 572              		.cfi_startproc
- 573              		@ args = 0, pretend = 0, frame = 0
- 574              		@ frame_needed = 0, uses_anonymous_args = 0
- 575              		@ link register save eliminated.
+ 561              		.loc 1 280 1 is_stmt 1 view -0
+ 562              		.cfi_startproc
+ 563              		@ args = 0, pretend = 0, frame = 0
+ 564              		@ frame_needed = 0, uses_anonymous_args = 0
+ 565              		@ link register save eliminated.
  281:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     /* configure the structure with default values */
  282:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_nand_init_struct->nand_bank = EXMC_BANK1_NAND;
- 576              		.loc 1 282 5 view .LVU200
- 577              		.loc 1 282 38 is_stmt 0 view .LVU201
- 578 0000 0123     		movs	r3, #1
- 579 0002 0360     		str	r3, [r0]
+ 566              		.loc 1 282 5 view .LVU190
+ 567              		.loc 1 282 38 is_stmt 0 view .LVU191
+ 568 0000 0123     		movs	r3, #1
+ 569 0002 0360     		str	r3, [r0]
  283:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_nand_init_struct->wait_feature = DISABLE;
- 580              		.loc 1 283 5 is_stmt 1 view .LVU202
- 581              		.loc 1 283 41 is_stmt 0 view .LVU203
- 582 0004 0023     		movs	r3, #0
- 583 0006 8361     		str	r3, [r0, #24]
+ 570              		.loc 1 283 5 is_stmt 1 view .LVU192
+ 571              		.loc 1 283 41 is_stmt 0 view .LVU193
+ 572 0004 0023     		movs	r3, #0
+ 573 0006 8361     		str	r3, [r0, #24]
  284:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_nand_init_struct->databus_width = EXMC_NAND_DATABUS_WIDTH_8B;
- 584              		.loc 1 284 5 is_stmt 1 view .LVU204
- 585              		.loc 1 284 42 is_stmt 0 view .LVU205
- 586 0008 4361     		str	r3, [r0, #20]
+ 574              		.loc 1 284 5 is_stmt 1 view .LVU194
+ 575              		.loc 1 284 42 is_stmt 0 view .LVU195
+ 576 0008 4361     		str	r3, [r0, #20]
  285:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_nand_init_struct->ecc_logic = DISABLE;
- 587              		.loc 1 285 5 is_stmt 1 view .LVU206
- 588              		.loc 1 285 38 is_stmt 0 view .LVU207
- 589 000a 0361     		str	r3, [r0, #16]
+ 577              		.loc 1 285 5 is_stmt 1 view .LVU196
+ 578              		.loc 1 285 38 is_stmt 0 view .LVU197
+ 579 000a 0361     		str	r3, [r0, #16]
  286:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_nand_init_struct->ecc_size = EXMC_ECC_SIZE_256BYTES;
- 590              		.loc 1 286 5 is_stmt 1 view .LVU208
- 591              		.loc 1 286 37 is_stmt 0 view .LVU209
- 592 000c 4360     		str	r3, [r0, #4]
+ 580              		.loc 1 286 5 is_stmt 1 view .LVU198
+ 581              		.loc 1 286 37 is_stmt 0 view .LVU199
+ 582 000c 4360     		str	r3, [r0, #4]
  287:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_nand_init_struct->ctr_latency = 0x0U;
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 17
-
-
- 593              		.loc 1 287 5 is_stmt 1 view .LVU210
- 594              		.loc 1 287 40 is_stmt 0 view .LVU211
- 595 000e C360     		str	r3, [r0, #12]
+ 583              		.loc 1 287 5 is_stmt 1 view .LVU200
+ 584              		.loc 1 287 40 is_stmt 0 view .LVU201
+ 585 000e C360     		str	r3, [r0, #12]
  288:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_nand_init_struct->atr_latency = 0x0U;
- 596              		.loc 1 288 5 is_stmt 1 view .LVU212
- 597              		.loc 1 288 40 is_stmt 0 view .LVU213
- 598 0010 8360     		str	r3, [r0, #8]
+ 586              		.loc 1 288 5 is_stmt 1 view .LVU202
+ 587              		.loc 1 288 40 is_stmt 0 view .LVU203
+ 588 0010 8360     		str	r3, [r0, #8]
  289:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_nand_init_struct->common_space_timing->setuptime = 0xFCU;
- 599              		.loc 1 289 5 is_stmt 1 view .LVU214
- 600              		.loc 1 289 26 is_stmt 0 view .LVU215
- 601 0012 C269     		ldr	r2, [r0, #28]
- 602              		.loc 1 289 59 view .LVU216
- 603 0014 FC23     		movs	r3, #252
- 604 0016 D360     		str	r3, [r2, #12]
+ 589              		.loc 1 289 5 is_stmt 1 view .LVU204
+ 590              		.loc 1 289 26 is_stmt 0 view .LVU205
+ 591 0012 C269     		ldr	r2, [r0, #28]
+ 592              		.loc 1 289 59 view .LVU206
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 17
+
+
+ 593 0014 FC23     		movs	r3, #252
+ 594 0016 D360     		str	r3, [r2, #12]
  290:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_nand_init_struct->common_space_timing->waittime = 0xFCU;
- 605              		.loc 1 290 5 is_stmt 1 view .LVU217
- 606              		.loc 1 290 26 is_stmt 0 view .LVU218
- 607 0018 C269     		ldr	r2, [r0, #28]
- 608              		.loc 1 290 58 view .LVU219
- 609 001a 9360     		str	r3, [r2, #8]
+ 595              		.loc 1 290 5 is_stmt 1 view .LVU207
+ 596              		.loc 1 290 26 is_stmt 0 view .LVU208
+ 597 0018 C269     		ldr	r2, [r0, #28]
+ 598              		.loc 1 290 58 view .LVU209
+ 599 001a 9360     		str	r3, [r2, #8]
  291:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_nand_init_struct->common_space_timing->holdtime = 0xFCU;
- 610              		.loc 1 291 5 is_stmt 1 view .LVU220
- 611              		.loc 1 291 26 is_stmt 0 view .LVU221
- 612 001c C269     		ldr	r2, [r0, #28]
- 613              		.loc 1 291 58 view .LVU222
- 614 001e 5360     		str	r3, [r2, #4]
+ 600              		.loc 1 291 5 is_stmt 1 view .LVU210
+ 601              		.loc 1 291 26 is_stmt 0 view .LVU211
+ 602 001c C269     		ldr	r2, [r0, #28]
+ 603              		.loc 1 291 58 view .LVU212
+ 604 001e 5360     		str	r3, [r2, #4]
  292:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_nand_init_struct->common_space_timing->databus_hiztime = 0xFCU;
- 615              		.loc 1 292 5 is_stmt 1 view .LVU223
- 616              		.loc 1 292 26 is_stmt 0 view .LVU224
- 617 0020 C269     		ldr	r2, [r0, #28]
- 618              		.loc 1 292 65 view .LVU225
- 619 0022 1360     		str	r3, [r2]
+ 605              		.loc 1 292 5 is_stmt 1 view .LVU213
+ 606              		.loc 1 292 26 is_stmt 0 view .LVU214
+ 607 0020 C269     		ldr	r2, [r0, #28]
+ 608              		.loc 1 292 65 view .LVU215
+ 609 0022 1360     		str	r3, [r2]
  293:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_nand_init_struct->attribute_space_timing->setuptime = 0xFCU;
- 620              		.loc 1 293 5 is_stmt 1 view .LVU226
- 621              		.loc 1 293 26 is_stmt 0 view .LVU227
- 622 0024 026A     		ldr	r2, [r0, #32]
- 623              		.loc 1 293 62 view .LVU228
- 624 0026 D360     		str	r3, [r2, #12]
+ 610              		.loc 1 293 5 is_stmt 1 view .LVU216
+ 611              		.loc 1 293 26 is_stmt 0 view .LVU217
+ 612 0024 026A     		ldr	r2, [r0, #32]
+ 613              		.loc 1 293 62 view .LVU218
+ 614 0026 D360     		str	r3, [r2, #12]
  294:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_nand_init_struct->attribute_space_timing->waittime = 0xFCU;
- 625              		.loc 1 294 5 is_stmt 1 view .LVU229
- 626              		.loc 1 294 26 is_stmt 0 view .LVU230
- 627 0028 026A     		ldr	r2, [r0, #32]
- 628              		.loc 1 294 61 view .LVU231
- 629 002a 9360     		str	r3, [r2, #8]
+ 615              		.loc 1 294 5 is_stmt 1 view .LVU219
+ 616              		.loc 1 294 26 is_stmt 0 view .LVU220
+ 617 0028 026A     		ldr	r2, [r0, #32]
+ 618              		.loc 1 294 61 view .LVU221
+ 619 002a 9360     		str	r3, [r2, #8]
  295:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_nand_init_struct->attribute_space_timing->holdtime = 0xFCU;
- 630              		.loc 1 295 5 is_stmt 1 view .LVU232
- 631              		.loc 1 295 26 is_stmt 0 view .LVU233
- 632 002c 026A     		ldr	r2, [r0, #32]
- 633              		.loc 1 295 61 view .LVU234
- 634 002e 5360     		str	r3, [r2, #4]
+ 620              		.loc 1 295 5 is_stmt 1 view .LVU222
+ 621              		.loc 1 295 26 is_stmt 0 view .LVU223
+ 622 002c 026A     		ldr	r2, [r0, #32]
+ 623              		.loc 1 295 61 view .LVU224
+ 624 002e 5360     		str	r3, [r2, #4]
  296:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_nand_init_struct->attribute_space_timing->databus_hiztime = 0xFCU;
- 635              		.loc 1 296 5 is_stmt 1 view .LVU235
- 636              		.loc 1 296 26 is_stmt 0 view .LVU236
- 637 0030 026A     		ldr	r2, [r0, #32]
- 638              		.loc 1 296 68 view .LVU237
- 639 0032 1360     		str	r3, [r2]
+ 625              		.loc 1 296 5 is_stmt 1 view .LVU225
+ 626              		.loc 1 296 26 is_stmt 0 view .LVU226
+ 627 0030 026A     		ldr	r2, [r0, #32]
+ 628              		.loc 1 296 68 view .LVU227
+ 629 0032 1360     		str	r3, [r2]
  297:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** }
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 18
+ 630              		.loc 1 297 1 view .LVU228
+ 631 0034 7047     		bx	lr
+ 632              		.cfi_endproc
+ 633              	.LFE122:
+ 635              		.section	.text.exmc_nand_init,"ax",%progbits
+ 636              		.align	1
+ 637              		.global	exmc_nand_init
+ 638              		.syntax unified
+ 639              		.thumb
+ 640              		.thumb_func
+ 641              		.fpu fpv4-sp-d16
+ 643              	exmc_nand_init:
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 18
 
 
- 640              		.loc 1 297 1 view .LVU238
- 641 0034 7047     		bx	lr
- 642              		.cfi_endproc
- 643              	.LFE122:
- 645              		.section	.text.exmc_nand_init,"ax",%progbits
- 646              		.align	1
- 647              		.global	exmc_nand_init
- 648              		.syntax unified
- 649              		.thumb
- 650              		.thumb_func
- 651              		.fpu fpv4-sp-d16
- 653              	exmc_nand_init:
- 654              	.LVL24:
- 655              	.LFB123:
+ 644              	.LVL24:
+ 645              	.LFB123:
  298:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  299:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** /*!
  300:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \brief      initialize EXMC NAND bank
@@ -1053,200 +1041,198 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
  313:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** */
  314:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** void exmc_nand_init(exmc_nand_parameter_struct* exmc_nand_init_struct)
  315:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** {
- 656              		.loc 1 315 1 is_stmt 1 view -0
- 657              		.cfi_startproc
- 658              		@ args = 0, pretend = 0, frame = 0
- 659              		@ frame_needed = 0, uses_anonymous_args = 0
- 660              		@ link register save eliminated.
- 661              		.loc 1 315 1 is_stmt 0 view .LVU240
- 662 0000 30B4     		push	{r4, r5}
- 663              	.LCFI5:
- 664              		.cfi_def_cfa_offset 8
- 665              		.cfi_offset 4, -8
- 666              		.cfi_offset 5, -4
+ 646              		.loc 1 315 1 is_stmt 1 view -0
+ 647              		.cfi_startproc
+ 648              		@ args = 0, pretend = 0, frame = 0
+ 649              		@ frame_needed = 0, uses_anonymous_args = 0
+ 650              		@ link register save eliminated.
+ 651              		.loc 1 315 1 is_stmt 0 view .LVU230
+ 652 0000 30B4     		push	{r4, r5}
+ 653              	.LCFI5:
+ 654              		.cfi_def_cfa_offset 8
+ 655              		.cfi_offset 4, -8
+ 656              		.cfi_offset 5, -4
  316:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     uint32_t npctl = 0x00000000U, npctcfg = 0x00000000U, npatcfg = 0x00000000U;
- 667              		.loc 1 316 5 is_stmt 1 view .LVU241
- 668              	.LVL25:
+ 657              		.loc 1 316 5 is_stmt 1 view .LVU231
+ 658              	.LVL25:
  317:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     
  318:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     npctl = (uint32_t)(exmc_nand_init_struct->wait_feature << NPCTL_NDWTEN_OFFSET)|
- 669              		.loc 1 318 5 view .LVU242
- 670              		.loc 1 318 45 is_stmt 0 view .LVU243
- 671 0002 8269     		ldr	r2, [r0, #24]
+ 659              		.loc 1 318 5 view .LVU232
+ 660              		.loc 1 318 45 is_stmt 0 view .LVU233
+ 661 0002 8269     		ldr	r2, [r0, #24]
  319:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        EXMC_NPCTL_NDTP |
  320:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        exmc_nand_init_struct->databus_width |
- 672              		.loc 1 320 45 view .LVU244
- 673 0004 4369     		ldr	r3, [r0, #20]
+ 662              		.loc 1 320 45 view .LVU234
+ 663 0004 4369     		ldr	r3, [r0, #20]
  319:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        EXMC_NPCTL_NDTP |
- 674              		.loc 1 319 40 view .LVU245
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 19
-
-
- 675 0006 43EA4202 		orr	r2, r3, r2, lsl #1
+ 664              		.loc 1 319 40 view .LVU235
+ 665 0006 43EA4202 		orr	r2, r3, r2, lsl #1
  321:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                       (exmc_nand_init_struct->ecc_logic << NPCTL_ECCEN_OFFSET)|
- 676              		.loc 1 321 45 view .LVU246
- 677 000a 0369     		ldr	r3, [r0, #16]
+ 666              		.loc 1 321 45 view .LVU236
+ 667 000a 0369     		ldr	r3, [r0, #16]
  320:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                       (exmc_nand_init_struct->ecc_logic << NPCTL_ECCEN_OFFSET)|
- 678              		.loc 1 320 61 view .LVU247
- 679 000c 42EA8312 		orr	r2, r2, r3, lsl #6
+ 668              		.loc 1 320 61 view .LVU237
+ 669 000c 42EA8312 		orr	r2, r2, r3, lsl #6
  322:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        exmc_nand_init_struct->ecc_size |
- 680              		.loc 1 322 45 view .LVU248
- 681 0010 4368     		ldr	r3, [r0, #4]
+ 670              		.loc 1 322 45 view .LVU238
+ 671 0010 4368     		ldr	r3, [r0, #4]
  321:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                       (exmc_nand_init_struct->ecc_logic << NPCTL_ECCEN_OFFSET)|
- 682              		.loc 1 321 79 view .LVU249
- 683 0012 1A43     		orrs	r2, r2, r3
+ 672              		.loc 1 321 79 view .LVU239
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 19
+
+
+ 673 0012 1A43     		orrs	r2, r2, r3
  323:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        exmc_nand_init_struct->ctr_latency |
- 684              		.loc 1 323 45 view .LVU250
- 685 0014 C368     		ldr	r3, [r0, #12]
+ 674              		.loc 1 323 45 view .LVU240
+ 675 0014 C368     		ldr	r3, [r0, #12]
  322:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        exmc_nand_init_struct->ecc_size |
- 686              		.loc 1 322 56 view .LVU251
- 687 0016 1A43     		orrs	r2, r2, r3
+ 676              		.loc 1 322 56 view .LVU241
+ 677 0016 1A43     		orrs	r2, r2, r3
  324:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        exmc_nand_init_struct->atr_latency;
- 688              		.loc 1 324 45 view .LVU252
- 689 0018 8368     		ldr	r3, [r0, #8]
+ 678              		.loc 1 324 45 view .LVU242
+ 679 0018 8368     		ldr	r3, [r0, #8]
  323:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        exmc_nand_init_struct->ctr_latency |
- 690              		.loc 1 323 59 view .LVU253
- 691 001a 1A43     		orrs	r2, r2, r3
+ 680              		.loc 1 323 59 view .LVU243
+ 681 001a 1A43     		orrs	r2, r2, r3
  318:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                        EXMC_NPCTL_NDTP |
- 692              		.loc 1 318 11 view .LVU254
- 693 001c 42F00802 		orr	r2, r2, #8
- 694              	.LVL26:
+ 682              		.loc 1 318 11 view .LVU244
+ 683 001c 42F00802 		orr	r2, r2, #8
+ 684              	.LVL26:
  325:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  326:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     npctcfg = (uint32_t)((exmc_nand_init_struct->common_space_timing->setuptime - 1U) & EXMC_NPCTCF
- 695              		.loc 1 326 5 is_stmt 1 view .LVU255
- 696              		.loc 1 326 48 is_stmt 0 view .LVU256
- 697 0020 C469     		ldr	r4, [r0, #28]
- 698              		.loc 1 326 69 view .LVU257
- 699 0022 E368     		ldr	r3, [r4, #12]
- 700              		.loc 1 326 81 view .LVU258
- 701 0024 591E     		subs	r1, r3, #1
- 702              		.loc 1 326 15 view .LVU259
- 703 0026 C9B2     		uxtb	r1, r1
+ 685              		.loc 1 326 5 is_stmt 1 view .LVU245
+ 686              		.loc 1 326 48 is_stmt 0 view .LVU246
+ 687 0020 C469     		ldr	r4, [r0, #28]
+ 688              		.loc 1 326 69 view .LVU247
+ 689 0022 E368     		ldr	r3, [r4, #12]
+ 690              		.loc 1 326 81 view .LVU248
+ 691 0024 591E     		subs	r1, r3, #1
+ 692              		.loc 1 326 15 view .LVU249
+ 693 0026 C9B2     		uxtb	r1, r1
  327:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                         (((exmc_nand_init_struct->common_space_timing->waittime - 1U) << NPCTCFG_CO
- 704              		.loc 1 327 70 view .LVU260
- 705 0028 A368     		ldr	r3, [r4, #8]
- 706              		.loc 1 327 81 view .LVU261
- 707 002a 013B     		subs	r3, r3, #1
- 708              		.loc 1 327 87 view .LVU262
- 709 002c 1B02     		lsls	r3, r3, #8
- 710              		.loc 1 327 114 view .LVU263
- 711 002e 9BB2     		uxth	r3, r3
+ 694              		.loc 1 327 70 view .LVU250
+ 695 0028 A368     		ldr	r3, [r4, #8]
+ 696              		.loc 1 327 81 view .LVU251
+ 697 002a 013B     		subs	r3, r3, #1
+ 698              		.loc 1 327 87 view .LVU252
+ 699 002c 1B02     		lsls	r3, r3, #8
+ 700              		.loc 1 327 114 view .LVU253
+ 701 002e 9BB2     		uxth	r3, r3
  326:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                         (((exmc_nand_init_struct->common_space_timing->waittime - 1U) << NPCTCFG_CO
- 712              		.loc 1 326 111 view .LVU264
- 713 0030 1943     		orrs	r1, r1, r3
+ 702              		.loc 1 326 111 view .LVU254
+ 703 0030 1943     		orrs	r1, r1, r3
  328:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                         ((exmc_nand_init_struct->common_space_timing->holdtime << NPCTCFG_COMHLD_OF
- 714              		.loc 1 328 69 view .LVU265
- 715 0032 6368     		ldr	r3, [r4, #4]
- 716              		.loc 1 328 80 view .LVU266
- 717 0034 1B04     		lsls	r3, r3, #16
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 20
-
-
- 718              		.loc 1 328 106 view .LVU267
- 719 0036 03F47F03 		and	r3, r3, #16711680
+ 704              		.loc 1 328 69 view .LVU255
+ 705 0032 6368     		ldr	r3, [r4, #4]
+ 706              		.loc 1 328 80 view .LVU256
+ 707 0034 1B04     		lsls	r3, r3, #16
+ 708              		.loc 1 328 106 view .LVU257
+ 709 0036 03F47F03 		and	r3, r3, #16711680
  327:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                         (((exmc_nand_init_struct->common_space_timing->waittime - 1U) << NPCTCFG_CO
- 720              		.loc 1 327 139 view .LVU268
- 721 003a 1943     		orrs	r1, r1, r3
+ 710              		.loc 1 327 139 view .LVU258
+ 711 003a 1943     		orrs	r1, r1, r3
  329:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                         (((exmc_nand_init_struct->common_space_timing->databus_hiztime - 1U) << NPC
- 722              		.loc 1 329 70 view .LVU269
- 723 003c 2368     		ldr	r3, [r4]
- 724              		.loc 1 329 88 view .LVU270
- 725 003e 013B     		subs	r3, r3, #1
+ 712              		.loc 1 329 70 view .LVU259
+ 713 003c 2368     		ldr	r3, [r4]
+ 714              		.loc 1 329 88 view .LVU260
+ 715 003e 013B     		subs	r3, r3, #1
  326:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                         (((exmc_nand_init_struct->common_space_timing->waittime - 1U) << NPCTCFG_CO
- 726              		.loc 1 326 13 view .LVU271
- 727 0040 41EA0361 		orr	r1, r1, r3, lsl #24
- 728              	.LVL27:
+ 716              		.loc 1 326 13 view .LVU261
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 20
+
+
+ 717 0040 41EA0361 		orr	r1, r1, r3, lsl #24
+ 718              	.LVL27:
  330:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  331:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     npatcfg = (uint32_t)((exmc_nand_init_struct->attribute_space_timing->setuptime - 1U) & EXMC_NPA
- 729              		.loc 1 331 5 is_stmt 1 view .LVU272
- 730              		.loc 1 331 48 is_stmt 0 view .LVU273
- 731 0044 056A     		ldr	r5, [r0, #32]
- 732              		.loc 1 331 72 view .LVU274
- 733 0046 EB68     		ldr	r3, [r5, #12]
- 734              		.loc 1 331 84 view .LVU275
- 735 0048 013B     		subs	r3, r3, #1
- 736              		.loc 1 331 15 view .LVU276
- 737 004a DBB2     		uxtb	r3, r3
+ 719              		.loc 1 331 5 is_stmt 1 view .LVU262
+ 720              		.loc 1 331 48 is_stmt 0 view .LVU263
+ 721 0044 046A     		ldr	r4, [r0, #32]
+ 722              		.loc 1 331 72 view .LVU264
+ 723 0046 E368     		ldr	r3, [r4, #12]
+ 724              		.loc 1 331 84 view .LVU265
+ 725 0048 013B     		subs	r3, r3, #1
+ 726              		.loc 1 331 15 view .LVU266
+ 727 004a DBB2     		uxtb	r3, r3
  332:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                         (((exmc_nand_init_struct->attribute_space_timing->waittime - 1U) << NPATCFG
- 738              		.loc 1 332 73 view .LVU277
- 739 004c AC68     		ldr	r4, [r5, #8]
- 740              		.loc 1 332 84 view .LVU278
- 741 004e 013C     		subs	r4, r4, #1
- 742              		.loc 1 332 90 view .LVU279
- 743 0050 2402     		lsls	r4, r4, #8
- 744              		.loc 1 332 117 view .LVU280
- 745 0052 A4B2     		uxth	r4, r4
+ 728              		.loc 1 332 84 view .LVU267
+ 729 004c A568     		ldr	r5, [r4, #8]
+ 730 004e 05F1FF3C 		add	ip, r5, #-1
+ 731              		.loc 1 332 90 view .LVU268
+ 732 0052 4FEA0C2C 		lsl	ip, ip, #8
+ 733              		.loc 1 332 117 view .LVU269
+ 734 0056 1FFA8CFC 		uxth	ip, ip
  331:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                         (((exmc_nand_init_struct->attribute_space_timing->waittime - 1U) << NPATCFG
- 746              		.loc 1 331 114 view .LVU281
- 747 0054 2343     		orrs	r3, r3, r4
+ 735              		.loc 1 331 114 view .LVU270
+ 736 005a 43EA0C03 		orr	r3, r3, ip
  333:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                         ((exmc_nand_init_struct->attribute_space_timing->holdtime << NPATCFG_ATTHLD
- 748              		.loc 1 333 72 view .LVU282
- 749 0056 6C68     		ldr	r4, [r5, #4]
- 750              		.loc 1 333 83 view .LVU283
- 751 0058 2404     		lsls	r4, r4, #16
- 752              		.loc 1 333 109 view .LVU284
- 753 005a 04F47F04 		and	r4, r4, #16711680
+ 737              		.loc 1 333 83 view .LVU271
+ 738 005e 6568     		ldr	r5, [r4, #4]
+ 739 0060 4FEA054C 		lsl	ip, r5, #16
+ 740              		.loc 1 333 109 view .LVU272
+ 741 0064 0CF47F0C 		and	ip, ip, #16711680
  332:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                         (((exmc_nand_init_struct->attribute_space_timing->waittime - 1U) << NPATCFG
- 754              		.loc 1 332 142 view .LVU285
- 755 005e 2343     		orrs	r3, r3, r4
+ 742              		.loc 1 332 142 view .LVU273
+ 743 0068 43EA0C03 		orr	r3, r3, ip
  334:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                         (((exmc_nand_init_struct->attribute_space_timing->databus_hiztime -1U) << N
- 756              		.loc 1 334 73 view .LVU286
- 757 0060 2C68     		ldr	r4, [r5]
- 758              		.loc 1 334 91 view .LVU287
- 759 0062 013C     		subs	r4, r4, #1
+ 744              		.loc 1 334 73 view .LVU274
+ 745 006c 2468     		ldr	r4, [r4]
+ 746              		.loc 1 334 91 view .LVU275
+ 747 006e 013C     		subs	r4, r4, #1
  331:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                         (((exmc_nand_init_struct->attribute_space_timing->waittime - 1U) << NPATCFG
- 760              		.loc 1 331 13 view .LVU288
- 761 0064 43EA0463 		orr	r3, r3, r4, lsl #24
- 762              	.LVL28:
+ 748              		.loc 1 331 13 view .LVU276
+ 749 0070 43EA0463 		orr	r3, r3, r4, lsl #24
+ 750              	.LVL28:
  335:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 21
-
-
  336:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     /* EXMC_BANK1_NAND or EXMC_BANK2_NAND initialize */
  337:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_NPCTL(exmc_nand_init_struct->nand_bank) = npctl;
- 763              		.loc 1 337 5 is_stmt 1 view .LVU289
- 764 0068 0468     		ldr	r4, [r0]
- 765 006a 04F1A064 		add	r4, r4, #83886080
- 766 006e 0234     		adds	r4, r4, #2
- 767 0070 6401     		lsls	r4, r4, #5
- 768              		.loc 1 337 50 is_stmt 0 view .LVU290
- 769 0072 2260     		str	r2, [r4]
+ 751              		.loc 1 337 5 is_stmt 1 view .LVU277
+ 752 0074 0468     		ldr	r4, [r0]
+ 753 0076 04F1A06C 		add	ip, r4, #83886080
+ 754 007a 0CF1020C 		add	ip, ip, #2
+ 755 007e 4FEA4C1C 		lsl	ip, ip, #5
+ 756              		.loc 1 337 50 is_stmt 0 view .LVU278
+ 757 0082 CCF80020 		str	r2, [ip]
  338:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_NPCTCFG(exmc_nand_init_struct->nand_bank) = npctcfg;
- 770              		.loc 1 338 5 is_stmt 1 view .LVU291
- 771 0074 0268     		ldr	r2, [r0]
- 772              	.LVL29:
- 773              		.loc 1 338 5 is_stmt 0 view .LVU292
- 774 0076 5201     		lsls	r2, r2, #5
- 775 0078 02F12042 		add	r2, r2, #-1610612736
- 776              		.loc 1 338 52 view .LVU293
- 777 007c 9164     		str	r1, [r2, #72]
- 778              	.LVL30:
+ 758              		.loc 1 338 5 is_stmt 1 view .LVU279
+ 759 0086 0268     		ldr	r2, [r0]
+ 760              	.LVL29:
+ 761              		.loc 1 338 5 is_stmt 0 view .LVU280
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 21
+
+
+ 762 0088 5201     		lsls	r2, r2, #5
+ 763 008a 02F12042 		add	r2, r2, #-1610612736
+ 764              		.loc 1 338 52 view .LVU281
+ 765 008e 9164     		str	r1, [r2, #72]
+ 766              	.LVL30:
  339:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_NPATCFG(exmc_nand_init_struct->nand_bank) = npatcfg;
- 779              		.loc 1 339 5 is_stmt 1 view .LVU294
- 780 007e 0268     		ldr	r2, [r0]
- 781 0080 5201     		lsls	r2, r2, #5
- 782 0082 02F12042 		add	r2, r2, #-1610612736
- 783              		.loc 1 339 52 is_stmt 0 view .LVU295
- 784 0086 D364     		str	r3, [r2, #76]
+ 767              		.loc 1 339 5 is_stmt 1 view .LVU282
+ 768 0090 0268     		ldr	r2, [r0]
+ 769 0092 5201     		lsls	r2, r2, #5
+ 770 0094 02F12042 		add	r2, r2, #-1610612736
+ 771              		.loc 1 339 52 is_stmt 0 view .LVU283
+ 772 0098 D364     		str	r3, [r2, #76]
  340:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** }
- 785              		.loc 1 340 1 view .LVU296
- 786 0088 30BC     		pop	{r4, r5}
- 787              	.LCFI6:
- 788              		.cfi_restore 5
- 789              		.cfi_restore 4
- 790              		.cfi_def_cfa_offset 0
- 791 008a 7047     		bx	lr
- 792              		.cfi_endproc
- 793              	.LFE123:
- 795              		.section	.text.exmc_nand_enable,"ax",%progbits
- 796              		.align	1
- 797              		.global	exmc_nand_enable
- 798              		.syntax unified
- 799              		.thumb
- 800              		.thumb_func
- 801              		.fpu fpv4-sp-d16
- 803              	exmc_nand_enable:
- 804              	.LVL31:
- 805              	.LFB124:
+ 773              		.loc 1 340 1 view .LVU284
+ 774 009a 30BC     		pop	{r4, r5}
+ 775              	.LCFI6:
+ 776              		.cfi_restore 5
+ 777              		.cfi_restore 4
+ 778              		.cfi_def_cfa_offset 0
+ 779 009c 7047     		bx	lr
+ 780              		.cfi_endproc
+ 781              	.LFE123:
+ 783              		.section	.text.exmc_nand_enable,"ax",%progbits
+ 784              		.align	1
+ 785              		.global	exmc_nand_enable
+ 786              		.syntax unified
+ 787              		.thumb
+ 788              		.thumb_func
+ 789              		.fpu fpv4-sp-d16
+ 791              	exmc_nand_enable:
+ 792              	.LVL31:
+ 793              	.LFB124:
  341:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  342:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** /*!
  343:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \brief      enable NAND bank
@@ -1258,44 +1244,44 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
  349:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** */
  350:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** void exmc_nand_enable(uint32_t exmc_nand_bank)
  351:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** {
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 22
-
-
- 806              		.loc 1 351 1 is_stmt 1 view -0
- 807              		.cfi_startproc
- 808              		@ args = 0, pretend = 0, frame = 0
- 809              		@ frame_needed = 0, uses_anonymous_args = 0
- 810              		@ link register save eliminated.
+ 794              		.loc 1 351 1 is_stmt 1 view -0
+ 795              		.cfi_startproc
+ 796              		@ args = 0, pretend = 0, frame = 0
+ 797              		@ frame_needed = 0, uses_anonymous_args = 0
+ 798              		@ link register save eliminated.
  352:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_NPCTL(exmc_nand_bank) |= EXMC_NPCTL_NDBKEN;
- 811              		.loc 1 352 5 view .LVU298
- 812              		.loc 1 352 32 is_stmt 0 view .LVU299
- 813 0000 00F1A060 		add	r0, r0, #83886080
- 814              	.LVL32:
- 815              		.loc 1 352 32 view .LVU300
- 816 0004 0230     		adds	r0, r0, #2
- 817              	.LVL33:
- 818              		.loc 1 352 32 view .LVU301
- 819 0006 4001     		lsls	r0, r0, #5
- 820              	.LVL34:
- 821              		.loc 1 352 32 view .LVU302
- 822 0008 0368     		ldr	r3, [r0]
- 823 000a 43F00403 		orr	r3, r3, #4
- 824 000e 0360     		str	r3, [r0]
+ 799              		.loc 1 352 5 view .LVU286
+ 800              		.loc 1 352 32 is_stmt 0 view .LVU287
+ 801 0000 00F1A060 		add	r0, r0, #83886080
+ 802              	.LVL32:
+ 803              		.loc 1 352 32 view .LVU288
+ 804 0004 0230     		adds	r0, r0, #2
+ 805              	.LVL33:
+ 806              		.loc 1 352 32 view .LVU289
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 22
+
+
+ 807 0006 4001     		lsls	r0, r0, #5
+ 808              	.LVL34:
+ 809              		.loc 1 352 32 view .LVU290
+ 810 0008 0368     		ldr	r3, [r0]
+ 811 000a 43F00403 		orr	r3, r3, #4
+ 812 000e 0360     		str	r3, [r0]
  353:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** }
- 825              		.loc 1 353 1 view .LVU303
- 826 0010 7047     		bx	lr
- 827              		.cfi_endproc
- 828              	.LFE124:
- 830              		.section	.text.exmc_nand_disable,"ax",%progbits
- 831              		.align	1
- 832              		.global	exmc_nand_disable
- 833              		.syntax unified
- 834              		.thumb
- 835              		.thumb_func
- 836              		.fpu fpv4-sp-d16
- 838              	exmc_nand_disable:
- 839              	.LVL35:
- 840              	.LFB125:
+ 813              		.loc 1 353 1 view .LVU291
+ 814 0010 7047     		bx	lr
+ 815              		.cfi_endproc
+ 816              	.LFE124:
+ 818              		.section	.text.exmc_nand_disable,"ax",%progbits
+ 819              		.align	1
+ 820              		.global	exmc_nand_disable
+ 821              		.syntax unified
+ 822              		.thumb
+ 823              		.thumb_func
+ 824              		.fpu fpv4-sp-d16
+ 826              	exmc_nand_disable:
+ 827              	.LVL35:
+ 828              	.LFB125:
  354:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  355:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** /*!
  356:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \brief      disable NAND bank
@@ -1307,43 +1293,43 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
  362:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** */
  363:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** void exmc_nand_disable(uint32_t exmc_nand_bank)
  364:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** {
- 841              		.loc 1 364 1 is_stmt 1 view -0
- 842              		.cfi_startproc
- 843              		@ args = 0, pretend = 0, frame = 0
- 844              		@ frame_needed = 0, uses_anonymous_args = 0
- 845              		@ link register save eliminated.
+ 829              		.loc 1 364 1 is_stmt 1 view -0
+ 830              		.cfi_startproc
+ 831              		@ args = 0, pretend = 0, frame = 0
+ 832              		@ frame_needed = 0, uses_anonymous_args = 0
+ 833              		@ link register save eliminated.
  365:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_NPCTL(exmc_nand_bank) &= (~EXMC_NPCTL_NDBKEN);
- 846              		.loc 1 365 5 view .LVU305
- 847              		.loc 1 365 32 is_stmt 0 view .LVU306
- 848 0000 00F1A060 		add	r0, r0, #83886080
- 849              	.LVL36:
- 850              		.loc 1 365 32 view .LVU307
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 23
-
-
- 851 0004 0230     		adds	r0, r0, #2
- 852              	.LVL37:
- 853              		.loc 1 365 32 view .LVU308
- 854 0006 4001     		lsls	r0, r0, #5
- 855              	.LVL38:
- 856              		.loc 1 365 32 view .LVU309
- 857 0008 0368     		ldr	r3, [r0]
- 858 000a 23F00403 		bic	r3, r3, #4
- 859 000e 0360     		str	r3, [r0]
+ 834              		.loc 1 365 5 view .LVU293
+ 835              		.loc 1 365 32 is_stmt 0 view .LVU294
+ 836 0000 00F1A060 		add	r0, r0, #83886080
+ 837              	.LVL36:
+ 838              		.loc 1 365 32 view .LVU295
+ 839 0004 0230     		adds	r0, r0, #2
+ 840              	.LVL37:
+ 841              		.loc 1 365 32 view .LVU296
+ 842 0006 4001     		lsls	r0, r0, #5
+ 843              	.LVL38:
+ 844              		.loc 1 365 32 view .LVU297
+ 845 0008 0368     		ldr	r3, [r0]
+ 846 000a 23F00403 		bic	r3, r3, #4
+ 847 000e 0360     		str	r3, [r0]
  366:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** }
- 860              		.loc 1 366 1 view .LVU310
- 861 0010 7047     		bx	lr
- 862              		.cfi_endproc
- 863              	.LFE125:
- 865              		.section	.text.exmc_pccard_deinit,"ax",%progbits
- 866              		.align	1
- 867              		.global	exmc_pccard_deinit
- 868              		.syntax unified
- 869              		.thumb
- 870              		.thumb_func
- 871              		.fpu fpv4-sp-d16
- 873              	exmc_pccard_deinit:
- 874              	.LFB126:
+ 848              		.loc 1 366 1 view .LVU298
+ 849 0010 7047     		bx	lr
+ 850              		.cfi_endproc
+ 851              	.LFE125:
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 23
+
+
+ 853              		.section	.text.exmc_pccard_deinit,"ax",%progbits
+ 854              		.align	1
+ 855              		.global	exmc_pccard_deinit
+ 856              		.syntax unified
+ 857              		.thumb
+ 858              		.thumb_func
+ 859              		.fpu fpv4-sp-d16
+ 861              	exmc_pccard_deinit:
+ 862              	.LFB126:
  367:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  368:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** /*!
  369:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \brief      deinitialize EXMC PC card bank
@@ -1353,63 +1339,54 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
  373:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** */
  374:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** void exmc_pccard_deinit(void)
  375:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** {
- 875              		.loc 1 375 1 is_stmt 1 view -0
- 876              		.cfi_startproc
- 877              		@ args = 0, pretend = 0, frame = 0
- 878              		@ frame_needed = 0, uses_anonymous_args = 0
- 879              		@ link register save eliminated.
+ 863              		.loc 1 375 1 is_stmt 1 view -0
+ 864              		.cfi_startproc
+ 865              		@ args = 0, pretend = 0, frame = 0
+ 866              		@ frame_needed = 0, uses_anonymous_args = 0
+ 867              		@ link register save eliminated.
  376:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     /* EXMC_BANK3_PCCARD */
  377:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_NPCTL3 = BANK3_NPCTL_RESET;
- 880              		.loc 1 377 5 view .LVU312
- 881              		.loc 1 377 17 is_stmt 0 view .LVU313
- 882 0000 074B     		ldr	r3, .L24
- 883 0002 1822     		movs	r2, #24
- 884 0004 1A60     		str	r2, [r3]
+ 868              		.loc 1 377 5 view .LVU300
+ 869              		.loc 1 377 17 is_stmt 0 view .LVU301
+ 870 0000 4FF02043 		mov	r3, #-1610612736
+ 871 0004 1822     		movs	r2, #24
+ 872 0006 C3F8A020 		str	r2, [r3, #160]
  378:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_NPINTEN3 = BANK3_NPINTEN_RESET;
- 885              		.loc 1 378 5 is_stmt 1 view .LVU314
- 886              		.loc 1 378 19 is_stmt 0 view .LVU315
- 887 0006 0433     		adds	r3, r3, #4
- 888 0008 4322     		movs	r2, #67
- 889 000a 1A60     		str	r2, [r3]
+ 873              		.loc 1 378 5 is_stmt 1 view .LVU302
+ 874              		.loc 1 378 19 is_stmt 0 view .LVU303
+ 875 000a 4322     		movs	r2, #67
+ 876 000c C3F8A420 		str	r2, [r3, #164]
  379:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_NPCTCFG3 = BANK3_NPCTCFG_RESET;
- 890              		.loc 1 379 5 is_stmt 1 view .LVU316
- 891              		.loc 1 379 19 is_stmt 0 view .LVU317
- 892 000c 4FF0FC33 		mov	r3, #-50529028
- 893 0010 044A     		ldr	r2, .L24+4
- 894 0012 1360     		str	r3, [r2]
+ 877              		.loc 1 379 5 is_stmt 1 view .LVU304
+ 878              		.loc 1 379 19 is_stmt 0 view .LVU305
+ 879 0010 4FF0FC32 		mov	r2, #-50529028
+ 880 0014 C3F8A820 		str	r2, [r3, #168]
  380:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_NPATCFG3 = BANK3_NPATCFG_RESET;
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 24
-
-
- 895              		.loc 1 380 5 is_stmt 1 view .LVU318
- 896              		.loc 1 380 19 is_stmt 0 view .LVU319
- 897 0014 0432     		adds	r2, r2, #4
- 898 0016 1360     		str	r3, [r2]
+ 881              		.loc 1 380 5 is_stmt 1 view .LVU306
+ 882              		.loc 1 380 19 is_stmt 0 view .LVU307
+ 883 0018 C3F8AC20 		str	r2, [r3, #172]
  381:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_PIOTCFG3 = BANK3_PIOTCFG3_RESET;
- 899              		.loc 1 381 5 is_stmt 1 view .LVU320
- 900              		.loc 1 381 19 is_stmt 0 view .LVU321
- 901 0018 0432     		adds	r2, r2, #4
- 902 001a 1360     		str	r3, [r2]
+ 884              		.loc 1 381 5 is_stmt 1 view .LVU308
+ 885              		.loc 1 381 19 is_stmt 0 view .LVU309
+ 886 001c C3F8B020 		str	r2, [r3, #176]
  382:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** }
- 903              		.loc 1 382 1 view .LVU322
- 904 001c 7047     		bx	lr
- 905              	.L25:
- 906 001e 00BF     		.align	2
- 907              	.L24:
- 908 0020 A00000A0 		.word	-1610612576
- 909 0024 A80000A0 		.word	-1610612568
- 910              		.cfi_endproc
- 911              	.LFE126:
- 913              		.section	.text.exmc_pccard_struct_para_init,"ax",%progbits
- 914              		.align	1
- 915              		.global	exmc_pccard_struct_para_init
- 916              		.syntax unified
- 917              		.thumb
- 918              		.thumb_func
- 919              		.fpu fpv4-sp-d16
- 921              	exmc_pccard_struct_para_init:
- 922              	.LVL39:
- 923              	.LFB127:
+ 887              		.loc 1 382 1 view .LVU310
+ 888 0020 7047     		bx	lr
+ 889              		.cfi_endproc
+ 890              	.LFE126:
+ 892              		.section	.text.exmc_pccard_struct_para_init,"ax",%progbits
+ 893              		.align	1
+ 894              		.global	exmc_pccard_struct_para_init
+ 895              		.syntax unified
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 24
+
+
+ 896              		.thumb
+ 897              		.thumb_func
+ 898              		.fpu fpv4-sp-d16
+ 900              	exmc_pccard_struct_para_init:
+ 901              	.LVL39:
+ 902              	.LFB127:
  383:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  384:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** /*!
  385:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \brief      initialize exmc_pccard_parameter_struct parameter with the default values
@@ -1419,119 +1396,119 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
  389:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** */
  390:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** void exmc_pccard_struct_para_init(exmc_pccard_parameter_struct* exmc_pccard_init_struct)
  391:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** {
- 924              		.loc 1 391 1 is_stmt 1 view -0
- 925              		.cfi_startproc
- 926              		@ args = 0, pretend = 0, frame = 0
- 927              		@ frame_needed = 0, uses_anonymous_args = 0
- 928              		@ link register save eliminated.
+ 903              		.loc 1 391 1 is_stmt 1 view -0
+ 904              		.cfi_startproc
+ 905              		@ args = 0, pretend = 0, frame = 0
+ 906              		@ frame_needed = 0, uses_anonymous_args = 0
+ 907              		@ link register save eliminated.
  392:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     /* configure the structure with default values */
  393:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_pccard_init_struct->wait_feature = DISABLE;
- 929              		.loc 1 393 5 view .LVU324
- 930              		.loc 1 393 43 is_stmt 0 view .LVU325
- 931 0000 0023     		movs	r3, #0
- 932 0002 8360     		str	r3, [r0, #8]
+ 908              		.loc 1 393 5 view .LVU312
+ 909              		.loc 1 393 43 is_stmt 0 view .LVU313
+ 910 0000 0023     		movs	r3, #0
+ 911 0002 8360     		str	r3, [r0, #8]
  394:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_pccard_init_struct->ctr_latency = 0x0U;
- 933              		.loc 1 394 5 is_stmt 1 view .LVU326
- 934              		.loc 1 394 42 is_stmt 0 view .LVU327
- 935 0004 4360     		str	r3, [r0, #4]
+ 912              		.loc 1 394 5 is_stmt 1 view .LVU314
+ 913              		.loc 1 394 42 is_stmt 0 view .LVU315
+ 914 0004 4360     		str	r3, [r0, #4]
  395:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_pccard_init_struct->atr_latency = 0x0U;
- 936              		.loc 1 395 5 is_stmt 1 view .LVU328
- 937              		.loc 1 395 42 is_stmt 0 view .LVU329
- 938 0006 0360     		str	r3, [r0]
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 25
-
-
+ 915              		.loc 1 395 5 is_stmt 1 view .LVU316
+ 916              		.loc 1 395 42 is_stmt 0 view .LVU317
+ 917 0006 0360     		str	r3, [r0]
  396:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_pccard_init_struct->common_space_timing->setuptime = 0xFCU;
- 939              		.loc 1 396 5 is_stmt 1 view .LVU330
- 940              		.loc 1 396 28 is_stmt 0 view .LVU331
- 941 0008 C268     		ldr	r2, [r0, #12]
- 942              		.loc 1 396 61 view .LVU332
- 943 000a FC23     		movs	r3, #252
- 944 000c D360     		str	r3, [r2, #12]
+ 918              		.loc 1 396 5 is_stmt 1 view .LVU318
+ 919              		.loc 1 396 28 is_stmt 0 view .LVU319
+ 920 0008 C268     		ldr	r2, [r0, #12]
+ 921              		.loc 1 396 61 view .LVU320
+ 922 000a FC23     		movs	r3, #252
+ 923 000c D360     		str	r3, [r2, #12]
  397:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_pccard_init_struct->common_space_timing->waittime = 0xFCU;
- 945              		.loc 1 397 5 is_stmt 1 view .LVU333
- 946              		.loc 1 397 28 is_stmt 0 view .LVU334
- 947 000e C268     		ldr	r2, [r0, #12]
- 948              		.loc 1 397 60 view .LVU335
- 949 0010 9360     		str	r3, [r2, #8]
+ 924              		.loc 1 397 5 is_stmt 1 view .LVU321
+ 925              		.loc 1 397 28 is_stmt 0 view .LVU322
+ 926 000e C268     		ldr	r2, [r0, #12]
+ 927              		.loc 1 397 60 view .LVU323
+ 928 0010 9360     		str	r3, [r2, #8]
  398:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_pccard_init_struct->common_space_timing->holdtime = 0xFCU;
- 950              		.loc 1 398 5 is_stmt 1 view .LVU336
- 951              		.loc 1 398 28 is_stmt 0 view .LVU337
- 952 0012 C268     		ldr	r2, [r0, #12]
- 953              		.loc 1 398 60 view .LVU338
- 954 0014 5360     		str	r3, [r2, #4]
+ 929              		.loc 1 398 5 is_stmt 1 view .LVU324
+ 930              		.loc 1 398 28 is_stmt 0 view .LVU325
+ 931 0012 C268     		ldr	r2, [r0, #12]
+ 932              		.loc 1 398 60 view .LVU326
+ 933 0014 5360     		str	r3, [r2, #4]
  399:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_pccard_init_struct->common_space_timing->databus_hiztime = 0xFCU;
- 955              		.loc 1 399 5 is_stmt 1 view .LVU339
- 956              		.loc 1 399 28 is_stmt 0 view .LVU340
- 957 0016 C268     		ldr	r2, [r0, #12]
- 958              		.loc 1 399 67 view .LVU341
- 959 0018 1360     		str	r3, [r2]
+ 934              		.loc 1 399 5 is_stmt 1 view .LVU327
+ 935              		.loc 1 399 28 is_stmt 0 view .LVU328
+ 936 0016 C268     		ldr	r2, [r0, #12]
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 25
+
+
+ 937              		.loc 1 399 67 view .LVU329
+ 938 0018 1360     		str	r3, [r2]
  400:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_pccard_init_struct->attribute_space_timing->setuptime = 0xFCU;
- 960              		.loc 1 400 5 is_stmt 1 view .LVU342
- 961              		.loc 1 400 28 is_stmt 0 view .LVU343
- 962 001a 0269     		ldr	r2, [r0, #16]
- 963              		.loc 1 400 64 view .LVU344
- 964 001c D360     		str	r3, [r2, #12]
+ 939              		.loc 1 400 5 is_stmt 1 view .LVU330
+ 940              		.loc 1 400 28 is_stmt 0 view .LVU331
+ 941 001a 0269     		ldr	r2, [r0, #16]
+ 942              		.loc 1 400 64 view .LVU332
+ 943 001c D360     		str	r3, [r2, #12]
  401:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_pccard_init_struct->attribute_space_timing->waittime = 0xFCU;
- 965              		.loc 1 401 5 is_stmt 1 view .LVU345
- 966              		.loc 1 401 28 is_stmt 0 view .LVU346
- 967 001e 0269     		ldr	r2, [r0, #16]
- 968              		.loc 1 401 63 view .LVU347
- 969 0020 9360     		str	r3, [r2, #8]
+ 944              		.loc 1 401 5 is_stmt 1 view .LVU333
+ 945              		.loc 1 401 28 is_stmt 0 view .LVU334
+ 946 001e 0269     		ldr	r2, [r0, #16]
+ 947              		.loc 1 401 63 view .LVU335
+ 948 0020 9360     		str	r3, [r2, #8]
  402:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_pccard_init_struct->attribute_space_timing->holdtime = 0xFCU;
- 970              		.loc 1 402 5 is_stmt 1 view .LVU348
- 971              		.loc 1 402 28 is_stmt 0 view .LVU349
- 972 0022 0269     		ldr	r2, [r0, #16]
- 973              		.loc 1 402 63 view .LVU350
- 974 0024 5360     		str	r3, [r2, #4]
+ 949              		.loc 1 402 5 is_stmt 1 view .LVU336
+ 950              		.loc 1 402 28 is_stmt 0 view .LVU337
+ 951 0022 0269     		ldr	r2, [r0, #16]
+ 952              		.loc 1 402 63 view .LVU338
+ 953 0024 5360     		str	r3, [r2, #4]
  403:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_pccard_init_struct->attribute_space_timing->databus_hiztime = 0xFCU;
- 975              		.loc 1 403 5 is_stmt 1 view .LVU351
- 976              		.loc 1 403 28 is_stmt 0 view .LVU352
- 977 0026 0269     		ldr	r2, [r0, #16]
- 978              		.loc 1 403 70 view .LVU353
- 979 0028 1360     		str	r3, [r2]
+ 954              		.loc 1 403 5 is_stmt 1 view .LVU339
+ 955              		.loc 1 403 28 is_stmt 0 view .LVU340
+ 956 0026 0269     		ldr	r2, [r0, #16]
+ 957              		.loc 1 403 70 view .LVU341
+ 958 0028 1360     		str	r3, [r2]
  404:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_pccard_init_struct->io_space_timing->setuptime = 0xFCU;
- 980              		.loc 1 404 5 is_stmt 1 view .LVU354
- 981              		.loc 1 404 28 is_stmt 0 view .LVU355
- 982 002a 4269     		ldr	r2, [r0, #20]
- 983              		.loc 1 404 57 view .LVU356
- 984 002c D360     		str	r3, [r2, #12]
+ 959              		.loc 1 404 5 is_stmt 1 view .LVU342
+ 960              		.loc 1 404 28 is_stmt 0 view .LVU343
+ 961 002a 4269     		ldr	r2, [r0, #20]
+ 962              		.loc 1 404 57 view .LVU344
+ 963 002c D360     		str	r3, [r2, #12]
  405:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_pccard_init_struct->io_space_timing->waittime = 0xFCU;
- 985              		.loc 1 405 5 is_stmt 1 view .LVU357
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 26
-
-
- 986              		.loc 1 405 28 is_stmt 0 view .LVU358
- 987 002e 4269     		ldr	r2, [r0, #20]
- 988              		.loc 1 405 56 view .LVU359
- 989 0030 9360     		str	r3, [r2, #8]
+ 964              		.loc 1 405 5 is_stmt 1 view .LVU345
+ 965              		.loc 1 405 28 is_stmt 0 view .LVU346
+ 966 002e 4269     		ldr	r2, [r0, #20]
+ 967              		.loc 1 405 56 view .LVU347
+ 968 0030 9360     		str	r3, [r2, #8]
  406:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_pccard_init_struct->io_space_timing->holdtime = 0xFCU;
- 990              		.loc 1 406 5 is_stmt 1 view .LVU360
- 991              		.loc 1 406 28 is_stmt 0 view .LVU361
- 992 0032 4269     		ldr	r2, [r0, #20]
- 993              		.loc 1 406 56 view .LVU362
- 994 0034 5360     		str	r3, [r2, #4]
+ 969              		.loc 1 406 5 is_stmt 1 view .LVU348
+ 970              		.loc 1 406 28 is_stmt 0 view .LVU349
+ 971 0032 4269     		ldr	r2, [r0, #20]
+ 972              		.loc 1 406 56 view .LVU350
+ 973 0034 5360     		str	r3, [r2, #4]
  407:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     exmc_pccard_init_struct->io_space_timing->databus_hiztime = 0xFCU;
- 995              		.loc 1 407 5 is_stmt 1 view .LVU363
- 996              		.loc 1 407 28 is_stmt 0 view .LVU364
- 997 0036 4269     		ldr	r2, [r0, #20]
- 998              		.loc 1 407 63 view .LVU365
- 999 0038 1360     		str	r3, [r2]
+ 974              		.loc 1 407 5 is_stmt 1 view .LVU351
+ 975              		.loc 1 407 28 is_stmt 0 view .LVU352
+ 976 0036 4269     		ldr	r2, [r0, #20]
+ 977              		.loc 1 407 63 view .LVU353
+ 978 0038 1360     		str	r3, [r2]
  408:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** }
- 1000              		.loc 1 408 1 view .LVU366
- 1001 003a 7047     		bx	lr
- 1002              		.cfi_endproc
- 1003              	.LFE127:
- 1005              		.section	.text.exmc_pccard_init,"ax",%progbits
- 1006              		.align	1
- 1007              		.global	exmc_pccard_init
- 1008              		.syntax unified
- 1009              		.thumb
- 1010              		.thumb_func
- 1011              		.fpu fpv4-sp-d16
- 1013              	exmc_pccard_init:
- 1014              	.LVL40:
- 1015              	.LFB128:
+ 979              		.loc 1 408 1 view .LVU354
+ 980 003a 7047     		bx	lr
+ 981              		.cfi_endproc
+ 982              	.LFE127:
+ 984              		.section	.text.exmc_pccard_init,"ax",%progbits
+ 985              		.align	1
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 26
+
+
+ 986              		.global	exmc_pccard_init
+ 987              		.syntax unified
+ 988              		.thumb
+ 989              		.thumb_func
+ 990              		.fpu fpv4-sp-d16
+ 992              	exmc_pccard_init:
+ 993              	.LVL40:
+ 994              	.LFB128:
  409:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  410:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** /*!
  411:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \brief      initialize EXMC PC card bank
@@ -1547,203 +1524,200 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
  421:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** */
  422:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** void exmc_pccard_init(exmc_pccard_parameter_struct* exmc_pccard_init_struct)
  423:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** {
- 1016              		.loc 1 423 1 is_stmt 1 view -0
- 1017              		.cfi_startproc
- 1018              		@ args = 0, pretend = 0, frame = 0
- 1019              		@ frame_needed = 0, uses_anonymous_args = 0
- 1020              		@ link register save eliminated.
+ 995              		.loc 1 423 1 is_stmt 1 view -0
+ 996              		.cfi_startproc
+ 997              		@ args = 0, pretend = 0, frame = 0
+ 998              		@ frame_needed = 0, uses_anonymous_args = 0
+ 999              		@ link register save eliminated.
+ 1000              		.loc 1 423 1 is_stmt 0 view .LVU356
+ 1001 0000 10B4     		push	{r4}
+ 1002              	.LCFI7:
+ 1003              		.cfi_def_cfa_offset 4
+ 1004              		.cfi_offset 4, -4
  424:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     /* configure the EXMC bank3 PC card control register */
  425:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_NPCTL3 = (uint32_t)(exmc_pccard_init_struct->wait_feature << NPCTL_NDWTEN_OFFSET) |
- 1021              		.loc 1 425 5 view .LVU368
- 1022              		.loc 1 425 53 is_stmt 0 view .LVU369
- 1023 0000 8268     		ldr	r2, [r0, #8]
+ 1005              		.loc 1 425 5 is_stmt 1 view .LVU357
+ 1006              		.loc 1 425 53 is_stmt 0 view .LVU358
+ 1007 0002 8268     		ldr	r2, [r0, #8]
  426:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                              EXMC_NAND_DATABUS_WIDTH_16B |  
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 27
-
-
  427:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                              exmc_pccard_init_struct->ctr_latency |
- 1024              		.loc 1 427 53 view .LVU370
- 1025 0002 4368     		ldr	r3, [r0, #4]
+ 1008              		.loc 1 427 53 view .LVU359
+ 1009 0004 4368     		ldr	r3, [r0, #4]
  426:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                              EXMC_NAND_DATABUS_WIDTH_16B |  
- 1026              		.loc 1 426 58 view .LVU371
- 1027 0004 43EA4203 		orr	r3, r3, r2, lsl #1
+ 1010              		.loc 1 426 58 view .LVU360
+ 1011 0006 43EA4203 		orr	r3, r3, r2, lsl #1
  428:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                              exmc_pccard_init_struct->atr_latency ;
- 1028              		.loc 1 428 53 view .LVU372
- 1029 0008 0268     		ldr	r2, [r0]
+ 1012              		.loc 1 428 53 view .LVU361
+ 1013 000a 0268     		ldr	r2, [r0]
  427:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                              exmc_pccard_init_struct->atr_latency ;
- 1030              		.loc 1 427 67 view .LVU373
- 1031 000a 1343     		orrs	r3, r3, r2
- 1032 000c 43F01003 		orr	r3, r3, #16
+ 1014              		.loc 1 427 67 view .LVU362
+ 1015 000c 1343     		orrs	r3, r3, r2
+ 1016 000e 43F01003 		orr	r3, r3, #16
  425:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                              EXMC_NAND_DATABUS_WIDTH_16B |  
- 1033              		.loc 1 425 17 view .LVU374
- 1034 0010 1E4A     		ldr	r2, .L28
- 1035 0012 1360     		str	r3, [r2]
+ 1017              		.loc 1 425 17 view .LVU363
+ 1018 0012 4FF02042 		mov	r2, #-1610612736
+ 1019 0016 C2F8A030 		str	r3, [r2, #160]
  429:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 27
+
+
  430:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     /* configure the EXMC bank3 PC card common space timing configuration register */
  431:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_NPCTCFG3 = (uint32_t)((exmc_pccard_init_struct->common_space_timing->setuptime - 1U)& EXMC
- 1036              		.loc 1 431 5 is_stmt 1 view .LVU375
- 1037              		.loc 1 431 56 is_stmt 0 view .LVU376
- 1038 0014 C168     		ldr	r1, [r0, #12]
- 1039              		.loc 1 431 77 view .LVU377
- 1040 0016 CB68     		ldr	r3, [r1, #12]
- 1041              		.loc 1 431 89 view .LVU378
- 1042 0018 013B     		subs	r3, r3, #1
- 1043              		.loc 1 431 21 view .LVU379
- 1044 001a DBB2     		uxtb	r3, r3
+ 1020              		.loc 1 431 5 is_stmt 1 view .LVU364
+ 1021              		.loc 1 431 56 is_stmt 0 view .LVU365
+ 1022 001a C468     		ldr	r4, [r0, #12]
+ 1023              		.loc 1 431 77 view .LVU366
+ 1024 001c E368     		ldr	r3, [r4, #12]
+ 1025              		.loc 1 431 89 view .LVU367
+ 1026 001e 013B     		subs	r3, r3, #1
+ 1027              		.loc 1 431 21 view .LVU368
+ 1028 0020 DBB2     		uxtb	r3, r3
  432:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                               (((exmc_pccard_init_struct->common_space_timing->waittime - 1U) << NP
- 1045              		.loc 1 432 78 view .LVU380
- 1046 001c 8A68     		ldr	r2, [r1, #8]
- 1047              		.loc 1 432 89 view .LVU381
- 1048 001e 013A     		subs	r2, r2, #1
- 1049              		.loc 1 432 95 view .LVU382
- 1050 0020 1202     		lsls	r2, r2, #8
- 1051              		.loc 1 432 122 view .LVU383
- 1052 0022 92B2     		uxth	r2, r2
+ 1029              		.loc 1 432 78 view .LVU369
+ 1030 0022 A168     		ldr	r1, [r4, #8]
+ 1031              		.loc 1 432 89 view .LVU370
+ 1032 0024 0139     		subs	r1, r1, #1
+ 1033              		.loc 1 432 95 view .LVU371
+ 1034 0026 0902     		lsls	r1, r1, #8
+ 1035              		.loc 1 432 122 view .LVU372
+ 1036 0028 89B2     		uxth	r1, r1
  431:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                               (((exmc_pccard_init_struct->common_space_timing->waittime - 1U) << NP
- 1053              		.loc 1 431 118 view .LVU384
- 1054 0024 1343     		orrs	r3, r3, r2
+ 1037              		.loc 1 431 118 view .LVU373
+ 1038 002a 0B43     		orrs	r3, r3, r1
  433:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                               ((exmc_pccard_init_struct->common_space_timing->holdtime << NPCTCFG_C
- 1055              		.loc 1 433 77 view .LVU385
- 1056 0026 4A68     		ldr	r2, [r1, #4]
- 1057              		.loc 1 433 88 view .LVU386
- 1058 0028 1204     		lsls	r2, r2, #16
- 1059              		.loc 1 433 114 view .LVU387
- 1060 002a 02F47F02 		and	r2, r2, #16711680
+ 1039              		.loc 1 433 77 view .LVU374
+ 1040 002c 6168     		ldr	r1, [r4, #4]
+ 1041              		.loc 1 433 88 view .LVU375
+ 1042 002e 0904     		lsls	r1, r1, #16
+ 1043              		.loc 1 433 114 view .LVU376
+ 1044 0030 01F47F01 		and	r1, r1, #16711680
  432:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                               (((exmc_pccard_init_struct->common_space_timing->waittime - 1U) << NP
- 1061              		.loc 1 432 147 view .LVU388
- 1062 002e 1343     		orrs	r3, r3, r2
+ 1045              		.loc 1 432 147 view .LVU377
+ 1046 0034 0B43     		orrs	r3, r3, r1
  434:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                               (((exmc_pccard_init_struct->common_space_timing->databus_hiztime - 1U
- 1063              		.loc 1 434 78 view .LVU389
- 1064 0030 0A68     		ldr	r2, [r1]
- 1065              		.loc 1 434 96 view .LVU390
- 1066 0032 013A     		subs	r2, r2, #1
+ 1047              		.loc 1 434 78 view .LVU378
+ 1048 0036 2168     		ldr	r1, [r4]
+ 1049              		.loc 1 434 96 view .LVU379
+ 1050 0038 0139     		subs	r1, r1, #1
  433:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                               ((exmc_pccard_init_struct->common_space_timing->holdtime << NPCTCFG_C
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 28
-
-
- 1067              		.loc 1 433 138 view .LVU391
- 1068 0034 43EA0263 		orr	r3, r3, r2, lsl #24
+ 1051              		.loc 1 433 138 view .LVU380
+ 1052 003a 43EA0163 		orr	r3, r3, r1, lsl #24
  431:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                               (((exmc_pccard_init_struct->common_space_timing->waittime - 1U) << NP
- 1069              		.loc 1 431 19 view .LVU392
- 1070 0038 154A     		ldr	r2, .L28+4
- 1071 003a 1360     		str	r3, [r2]
+ 1053              		.loc 1 431 19 view .LVU381
+ 1054 003e C2F8A830 		str	r3, [r2, #168]
  435:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  436:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     /* configure the EXMC bank3 PC card attribute space timing configuration register */
  437:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_NPATCFG3 = (uint32_t)((exmc_pccard_init_struct->attribute_space_timing->setuptime - 1U) & 
- 1072              		.loc 1 437 5 is_stmt 1 view .LVU393
- 1073              		.loc 1 437 56 is_stmt 0 view .LVU394
- 1074 003c 0169     		ldr	r1, [r0, #16]
- 1075              		.loc 1 437 80 view .LVU395
- 1076 003e CB68     		ldr	r3, [r1, #12]
- 1077              		.loc 1 437 92 view .LVU396
- 1078 0040 013B     		subs	r3, r3, #1
- 1079              		.loc 1 437 21 view .LVU397
- 1080 0042 DBB2     		uxtb	r3, r3
+ 1055              		.loc 1 437 5 is_stmt 1 view .LVU382
+ 1056              		.loc 1 437 56 is_stmt 0 view .LVU383
+ 1057 0042 0469     		ldr	r4, [r0, #16]
+ 1058              		.loc 1 437 80 view .LVU384
+ 1059 0044 E368     		ldr	r3, [r4, #12]
+ 1060              		.loc 1 437 92 view .LVU385
+ 1061 0046 013B     		subs	r3, r3, #1
+ 1062              		.loc 1 437 21 view .LVU386
+ 1063 0048 DBB2     		uxtb	r3, r3
  438:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                               (((exmc_pccard_init_struct->attribute_space_timing->waittime - 1U) <<
- 1081              		.loc 1 438 81 view .LVU398
- 1082 0044 8A68     		ldr	r2, [r1, #8]
- 1083              		.loc 1 438 92 view .LVU399
- 1084 0046 013A     		subs	r2, r2, #1
- 1085              		.loc 1 438 98 view .LVU400
- 1086 0048 1202     		lsls	r2, r2, #8
- 1087              		.loc 1 438 125 view .LVU401
- 1088 004a 92B2     		uxth	r2, r2
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 28
+
+
+ 1064              		.loc 1 438 81 view .LVU387
+ 1065 004a A168     		ldr	r1, [r4, #8]
+ 1066              		.loc 1 438 92 view .LVU388
+ 1067 004c 0139     		subs	r1, r1, #1
+ 1068              		.loc 1 438 98 view .LVU389
+ 1069 004e 0902     		lsls	r1, r1, #8
+ 1070              		.loc 1 438 125 view .LVU390
+ 1071 0050 89B2     		uxth	r1, r1
  437:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                               (((exmc_pccard_init_struct->attribute_space_timing->waittime - 1U) <<
- 1089              		.loc 1 437 122 view .LVU402
- 1090 004c 1343     		orrs	r3, r3, r2
+ 1072              		.loc 1 437 122 view .LVU391
+ 1073 0052 0B43     		orrs	r3, r3, r1
  439:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                               ((exmc_pccard_init_struct->attribute_space_timing->holdtime << NPATCF
- 1091              		.loc 1 439 80 view .LVU403
- 1092 004e 4A68     		ldr	r2, [r1, #4]
- 1093              		.loc 1 439 91 view .LVU404
- 1094 0050 1204     		lsls	r2, r2, #16
- 1095              		.loc 1 439 117 view .LVU405
- 1096 0052 02F47F02 		and	r2, r2, #16711680
+ 1074              		.loc 1 439 80 view .LVU392
+ 1075 0054 6168     		ldr	r1, [r4, #4]
+ 1076              		.loc 1 439 91 view .LVU393
+ 1077 0056 0904     		lsls	r1, r1, #16
+ 1078              		.loc 1 439 117 view .LVU394
+ 1079 0058 01F47F01 		and	r1, r1, #16711680
  438:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                               (((exmc_pccard_init_struct->attribute_space_timing->waittime - 1U) <<
- 1097              		.loc 1 438 150 view .LVU406
- 1098 0056 1343     		orrs	r3, r3, r2
+ 1080              		.loc 1 438 150 view .LVU395
+ 1081 005c 0B43     		orrs	r3, r3, r1
  440:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                               (((exmc_pccard_init_struct->attribute_space_timing->databus_hiztime -
- 1099              		.loc 1 440 81 view .LVU407
- 1100 0058 0A68     		ldr	r2, [r1]
- 1101              		.loc 1 440 99 view .LVU408
- 1102 005a 013A     		subs	r2, r2, #1
+ 1082              		.loc 1 440 81 view .LVU396
+ 1083 005e 2168     		ldr	r1, [r4]
+ 1084              		.loc 1 440 99 view .LVU397
+ 1085 0060 0139     		subs	r1, r1, #1
  439:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                               ((exmc_pccard_init_struct->attribute_space_timing->holdtime << NPATCF
- 1103              		.loc 1 439 140 view .LVU409
- 1104 005c 43EA0263 		orr	r3, r3, r2, lsl #24
+ 1086              		.loc 1 439 140 view .LVU398
+ 1087 0062 43EA0163 		orr	r3, r3, r1, lsl #24
  437:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                               (((exmc_pccard_init_struct->attribute_space_timing->waittime - 1U) <<
- 1105              		.loc 1 437 19 view .LVU410
- 1106 0060 0C4A     		ldr	r2, .L28+8
- 1107 0062 1360     		str	r3, [r2]
+ 1088              		.loc 1 437 19 view .LVU399
+ 1089 0066 C2F8AC30 		str	r3, [r2, #172]
  441:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  442:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     /* configure the EXMC bank3 PC card io space timing configuration register */
  443:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_PIOTCFG3 = (uint32_t)((exmc_pccard_init_struct->io_space_timing->setuptime - 1U) & EXMC_PI
- 1108              		.loc 1 443 5 is_stmt 1 view .LVU411
- 1109              		.loc 1 443 56 is_stmt 0 view .LVU412
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 29
-
-
- 1110 0064 4169     		ldr	r1, [r0, #20]
- 1111              		.loc 1 443 73 view .LVU413
- 1112 0066 CB68     		ldr	r3, [r1, #12]
- 1113              		.loc 1 443 85 view .LVU414
- 1114 0068 013B     		subs	r3, r3, #1
- 1115              		.loc 1 443 21 view .LVU415
- 1116 006a DBB2     		uxtb	r3, r3
+ 1090              		.loc 1 443 5 is_stmt 1 view .LVU400
+ 1091              		.loc 1 443 56 is_stmt 0 view .LVU401
+ 1092 006a 4069     		ldr	r0, [r0, #20]
+ 1093              	.LVL41:
+ 1094              		.loc 1 443 73 view .LVU402
+ 1095 006c C368     		ldr	r3, [r0, #12]
+ 1096              		.loc 1 443 85 view .LVU403
+ 1097 006e 013B     		subs	r3, r3, #1
+ 1098              		.loc 1 443 21 view .LVU404
+ 1099 0070 DBB2     		uxtb	r3, r3
  444:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                               (((exmc_pccard_init_struct->io_space_timing->waittime - 1U) << PIOTCF
- 1117              		.loc 1 444 74 view .LVU416
- 1118 006c 8A68     		ldr	r2, [r1, #8]
- 1119              		.loc 1 444 85 view .LVU417
- 1120 006e 013A     		subs	r2, r2, #1
- 1121              		.loc 1 444 91 view .LVU418
- 1122 0070 1202     		lsls	r2, r2, #8
- 1123              		.loc 1 444 117 view .LVU419
- 1124 0072 92B2     		uxth	r2, r2
+ 1100              		.loc 1 444 74 view .LVU405
+ 1101 0072 8168     		ldr	r1, [r0, #8]
+ 1102              		.loc 1 444 85 view .LVU406
+ 1103 0074 0139     		subs	r1, r1, #1
+ 1104              		.loc 1 444 91 view .LVU407
+ 1105 0076 0902     		lsls	r1, r1, #8
+ 1106              		.loc 1 444 117 view .LVU408
+ 1107 0078 89B2     		uxth	r1, r1
  443:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                               (((exmc_pccard_init_struct->io_space_timing->waittime - 1U) << PIOTCF
- 1125              		.loc 1 443 115 view .LVU420
- 1126 0074 1343     		orrs	r3, r3, r2
+ 1108              		.loc 1 443 115 view .LVU409
+ 1109 007a 0B43     		orrs	r3, r3, r1
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 29
+
+
  445:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                               ((exmc_pccard_init_struct->io_space_timing->holdtime << PIOTCFG_IOHLD
- 1127              		.loc 1 445 73 view .LVU421
- 1128 0076 4A68     		ldr	r2, [r1, #4]
- 1129              		.loc 1 445 84 view .LVU422
- 1130 0078 1204     		lsls	r2, r2, #16
- 1131              		.loc 1 445 109 view .LVU423
- 1132 007a 02F47F02 		and	r2, r2, #16711680
+ 1110              		.loc 1 445 73 view .LVU410
+ 1111 007c 4168     		ldr	r1, [r0, #4]
+ 1112              		.loc 1 445 84 view .LVU411
+ 1113 007e 0904     		lsls	r1, r1, #16
+ 1114              		.loc 1 445 109 view .LVU412
+ 1115 0080 01F47F01 		and	r1, r1, #16711680
  444:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                               (((exmc_pccard_init_struct->io_space_timing->waittime - 1U) << PIOTCF
- 1133              		.loc 1 444 142 view .LVU424
- 1134 007e 1343     		orrs	r3, r3, r2
+ 1116              		.loc 1 444 142 view .LVU413
+ 1117 0084 0B43     		orrs	r3, r3, r1
  446:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                               ((exmc_pccard_init_struct->io_space_timing->databus_hiztime << PIOTCF
- 1135              		.loc 1 446 73 view .LVU425
- 1136 0080 0A68     		ldr	r2, [r1]
+ 1118              		.loc 1 446 73 view .LVU414
+ 1119 0086 0168     		ldr	r1, [r0]
  445:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                               ((exmc_pccard_init_struct->io_space_timing->holdtime << PIOTCFG_IOHLD
- 1137              		.loc 1 445 132 view .LVU426
- 1138 0082 43EA0263 		orr	r3, r3, r2, lsl #24
+ 1120              		.loc 1 445 132 view .LVU415
+ 1121 0088 43EA0163 		orr	r3, r3, r1, lsl #24
  443:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                               (((exmc_pccard_init_struct->io_space_timing->waittime - 1U) << PIOTCF
- 1139              		.loc 1 443 19 view .LVU427
- 1140 0086 044A     		ldr	r2, .L28+12
- 1141 0088 1360     		str	r3, [r2]
+ 1122              		.loc 1 443 19 view .LVU416
+ 1123 008c C2F8B030 		str	r3, [r2, #176]
  447:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** }
- 1142              		.loc 1 447 1 view .LVU428
- 1143 008a 7047     		bx	lr
- 1144              	.L29:
- 1145              		.align	2
- 1146              	.L28:
- 1147 008c A00000A0 		.word	-1610612576
- 1148 0090 A80000A0 		.word	-1610612568
- 1149 0094 AC0000A0 		.word	-1610612564
- 1150 0098 B00000A0 		.word	-1610612560
- 1151              		.cfi_endproc
- 1152              	.LFE128:
- 1154              		.section	.text.exmc_pccard_enable,"ax",%progbits
- 1155              		.align	1
- 1156              		.global	exmc_pccard_enable
- 1157              		.syntax unified
- 1158              		.thumb
- 1159              		.thumb_func
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 30
-
-
- 1160              		.fpu fpv4-sp-d16
- 1162              	exmc_pccard_enable:
- 1163              	.LFB129:
+ 1124              		.loc 1 447 1 view .LVU417
+ 1125 0090 5DF8044B 		ldr	r4, [sp], #4
+ 1126              	.LCFI8:
+ 1127              		.cfi_restore 4
+ 1128              		.cfi_def_cfa_offset 0
+ 1129 0094 7047     		bx	lr
+ 1130              		.cfi_endproc
+ 1131              	.LFE128:
+ 1133              		.section	.text.exmc_pccard_enable,"ax",%progbits
+ 1134              		.align	1
+ 1135              		.global	exmc_pccard_enable
+ 1136              		.syntax unified
+ 1137              		.thumb
+ 1138              		.thumb_func
+ 1139              		.fpu fpv4-sp-d16
+ 1141              	exmc_pccard_enable:
+ 1142              	.LFB129:
  448:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  449:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** /*!
  450:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \brief      enable PC Card Bank
@@ -1753,36 +1727,35 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
  454:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** */
  455:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** void exmc_pccard_enable(void)
  456:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** {
- 1164              		.loc 1 456 1 is_stmt 1 view -0
- 1165              		.cfi_startproc
- 1166              		@ args = 0, pretend = 0, frame = 0
- 1167              		@ frame_needed = 0, uses_anonymous_args = 0
- 1168              		@ link register save eliminated.
+ 1143              		.loc 1 456 1 is_stmt 1 view -0
+ 1144              		.cfi_startproc
+ 1145              		@ args = 0, pretend = 0, frame = 0
+ 1146              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1147              		@ link register save eliminated.
  457:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_NPCTL3 |= EXMC_NPCTL_NDBKEN;
- 1169              		.loc 1 457 5 view .LVU430
- 1170              		.loc 1 457 17 is_stmt 0 view .LVU431
- 1171 0000 024A     		ldr	r2, .L31
- 1172 0002 1368     		ldr	r3, [r2]
- 1173 0004 43F00403 		orr	r3, r3, #4
- 1174 0008 1360     		str	r3, [r2]
+ 1148              		.loc 1 457 5 view .LVU419
+ 1149              		.loc 1 457 17 is_stmt 0 view .LVU420
+ 1150 0000 4FF02042 		mov	r2, #-1610612736
+ 1151 0004 D2F8A030 		ldr	r3, [r2, #160]
+ 1152 0008 43F00403 		orr	r3, r3, #4
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 30
+
+
+ 1153 000c C2F8A030 		str	r3, [r2, #160]
  458:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** }
- 1175              		.loc 1 458 1 view .LVU432
- 1176 000a 7047     		bx	lr
- 1177              	.L32:
- 1178              		.align	2
- 1179              	.L31:
- 1180 000c A00000A0 		.word	-1610612576
- 1181              		.cfi_endproc
- 1182              	.LFE129:
- 1184              		.section	.text.exmc_pccard_disable,"ax",%progbits
- 1185              		.align	1
- 1186              		.global	exmc_pccard_disable
- 1187              		.syntax unified
- 1188              		.thumb
- 1189              		.thumb_func
- 1190              		.fpu fpv4-sp-d16
- 1192              	exmc_pccard_disable:
- 1193              	.LFB130:
+ 1154              		.loc 1 458 1 view .LVU421
+ 1155 0010 7047     		bx	lr
+ 1156              		.cfi_endproc
+ 1157              	.LFE129:
+ 1159              		.section	.text.exmc_pccard_disable,"ax",%progbits
+ 1160              		.align	1
+ 1161              		.global	exmc_pccard_disable
+ 1162              		.syntax unified
+ 1163              		.thumb
+ 1164              		.thumb_func
+ 1165              		.fpu fpv4-sp-d16
+ 1167              	exmc_pccard_disable:
+ 1168              	.LFB130:
  459:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  460:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** /*!
  461:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \brief      disable PC Card Bank
@@ -1792,46 +1765,42 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
  465:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** */
  466:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** void exmc_pccard_disable(void)
  467:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** {
- 1194              		.loc 1 467 1 is_stmt 1 view -0
- 1195              		.cfi_startproc
- 1196              		@ args = 0, pretend = 0, frame = 0
- 1197              		@ frame_needed = 0, uses_anonymous_args = 0
- 1198              		@ link register save eliminated.
+ 1169              		.loc 1 467 1 is_stmt 1 view -0
+ 1170              		.cfi_startproc
+ 1171              		@ args = 0, pretend = 0, frame = 0
+ 1172              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1173              		@ link register save eliminated.
  468:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****    EXMC_NPCTL3 &= (~EXMC_NPCTL_NDBKEN);
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 31
-
-
- 1199              		.loc 1 468 4 view .LVU434
- 1200              		.loc 1 468 16 is_stmt 0 view .LVU435
- 1201 0000 024A     		ldr	r2, .L34
- 1202 0002 1368     		ldr	r3, [r2]
- 1203 0004 23F00403 		bic	r3, r3, #4
- 1204 0008 1360     		str	r3, [r2]
+ 1174              		.loc 1 468 4 view .LVU423
+ 1175              		.loc 1 468 16 is_stmt 0 view .LVU424
+ 1176 0000 4FF02042 		mov	r2, #-1610612736
+ 1177 0004 D2F8A030 		ldr	r3, [r2, #160]
+ 1178 0008 23F00403 		bic	r3, r3, #4
+ 1179 000c C2F8A030 		str	r3, [r2, #160]
  469:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** }
- 1205              		.loc 1 469 1 view .LVU436
- 1206 000a 7047     		bx	lr
- 1207              	.L35:
- 1208              		.align	2
- 1209              	.L34:
- 1210 000c A00000A0 		.word	-1610612576
- 1211              		.cfi_endproc
- 1212              	.LFE130:
- 1214              		.section	.text.exmc_norsram_page_size_config,"ax",%progbits
- 1215              		.align	1
- 1216              		.global	exmc_norsram_page_size_config
- 1217              		.syntax unified
- 1218              		.thumb
- 1219              		.thumb_func
- 1220              		.fpu fpv4-sp-d16
- 1222              	exmc_norsram_page_size_config:
- 1223              	.LVL41:
- 1224              	.LFB131:
+ 1180              		.loc 1 469 1 view .LVU425
+ 1181 0010 7047     		bx	lr
+ 1182              		.cfi_endproc
+ 1183              	.LFE130:
+ 1185              		.section	.text.exmc_norsram_page_size_config,"ax",%progbits
+ 1186              		.align	1
+ 1187              		.global	exmc_norsram_page_size_config
+ 1188              		.syntax unified
+ 1189              		.thumb
+ 1190              		.thumb_func
+ 1191              		.fpu fpv4-sp-d16
+ 1193              	exmc_norsram_page_size_config:
+ 1194              	.LVL42:
+ 1195              	.LFB131:
  470:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  471:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** /*!
  472:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \brief      configure CRAM page size
  473:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \param[in]  exmc_norsram_region: specifie the region of NOR/PSRAM bank
  474:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                 only one parameter can be selected which is shown as below:
  475:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****       \arg        EXMC_BANK0_NORSRAM_REGIONx(x=0..3)
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 31
+
+
  476:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \param[in]  page_size: CRAM page size
  477:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                 only one parameter can be selected which is shown as below:
  478:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****       \arg        EXMC_CRAM_AUTO_SPLIT: the clock is generated only during synchronous access
@@ -1844,56 +1813,54 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
  485:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** */
  486:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** void exmc_norsram_page_size_config(uint32_t exmc_norsram_region, uint32_t page_size)
  487:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** {
- 1225              		.loc 1 487 1 is_stmt 1 view -0
- 1226              		.cfi_startproc
- 1227              		@ args = 0, pretend = 0, frame = 0
- 1228              		@ frame_needed = 0, uses_anonymous_args = 0
- 1229              		@ link register save eliminated.
+ 1196              		.loc 1 487 1 is_stmt 1 view -0
+ 1197              		.cfi_startproc
+ 1198              		@ args = 0, pretend = 0, frame = 0
+ 1199              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1200              		@ link register save eliminated.
  488:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     /* reset the bits */
  489:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_SNCTL(exmc_norsram_region) &= ~EXMC_SNCTL_CPS;
- 1230              		.loc 1 489 5 view .LVU438
- 1231              		.loc 1 489 37 is_stmt 0 view .LVU439
- 1232 0000 00F1A050 		add	r0, r0, #335544320
- 1233              	.LVL42:
- 1234              		.loc 1 489 37 view .LVU440
- 1235 0004 C000     		lsls	r0, r0, #3
- 1236              	.LVL43:
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 32
-
-
- 1237              		.loc 1 489 37 view .LVU441
- 1238 0006 0368     		ldr	r3, [r0]
- 1239 0008 23F4E023 		bic	r3, r3, #458752
- 1240 000c 0360     		str	r3, [r0]
+ 1201              		.loc 1 489 5 view .LVU427
+ 1202              		.loc 1 489 37 is_stmt 0 view .LVU428
+ 1203 0000 00F1A050 		add	r0, r0, #335544320
+ 1204              	.LVL43:
+ 1205              		.loc 1 489 37 view .LVU429
+ 1206 0004 C000     		lsls	r0, r0, #3
+ 1207              	.LVL44:
+ 1208              		.loc 1 489 37 view .LVU430
+ 1209 0006 0268     		ldr	r2, [r0]
+ 1210 0008 22F4E022 		bic	r2, r2, #458752
+ 1211 000c 0260     		str	r2, [r0]
  490:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  491:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     /* set the CPS bits */
  492:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_SNCTL(exmc_norsram_region) |= page_size;
- 1241              		.loc 1 492 5 is_stmt 1 view .LVU442
- 1242              		.loc 1 492 37 is_stmt 0 view .LVU443
- 1243 000e 0368     		ldr	r3, [r0]
- 1244 0010 1943     		orrs	r1, r1, r3
- 1245              	.LVL44:
- 1246              		.loc 1 492 37 view .LVU444
- 1247 0012 0160     		str	r1, [r0]
+ 1212              		.loc 1 492 5 is_stmt 1 view .LVU431
+ 1213              		.loc 1 492 37 is_stmt 0 view .LVU432
+ 1214 000e 0368     		ldr	r3, [r0]
+ 1215 0010 0B43     		orrs	r3, r3, r1
+ 1216 0012 0360     		str	r3, [r0]
  493:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** }
- 1248              		.loc 1 493 1 view .LVU445
- 1249 0014 7047     		bx	lr
- 1250              		.cfi_endproc
- 1251              	.LFE131:
- 1253              		.section	.text.exmc_nand_ecc_config,"ax",%progbits
- 1254              		.align	1
- 1255              		.global	exmc_nand_ecc_config
- 1256              		.syntax unified
- 1257              		.thumb
- 1258              		.thumb_func
- 1259              		.fpu fpv4-sp-d16
- 1261              	exmc_nand_ecc_config:
- 1262              	.LVL45:
- 1263              	.LFB132:
+ 1217              		.loc 1 493 1 view .LVU433
+ 1218 0014 7047     		bx	lr
+ 1219              		.cfi_endproc
+ 1220              	.LFE131:
+ 1222              		.section	.text.exmc_nand_ecc_config,"ax",%progbits
+ 1223              		.align	1
+ 1224              		.global	exmc_nand_ecc_config
+ 1225              		.syntax unified
+ 1226              		.thumb
+ 1227              		.thumb_func
+ 1228              		.fpu fpv4-sp-d16
+ 1230              	exmc_nand_ecc_config:
+ 1231              	.LVL45:
+ 1232              	.LFB132:
  494:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  495:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** /*!
  496:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \brief      enable or disable the EXMC NAND ECC function
  497:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \param[in]  exmc_nand_bank: specifie the NAND bank
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 32
+
+
  498:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                 only one parameter can be selected which is shown as below:
  499:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****       \arg        EXMC_BANKx_NAND(x=1,2)
  500:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \param[in]  newvalue: ENABLE or DISABLE
@@ -1902,118 +1869,118 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
  503:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** */
  504:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** void exmc_nand_ecc_config(uint32_t exmc_nand_bank, ControlStatus newvalue)
  505:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** {
- 1264              		.loc 1 505 1 is_stmt 1 view -0
- 1265              		.cfi_startproc
- 1266              		@ args = 0, pretend = 0, frame = 0
- 1267              		@ frame_needed = 0, uses_anonymous_args = 0
- 1268              		@ link register save eliminated.
+ 1233              		.loc 1 505 1 is_stmt 1 view -0
+ 1234              		.cfi_startproc
+ 1235              		@ args = 0, pretend = 0, frame = 0
+ 1236              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1237              		@ link register save eliminated.
  506:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     if (ENABLE == newvalue){
- 1269              		.loc 1 506 5 view .LVU447
- 1270              		.loc 1 506 8 is_stmt 0 view .LVU448
- 1271 0000 0129     		cmp	r1, #1
- 1272 0002 08D0     		beq	.L40
+ 1238              		.loc 1 506 5 view .LVU435
+ 1239              		.loc 1 506 8 is_stmt 0 view .LVU436
+ 1240 0000 0129     		cmp	r1, #1
+ 1241 0002 08D0     		beq	.L33
  507:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****         /* enable the selected NAND bank ECC function */
  508:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****         EXMC_NPCTL(exmc_nand_bank) |= EXMC_NPCTL_ECCEN;
  509:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     }else{
  510:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****         /* disable the selected NAND bank ECC function */
  511:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****         EXMC_NPCTL(exmc_nand_bank) &= (~EXMC_NPCTL_ECCEN);
- 1273              		.loc 1 511 9 is_stmt 1 view .LVU449
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 33
-
-
- 1274              		.loc 1 511 36 is_stmt 0 view .LVU450
- 1275 0004 00F1A060 		add	r0, r0, #83886080
- 1276              	.LVL46:
- 1277              		.loc 1 511 36 view .LVU451
- 1278 0008 0230     		adds	r0, r0, #2
- 1279              	.LVL47:
- 1280              		.loc 1 511 36 view .LVU452
- 1281 000a 4001     		lsls	r0, r0, #5
- 1282              	.LVL48:
- 1283              		.loc 1 511 36 view .LVU453
- 1284 000c 0368     		ldr	r3, [r0]
- 1285 000e 23F04003 		bic	r3, r3, #64
- 1286 0012 0360     		str	r3, [r0]
+ 1242              		.loc 1 511 9 is_stmt 1 view .LVU437
+ 1243              		.loc 1 511 36 is_stmt 0 view .LVU438
+ 1244 0004 00F1A060 		add	r0, r0, #83886080
+ 1245              	.LVL46:
+ 1246              		.loc 1 511 36 view .LVU439
+ 1247 0008 0230     		adds	r0, r0, #2
+ 1248              	.LVL47:
+ 1249              		.loc 1 511 36 view .LVU440
+ 1250 000a 4001     		lsls	r0, r0, #5
+ 1251              	.LVL48:
+ 1252              		.loc 1 511 36 view .LVU441
+ 1253 000c 0368     		ldr	r3, [r0]
+ 1254 000e 23F04003 		bic	r3, r3, #64
+ 1255 0012 0360     		str	r3, [r0]
  512:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     }
  513:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** }
- 1287              		.loc 1 513 1 view .LVU454
- 1288 0014 7047     		bx	lr
- 1289              	.LVL49:
- 1290              	.L40:
+ 1256              		.loc 1 513 1 view .LVU442
+ 1257 0014 7047     		bx	lr
+ 1258              	.LVL49:
+ 1259              	.L33:
  508:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     }else{
- 1291              		.loc 1 508 9 is_stmt 1 view .LVU455
+ 1260              		.loc 1 508 9 is_stmt 1 view .LVU443
  508:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     }else{
- 1292              		.loc 1 508 36 is_stmt 0 view .LVU456
- 1293 0016 00F1A060 		add	r0, r0, #83886080
- 1294              	.LVL50:
+ 1261              		.loc 1 508 36 is_stmt 0 view .LVU444
+ 1262 0016 00F1A060 		add	r0, r0, #83886080
+ 1263              	.LVL50:
  508:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     }else{
- 1295              		.loc 1 508 36 view .LVU457
- 1296 001a 0230     		adds	r0, r0, #2
- 1297              	.LVL51:
+ 1264              		.loc 1 508 36 view .LVU445
+ 1265 001a 0230     		adds	r0, r0, #2
+ 1266              	.LVL51:
  508:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     }else{
- 1298              		.loc 1 508 36 view .LVU458
- 1299 001c 4001     		lsls	r0, r0, #5
- 1300              	.LVL52:
+ 1267              		.loc 1 508 36 view .LVU446
+ 1268 001c 4001     		lsls	r0, r0, #5
+ 1269              	.LVL52:
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 33
+
+
  508:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     }else{
- 1301              		.loc 1 508 36 view .LVU459
- 1302 001e 0368     		ldr	r3, [r0]
- 1303 0020 43F04003 		orr	r3, r3, #64
- 1304 0024 0360     		str	r3, [r0]
- 1305 0026 7047     		bx	lr
- 1306              		.cfi_endproc
- 1307              	.LFE132:
- 1309              		.section	.text.exmc_ecc_get,"ax",%progbits
- 1310              		.align	1
- 1311              		.global	exmc_ecc_get
- 1312              		.syntax unified
- 1313              		.thumb
- 1314              		.thumb_func
- 1315              		.fpu fpv4-sp-d16
- 1317              	exmc_ecc_get:
- 1318              	.LVL53:
- 1319              	.LFB133:
+ 1270              		.loc 1 508 36 view .LVU447
+ 1271 001e 0368     		ldr	r3, [r0]
+ 1272 0020 43F04003 		orr	r3, r3, #64
+ 1273 0024 0360     		str	r3, [r0]
+ 1274 0026 7047     		bx	lr
+ 1275              		.cfi_endproc
+ 1276              	.LFE132:
+ 1278              		.section	.text.exmc_ecc_get,"ax",%progbits
+ 1279              		.align	1
+ 1280              		.global	exmc_ecc_get
+ 1281              		.syntax unified
+ 1282              		.thumb
+ 1283              		.thumb_func
+ 1284              		.fpu fpv4-sp-d16
+ 1286              	exmc_ecc_get:
+ 1287              	.LVL53:
+ 1288              	.LFB133:
  514:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  515:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** /*!
  516:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \brief      get the EXMC ECC value
  517:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \param[in]  exmc_nand_bank: specifie the NAND bank
  518:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                 only one parameter can be selected which is shown as below:
  519:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****       \arg        EXMC_BANKx_NAND(x=1,2)
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 34
-
-
  520:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \param[out] none
  521:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \retval     the error correction code(ECC) value
  522:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** */
  523:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** uint32_t exmc_ecc_get(uint32_t exmc_nand_bank)
  524:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** {
- 1320              		.loc 1 524 1 is_stmt 1 view -0
- 1321              		.cfi_startproc
- 1322              		@ args = 0, pretend = 0, frame = 0
- 1323              		@ frame_needed = 0, uses_anonymous_args = 0
- 1324              		@ link register save eliminated.
+ 1289              		.loc 1 524 1 is_stmt 1 view -0
+ 1290              		.cfi_startproc
+ 1291              		@ args = 0, pretend = 0, frame = 0
+ 1292              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1293              		@ link register save eliminated.
  525:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     return (EXMC_NECC(exmc_nand_bank));
- 1325              		.loc 1 525 5 view .LVU461
- 1326              		.loc 1 525 13 is_stmt 0 view .LVU462
- 1327 0000 4001     		lsls	r0, r0, #5
- 1328              	.LVL54:
- 1329              		.loc 1 525 13 view .LVU463
- 1330 0002 00F12040 		add	r0, r0, #-1610612736
- 1331 0006 406D     		ldr	r0, [r0, #84]
+ 1294              		.loc 1 525 5 view .LVU449
+ 1295              		.loc 1 525 13 is_stmt 0 view .LVU450
+ 1296 0000 4001     		lsls	r0, r0, #5
+ 1297              	.LVL54:
+ 1298              		.loc 1 525 13 view .LVU451
+ 1299 0002 00F12040 		add	r0, r0, #-1610612736
+ 1300 0006 406D     		ldr	r0, [r0, #84]
  526:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** }
- 1332              		.loc 1 526 1 view .LVU464
- 1333 0008 7047     		bx	lr
- 1334              		.cfi_endproc
- 1335              	.LFE133:
- 1337              		.section	.text.exmc_interrupt_enable,"ax",%progbits
- 1338              		.align	1
- 1339              		.global	exmc_interrupt_enable
- 1340              		.syntax unified
- 1341              		.thumb
- 1342              		.thumb_func
- 1343              		.fpu fpv4-sp-d16
- 1345              	exmc_interrupt_enable:
- 1346              	.LVL55:
- 1347              	.LFB134:
+ 1301              		.loc 1 526 1 view .LVU452
+ 1302 0008 7047     		bx	lr
+ 1303              		.cfi_endproc
+ 1304              	.LFE133:
+ 1306              		.section	.text.exmc_interrupt_enable,"ax",%progbits
+ 1307              		.align	1
+ 1308              		.global	exmc_interrupt_enable
+ 1309              		.syntax unified
+ 1310              		.thumb
+ 1311              		.thumb_func
+ 1312              		.fpu fpv4-sp-d16
+ 1314              	exmc_interrupt_enable:
+ 1315              	.LVL55:
+ 1316              	.LFB134:
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 34
+
+
  527:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  528:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** /*!
  529:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \brief      enable EXMC interrupt
@@ -2032,42 +1999,37 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
  542:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** */
  543:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** void exmc_interrupt_enable(uint32_t exmc_bank,uint32_t interrupt)
  544:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** {
- 1348              		.loc 1 544 1 is_stmt 1 view -0
- 1349              		.cfi_startproc
- 1350              		@ args = 0, pretend = 0, frame = 0
- 1351              		@ frame_needed = 0, uses_anonymous_args = 0
- 1352              		@ link register save eliminated.
+ 1317              		.loc 1 544 1 is_stmt 1 view -0
+ 1318              		.cfi_startproc
+ 1319              		@ args = 0, pretend = 0, frame = 0
+ 1320              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1321              		@ link register save eliminated.
  545:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     /* NAND bank1,bank2 or PC card bank3 */
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 35
-
-
  546:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_NPINTEN(exmc_bank) |= interrupt;
- 1353              		.loc 1 546 5 view .LVU466
- 1354              		.loc 1 546 29 is_stmt 0 view .LVU467
- 1355 0000 4001     		lsls	r0, r0, #5
- 1356              	.LVL56:
- 1357              		.loc 1 546 29 view .LVU468
- 1358 0002 00F12040 		add	r0, r0, #-1610612736
- 1359 0006 436C     		ldr	r3, [r0, #68]
- 1360 0008 1943     		orrs	r1, r1, r3
- 1361              	.LVL57:
- 1362              		.loc 1 546 29 view .LVU469
- 1363 000a 4164     		str	r1, [r0, #68]
+ 1322              		.loc 1 546 5 view .LVU454
+ 1323              		.loc 1 546 29 is_stmt 0 view .LVU455
+ 1324 0000 4001     		lsls	r0, r0, #5
+ 1325              	.LVL56:
+ 1326              		.loc 1 546 29 view .LVU456
+ 1327 0002 00F12040 		add	r0, r0, #-1610612736
+ 1328 0006 436C     		ldr	r3, [r0, #68]
+ 1329 0008 0B43     		orrs	r3, r3, r1
+ 1330 000a 4364     		str	r3, [r0, #68]
  547:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** }
- 1364              		.loc 1 547 1 view .LVU470
- 1365 000c 7047     		bx	lr
- 1366              		.cfi_endproc
- 1367              	.LFE134:
- 1369              		.section	.text.exmc_interrupt_disable,"ax",%progbits
- 1370              		.align	1
- 1371              		.global	exmc_interrupt_disable
- 1372              		.syntax unified
- 1373              		.thumb
- 1374              		.thumb_func
- 1375              		.fpu fpv4-sp-d16
- 1377              	exmc_interrupt_disable:
- 1378              	.LVL58:
- 1379              	.LFB135:
+ 1331              		.loc 1 547 1 view .LVU457
+ 1332 000c 7047     		bx	lr
+ 1333              		.cfi_endproc
+ 1334              	.LFE134:
+ 1336              		.section	.text.exmc_interrupt_disable,"ax",%progbits
+ 1337              		.align	1
+ 1338              		.global	exmc_interrupt_disable
+ 1339              		.syntax unified
+ 1340              		.thumb
+ 1341              		.thumb_func
+ 1342              		.fpu fpv4-sp-d16
+ 1344              	exmc_interrupt_disable:
+ 1345              	.LVL57:
+ 1346              	.LFB135:
  548:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  549:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** /*!
  550:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \brief      disable EXMC interrupt
@@ -2076,6 +2038,9 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
  553:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****       \arg        EXMC_BANK1_NAND: the NAND bank1
  554:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****       \arg        EXMC_BANK2_NAND: the NAND bank2
  555:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****       \arg        EXMC_BANK3_PCCARD: the PC card bank
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 35
+
+
  556:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \param[in]  interrupt: EXMC interrupt flag
  557:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                 only one parameter can be selected which are shown as below:
  558:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****       \arg        EXMC_NAND_PCCARD_INT_FLAG_RISE: rising edge interrupt and flag
@@ -2086,42 +2051,37 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
  563:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** */
  564:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** void exmc_interrupt_disable(uint32_t exmc_bank,uint32_t interrupt)
  565:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** {
- 1380              		.loc 1 565 1 is_stmt 1 view -0
- 1381              		.cfi_startproc
- 1382              		@ args = 0, pretend = 0, frame = 0
- 1383              		@ frame_needed = 0, uses_anonymous_args = 0
- 1384              		@ link register save eliminated.
+ 1347              		.loc 1 565 1 is_stmt 1 view -0
+ 1348              		.cfi_startproc
+ 1349              		@ args = 0, pretend = 0, frame = 0
+ 1350              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1351              		@ link register save eliminated.
  566:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     /* NAND bank1,bank2 or PC card bank3 */
  567:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_NPINTEN(exmc_bank) &= (~interrupt);
- 1385              		.loc 1 567 5 view .LVU472
- 1386              		.loc 1 567 29 is_stmt 0 view .LVU473
- 1387 0000 4001     		lsls	r0, r0, #5
- 1388              	.LVL59:
- 1389              		.loc 1 567 29 view .LVU474
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 36
-
-
- 1390 0002 00F12040 		add	r0, r0, #-1610612736
- 1391 0006 436C     		ldr	r3, [r0, #68]
- 1392 0008 23EA0101 		bic	r1, r3, r1
- 1393              	.LVL60:
- 1394              		.loc 1 567 29 view .LVU475
- 1395 000c 4164     		str	r1, [r0, #68]
+ 1352              		.loc 1 567 5 view .LVU459
+ 1353              		.loc 1 567 29 is_stmt 0 view .LVU460
+ 1354 0000 4001     		lsls	r0, r0, #5
+ 1355              	.LVL58:
+ 1356              		.loc 1 567 29 view .LVU461
+ 1357 0002 00F12040 		add	r0, r0, #-1610612736
+ 1358 0006 436C     		ldr	r3, [r0, #68]
+ 1359 0008 23EA0103 		bic	r3, r3, r1
+ 1360 000c 4364     		str	r3, [r0, #68]
  568:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** }
- 1396              		.loc 1 568 1 view .LVU476
- 1397 000e 7047     		bx	lr
- 1398              		.cfi_endproc
- 1399              	.LFE135:
- 1401              		.section	.text.exmc_flag_get,"ax",%progbits
- 1402              		.align	1
- 1403              		.global	exmc_flag_get
- 1404              		.syntax unified
- 1405              		.thumb
- 1406              		.thumb_func
- 1407              		.fpu fpv4-sp-d16
- 1409              	exmc_flag_get:
- 1410              	.LVL61:
- 1411              	.LFB136:
+ 1361              		.loc 1 568 1 view .LVU462
+ 1362 000e 7047     		bx	lr
+ 1363              		.cfi_endproc
+ 1364              	.LFE135:
+ 1366              		.section	.text.exmc_flag_get,"ax",%progbits
+ 1367              		.align	1
+ 1368              		.global	exmc_flag_get
+ 1369              		.syntax unified
+ 1370              		.thumb
+ 1371              		.thumb_func
+ 1372              		.fpu fpv4-sp-d16
+ 1374              	exmc_flag_get:
+ 1375              	.LVL59:
+ 1376              	.LFB136:
  569:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  570:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** /*!
  571:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \brief      get EXMC flag status
@@ -2138,66 +2098,69 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
  582:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****       \arg        EXMC_NAND_PCCARD_FLAG_FIFOE: FIFO empty flag
  583:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \param[out] none
  584:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \retval     FlagStatus: SET or RESET
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 36
+
+
  585:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** */
  586:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** FlagStatus exmc_flag_get(uint32_t exmc_bank,uint32_t flag)
  587:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** {
- 1412              		.loc 1 587 1 is_stmt 1 view -0
- 1413              		.cfi_startproc
- 1414              		@ args = 0, pretend = 0, frame = 0
- 1415              		@ frame_needed = 0, uses_anonymous_args = 0
- 1416              		@ link register save eliminated.
+ 1377              		.loc 1 587 1 is_stmt 1 view -0
+ 1378              		.cfi_startproc
+ 1379              		@ args = 0, pretend = 0, frame = 0
+ 1380              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1381              		@ link register save eliminated.
  588:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     uint32_t status = 0x00000000U;
- 1417              		.loc 1 588 5 view .LVU478
+ 1382              		.loc 1 588 5 view .LVU464
  589:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  590:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     /* NAND bank1,bank2 or PC card bank3 */
  591:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     status = EXMC_NPINTEN(exmc_bank);
- 1418              		.loc 1 591 5 view .LVU479
- 1419              		.loc 1 591 14 is_stmt 0 view .LVU480
- 1420 0000 4001     		lsls	r0, r0, #5
- 1421              	.LVL62:
- 1422              		.loc 1 591 14 view .LVU481
- 1423 0002 00F12040 		add	r0, r0, #-1610612736
- 1424              		.loc 1 591 12 view .LVU482
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 37
-
-
- 1425 0006 436C     		ldr	r3, [r0, #68]
- 1426              	.LVL63:
+ 1383              		.loc 1 591 5 view .LVU465
+ 1384              		.loc 1 591 14 is_stmt 0 view .LVU466
+ 1385 0000 4001     		lsls	r0, r0, #5
+ 1386              	.LVL60:
+ 1387              		.loc 1 591 14 view .LVU467
+ 1388 0002 00F12040 		add	r0, r0, #-1610612736
+ 1389              		.loc 1 591 12 view .LVU468
+ 1390 0006 436C     		ldr	r3, [r0, #68]
+ 1391              	.LVL61:
  592:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     
  593:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     if ((status & flag) != (uint32_t)flag ){
- 1427              		.loc 1 593 5 is_stmt 1 view .LVU483
- 1428              		.loc 1 593 8 is_stmt 0 view .LVU484
- 1429 0008 31EA0303 		bics	r3, r1, r3
- 1430              	.LVL64:
- 1431              		.loc 1 593 8 view .LVU485
- 1432 000c 01D0     		beq	.L46
+ 1392              		.loc 1 593 5 is_stmt 1 view .LVU469
+ 1393              		.loc 1 593 8 is_stmt 0 view .LVU470
+ 1394 0008 31EA0303 		bics	r3, r1, r3
+ 1395              	.LVL62:
+ 1396              		.loc 1 593 8 view .LVU471
+ 1397 000c 01D0     		beq	.L39
  594:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****         /* flag is reset */
  595:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****         return RESET;
- 1433              		.loc 1 595 16 view .LVU486
- 1434 000e 0020     		movs	r0, #0
- 1435 0010 7047     		bx	lr
- 1436              	.L46:
+ 1398              		.loc 1 595 16 view .LVU472
+ 1399 000e 0020     		movs	r0, #0
+ 1400 0010 7047     		bx	lr
+ 1401              	.L39:
  596:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     }else{
  597:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****         /* flag is set */
  598:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****         return SET;
- 1437              		.loc 1 598 16 view .LVU487
- 1438 0012 0120     		movs	r0, #1
+ 1402              		.loc 1 598 16 view .LVU473
+ 1403 0012 0120     		movs	r0, #1
  599:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     }
  600:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** }
- 1439              		.loc 1 600 1 view .LVU488
- 1440 0014 7047     		bx	lr
- 1441              		.cfi_endproc
- 1442              	.LFE136:
- 1444              		.section	.text.exmc_flag_clear,"ax",%progbits
- 1445              		.align	1
- 1446              		.global	exmc_flag_clear
- 1447              		.syntax unified
- 1448              		.thumb
- 1449              		.thumb_func
- 1450              		.fpu fpv4-sp-d16
- 1452              	exmc_flag_clear:
- 1453              	.LVL65:
- 1454              	.LFB137:
+ 1404              		.loc 1 600 1 view .LVU474
+ 1405 0014 7047     		bx	lr
+ 1406              		.cfi_endproc
+ 1407              	.LFE136:
+ 1409              		.section	.text.exmc_flag_clear,"ax",%progbits
+ 1410              		.align	1
+ 1411              		.global	exmc_flag_clear
+ 1412              		.syntax unified
+ 1413              		.thumb
+ 1414              		.thumb_func
+ 1415              		.fpu fpv4-sp-d16
+ 1417              	exmc_flag_clear:
+ 1418              	.LVL63:
+ 1419              	.LFB137:
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 37
+
+
  601:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  602:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** /*!
  603:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \brief      clear EXMC flag status
@@ -2217,42 +2180,37 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
  617:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** */
  618:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** void exmc_flag_clear(uint32_t exmc_bank,uint32_t flag)
  619:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** {
- 1455              		.loc 1 619 1 is_stmt 1 view -0
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 38
-
-
- 1456              		.cfi_startproc
- 1457              		@ args = 0, pretend = 0, frame = 0
- 1458              		@ frame_needed = 0, uses_anonymous_args = 0
- 1459              		@ link register save eliminated.
+ 1420              		.loc 1 619 1 is_stmt 1 view -0
+ 1421              		.cfi_startproc
+ 1422              		@ args = 0, pretend = 0, frame = 0
+ 1423              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1424              		@ link register save eliminated.
  620:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     /* NAND bank1,bank2 or PC card bank3 */
  621:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_NPINTEN(exmc_bank) &= (~flag);
- 1460              		.loc 1 621 5 view .LVU490
- 1461              		.loc 1 621 29 is_stmt 0 view .LVU491
- 1462 0000 4001     		lsls	r0, r0, #5
- 1463              	.LVL66:
- 1464              		.loc 1 621 29 view .LVU492
- 1465 0002 00F12040 		add	r0, r0, #-1610612736
- 1466 0006 436C     		ldr	r3, [r0, #68]
- 1467 0008 23EA0101 		bic	r1, r3, r1
- 1468              	.LVL67:
- 1469              		.loc 1 621 29 view .LVU493
- 1470 000c 4164     		str	r1, [r0, #68]
+ 1425              		.loc 1 621 5 view .LVU476
+ 1426              		.loc 1 621 29 is_stmt 0 view .LVU477
+ 1427 0000 4001     		lsls	r0, r0, #5
+ 1428              	.LVL64:
+ 1429              		.loc 1 621 29 view .LVU478
+ 1430 0002 00F12040 		add	r0, r0, #-1610612736
+ 1431 0006 436C     		ldr	r3, [r0, #68]
+ 1432 0008 23EA0103 		bic	r3, r3, r1
+ 1433 000c 4364     		str	r3, [r0, #68]
  622:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** }
- 1471              		.loc 1 622 1 view .LVU494
- 1472 000e 7047     		bx	lr
- 1473              		.cfi_endproc
- 1474              	.LFE137:
- 1476              		.section	.text.exmc_interrupt_flag_get,"ax",%progbits
- 1477              		.align	1
- 1478              		.global	exmc_interrupt_flag_get
- 1479              		.syntax unified
- 1480              		.thumb
- 1481              		.thumb_func
- 1482              		.fpu fpv4-sp-d16
- 1484              	exmc_interrupt_flag_get:
- 1485              	.LVL68:
- 1486              	.LFB138:
+ 1434              		.loc 1 622 1 view .LVU479
+ 1435 000e 7047     		bx	lr
+ 1436              		.cfi_endproc
+ 1437              	.LFE137:
+ 1439              		.section	.text.exmc_interrupt_flag_get,"ax",%progbits
+ 1440              		.align	1
+ 1441              		.global	exmc_interrupt_flag_get
+ 1442              		.syntax unified
+ 1443              		.thumb
+ 1444              		.thumb_func
+ 1445              		.fpu fpv4-sp-d16
+ 1447              	exmc_interrupt_flag_get:
+ 1448              	.LVL65:
+ 1449              	.LFB138:
  623:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  624:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** /*!
  625:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \brief      get EXMC interrupt flag
@@ -2260,6 +2218,9 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
  627:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                 only one parameter can be selected which is shown as below:
  628:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****       \arg        EXMC_BANK1_NAND: the NAND bank1
  629:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****       \arg        EXMC_BANK2_NAND: the NAND bank2
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 38
+
+
  630:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****       \arg        EXMC_BANK3_PCCARD: the PC card bank
  631:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \param[in]  interrupt: EXMC interrupt flag
  632:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****                 only one parameter can be selected which are shown as below:
@@ -2271,78 +2232,75 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
  638:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** */
  639:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** FlagStatus exmc_interrupt_flag_get(uint32_t exmc_bank,uint32_t interrupt)
  640:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** {
- 1487              		.loc 1 640 1 is_stmt 1 view -0
- 1488              		.cfi_startproc
- 1489              		@ args = 0, pretend = 0, frame = 0
- 1490              		@ frame_needed = 0, uses_anonymous_args = 0
- 1491              		@ link register save eliminated.
+ 1450              		.loc 1 640 1 is_stmt 1 view -0
+ 1451              		.cfi_startproc
+ 1452              		@ args = 0, pretend = 0, frame = 0
+ 1453              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1454              		@ link register save eliminated.
  641:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     uint32_t status = 0x00000000U,interrupt_enable = 0x00000000U,interrupt_state = 0x00000000U;
- 1492              		.loc 1 641 5 view .LVU496
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 39
-
-
+ 1455              		.loc 1 641 5 view .LVU481
  642:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  643:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     /* NAND bank1,bank2 or PC card bank3 */
  644:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     status = EXMC_NPINTEN(exmc_bank);
- 1493              		.loc 1 644 5 view .LVU497
- 1494              		.loc 1 644 14 is_stmt 0 view .LVU498
- 1495 0000 4001     		lsls	r0, r0, #5
- 1496              	.LVL69:
- 1497              		.loc 1 644 14 view .LVU499
- 1498 0002 00F12040 		add	r0, r0, #-1610612736
- 1499              		.loc 1 644 12 view .LVU500
- 1500 0006 436C     		ldr	r3, [r0, #68]
- 1501              	.LVL70:
+ 1456              		.loc 1 644 5 view .LVU482
+ 1457              		.loc 1 644 14 is_stmt 0 view .LVU483
+ 1458 0000 4001     		lsls	r0, r0, #5
+ 1459              	.LVL66:
+ 1460              		.loc 1 644 14 view .LVU484
+ 1461 0002 00F12040 		add	r0, r0, #-1610612736
+ 1462              		.loc 1 644 12 view .LVU485
+ 1463 0006 436C     		ldr	r3, [r0, #68]
+ 1464              	.LVL67:
  645:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     interrupt_state = (status & (interrupt >> INTEN_INTS_OFFSET));
- 1502              		.loc 1 645 5 is_stmt 1 view .LVU501
- 1503              		.loc 1 645 21 is_stmt 0 view .LVU502
- 1504 0008 03EAD102 		and	r2, r3, r1, lsr #3
- 1505              	.LVL71:
+ 1465              		.loc 1 645 5 is_stmt 1 view .LVU486
+ 1466              		.loc 1 645 21 is_stmt 0 view .LVU487
+ 1467 0008 03EAD102 		and	r2, r3, r1, lsr #3
+ 1468              	.LVL68:
  646:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  647:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     interrupt_enable = (status & interrupt);
- 1506              		.loc 1 647 5 is_stmt 1 view .LVU503
+ 1469              		.loc 1 647 5 is_stmt 1 view .LVU488
  648:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  649:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     if ((interrupt_enable) && (interrupt_state)){
- 1507              		.loc 1 649 5 view .LVU504
- 1508              		.loc 1 649 8 is_stmt 0 view .LVU505
- 1509 000c 0B42     		tst	r3, r1
- 1510 000e 02D0     		beq	.L50
- 1511              		.loc 1 649 28 discriminator 1 view .LVU506
- 1512 0010 1AB9     		cbnz	r2, .L51
+ 1470              		.loc 1 649 5 view .LVU489
+ 1471              		.loc 1 649 8 is_stmt 0 view .LVU490
+ 1472 000c 0B42     		tst	r3, r1
+ 1473 000e 02D0     		beq	.L43
+ 1474              		.loc 1 649 28 discriminator 1 view .LVU491
+ 1475 0010 1AB9     		cbnz	r2, .L44
  650:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****         /* interrupt flag is set */
  651:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****         return SET;
  652:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     }else{
  653:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****         /* interrupt flag is reset */
  654:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****         return RESET;
- 1513              		.loc 1 654 16 view .LVU507
- 1514 0012 0020     		movs	r0, #0
- 1515 0014 7047     		bx	lr
- 1516              	.L50:
- 1517 0016 0020     		movs	r0, #0
- 1518 0018 7047     		bx	lr
- 1519              	.L51:
+ 1476              		.loc 1 654 16 view .LVU492
+ 1477 0012 0020     		movs	r0, #0
+ 1478 0014 7047     		bx	lr
+ 1479              	.L43:
+ 1480 0016 0020     		movs	r0, #0
+ 1481 0018 7047     		bx	lr
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 39
+
+
+ 1482              	.L44:
  651:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     }else{
- 1520              		.loc 1 651 16 view .LVU508
- 1521 001a 0120     		movs	r0, #1
+ 1483              		.loc 1 651 16 view .LVU493
+ 1484 001a 0120     		movs	r0, #1
  655:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     }
  656:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** }
- 1522              		.loc 1 656 1 view .LVU509
- 1523 001c 7047     		bx	lr
- 1524              		.cfi_endproc
- 1525              	.LFE138:
- 1527              		.section	.text.exmc_interrupt_flag_clear,"ax",%progbits
- 1528              		.align	1
- 1529              		.global	exmc_interrupt_flag_clear
- 1530              		.syntax unified
- 1531              		.thumb
- 1532              		.thumb_func
- 1533              		.fpu fpv4-sp-d16
- 1535              	exmc_interrupt_flag_clear:
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 40
-
-
- 1536              	.LVL72:
- 1537              	.LFB139:
+ 1485              		.loc 1 656 1 view .LVU494
+ 1486 001c 7047     		bx	lr
+ 1487              		.cfi_endproc
+ 1488              	.LFE138:
+ 1490              		.section	.text.exmc_interrupt_flag_clear,"ax",%progbits
+ 1491              		.align	1
+ 1492              		.global	exmc_interrupt_flag_clear
+ 1493              		.syntax unified
+ 1494              		.thumb
+ 1495              		.thumb_func
+ 1496              		.fpu fpv4-sp-d16
+ 1498              	exmc_interrupt_flag_clear:
+ 1499              	.LVL69:
+ 1500              	.LFB139:
  657:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** 
  658:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** /*!
  659:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     \brief      clear EXMC interrupt flag
@@ -2361,97 +2319,89 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 1
  672:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** */
  673:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** void exmc_interrupt_flag_clear(uint32_t exmc_bank,uint32_t interrupt)
  674:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** {
- 1538              		.loc 1 674 1 is_stmt 1 view -0
- 1539              		.cfi_startproc
- 1540              		@ args = 0, pretend = 0, frame = 0
- 1541              		@ frame_needed = 0, uses_anonymous_args = 0
- 1542              		@ link register save eliminated.
+ 1501              		.loc 1 674 1 is_stmt 1 view -0
+ 1502              		.cfi_startproc
+ 1503              		@ args = 0, pretend = 0, frame = 0
+ 1504              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1505              		@ link register save eliminated.
  675:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     /* NAND bank1,bank2 or PC card bank3 */
  676:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c ****     EXMC_NPINTEN(exmc_bank) &= ~(interrupt >> INTEN_INTS_OFFSET);
- 1543              		.loc 1 676 5 view .LVU511
- 1544              		.loc 1 676 29 is_stmt 0 view .LVU512
- 1545 0000 4001     		lsls	r0, r0, #5
- 1546              	.LVL73:
- 1547              		.loc 1 676 29 view .LVU513
- 1548 0002 00F12040 		add	r0, r0, #-1610612736
- 1549 0006 436C     		ldr	r3, [r0, #68]
- 1550 0008 23EAD101 		bic	r1, r3, r1, lsr #3
- 1551              	.LVL74:
- 1552              		.loc 1 676 29 view .LVU514
- 1553 000c 4164     		str	r1, [r0, #68]
+ 1506              		.loc 1 676 5 view .LVU496
+ 1507              		.loc 1 676 29 is_stmt 0 view .LVU497
+ 1508 0000 4001     		lsls	r0, r0, #5
+ 1509              	.LVL70:
+ 1510              		.loc 1 676 29 view .LVU498
+ 1511 0002 00F12040 		add	r0, r0, #-1610612736
+ 1512 0006 436C     		ldr	r3, [r0, #68]
+ 1513 0008 23EAD103 		bic	r3, r3, r1, lsr #3
+ 1514 000c 4364     		str	r3, [r0, #68]
  677:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_exmc.c **** }
- 1554              		.loc 1 677 1 view .LVU515
- 1555 000e 7047     		bx	lr
- 1556              		.cfi_endproc
- 1557              	.LFE139:
- 1559              		.text
- 1560              	.Letext0:
- 1561              		.file 2 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\machine\\_default_types.h"
- 1562              		.file 3 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\sys\\_stdint.h"
- 1563              		.file 4 "Drivers/CMSIS/core_cm4.h"
- 1564              		.file 5 "Drivers/CMSIS/GD/GD32F30x/Include/system_gd32f30x.h"
- 1565              		.file 6 "Drivers/CMSIS/GD/GD32F30x/Include/gd32f30x.h"
- 1566              		.file 7 "Drivers/GD32F30x_standard_peripheral/Include/gd32f30x_exmc.h"
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 41
+ 1515              		.loc 1 677 1 view .LVU499
+ 1516 000e 7047     		bx	lr
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 40
+
+
+ 1517              		.cfi_endproc
+ 1518              	.LFE139:
+ 1520              		.text
+ 1521              	.Letext0:
+ 1522              		.file 2 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 1523              		.file 3 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 1524              		.file 4 "Drivers/CMSIS/GD/GD32F30x/Include/gd32f30x.h"
+ 1525              		.file 5 "Drivers/GD32F30x_standard_peripheral/Include/gd32f30x_exmc.h"
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s 			page 41
 
 
 DEFINED SYMBOLS
-                            *ABS*:0000000000000000 gd32f30x_exmc.c
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:18     .text.exmc_norsram_deinit:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:26     .text.exmc_norsram_deinit:0000000000000000 exmc_norsram_deinit
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:69     .text.exmc_norsram_struct_para_init:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:76     .text.exmc_norsram_struct_para_init:0000000000000000 exmc_norsram_struct_para_init
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:206    .text.exmc_norsram_init:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:213    .text.exmc_norsram_init:0000000000000000 exmc_norsram_init
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:449    .text.exmc_norsram_init:00000000000000e4 $d
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:454    .text.exmc_norsram_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:461    .text.exmc_norsram_enable:0000000000000000 exmc_norsram_enable
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:486    .text.exmc_norsram_disable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:493    .text.exmc_norsram_disable:0000000000000000 exmc_norsram_disable
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:518    .text.exmc_nand_deinit:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:525    .text.exmc_nand_deinit:0000000000000000 exmc_nand_deinit
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:561    .text.exmc_nand_struct_para_init:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:568    .text.exmc_nand_struct_para_init:0000000000000000 exmc_nand_struct_para_init
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:646    .text.exmc_nand_init:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:653    .text.exmc_nand_init:0000000000000000 exmc_nand_init
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:796    .text.exmc_nand_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:803    .text.exmc_nand_enable:0000000000000000 exmc_nand_enable
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:831    .text.exmc_nand_disable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:838    .text.exmc_nand_disable:0000000000000000 exmc_nand_disable
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:866    .text.exmc_pccard_deinit:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:873    .text.exmc_pccard_deinit:0000000000000000 exmc_pccard_deinit
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:908    .text.exmc_pccard_deinit:0000000000000020 $d
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:914    .text.exmc_pccard_struct_para_init:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:921    .text.exmc_pccard_struct_para_init:0000000000000000 exmc_pccard_struct_para_init
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:1006   .text.exmc_pccard_init:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:1013   .text.exmc_pccard_init:0000000000000000 exmc_pccard_init
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:1147   .text.exmc_pccard_init:000000000000008c $d
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:1155   .text.exmc_pccard_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:1162   .text.exmc_pccard_enable:0000000000000000 exmc_pccard_enable
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:1180   .text.exmc_pccard_enable:000000000000000c $d
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:1185   .text.exmc_pccard_disable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:1192   .text.exmc_pccard_disable:0000000000000000 exmc_pccard_disable
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:1210   .text.exmc_pccard_disable:000000000000000c $d
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:1215   .text.exmc_norsram_page_size_config:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:1222   .text.exmc_norsram_page_size_config:0000000000000000 exmc_norsram_page_size_config
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:1254   .text.exmc_nand_ecc_config:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:1261   .text.exmc_nand_ecc_config:0000000000000000 exmc_nand_ecc_config
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:1310   .text.exmc_ecc_get:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:1317   .text.exmc_ecc_get:0000000000000000 exmc_ecc_get
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:1338   .text.exmc_interrupt_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:1345   .text.exmc_interrupt_enable:0000000000000000 exmc_interrupt_enable
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:1370   .text.exmc_interrupt_disable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:1377   .text.exmc_interrupt_disable:0000000000000000 exmc_interrupt_disable
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:1402   .text.exmc_flag_get:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:1409   .text.exmc_flag_get:0000000000000000 exmc_flag_get
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:1445   .text.exmc_flag_clear:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:1452   .text.exmc_flag_clear:0000000000000000 exmc_flag_clear
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:1477   .text.exmc_interrupt_flag_get:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:1484   .text.exmc_interrupt_flag_get:0000000000000000 exmc_interrupt_flag_get
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:1528   .text.exmc_interrupt_flag_clear:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s:1535   .text.exmc_interrupt_flag_clear:0000000000000000 exmc_interrupt_flag_clear
+                            *ABS*:00000000 gd32f30x_exmc.c
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:18     .text.exmc_norsram_deinit:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:26     .text.exmc_norsram_deinit:00000000 exmc_norsram_deinit
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:69     .text.exmc_norsram_struct_para_init:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:76     .text.exmc_norsram_struct_para_init:00000000 exmc_norsram_struct_para_init
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:201    .text.exmc_norsram_init:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:208    .text.exmc_norsram_init:00000000 exmc_norsram_init
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:439    .text.exmc_norsram_init:000000f8 $d
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:444    .text.exmc_norsram_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:451    .text.exmc_norsram_enable:00000000 exmc_norsram_enable
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:476    .text.exmc_norsram_disable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:483    .text.exmc_norsram_disable:00000000 exmc_norsram_disable
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:508    .text.exmc_nand_deinit:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:515    .text.exmc_nand_deinit:00000000 exmc_nand_deinit
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:551    .text.exmc_nand_struct_para_init:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:558    .text.exmc_nand_struct_para_init:00000000 exmc_nand_struct_para_init
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:636    .text.exmc_nand_init:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:643    .text.exmc_nand_init:00000000 exmc_nand_init
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:784    .text.exmc_nand_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:791    .text.exmc_nand_enable:00000000 exmc_nand_enable
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:819    .text.exmc_nand_disable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:826    .text.exmc_nand_disable:00000000 exmc_nand_disable
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:854    .text.exmc_pccard_deinit:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:861    .text.exmc_pccard_deinit:00000000 exmc_pccard_deinit
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:893    .text.exmc_pccard_struct_para_init:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:900    .text.exmc_pccard_struct_para_init:00000000 exmc_pccard_struct_para_init
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:985    .text.exmc_pccard_init:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:992    .text.exmc_pccard_init:00000000 exmc_pccard_init
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:1134   .text.exmc_pccard_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:1141   .text.exmc_pccard_enable:00000000 exmc_pccard_enable
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:1160   .text.exmc_pccard_disable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:1167   .text.exmc_pccard_disable:00000000 exmc_pccard_disable
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:1186   .text.exmc_norsram_page_size_config:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:1193   .text.exmc_norsram_page_size_config:00000000 exmc_norsram_page_size_config
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:1223   .text.exmc_nand_ecc_config:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:1230   .text.exmc_nand_ecc_config:00000000 exmc_nand_ecc_config
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:1279   .text.exmc_ecc_get:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:1286   .text.exmc_ecc_get:00000000 exmc_ecc_get
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:1307   .text.exmc_interrupt_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:1314   .text.exmc_interrupt_enable:00000000 exmc_interrupt_enable
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:1337   .text.exmc_interrupt_disable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:1344   .text.exmc_interrupt_disable:00000000 exmc_interrupt_disable
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:1367   .text.exmc_flag_get:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:1374   .text.exmc_flag_get:00000000 exmc_flag_get
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:1410   .text.exmc_flag_clear:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:1417   .text.exmc_flag_clear:00000000 exmc_flag_clear
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:1440   .text.exmc_interrupt_flag_get:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:1447   .text.exmc_interrupt_flag_get:00000000 exmc_interrupt_flag_get
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:1491   .text.exmc_interrupt_flag_clear:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccdoO2fM.s:1498   .text.exmc_interrupt_flag_clear:00000000 exmc_interrupt_flag_clear
 
 NO UNDEFINED SYMBOLS
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\cctIpBqf.s 			page 42
-
-

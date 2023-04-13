@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccvLsg1k.s 			page 1
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccYUSqVP.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -35,49 +35,20 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccvLsg1k.s 			page 1
    5:Src/main.c    ****     \version 2021-03-23, V2.0.0, demo for GD32F30x
    6:Src/main.c    **** */
    7:Src/main.c    **** 
-   8:Src/main.c    **** /*
-   9:Src/main.c    ****     Copyright (c) 2021, GigaDevice Semiconductor Inc.
-  10:Src/main.c    **** 
-  11:Src/main.c    ****     Redistribution and use in source and binary forms, with or without modification, 
-  12:Src/main.c    **** are permitted provided that the following conditions are met:
-  13:Src/main.c    **** 
-  14:Src/main.c    ****     1. Redistributions of source code must retain the above copyright notice, this 
-  15:Src/main.c    ****        list of conditions and the following disclaimer.
-  16:Src/main.c    ****     2. Redistributions in binary form must reproduce the above copyright notice, 
-  17:Src/main.c    ****        this list of conditions and the following disclaimer in the documentation 
-  18:Src/main.c    ****        and/or other materials provided with the distribution.
-  19:Src/main.c    ****     3. Neither the name of the copyright holder nor the names of its contributors 
-  20:Src/main.c    ****        may be used to endorse or promote products derived from this software without 
-  21:Src/main.c    ****        specific prior written permission.
-  22:Src/main.c    **** 
-  23:Src/main.c    ****     THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
-  24:Src/main.c    **** AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED 
-  25:Src/main.c    **** WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
-  26:Src/main.c    **** IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, 
-  27:Src/main.c    **** INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT 
-  28:Src/main.c    **** NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR 
-  29:Src/main.c    **** PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, 
-  30:Src/main.c    **** WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) 
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccvLsg1k.s 			page 2
-
-
-  31:Src/main.c    **** ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY 
-  32:Src/main.c    **** OF SUCH DAMAGE.
-  33:Src/main.c    **** */
-  34:Src/main.c    **** 
-  35:Src/main.c    **** #include "gd32f30x.h"
-  36:Src/main.c    **** #include "systick.h"
-  37:Src/main.c    **** 
-  38:Src/main.c    **** /*!
-  39:Src/main.c    ****     \brief      main function
-  40:Src/main.c    ****     \param[in]  none
-  41:Src/main.c    ****     \param[out] none
-  42:Src/main.c    ****     \retval     none
-  43:Src/main.c    **** */
-  44:Src/main.c    **** 
-  45:Src/main.c    **** int main(void)
-  46:Src/main.c    **** {
-  29              		.loc 1 46 1 view -0
+   8:Src/main.c    **** 
+   9:Src/main.c    **** #include "gd32f30x.h"
+  10:Src/main.c    **** #include "systick.h"
+  11:Src/main.c    **** 
+  12:Src/main.c    **** /*!
+  13:Src/main.c    ****     \brief      main function
+  14:Src/main.c    ****     \param[in]  none
+  15:Src/main.c    ****     \param[out] none
+  16:Src/main.c    ****     \retval     none
+  17:Src/main.c    **** */
+  18:Src/main.c    **** 
+  19:Src/main.c    **** int main(void)
+  20:Src/main.c    **** {
+  29              		.loc 1 20 1 view -0
   30              		.cfi_startproc
   31              		@ Volatile: function does not return.
   32              		@ args = 0, pretend = 0, frame = 0
@@ -87,95 +58,107 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccvLsg1k.s 			page 1
   36              		.cfi_def_cfa_offset 8
   37              		.cfi_offset 3, -8
   38              		.cfi_offset 14, -4
-  47:Src/main.c    ****     /* configure systick */
-  48:Src/main.c    ****     systick_config();
-  39              		.loc 1 48 5 view .LVU1
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccYUSqVP.s 			page 2
+
+
+  21:Src/main.c    ****     /* configure systick */
+  22:Src/main.c    ****     systick_config();
+  39              		.loc 1 22 5 view .LVU1
   40 0002 FFF7FEFF 		bl	systick_config
   41              	.LVL0:
-  49:Src/main.c    ****     
-  50:Src/main.c    ****     /* enable the LEDs GPIO clock */
-  51:Src/main.c    ****     rcu_periph_clock_enable(RCU_GPIOC);
-  42              		.loc 1 51 5 view .LVU2
+  23:Src/main.c    ****     
+  24:Src/main.c    ****     /* enable the LEDs GPIO clock */
+  25:Src/main.c    ****     rcu_periph_clock_enable(RCU_GPIOC);
+  42              		.loc 1 25 5 view .LVU2
   43 0006 40F20460 		movw	r0, #1540
   44 000a FFF7FEFF 		bl	rcu_periph_clock_enable
   45              	.LVL1:
-  52:Src/main.c    **** 
-  53:Src/main.c    ****     /* configure LED1 LED2 GPIO port */
-  54:Src/main.c    ****     gpio_init(GPIOC, GPIO_MODE_OUT_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_13);
-  46              		.loc 1 54 5 view .LVU3
-  47 000e 104C     		ldr	r4, .L4
-  48 0010 4FF40053 		mov	r3, #8192
-  49 0014 0322     		movs	r2, #3
-  50 0016 1021     		movs	r1, #16
-  51 0018 2046     		mov	r0, r4
-  52 001a FFF7FEFF 		bl	gpio_init
-  53              	.LVL2:
-  55:Src/main.c    ****     
-  56:Src/main.c    ****     /* reset LED1 LED2 GPIO pin */
-  57:Src/main.c    ****     gpio_bit_reset(GPIOC, GPIO_PIN_13);
-  54              		.loc 1 57 5 view .LVU4
-  55 001e 4FF40051 		mov	r1, #8192
-  56 0022 2046     		mov	r0, r4
-  57 0024 FFF7FEFF 		bl	gpio_bit_reset
+  26:Src/main.c    **** 
+  27:Src/main.c    ****     /* configure LED1 LED2 GPIO port */
+  28:Src/main.c    ****     gpio_pin_remap_config(GPIO_SWJ_SWDPENABLE_REMAP, ENABLE); // SWD/CJTAG only
+  46              		.loc 1 28 5 view .LVU3
+  47 000e 0121     		movs	r1, #1
+  48 0010 1148     		ldr	r0, .L4
+  49 0012 FFF7FEFF 		bl	gpio_pin_remap_config
+  50              	.LVL2:
+  29:Src/main.c    ****     gpio_init(GPIOC, GPIO_MODE_OUT_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_13);
+  51              		.loc 1 29 5 view .LVU4
+  52 0016 114C     		ldr	r4, .L4+4
+  53 0018 4FF40053 		mov	r3, #8192
+  54 001c 0322     		movs	r2, #3
+  55 001e 1021     		movs	r1, #16
+  56 0020 2046     		mov	r0, r4
+  57 0022 FFF7FEFF 		bl	gpio_init
   58              	.LVL3:
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccvLsg1k.s 			page 3
-
-
-  59              	.L2:
-  58:Src/main.c    **** 
-  59:Src/main.c    ****     while(1){
-  60              		.loc 1 59 5 discriminator 1 view .LVU5
-  60:Src/main.c    ****         gpio_bit_set(GPIOC, GPIO_PIN_13);
-  61              		.loc 1 60 9 discriminator 1 view .LVU6
-  62 0028 094C     		ldr	r4, .L4
-  63 002a 4FF40051 		mov	r1, #8192
-  64 002e 2046     		mov	r0, r4
-  65 0030 FFF7FEFF 		bl	gpio_bit_set
-  66              	.LVL4:
-  61:Src/main.c    ****         delay_1ms(750);
-  67              		.loc 1 61 9 discriminator 1 view .LVU7
-  68 0034 40F2EE20 		movw	r0, #750
-  69 0038 FFF7FEFF 		bl	delay_1ms
-  70              	.LVL5:
-  62:Src/main.c    ****         gpio_bit_reset(GPIOC, GPIO_PIN_13);
-  71              		.loc 1 62 9 discriminator 1 view .LVU8
-  72 003c 4FF40051 		mov	r1, #8192
-  73 0040 2046     		mov	r0, r4
-  74 0042 FFF7FEFF 		bl	gpio_bit_reset
+  30:Src/main.c    ****     
+  31:Src/main.c    ****     /* reset LED1 LED2 GPIO pin */
+  32:Src/main.c    ****     gpio_bit_reset(GPIOC, GPIO_PIN_13);
+  59              		.loc 1 32 5 view .LVU5
+  60 0026 4FF40051 		mov	r1, #8192
+  61 002a 2046     		mov	r0, r4
+  62 002c FFF7FEFF 		bl	gpio_bit_reset
+  63              	.LVL4:
+  64              	.L2:
+  33:Src/main.c    **** 
+  34:Src/main.c    ****     while(1){
+  65              		.loc 1 34 5 discriminator 1 view .LVU6
+  35:Src/main.c    ****         gpio_bit_set(GPIOC, GPIO_PIN_13);
+  66              		.loc 1 35 9 discriminator 1 view .LVU7
+  67 0030 0A4C     		ldr	r4, .L4+4
+  68 0032 4FF40051 		mov	r1, #8192
+  69 0036 2046     		mov	r0, r4
+  70 0038 FFF7FEFF 		bl	gpio_bit_set
+  71              	.LVL5:
+  36:Src/main.c    ****         delay_1ms(750);
+  72              		.loc 1 36 9 discriminator 1 view .LVU8
+  73 003c 40F2EE20 		movw	r0, #750
+  74 0040 FFF7FEFF 		bl	delay_1ms
   75              	.LVL6:
-  63:Src/main.c    ****         delay_1ms(250);
-  76              		.loc 1 63 9 discriminator 1 view .LVU9
-  77 0046 FA20     		movs	r0, #250
-  78 0048 FFF7FEFF 		bl	delay_1ms
-  79              	.LVL7:
-  80 004c ECE7     		b	.L2
-  81              	.L5:
-  82 004e 00BF     		.align	2
-  83              	.L4:
-  84 0050 00100140 		.word	1073811456
-  85              		.cfi_endproc
-  86              	.LFE116:
-  88              		.text
-  89              	.Letext0:
-  90              		.file 2 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\machine\\_default_types.h"
-  91              		.file 3 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\sys\\_stdint.h"
-  92              		.file 4 "Drivers/CMSIS/core_cm4.h"
-  93              		.file 5 "Drivers/CMSIS/GD/GD32F30x/Include/system_gd32f30x.h"
-  94              		.file 6 "Inc/systick.h"
-  95              		.file 7 "Drivers/GD32F30x_standard_peripheral/Include/gd32f30x_rcu.h"
-  96              		.file 8 "Drivers/GD32F30x_standard_peripheral/Include/gd32f30x_gpio.h"
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccvLsg1k.s 			page 4
+  37:Src/main.c    ****         gpio_bit_reset(GPIOC, GPIO_PIN_13);
+  76              		.loc 1 37 9 discriminator 1 view .LVU9
+  77 0044 4FF40051 		mov	r1, #8192
+  78 0048 2046     		mov	r0, r4
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccYUSqVP.s 			page 3
+
+
+  79 004a FFF7FEFF 		bl	gpio_bit_reset
+  80              	.LVL7:
+  38:Src/main.c    ****         delay_1ms(250);
+  81              		.loc 1 38 9 discriminator 1 view .LVU10
+  82 004e FA20     		movs	r0, #250
+  83 0050 FFF7FEFF 		bl	delay_1ms
+  84              	.LVL8:
+  34:Src/main.c    ****         gpio_bit_set(GPIOC, GPIO_PIN_13);
+  85              		.loc 1 34 10 discriminator 1 view .LVU11
+  86 0054 ECE7     		b	.L2
+  87              	.L5:
+  88 0056 00BF     		.align	2
+  89              	.L4:
+  90 0058 00023000 		.word	3146240
+  91 005c 00100140 		.word	1073811456
+  92              		.cfi_endproc
+  93              	.LFE116:
+  95              		.text
+  96              	.Letext0:
+  97              		.file 2 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+  98              		.file 3 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+  99              		.file 4 "Drivers/CMSIS/GD/GD32F30x/Include/gd32f30x.h"
+ 100              		.file 5 "Drivers/GD32F30x_standard_peripheral/Include/gd32f30x_rcu.h"
+ 101              		.file 6 "Inc/systick.h"
+ 102              		.file 7 "Drivers/GD32F30x_standard_peripheral/Include/gd32f30x_gpio.h"
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccYUSqVP.s 			page 4
 
 
 DEFINED SYMBOLS
-                            *ABS*:0000000000000000 main.c
-C:\Users\Prog\AppData\Local\Temp\ccvLsg1k.s:18     .text.main:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccvLsg1k.s:26     .text.main:0000000000000000 main
-C:\Users\Prog\AppData\Local\Temp\ccvLsg1k.s:84     .text.main:0000000000000050 $d
+                            *ABS*:00000000 main.c
+C:\Users\Prog\AppData\Local\Temp\ccYUSqVP.s:18     .text.main:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccYUSqVP.s:26     .text.main:00000000 main
+C:\Users\Prog\AppData\Local\Temp\ccYUSqVP.s:90     .text.main:00000058 $d
 
 UNDEFINED SYMBOLS
 systick_config
 rcu_periph_clock_enable
+gpio_pin_remap_config
 gpio_init
 gpio_bit_reset
 gpio_bit_set

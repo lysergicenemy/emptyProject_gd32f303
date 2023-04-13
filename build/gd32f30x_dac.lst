@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
   28:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
   29:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, 
   30:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT 
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 2
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 2
 
 
   31:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
   60              	.LVL2:
   61              	.LFB117:
   56:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** 
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 3
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 3
 
 
   57:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** /*!
@@ -137,32 +137,32 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
   65:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     if(DAC0 == dac_periph){
   67              		.loc 1 65 5 view .LVU5
   68              		.loc 1 65 7 is_stmt 0 view .LVU6
-  69 0000 28B9     		cbnz	r0, .L4
+  69 0000 38B9     		cbnz	r0, .L4
   66:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL |= DAC_CTL_DEN0;
   70              		.loc 1 66 9 is_stmt 1 view .LVU7
   71              		.loc 1 66 17 is_stmt 0 view .LVU8
-  72 0002 064A     		ldr	r2, .L6
-  73 0004 1368     		ldr	r3, [r2]
-  74 0006 43F00103 		orr	r3, r3, #1
-  75 000a 1360     		str	r3, [r2]
-  76 000c 7047     		bx	lr
+  72 0002 084A     		ldr	r2, .L6
+  73 0004 D2F80034 		ldr	r3, [r2, #1024]
+  74 0008 43F00103 		orr	r3, r3, #1
+  75 000c C2F80034 		str	r3, [r2, #1024]
+  76 0010 7047     		bx	lr
   77              	.L4:
   67:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }else{
   68:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL |= DAC_CTL_DEN1;
   78              		.loc 1 68 9 is_stmt 1 view .LVU9
   79              		.loc 1 68 17 is_stmt 0 view .LVU10
-  80 000e 034A     		ldr	r2, .L6
-  81 0010 1368     		ldr	r3, [r2]
-  82 0012 43F48033 		orr	r3, r3, #65536
-  83 0016 1360     		str	r3, [r2]
+  80 0012 044A     		ldr	r2, .L6
+  81 0014 D2F80034 		ldr	r3, [r2, #1024]
+  82 0018 43F48033 		orr	r3, r3, #65536
+  83 001c C2F80034 		str	r3, [r2, #1024]
   69:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }
   70:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** } 
   84              		.loc 1 70 1 view .LVU11
-  85 0018 7047     		bx	lr
+  85 0020 7047     		bx	lr
   86              	.L7:
-  87 001a 00BF     		.align	2
+  87 0022 00BF     		.align	2
   88              	.L6:
-  89 001c 00740040 		.word	1073771520
+  89 0024 00700040 		.word	1073770496
   90              		.cfi_endproc
   91              	.LFE117:
   93              		.section	.text.dac_disable,"ax",%progbits
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
   71:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** 
   72:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** /*!
   73:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \brief      disable DAC
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 4
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 4
 
 
   74:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \param[in]  dac_periph: DACx(x = 0,1)
@@ -195,32 +195,32 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
   80:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     if(DAC0 == dac_periph){
  109              		.loc 1 80 5 view .LVU13
  110              		.loc 1 80 7 is_stmt 0 view .LVU14
- 111 0000 28B9     		cbnz	r0, .L9
+ 111 0000 38B9     		cbnz	r0, .L9
   81:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL &= ~DAC_CTL_DEN0;
  112              		.loc 1 81 9 is_stmt 1 view .LVU15
  113              		.loc 1 81 17 is_stmt 0 view .LVU16
- 114 0002 064A     		ldr	r2, .L11
- 115 0004 1368     		ldr	r3, [r2]
- 116 0006 23F00103 		bic	r3, r3, #1
- 117 000a 1360     		str	r3, [r2]
- 118 000c 7047     		bx	lr
+ 114 0002 084A     		ldr	r2, .L11
+ 115 0004 D2F80034 		ldr	r3, [r2, #1024]
+ 116 0008 23F00103 		bic	r3, r3, #1
+ 117 000c C2F80034 		str	r3, [r2, #1024]
+ 118 0010 7047     		bx	lr
  119              	.L9:
   82:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }else{
   83:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL &= ~DAC_CTL_DEN1;
  120              		.loc 1 83 9 is_stmt 1 view .LVU17
  121              		.loc 1 83 17 is_stmt 0 view .LVU18
- 122 000e 034A     		ldr	r2, .L11
- 123 0010 1368     		ldr	r3, [r2]
- 124 0012 23F48033 		bic	r3, r3, #65536
- 125 0016 1360     		str	r3, [r2]
+ 122 0012 044A     		ldr	r2, .L11
+ 123 0014 D2F80034 		ldr	r3, [r2, #1024]
+ 124 0018 23F48033 		bic	r3, r3, #65536
+ 125 001c C2F80034 		str	r3, [r2, #1024]
   84:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }
   85:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** }
  126              		.loc 1 85 1 view .LVU19
- 127 0018 7047     		bx	lr
+ 127 0020 7047     		bx	lr
  128              	.L12:
- 129 001a 00BF     		.align	2
+ 129 0022 00BF     		.align	2
  130              	.L11:
- 131 001c 00740040 		.word	1073771520
+ 131 0024 00700040 		.word	1073770496
  132              		.cfi_endproc
  133              	.LFE118:
  135              		.section	.text.dac_dma_enable,"ax",%progbits
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
   88:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \brief      enable DAC DMA function
   89:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \param[in]  dac_periph: DACx(x = 0,1)
   90:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \param[out] none
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 5
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 5
 
 
   91:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \retval     none
@@ -253,32 +253,32 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
   95:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     if(DAC0 == dac_periph){
  151              		.loc 1 95 5 view .LVU21
  152              		.loc 1 95 7 is_stmt 0 view .LVU22
- 153 0000 28B9     		cbnz	r0, .L14
+ 153 0000 38B9     		cbnz	r0, .L14
   96:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL |= DAC_CTL_DDMAEN0;
  154              		.loc 1 96 9 is_stmt 1 view .LVU23
  155              		.loc 1 96 17 is_stmt 0 view .LVU24
- 156 0002 064A     		ldr	r2, .L16
- 157 0004 1368     		ldr	r3, [r2]
- 158 0006 43F48053 		orr	r3, r3, #4096
- 159 000a 1360     		str	r3, [r2]
- 160 000c 7047     		bx	lr
+ 156 0002 084A     		ldr	r2, .L16
+ 157 0004 D2F80034 		ldr	r3, [r2, #1024]
+ 158 0008 43F48053 		orr	r3, r3, #4096
+ 159 000c C2F80034 		str	r3, [r2, #1024]
+ 160 0010 7047     		bx	lr
  161              	.L14:
   97:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }else{
   98:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL |= DAC_CTL_DDMAEN1;
  162              		.loc 1 98 9 is_stmt 1 view .LVU25
  163              		.loc 1 98 17 is_stmt 0 view .LVU26
- 164 000e 034A     		ldr	r2, .L16
- 165 0010 1368     		ldr	r3, [r2]
- 166 0012 43F08053 		orr	r3, r3, #268435456
- 167 0016 1360     		str	r3, [r2]
+ 164 0012 044A     		ldr	r2, .L16
+ 165 0014 D2F80034 		ldr	r3, [r2, #1024]
+ 166 0018 43F08053 		orr	r3, r3, #268435456
+ 167 001c C2F80034 		str	r3, [r2, #1024]
   99:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }
  100:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** }
  168              		.loc 1 100 1 view .LVU27
- 169 0018 7047     		bx	lr
+ 169 0020 7047     		bx	lr
  170              	.L17:
- 171 001a 00BF     		.align	2
+ 171 0022 00BF     		.align	2
  172              	.L16:
- 173 001c 00740040 		.word	1073771520
+ 173 0024 00700040 		.word	1073770496
  174              		.cfi_endproc
  175              	.LFE119:
  177              		.section	.text.dac_dma_disable,"ax",%progbits
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  105:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \param[out] none
  106:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \retval     none
  107:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** */
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 6
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 6
 
 
  108:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** void dac_dma_disable(uint32_t dac_periph)
@@ -311,32 +311,32 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  110:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     if(DAC0 == dac_periph){
  193              		.loc 1 110 5 view .LVU29
  194              		.loc 1 110 7 is_stmt 0 view .LVU30
- 195 0000 28B9     		cbnz	r0, .L19
+ 195 0000 38B9     		cbnz	r0, .L19
  111:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL &= ~DAC_CTL_DDMAEN0;
  196              		.loc 1 111 9 is_stmt 1 view .LVU31
  197              		.loc 1 111 17 is_stmt 0 view .LVU32
- 198 0002 064A     		ldr	r2, .L21
- 199 0004 1368     		ldr	r3, [r2]
- 200 0006 23F48053 		bic	r3, r3, #4096
- 201 000a 1360     		str	r3, [r2]
- 202 000c 7047     		bx	lr
+ 198 0002 084A     		ldr	r2, .L21
+ 199 0004 D2F80034 		ldr	r3, [r2, #1024]
+ 200 0008 23F48053 		bic	r3, r3, #4096
+ 201 000c C2F80034 		str	r3, [r2, #1024]
+ 202 0010 7047     		bx	lr
  203              	.L19:
  112:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }else{
  113:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL &= ~DAC_CTL_DDMAEN1;
  204              		.loc 1 113 9 is_stmt 1 view .LVU33
  205              		.loc 1 113 17 is_stmt 0 view .LVU34
- 206 000e 034A     		ldr	r2, .L21
- 207 0010 1368     		ldr	r3, [r2]
- 208 0012 23F08053 		bic	r3, r3, #268435456
- 209 0016 1360     		str	r3, [r2]
+ 206 0012 044A     		ldr	r2, .L21
+ 207 0014 D2F80034 		ldr	r3, [r2, #1024]
+ 208 0018 23F08053 		bic	r3, r3, #268435456
+ 209 001c C2F80034 		str	r3, [r2, #1024]
  114:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }
  115:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** }
  210              		.loc 1 115 1 view .LVU35
- 211 0018 7047     		bx	lr
+ 211 0020 7047     		bx	lr
  212              	.L22:
- 213 001a 00BF     		.align	2
+ 213 0022 00BF     		.align	2
  214              	.L21:
- 215 001c 00740040 		.word	1073771520
+ 215 0024 00700040 		.word	1073770496
  216              		.cfi_endproc
  217              	.LFE120:
  219              		.section	.text.dac_output_buffer_enable,"ax",%progbits
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  122:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** */
  123:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** void dac_output_buffer_enable(uint32_t dac_periph)
  124:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** {
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 7
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 7
 
 
  230              		.loc 1 124 1 is_stmt 1 view -0
@@ -369,32 +369,32 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  125:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     if(DAC0 == dac_periph){
  235              		.loc 1 125 5 view .LVU37
  236              		.loc 1 125 7 is_stmt 0 view .LVU38
- 237 0000 28B9     		cbnz	r0, .L24
+ 237 0000 38B9     		cbnz	r0, .L24
  126:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL &= ~DAC_CTL_DBOFF0;
  238              		.loc 1 126 9 is_stmt 1 view .LVU39
  239              		.loc 1 126 17 is_stmt 0 view .LVU40
- 240 0002 064A     		ldr	r2, .L26
- 241 0004 1368     		ldr	r3, [r2]
- 242 0006 23F00203 		bic	r3, r3, #2
- 243 000a 1360     		str	r3, [r2]
- 244 000c 7047     		bx	lr
+ 240 0002 084A     		ldr	r2, .L26
+ 241 0004 D2F80034 		ldr	r3, [r2, #1024]
+ 242 0008 23F00203 		bic	r3, r3, #2
+ 243 000c C2F80034 		str	r3, [r2, #1024]
+ 244 0010 7047     		bx	lr
  245              	.L24:
  127:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }else{
  128:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL &= ~DAC_CTL_DBOFF1;
  246              		.loc 1 128 9 is_stmt 1 view .LVU41
  247              		.loc 1 128 17 is_stmt 0 view .LVU42
- 248 000e 034A     		ldr	r2, .L26
- 249 0010 1368     		ldr	r3, [r2]
- 250 0012 23F40033 		bic	r3, r3, #131072
- 251 0016 1360     		str	r3, [r2]
+ 248 0012 044A     		ldr	r2, .L26
+ 249 0014 D2F80034 		ldr	r3, [r2, #1024]
+ 250 0018 23F40033 		bic	r3, r3, #131072
+ 251 001c C2F80034 		str	r3, [r2, #1024]
  129:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }
  130:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** }
  252              		.loc 1 130 1 view .LVU43
- 253 0018 7047     		bx	lr
+ 253 0020 7047     		bx	lr
  254              	.L27:
- 255 001a 00BF     		.align	2
+ 255 0022 00BF     		.align	2
  256              	.L26:
- 257 001c 00740040 		.word	1073771520
+ 257 0024 00700040 		.word	1073770496
  258              		.cfi_endproc
  259              	.LFE121:
  261              		.section	.text.dac_output_buffer_disable,"ax",%progbits
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  139:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** {
  272              		.loc 1 139 1 is_stmt 1 view -0
  273              		.cfi_startproc
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 8
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 8
 
 
  274              		@ args = 0, pretend = 0, frame = 0
@@ -427,32 +427,32 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  140:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     if(DAC0 == dac_periph){
  277              		.loc 1 140 5 view .LVU45
  278              		.loc 1 140 7 is_stmt 0 view .LVU46
- 279 0000 28B9     		cbnz	r0, .L29
+ 279 0000 38B9     		cbnz	r0, .L29
  141:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL |= DAC_CTL_DBOFF0;
  280              		.loc 1 141 9 is_stmt 1 view .LVU47
  281              		.loc 1 141 17 is_stmt 0 view .LVU48
- 282 0002 064A     		ldr	r2, .L31
- 283 0004 1368     		ldr	r3, [r2]
- 284 0006 43F00203 		orr	r3, r3, #2
- 285 000a 1360     		str	r3, [r2]
- 286 000c 7047     		bx	lr
+ 282 0002 084A     		ldr	r2, .L31
+ 283 0004 D2F80034 		ldr	r3, [r2, #1024]
+ 284 0008 43F00203 		orr	r3, r3, #2
+ 285 000c C2F80034 		str	r3, [r2, #1024]
+ 286 0010 7047     		bx	lr
  287              	.L29:
  142:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }else{
  143:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL |= DAC_CTL_DBOFF1;
  288              		.loc 1 143 9 is_stmt 1 view .LVU49
  289              		.loc 1 143 17 is_stmt 0 view .LVU50
- 290 000e 034A     		ldr	r2, .L31
- 291 0010 1368     		ldr	r3, [r2]
- 292 0012 43F40033 		orr	r3, r3, #131072
- 293 0016 1360     		str	r3, [r2]
+ 290 0012 044A     		ldr	r2, .L31
+ 291 0014 D2F80034 		ldr	r3, [r2, #1024]
+ 292 0018 43F40033 		orr	r3, r3, #131072
+ 293 001c C2F80034 		str	r3, [r2, #1024]
  144:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }
  145:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** }
  294              		.loc 1 145 1 view .LVU51
- 295 0018 7047     		bx	lr
+ 295 0020 7047     		bx	lr
  296              	.L32:
- 297 001a 00BF     		.align	2
+ 297 0022 00BF     		.align	2
  298              	.L31:
- 299 001c 00740040 		.word	1073771520
+ 299 0024 00700040 		.word	1073770496
  300              		.cfi_endproc
  301              	.LFE122:
  303              		.section	.text.dac_output_value_get,"ax",%progbits
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  315              		.cfi_startproc
  316              		@ args = 0, pretend = 0, frame = 0
  317              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 9
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 9
 
 
  318              		@ link register save eliminated.
@@ -487,19 +487,19 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  156:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     if(DAC0 == dac_periph){
  320              		.loc 1 156 5 view .LVU54
  321              		.loc 1 156 7 is_stmt 0 view .LVU55
- 322 0000 18B9     		cbnz	r0, .L34
+ 322 0000 20B9     		cbnz	r0, .L34
  157:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         /* store the DAC0 output value */
  158:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         data = (uint16_t)DAC0_DO;
  323              		.loc 1 158 9 is_stmt 1 view .LVU56
  324              		.loc 1 158 26 is_stmt 0 view .LVU57
- 325 0002 044B     		ldr	r3, .L36
- 326 0004 1868     		ldr	r0, [r3]
+ 325 0002 054B     		ldr	r3, .L36
+ 326 0004 D3F82C04 		ldr	r0, [r3, #1068]
  327              	.LVL9:
  328              		.loc 1 158 14 view .LVU58
- 329 0006 80B2     		uxth	r0, r0
+ 329 0008 80B2     		uxth	r0, r0
  330              	.LVL10:
  331              		.loc 1 158 14 view .LVU59
- 332 0008 7047     		bx	lr
+ 332 000a 7047     		bx	lr
  333              	.LVL11:
  334              	.L34:
  159:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }else{
@@ -507,41 +507,40 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  161:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         data = (uint16_t)DAC1_DO;
  335              		.loc 1 161 9 is_stmt 1 view .LVU60
  336              		.loc 1 161 26 is_stmt 0 view .LVU61
- 337 000a 034B     		ldr	r3, .L36+4
- 338 000c 1868     		ldr	r0, [r3]
+ 337 000c 024B     		ldr	r3, .L36
+ 338 000e D3F83004 		ldr	r0, [r3, #1072]
  339              	.LVL12:
  340              		.loc 1 161 14 view .LVU62
- 341 000e 80B2     		uxth	r0, r0
+ 341 0012 80B2     		uxth	r0, r0
  342              	.LVL13:
  162:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }
  163:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     return data;
  343              		.loc 1 163 5 is_stmt 1 view .LVU63
  164:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** }
  344              		.loc 1 164 1 is_stmt 0 view .LVU64
- 345 0010 7047     		bx	lr
+ 345 0014 7047     		bx	lr
  346              	.L37:
- 347 0012 00BF     		.align	2
+ 347 0016 00BF     		.align	2
  348              	.L36:
- 349 0014 2C740040 		.word	1073771564
- 350 0018 30740040 		.word	1073771568
- 351              		.cfi_endproc
- 352              	.LFE123:
- 354              		.section	.text.dac_data_set,"ax",%progbits
- 355              		.align	1
- 356              		.global	dac_data_set
- 357              		.syntax unified
- 358              		.thumb
- 359              		.thumb_func
- 360              		.fpu fpv4-sp-d16
- 362              	dac_data_set:
- 363              	.LVL14:
- 364              	.LFB124:
+ 349 0018 00700040 		.word	1073770496
+ 350              		.cfi_endproc
+ 351              	.LFE123:
+ 353              		.section	.text.dac_data_set,"ax",%progbits
+ 354              		.align	1
+ 355              		.global	dac_data_set
+ 356              		.syntax unified
+ 357              		.thumb
+ 358              		.thumb_func
+ 359              		.fpu fpv4-sp-d16
+ 361              	dac_data_set:
+ 362              	.LVL14:
+ 363              	.LFB124:
  165:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** 
  166:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** /*!
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 10
-
-
  167:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \brief      set the DAC specified data holding register value
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 10
+
+
  168:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \param[in]  dac_periph: DACx(x = 0,1)
  169:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \param[in]  dac_align: data alignment
  170:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****                 only one parameter can be selected which is shown as below:
@@ -554,135 +553,150 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  177:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** */
  178:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** void dac_data_set(uint32_t dac_periph, uint32_t dac_align, uint16_t data)
  179:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** {
- 365              		.loc 1 179 1 is_stmt 1 view -0
- 366              		.cfi_startproc
- 367              		@ args = 0, pretend = 0, frame = 0
- 368              		@ frame_needed = 0, uses_anonymous_args = 0
- 369              		@ link register save eliminated.
+ 364              		.loc 1 179 1 is_stmt 1 view -0
+ 365              		.cfi_startproc
+ 366              		@ args = 0, pretend = 0, frame = 0
+ 367              		@ frame_needed = 0, uses_anonymous_args = 0
+ 368              		@ link register save eliminated.
  180:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     if(DAC0 == dac_periph){
- 370              		.loc 1 180 5 view .LVU66
- 371              		.loc 1 180 7 is_stmt 0 view .LVU67
- 372 0000 70B9     		cbnz	r0, .L39
+ 369              		.loc 1 180 5 view .LVU66
+ 370              		.loc 1 180 7 is_stmt 0 view .LVU67
+ 371 0000 88B9     		cbnz	r0, .L39
  181:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         switch(dac_align){
- 373              		.loc 1 181 9 is_stmt 1 view .LVU68
- 374 0002 0129     		cmp	r1, #1
- 375 0004 06D0     		beq	.L40
- 376 0006 11B1     		cbz	r1, .L41
- 377 0008 0229     		cmp	r1, #2
- 378 000a 06D0     		beq	.L42
- 379 000c 7047     		bx	lr
- 380              	.L41:
+ 372              		.loc 1 181 9 is_stmt 1 view .LVU68
+ 373 0002 0129     		cmp	r1, #1
+ 374 0004 07D0     		beq	.L40
+ 375 0006 0229     		cmp	r1, #2
+ 376 0008 09D0     		beq	.L41
+ 377 000a 01B1     		cbz	r1, .L45
+ 378              	.L38:
  182:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         /* data right 12 bit alignment */
  183:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         case DAC_ALIGN_12B_R:
  184:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****             DAC0_R12DH = data;
- 381              		.loc 1 184 13 view .LVU69
- 382              		.loc 1 184 24 is_stmt 0 view .LVU70
- 383 000e 0C4B     		ldr	r3, .L47
- 384 0010 1A60     		str	r2, [r3]
  185:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****             break;
- 385              		.loc 1 185 13 is_stmt 1 view .LVU71
- 386 0012 7047     		bx	lr
- 387              	.L40:
  186:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         /* data left 12 bit alignment */
  187:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         case DAC_ALIGN_12B_L:
  188:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****             DAC0_L12DH = data;
- 388              		.loc 1 188 13 view .LVU72
- 389              		.loc 1 188 24 is_stmt 0 view .LVU73
- 390 0014 0B4B     		ldr	r3, .L47+4
- 391 0016 1A60     		str	r2, [r3]
  189:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****             break;
- 392              		.loc 1 189 13 is_stmt 1 view .LVU74
- 393 0018 7047     		bx	lr
- 394              	.L42:
  190:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         /* data right 8 bit alignment */
  191:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         case DAC_ALIGN_8B_R:
  192:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****             DAC0_R8DH = data;
- 395              		.loc 1 192 13 view .LVU75
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 11
-
-
- 396              		.loc 1 192 23 is_stmt 0 view .LVU76
- 397 001a 0B4B     		ldr	r3, .L47+8
- 398 001c 1A60     		str	r2, [r3]
  193:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****             break;
- 399              		.loc 1 193 13 is_stmt 1 view .LVU77
- 400 001e 7047     		bx	lr
- 401              	.L39:
  194:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         default:
  195:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****             break;
  196:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         }
  197:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }else{
  198:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         switch(dac_align){
- 402              		.loc 1 198 9 view .LVU78
- 403 0020 0129     		cmp	r1, #1
- 404 0022 06D0     		beq	.L44
- 405 0024 11B1     		cbz	r1, .L45
- 406 0026 0229     		cmp	r1, #2
- 407 0028 06D0     		beq	.L46
- 408 002a 7047     		bx	lr
- 409              	.L45:
  199:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         /* data right 12 bit alignment */
  200:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         case DAC_ALIGN_12B_R:
  201:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****             DAC1_R12DH = data;
- 410              		.loc 1 201 13 view .LVU79
- 411              		.loc 1 201 24 is_stmt 0 view .LVU80
- 412 002c 074B     		ldr	r3, .L47+12
- 413 002e 1A60     		str	r2, [r3]
  202:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****             break;
- 414              		.loc 1 202 13 is_stmt 1 view .LVU81
- 415 0030 7047     		bx	lr
- 416              	.L44:
  203:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         /* data left 12 bit alignment */
  204:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         case DAC_ALIGN_12B_L:
  205:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****             DAC1_L12DH = data;
- 417              		.loc 1 205 13 view .LVU82
- 418              		.loc 1 205 24 is_stmt 0 view .LVU83
- 419 0032 074B     		ldr	r3, .L47+16
- 420 0034 1A60     		str	r2, [r3]
  206:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****             break;
- 421              		.loc 1 206 13 is_stmt 1 view .LVU84
- 422 0036 7047     		bx	lr
- 423              	.L46:
  207:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         /* data right 8 bit alignment */
  208:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         case DAC_ALIGN_8B_R:
  209:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****             DAC1_R8DH = data;
- 424              		.loc 1 209 13 view .LVU85
- 425              		.loc 1 209 23 is_stmt 0 view .LVU86
- 426 0038 064B     		ldr	r3, .L47+20
- 427 003a 1A60     		str	r2, [r3]
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 11
+
+
  210:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****             break;
- 428              		.loc 1 210 13 is_stmt 1 view .LVU87
  211:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         default:
  212:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****             break;
  213:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         }
  214:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }
  215:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** }
- 429              		.loc 1 215 1 is_stmt 0 view .LVU88
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 12
+ 379              		.loc 1 215 1 is_stmt 0 view .LVU69
+ 380 000c 7047     		bx	lr
+ 381              	.L45:
+ 184:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****             break;
+ 382              		.loc 1 184 13 is_stmt 1 view .LVU70
+ 184:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****             break;
+ 383              		.loc 1 184 24 is_stmt 0 view .LVU71
+ 384 000e 0F4B     		ldr	r3, .L46
+ 385 0010 C3F80824 		str	r2, [r3, #1032]
+ 185:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         /* data left 12 bit alignment */
+ 386              		.loc 1 185 13 is_stmt 1 view .LVU72
+ 387 0014 7047     		bx	lr
+ 388              	.L40:
+ 188:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****             break;
+ 389              		.loc 1 188 13 view .LVU73
+ 188:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****             break;
+ 390              		.loc 1 188 24 is_stmt 0 view .LVU74
+ 391 0016 0D4B     		ldr	r3, .L46
+ 392 0018 C3F80C24 		str	r2, [r3, #1036]
+ 189:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         /* data right 8 bit alignment */
+ 393              		.loc 1 189 13 is_stmt 1 view .LVU75
+ 394 001c 7047     		bx	lr
+ 395              	.L41:
+ 192:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****             break;
+ 396              		.loc 1 192 13 view .LVU76
+ 192:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****             break;
+ 397              		.loc 1 192 23 is_stmt 0 view .LVU77
+ 398 001e 0B4B     		ldr	r3, .L46
+ 399 0020 C3F81024 		str	r2, [r3, #1040]
+ 193:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         default:
+ 400              		.loc 1 193 13 is_stmt 1 view .LVU78
+ 401 0024 7047     		bx	lr
+ 402              	.L39:
+ 198:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         /* data right 12 bit alignment */
+ 403              		.loc 1 198 9 view .LVU79
+ 404 0026 0129     		cmp	r1, #1
+ 405 0028 07D0     		beq	.L43
+ 406 002a 0229     		cmp	r1, #2
+ 407 002c 09D0     		beq	.L44
+ 408 002e 0029     		cmp	r1, #0
+ 409 0030 ECD1     		bne	.L38
+ 201:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****             break;
+ 410              		.loc 1 201 13 view .LVU80
+ 201:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****             break;
+ 411              		.loc 1 201 24 is_stmt 0 view .LVU81
+ 412 0032 064B     		ldr	r3, .L46
+ 413 0034 C3F81424 		str	r2, [r3, #1044]
+ 202:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         /* data left 12 bit alignment */
+ 414              		.loc 1 202 13 is_stmt 1 view .LVU82
+ 415 0038 7047     		bx	lr
+ 416              	.L43:
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 12
 
 
- 430 003c 7047     		bx	lr
- 431              	.L48:
- 432 003e 00BF     		.align	2
- 433              	.L47:
- 434 0040 08740040 		.word	1073771528
- 435 0044 0C740040 		.word	1073771532
- 436 0048 10740040 		.word	1073771536
- 437 004c 14740040 		.word	1073771540
- 438 0050 18740040 		.word	1073771544
- 439 0054 1C740040 		.word	1073771548
- 440              		.cfi_endproc
- 441              	.LFE124:
- 443              		.section	.text.dac_trigger_enable,"ax",%progbits
- 444              		.align	1
- 445              		.global	dac_trigger_enable
- 446              		.syntax unified
- 447              		.thumb
- 448              		.thumb_func
- 449              		.fpu fpv4-sp-d16
- 451              	dac_trigger_enable:
- 452              	.LVL15:
- 453              	.LFB125:
+ 205:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****             break;
+ 417              		.loc 1 205 13 view .LVU83
+ 205:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****             break;
+ 418              		.loc 1 205 24 is_stmt 0 view .LVU84
+ 419 003a 044B     		ldr	r3, .L46
+ 420 003c C3F81824 		str	r2, [r3, #1048]
+ 206:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         /* data right 8 bit alignment */
+ 421              		.loc 1 206 13 is_stmt 1 view .LVU85
+ 422 0040 7047     		bx	lr
+ 423              	.L44:
+ 209:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****             break;
+ 424              		.loc 1 209 13 view .LVU86
+ 209:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****             break;
+ 425              		.loc 1 209 23 is_stmt 0 view .LVU87
+ 426 0042 024B     		ldr	r3, .L46
+ 427 0044 C3F81C24 		str	r2, [r3, #1052]
+ 210:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         default:
+ 428              		.loc 1 210 13 is_stmt 1 view .LVU88
+ 429              		.loc 1 215 1 is_stmt 0 view .LVU89
+ 430 0048 E0E7     		b	.L38
+ 431              	.L47:
+ 432 004a 00BF     		.align	2
+ 433              	.L46:
+ 434 004c 00700040 		.word	1073770496
+ 435              		.cfi_endproc
+ 436              	.LFE124:
+ 438              		.section	.text.dac_trigger_enable,"ax",%progbits
+ 439              		.align	1
+ 440              		.global	dac_trigger_enable
+ 441              		.syntax unified
+ 442              		.thumb
+ 443              		.thumb_func
+ 444              		.fpu fpv4-sp-d16
+ 446              	dac_trigger_enable:
+ 447              	.LVL15:
+ 448              	.LFB125:
  216:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** 
  217:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** /*!
  218:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \brief      enable DAC trigger
@@ -692,55 +706,55 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  222:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** */
  223:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** void dac_trigger_enable(uint32_t dac_periph)
  224:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** {
- 454              		.loc 1 224 1 is_stmt 1 view -0
- 455              		.cfi_startproc
- 456              		@ args = 0, pretend = 0, frame = 0
- 457              		@ frame_needed = 0, uses_anonymous_args = 0
- 458              		@ link register save eliminated.
+ 449              		.loc 1 224 1 is_stmt 1 view -0
+ 450              		.cfi_startproc
+ 451              		@ args = 0, pretend = 0, frame = 0
+ 452              		@ frame_needed = 0, uses_anonymous_args = 0
+ 453              		@ link register save eliminated.
  225:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     if(DAC0 == dac_periph){
- 459              		.loc 1 225 5 view .LVU90
- 460              		.loc 1 225 7 is_stmt 0 view .LVU91
- 461 0000 28B9     		cbnz	r0, .L50
+ 454              		.loc 1 225 5 view .LVU91
+ 455              		.loc 1 225 7 is_stmt 0 view .LVU92
+ 456 0000 38B9     		cbnz	r0, .L49
  226:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL |= DAC_CTL_DTEN0;
- 462              		.loc 1 226 9 is_stmt 1 view .LVU92
- 463              		.loc 1 226 17 is_stmt 0 view .LVU93
- 464 0002 064A     		ldr	r2, .L52
- 465 0004 1368     		ldr	r3, [r2]
- 466 0006 43F00403 		orr	r3, r3, #4
- 467 000a 1360     		str	r3, [r2]
- 468 000c 7047     		bx	lr
- 469              	.L50:
+ 457              		.loc 1 226 9 is_stmt 1 view .LVU93
+ 458              		.loc 1 226 17 is_stmt 0 view .LVU94
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 13
+
+
+ 459 0002 084A     		ldr	r2, .L51
+ 460 0004 D2F80034 		ldr	r3, [r2, #1024]
+ 461 0008 43F00403 		orr	r3, r3, #4
+ 462 000c C2F80034 		str	r3, [r2, #1024]
+ 463 0010 7047     		bx	lr
+ 464              	.L49:
  227:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }else{
  228:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL |= DAC_CTL_DTEN1;
- 470              		.loc 1 228 9 is_stmt 1 view .LVU94
- 471              		.loc 1 228 17 is_stmt 0 view .LVU95
- 472 000e 034A     		ldr	r2, .L52
- 473 0010 1368     		ldr	r3, [r2]
- 474 0012 43F48023 		orr	r3, r3, #262144
- 475 0016 1360     		str	r3, [r2]
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 13
-
-
+ 465              		.loc 1 228 9 is_stmt 1 view .LVU95
+ 466              		.loc 1 228 17 is_stmt 0 view .LVU96
+ 467 0012 044A     		ldr	r2, .L51
+ 468 0014 D2F80034 		ldr	r3, [r2, #1024]
+ 469 0018 43F48023 		orr	r3, r3, #262144
+ 470 001c C2F80034 		str	r3, [r2, #1024]
  229:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }
  230:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** }
- 476              		.loc 1 230 1 view .LVU96
- 477 0018 7047     		bx	lr
- 478              	.L53:
- 479 001a 00BF     		.align	2
- 480              	.L52:
- 481 001c 00740040 		.word	1073771520
- 482              		.cfi_endproc
- 483              	.LFE125:
- 485              		.section	.text.dac_trigger_disable,"ax",%progbits
- 486              		.align	1
- 487              		.global	dac_trigger_disable
- 488              		.syntax unified
- 489              		.thumb
- 490              		.thumb_func
- 491              		.fpu fpv4-sp-d16
- 493              	dac_trigger_disable:
- 494              	.LVL16:
- 495              	.LFB126:
+ 471              		.loc 1 230 1 view .LVU97
+ 472 0020 7047     		bx	lr
+ 473              	.L52:
+ 474 0022 00BF     		.align	2
+ 475              	.L51:
+ 476 0024 00700040 		.word	1073770496
+ 477              		.cfi_endproc
+ 478              	.LFE125:
+ 480              		.section	.text.dac_trigger_disable,"ax",%progbits
+ 481              		.align	1
+ 482              		.global	dac_trigger_disable
+ 483              		.syntax unified
+ 484              		.thumb
+ 485              		.thumb_func
+ 486              		.fpu fpv4-sp-d16
+ 488              	dac_trigger_disable:
+ 489              	.LVL16:
+ 490              	.LFB126:
  231:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** 
  232:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** /*!
  233:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \brief      disable DAC trigger
@@ -750,55 +764,55 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  237:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** */
  238:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** void dac_trigger_disable(uint32_t dac_periph)
  239:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** {
- 496              		.loc 1 239 1 is_stmt 1 view -0
- 497              		.cfi_startproc
- 498              		@ args = 0, pretend = 0, frame = 0
- 499              		@ frame_needed = 0, uses_anonymous_args = 0
- 500              		@ link register save eliminated.
+ 491              		.loc 1 239 1 is_stmt 1 view -0
+ 492              		.cfi_startproc
+ 493              		@ args = 0, pretend = 0, frame = 0
+ 494              		@ frame_needed = 0, uses_anonymous_args = 0
+ 495              		@ link register save eliminated.
  240:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     if(DAC0 == dac_periph){
- 501              		.loc 1 240 5 view .LVU98
- 502              		.loc 1 240 7 is_stmt 0 view .LVU99
- 503 0000 28B9     		cbnz	r0, .L55
+ 496              		.loc 1 240 5 view .LVU99
+ 497              		.loc 1 240 7 is_stmt 0 view .LVU100
+ 498 0000 38B9     		cbnz	r0, .L54
  241:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL &= ~DAC_CTL_DTEN0;
- 504              		.loc 1 241 9 is_stmt 1 view .LVU100
- 505              		.loc 1 241 17 is_stmt 0 view .LVU101
- 506 0002 064A     		ldr	r2, .L57
- 507 0004 1368     		ldr	r3, [r2]
- 508 0006 23F00403 		bic	r3, r3, #4
- 509 000a 1360     		str	r3, [r2]
- 510 000c 7047     		bx	lr
- 511              	.L55:
+ 499              		.loc 1 241 9 is_stmt 1 view .LVU101
+ 500              		.loc 1 241 17 is_stmt 0 view .LVU102
+ 501 0002 084A     		ldr	r2, .L56
+ 502 0004 D2F80034 		ldr	r3, [r2, #1024]
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 14
+
+
+ 503 0008 23F00403 		bic	r3, r3, #4
+ 504 000c C2F80034 		str	r3, [r2, #1024]
+ 505 0010 7047     		bx	lr
+ 506              	.L54:
  242:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }else{
  243:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL &= ~DAC_CTL_DTEN1;
- 512              		.loc 1 243 9 is_stmt 1 view .LVU102
- 513              		.loc 1 243 17 is_stmt 0 view .LVU103
- 514 000e 034A     		ldr	r2, .L57
- 515 0010 1368     		ldr	r3, [r2]
- 516 0012 23F48023 		bic	r3, r3, #262144
- 517 0016 1360     		str	r3, [r2]
+ 507              		.loc 1 243 9 is_stmt 1 view .LVU103
+ 508              		.loc 1 243 17 is_stmt 0 view .LVU104
+ 509 0012 044A     		ldr	r2, .L56
+ 510 0014 D2F80034 		ldr	r3, [r2, #1024]
+ 511 0018 23F48023 		bic	r3, r3, #262144
+ 512 001c C2F80034 		str	r3, [r2, #1024]
  244:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }
  245:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** }
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 14
-
-
- 518              		.loc 1 245 1 view .LVU104
- 519 0018 7047     		bx	lr
- 520              	.L58:
- 521 001a 00BF     		.align	2
- 522              	.L57:
- 523 001c 00740040 		.word	1073771520
- 524              		.cfi_endproc
- 525              	.LFE126:
- 527              		.section	.text.dac_trigger_source_config,"ax",%progbits
- 528              		.align	1
- 529              		.global	dac_trigger_source_config
- 530              		.syntax unified
- 531              		.thumb
- 532              		.thumb_func
- 533              		.fpu fpv4-sp-d16
- 535              	dac_trigger_source_config:
- 536              	.LVL17:
- 537              	.LFB127:
+ 513              		.loc 1 245 1 view .LVU105
+ 514 0020 7047     		bx	lr
+ 515              	.L57:
+ 516 0022 00BF     		.align	2
+ 517              	.L56:
+ 518 0024 00700040 		.word	1073770496
+ 519              		.cfi_endproc
+ 520              	.LFE126:
+ 522              		.section	.text.dac_trigger_source_config,"ax",%progbits
+ 523              		.align	1
+ 524              		.global	dac_trigger_source_config
+ 525              		.syntax unified
+ 526              		.thumb
+ 527              		.thumb_func
+ 528              		.fpu fpv4-sp-d16
+ 530              	dac_trigger_source_config:
+ 531              	.LVL17:
+ 532              	.LFB127:
  246:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** 
  247:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** /*!
  248:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \brief      set DAC trigger source
@@ -819,57 +833,62 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  263:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** */
  264:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** void dac_trigger_source_config(uint32_t dac_periph,uint32_t triggersource)
  265:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** {
- 538              		.loc 1 265 1 is_stmt 1 view -0
- 539              		.cfi_startproc
- 540              		@ args = 0, pretend = 0, frame = 0
- 541              		@ frame_needed = 0, uses_anonymous_args = 0
- 542              		@ link register save eliminated.
+ 533              		.loc 1 265 1 is_stmt 1 view -0
+ 534              		.cfi_startproc
+ 535              		@ args = 0, pretend = 0, frame = 0
+ 536              		@ frame_needed = 0, uses_anonymous_args = 0
+ 537              		@ link register save eliminated.
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 15
+
+
  266:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     if(DAC0 == dac_periph){
- 543              		.loc 1 266 5 view .LVU106
- 544              		.loc 1 266 7 is_stmt 0 view .LVU107
- 545 0000 40B9     		cbnz	r0, .L60
+ 538              		.loc 1 266 5 view .LVU107
+ 539              		.loc 1 266 7 is_stmt 0 view .LVU108
+ 540 0000 60B9     		cbnz	r0, .L59
  267:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         /* configure DAC0 trigger source */
  268:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL &= ~DAC_CTL_DTSEL0;
- 546              		.loc 1 268 9 is_stmt 1 view .LVU108
- 547              		.loc 1 268 17 is_stmt 0 view .LVU109
- 548 0002 094B     		ldr	r3, .L62
- 549 0004 1A68     		ldr	r2, [r3]
- 550 0006 22F03802 		bic	r2, r2, #56
- 551 000a 1A60     		str	r2, [r3]
+ 541              		.loc 1 268 9 is_stmt 1 view .LVU109
+ 542              		.loc 1 268 17 is_stmt 0 view .LVU110
+ 543 0002 0D4B     		ldr	r3, .L61
+ 544 0004 D3F80024 		ldr	r2, [r3, #1024]
+ 545 0008 22F03802 		bic	r2, r2, #56
+ 546 000c C3F80024 		str	r2, [r3, #1024]
  269:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL |= triggersource;
- 552              		.loc 1 269 9 is_stmt 1 view .LVU110
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 15
-
-
- 553              		.loc 1 269 17 is_stmt 0 view .LVU111
- 554 000c 1A68     		ldr	r2, [r3]
- 555 000e 0A43     		orrs	r2, r2, r1
- 556 0010 1A60     		str	r2, [r3]
- 557 0012 7047     		bx	lr
- 558              	.L60:
+ 547              		.loc 1 269 9 is_stmt 1 view .LVU111
+ 548              		.loc 1 269 17 is_stmt 0 view .LVU112
+ 549 0010 D3F80024 		ldr	r2, [r3, #1024]
+ 550 0014 1143     		orrs	r1, r1, r2
+ 551              	.LVL18:
+ 552              		.loc 1 269 17 view .LVU113
+ 553 0016 C3F80014 		str	r1, [r3, #1024]
+ 554 001a 7047     		bx	lr
+ 555              	.LVL19:
+ 556              	.L59:
  270:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }else{
  271:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         /* configure DAC1 trigger source */
  272:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL &= ~DAC_CTL_DTSEL1;
- 559              		.loc 1 272 9 is_stmt 1 view .LVU112
- 560              		.loc 1 272 17 is_stmt 0 view .LVU113
- 561 0014 044B     		ldr	r3, .L62
- 562 0016 1A68     		ldr	r2, [r3]
- 563 0018 22F46012 		bic	r2, r2, #3670016
- 564 001c 1A60     		str	r2, [r3]
+ 557              		.loc 1 272 9 is_stmt 1 view .LVU114
+ 558              		.loc 1 272 17 is_stmt 0 view .LVU115
+ 559 001c 064B     		ldr	r3, .L61
+ 560 001e D3F80024 		ldr	r2, [r3, #1024]
+ 561 0022 22F46012 		bic	r2, r2, #3670016
+ 562 0026 C3F80024 		str	r2, [r3, #1024]
  273:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL |= (triggersource << DAC1_REG_OFFSET);
- 565              		.loc 1 273 9 is_stmt 1 view .LVU114
- 566              		.loc 1 273 17 is_stmt 0 view .LVU115
- 567 001e 1A68     		ldr	r2, [r3]
- 568 0020 42EA0142 		orr	r2, r2, r1, lsl #16
- 569 0024 1A60     		str	r2, [r3]
+ 563              		.loc 1 273 9 is_stmt 1 view .LVU116
+ 564              		.loc 1 273 17 is_stmt 0 view .LVU117
+ 565 002a D3F80024 		ldr	r2, [r3, #1024]
+ 566 002e 42EA0141 		orr	r1, r2, r1, lsl #16
+ 567              	.LVL20:
+ 568              		.loc 1 273 17 view .LVU118
+ 569 0032 C3F80014 		str	r1, [r3, #1024]
  274:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }
  275:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** }
- 570              		.loc 1 275 1 view .LVU116
- 571 0026 7047     		bx	lr
- 572              	.L63:
+ 570              		.loc 1 275 1 view .LVU119
+ 571 0036 7047     		bx	lr
+ 572              	.L62:
  573              		.align	2
- 574              	.L62:
- 575 0028 00740040 		.word	1073771520
+ 574              	.L61:
+ 575 0038 00700040 		.word	1073770496
  576              		.cfi_endproc
  577              	.LFE127:
  579              		.section	.text.dac_software_trigger_enable,"ax",%progbits
@@ -879,8 +898,11 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  583              		.thumb
  584              		.thumb_func
  585              		.fpu fpv4-sp-d16
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 16
+
+
  587              	dac_software_trigger_enable:
- 588              	.LVL18:
+ 588              	.LVL21:
  589              	.LFB128:
  276:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** 
  277:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** /*!
@@ -896,37 +918,34 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  593              		@ frame_needed = 0, uses_anonymous_args = 0
  594              		@ link register save eliminated.
  284:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     if(DAC0 == dac_periph){
- 595              		.loc 1 284 5 view .LVU118
- 596              		.loc 1 284 7 is_stmt 0 view .LVU119
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 16
-
-
- 597 0000 28B9     		cbnz	r0, .L65
+ 595              		.loc 1 284 5 view .LVU121
+ 596              		.loc 1 284 7 is_stmt 0 view .LVU122
+ 597 0000 38B9     		cbnz	r0, .L64
  285:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_SWT |= DAC_SWT_SWTR0;
- 598              		.loc 1 285 9 is_stmt 1 view .LVU120
- 599              		.loc 1 285 17 is_stmt 0 view .LVU121
- 600 0002 064A     		ldr	r2, .L67
- 601 0004 1368     		ldr	r3, [r2]
- 602 0006 43F00103 		orr	r3, r3, #1
- 603 000a 1360     		str	r3, [r2]
- 604 000c 7047     		bx	lr
- 605              	.L65:
+ 598              		.loc 1 285 9 is_stmt 1 view .LVU123
+ 599              		.loc 1 285 17 is_stmt 0 view .LVU124
+ 600 0002 084A     		ldr	r2, .L66
+ 601 0004 D2F80434 		ldr	r3, [r2, #1028]
+ 602 0008 43F00103 		orr	r3, r3, #1
+ 603 000c C2F80434 		str	r3, [r2, #1028]
+ 604 0010 7047     		bx	lr
+ 605              	.L64:
  286:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }else{
  287:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_SWT |= DAC_SWT_SWTR1;
- 606              		.loc 1 287 9 is_stmt 1 view .LVU122
- 607              		.loc 1 287 17 is_stmt 0 view .LVU123
- 608 000e 034A     		ldr	r2, .L67
- 609 0010 1368     		ldr	r3, [r2]
- 610 0012 43F00203 		orr	r3, r3, #2
- 611 0016 1360     		str	r3, [r2]
+ 606              		.loc 1 287 9 is_stmt 1 view .LVU125
+ 607              		.loc 1 287 17 is_stmt 0 view .LVU126
+ 608 0012 044A     		ldr	r2, .L66
+ 609 0014 D2F80434 		ldr	r3, [r2, #1028]
+ 610 0018 43F00203 		orr	r3, r3, #2
+ 611 001c C2F80434 		str	r3, [r2, #1028]
  288:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }
  289:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** }
- 612              		.loc 1 289 1 view .LVU124
- 613 0018 7047     		bx	lr
- 614              	.L68:
- 615 001a 00BF     		.align	2
- 616              	.L67:
- 617 001c 04740040 		.word	1073771524
+ 612              		.loc 1 289 1 view .LVU127
+ 613 0020 7047     		bx	lr
+ 614              	.L67:
+ 615 0022 00BF     		.align	2
+ 616              	.L66:
+ 617 0024 00700040 		.word	1073770496
  618              		.cfi_endproc
  619              	.LFE128:
  621              		.section	.text.dac_software_trigger_disable,"ax",%progbits
@@ -937,8 +956,11 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  626              		.thumb_func
  627              		.fpu fpv4-sp-d16
  629              	dac_software_trigger_disable:
- 630              	.LVL19:
+ 630              	.LVL22:
  631              	.LFB129:
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 17
+
+
  290:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** 
  291:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** /*!
  292:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \brief      disable DAC software trigger
@@ -954,37 +976,34 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  635              		@ frame_needed = 0, uses_anonymous_args = 0
  636              		@ link register save eliminated.
  299:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     if(DAC0 == dac_periph){
- 637              		.loc 1 299 5 view .LVU126
- 638              		.loc 1 299 7 is_stmt 0 view .LVU127
- 639 0000 28B9     		cbnz	r0, .L70
+ 637              		.loc 1 299 5 view .LVU129
+ 638              		.loc 1 299 7 is_stmt 0 view .LVU130
+ 639 0000 38B9     		cbnz	r0, .L69
  300:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_SWT &= ~DAC_SWT_SWTR0;
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 17
-
-
- 640              		.loc 1 300 9 is_stmt 1 view .LVU128
- 641              		.loc 1 300 17 is_stmt 0 view .LVU129
- 642 0002 064A     		ldr	r2, .L72
- 643 0004 1368     		ldr	r3, [r2]
- 644 0006 23F00103 		bic	r3, r3, #1
- 645 000a 1360     		str	r3, [r2]
- 646 000c 7047     		bx	lr
- 647              	.L70:
+ 640              		.loc 1 300 9 is_stmt 1 view .LVU131
+ 641              		.loc 1 300 17 is_stmt 0 view .LVU132
+ 642 0002 084A     		ldr	r2, .L71
+ 643 0004 D2F80434 		ldr	r3, [r2, #1028]
+ 644 0008 23F00103 		bic	r3, r3, #1
+ 645 000c C2F80434 		str	r3, [r2, #1028]
+ 646 0010 7047     		bx	lr
+ 647              	.L69:
  301:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }else{
  302:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_SWT &= ~DAC_SWT_SWTR1;
- 648              		.loc 1 302 9 is_stmt 1 view .LVU130
- 649              		.loc 1 302 17 is_stmt 0 view .LVU131
- 650 000e 034A     		ldr	r2, .L72
- 651 0010 1368     		ldr	r3, [r2]
- 652 0012 23F00203 		bic	r3, r3, #2
- 653 0016 1360     		str	r3, [r2]
+ 648              		.loc 1 302 9 is_stmt 1 view .LVU133
+ 649              		.loc 1 302 17 is_stmt 0 view .LVU134
+ 650 0012 044A     		ldr	r2, .L71
+ 651 0014 D2F80434 		ldr	r3, [r2, #1028]
+ 652 0018 23F00203 		bic	r3, r3, #2
+ 653 001c C2F80434 		str	r3, [r2, #1028]
  303:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }
  304:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** }
- 654              		.loc 1 304 1 view .LVU132
- 655 0018 7047     		bx	lr
- 656              	.L73:
- 657 001a 00BF     		.align	2
- 658              	.L72:
- 659 001c 04740040 		.word	1073771524
+ 654              		.loc 1 304 1 view .LVU135
+ 655 0020 7047     		bx	lr
+ 656              	.L72:
+ 657 0022 00BF     		.align	2
+ 658              	.L71:
+ 659 0024 00700040 		.word	1073770496
  660              		.cfi_endproc
  661              	.LFE129:
  663              		.section	.text.dac_wave_mode_config,"ax",%progbits
@@ -995,10 +1014,13 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  668              		.thumb_func
  669              		.fpu fpv4-sp-d16
  671              	dac_wave_mode_config:
- 672              	.LVL20:
+ 672              	.LVL23:
  673              	.LFB130:
  305:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** 
  306:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** /*!
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 18
+
+
  307:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \brief      configure DAC wave mode
  308:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \param[in]  dac_periph: DACx(x = 0,1)
  309:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \param[in]  wave_mode: noise wave mode
@@ -1017,70 +1039,72 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  677              		@ frame_needed = 0, uses_anonymous_args = 0
  678              		@ link register save eliminated.
  319:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     if(DAC0 == dac_periph){
- 679              		.loc 1 319 5 view .LVU134
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 18
-
-
- 680              		.loc 1 319 7 is_stmt 0 view .LVU135
- 681 0000 40B9     		cbnz	r0, .L75
+ 679              		.loc 1 319 5 view .LVU137
+ 680              		.loc 1 319 7 is_stmt 0 view .LVU138
+ 681 0000 60B9     		cbnz	r0, .L74
  320:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         /* configure DAC0 wave mode */
  321:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL &= ~DAC_CTL_DWM0;
- 682              		.loc 1 321 9 is_stmt 1 view .LVU136
- 683              		.loc 1 321 17 is_stmt 0 view .LVU137
- 684 0002 094B     		ldr	r3, .L77
- 685 0004 1A68     		ldr	r2, [r3]
- 686 0006 22F0C002 		bic	r2, r2, #192
- 687 000a 1A60     		str	r2, [r3]
+ 682              		.loc 1 321 9 is_stmt 1 view .LVU139
+ 683              		.loc 1 321 17 is_stmt 0 view .LVU140
+ 684 0002 0D4B     		ldr	r3, .L76
+ 685 0004 D3F80024 		ldr	r2, [r3, #1024]
+ 686 0008 22F0C002 		bic	r2, r2, #192
+ 687 000c C3F80024 		str	r2, [r3, #1024]
  322:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL |= wave_mode;
- 688              		.loc 1 322 9 is_stmt 1 view .LVU138
- 689              		.loc 1 322 17 is_stmt 0 view .LVU139
- 690 000c 1A68     		ldr	r2, [r3]
- 691 000e 0A43     		orrs	r2, r2, r1
- 692 0010 1A60     		str	r2, [r3]
- 693 0012 7047     		bx	lr
- 694              	.L75:
+ 688              		.loc 1 322 9 is_stmt 1 view .LVU141
+ 689              		.loc 1 322 17 is_stmt 0 view .LVU142
+ 690 0010 D3F80024 		ldr	r2, [r3, #1024]
+ 691 0014 1143     		orrs	r1, r1, r2
+ 692              	.LVL24:
+ 693              		.loc 1 322 17 view .LVU143
+ 694 0016 C3F80014 		str	r1, [r3, #1024]
+ 695 001a 7047     		bx	lr
+ 696              	.LVL25:
+ 697              	.L74:
  323:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }else{
  324:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         /* configure DAC1 wave mode */
  325:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL &= ~DAC_CTL_DWM1;
- 695              		.loc 1 325 9 is_stmt 1 view .LVU140
- 696              		.loc 1 325 17 is_stmt 0 view .LVU141
- 697 0014 044B     		ldr	r3, .L77
- 698 0016 1A68     		ldr	r2, [r3]
- 699 0018 22F44002 		bic	r2, r2, #12582912
- 700 001c 1A60     		str	r2, [r3]
+ 698              		.loc 1 325 9 is_stmt 1 view .LVU144
+ 699              		.loc 1 325 17 is_stmt 0 view .LVU145
+ 700 001c 064B     		ldr	r3, .L76
+ 701 001e D3F80024 		ldr	r2, [r3, #1024]
+ 702 0022 22F44002 		bic	r2, r2, #12582912
+ 703 0026 C3F80024 		str	r2, [r3, #1024]
  326:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL |= (wave_mode << DAC1_REG_OFFSET);
- 701              		.loc 1 326 9 is_stmt 1 view .LVU142
- 702              		.loc 1 326 17 is_stmt 0 view .LVU143
- 703 001e 1A68     		ldr	r2, [r3]
- 704 0020 42EA0142 		orr	r2, r2, r1, lsl #16
- 705 0024 1A60     		str	r2, [r3]
+ 704              		.loc 1 326 9 is_stmt 1 view .LVU146
+ 705              		.loc 1 326 17 is_stmt 0 view .LVU147
+ 706 002a D3F80024 		ldr	r2, [r3, #1024]
+ 707 002e 42EA0141 		orr	r1, r2, r1, lsl #16
+ 708              	.LVL26:
+ 709              		.loc 1 326 17 view .LVU148
+ 710 0032 C3F80014 		str	r1, [r3, #1024]
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 19
+
+
  327:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }
  328:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** }
- 706              		.loc 1 328 1 view .LVU144
- 707 0026 7047     		bx	lr
- 708              	.L78:
- 709              		.align	2
- 710              	.L77:
- 711 0028 00740040 		.word	1073771520
- 712              		.cfi_endproc
- 713              	.LFE130:
- 715              		.section	.text.dac_wave_bit_width_config,"ax",%progbits
- 716              		.align	1
- 717              		.global	dac_wave_bit_width_config
- 718              		.syntax unified
- 719              		.thumb
- 720              		.thumb_func
- 721              		.fpu fpv4-sp-d16
- 723              	dac_wave_bit_width_config:
- 724              	.LVL21:
- 725              	.LFB131:
+ 711              		.loc 1 328 1 view .LVU149
+ 712 0036 7047     		bx	lr
+ 713              	.L77:
+ 714              		.align	2
+ 715              	.L76:
+ 716 0038 00700040 		.word	1073770496
+ 717              		.cfi_endproc
+ 718              	.LFE130:
+ 720              		.section	.text.dac_wave_bit_width_config,"ax",%progbits
+ 721              		.align	1
+ 722              		.global	dac_wave_bit_width_config
+ 723              		.syntax unified
+ 724              		.thumb
+ 725              		.thumb_func
+ 726              		.fpu fpv4-sp-d16
+ 728              	dac_wave_bit_width_config:
+ 729              	.LVL27:
+ 730              	.LFB131:
  329:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** 
  330:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** /*!
  331:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \brief      configure DAC wave bit width
  332:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \param[in]  dac_periph: DACx(x = 0,1)
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 19
-
-
  333:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \param[in]  bit_width: noise wave bit width
  334:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****                 only one parameter can be selected which is shown as below:
  335:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****       \arg        DAC_WAVE_BIT_WIDTH_1: bit width of the wave signal is 1
@@ -1100,75 +1124,83 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  349:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** */
  350:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** void dac_wave_bit_width_config(uint32_t dac_periph, uint32_t bit_width)
  351:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** {
- 726              		.loc 1 351 1 is_stmt 1 view -0
- 727              		.cfi_startproc
- 728              		@ args = 0, pretend = 0, frame = 0
- 729              		@ frame_needed = 0, uses_anonymous_args = 0
- 730              		@ link register save eliminated.
+ 731              		.loc 1 351 1 is_stmt 1 view -0
+ 732              		.cfi_startproc
+ 733              		@ args = 0, pretend = 0, frame = 0
+ 734              		@ frame_needed = 0, uses_anonymous_args = 0
+ 735              		@ link register save eliminated.
  352:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     if(DAC0 == dac_periph){
- 731              		.loc 1 352 5 view .LVU146
- 732              		.loc 1 352 7 is_stmt 0 view .LVU147
- 733 0000 40B9     		cbnz	r0, .L80
+ 736              		.loc 1 352 5 view .LVU151
+ 737              		.loc 1 352 7 is_stmt 0 view .LVU152
+ 738 0000 60B9     		cbnz	r0, .L79
  353:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         /* configure DAC0 wave bit width */
  354:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL &= ~DAC_CTL_DWBW0;
- 734              		.loc 1 354 9 is_stmt 1 view .LVU148
- 735              		.loc 1 354 17 is_stmt 0 view .LVU149
- 736 0002 094B     		ldr	r3, .L82
- 737 0004 1A68     		ldr	r2, [r3]
- 738 0006 22F47062 		bic	r2, r2, #3840
- 739 000a 1A60     		str	r2, [r3]
+ 739              		.loc 1 354 9 is_stmt 1 view .LVU153
+ 740              		.loc 1 354 17 is_stmt 0 view .LVU154
+ 741 0002 0D4B     		ldr	r3, .L81
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 20
+
+
+ 742 0004 D3F80024 		ldr	r2, [r3, #1024]
+ 743 0008 22F47062 		bic	r2, r2, #3840
+ 744 000c C3F80024 		str	r2, [r3, #1024]
  355:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL |= bit_width;
- 740              		.loc 1 355 9 is_stmt 1 view .LVU150
- 741              		.loc 1 355 17 is_stmt 0 view .LVU151
- 742 000c 1A68     		ldr	r2, [r3]
- 743 000e 0A43     		orrs	r2, r2, r1
- 744 0010 1A60     		str	r2, [r3]
- 745 0012 7047     		bx	lr
- 746              	.L80:
+ 745              		.loc 1 355 9 is_stmt 1 view .LVU155
+ 746              		.loc 1 355 17 is_stmt 0 view .LVU156
+ 747 0010 D3F80024 		ldr	r2, [r3, #1024]
+ 748 0014 1143     		orrs	r1, r1, r2
+ 749              	.LVL28:
+ 750              		.loc 1 355 17 view .LVU157
+ 751 0016 C3F80014 		str	r1, [r3, #1024]
+ 752 001a 7047     		bx	lr
+ 753              	.LVL29:
+ 754              	.L79:
  356:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }else{
  357:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         /* configure DAC1 wave bit width */
  358:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL &= ~DAC_CTL_DWBW1;
- 747              		.loc 1 358 9 is_stmt 1 view .LVU152
- 748              		.loc 1 358 17 is_stmt 0 view .LVU153
- 749 0014 044B     		ldr	r3, .L82
- 750 0016 1A68     		ldr	r2, [r3]
- 751 0018 22F07062 		bic	r2, r2, #251658240
- 752 001c 1A60     		str	r2, [r3]
+ 755              		.loc 1 358 9 is_stmt 1 view .LVU158
+ 756              		.loc 1 358 17 is_stmt 0 view .LVU159
+ 757 001c 064B     		ldr	r3, .L81
+ 758 001e D3F80024 		ldr	r2, [r3, #1024]
+ 759 0022 22F07062 		bic	r2, r2, #251658240
+ 760 0026 C3F80024 		str	r2, [r3, #1024]
  359:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL |= (bit_width << DAC1_REG_OFFSET);
- 753              		.loc 1 359 9 is_stmt 1 view .LVU154
- 754              		.loc 1 359 17 is_stmt 0 view .LVU155
- 755 001e 1A68     		ldr	r2, [r3]
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 20
-
-
- 756 0020 42EA0142 		orr	r2, r2, r1, lsl #16
- 757 0024 1A60     		str	r2, [r3]
+ 761              		.loc 1 359 9 is_stmt 1 view .LVU160
+ 762              		.loc 1 359 17 is_stmt 0 view .LVU161
+ 763 002a D3F80024 		ldr	r2, [r3, #1024]
+ 764 002e 42EA0141 		orr	r1, r2, r1, lsl #16
+ 765              	.LVL30:
+ 766              		.loc 1 359 17 view .LVU162
+ 767 0032 C3F80014 		str	r1, [r3, #1024]
  360:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }
  361:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** }
- 758              		.loc 1 361 1 view .LVU156
- 759 0026 7047     		bx	lr
- 760              	.L83:
- 761              		.align	2
- 762              	.L82:
- 763 0028 00740040 		.word	1073771520
- 764              		.cfi_endproc
- 765              	.LFE131:
- 767              		.section	.text.dac_lfsr_noise_config,"ax",%progbits
- 768              		.align	1
- 769              		.global	dac_lfsr_noise_config
- 770              		.syntax unified
- 771              		.thumb
- 772              		.thumb_func
- 773              		.fpu fpv4-sp-d16
- 775              	dac_lfsr_noise_config:
- 776              	.LVL22:
- 777              	.LFB132:
+ 768              		.loc 1 361 1 view .LVU163
+ 769 0036 7047     		bx	lr
+ 770              	.L82:
+ 771              		.align	2
+ 772              	.L81:
+ 773 0038 00700040 		.word	1073770496
+ 774              		.cfi_endproc
+ 775              	.LFE131:
+ 777              		.section	.text.dac_lfsr_noise_config,"ax",%progbits
+ 778              		.align	1
+ 779              		.global	dac_lfsr_noise_config
+ 780              		.syntax unified
+ 781              		.thumb
+ 782              		.thumb_func
+ 783              		.fpu fpv4-sp-d16
+ 785              	dac_lfsr_noise_config:
+ 786              	.LVL31:
+ 787              	.LFB132:
  362:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** 
  363:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** /*!
  364:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \brief      configure DAC LFSR noise mode
  365:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \param[in]  dac_periph: DACx(x = 0,1)
  366:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \param[in]  unmask_bits: unmask LFSR bits in DAC LFSR noise mode
  367:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****                 only one parameter can be selected which is shown as below:
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 21
+
+
  368:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****       \arg        DAC_LFSR_BIT0: unmask the LFSR bit0
  369:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****       \arg        DAC_LFSR_BITS1_0: unmask the LFSR bits[1:0]
  370:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****       \arg        DAC_LFSR_BITS2_0: unmask the LFSR bits[2:0]
@@ -1186,69 +1218,74 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  382:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** */
  383:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** void dac_lfsr_noise_config(uint32_t dac_periph, uint32_t unmask_bits)
  384:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** {
- 778              		.loc 1 384 1 is_stmt 1 view -0
- 779              		.cfi_startproc
- 780              		@ args = 0, pretend = 0, frame = 0
- 781              		@ frame_needed = 0, uses_anonymous_args = 0
- 782              		@ link register save eliminated.
+ 788              		.loc 1 384 1 is_stmt 1 view -0
+ 789              		.cfi_startproc
+ 790              		@ args = 0, pretend = 0, frame = 0
+ 791              		@ frame_needed = 0, uses_anonymous_args = 0
+ 792              		@ link register save eliminated.
  385:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     if(DAC0 == dac_periph){
- 783              		.loc 1 385 5 view .LVU158
- 784              		.loc 1 385 7 is_stmt 0 view .LVU159
- 785 0000 40B9     		cbnz	r0, .L85
+ 793              		.loc 1 385 5 view .LVU165
+ 794              		.loc 1 385 7 is_stmt 0 view .LVU166
+ 795 0000 60B9     		cbnz	r0, .L84
  386:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         /* configure DAC0 LFSR noise mode */
  387:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL &= ~DAC_CTL_DWBW0;
- 786              		.loc 1 387 9 is_stmt 1 view .LVU160
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 21
-
-
- 787              		.loc 1 387 17 is_stmt 0 view .LVU161
- 788 0002 094B     		ldr	r3, .L87
- 789 0004 1A68     		ldr	r2, [r3]
- 790 0006 22F47062 		bic	r2, r2, #3840
- 791 000a 1A60     		str	r2, [r3]
+ 796              		.loc 1 387 9 is_stmt 1 view .LVU167
+ 797              		.loc 1 387 17 is_stmt 0 view .LVU168
+ 798 0002 0D4B     		ldr	r3, .L86
+ 799 0004 D3F80024 		ldr	r2, [r3, #1024]
+ 800 0008 22F47062 		bic	r2, r2, #3840
+ 801 000c C3F80024 		str	r2, [r3, #1024]
  388:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL |= unmask_bits;
- 792              		.loc 1 388 9 is_stmt 1 view .LVU162
- 793              		.loc 1 388 17 is_stmt 0 view .LVU163
- 794 000c 1A68     		ldr	r2, [r3]
- 795 000e 0A43     		orrs	r2, r2, r1
- 796 0010 1A60     		str	r2, [r3]
- 797 0012 7047     		bx	lr
- 798              	.L85:
+ 802              		.loc 1 388 9 is_stmt 1 view .LVU169
+ 803              		.loc 1 388 17 is_stmt 0 view .LVU170
+ 804 0010 D3F80024 		ldr	r2, [r3, #1024]
+ 805 0014 1143     		orrs	r1, r1, r2
+ 806              	.LVL32:
+ 807              		.loc 1 388 17 view .LVU171
+ 808 0016 C3F80014 		str	r1, [r3, #1024]
+ 809 001a 7047     		bx	lr
+ 810              	.LVL33:
+ 811              	.L84:
  389:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }else{
  390:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         /* configure DAC1 LFSR noise mode */
  391:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL &= ~DAC_CTL_DWBW1;
- 799              		.loc 1 391 9 is_stmt 1 view .LVU164
- 800              		.loc 1 391 17 is_stmt 0 view .LVU165
- 801 0014 044B     		ldr	r3, .L87
- 802 0016 1A68     		ldr	r2, [r3]
- 803 0018 22F07062 		bic	r2, r2, #251658240
- 804 001c 1A60     		str	r2, [r3]
+ 812              		.loc 1 391 9 is_stmt 1 view .LVU172
+ 813              		.loc 1 391 17 is_stmt 0 view .LVU173
+ 814 001c 064B     		ldr	r3, .L86
+ 815 001e D3F80024 		ldr	r2, [r3, #1024]
+ 816 0022 22F07062 		bic	r2, r2, #251658240
+ 817 0026 C3F80024 		str	r2, [r3, #1024]
  392:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL |= (unmask_bits << DAC1_REG_OFFSET);
- 805              		.loc 1 392 9 is_stmt 1 view .LVU166
- 806              		.loc 1 392 17 is_stmt 0 view .LVU167
- 807 001e 1A68     		ldr	r2, [r3]
- 808 0020 42EA0142 		orr	r2, r2, r1, lsl #16
- 809 0024 1A60     		str	r2, [r3]
+ 818              		.loc 1 392 9 is_stmt 1 view .LVU174
+ 819              		.loc 1 392 17 is_stmt 0 view .LVU175
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 22
+
+
+ 820 002a D3F80024 		ldr	r2, [r3, #1024]
+ 821 002e 42EA0141 		orr	r1, r2, r1, lsl #16
+ 822              	.LVL34:
+ 823              		.loc 1 392 17 view .LVU176
+ 824 0032 C3F80014 		str	r1, [r3, #1024]
  393:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }
  394:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** }
- 810              		.loc 1 394 1 view .LVU168
- 811 0026 7047     		bx	lr
- 812              	.L88:
- 813              		.align	2
- 814              	.L87:
- 815 0028 00740040 		.word	1073771520
- 816              		.cfi_endproc
- 817              	.LFE132:
- 819              		.section	.text.dac_triangle_noise_config,"ax",%progbits
- 820              		.align	1
- 821              		.global	dac_triangle_noise_config
- 822              		.syntax unified
- 823              		.thumb
- 824              		.thumb_func
- 825              		.fpu fpv4-sp-d16
- 827              	dac_triangle_noise_config:
- 828              	.LVL23:
- 829              	.LFB133:
+ 825              		.loc 1 394 1 view .LVU177
+ 826 0036 7047     		bx	lr
+ 827              	.L87:
+ 828              		.align	2
+ 829              	.L86:
+ 830 0038 00700040 		.word	1073770496
+ 831              		.cfi_endproc
+ 832              	.LFE132:
+ 834              		.section	.text.dac_triangle_noise_config,"ax",%progbits
+ 835              		.align	1
+ 836              		.global	dac_triangle_noise_config
+ 837              		.syntax unified
+ 838              		.thumb
+ 839              		.thumb_func
+ 840              		.fpu fpv4-sp-d16
+ 842              	dac_triangle_noise_config:
+ 843              	.LVL35:
+ 844              	.LFB133:
  395:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** 
  396:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** /*!
  397:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \brief      configure DAC triangle noise mode
@@ -1258,9 +1295,6 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  401:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****       \arg        DAC_TRIANGLE_AMPLITUDE_1: triangle amplitude is 1
  402:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****       \arg        DAC_TRIANGLE_AMPLITUDE_3: triangle amplitude is 3
  403:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****       \arg        DAC_TRIANGLE_AMPLITUDE_7: triangle amplitude is 7
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 22
-
-
  404:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****       \arg        DAC_TRIANGLE_AMPLITUDE_15: triangle amplitude is 15
  405:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****       \arg        DAC_TRIANGLE_AMPLITUDE_31: triangle amplitude is 31
  406:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****       \arg        DAC_TRIANGLE_AMPLITUDE_63: triangle amplitude is 63
@@ -1275,70 +1309,78 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  415:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** */
  416:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** void dac_triangle_noise_config(uint32_t dac_periph, uint32_t amplitude)
  417:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** {
- 830              		.loc 1 417 1 is_stmt 1 view -0
- 831              		.cfi_startproc
- 832              		@ args = 0, pretend = 0, frame = 0
- 833              		@ frame_needed = 0, uses_anonymous_args = 0
- 834              		@ link register save eliminated.
+ 845              		.loc 1 417 1 is_stmt 1 view -0
+ 846              		.cfi_startproc
+ 847              		@ args = 0, pretend = 0, frame = 0
+ 848              		@ frame_needed = 0, uses_anonymous_args = 0
+ 849              		@ link register save eliminated.
  418:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     if(DAC0 == dac_periph){
- 835              		.loc 1 418 5 view .LVU170
- 836              		.loc 1 418 7 is_stmt 0 view .LVU171
- 837 0000 40B9     		cbnz	r0, .L90
+ 850              		.loc 1 418 5 view .LVU179
+ 851              		.loc 1 418 7 is_stmt 0 view .LVU180
+ 852 0000 60B9     		cbnz	r0, .L89
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 23
+
+
  419:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         /* configure DAC0 triangle noise mode */
  420:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL &= ~DAC_CTL_DWBW0;
- 838              		.loc 1 420 9 is_stmt 1 view .LVU172
- 839              		.loc 1 420 17 is_stmt 0 view .LVU173
- 840 0002 094B     		ldr	r3, .L92
- 841 0004 1A68     		ldr	r2, [r3]
- 842 0006 22F47062 		bic	r2, r2, #3840
- 843 000a 1A60     		str	r2, [r3]
+ 853              		.loc 1 420 9 is_stmt 1 view .LVU181
+ 854              		.loc 1 420 17 is_stmt 0 view .LVU182
+ 855 0002 0D4B     		ldr	r3, .L91
+ 856 0004 D3F80024 		ldr	r2, [r3, #1024]
+ 857 0008 22F47062 		bic	r2, r2, #3840
+ 858 000c C3F80024 		str	r2, [r3, #1024]
  421:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL |= amplitude;
- 844              		.loc 1 421 9 is_stmt 1 view .LVU174
- 845              		.loc 1 421 17 is_stmt 0 view .LVU175
- 846 000c 1A68     		ldr	r2, [r3]
- 847 000e 0A43     		orrs	r2, r2, r1
- 848 0010 1A60     		str	r2, [r3]
- 849 0012 7047     		bx	lr
- 850              	.L90:
+ 859              		.loc 1 421 9 is_stmt 1 view .LVU183
+ 860              		.loc 1 421 17 is_stmt 0 view .LVU184
+ 861 0010 D3F80024 		ldr	r2, [r3, #1024]
+ 862 0014 1143     		orrs	r1, r1, r2
+ 863              	.LVL36:
+ 864              		.loc 1 421 17 view .LVU185
+ 865 0016 C3F80014 		str	r1, [r3, #1024]
+ 866 001a 7047     		bx	lr
+ 867              	.LVL37:
+ 868              	.L89:
  422:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }else{
  423:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         /* configure DAC1 triangle noise mode */
  424:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL &= ~DAC_CTL_DWBW1;
- 851              		.loc 1 424 9 is_stmt 1 view .LVU176
- 852              		.loc 1 424 17 is_stmt 0 view .LVU177
- 853 0014 044B     		ldr	r3, .L92
- 854 0016 1A68     		ldr	r2, [r3]
- 855 0018 22F07062 		bic	r2, r2, #251658240
- 856 001c 1A60     		str	r2, [r3]
+ 869              		.loc 1 424 9 is_stmt 1 view .LVU186
+ 870              		.loc 1 424 17 is_stmt 0 view .LVU187
+ 871 001c 064B     		ldr	r3, .L91
+ 872 001e D3F80024 		ldr	r2, [r3, #1024]
+ 873 0022 22F07062 		bic	r2, r2, #251658240
+ 874 0026 C3F80024 		str	r2, [r3, #1024]
  425:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DAC_CTL |= (amplitude << DAC1_REG_OFFSET);
- 857              		.loc 1 425 9 is_stmt 1 view .LVU178
- 858              		.loc 1 425 17 is_stmt 0 view .LVU179
- 859 001e 1A68     		ldr	r2, [r3]
- 860 0020 42EA0142 		orr	r2, r2, r1, lsl #16
- 861 0024 1A60     		str	r2, [r3]
+ 875              		.loc 1 425 9 is_stmt 1 view .LVU188
+ 876              		.loc 1 425 17 is_stmt 0 view .LVU189
+ 877 002a D3F80024 		ldr	r2, [r3, #1024]
+ 878 002e 42EA0141 		orr	r1, r2, r1, lsl #16
+ 879              	.LVL38:
+ 880              		.loc 1 425 17 view .LVU190
+ 881 0032 C3F80014 		str	r1, [r3, #1024]
  426:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }
  427:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** }
- 862              		.loc 1 427 1 view .LVU180
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 23
-
-
- 863 0026 7047     		bx	lr
- 864              	.L93:
- 865              		.align	2
- 866              	.L92:
- 867 0028 00740040 		.word	1073771520
- 868              		.cfi_endproc
- 869              	.LFE133:
- 871              		.section	.text.dac_concurrent_enable,"ax",%progbits
- 872              		.align	1
- 873              		.global	dac_concurrent_enable
- 874              		.syntax unified
- 875              		.thumb
- 876              		.thumb_func
- 877              		.fpu fpv4-sp-d16
- 879              	dac_concurrent_enable:
- 880              	.LFB134:
+ 882              		.loc 1 427 1 view .LVU191
+ 883 0036 7047     		bx	lr
+ 884              	.L92:
+ 885              		.align	2
+ 886              	.L91:
+ 887 0038 00700040 		.word	1073770496
+ 888              		.cfi_endproc
+ 889              	.LFE133:
+ 891              		.section	.text.dac_concurrent_enable,"ax",%progbits
+ 892              		.align	1
+ 893              		.global	dac_concurrent_enable
+ 894              		.syntax unified
+ 895              		.thumb
+ 896              		.thumb_func
+ 897              		.fpu fpv4-sp-d16
+ 899              	dac_concurrent_enable:
+ 900              	.LFB134:
  428:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** 
  429:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** /*!
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 24
+
+
  430:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \brief      enable DAC concurrent mode
  431:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \param[in]  none
  432:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \param[out] none
@@ -1346,44 +1388,41 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  434:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** */
  435:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** void dac_concurrent_enable(void)
  436:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** {
- 881              		.loc 1 436 1 is_stmt 1 view -0
- 882              		.cfi_startproc
- 883              		@ args = 0, pretend = 0, frame = 0
- 884              		@ frame_needed = 0, uses_anonymous_args = 0
- 885              		@ link register save eliminated.
+ 901              		.loc 1 436 1 is_stmt 1 view -0
+ 902              		.cfi_startproc
+ 903              		@ args = 0, pretend = 0, frame = 0
+ 904              		@ frame_needed = 0, uses_anonymous_args = 0
+ 905              		@ link register save eliminated.
  437:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     uint32_t ctl = 0U;
- 886              		.loc 1 437 5 view .LVU182
- 887              	.LVL24:
+ 906              		.loc 1 437 5 view .LVU193
+ 907              	.LVL39:
  438:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     ctl = DAC_CTL_DEN0 | DAC_CTL_DEN1;
- 888              		.loc 1 438 5 view .LVU183
+ 908              		.loc 1 438 5 view .LVU194
  439:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     DAC_CTL |= (ctl);
- 889              		.loc 1 439 5 view .LVU184
- 890              		.loc 1 439 13 is_stmt 0 view .LVU185
- 891 0000 024A     		ldr	r2, .L95
- 892 0002 1368     		ldr	r3, [r2]
- 893 0004 43F00113 		orr	r3, r3, #65537
- 894 0008 1360     		str	r3, [r2]
+ 909              		.loc 1 439 5 view .LVU195
+ 910              		.loc 1 439 13 is_stmt 0 view .LVU196
+ 911 0000 034A     		ldr	r2, .L94
+ 912 0002 D2F80034 		ldr	r3, [r2, #1024]
+ 913 0006 43F00113 		orr	r3, r3, #65537
+ 914 000a C2F80034 		str	r3, [r2, #1024]
  440:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** }
- 895              		.loc 1 440 1 view .LVU186
- 896 000a 7047     		bx	lr
- 897              	.L96:
- 898              		.align	2
- 899              	.L95:
- 900 000c 00740040 		.word	1073771520
- 901              		.cfi_endproc
- 902              	.LFE134:
- 904              		.section	.text.dac_concurrent_disable,"ax",%progbits
- 905              		.align	1
- 906              		.global	dac_concurrent_disable
- 907              		.syntax unified
- 908              		.thumb
- 909              		.thumb_func
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 24
-
-
- 910              		.fpu fpv4-sp-d16
- 912              	dac_concurrent_disable:
- 913              	.LFB135:
+ 915              		.loc 1 440 1 view .LVU197
+ 916 000e 7047     		bx	lr
+ 917              	.L95:
+ 918              		.align	2
+ 919              	.L94:
+ 920 0010 00700040 		.word	1073770496
+ 921              		.cfi_endproc
+ 922              	.LFE134:
+ 924              		.section	.text.dac_concurrent_disable,"ax",%progbits
+ 925              		.align	1
+ 926              		.global	dac_concurrent_disable
+ 927              		.syntax unified
+ 928              		.thumb
+ 929              		.thumb_func
+ 930              		.fpu fpv4-sp-d16
+ 932              	dac_concurrent_disable:
+ 933              	.LFB135:
  441:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** 
  442:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** /*!
  443:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \brief      disable DAC concurrent mode
@@ -1393,41 +1432,44 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  447:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** */
  448:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** void dac_concurrent_disable(void)
  449:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** {
- 914              		.loc 1 449 1 is_stmt 1 view -0
- 915              		.cfi_startproc
- 916              		@ args = 0, pretend = 0, frame = 0
- 917              		@ frame_needed = 0, uses_anonymous_args = 0
- 918              		@ link register save eliminated.
+ 934              		.loc 1 449 1 is_stmt 1 view -0
+ 935              		.cfi_startproc
+ 936              		@ args = 0, pretend = 0, frame = 0
+ 937              		@ frame_needed = 0, uses_anonymous_args = 0
+ 938              		@ link register save eliminated.
  450:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     uint32_t ctl = 0U;
- 919              		.loc 1 450 5 view .LVU188
- 920              	.LVL25:
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 25
+
+
+ 939              		.loc 1 450 5 view .LVU199
+ 940              	.LVL40:
  451:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     ctl = DAC_CTL_DEN0 | DAC_CTL_DEN1;
- 921              		.loc 1 451 5 view .LVU189
+ 941              		.loc 1 451 5 view .LVU200
  452:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     DAC_CTL &= (~ctl);
- 922              		.loc 1 452 5 view .LVU190
- 923              		.loc 1 452 13 is_stmt 0 view .LVU191
- 924 0000 024A     		ldr	r2, .L98
- 925 0002 1368     		ldr	r3, [r2]
- 926 0004 23F00113 		bic	r3, r3, #65537
- 927 0008 1360     		str	r3, [r2]
+ 942              		.loc 1 452 5 view .LVU201
+ 943              		.loc 1 452 13 is_stmt 0 view .LVU202
+ 944 0000 034A     		ldr	r2, .L97
+ 945 0002 D2F80034 		ldr	r3, [r2, #1024]
+ 946 0006 23F00113 		bic	r3, r3, #65537
+ 947 000a C2F80034 		str	r3, [r2, #1024]
  453:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** }
- 928              		.loc 1 453 1 view .LVU192
- 929 000a 7047     		bx	lr
- 930              	.L99:
- 931              		.align	2
- 932              	.L98:
- 933 000c 00740040 		.word	1073771520
- 934              		.cfi_endproc
- 935              	.LFE135:
- 937              		.section	.text.dac_concurrent_software_trigger_enable,"ax",%progbits
- 938              		.align	1
- 939              		.global	dac_concurrent_software_trigger_enable
- 940              		.syntax unified
- 941              		.thumb
- 942              		.thumb_func
- 943              		.fpu fpv4-sp-d16
- 945              	dac_concurrent_software_trigger_enable:
- 946              	.LFB136:
+ 948              		.loc 1 453 1 view .LVU203
+ 949 000e 7047     		bx	lr
+ 950              	.L98:
+ 951              		.align	2
+ 952              	.L97:
+ 953 0010 00700040 		.word	1073770496
+ 954              		.cfi_endproc
+ 955              	.LFE135:
+ 957              		.section	.text.dac_concurrent_software_trigger_enable,"ax",%progbits
+ 958              		.align	1
+ 959              		.global	dac_concurrent_software_trigger_enable
+ 960              		.syntax unified
+ 961              		.thumb
+ 962              		.thumb_func
+ 963              		.fpu fpv4-sp-d16
+ 965              	dac_concurrent_software_trigger_enable:
+ 966              	.LFB136:
  454:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** 
  455:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** /*!
  456:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \brief      enable DAC concurrent software trigger function
@@ -1437,44 +1479,44 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  460:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** */
  461:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** void dac_concurrent_software_trigger_enable(void)
  462:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** {
- 947              		.loc 1 462 1 is_stmt 1 view -0
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 25
-
-
- 948              		.cfi_startproc
- 949              		@ args = 0, pretend = 0, frame = 0
- 950              		@ frame_needed = 0, uses_anonymous_args = 0
- 951              		@ link register save eliminated.
+ 967              		.loc 1 462 1 is_stmt 1 view -0
+ 968              		.cfi_startproc
+ 969              		@ args = 0, pretend = 0, frame = 0
+ 970              		@ frame_needed = 0, uses_anonymous_args = 0
+ 971              		@ link register save eliminated.
  463:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     uint32_t swt = 0U;
- 952              		.loc 1 463 5 view .LVU194
- 953              	.LVL26:
+ 972              		.loc 1 463 5 view .LVU205
+ 973              	.LVL41:
  464:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     swt = DAC_SWT_SWTR0 | DAC_SWT_SWTR1;
- 954              		.loc 1 464 5 view .LVU195
+ 974              		.loc 1 464 5 view .LVU206
  465:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     DAC_SWT |= (swt); 
- 955              		.loc 1 465 5 view .LVU196
- 956              		.loc 1 465 13 is_stmt 0 view .LVU197
- 957 0000 024A     		ldr	r2, .L101
- 958 0002 1368     		ldr	r3, [r2]
- 959 0004 43F00303 		orr	r3, r3, #3
- 960 0008 1360     		str	r3, [r2]
+ 975              		.loc 1 465 5 view .LVU207
+ 976              		.loc 1 465 13 is_stmt 0 view .LVU208
+ 977 0000 034A     		ldr	r2, .L100
+ 978 0002 D2F80434 		ldr	r3, [r2, #1028]
+ 979 0006 43F00303 		orr	r3, r3, #3
+ 980 000a C2F80434 		str	r3, [r2, #1028]
  466:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** }
- 961              		.loc 1 466 1 view .LVU198
- 962 000a 7047     		bx	lr
- 963              	.L102:
- 964              		.align	2
- 965              	.L101:
- 966 000c 04740040 		.word	1073771524
- 967              		.cfi_endproc
- 968              	.LFE136:
- 970              		.section	.text.dac_concurrent_software_trigger_disable,"ax",%progbits
- 971              		.align	1
- 972              		.global	dac_concurrent_software_trigger_disable
- 973              		.syntax unified
- 974              		.thumb
- 975              		.thumb_func
- 976              		.fpu fpv4-sp-d16
- 978              	dac_concurrent_software_trigger_disable:
- 979              	.LFB137:
+ 981              		.loc 1 466 1 view .LVU209
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 26
+
+
+ 982 000e 7047     		bx	lr
+ 983              	.L101:
+ 984              		.align	2
+ 985              	.L100:
+ 986 0010 00700040 		.word	1073770496
+ 987              		.cfi_endproc
+ 988              	.LFE136:
+ 990              		.section	.text.dac_concurrent_software_trigger_disable,"ax",%progbits
+ 991              		.align	1
+ 992              		.global	dac_concurrent_software_trigger_disable
+ 993              		.syntax unified
+ 994              		.thumb
+ 995              		.thumb_func
+ 996              		.fpu fpv4-sp-d16
+ 998              	dac_concurrent_software_trigger_disable:
+ 999              	.LFB137:
  467:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** 
  468:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** /*!
  469:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \brief      disable DAC concurrent software trigger function
@@ -1484,44 +1526,44 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  473:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** */
  474:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** void dac_concurrent_software_trigger_disable(void)
  475:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** {
- 980              		.loc 1 475 1 is_stmt 1 view -0
- 981              		.cfi_startproc
- 982              		@ args = 0, pretend = 0, frame = 0
- 983              		@ frame_needed = 0, uses_anonymous_args = 0
- 984              		@ link register save eliminated.
+ 1000              		.loc 1 475 1 is_stmt 1 view -0
+ 1001              		.cfi_startproc
+ 1002              		@ args = 0, pretend = 0, frame = 0
+ 1003              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1004              		@ link register save eliminated.
  476:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     uint32_t swt = 0U;
- 985              		.loc 1 476 5 view .LVU200
- 986              	.LVL27:
+ 1005              		.loc 1 476 5 view .LVU211
+ 1006              	.LVL42:
  477:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     swt = DAC_SWT_SWTR0 | DAC_SWT_SWTR1;
- 987              		.loc 1 477 5 view .LVU201
+ 1007              		.loc 1 477 5 view .LVU212
  478:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     DAC_SWT &= (~swt);
- 988              		.loc 1 478 5 view .LVU202
- 989              		.loc 1 478 13 is_stmt 0 view .LVU203
- 990 0000 024A     		ldr	r2, .L104
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 26
-
-
- 991 0002 1368     		ldr	r3, [r2]
- 992 0004 23F00303 		bic	r3, r3, #3
- 993 0008 1360     		str	r3, [r2]
+ 1008              		.loc 1 478 5 view .LVU213
+ 1009              		.loc 1 478 13 is_stmt 0 view .LVU214
+ 1010 0000 034A     		ldr	r2, .L103
+ 1011 0002 D2F80434 		ldr	r3, [r2, #1028]
+ 1012 0006 23F00303 		bic	r3, r3, #3
+ 1013 000a C2F80434 		str	r3, [r2, #1028]
  479:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** }
- 994              		.loc 1 479 1 view .LVU204
- 995 000a 7047     		bx	lr
- 996              	.L105:
- 997              		.align	2
- 998              	.L104:
- 999 000c 04740040 		.word	1073771524
- 1000              		.cfi_endproc
- 1001              	.LFE137:
- 1003              		.section	.text.dac_concurrent_output_buffer_enable,"ax",%progbits
- 1004              		.align	1
- 1005              		.global	dac_concurrent_output_buffer_enable
- 1006              		.syntax unified
- 1007              		.thumb
- 1008              		.thumb_func
- 1009              		.fpu fpv4-sp-d16
- 1011              	dac_concurrent_output_buffer_enable:
- 1012              	.LFB138:
+ 1014              		.loc 1 479 1 view .LVU215
+ 1015 000e 7047     		bx	lr
+ 1016              	.L104:
+ 1017              		.align	2
+ 1018              	.L103:
+ 1019 0010 00700040 		.word	1073770496
+ 1020              		.cfi_endproc
+ 1021              	.LFE137:
+ 1023              		.section	.text.dac_concurrent_output_buffer_enable,"ax",%progbits
+ 1024              		.align	1
+ 1025              		.global	dac_concurrent_output_buffer_enable
+ 1026              		.syntax unified
+ 1027              		.thumb
+ 1028              		.thumb_func
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 27
+
+
+ 1029              		.fpu fpv4-sp-d16
+ 1031              	dac_concurrent_output_buffer_enable:
+ 1032              	.LFB138:
  480:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** 
  481:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** /*!
  482:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \brief      enable DAC concurrent buffer function
@@ -1531,44 +1573,41 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  486:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** */
  487:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** void dac_concurrent_output_buffer_enable(void)
  488:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** {
- 1013              		.loc 1 488 1 is_stmt 1 view -0
- 1014              		.cfi_startproc
- 1015              		@ args = 0, pretend = 0, frame = 0
- 1016              		@ frame_needed = 0, uses_anonymous_args = 0
- 1017              		@ link register save eliminated.
+ 1033              		.loc 1 488 1 is_stmt 1 view -0
+ 1034              		.cfi_startproc
+ 1035              		@ args = 0, pretend = 0, frame = 0
+ 1036              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1037              		@ link register save eliminated.
  489:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     uint32_t ctl = 0U;
- 1018              		.loc 1 489 5 view .LVU206
- 1019              	.LVL28:
+ 1038              		.loc 1 489 5 view .LVU217
+ 1039              	.LVL43:
  490:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     ctl = DAC_CTL_DBOFF0 | DAC_CTL_DBOFF1;
- 1020              		.loc 1 490 5 view .LVU207
+ 1040              		.loc 1 490 5 view .LVU218
  491:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     DAC_CTL &= (~ctl);
- 1021              		.loc 1 491 5 view .LVU208
- 1022              		.loc 1 491 13 is_stmt 0 view .LVU209
- 1023 0000 024A     		ldr	r2, .L107
- 1024 0002 1368     		ldr	r3, [r2]
- 1025 0004 23F00213 		bic	r3, r3, #131074
- 1026 0008 1360     		str	r3, [r2]
+ 1041              		.loc 1 491 5 view .LVU219
+ 1042              		.loc 1 491 13 is_stmt 0 view .LVU220
+ 1043 0000 034A     		ldr	r2, .L106
+ 1044 0002 D2F80034 		ldr	r3, [r2, #1024]
+ 1045 0006 23F00213 		bic	r3, r3, #131074
+ 1046 000a C2F80034 		str	r3, [r2, #1024]
  492:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** }
- 1027              		.loc 1 492 1 view .LVU210
- 1028 000a 7047     		bx	lr
- 1029              	.L108:
- 1030              		.align	2
- 1031              	.L107:
- 1032 000c 00740040 		.word	1073771520
- 1033              		.cfi_endproc
- 1034              	.LFE138:
- 1036              		.section	.text.dac_concurrent_output_buffer_disable,"ax",%progbits
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 27
-
-
- 1037              		.align	1
- 1038              		.global	dac_concurrent_output_buffer_disable
- 1039              		.syntax unified
- 1040              		.thumb
- 1041              		.thumb_func
- 1042              		.fpu fpv4-sp-d16
- 1044              	dac_concurrent_output_buffer_disable:
- 1045              	.LFB139:
+ 1047              		.loc 1 492 1 view .LVU221
+ 1048 000e 7047     		bx	lr
+ 1049              	.L107:
+ 1050              		.align	2
+ 1051              	.L106:
+ 1052 0010 00700040 		.word	1073770496
+ 1053              		.cfi_endproc
+ 1054              	.LFE138:
+ 1056              		.section	.text.dac_concurrent_output_buffer_disable,"ax",%progbits
+ 1057              		.align	1
+ 1058              		.global	dac_concurrent_output_buffer_disable
+ 1059              		.syntax unified
+ 1060              		.thumb
+ 1061              		.thumb_func
+ 1062              		.fpu fpv4-sp-d16
+ 1064              	dac_concurrent_output_buffer_disable:
+ 1065              	.LFB139:
  493:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** 
  494:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** /*!
  495:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \brief      disable DAC concurrent buffer function
@@ -1578,49 +1617,49 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  499:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** */
  500:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** void dac_concurrent_output_buffer_disable(void)
  501:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** {
- 1046              		.loc 1 501 1 is_stmt 1 view -0
- 1047              		.cfi_startproc
- 1048              		@ args = 0, pretend = 0, frame = 0
- 1049              		@ frame_needed = 0, uses_anonymous_args = 0
- 1050              		@ link register save eliminated.
+ 1066              		.loc 1 501 1 is_stmt 1 view -0
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 28
+
+
+ 1067              		.cfi_startproc
+ 1068              		@ args = 0, pretend = 0, frame = 0
+ 1069              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1070              		@ link register save eliminated.
  502:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     uint32_t ctl = 0U;
- 1051              		.loc 1 502 5 view .LVU212
- 1052              	.LVL29:
+ 1071              		.loc 1 502 5 view .LVU223
+ 1072              	.LVL44:
  503:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     ctl = DAC_CTL_DBOFF0 | DAC_CTL_DBOFF1;
- 1053              		.loc 1 503 5 view .LVU213
+ 1073              		.loc 1 503 5 view .LVU224
  504:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     DAC_CTL |= (ctl);
- 1054              		.loc 1 504 5 view .LVU214
- 1055              		.loc 1 504 13 is_stmt 0 view .LVU215
- 1056 0000 024A     		ldr	r2, .L110
- 1057 0002 1368     		ldr	r3, [r2]
- 1058 0004 43F00213 		orr	r3, r3, #131074
- 1059 0008 1360     		str	r3, [r2]
+ 1074              		.loc 1 504 5 view .LVU225
+ 1075              		.loc 1 504 13 is_stmt 0 view .LVU226
+ 1076 0000 034A     		ldr	r2, .L109
+ 1077 0002 D2F80034 		ldr	r3, [r2, #1024]
+ 1078 0006 43F00213 		orr	r3, r3, #131074
+ 1079 000a C2F80034 		str	r3, [r2, #1024]
  505:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** }
- 1060              		.loc 1 505 1 view .LVU216
- 1061 000a 7047     		bx	lr
- 1062              	.L111:
- 1063              		.align	2
- 1064              	.L110:
- 1065 000c 00740040 		.word	1073771520
- 1066              		.cfi_endproc
- 1067              	.LFE139:
- 1069              		.section	.text.dac_concurrent_data_set,"ax",%progbits
- 1070              		.align	1
- 1071              		.global	dac_concurrent_data_set
- 1072              		.syntax unified
- 1073              		.thumb
- 1074              		.thumb_func
- 1075              		.fpu fpv4-sp-d16
- 1077              	dac_concurrent_data_set:
- 1078              	.LVL30:
- 1079              	.LFB140:
+ 1080              		.loc 1 505 1 view .LVU227
+ 1081 000e 7047     		bx	lr
+ 1082              	.L110:
+ 1083              		.align	2
+ 1084              	.L109:
+ 1085 0010 00700040 		.word	1073770496
+ 1086              		.cfi_endproc
+ 1087              	.LFE139:
+ 1089              		.section	.text.dac_concurrent_data_set,"ax",%progbits
+ 1090              		.align	1
+ 1091              		.global	dac_concurrent_data_set
+ 1092              		.syntax unified
+ 1093              		.thumb
+ 1094              		.thumb_func
+ 1095              		.fpu fpv4-sp-d16
+ 1097              	dac_concurrent_data_set:
+ 1098              	.LVL45:
+ 1099              	.LFB140:
  506:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** 
  507:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** /*!
  508:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \brief      set DAC concurrent mode data holding register value
  509:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     \param[in]  dac_align: data alignment
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 28
-
-
  510:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****                 only one parameter can be selected which is shown as below:
  511:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****       \arg        DAC_ALIGN_8B_R: data right 8b alignment
  512:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****       \arg        DAC_ALIGN_12B_R: data right 12b alignment
@@ -1632,176 +1671,194 @@ ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 1
  518:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** */
  519:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** void dac_concurrent_data_set(uint32_t dac_align, uint16_t data0, uint16_t data1)
  520:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** {
- 1080              		.loc 1 520 1 is_stmt 1 view -0
- 1081              		.cfi_startproc
- 1082              		@ args = 0, pretend = 0, frame = 0
- 1083              		@ frame_needed = 0, uses_anonymous_args = 0
- 1084              		@ link register save eliminated.
+ 1100              		.loc 1 520 1 is_stmt 1 view -0
+ 1101              		.cfi_startproc
+ 1102              		@ args = 0, pretend = 0, frame = 0
+ 1103              		@ frame_needed = 0, uses_anonymous_args = 0
+ 1104              		@ link register save eliminated.
  521:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     uint32_t data = 0U;
- 1085              		.loc 1 521 5 view .LVU218
+ 1105              		.loc 1 521 5 view .LVU229
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 29
+
+
  522:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     switch(dac_align){
- 1086              		.loc 1 522 5 view .LVU219
- 1087 0000 0128     		cmp	r0, #1
- 1088 0002 08D0     		beq	.L113
- 1089 0004 10B1     		cbz	r0, .L114
- 1090 0006 0228     		cmp	r0, #2
- 1091 0008 0AD0     		beq	.L115
- 1092 000a 7047     		bx	lr
- 1093              	.L114:
+ 1106              		.loc 1 522 5 view .LVU230
+ 1107 0000 0128     		cmp	r0, #1
+ 1108 0002 09D0     		beq	.L112
+ 1109 0004 0228     		cmp	r0, #2
+ 1110 0006 0DD0     		beq	.L113
+ 1111 0008 00B1     		cbz	r0, .L115
+ 1112              	.LVL46:
+ 1113              	.L111:
  523:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     /* data right 12b alignment */
  524:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     case DAC_ALIGN_12B_R:
  525:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         data = ((uint32_t)data1 << DH_12BIT_OFFSET) | data0;
- 1094              		.loc 1 525 9 view .LVU220
- 1095              		.loc 1 525 14 is_stmt 0 view .LVU221
- 1096 000c 41EA0241 		orr	r1, r1, r2, lsl #16
- 1097              	.LVL31:
  526:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DACC_R12DH = data;
- 1098              		.loc 1 526 9 is_stmt 1 view .LVU222
- 1099              		.loc 1 526 20 is_stmt 0 view .LVU223
- 1100 0010 064B     		ldr	r3, .L117
- 1101 0012 1960     		str	r1, [r3]
  527:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         break;
- 1102              		.loc 1 527 9 is_stmt 1 view .LVU224
- 1103 0014 7047     		bx	lr
- 1104              	.LVL32:
- 1105              	.L113:
  528:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     /* data left 12b alignment */
  529:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     case DAC_ALIGN_12B_L:
  530:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         data = ((uint32_t)data1 << DH_12BIT_OFFSET) | data0;
- 1106              		.loc 1 530 9 view .LVU225
- 1107              		.loc 1 530 14 is_stmt 0 view .LVU226
- 1108 0016 41EA0241 		orr	r1, r1, r2, lsl #16
- 1109              	.LVL33:
  531:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DACC_L12DH = data;
- 1110              		.loc 1 531 9 is_stmt 1 view .LVU227
- 1111              		.loc 1 531 20 is_stmt 0 view .LVU228
- 1112 001a 054B     		ldr	r3, .L117+4
- 1113 001c 1960     		str	r1, [r3]
  532:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         break;
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 29
-
-
- 1114              		.loc 1 532 9 is_stmt 1 view .LVU229
- 1115 001e 7047     		bx	lr
- 1116              	.LVL34:
- 1117              	.L115:
  533:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     /* data right 8b alignment */
  534:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     case DAC_ALIGN_8B_R:
  535:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         data = ((uint32_t)data1 << DH_8BIT_OFFSET) | data0;
- 1118              		.loc 1 535 9 view .LVU230
- 1119              		.loc 1 535 14 is_stmt 0 view .LVU231
- 1120 0020 41EA0221 		orr	r1, r1, r2, lsl #8
- 1121              	.LVL35:
  536:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DACC_R8DH = data;
- 1122              		.loc 1 536 9 is_stmt 1 view .LVU232
- 1123              		.loc 1 536 19 is_stmt 0 view .LVU233
- 1124 0024 034B     		ldr	r3, .L117+8
- 1125 0026 1960     		str	r1, [r3]
  537:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         break;
- 1126              		.loc 1 537 9 is_stmt 1 view .LVU234
  538:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     default:
  539:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         break;
  540:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     }
  541:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c **** }
- 1127              		.loc 1 541 1 is_stmt 0 view .LVU235
- 1128 0028 7047     		bx	lr
- 1129              	.L118:
- 1130 002a 00BF     		.align	2
- 1131              	.L117:
- 1132 002c 20740040 		.word	1073771552
- 1133 0030 24740040 		.word	1073771556
- 1134 0034 28740040 		.word	1073771560
- 1135              		.cfi_endproc
- 1136              	.LFE140:
- 1138              		.text
- 1139              	.Letext0:
- 1140              		.file 2 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\machine\\_default_types.h"
- 1141              		.file 3 "d:\\embedded_gcc\\arm_gcc\\arm-none-eabi\\include\\sys\\_stdint.h"
- 1142              		.file 4 "Drivers/CMSIS/core_cm4.h"
- 1143              		.file 5 "Drivers/CMSIS/GD/GD32F30x/Include/system_gd32f30x.h"
- 1144              		.file 6 "Drivers/GD32F30x_standard_peripheral/Include/gd32f30x_rcu.h"
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 30
+ 1114              		.loc 1 541 1 is_stmt 0 view .LVU231
+ 1115 000a 7047     		bx	lr
+ 1116              	.LVL47:
+ 1117              	.L115:
+ 525:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DACC_R12DH = data;
+ 1118              		.loc 1 525 9 is_stmt 1 view .LVU232
+ 525:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DACC_R12DH = data;
+ 1119              		.loc 1 525 14 is_stmt 0 view .LVU233
+ 1120 000c 41EA0241 		orr	r1, r1, r2, lsl #16
+ 1121              	.LVL48:
+ 526:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         break;
+ 1122              		.loc 1 526 9 is_stmt 1 view .LVU234
+ 526:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         break;
+ 1123              		.loc 1 526 20 is_stmt 0 view .LVU235
+ 1124 0010 074B     		ldr	r3, .L116
+ 1125 0012 C3F82014 		str	r1, [r3, #1056]
+ 527:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     /* data left 12b alignment */
+ 1126              		.loc 1 527 9 is_stmt 1 view .LVU236
+ 1127 0016 7047     		bx	lr
+ 1128              	.LVL49:
+ 1129              	.L112:
+ 530:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DACC_L12DH = data;
+ 1130              		.loc 1 530 9 view .LVU237
+ 530:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DACC_L12DH = data;
+ 1131              		.loc 1 530 14 is_stmt 0 view .LVU238
+ 1132 0018 41EA0241 		orr	r1, r1, r2, lsl #16
+ 1133              	.LVL50:
+ 531:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         break;
+ 1134              		.loc 1 531 9 is_stmt 1 view .LVU239
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 30
+
+
+ 531:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         break;
+ 1135              		.loc 1 531 20 is_stmt 0 view .LVU240
+ 1136 001c 044B     		ldr	r3, .L116
+ 1137 001e C3F82414 		str	r1, [r3, #1060]
+ 532:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     /* data right 8b alignment */
+ 1138              		.loc 1 532 9 is_stmt 1 view .LVU241
+ 1139 0022 7047     		bx	lr
+ 1140              	.LVL51:
+ 1141              	.L113:
+ 535:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DACC_R8DH = data;
+ 1142              		.loc 1 535 9 view .LVU242
+ 535:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         DACC_R8DH = data;
+ 1143              		.loc 1 535 14 is_stmt 0 view .LVU243
+ 1144 0024 41EA0221 		orr	r1, r1, r2, lsl #8
+ 1145              	.LVL52:
+ 536:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         break;
+ 1146              		.loc 1 536 9 is_stmt 1 view .LVU244
+ 536:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****         break;
+ 1147              		.loc 1 536 19 is_stmt 0 view .LVU245
+ 1148 0028 014B     		ldr	r3, .L116
+ 1149 002a C3F82814 		str	r1, [r3, #1064]
+ 537:Drivers/GD32F30x_standard_peripheral/Source/gd32f30x_dac.c ****     default:
+ 1150              		.loc 1 537 9 is_stmt 1 view .LVU246
+ 1151              		.loc 1 541 1 is_stmt 0 view .LVU247
+ 1152 002e ECE7     		b	.L111
+ 1153              	.L117:
+ 1154              		.align	2
+ 1155              	.L116:
+ 1156 0030 00700040 		.word	1073770496
+ 1157              		.cfi_endproc
+ 1158              	.LFE140:
+ 1160              		.text
+ 1161              	.Letext0:
+ 1162              		.file 2 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 1163              		.file 3 "c:\\programdata\\chocolatey\\lib\\gcc-arm-embedded\\tools\\gcc-arm-none-eabi-10-2020-q4-m
+ 1164              		.file 4 "Drivers/GD32F30x_standard_peripheral/Include/gd32f30x_rcu.h"
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 31
 
 
 DEFINED SYMBOLS
-                            *ABS*:0000000000000000 gd32f30x_dac.c
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:18     .text.dac_deinit:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:26     .text.dac_deinit:0000000000000000 dac_deinit
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:52     .text.dac_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:59     .text.dac_enable:0000000000000000 dac_enable
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:89     .text.dac_enable:000000000000001c $d
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:94     .text.dac_disable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:101    .text.dac_disable:0000000000000000 dac_disable
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:131    .text.dac_disable:000000000000001c $d
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:136    .text.dac_dma_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:143    .text.dac_dma_enable:0000000000000000 dac_dma_enable
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:173    .text.dac_dma_enable:000000000000001c $d
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:178    .text.dac_dma_disable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:185    .text.dac_dma_disable:0000000000000000 dac_dma_disable
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:215    .text.dac_dma_disable:000000000000001c $d
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:220    .text.dac_output_buffer_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:227    .text.dac_output_buffer_enable:0000000000000000 dac_output_buffer_enable
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:257    .text.dac_output_buffer_enable:000000000000001c $d
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:262    .text.dac_output_buffer_disable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:269    .text.dac_output_buffer_disable:0000000000000000 dac_output_buffer_disable
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:299    .text.dac_output_buffer_disable:000000000000001c $d
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:304    .text.dac_output_value_get:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:311    .text.dac_output_value_get:0000000000000000 dac_output_value_get
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:349    .text.dac_output_value_get:0000000000000014 $d
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:355    .text.dac_data_set:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:362    .text.dac_data_set:0000000000000000 dac_data_set
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:434    .text.dac_data_set:0000000000000040 $d
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:444    .text.dac_trigger_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:451    .text.dac_trigger_enable:0000000000000000 dac_trigger_enable
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:481    .text.dac_trigger_enable:000000000000001c $d
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:486    .text.dac_trigger_disable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:493    .text.dac_trigger_disable:0000000000000000 dac_trigger_disable
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:523    .text.dac_trigger_disable:000000000000001c $d
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:528    .text.dac_trigger_source_config:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:535    .text.dac_trigger_source_config:0000000000000000 dac_trigger_source_config
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:575    .text.dac_trigger_source_config:0000000000000028 $d
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:580    .text.dac_software_trigger_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:587    .text.dac_software_trigger_enable:0000000000000000 dac_software_trigger_enable
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:617    .text.dac_software_trigger_enable:000000000000001c $d
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:622    .text.dac_software_trigger_disable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:629    .text.dac_software_trigger_disable:0000000000000000 dac_software_trigger_disable
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:659    .text.dac_software_trigger_disable:000000000000001c $d
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:664    .text.dac_wave_mode_config:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:671    .text.dac_wave_mode_config:0000000000000000 dac_wave_mode_config
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:711    .text.dac_wave_mode_config:0000000000000028 $d
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:716    .text.dac_wave_bit_width_config:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:723    .text.dac_wave_bit_width_config:0000000000000000 dac_wave_bit_width_config
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:763    .text.dac_wave_bit_width_config:0000000000000028 $d
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:768    .text.dac_lfsr_noise_config:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:775    .text.dac_lfsr_noise_config:0000000000000000 dac_lfsr_noise_config
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:815    .text.dac_lfsr_noise_config:0000000000000028 $d
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:820    .text.dac_triangle_noise_config:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:827    .text.dac_triangle_noise_config:0000000000000000 dac_triangle_noise_config
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:867    .text.dac_triangle_noise_config:0000000000000028 $d
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:872    .text.dac_concurrent_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:879    .text.dac_concurrent_enable:0000000000000000 dac_concurrent_enable
-ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s 			page 31
+                            *ABS*:00000000 gd32f30x_dac.c
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:18     .text.dac_deinit:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:26     .text.dac_deinit:00000000 dac_deinit
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:52     .text.dac_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:59     .text.dac_enable:00000000 dac_enable
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:89     .text.dac_enable:00000024 $d
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:94     .text.dac_disable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:101    .text.dac_disable:00000000 dac_disable
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:131    .text.dac_disable:00000024 $d
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:136    .text.dac_dma_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:143    .text.dac_dma_enable:00000000 dac_dma_enable
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:173    .text.dac_dma_enable:00000024 $d
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:178    .text.dac_dma_disable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:185    .text.dac_dma_disable:00000000 dac_dma_disable
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:215    .text.dac_dma_disable:00000024 $d
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:220    .text.dac_output_buffer_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:227    .text.dac_output_buffer_enable:00000000 dac_output_buffer_enable
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:257    .text.dac_output_buffer_enable:00000024 $d
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:262    .text.dac_output_buffer_disable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:269    .text.dac_output_buffer_disable:00000000 dac_output_buffer_disable
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:299    .text.dac_output_buffer_disable:00000024 $d
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:304    .text.dac_output_value_get:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:311    .text.dac_output_value_get:00000000 dac_output_value_get
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:349    .text.dac_output_value_get:00000018 $d
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:354    .text.dac_data_set:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:361    .text.dac_data_set:00000000 dac_data_set
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:434    .text.dac_data_set:0000004c $d
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:439    .text.dac_trigger_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:446    .text.dac_trigger_enable:00000000 dac_trigger_enable
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:476    .text.dac_trigger_enable:00000024 $d
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:481    .text.dac_trigger_disable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:488    .text.dac_trigger_disable:00000000 dac_trigger_disable
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:518    .text.dac_trigger_disable:00000024 $d
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:523    .text.dac_trigger_source_config:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:530    .text.dac_trigger_source_config:00000000 dac_trigger_source_config
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:575    .text.dac_trigger_source_config:00000038 $d
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:580    .text.dac_software_trigger_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:587    .text.dac_software_trigger_enable:00000000 dac_software_trigger_enable
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:617    .text.dac_software_trigger_enable:00000024 $d
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:622    .text.dac_software_trigger_disable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:629    .text.dac_software_trigger_disable:00000000 dac_software_trigger_disable
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:659    .text.dac_software_trigger_disable:00000024 $d
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:664    .text.dac_wave_mode_config:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:671    .text.dac_wave_mode_config:00000000 dac_wave_mode_config
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:716    .text.dac_wave_mode_config:00000038 $d
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:721    .text.dac_wave_bit_width_config:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:728    .text.dac_wave_bit_width_config:00000000 dac_wave_bit_width_config
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:773    .text.dac_wave_bit_width_config:00000038 $d
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:778    .text.dac_lfsr_noise_config:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:785    .text.dac_lfsr_noise_config:00000000 dac_lfsr_noise_config
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:830    .text.dac_lfsr_noise_config:00000038 $d
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:835    .text.dac_triangle_noise_config:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:842    .text.dac_triangle_noise_config:00000000 dac_triangle_noise_config
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:887    .text.dac_triangle_noise_config:00000038 $d
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:892    .text.dac_concurrent_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:899    .text.dac_concurrent_enable:00000000 dac_concurrent_enable
+ARM GAS  C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s 			page 32
 
 
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:900    .text.dac_concurrent_enable:000000000000000c $d
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:905    .text.dac_concurrent_disable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:912    .text.dac_concurrent_disable:0000000000000000 dac_concurrent_disable
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:933    .text.dac_concurrent_disable:000000000000000c $d
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:938    .text.dac_concurrent_software_trigger_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:945    .text.dac_concurrent_software_trigger_enable:0000000000000000 dac_concurrent_software_trigger_enable
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:966    .text.dac_concurrent_software_trigger_enable:000000000000000c $d
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:971    .text.dac_concurrent_software_trigger_disable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:978    .text.dac_concurrent_software_trigger_disable:0000000000000000 dac_concurrent_software_trigger_disable
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:999    .text.dac_concurrent_software_trigger_disable:000000000000000c $d
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:1004   .text.dac_concurrent_output_buffer_enable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:1011   .text.dac_concurrent_output_buffer_enable:0000000000000000 dac_concurrent_output_buffer_enable
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:1032   .text.dac_concurrent_output_buffer_enable:000000000000000c $d
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:1037   .text.dac_concurrent_output_buffer_disable:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:1044   .text.dac_concurrent_output_buffer_disable:0000000000000000 dac_concurrent_output_buffer_disable
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:1065   .text.dac_concurrent_output_buffer_disable:000000000000000c $d
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:1070   .text.dac_concurrent_data_set:0000000000000000 $t
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:1077   .text.dac_concurrent_data_set:0000000000000000 dac_concurrent_data_set
-C:\Users\Prog\AppData\Local\Temp\ccx4kQ0B.s:1132   .text.dac_concurrent_data_set:000000000000002c $d
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:920    .text.dac_concurrent_enable:00000010 $d
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:925    .text.dac_concurrent_disable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:932    .text.dac_concurrent_disable:00000000 dac_concurrent_disable
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:953    .text.dac_concurrent_disable:00000010 $d
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:958    .text.dac_concurrent_software_trigger_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:965    .text.dac_concurrent_software_trigger_enable:00000000 dac_concurrent_software_trigger_enable
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:986    .text.dac_concurrent_software_trigger_enable:00000010 $d
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:991    .text.dac_concurrent_software_trigger_disable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:998    .text.dac_concurrent_software_trigger_disable:00000000 dac_concurrent_software_trigger_disable
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:1019   .text.dac_concurrent_software_trigger_disable:00000010 $d
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:1024   .text.dac_concurrent_output_buffer_enable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:1031   .text.dac_concurrent_output_buffer_enable:00000000 dac_concurrent_output_buffer_enable
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:1052   .text.dac_concurrent_output_buffer_enable:00000010 $d
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:1057   .text.dac_concurrent_output_buffer_disable:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:1064   .text.dac_concurrent_output_buffer_disable:00000000 dac_concurrent_output_buffer_disable
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:1085   .text.dac_concurrent_output_buffer_disable:00000010 $d
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:1090   .text.dac_concurrent_data_set:00000000 $t
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:1097   .text.dac_concurrent_data_set:00000000 dac_concurrent_data_set
+C:\Users\Prog\AppData\Local\Temp\ccmlzHib.s:1156   .text.dac_concurrent_data_set:00000030 $d
 
 UNDEFINED SYMBOLS
 rcu_periph_reset_enable
